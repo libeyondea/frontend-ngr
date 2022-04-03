@@ -1,20 +1,27 @@
 {
-  "name": "ngr-ntt",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.2"
-  }
+	"name": "frontend-ngr",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"next": "12.1.2",
+		"react": "17.0.2",
+		"react-countdown": "^2.2.1",
+		"react-countup": "^4.3.3",
+		"react-dom": "17.0.2",
+		"react-id-swiper": "^3.0.0",
+		"react-modal-video": "^1.2.8",
+		"react-visibility-sensor": "^5.1.1",
+		"swiper": "^5.3.6"
+	},
+	"devDependencies": {
+		"eslint": "8.12.0",
+		"eslint-config-next": "12.1.2",
+		"sass": "^1.49.9"
+	}
 }
