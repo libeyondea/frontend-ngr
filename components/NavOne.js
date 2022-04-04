@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import Image from './Image';
 
 class NavOne extends Component {
 	constructor() {
@@ -75,10 +76,11 @@ class NavOne extends Component {
 						<div className="logo-box clearfix">
 							<Link href="/">
 								<a className="navbar-brand">
-									<img
-										src="/assets/images/logo-dark.png"
+									<Image
+										src="/assets/images/logo_ngr.png"
 										className="main-logo"
-										width="128"
+										width="180"
+										height="70"
 										alt="Awesome Image"
 									/>
 								</a>
