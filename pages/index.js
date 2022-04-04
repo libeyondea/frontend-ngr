@@ -16,6 +16,8 @@ import Video from '../components/Video';
 import Flag from '../components/Flag';
 import Customer from '../components/Customer';
 import Partner from '../components/Partner';
+import Event from '../components/Event';
+import FormSignup from '../components/FormSignup';
 
 const HomePageTwo = () => {
 	return (
@@ -25,6 +27,8 @@ const HomePageTwo = () => {
 			<Flag />
 			<Video />
 			<Customer />
+			<Event />
+			<FormSignup />
 			{/* <CourseTwo />
 			<TeamOne />
 			<Pricing />

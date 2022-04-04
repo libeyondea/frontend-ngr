@@ -50,7 +50,7 @@ const Customer = () => {
 							<div className="col-12 col-md-3">
 								<div className="card">
 									<Image
-										src="/assets/images/kh6.jpg"
+										src="/assets/images/kh3.jpg"
 										className="card-img-top"
 										alt="..."
 										isBlur
@@ -67,7 +67,7 @@ const Customer = () => {
 							<div className="col-12 col-md-3">
 								<div className="card">
 									<Image
-										src="/assets/images/kh6.jpg"
+										src="/assets/images/kh4.jpg"
 										className="card-img-top"
 										alt="..."
 										isBlur
@@ -85,7 +85,7 @@ const Customer = () => {
 							<div className="col-12 col-md-3">
 								<div className="card">
 									<Image
-										src="/assets/images/kh6.jpg"
+										src="/assets/images/kh5.jpg"
 										className="card-img-top"
 										alt="..."
 										isBlur

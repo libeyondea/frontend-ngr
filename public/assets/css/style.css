@@ -6498,8 +6498,8 @@ html {
 }
 
 .footer-widget {
-	padding-top: 80px !important;
-	padding-bottom: 80px !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
 }
 
 .footer-widget__course-list li h2 {
@@ -6529,6 +6529,62 @@ html {
 
 .header__search-btn:hover {
 	color: #000 !important;
+}
+
+.course-one__teacher-details {
+	padding-bottom: 0 !important;
+}
+
+.brand-two {
+	padding-bottom: 80px !important;
+	padding-top: 80px !important;
+}
+
+.countdown-one {
+	padding-top: 120px;
+}
+
+@media (max-width: 1199px) {
+	.header-navigation .container .menu-toggler {
+		color: #000 !important;
+	}
+}
+
+.site-footer__upper {
+	padding: 50px;
+}
+
+.course-category-one {
+	padding: 0 !important;
+	padding-top: 90px !important;
+}
+
+.countdown-one__title {
+	margin: 0;
+	color: #012237 !important;
+	font-size: 2rem !important;
+}
+
+.become-teacher__form-top {
+	background-color: #bf2604 !important;
+}
+
+.thm-btn {
+	background-color: #bf2604;
+}
+
+.become-teacher__form-top::before {
+	content: '';
+	background-position: 0 0;
+	position: absolute;
+	top: 100%;
+	left: 60px;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #bf2604 !important;
+	background-image: none !important;
 }
 
 /* .header-navigation ul.navigation-box > li.current > a,

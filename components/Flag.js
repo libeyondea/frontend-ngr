@@ -29,7 +29,7 @@ const Flag = () => {
 	};
 
 	return (
-		<section className="brand-two p-0 border-top-0 py-4">
+		<section className="brand-two p-0 border-top-0">
 			<div className="container">
 				<div className="brand-one__carousel">
 					<div className="d-flex flex-column flex-md-row justify-content-center align-items-center">
