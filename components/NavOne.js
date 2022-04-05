@@ -107,7 +107,7 @@ class NavOne extends Component {
 							<ul className=" navigation-box">
 								<li className="current">
 									<Link href="/">
-										<a>Home</a>
+										<a>Du Học</a>
 									</Link>
 									<ul className="sub-menu">
 										<li>
@@ -126,7 +126,7 @@ class NavOne extends Component {
 											</Link>
 										</li>
 										<li>
-											<a href="#">Header Versions</a>
+											<a href="#">Định Cư</a>
 											<ul className="sub-menu">
 												<li>
 													<Link href="/">
@@ -148,7 +148,7 @@ class NavOne extends Component {
 									</ul>
 								</li>
 								<li>
-									<a href="#">Pages</a>
+									<a href="#">Học Bổng Du Học</a>
 									<ul className="sub-menu">
 										<li>
 											<Link href="/about">
@@ -173,7 +173,7 @@ class NavOne extends Component {
 									</ul>
 								</li>
 								<li>
-									<a href="/courses">Courses</a>
+									<a href="/courses">Dịch Vụ Khác</a>
 									<ul className="sub-menu">
 										<li>
 											<Link href="/courses">
@@ -189,7 +189,7 @@ class NavOne extends Component {
 								</li>
 								<li>
 									<Link href="/teachers">
-										<a>Teachers</a>
+										<a>Chương Trình Đào Tạo</a>
 									</Link>
 									<ul className="sub-menu">
 										<li>
@@ -211,7 +211,24 @@ class NavOne extends Component {
 								</li>
 								<li>
 									<Link href="/news">
-										<a>News</a>
+										<a>Thư Viện</a>
+									</Link>
+									<ul className="sub-menu">
+										<li>
+											<Link href="/news">
+												<a>News Page</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/news-details">
+												<a>News Details</a>
+											</Link>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<Link href="/news">
+										<a>Tin Tức</a>
 									</Link>
 									<ul className="sub-menu">
 										<li>
@@ -228,7 +245,7 @@ class NavOne extends Component {
 								</li>
 								<li>
 									<Link href="/contact">
-										<a>Contact</a>
+										<a>Liên Hệ</a>
 									</Link>
 								</li>
 							</ul>

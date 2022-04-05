@@ -5,6 +5,16 @@ import Image from '../components/Image';
 const SliderTwo = () => {
 	const [swiper, setSwiper] = useState(null);
 
+	const params = {
+		centeredSlides: true,
+		loop: true,
+		speed: 1000,
+		autoplay: {
+			delay: 3000,
+			disableOnInteraction: false
+		},
+	};
+
 	const goNext = () => {
 		if (swiper !== null) {
 			swiper.slideNext();
@@ -20,7 +30,7 @@ const SliderTwo = () => {
 	return (
 		<div className="banner-wrapper">
 			<section className="banner-two banner-carousel__one no-dots">
-				<Swiper getSwiper={setSwiper}>
+				<Swiper getSwiper={setSwiper} {...params}>
 					{/* <div
 						className="banner-two__slide banner-two__slide-one"
 						style={{ backgroundImage: `url(assets/images/slider-2-1.jpg)` }}
