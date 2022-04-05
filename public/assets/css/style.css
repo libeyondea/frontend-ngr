@@ -34,7 +34,7 @@
 * 1. common styles
 */
 body {
-	font-family: 'system ui';
+	font-family: 'Bahnschrift';
 	color: #81868a;
 	font-size: 16px;
 	line-height: 34px;
@@ -70,7 +70,7 @@ a:visited {
 
 @media (min-width: 1200px) {
 	.container {
-		max-width: 1200px;
+		max-width: 1500px;
 	}
 }
 .block-title {
@@ -79,7 +79,7 @@ a:visited {
 }
 .block-title__title {
 	margin: 0;
-	color: #012237;
+	color: #FF944D;
 	font-size: 60px;
 	font-weight: bold;
 	margin-bottom: -15px;
@@ -3847,6 +3847,7 @@ a:visited {
 .course-category-one {
 	padding: 120px 0;
 	padding-top: 110px;
+	background: #23046B;
 }
 .course-category-one .container-fluid {
 	max-width: 1520px;
@@ -4342,15 +4343,14 @@ a:visited {
 }
 .site-footer__copy {
 	color: #94a3ac;
-	font-size: 15px;
-	font-weight: 500;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .site-footer__copy a {
 	color: #f16101;
@@ -4389,6 +4389,8 @@ a:visited {
 	transition: all 0.4s ease;
 	position: relative;
 	z-index: 10;
+	padding-top: 0px;
+
 }
 .site-footer__social a:hover {
 	color: #f16101;
@@ -4410,11 +4412,11 @@ a:visited {
 	width: 60px;
 	height: 60px;
 	cursor: pointer;
-	background-color: #fff;
+	background-color: #33a9bb;
 	border-radius: 50%;
 	position: absolute !important;
 	top: 0;
-	left: 0;
+	left: 650px;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
@@ -4472,8 +4474,8 @@ a:visited {
 }
 .footer-widget__title {
 	margin: 0;
-	color: #ffffff;
-	font-size: 18px;
+	    color: #F8FF0E;
+    font-size: 30px;
 	font-weight: bold;
 	line-height: 1em;
 	margin-bottom: 48px;
@@ -4563,15 +4565,15 @@ a:visited {
 	margin-bottom: 10px;
 }
 .footer-widget__course-list li h2 a {
-	color: inherit;
+	color: white;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
 .footer-widget__course-list li p {
 	margin: 0;
-	font-size: 15px;
-	color: #fff;
-	font-weight: 600;
+	color: #F8FF0E;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 /*
@@ -5805,8 +5807,8 @@ a:visited {
 	position: relative;
 }
 .video-two .thm-btn {
-	padding: 21.5px 40px;
-	background-color: #f76307;
+	padding: 15px 40px;
+	background-color: #F90A0A;
 	font-size: 20px;
 	color: #fff;
 }
@@ -5821,7 +5823,7 @@ a:visited {
 }
 .video-two__title {
 	font-size: 60px;
-	color: #fff;
+	color: #F90A0A;
 	font-weight: 700;
 	letter-spacing: -0.04em;
 	margin: 0;
@@ -5841,7 +5843,7 @@ a:visited {
 	text-align: center;
 	width: 156px;
 	height: 156px;
-	background-color: #f16101;
+	background-color: #F90A0A;
 	border-radius: 50%;
 	position: relative;
 }
@@ -6224,14 +6226,10 @@ a:visited {
 * 22. countdown styles
 */
 .countdown-one {
-	padding-bottom: 120px;
+	padding-bottom: 50px;
 }
-.countdown-one .become-teacher__form {
-	margin-top: -87px;
-}
-.countdown-one__content {
-	padding-top: 100px;
-}
+
+
 .countdown-one__title {
 	margin: 0;
 	color: #012237;
@@ -6458,23 +6456,23 @@ html {
 }
 
 .video-two::before {
-	background-color: #059614 !important;
+	background-color: #F7BE81 !important;
 }
 
 .video-two__title {
-	font-size: 40px !important;
+	font-size: 60px !important
 }
 
 .title {
-	color: #f3ff08 !important;
+	color: white !important;
 }
 
 .course-one__top-title.home-two {
-	padding-top: 75px !important;
+	padding-top: 50px !important;
 }
 
 .course-one {
-	padding-top: 80px !important;
+	padding-top: 43px !important;
 }
 
 .block-title__title {
@@ -6486,11 +6484,12 @@ html {
 }
 
 .site-footer__bottom {
-	background-color: #f29f05 !important;
+	background-color: white !important;
+	height: 65px;
 }
 
 .site-footer__social::before {
-	background-color: #f29f05 !important;
+	background-color: white !important;
 }
 
 .site-footer__copy a {
@@ -6507,15 +6506,22 @@ html {
 }
 
 .header-navigation {
-	background-color: #e29e05 !important;
+	background-color: white !important;
 }
 
 .header-navigation ul.navigation-box > li > a {
-	color: #fff !important;
+	color: #FF944D !important;
+    font-weight: bold;
+    font-size: 25px;
+    
+
 }
 
 .header-navigation ul.navigation-box > li > .sub-menu > li:hover > a {
-	background: #bf2604 !important;
+	color: #FF944D !important;
+    font-weight: bold;
+    font-size: 25px;
+    
 }
 
 .header__search-btn {
@@ -6536,12 +6542,12 @@ html {
 }
 
 .brand-two {
-	padding-bottom: 80px !important;
-	padding-top: 80px !important;
+	padding-bottom: 25px !important;
+	padding-top: 25px !important;
 }
 
 .countdown-one {
-	padding-top: 120px;
+	padding-top: 20px;
 }
 
 @media (max-width: 1199px) {
@@ -6551,12 +6557,13 @@ html {
 }
 
 .site-footer__upper {
-	padding: 50px;
+	padding: 25px;
+	background: #FF944D ;
 }
 
 .course-category-one {
 	padding: 0 !important;
-	padding-top: 90px !important;
+	padding-top: 50px !important;
 }
 
 .countdown-one__title {
@@ -6566,11 +6573,11 @@ html {
 }
 
 .become-teacher__form-top {
-	background-color: #bf2604 !important;
+	background-color: #FF944D !important;
 }
 
 .thm-btn {
-	background-color: #bf2604;
+	background-color: #FF944D;
 }
 
 .become-teacher__form-top::before {
@@ -6583,7 +6590,7 @@ html {
 	height: 0;
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-top: 20px solid #bf2604 !important;
+	border-top: 20px solid #FF944D !important;
 	background-image: none !important;
 }
 
