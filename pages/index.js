@@ -20,8 +20,9 @@ import Event from '../components/Event';
 import FormSignup from '../components/FormSignup';
 
 const HomePageTwo = () => {
+	console.log('HomePageTwo');
 	return (
-		<Layout pageTitle="Tieu de 6667">
+		<Layout pageTitle="Du học tân con đường vàng">
 			<NavOne />
 			<SliderTwo />
 			<Flag />
