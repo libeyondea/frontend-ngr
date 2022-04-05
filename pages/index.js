@@ -21,7 +21,7 @@ import FormSignup from '../components/FormSignup';
 
 const HomePageTwo = () => {
 	return (
-		<Layout pageTitle="Test Title">
+		<Layout pageTitle="Test Title New">
 			<NavOne />
 			<SliderTwo />
 			<Flag />
