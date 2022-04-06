@@ -151,7 +151,7 @@ const Event = () => {
 							<div className="item">
 								<div className="course-one__single color-4">
 									<div className="course-one__image">
-										<img src="/assets/images/course-1-1.jpg" alt="" />
+										<img src="/assets/images/hoithao.jpg" alt="" />
 										<i className="far fa-heart"></i>
 									</div>
 									<div className="course-one__content">
@@ -185,12 +185,12 @@ const Event = () => {
 							<div className="item">
 								<div className="course-one__single color-5">
 									<div className="course-one__image">
-										<img src="/assets/images/course-1-1.jpg" alt="" />
+										<img src="/assets/images/ilets2.jpg" alt="" />
 										<i className="far fa-heart"></i>
 									</div>
 									<div className="course-one__content">
 										<a href="#" className="course-one__category">
-											DU HỌC MỸ
+											IELTS
 										</a>
 										<div className="course-one__admin">
 											<img src="/assets/images/team-1-1.jpg" alt="" />
@@ -198,8 +198,8 @@ const Event = () => {
 										</div>
 										<h2 className="course-one__title">
 											<a href="/course-details">
-												[Du học Mỹ] Top 10 Nét đặc trưng về văn hoá và con người ở Mỹ- Du học Mỹ-Du học
-												Tân Con Đường Vàng
+											[IELTS STUDY PLANNER] – CHINH PHỤC IELTS 
+											HỈ TRONG 5 TUẦN VỚI IELTS STUDY PLANNER – Du học Tân Con Đường Vàng
 											</a>
 										</h2>
 										<div className="course-one__meta">
@@ -219,12 +219,12 @@ const Event = () => {
 							<div className="item">
 								<div className="course-one__single color-6">
 									<div className="course-one__image">
-										<img src="/assets/images/course-1-1.jpg" alt="" />
+										<img src="/assets/images/canada2.png" alt="" />
 										<i className="far fa-heart"></i>
 									</div>
 									<div className="course-one__content">
 										<a href="#" className="course-one__category">
-											DU HỌC MỸ
+										CANADA
 										</a>
 										<div className="course-one__admin">
 											<img src="/assets/images/team-1-1.jpg" alt="" />
@@ -232,8 +232,7 @@ const Event = () => {
 										</div>
 										<h2 className="course-one__title">
 											<a href="/course-details">
-												[Du học Mỹ] Top 10 Nét đặc trưng về văn hoá và con người ở Mỹ- Du học Mỹ-Du học
-												Tân Con Đường Vàng
+											[CANADA] – ĐÔI NÉT VỀ NGƯỜI DÂN Ở CANADA – Du học Canada – Du học Tân Con Đường Vàng
 											</a>
 										</h2>
 										<div className="course-one__meta">
@@ -253,12 +252,12 @@ const Event = () => {
 							<div className="item">
 								<div className="course-one__single color-1">
 									<div className="course-one__image">
-										<img src="/assets/images/course-1-1.jpg" alt="" />
+										<img src="/assets/images/loiich.jpg" alt="" />
 										<i className="far fa-heart"></i>
 									</div>
 									<div className="course-one__content">
 										<a href="#" className="course-one__category">
-											DU HỌC MỸ
+										LỢI ÍCH
 										</a>
 										<div className="course-one__admin">
 											<img src="/assets/images/team-1-1.jpg" alt="" />
@@ -266,8 +265,7 @@ const Event = () => {
 										</div>
 										<h2 className="course-one__title">
 											<a href="/course-details">
-												[Du học Mỹ] Top 10 Nét đặc trưng về văn hoá và con người ở Mỹ- Du học Mỹ-Du học
-												Tân Con Đường Vàng
+											7 TRANG WEB HAY VỀ PHÁT TRIỂN BẢN THÂN DÀNH CHO GIỚI TRẺ
 											</a>
 										</h2>
 										<div className="course-one__meta">
@@ -287,12 +285,12 @@ const Event = () => {
 							<div className="item">
 								<div className="course-one__single color-2">
 									<div className="course-one__image">
-										<img src="/assets/images/course-1-1.jpg" alt="" />
+										<img src="/assets/images/loiich2.jpg" alt="" />
 										<i className="far fa-heart"></i>
 									</div>
 									<div className="course-one__content">
 										<a href="#" className="course-one__category">
-											DU HỌC MỸ
+											LỢI ÍCH
 										</a>
 										<div className="course-one__admin">
 											<img src="/assets/images/team-1-1.jpg" alt="" />
@@ -300,8 +298,7 @@ const Event = () => {
 										</div>
 										<h2 className="course-one__title">
 											<a href="/course-details">
-												[Du học Mỹ] Top 10 Nét đặc trưng về văn hoá và con người ở Mỹ- Du học Mỹ-Du học
-												Tân Con Đường Vàng
+											BÍ QUYẾT TỰ TẠO ĐỘNG LỰC CHO BẢN THÂN
 											</a>
 										</h2>
 										<div className="course-one__meta">
@@ -321,12 +318,12 @@ const Event = () => {
 							<div className="item">
 								<div className="course-one__single color-3">
 									<div className="course-one__image">
-										<img src="/assets/images/course-1-1.jpg" alt="" />
+										<img src="/assets/images/tintuc.jpg" alt="" />
 										<i className="far fa-heart"></i>
 									</div>
 									<div className="course-one__content">
 										<a href="#" className="course-one__category">
-											DU HỌC MỸ
+											TIN TỨC
 										</a>
 										<div className="course-one__admin">
 											<img src="/assets/images/team-1-1.jpg" alt="" />
@@ -334,8 +331,7 @@ const Event = () => {
 										</div>
 										<h2 className="course-one__title">
 											<a href="/course-details">
-												[Du học Mỹ] Top 10 Nét đặc trưng về văn hoá và con người ở Mỹ- Du học Mỹ-Du học
-												Tân Con Đường Vàng
+											CHALLENGES: THAY ĐỔI BẢN THÂN ĐỂ TRỞ NÊN HẠNH PHÚC TRONG MÙA COVID
 											</a>
 										</h2>
 										<div className="course-one__meta">
