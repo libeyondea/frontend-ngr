@@ -112,17 +112,76 @@ class NavOne extends Component {
 									<ul className="sub-menu">
 										<li>
 											<Link href="/">
-												<a>Home 01</a>
+												<a>Du Học Canada</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/">
+												<a>Du Học Anh</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/">
+												<a>Du Học Mỹ</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/">
+												<a>Du Học Úc</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/">
+												<a>Du Học New Zeand</a>
+											</Link>
+										</li><li>
+											<Link href="/">
+												<a>Du Học Singapore</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/">
+												<a>Du Học Phần Lan</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/">
+												<a>Du Học Hà Lan</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/">
+												<a>Du Học Thụy Sỹ</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/">
+												<a>Du Học Malaysia</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/">
+												<a>Du Học Thái Lan</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/">
+												<a>Du Học Đài Loan</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/">
+												<a>Du Học Philippines</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/index-2">
-												<a>Home 02</a>
+												<a></a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/index-3">
-												<a>Home 03</a>
+												<a></a>
 											</Link>
 										</li>
 										<li>

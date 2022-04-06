@@ -62,7 +62,10 @@ const SliderTwo = () => {
 					<div>
 						<Image alt="img" src="/assets/images/banner2.jpg" isBlur width={1920} height={700} layout="responsive" />
 					</div>
-					
+					<div>
+						<Image alt="img" src="/assets/images/banner3.jpg" isBlur width={1920} height={700} layout="responsive" />
+					</div>
+	
 					{/* <div
 						className="banner-two__slide banner-two__slide-two"
 						style={{ backgroundImage: `url(assets/images/slider-2-2.jpg)` }}

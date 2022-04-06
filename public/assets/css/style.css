@@ -4475,7 +4475,7 @@ a:visited {
 .footer-widget__title {
 	margin: 0;
 	    color: #F8FF0E;
-    font-size: 30px;
+    font-size: 20px;
 	font-weight: bold;
 	line-height: 1em;
 	margin-bottom: 48px;
@@ -4572,7 +4572,7 @@ a:visited {
 .footer-widget__course-list li p {
 	margin: 0;
 	color: #F8FF0E;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -6557,7 +6557,7 @@ html {
 }
 
 .site-footer__upper {
-	padding: 25px;
+	padding: 6px;
 	background: #FF944D ;
 }
 
