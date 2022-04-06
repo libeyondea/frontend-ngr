@@ -50,7 +50,7 @@ const TestimonialOne = () => {
 									There are many variations of passages of lore ipsu available but the majority.
 								</p>
 								<Image
-									src="/assets/images/kh-dau-1.png"
+									src="/assets/images/phan_hoi1.jpg"
 									alt=""
 									className="testimonials-one__img"
 									width={100}
@@ -70,7 +70,7 @@ const TestimonialOne = () => {
 									alteration in some form.
 								</p>
 								<Image
-									src="/assets/images/kh-dau-1.png"
+									src="/assets/images/phan_hoi2.jpg"
 									alt=""
 									className="testimonials-one__img"
 									width={100}
@@ -90,7 +90,7 @@ const TestimonialOne = () => {
 									alteration in some form, by injected humour.
 								</p>
 								<Image
-									src="/assets/images/kh-dau-1.png"
+									src="/assets/images/phan_hoi3.jpg"
 									alt=""
 									className="testimonials-one__img"
 									width={100}
@@ -109,7 +109,7 @@ const TestimonialOne = () => {
 									There are many variations of passages of lore ipsu available but the majority.
 								</p>
 								<Image
-									src="/assets/images/kh-dau-1.png"
+									src="/assets/images/phan_hoi4.jpg"
 									alt=""
 									className="testimonials-one__img"
 									width={100}
@@ -129,7 +129,7 @@ const TestimonialOne = () => {
 									alteration in some form.
 								</p>
 								<Image
-									src="/assets/images/kh-dau-1.png"
+									src="/assets/images/phan_hoi5.jpg"
 									alt=""
 									className="testimonials-one__img"
 									width={100}
@@ -149,7 +149,7 @@ const TestimonialOne = () => {
 									alteration in some form, by injected humour.
 								</p>
 								<Image
-									src="/assets/images/kh-dau-1.png"
+									src="/assets/images/phan_hoi6.jpg"
 									alt=""
 									className="testimonials-one__img"
 									width={100}
@@ -168,7 +168,7 @@ const TestimonialOne = () => {
 									There are many variations of passages of lore ipsu available but the majority.
 								</p>
 								<Image
-									src="/assets/images/kh-dau-1.png"
+									src="/assets/images/phan_hoi7.jpg"
 									alt=""
 									className="testimonials-one__img"
 									width={100}
@@ -188,33 +188,13 @@ const TestimonialOne = () => {
 									alteration in some form.
 								</p>
 								<Image
-									src="/assets/images/kh-dau-1.png"
+									src="/assets/images/phan_hoi8.jpg"
 									alt=""
 									className="testimonials-one__img"
 									width={100}
 									height={100}
 								/>
 								<h3 className="testimonials-one__name">Iva Santos</h3>
-								<p className="testimonials-one__designation">Student</p>
-							</div>
-						</div>
-						<div className="item">
-							<div className="testimonials-one__single">
-								<div className="testimonials-one__qoute">
-									<img src="/assets/images/qoute-1-1.png" alt="" />
-								</div>
-								<p className="testimonials-one__text">
-									There are many variations of passages of lore ipsu available but the majority have suffered
-									alteration in some form, by injected humour.
-								</p>
-								<Image
-									src="/assets/images/kh-dau-1.png"
-									alt=""
-									className="testimonials-one__img"
-									width={100}
-									height={100}
-								/>
-								<h3 className="testimonials-one__name">Max Burns</h3>
 								<p className="testimonials-one__designation">Student</p>
 							</div>
 						</div>
