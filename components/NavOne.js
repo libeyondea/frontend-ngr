@@ -335,6 +335,7 @@ class NavOne extends Component {
 											</li>
 										</ul>
 									</li>
+									</ul>
 									<li>
 										<a href="#">Du Học Đài Loan</a>
 										<ul className="sub-menu">
@@ -353,6 +354,7 @@ class NavOne extends Component {
 													<a>Thông Tin Nước Đài Loan</a>
 												</Link>
 											</li>
+										</ul>
 									<li/>
 									<li>
 										<a href="#">Du Học Philippines</a>
@@ -369,8 +371,6 @@ class NavOne extends Component {
 											</li>
 										</ul>
 									</li>
-									</ul>
-								</li>
 								<li className="current">
 									<Link href="/">
 										<a>Định Cư</a>
@@ -494,6 +494,8 @@ class NavOne extends Component {
 										<a>Liên Hệ</a>
 									</Link>
 								</li>
+							</li>
+							</li>
 							</ul>
 						</div>
 						<div className="right-side-box clearfix">
