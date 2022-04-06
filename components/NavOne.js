@@ -260,72 +260,115 @@ class NavOne extends Component {
 											</li>
 											<li>
 												<Link href="/index-4">
-													<a>Thông Tin Nước<br/>Phần Lan</a>
+													<a>Thông Tin Nước Phần Lan</a>
 												</Link>
 											</li>
 										</ul>
 									</li>
-
-										<li>
-											<Link href="/">
-												<a>Du Học Hà Lan</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/">
-												<a>Du Học Thụy Sỹ</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/">
-												<a>Du Học Malaysia</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/">
-												<a>Du Học Thái Lan</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/">
-												<a>Du Học Đài Loan</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/">
-												<a>Du Học Philippines</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/index-2">
-												<a></a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/index-3">
-												<a></a>
-											</Link>
-										</li>
-										<li>
-											<a href="#">header</a>
-											<ul className="sub-menu">
-												<li>
-													<Link href="/">
-														<a>Header 01</a>
-													</Link>
-												</li>
-												<li>
-													<Link href="/index-2">
-														<a>Header 02</a>
-													</Link>
-												</li>
-												<li>
-													<Link href="/index-3">
-														<a>Header 03</a>
-													</Link>
-												</li>
-											</ul>
-										</li>
+									<li>
+										<a href="#">Du Học Hà Lan</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Hệ Thống Các Trường Hà Lan</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-3">
+													<a>VISA Hà Lan</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước Hà Lan</a>
+												</Link>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Du Học Thụy Sỹ</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Hệ Thống Các Trường Thụy Sỹ</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-3">
+													<a>VISA Thụy Sỹ</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước Thụy Sỹ</a>
+												</Link>
+											</li>
+										</ul>
+									</li>	
+									<li>
+										<a href="#">Du Học Malaysia</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Hệ Thống Các Trường Malaysia</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước Malaysia</a>
+												</Link>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Du Học Thái Lan</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Hệ Thống Các Trường Thái Lan</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước Thái Lan</a>
+												</Link>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Du Học Đài Loan</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Hệ Thống Các Trường Đài Loan</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-3">
+													<a>VISA Đài Loan</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước Đài Loan</a>
+												</Link>
+											</li>
+									<li/>
+									<li>
+										<a href="#">Du Học Philippines</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Hệ Thống Các Trường Philippines</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước Philippines</a>
+												</Link>
+											</li>
+										</ul>
+									</li>
 									</ul>
 								</li>
 								<li className="current">
@@ -335,38 +378,18 @@ class NavOne extends Component {
 									<ul className="sub-menu">
 										<li>
 											<Link href="/">
-												<a>Home 01</a>
+												<a>Định Cư Mỹ</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/index-2">
-												<a>Home 02</a>
+												<a>Định Cư Úc</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/index-3">
-												<a>Home 03</a>
+												<a>Định Cư Canada</a>
 											</Link>
-										</li>
-										<li>
-											<a href="#">Header</a>
-											<ul className="sub-menu">
-												<li>
-													<Link href="/">
-														<a>Header 01</a>
-													</Link>
-												</li>
-												<li>
-													<Link href="/index-2">
-														<a>Header 02</a>
-													</Link>
-												</li>
-												<li>
-													<Link href="/index-3">
-														<a>Header 03</a>
-													</Link>
-												</li>
-											</ul>
 										</li>
 									</ul>
 								</li>
