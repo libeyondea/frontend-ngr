@@ -7,7 +7,7 @@ import NewsDetails from "../components/NewsDetails";
 
 const GalleryPage = () => {
     return (
-        <Layout pageTitle="Kipso | News Details">
+        <Layout pageTitle="NGR | News Details">
             <NavOne />
             <PageHeader title="News Details" />
             <NewsDetails />

@@ -354,7 +354,7 @@ class NavOne extends Component {
 												</Link>
 											</li>
 										</ul>
-									<li/>
+									</li>
 									<li>
 										<a href="#">Du Học Philippines</a>
 										<ul className="sub-menu">

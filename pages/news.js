@@ -7,7 +7,7 @@ import News from "../components/News";
 
 const NewsPage = () => {
     return (
-        <Layout pageTitle="Kipso | News">
+        <Layout pageTitle="NGR | News">
             <NavOne />
             <PageHeader title="News" />
             <News />

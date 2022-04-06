@@ -7,7 +7,7 @@ import TeachersDetails from "../components/TeachersDetails";
 
 const TeachersDetailsPage = () => {
     return (
-        <Layout pageTitle="Kipso | Teachers Details">
+        <Layout pageTitle="NGR | Teachers Details">
             <NavOne />
             <PageHeader title="Teachers Details" />
             <TeachersDetails />

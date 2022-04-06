@@ -7,7 +7,7 @@ import Gallery from "../components/Gallery";
 
 const GalleryPage = () => {
     return (
-        <Layout pageTitle="Kipso | Gallery">
+        <Layout pageTitle="NGR | Gallery">
             <NavOne />
             <PageHeader title="Gallery" />
             <Gallery />

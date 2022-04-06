@@ -8,7 +8,7 @@ import CallToActionTwo from "../components/CallToActionTwo";
 
 const TeachersPage = () => {
     return (
-        <Layout pageTitle="Kipso | Teachers">
+        <Layout pageTitle="NGR | Teachers">
             <NavOne />
             <PageHeader title="Teachers" />
             <Teachers />
