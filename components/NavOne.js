@@ -147,6 +147,48 @@ class NavOne extends Component {
 										</li>
 									</ul>
 								</li>
+								<li className="current">
+									<Link href="/">
+										<a>Định Cư</a>
+									</Link>
+									<ul className="sub-menu">
+										<li>
+											<Link href="/">
+												<a>Home 01</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/index-2">
+												<a>Home 02</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/index-3">
+												<a>Home 03</a>
+											</Link>
+										</li>
+										<li>
+											<a href="#">Header</a>
+											<ul className="sub-menu">
+												<li>
+													<Link href="/">
+														<a>Header 01</a>
+													</Link>
+												</li>
+												<li>
+													<Link href="/index-2">
+														<a>Header 02</a>
+													</Link>
+												</li>
+												<li>
+													<Link href="/index-3">
+														<a>Header 03</a>
+													</Link>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
 								<li>
 									<a href="#">Học Bổng Du Học</a>
 									<ul className="sub-menu">
