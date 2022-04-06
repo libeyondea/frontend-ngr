@@ -335,7 +335,6 @@ class NavOne extends Component {
 											</li>
 										</ul>
 									</li>
-									</ul>
 									<li>
 										<a href="#">Du Học Đài Loan</a>
 										<ul className="sub-menu">
@@ -370,7 +369,9 @@ class NavOne extends Component {
 												</Link>
 											</li>
 										</ul>
-									</li>
+									</li>	
+									</ul>
+								</li>
 								<li className="current">
 									<Link href="/">
 										<a>Định Cư</a>
@@ -378,18 +379,38 @@ class NavOne extends Component {
 									<ul className="sub-menu">
 										<li>
 											<Link href="/">
-												<a>Định Cư Mỹ</a>
+												<a>Home 01</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/index-2">
-												<a>Định Cư Úc</a>
+												<a>Home 02</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/index-3">
-												<a>Định Cư Canada</a>
+												<a>Home 03</a>
 											</Link>
+										</li>
+										<li>
+											<a href="#">Header</a>
+											<ul className="sub-menu">
+												<li>
+													<Link href="/">
+														<a>Header 01</a>
+													</Link>
+												</li>
+												<li>
+													<Link href="/index-2">
+														<a>Header 02</a>
+													</Link>
+												</li>
+												<li>
+													<Link href="/index-3">
+														<a>Header 03</a>
+													</Link>
+												</li>
+											</ul>
 										</li>
 									</ul>
 								</li>
@@ -494,9 +515,7 @@ class NavOne extends Component {
 										<a>Liên Hệ</a>
 									</Link>
 								</li>
-							</li>
-							</li>
-							</ul>
+								</ul>
 						</div>
 						<div className="right-side-box clearfix">
 							<a className="header__search-btn search-popup__toggler search-toggle float-left" href="#">
