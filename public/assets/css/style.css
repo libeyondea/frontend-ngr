@@ -6437,8 +6437,8 @@ html {
 
 .brand-one__carousel img {
 	opacity: 1 !important;
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
