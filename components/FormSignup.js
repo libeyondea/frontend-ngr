@@ -11,8 +11,12 @@ const FormSignup = () => {
 							<h2 className="countdown-one__title">TẠI SAO PHẢI CHỌN TÂN CON ĐƯỜNG VÀNG ? </h2>
 							<p className="countdown-one__tag-line">Du học tân con đường vàng nơi chấp cánh ước mơ</p>
 							<p className="countdown-one__text">
-								Lorem ipsum gravida nibh vel velit auctor aliquetnean sollicitudin, lorem quis bibendum auci elit
-								consequat is simply free text available in the psutis sem nibh id eis sed odio sit amet.
+							Là một công ty tư vấn du học hàng đầu ở Việt Nam, được các lãnh sự Mỹ, Úc, Canada tin cậy, là đại diện 
+							chính thức cho các trường trong hệ thống giáo dục của Mỹ, Anh, Úc, Canada, New Zealand, Singapore….
+							<br/>Đội ngũ nhân viên của New Golden Road đã từng làm việc nhiều năm trong môi trường giáo dục, với bề dày kinh nghiệm 
+							và kiến thức chuyên môn vững chắc sẽ góp tay chung sức chấp cánh cho ước mơ của các em học sinh – sinh viên Việt Nam bay cao hơn, đạt được khát vọng cũng như thành công mỹ mãn trên con đường sự nghiệp của mình và còn là các nhân tài cho đất nước hôm nay và mai sau.
+							<br/>New GOLDEN ROAD luôn đồng hành cùng du học sinh trong suốt chặn đường học tập tại các nước trên thế giới, 
+							đồng thời phối hợp cùng nhà trường, và các tổ chức giáo dục trên thế giới để hổ trợ các vấn đề khó khăn mà du học sinh gặp phải.
 							</p>
 							<div className="countdown-one__list list-unstyled"></div>
 						</div>
