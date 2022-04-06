@@ -22,7 +22,7 @@ import FormSignup from '../components/FormSignup';
 const HomePageTwo = () => {
 	console.log('HomePageTwo');
 	return (
-		<Layout pageTitle="Du học tân con đường vàng">
+		<Layout pageTitle="Du Học Tân Con Đường Vàng">
 			<NavOne />
 			<SliderTwo />
 			<Flag />
