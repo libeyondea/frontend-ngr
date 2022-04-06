@@ -6239,18 +6239,19 @@ a:visited {
 }
 .countdown-one__tag-line {
 	margin: 0;
-	font-size: 26px;
-	color: #2da397;
-	margin-top: 5px;
+    font-size: 26px;
+    color: #FF944D;
+    margin-top: 5px;
+    font-weight: bold;
 }
 .countdown-one__text {
 	margin: 0;
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 34px;
-	color: #81868a;
-	margin-top: 45px;
-	margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #424242;
+    margin-top: 40px;
+    text-align: justify;
 }
 .countdown-one__list {
 	display: -webkit-box;
@@ -6436,8 +6437,8 @@ html {
 
 .brand-one__carousel img {
 	opacity: 1 !important;
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
@@ -6457,6 +6458,7 @@ html {
 
 .video-two::before {
 	background-color: #F7BE81 !important;
+	background: url(../images/NGR1.png) repeat-x;
 }
 
 .video-two__title {
