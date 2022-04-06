@@ -110,40 +110,162 @@ class NavOne extends Component {
 										<a>Du Học</a>
 									</Link>
 									<ul className="sub-menu">
-										<li>
-											<Link href="/">
-												<a>Du Học Canada</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/">
-												<a>Du Học Anh</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/">
-												<a>Du Học Mỹ</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/">
-												<a>Du Học Úc</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/">
-												<a>Du Học New Zeand</a>
-											</Link>
-										</li><li>
-											<Link href="/">
-												<a>Du Học Singapore</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/">
-												<a>Du Học Phần Lan</a>
-											</Link>
-										</li>
+									<li>
+										<a href="#">Du Học Canada</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Các Trường Đại Học Và<br/> Cao Đẳng Canada</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-2">
+													<a>Trung Học Canada</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-3">
+													<a>VISA Canada</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước Canada</a>
+												</Link>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Du Học Anh</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Hệ Thống Các Trường<br/> Anh Quốc</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-3">
+													<a>VISA Canada</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước Anh</a>
+												</Link>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Du Học Mỹ</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Các Trường Đại Học Và<br/> Cao Đẳng Mỹ</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-2">
+													<a>Trung Học Mỹ</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-3">
+													<a>VISA Mỹ</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước Mỹ</a>
+												</Link>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Du Học Úc</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Các Trường Đại Học Và<br/> Cao Đẳng Úc</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-2">
+													<a>Trung Học Úc</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-3">
+													<a>VISA Úc</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước Úc</a>
+												</Link>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Du Học New Zeand</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Các Trường Đại Học Và<br/> Cao Đẳng New Zeand</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-2">
+													<a>Trung Học New Zeand</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-3">
+													<a>VISA New Zeand</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước<br/> New Zeand</a>
+												</Link>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Du Học Singapore</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Hệ Thống Các Trường<br/>Singapore</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước Singapore</a>
+												</Link>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Du Học Phần Lan</a>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Các Trường Đại Học Và<br/> Cao Đẳng Phần Lan</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-3">
+													<a>VISA Phần Lan</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/index-4">
+													<a>Thông Tin Nước<br/>Phần Lan</a>
+												</Link>
+											</li>
+										</ul>
+									</li>
+
 										<li>
 											<Link href="/">
 												<a>Du Học Hà Lan</a>
