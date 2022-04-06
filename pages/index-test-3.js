@@ -15,7 +15,7 @@ import CallToActionFive from '../components/CallToActionFive';
 
 const HomePageThree = () => {
 	return (
-		<Layout pageTitle="NGR | Home 3">
+		<Layout pageTitle="Tân Con Đường Vàng | Home 3">
 			<NavThree />
 			<SliderOne />
 			<CourseCatThree />

@@ -7,7 +7,7 @@ import TeachersDetails from "../components/TeachersDetails";
 
 const TeachersDetailsPage = () => {
     return (
-        <Layout pageTitle="NGR | Teachers Details">
+        <Layout pageTitle="Tân Con Đường Vàng | Teachers Details">
             <NavOne />
             <PageHeader title="Teachers Details" />
             <TeachersDetails />

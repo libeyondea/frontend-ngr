@@ -7,7 +7,7 @@ import CourseDetails from "../components/CourseDetails";
 
 const CoursesPage = () => {
     return (
-        <Layout pageTitle="NGR | Course Details">
+        <Layout pageTitle="Tân Con Đường Vàng | Course Details">
             <NavOne />
             <PageHeader title="Courses Details" />
             <CourseDetails />

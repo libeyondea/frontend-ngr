@@ -15,7 +15,7 @@ import CallToActionFour from '../components/CallToActionFour';
 import SubscribeOne from '../components/SubscribeOne';
 
 const HomePage = () => (
-	<Layout pageTitle="NGR - React Next Online Education Learning & LMS Template">
+	<Layout pageTitle="Tân Con Đường Vàng - React Next Online Education Learning & LMS Template">
 		{/* <Topbar /> */}
 		<NavOne />
 		<SliderOne />

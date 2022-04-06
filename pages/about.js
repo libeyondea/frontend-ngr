@@ -12,7 +12,7 @@ import CallToActionOne from "../components/CallToActionOne";
 
 const AboutPage = () => {
     return (
-        <Layout pageTitle="NGR | About">
+        <Layout pageTitle="Tân Con Đường Vàng | About">
             <NavOne />
             <PageHeader title="About" />
             <AboutOne />
