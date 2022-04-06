@@ -126,7 +126,7 @@ class NavOne extends Component {
 											</Link>
 										</li>
 										<li>
-											<a href="#">Định Cư</a>
+											<a href="#">header</a>
 											<ul className="sub-menu">
 												<li>
 													<Link href="/">
