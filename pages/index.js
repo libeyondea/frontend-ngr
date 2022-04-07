@@ -29,7 +29,7 @@ const HomePageTwo = () => {
 			<Video />
 			<Customer />
 			<Event />
-			<FormSignup />{' '}
+			<FormSignup />
 			{/* <CourseTwo />                                                                                                                                                                                                                                                                                                           			<BlogThree /> */}{' '}
 			<TestimonialOne />
 			<Partner />
