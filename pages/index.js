@@ -20,27 +20,38 @@ import Event from '../components/Event';
 import FormSignup from '../components/FormSignup';
 
 const HomePageTwo = () => {
-	console.log('HomePageTwo');
-	return (
-		<Layout pageTitle="Du Học Tân Con Đường Vàng">
-			<NavOne />
-			<SliderTwo />
-			<Flag />
-			<Video />
-			<Customer />
-			<Event />
-			<FormSignup />
-			{/* <CourseTwo />
-			<TeamOne />
-			<Pricing />
-			<MeetingOne />
-			<CallToActionTwo />
-			<BlogThree /> */}
-			<TestimonialOne />
-			<Partner />
-			<Footer />
-		</Layout>
-	);
+    console.log('HomePageTwo');
+    return ( <
+        Layout pageTitle = "Du Học Tân Con Đường Vàngg" >
+        <
+        NavOne / >
+        <
+        SliderTwo / >
+        <
+        Flag / >
+        <
+        Video / >
+        <
+        Customer / >
+        <
+        Event / >
+        <
+        FormSignup / > {
+            /* <CourseTwo />
+            			<TeamOne />
+            			<Pricing />
+            			<MeetingOne />
+            			<CallToActionTwo />
+            			<BlogThree /> */
+        } <
+        TestimonialOne / >
+        <
+        Partner / >
+        <
+        Footer / >
+        <
+        /Layout>
+    );
 };
 
 export default HomePageTwo;
