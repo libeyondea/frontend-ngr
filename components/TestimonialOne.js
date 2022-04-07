@@ -68,8 +68,9 @@ const TestimonialOne = () => {
 									<img src="/assets/images/qoute-1-1.png" alt="" />
 								</div>
 								<p className="testimonials-one__text">
-									There are many variations of passages of lore ipsu available but the majority have suffered
-									alteration in some form.
+									Cảm ơn Du Học Tân Con Đường Vàng đã đồng hành và giúp đỡ em trong suốt 
+									thời gian chuẩn bị những hành trang, kiến thức trên con đường du học Úc.
+					
 								</p>
 								<Image
 									src="/assets/images/phan_hoi2.jpg"
@@ -88,8 +89,8 @@ const TestimonialOne = () => {
 									<img src="/assets/images/qoute-1-1.png" alt="" />
 								</div>
 								<p className="testimonials-one__text">
-									There are many variations of passages of lore ipsu available but the majority have suffered
-									alteration in some form, by injected humour.
+									Đội ngũ nhân viên nhiệt tình, tận tụy. Luôn hỗ trợ hết mình cho khách hàng.
+									Em rất bất ngờ vì sự quá chu đáo của bên công ty mình!! Love NEW GOLDEN ROAD!!!
 								</p>
 								<Image
 									src="/assets/images/phan_hoi3.jpg"
@@ -108,7 +109,8 @@ const TestimonialOne = () => {
 									<img src="/assets/images/qoute-1-1.png" alt="" />
 								</div>
 								<p className="testimonials-one__text">
-									There are many variations of passages of lore ipsu available but the majority.
+								Thật là quyết định đúng đắn khi chọn Du Học Tân Con Đường Vàng. Mọi thắc mắc hay khó khắn
+								trong vấn đề hồ sơ du học đều được giải thích và hỗ trợ cực kỳ nhiệt tình! 
 								</p>
 								<Image
 									src="/assets/images/phan_hoi4.jpg"
@@ -127,8 +129,9 @@ const TestimonialOne = () => {
 									<img src="/assets/images/qoute-1-1.png" alt="" />
 								</div>
 								<p className="testimonials-one__text">
-									There are many variations of passages of lore ipsu available but the majority have suffered
-									alteration in some form.
+								Mình biết đến NEW GOLDEN ROAD qua một người bạn đã giới thiệu.
+								Mọi thủ tục đều được công ty lo hết nên không cần lo lắng gì.
+								
 								</p>
 								<Image
 									src="/assets/images/phan_hoi5.jpg"
