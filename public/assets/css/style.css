@@ -4391,10 +4391,11 @@ a:visited {
 	position: relative;
 	z-index: 10;
 	padding-top: 0px;
+	margin-top: -15px;
 
 }
 .site-footer__social a:hover {
-	color: #f16101;
+	color: #fab;
 }
 .site-footer__social a + a {
 	margin-left: 40px;
@@ -6517,7 +6518,7 @@ html {
 	color: #FF944D !important;
     font-weight: bold;
     font-size: 20px;
-    
+
 
 }
 
@@ -6525,7 +6526,7 @@ html {
 	color: #FF944D !important;
     font-weight: bold;
     font-size: 25px;
-    
+
 }
 
 .header__search-btn {
