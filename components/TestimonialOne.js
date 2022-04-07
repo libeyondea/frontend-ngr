@@ -151,7 +151,7 @@ const TestimonialOne = () => {
 								</div>
 								<p className="testimonials-one__text">
 								Ai cũng nghĩ làm ăn quan trọng nhất là lợi nhuận. Nhưng với riêng NGR, mình cảm nhận được
-								 là cái tâm, chữ tín đặt lên trên tất cả. Cảm ơn rất nhiều!! 
+								 là cái tâm, chữ tín đặt lên trên tất cả. Cảm ơn rất nhiều!!! 
 								</p>
 								<Image
 									src="/assets/images/phan_hoi6.jpg"
