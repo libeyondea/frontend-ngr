@@ -216,10 +216,10 @@ const Footer = () => {
 								<i className="kipso-icon-top-arrow"></i>
 							</div>
 
-							<a href="#">
+							<a href="https://twitter.com/newgoldenroad">
 								<i className="fab fa-twitter text-white"></i>
 							</a>
-							<a href="#">
+							<a href="https://www.facebook.com/newgoldenroad">
 								<i className="fab fa-facebook-square text-white"></i>
 							</a>
 							<a href="#">
