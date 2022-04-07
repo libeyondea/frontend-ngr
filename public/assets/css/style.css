@@ -4571,9 +4571,9 @@ a:visited {
 	transition: all 0.4s ease;
 }
 .footer-widget__course-list li p {
-	margin: 0;
-	color: #F8FF0E;
-    font-size: 20px;
+	margin-top: -6px;
+	color: white;
+    font-size: 17px;
     font-weight: bold;
 }
 
