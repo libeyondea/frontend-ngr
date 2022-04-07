@@ -129,8 +129,8 @@ const TestimonialOne = () => {
 									<img src="/assets/images/qoute-1-1.png" alt="" />
 								</div>
 								<p className="testimonials-one__text">
-								Mình biết đến NEW GOLDEN ROAD qua một người bạn đã giới thiệu.
-								Mọi thủ tục đều được công ty lo hết nên không cần lo lắng gì.
+								Từ con bé rỗng tuếch tiếng Anh 3 năm trời, giờ em đã tự tin bắt chuyện với 
+								người nước ngoài. Và nhờ Du Học Tân Con Đường Vàng, em đã đậu Visa đi Mỹ.
 								
 								</p>
 								<Image
@@ -150,8 +150,8 @@ const TestimonialOne = () => {
 									<img src="/assets/images/qoute-1-1.png" alt="" />
 								</div>
 								<p className="testimonials-one__text">
-									There are many variations of passages of lore ipsu available but the majority have suffered
-									alteration in some form, by injected humour.
+								Ai cũng nghĩ làm ăn quan trọng nhất là lợi nhuận. Nhưng với riêng NGR, mình cảm nhận được
+								 là cái tâm, chữ tín đặt lên trên tất cả. Cảm ơn rất nhiều!!! 
 								</p>
 								<Image
 									src="/assets/images/phan_hoi6.jpg"
@@ -170,7 +170,8 @@ const TestimonialOne = () => {
 									<img src="/assets/images/qoute-1-1.png" alt="" />
 								</div>
 								<p className="testimonials-one__text">
-									There are many variations of passages of lore ipsu available but the majority.
+								Đây là Công ty tư vấn du học chuyên nghiệp từ cách hướng dẫn phỏng vấn, hồ sơ, thủ tục 
+								tư vấn chi tiết,đã giúp em rất nhiệt tình chu đáo nên thuận lợi trong việc xin visa du học Mỹ. 
 								</p>
 								<Image
 									src="/assets/images/phan_hoi7.jpg"
@@ -189,8 +190,9 @@ const TestimonialOne = () => {
 									<img src="/assets/images/qoute-1-1.png" alt="" />
 								</div>
 								<p className="testimonials-one__text">
-									There are many variations of passages of lore ipsu available but the majority have suffered
-									alteration in some form.
+									Cảm ơn Du học Tân Con Đường Vàng đã tư vấn nhiệt tình cho 
+									em về việc chuẩn bị hồ sơ du học Úc. Cảm thấy buồn vì phải xa
+									những con người ở đây.
 								</p>
 								<Image
 									src="/assets/images/phan_hoi8.jpg"
