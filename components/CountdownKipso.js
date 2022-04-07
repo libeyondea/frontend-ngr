@@ -11,13 +11,12 @@ const CountdownKipso = () => {
                         <div className="countdown-one__content">
                             <h2 className="countdown-one__title">Register now </h2>
                             <p className="countdown-one__tag-line">get premium online courses for free!</p>
-                            <p className="countdown-one__text">Lorem ipsum gravida nibh vel velit auctor aliquetnean
-                                sollicitudin,
-                                lorem
-                                quis bibendum auci elit consequat is simply free text available in the psutis sem
-                                nibh id eis
-                                sed
-                                odio sit amet.</p>
+                            <p className="countdown-one__text">Là một công ty tư vấn du học hàng đầu ở Việt Nam, 
+                            được các lãnh sự Mỹ, Úc, Canada tin cậy, là đại diện chính thức cho các trường trong 
+                            hệ thống giáo dục của Mỹ, Anh, Úc, Canada, New Zealand, Singapore….New GOLDEN ROAD luôn đồng hành 
+                            cùng du học sinh trong suốt chặn đường học tập tại các nước trên thế giới, đồng thời phối 
+                            hợp cùng nhà trường, và các tổ chức giáo dục trên thế giới để hổ trợ các vấn đề khó khăn
+                             mà du học sinh gặp phải..</p>
                             <div className="countdown-one__list list-unstyled">
 
                                 <Countdown date={Date.now() + 5000000000} />
