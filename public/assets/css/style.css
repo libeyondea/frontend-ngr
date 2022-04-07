@@ -6053,7 +6053,7 @@ a:visited {
 	border-width: 2px;
 	border-color: #f1f1f1;
 	background-color: white;
-	padding: 60px 55px;
+	padding: 15px 55px;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
@@ -6102,7 +6102,7 @@ a:visited {
 	font-weight: 500;
 	margin: 0;
 	padding-bottom: 30px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	border-bottom: 1px solid #f1f1f1;
 }
 .testimonials-one__name {
@@ -6472,7 +6472,7 @@ html {
 }
 
 .course-one__top-title.home-two {
-	padding-top: 50px !important;
+	padding-top: 25px !important;
 }
 
 .course-one {
@@ -6493,8 +6493,7 @@ html {
 }
 
 .site-footer__social::before {
-	background-color: white !important;
-}
+	block-title__title}
 
 .site-footer__copy a {
 	color: #000 !important;

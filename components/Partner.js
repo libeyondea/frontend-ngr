@@ -34,7 +34,7 @@ const CourseCatOne = () => {
 		<section className="thm-gray-bg course-category-one pt-0">
 			<div className="container-fluid text-center">
 				<div className="block-title text-center">
-					<h2 className="block-title__title">Đối Tác Du Học Tân Con Đường Vàng</h2>
+					<h2 className="block-title__title">ĐỐI TÁC</h2>
 				</div>
 				<div className="course-category-one__carousel">
 					<Swiper {...params}>
