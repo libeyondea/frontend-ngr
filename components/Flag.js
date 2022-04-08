@@ -36,6 +36,7 @@ const Flag = () => {
 						<div className="d-flex flex-column text-center mb-4 mb-md-0 mr-0 mr-md-4">
 							<a href="#">
 								<img src="/assets/images/my.png" className="rounded-circle" alt="Du học Mỹ" />
+
 							</a>
 							<span className="font-weight-bold">
 								<a href="#">Du học Mỹ</a>

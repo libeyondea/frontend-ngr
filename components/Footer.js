@@ -112,125 +112,22 @@ const Footer = () => {
 									</ul>
 								</div>
 							</div>
-							{/* <div className="col-xl-3 col-lg-6 col-sm-12">
-								<div className="footer-widget footer-widget__link">
-									<h2 className="footer-widget__title">Explore</h2>
-									<div className="footer-widget__link-wrap">
-										<ul className="list-unstyled footer-widget__link-list">
-											<li>
-												<a href="#">About</a>
-											</li>
-											<li>
-												<a href="#">Overview</a>
-											</li>
-											<li>
-												<a href="#">Teachers</a>
-											</li>
-											<li>
-												<a href="#">Join Us</a>
-											</li>
-											<li>
-												<a href="#">Our News</a>
-											</li>
-										</ul>
-										<ul className="list-unstyled footer-widget__link-list">
-											<li>
-												<a href="#">Help </a>
-											</li>
-											<li>
-												<a href="#">Contact</a>
-											</li>
-											<li>
-												<a href="#">Register Now</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div className="col-xl-3 col-lg-6 col-sm-12">
-								<div className="footer-widget footer-widget__gallery">
-									<h2 className="footer-widget__title">Gallery</h2>
-									<ul className="list-unstyled footer-widget__gallery-list">
-										<li>
-											<a href="#">
-												<img src="/assets/images/footer-1-1.png" alt="" />
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<img src="/assets/images/footer-1-2.png" alt="" />
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<img src="/assets/images/footer-1-3.png" alt="" />
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<img src="/assets/images/footer-1-4.png" alt="" />
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<img src="/assets/images/footer-1-5.png" alt="" />
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<img src="/assets/images/footer-1-6.png" alt="" />
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div className="col-xl-3 col-lg-6 col-sm-12">
-								<div className="footer-widget footer-widget__about">
-									<h2 className="footer-widget__title">About</h2>
-									<p className="footer-widget__text">
-										Lorem ipsum dolor sit ametcon, sectetur adipiscing elit. Phasellus vehic sagittis euismod.
-									</p>
-									<div className="footer-widget__btn-block">
-										<a href="#" className="thm-btn">
-											Contact
-										</a>
-										<a href="#" className="thm-btn">
-											Purchase
-										</a>
-									</div>
-								</div>
-							</div> */}
 						</div>
 					</div>
 				</div>
 				<div className="site-footer__bottom">
 					<div className="container">
 						<p className="site-footer__copy text-white">
-							&copy; Copyright 2020 by{' '}
+							&copy; Copyright 2022 by,{' '}
 							<a href="#" className="font-weight-bold">
-								Newgoldenroad.com
+								All Rights Reserved
 							</a>
 						</p>
-					{/*  <div className="site-footer__social">
+						  <div className="site-footer__social">
 							<div onClick={scrollTop} className="scroll-to-target site-footer__scroll-top">
 								<i className="kipso-icon-top-arrow"></i>
 							</div>
-
-							<a href="https://twitter.com/newgoldenroad">
-								<i className="fab fa-twitter text-white"></i>
-							</a>
-							<a href="https://www.facebook.com/newgoldenroad">
-								<i className="fab fa-facebook-square text-white"></i>
-							</a>
-							<a href="#">
-								<i className="fab fa-pinterest-p text-white"></i>
-
-
-							</a>
-							<a href="#">
-								<i className="fab fa-instagram text-white"></i>
-							</a>
-						</div>*/}
+						</div>
 						<div class="site-footer__social">
 							<a class="ttip-none" title="Google+" href="https://newgoldenroad.com" target="_blank"><i class="fa fa-google-plus"></i></a>
 							<a class="fab fa-facebook-square text-white" title="Facebook" href="https://www.facebook.com/newgoldenroad" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -240,6 +137,7 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
+
 			</footer>
 			<div className="search-popup">
 				<div className="search-popup__overlay custom-cursor__overlay search-overlay"></div>
