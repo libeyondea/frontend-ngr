@@ -6473,11 +6473,11 @@ html {
 }
 
 .course-one__top-title.home-two {
-	padding-top: 25px !important;
+	padding-top: 18px !important;
 }
 
 .course-one {
-	padding-top: 43px !important;
+	padding-top: 52px !important;
 }
 
 .block-title__title {
@@ -6493,8 +6493,7 @@ html {
 	height: 65px;
 }
 
-.site-footer__social::before {
-	block-title__title}
+
 
 .site-footer__copy a {
 	color: #000 !important;
