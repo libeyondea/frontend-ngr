@@ -4344,7 +4344,7 @@ a:visited {
 }
 .site-footer__copy {
 	color: #94a3ac;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4418,8 +4418,7 @@ a:visited {
 	border-radius: 50%;
 	position: absolute !important;
 	top: 0;
-	left: 850px;
-	margin-top: -50px;
+	left: 650px;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
@@ -6437,21 +6436,16 @@ html {
 .brand-one__carousel {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
-	transition: 1s;
-	margin: auto;
-	box-sizing: border-box;
 }
 
 .brand-one__carousel img {
 	opacity: 1 !important;
 	width: 100px;
 	height: 100px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
 }
 
-.brand-one__carousel img:hover {
-	transform: scale(1.5);
-	transition: 1s;
-}
 
 
 .video-two {
@@ -6464,7 +6458,6 @@ html {
 }
 
 .video-two::before {
-	background-color: #F7BE81 !important;
 	background: url(../images/NGR1.png) repeat-x;
 }
 
@@ -6566,7 +6559,6 @@ html {
 .site-footer__upper {
 	padding: 6px;
 	background: #FF944D ;
-	height: 300px;
 }
 
 .course-category-one {
@@ -6777,13 +6769,4 @@ h3.title-comm:before {
 	border-top: 23px solid transparent;
 	border-bottom: 22px solid transparent;
 	border-right: 15px solid #56bbe7;
-}
-
-.row{
-	margin-top: 40px;
-}
-
-.away{
-	text-align:center;
-	font-size:30px;
 }
