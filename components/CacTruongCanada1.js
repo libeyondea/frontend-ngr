@@ -2,6 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 
 const CacTruongCanada1 = () => {
+    <?php
+    
+    
+    ?>
     return (
         <div>
             <section class="inner-banner">
