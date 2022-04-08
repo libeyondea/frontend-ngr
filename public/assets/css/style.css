@@ -6786,3 +6786,10 @@ h3.title-comm:before {
 	text-align:center;
 	font-size:30px;
 }
+.SoLuotTruyCap{
+	margin: auto;
+	border: 1px;
+	width: 250px;
+	height: 20px;
+	align-content: center;
+}

@@ -114,7 +114,7 @@ class NavOne extends Component {
 										<a href="#">Du Học Canada</a>
 										<ul className="sub-menu">
 											<li>
-												<Link href="/">
+												<Link href="/CacTruongCanada">
 													<a>Các Trường Đại Học Và<br/> Cao Đẳng Canada</a>
 												</Link>
 											</li>

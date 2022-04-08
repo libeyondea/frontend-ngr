@@ -2,17 +2,17 @@ import React from 'react';
 import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
 import Footer from '../components/Footer';
-import CacTruongCanada from '../components/CacTruongCanada';
+import CacTruongCanada1 from '../components/CacTruongCanada1';
 
-const DuHocCanada = () => {
+const CacTruongCanada = () => {
 	console.log('DuHocCanada');
 	return (
 		<Layout pageTitle="Du Học Canada">
 			<NavOne />
-			<CacTruongCanada />
+			<CacTruongCanada1 />
 			<Footer />
 		</Layout>
 	);
 };
 
-export default DuHocCanada;
+export default CacTruongCanada;
