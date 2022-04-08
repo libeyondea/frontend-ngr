@@ -6605,11 +6605,6 @@ html {
 .header-navigation ul.navigation-box > li:hover > a {
 	color: #fff !important;
 } */
-body {
-    margin: 50px;
-    font-family: helvetica, sans-serif;
-    background: #e9f0f4;
-}
 
 #wrap {
     margin: 20px auto;
