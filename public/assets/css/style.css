@@ -6794,6 +6794,7 @@ h3.title-comm:before {
 }
 .media-play-icon {
     width: 130px ;
+    height: 130px;
     background-color: #F90A0A;
     border-radius: 50%;
     position: relative;
