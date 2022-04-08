@@ -129,7 +129,7 @@ class NavOne extends Component {
 												</Link>
 											</li>
 											<li>
-												<Link href="/index-4">
+												<Link href="/ThongTinCanada">
 													<a>Thông Tin Nước Canada</a>
 												</Link>
 											</li>
