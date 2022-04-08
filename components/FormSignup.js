@@ -22,7 +22,7 @@ const FormSignup = () => {
 						</div>
 					</div>
 					<div className="col-lg-6">
-						<div className="become-teacher__form">
+						<div className="become-teacher__form"id="back-top">
 							<div className="become-teacher__form-top">
 								<h2 className="become-teacher__form-title">TƯ VẤN MIỄN PHÍ</h2>
 							</div>
