@@ -9,7 +9,8 @@ return (
         <h1 class="page-title">
             Định Cư Mỹ			</h1>
         
-                    <a class="rss-cat-icon ttip" href="https://newgoldenroad.com/chuyen-muc/dinh-cu/dinh-cu-my/feed/" original-title="Feed Subscription"><i class="fa fa-rss"></i></a>
+                    <a class="rss-cat-icon ttip" href="https://newgoldenroad.com/chuyen-muc/dinh-cu/dinh-cu-my/feed/" 
+                    original-title="Feed Subscription"><i class="fa fa-rss"></i></a>
                     
         <div class="stripe-line"></div>
 
