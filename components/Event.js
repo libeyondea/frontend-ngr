@@ -1,6 +1,5 @@
-import React from 'react';
-import Swiper from 'react-id-swiper';
 import Link from 'next/link';
+import { Slide } from 'react-slideshow-image';
 
 const Event = () => {
 	const params = {
@@ -33,6 +32,31 @@ const Event = () => {
 			}
 		}
 	};
+
+	const properties = {
+		duration: 3000,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		indicators: false,
+		arrows: false,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3
+				}
+			},
+			{
+				breakpoint: 500,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2
+				}
+			}
+		]
+	};
 	return (
 		<div>
 			<section className="course-one__top-title home-two">
@@ -45,8 +69,8 @@ const Event = () => {
 			<section className="course-one course-one__teacher-details home-one" style={{ 'padding-bottom': '150px' }}>
 				<div className="container">
 					<div className="course-one__carousel">
-						<Swiper {...params}>
-							<div className="item">
+						<Slide {...properties}>
+							<div className="item mr-4">
 								<div className="course-one__single color-1">
 									<div className="course-one__image">
 										<img src="/assets/images/duhocmy.png" alt="" />
@@ -80,7 +104,7 @@ const Event = () => {
 									</div>
 								</div>
 							</div>
-							<div className="item">
+							<div className="item mr-4">
 								<div className="course-one__single color-2">
 									<div className="course-one__image">
 										<img src="/assets/images/duhocmy2.png" alt="" />
@@ -114,7 +138,7 @@ const Event = () => {
 									</div>
 								</div>
 							</div>
-							<div className="item">
+							<div className="item mr-4">
 								<div className="course-one__single color-3">
 									<div className="course-one__image">
 										<img src="/assets/images/ilets.jpg" alt="" />
@@ -148,7 +172,7 @@ const Event = () => {
 									</div>
 								</div>
 							</div>
-							<div className="item">
+							<div className="item mr-4">
 								<div className="course-one__single color-4">
 									<div className="course-one__image">
 										<img src="/assets/images/hoithao.jpg" alt="" />
@@ -182,7 +206,7 @@ const Event = () => {
 									</div>
 								</div>
 							</div>
-							<div className="item">
+							<div className="item mr-4">
 								<div className="course-one__single color-5">
 									<div className="course-one__image">
 										<img src="/assets/images/ilets2.jpg" alt="" />
@@ -198,8 +222,8 @@ const Event = () => {
 										</div>
 										<h2 className="course-one__title">
 											<a href="/course-details">
-											[IELTS STUDY PLANNER] – CHINH PHỤC IELTS 
-											HỈ TRONG 5 TUẦN VỚI IELTS STUDY PLANNER – Du học Tân Con Đường Vàng
+												[IELTS STUDY PLANNER] – CHINH PHỤC IELTS HỈ TRONG 5 TUẦN VỚI IELTS STUDY PLANNER –
+												Du học Tân Con Đường Vàng
 											</a>
 										</h2>
 										<div className="course-one__meta">
@@ -216,7 +240,7 @@ const Event = () => {
 									</div>
 								</div>
 							</div>
-							<div className="item">
+							<div className="item mr-4">
 								<div className="course-one__single color-6">
 									<div className="course-one__image">
 										<img src="/assets/images/canada2.png" alt="" />
@@ -224,7 +248,7 @@ const Event = () => {
 									</div>
 									<div className="course-one__content">
 										<a href="#" className="course-one__category">
-										CANADA
+											CANADA
 										</a>
 										<div className="course-one__admin">
 											<img src="/assets/images/team-1-1.jpg" alt="" />
@@ -232,7 +256,8 @@ const Event = () => {
 										</div>
 										<h2 className="course-one__title">
 											<a href="/course-details">
-											[CANADA] – ĐÔI NÉT VỀ NGƯỜI DÂN Ở CANADA – Du học Canada – Du học Tân Con Đường Vàng
+												[CANADA] – ĐÔI NÉT VỀ NGƯỜI DÂN Ở CANADA – Du học Canada – Du học Tân Con Đường
+												Vàng
 											</a>
 										</h2>
 										<div className="course-one__meta">
@@ -249,7 +274,7 @@ const Event = () => {
 									</div>
 								</div>
 							</div>
-							<div className="item">
+							<div className="item mr-4">
 								<div className="course-one__single color-1">
 									<div className="course-one__image">
 										<img src="/assets/images/loiich.jpg" alt="" />
@@ -257,16 +282,14 @@ const Event = () => {
 									</div>
 									<div className="course-one__content">
 										<a href="#" className="course-one__category">
-										LỢI ÍCH
+											LỢI ÍCH
 										</a>
 										<div className="course-one__admin">
 											<img src="/assets/images/team-1-1.jpg" alt="" />
 											by <a href="/teacher-details">Linda</a>
 										</div>
 										<h2 className="course-one__title">
-											<a href="/course-details">
-											7 TRANG WEB HAY VỀ PHÁT TRIỂN BẢN THÂN DÀNH CHO GIỚI TRẺ
-											</a>
+											<a href="/course-details">7 TRANG WEB HAY VỀ PHÁT TRIỂN BẢN THÂN DÀNH CHO GIỚI TRẺ</a>
 										</h2>
 										<div className="course-one__meta">
 											<a href="/course-details">
@@ -282,7 +305,7 @@ const Event = () => {
 									</div>
 								</div>
 							</div>
-							<div className="item">
+							<div className="item mr-4">
 								<div className="course-one__single color-2">
 									<div className="course-one__image">
 										<img src="/assets/images/loiich2.jpg" alt="" />
@@ -297,9 +320,7 @@ const Event = () => {
 											by <a href="/teacher-details">Linda</a>
 										</div>
 										<h2 className="course-one__title">
-											<a href="/course-details">
-											BÍ QUYẾT TỰ TẠO ĐỘNG LỰC CHO BẢN THÂN
-											</a>
+											<a href="/course-details">BÍ QUYẾT TỰ TẠO ĐỘNG LỰC CHO BẢN THÂN</a>
 										</h2>
 										<div className="course-one__meta">
 											<a href="/course-details">
@@ -315,7 +336,7 @@ const Event = () => {
 									</div>
 								</div>
 							</div>
-							<div className="item">
+							<div className="item mr-4">
 								<div className="course-one__single color-3">
 									<div className="course-one__image">
 										<img src="/assets/images/tintuc.jpg" alt="" />
@@ -331,7 +352,7 @@ const Event = () => {
 										</div>
 										<h2 className="course-one__title">
 											<a href="/course-details">
-											CHALLENGES: THAY ĐỔI BẢN THÂN ĐỂ TRỞ NÊN HẠNH PHÚC TRONG MÙA COVID
+												CHALLENGES: THAY ĐỔI BẢN THÂN ĐỂ TRỞ NÊN HẠNH PHÚC TRONG MÙA COVID
 											</a>
 										</h2>
 										<div className="course-one__meta">
@@ -348,7 +369,7 @@ const Event = () => {
 									</div>
 								</div>
 							</div>
-						</Swiper>
+						</Slide>
 					</div>
 				</div>
 			</section>

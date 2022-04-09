@@ -1,4 +1,4 @@
-import Swiper from 'react-id-swiper';
+import { Slide } from 'react-slideshow-image';
 import Image from './Image';
 
 const CourseCatOne = () => {
@@ -30,6 +30,31 @@ const CourseCatOne = () => {
 		}
 	};
 
+	const properties = {
+		duration: 3000,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		indicators: false,
+		arrows: false,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 6,
+					slidesToScroll: 6
+				}
+			},
+			{
+				breakpoint: 500,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3
+				}
+			}
+		]
+	};
+
 	return (
 		<section className="thm-gray-bg course-category-one pt-0">
 			<div className="container-fluid text-center">
@@ -37,8 +62,8 @@ const CourseCatOne = () => {
 					<h2 className="block-title__title">Đối Tác Du Học Tân Con Đường Vàng</h2>
 				</div>
 				<div className="course-category-one__carousel">
-					<Swiper {...params}>
-						<div className="item">
+					<Slide {...properties}>
+						<div className="item mr-4">
 							<div className="course-category-one__single color-1">
 								<div className="">
 									<Image
@@ -53,7 +78,7 @@ const CourseCatOne = () => {
 								</h3>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="course-category-one__single color-1">
 								<div className="">
 									<Image src="/assets/images/DoiTac/achieve-the-edge.jpg" alt="" width={150} height={80} />
@@ -63,7 +88,7 @@ const CourseCatOne = () => {
 								</h3>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="course-category-one__single color-1">
 								<div className="">
 									<Image src="/assets/images/DoiTac/algonquin-college.jpg" alt="" width={150} height={80} />
@@ -73,7 +98,7 @@ const CourseCatOne = () => {
 								</h3>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="course-category-one__single color-1">
 								<div className="">
 									<Image src="/assets/images/DoiTac/assiniboine.jpg" alt="" width={150} height={80} />
@@ -83,7 +108,7 @@ const CourseCatOne = () => {
 								</h3>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="course-category-one__single color-1">
 								<div className="">
 									<Image src="/assets/images/DoiTac/bowvalley.jpg" alt="" width={150} height={80} />
@@ -93,7 +118,7 @@ const CourseCatOne = () => {
 								</h3>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="course-category-one__single color-1">
 								<div className="">
 									<Image
@@ -108,7 +133,7 @@ const CourseCatOne = () => {
 								</h3>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="course-category-one__single color-1">
 								<div className="">
 									<Image
@@ -123,7 +148,7 @@ const CourseCatOne = () => {
 								</h3>
 							</div>
 						</div>
-					</Swiper>
+					</Slide>
 				</div>
 			</div>
 		</section>
