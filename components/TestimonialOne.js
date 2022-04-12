@@ -194,7 +194,7 @@ const TestimonialOne = () => {
 								</div>
 								<p className="testimonials-one__text">
 								Đây là Công ty tư vấn du học chuyên nghiệp từ cách hướng dẫn phỏng vấn, hồ sơ, thủ tục 
-								tư vấn chi tiết,đã giúp em rất nhiệt tình chu đáo nên thuận lợi trong việc xin visa du học Mỹ. 
+								tư vấn chi tiết,giúp em rất nhiệt tình chu đáo thuận lợi trong việc xin visa du học Mỹ. 
 								</p>
 								<Image
 									src="/assets/images/phan_hoi7.jpg"
