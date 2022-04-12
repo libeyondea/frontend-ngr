@@ -138,7 +138,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-			</footer>
+							</footer>
 			<div className="search-popup">
 				<div className="search-popup__overlay custom-cursor__overlay search-overlay"></div>
 				<div className="search-popup__inner">
