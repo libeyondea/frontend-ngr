@@ -575,7 +575,7 @@ class NavOne extends Component {
 					</div>
 				</div>
 				{/************Chat Button************* href="https://chat.zalo.me/?phone=SĐT_Của_Bạn"*/}
-				<button id="linkzalo" target="_blank" rel="noopener noreferrer">
+				<a id="linkzalo" target="_blank" rel="noopener noreferrer">
 					<div id="fcta-zalo-tracking" className="fcta-zalo-mess">
 						<span id="fcta-zalo-tracking">Chat hỗ trợ</span>
 					</div>
@@ -596,14 +596,14 @@ class NavOne extends Component {
 							</div>
 						</div>
 					</div>
-				</button>
-				<div className="chat-popup" id="myForm">
+				</a>
+				{/*<div className="chat-popup" id="myForm">
 					<form action="/action_page.php" className="form-container">
 						{/*<button type="button" className="btn cancel" onClick={(event) => this.closeForm(event)}>
 							Close
-						</button>*/}
+						</button>
 					</form>
-				</div>
+				</div>*/}
 			</header>
 		);
 	}
