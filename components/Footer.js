@@ -205,11 +205,13 @@ const Footer = () => {
 						<div className="row mt-0">
 							<div className="col-12 col-md-6"></div>
 							<div className="col-12 col-md-6 text-right">
-								<div className="text-white" style={{ fontSize: '25px' }}>
-									Số lượt truy cập
-								</div>
-								<div className="badge badge-secondary text-wrap" style={{ fontSize: '20px' }}>
+								<div className="text-white" style={{ fontSize: '21px',textAlign: 'center' }}>
+									Số lượt truy cập: 
+								
+								<div className="badge badge-secondary text-wrap" style={{ fontSize: '19px' }}>
 									12345
+									</div>
+									
 								</div>
 							</div>
 						</div>

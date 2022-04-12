@@ -4419,10 +4419,11 @@ a:visited {
 	-ms-flex-align: center;
 	align-items: center;
 	text-align: center;
+	margin-left: -48px;
 	width: 60px;
 	height: 60px;
 	cursor: pointer;
-	background-color: #33a9bb;
+	background-color: #FF0000;
 	border-radius: 50%;
 	position: absolute !important;
 	top: 0;
@@ -4432,7 +4433,8 @@ a:visited {
 }
 .site-footer__scroll-top i {
 	font-size: 22px;
-	color: #012237;
+	color: #fff;
+	font-weight: bold;
 }
 .site-footer__scroll-top::before {
 	content: '';
@@ -6571,7 +6573,7 @@ html {
 }
 
 .site-footer__upper {
-	padding: 11px;
+	padding: 16px;
 	background: #ff944d;
 	/* height: 330px; */
 }
