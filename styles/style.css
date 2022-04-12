@@ -6583,7 +6583,7 @@ html {
 	height: 330px;
 }
 .row {
-	margin-top: 50px;
+	margin-top: 6px;
 }
 
 .course-category-one {
@@ -6752,9 +6752,11 @@ html {
 	background-color: red;
 	border-radius: 50%;
 	position: relative;
-	line-height: 130px;
+	line-height: 140px;
 	text-align: center;
 	cursor: pointer;
+	font-size: 40px;
+	color: #fff;
 }
 .media-play-icon::before,
 .media-play-icon::after {
