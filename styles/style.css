@@ -634,7 +634,7 @@ a:visited {
 }
 
 [class*='site-header__decor-inner-'] {
-	
+
 }
 [class*='site-header__decor-inner-']::before {
 	content: '';
@@ -4354,11 +4354,17 @@ a:visited {
 	-ms-flex-align: center;
 	align-items: center;
 }
+
+.banquyen {
+	color: #94a3ac;
+}
+
 .site-footer__copy a {
-	color: #f16101;
+	color: #de3cc6;
 	margin-left: 10px;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
+	margin-top: -10px;
 }
 .site-footer__copy a:hover {
 	color: #fff;
@@ -4375,6 +4381,12 @@ a:visited {
 	padding-left: 30px;
 	position: relative;
 }
+
+.icon{
+
+	margin-top: -20px;
+}
+
 .site-footer__social::before {
 	content: '';
 	position: absolute;
@@ -4384,6 +4396,8 @@ a:visited {
 	height: 100%;
 	background-color: #022c46;
 }
+
+
 .site-footer__social a {
 	color: #94a3ac;
 	font-size: 20px;
@@ -6566,6 +6580,10 @@ html {
 .site-footer__upper {
 	padding: 50px;
 	background: #ff944d;
+	height: 330px;
+}
+.row {
+	margin-top: 50px;
 }
 
 .course-category-one {
