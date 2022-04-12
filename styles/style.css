@@ -4333,14 +4333,8 @@ a:visited {
 	background-color: #012237;
 }
 .site-footer__bottom .container {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
+	display: -webkit-box;	
 	justify-content: space-between;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 }
 .site-footer__copy {
@@ -4370,6 +4364,7 @@ a:visited {
 	color: #fff;
 }
 .site-footer__social {
+	margin-left: 302px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
