@@ -391,8 +391,9 @@ a:visited {
 }
 
 .header-navigation ul.navigation-box {
-	margin: 0;
+	margin-left: 122px;
 	padding: 0;
+	text-align: center;
 	list-style: none;
 }
 .header-navigation ul.navigation-box li a .sub-nav-toggler {
