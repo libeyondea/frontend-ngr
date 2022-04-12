@@ -152,8 +152,7 @@ const NewsDetails = () => {
 						<div className="share-block">
 							<div className="left-block">
 								<p>
-									Mọi chi tiết xin vui lòng liên hệ: <a href="#">Business,</a> <a href="#">Agency,</a>{' '}
-									<a href="#">Technology</a>
+									Tags: <a href="#">Business,</a> <a href="#">Agency,</a> <a href="#">Technology</a>
 								</p>
 							</div>
 							<div className="social-block">
@@ -192,65 +191,25 @@ const NewsDetails = () => {
 								</p>
 							</div>
 						</div>
-						<div className="share-post">
-							<span className="share-text">Chia Sẻ</span>
-							<ul className="flat-social">
-								<li>
-									<a href="" className="social-facebook" rel="external" target="_blank">
-										<i className="fab fa-facebook-f"></i>
-
-										<span>Facebook</span>
-									</a>
-								</li>
-								<li>
-									<a href="" className="social-twitter" rel="external" target="_blank">
-										<i className="fab fa-twitter"></i>
-										<span>Twitter</span>
-									</a>
-								</li>
-								<li>
-									<a href="" className="social-google-plus" rel="external" target="_blank">
-										<i className="fab fa-instagram"></i>
-										<span>Instagram</span>
-									</a>
-								</li>
-								<li>
-									<a href="" className="social-stumble" rel="external" target="_blank">
-										<i className="fab fa-dribbble"></i> <span>Dribbble</span>
-									</a>
-								</li>
-								<li>
-									<a href="" className="social-linkedin" rel="external" target="_blank">
-										<i className="fa fa-linkedin" /> <span>LinkedIn</span>
-									</a>
-								</li>
-								<li>
-									<a href="" className="social-pinterest" rel="external" target="_blank">
-										<i className="fa fa-pinterest" /> <span>Pinterest</span>
-									</a>
-								</li>
-							</ul>
-							<div className="clear" />
-						</div>
 						<h2 className="blog-details__content-title">2 Comments</h2>
 						<div className="comment-one">
 							<div className="comment-one__single">
 								<div className="comment-one__image">
 									<div className="inner-block">
-										<img src="/assets/images/comment-1-1.jpg" alt="Awesome Image" />
+										<img src="/assets/images/Phan_hoi/phan_hoi3.webp" alt="Awesome Image" />
 									</div>
 								</div>
 								<div className="comment-one__content">
 									<div className="comment-one__content-top">
 										<div className="comment-one__top-left">
-											<h3 className="comment-one__author">Laquanda Bachmeier</h3>
+											<h3 className="comment-one__author">Giang Nguyễn</h3>
 											<p className="comment-one__date">
 												20 April, 2019 <span className="comment-one__date-sep">-</span> 4:00 pm
 											</p>
 											<p className="comment-one__text">
-												Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry
-												standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla
-												lobortis et not the aliquet.
+												Thật là quyết định đúng đắn khi chọn Du Học Tân Con Đường Vàng. Mọi thắc mắc hay
+												khó khắn trong vấn đề hồ sơ du học đều được giải thích và hỗ trợ cực kỳ nhiệt
+												tình!
 											</p>
 										</div>
 										<div className="comment-one__top-right">
@@ -264,25 +223,24 @@ const NewsDetails = () => {
 							<div className="comment-one__single">
 								<div className="comment-one__image">
 									<div className="inner-block">
-										<img src="/assets/images/comment-1-2.jpg" alt="Awesome Image" />
+										<img src="/assets/images/Phan_hoi/phan_hoi8.webp" alt="Awesome Image" />
 									</div>
 								</div>
 								<div className="comment-one__content">
 									<div className="comment-one__content-top">
 										<div className="comment-one__top-left">
-											<h3 className="comment-one__author">Vicente Elmore</h3>
+											<h3 className="comment-one__author">Thiên Nhi</h3>
 											<p className="comment-one__date">
 												20 April, 2019 <span className="comment-one__date-sep">-</span> 4:00 pm
 											</p>
 											<p className="comment-one__text">
-												Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry
-												standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla
-												lobortis et not the aliquet.
+												Đội ngũ nhân viên nhiệt tình, tận tụy. Luôn hỗ trợ hết mình cho khách hàng. Em rất
+												bất ngờ vì sự quá chu đáo của bên công ty mình!! Love NEW GOLDEN ROAD!!!
 											</p>
 										</div>
 										<div className="comment-one__top-right">
 											<a href="#" className="thm-btn comment-one__reply">
-												Reply
+												Trả lời
 											</a>
 										</div>
 									</div>
