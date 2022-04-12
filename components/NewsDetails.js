@@ -8,7 +8,7 @@ const NewsDetails = () => {
 					<div className="col-lg-8">
 						<div className="blog-one__single">
 							<div className="blog-one__image">
-								<img src="/assets/images/blog-d-1-1.jpg" alt="" />
+								<img src="/assets/images/New/du-hoc-tan-con-duong-vang-ielts-indicator.jpg" alt="" />
 								<p className="blog-one__text">IELTS INDICATOR là gì?</p>
 								<p className="blog-one__text">
 									Bạn cần lấy bằng IELTS để kịp thời gian ra trường, hay để đi du học, hoặc để thăng tiến hơn
