@@ -5812,6 +5812,7 @@ a:visited {
 	background-color: #f90a0a;
 	font-size: 20px;
 	color: #fff;
+	border-radius: 100px;
 }
 .video-two .thm-btn:hover {
 	background-color: #fff;
