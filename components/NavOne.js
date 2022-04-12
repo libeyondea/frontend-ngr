@@ -141,7 +141,7 @@ class NavOne extends Component {
 													</Link>
 												</li>
 												<li>
-													<Link href="/index-4">
+													<Link href="/ThongTinCanada">
 														<a>Thông Tin Nước Canada</a>
 													</Link>
 												</li>
@@ -549,13 +549,11 @@ class NavOne extends Component {
 								className="btn-slide"
 								onMouseEnter={() =>
 									this.setState({
-										...this.state,
 										showBtn: true
 									})
 								}
 								onMouseLeave={() =>
 									this.setState({
-										...this.state,
 										showBtn: false
 									})
 								}
