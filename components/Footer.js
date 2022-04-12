@@ -112,6 +112,7 @@ const Footer = () => {
 									</ul>
 								</div>
 							</div>
+
 							{/*<div className="col-xl-3 col-lg-6 col-sm-12">
 								<div className="footer-widget footer-widget__link">
 									<h2 className="footer-widget__title">Explore</h2>
@@ -201,12 +202,23 @@ const Footer = () => {
 								</div>
 							</div>*/}
 						</div>
+						<div className="row mt-0">
+							<div className="col-12 col-md-6"></div>
+							<div className="col-12 col-md-6 text-right">
+								<div className="text-white" style={{ fontSize: '25px' }}>
+									Số lượt truy cập
+								</div>
+								<div className="badge badge-secondary text-wrap" style={{ fontSize: '20px' }}>
+									12345
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div className="site-footer__bottom">
 					<div className="container">
 						<p className="site-footer__copy text-white">
-							<h5 className='banquyen'>&copy; Copyright 2020 by{' '}</h5>
+							<h5 className="banquyen">&copy; Copyright 2020 by </h5>
 							<a href="#" className="font-weight-bold">
 								Newgoldenroad.com
 							</a>
@@ -215,7 +227,7 @@ const Footer = () => {
 							<div onClick={scrollTop} className="scroll-to-target site-footer__scroll-top">
 								<i className="kipso-icon-top-arrow"></i>
 							</div>
-							<div className='icon'>
+							<div className="icon">
 								<a href="https://twitter.com/newgoldenroad">
 									<i className="fab fa-twitter"></i>
 								</a>
