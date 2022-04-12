@@ -1,5 +1,5 @@
 import Image from './Image';
-import Swiper from 'react-id-swiper';
+import { Slide } from 'react-slideshow-image';
 
 const TestimonialOne = () => {
 	const params = {
@@ -33,6 +33,31 @@ const TestimonialOne = () => {
 		}
 	};
 
+	const properties = {
+		duration: 3000,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		indicators: false,
+		arrows: false,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3
+				}
+			},
+			{
+				breakpoint: 500,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2
+				}
+			}
+		]
+	};
+
 	return (
 		<section className="testimonials-one testimonials-one__home-three pt-0">
 			<div className="container">
@@ -40,8 +65,8 @@ const TestimonialOne = () => {
 					<h2 className="block-title__title">Phản hồi khách hàng Du học Tân Con Đường Vàng</h2>
 				</div>
 				<div className="testimonials-one__carousel">
-					<Swiper {...params}>
-						<div className="item">
+					<Slide {...properties}>
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -60,7 +85,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Student</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -80,7 +105,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Student</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -100,7 +125,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Student</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -119,7 +144,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Student</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -139,7 +164,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Student</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -159,7 +184,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Student</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -178,7 +203,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Student</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -198,7 +223,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Student</p>
 							</div>
 						</div>
-					</Swiper>
+					</Slide>
 				</div>
 			</div>
 		</section>

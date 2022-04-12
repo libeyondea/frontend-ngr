@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
-import Swiper from 'react-id-swiper';
+//import { Swiper, SwiperSlide, useSwiper } from 'swiper/react/swiper-react';
 import Image from '../components/Image';
+import { Slide } from 'react-slideshow-image';
 
 const SliderTwo = () => {
-	const [swiper, setSwiper] = useState(null);
+	//const [swiper, setSwiper] = useState(null);
+	//const swiper = useSwiper();
 
 	const params = {
 		centeredSlides: true,
@@ -12,10 +13,10 @@ const SliderTwo = () => {
 		autoplay: {
 			delay: 3000,
 			disableOnInteraction: false
-		},
+		}
 	};
 
-	const goNext = () => {
+	/* const goNext = () => {
 		if (swiper !== null) {
 			swiper.slideNext();
 		}
@@ -25,13 +26,31 @@ const SliderTwo = () => {
 		if (swiper !== null) {
 			swiper.slidePrev();
 		}
+	}; */
+
+	const slideImages = ['/assets/images/banner-1.png', '/assets/images/banner-2.png', '/assets/images/banner-3.png'];
+
+	const properties = {
+		duration: 5000,
+		transitionDuration: 500,
+		infinite: true,
+		prevArrow: (
+			<div className="banner-carousel-btn__left-btn banner-arrow">
+				<i className="kipso-icon-left-arrow"></i>
+			</div>
+		),
+		nextArrow: (
+			<div className="banner-carousel-btn__right-btn banner-arrow">
+				<i className="kipso-icon-right-arrow"></i>
+			</div>
+		)
 	};
 
 	return (
 		<div className="banner-wrapper">
 			<section className="banner-two banner-carousel__one no-dots">
-				<Swiper getSwiper={setSwiper} {...params}>
-					{/* <div
+				{/* <Swiper getSwiper={setSwiper} {...params}> */}
+				{/* <div
 						className="banner-two__slide banner-two__slide-one"
 						style={{ backgroundImage: `url(assets/images/slider-2-1.jpg)` }}
 					>
@@ -50,7 +69,7 @@ const SliderTwo = () => {
 							</div>
 						</div>
 					</div> */}
-					<div>
+				{/* <div>
 						<Image alt="img" src="/assets/images/banner-1.png" isBlur width={1920} height={700} layout="responsive" />
 					</div>
 					<div>
@@ -59,14 +78,8 @@ const SliderTwo = () => {
 					<div>
 						<Image alt="img" src="/assets/images/banner-3.png" isBlur width={1920} height={700} layout="responsive" />
 					</div>
-					<div>
-						<Image alt="img" src="/assets/images/banner2.jpg" isBlur width={1920} height={700} layout="responsive" />
-					</div>
-					<div>
-						<Image alt="img" src="/assets/images/banner3.jpg" isBlur width={1920} height={700} layout="responsive" />
-					</div>
-	
-					{/* <div
+ 				*/}
+				{/* <div
 						className="banner-two__slide banner-two__slide-two"
 						style={{ backgroundImage: `url(assets/images/slider-2-2.jpg)` }}
 					>
@@ -85,16 +98,25 @@ const SliderTwo = () => {
 							</div>
 						</div>
 					</div> */}
-				</Swiper>
+				{/* </Swiper> */}
+				<Slide {...properties}>
+					{slideImages.map((url, index) => (
+						<div className="each-fade" key={index}>
+							<div className="image-container">
+								<Image alt="img" src={url} isBlur width={1920} height={700} layout="responsive" />
+							</div>
+						</div>
+					))}
+				</Slide>
 			</section>
-			<div className="banner-carousel-btn">
-				<div onClick={goPrev} className="banner-carousel-btn__left-btn banner-arrow">
+			{/* <div className="banner-carousel-btn">
+				<div onClick={() => swiper.slidePrev()} className="banner-carousel-btn__left-btn banner-arrow">
 					<i className="kipso-icon-left-arrow"></i>
 				</div>
-				<div onClick={goNext} className="banner-carousel-btn__right-btn banner-arrow">
+				<div onClick={() => swiper.slideNext()} className="banner-carousel-btn__right-btn banner-arrow">
 					<i className="kipso-icon-right-arrow"></i>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };

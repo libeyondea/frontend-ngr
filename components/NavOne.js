@@ -546,17 +546,14 @@ class NavOne extends Component {
 						<div id="wrap">
 							<a
 								href="#back-top"
-								
 								className="btn-slide"
 								onMouseEnter={() =>
 									this.setState({
-										...this.state,
 										showBtn: true
 									})
 								}
 								onMouseLeave={() =>
 									this.setState({
-										...this.state,
 										showBtn: false
 									})
 								}
