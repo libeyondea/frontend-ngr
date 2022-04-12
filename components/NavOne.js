@@ -123,7 +123,7 @@ class NavOne extends Component {
 											<a href="#">Du Học Canada</a>
 											<ul className="sub-menu">
 												<li>
-													<Link href="/DuHocCanada">
+													<Link href="/">
 														<a>
 															Các Trường Đại Học Và
 															<br /> Cao Đẳng Canada
@@ -425,7 +425,27 @@ class NavOne extends Component {
 											<Link href="/index-3">
 												<a>Home 03</a>
 											</Link>
-										</li>										
+										</li>
+										<li>
+											<a href="#">Header</a>
+											<ul className="sub-menu">
+												<li>
+													<Link href="/">
+														<a>Header 01</a>
+													</Link>
+												</li>
+												<li>
+													<Link href="/index-2">
+														<a>Header 02</a>
+													</Link>
+												</li>
+												<li>
+													<Link href="/index-3">
+														<a>Header 03</a>
+													</Link>
+												</li>
+											</ul>
+										</li>
 									</ul>
 								</li>
 								<li>
