@@ -25,6 +25,9 @@ const CacTruongCanada1 = () => {
             <div class="card">
                 <div class="card-header">Trường Southern Alberta Institute of Technology (SAIT) – Du học Canada – Du học Tân Con Đường Vàng</div>
                 <div class="card-body">
+                    <p class='img-card'>
+                        <img src="/assets/images/TruongHoc/SAIT.png" alt="" />
+                    </p>
                     <h5 class="card-title">Trường Southern Alberta Institute of Technology (SAIT)</h5>
                     <p class="card-text">SASKATCHEWAN POLYTECHNIC  Saskatchewan Polytechnic được thành lập vào năm 1941 tọa lạc tại Saskatchewan –
                     nơi được ví von là “Land of Living Skies” của Canada.  Cùng với 12 cơ sở nghiên cứu chuyên sâu, Saskatchewan Polytechnic còn 
@@ -32,14 +35,20 @@ const CacTruongCanada1 = () => {
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-            <div>
-            <table class='SoLuotTruyCap'>
-                <tr>
-                    <td>Số lượt truy cập</td>                      
-                    <td></td>
-                </tr>
-
-            </table>
+            <div class="card">
+                <div class="card-header">
+                    <p class="card-header-TH">Trường Saskatchewan Polytechnic – Du học Canada – Du học Tân Con Đường Vàng</p>
+                </div>
+                <div class="card-body">
+                <p class='img-card'>
+                        <img src="/assets/images/TruongHoc/SASK.png" alt="" />
+                    </p>
+                    <h5 class="card-title">Trường Saskatchewan Polytechnic</h5>
+                    <p class="card-text">SASKATCHEWAN POLYTECHNIC  Saskatchewan Polytechnic được thành lập vào năm 1941 tọa lạc tại Saskatchewan – 
+                    nơi được ví von là “Land of Living Skies” của Canada.  Cùng với 12 cơ sở nghiên cứu chuyên sâu, Saskatchewan Polytechnic còn 
+                    là thành viên của Nhóm các trường bách khoa Canada (Polytechnics Canada) …</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>       
        

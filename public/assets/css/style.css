@@ -4414,7 +4414,7 @@ a:visited {
 	width: 60px;
 	height: 60px;
 	cursor: pointer;
-	background-color: #33a9bb;
+	background-color: white;
 	border-radius: 50%;
 	position: absolute !important;
 	top: 0;
@@ -6785,13 +6785,7 @@ h3.title-comm:before {
 	text-align:center;
 	font-size:30px;
 }
-.SoLuotTruyCap{
-	margin: auto;
-	border: 1px;
-	width: 250px;
-	height: 20px;
-	align-content: center;
-}
+
 .media-play-icon {
     width: 130px ;
     height: 130px;
@@ -6837,4 +6831,12 @@ h3.title-comm:before {
 .media-icon{
 	font-size: 40px;
 	color: #fff;
+}
+
+card-header-TH{
+	color: #FF944D;
+}
+.img-card{
+	float: left;
+	padding-right: 10px;
 }

@@ -145,7 +145,7 @@ class NavOne extends Component {
 											</li>
 											<li>
 												<Link href="/index-3">
-													<a>VISA Canada</a>
+													<a>VISA Anh2</a>
 												</Link>
 											</li>
 											<li>
@@ -391,27 +391,7 @@ class NavOne extends Component {
 											<Link href="/index-3">
 												<a>Home 03</a>
 											</Link>
-										</li>
-										<li>
-											<a href="#">Header</a>
-											<ul className="sub-menu">
-												<li>
-													<Link href="/">
-														<a>Header 01</a>
-													</Link>
-												</li>
-												<li>
-													<Link href="/index-2">
-														<a>Header 02</a>
-													</Link>
-												</li>
-												<li>
-													<Link href="/index-3">
-														<a>Header 03</a>
-													</Link>
-												</li>
-											</ul>
-										</li>
+										</li>										
 									</ul>
 								</li>
 								<li>
