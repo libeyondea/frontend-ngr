@@ -1,33 +1,6 @@
 import React from 'react';
 
 const Flag = () => {
-	const params = {
-		slidesPerView: 5,
-		loop: true,
-		speed: 1000,
-		spaceBetween: 30,
-		autoplay: {
-			delay: 3000,
-			disableOnInteraction: false
-		},
-
-		// Responsive breakpoints
-		breakpoints: {
-			1024: {
-				slidesPerView: 5
-			},
-			768: {
-				slidesPerView: 4
-			},
-			640: {
-				slidesPerView: 3
-			},
-			320: {
-				slidesPerView: 2
-			}
-		}
-	};
-
 	return (
 		<section className="brand-two p-0 border-top-0">
 			<div className="container">
@@ -36,7 +9,6 @@ const Flag = () => {
 						<div className="d-flex flex-column text-center mb-4 mb-md-0 mr-0 mr-md-4">
 							<a href="#">
 								<img src="/assets/images/my.png" className="rounded-circle" alt="Du học Mỹ" />
-
 							</a>
 							<span className="font-weight-bold">
 								<a href="#">Du học Mỹ</a>

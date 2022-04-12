@@ -1,5 +1,5 @@
 import Image from './Image';
-import Swiper from 'react-id-swiper';
+import { Slide } from 'react-slideshow-image';
 
 const TestimonialOne = () => {
 	const params = {
@@ -33,6 +33,31 @@ const TestimonialOne = () => {
 		}
 	};
 
+	const properties = {
+		duration: 3000,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		indicators: false,
+		arrows: false,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3
+				}
+			},
+			{
+				breakpoint: 500,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2
+				}
+			}
+		]
+	};
+
 	return (
 		<section className="testimonials-one testimonials-one__home-three pt-0">
 			<div className="container">
@@ -40,8 +65,8 @@ const TestimonialOne = () => {
 					<h2 className="block-title__title">PHẢN HỒI CỦA KHÁCH HÀNG</h2>
 				</div>
 				<div className="testimonials-one__carousel">
-					<Swiper {...params}>
-						<div className="item">
+					<Slide {...properties}>
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -62,15 +87,14 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Du Học Úc</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
 								</div>
 								<p className="testimonials-one__text">
-									Cảm ơn Du Học Tân Con Đường Vàng đã đồng hành và giúp đỡ em trong suốt 
-									thời gian chuẩn bị những hành trang, kiến thức trên con đường du học Úc.
-					
+								Cảm ơn Du Học Tân Con Đường Vàng đã đồng hành và giúp đỡ em trong suốt 
+								thời gian chuẩn bị những hành trang, kiến thức trên con đường du học Úc.
 								</p>
 								<Image
 									src="/assets/images/phan_hoi2.jpg"
@@ -83,14 +107,14 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Du học Úc</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
 								</div>
 								<p className="testimonials-one__text">
-									Đội ngũ nhân viên nhiệt tình, tận tụy. Luôn hỗ trợ hết mình cho khách hàng.
-									Em rất bất ngờ vì sự quá chu đáo của bên công ty mình!! Love NEW GOLDEN ROAD!!!
+								Đội ngũ nhân viên nhiệt tình, tận tụy. Luôn hỗ trợ hết mình cho khách hàng.
+								Em rất bất ngờ vì sự quá chu đáo của bên công ty mình!! Love NEW GOLDEN ROAD!!!
 								</p>
 								<Image
 									src="/assets/images/phan_hoi3.jpg"
@@ -103,7 +127,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Du Học Canada</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -123,7 +147,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Du Học Anh</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -131,7 +155,6 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__text">
 								Từ con bé rỗng tuếch tiếng Anh 3 năm trời, giờ em đã tự tin bắt chuyện với 
 								người nước ngoài. Và nhờ Du Học Tân Con Đường Vàng, em đã đậu Visa đi Mỹ.
-								
 								</p>
 								<Image
 									src="/assets/images/phan_hoi5.jpg"
@@ -144,7 +167,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Định cư Mỹ</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -164,7 +187,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Định Cư Canada</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
@@ -184,15 +207,14 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Du Học Mỹ</p>
 							</div>
 						</div>
-						<div className="item">
+						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="testimonials-one__qoute">
 									<img src="/assets/images/qoute-1-1.png" alt="" />
 								</div>
 								<p className="testimonials-one__text">
-									Cảm ơn Du học Tân Con Đường Vàng đã tư vấn nhiệt tình cho 
-									em về việc chuẩn bị hồ sơ du học Úc. Cảm thấy buồn vì phải xa
-									những con người ở đây.
+								Cảm ơn Du học Tân Con Đường Vàng đã tư vấn nhiệt tình cho 
+								em về việc chuẩn bị hồ sơ du học Úc. Cảm thấy buồn vì phải xa những con người ở đây.
 								</p>
 								<Image
 									src="/assets/images/phan_hoi8.jpg"
@@ -205,7 +227,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__designation">Du Học Úc</p>
 							</div>
 						</div>
-					</Swiper>
+					</Slide>
 				</div>
 			</div>
 		</section>

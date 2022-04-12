@@ -41,8 +41,8 @@ export default class Video extends Component {
 									videoId="o_qQ30wWdPY"
 									onClose={() => this.setState({ isOpen: false })}
 								/>
-								<div onClick={this.openModal} className="media-play-icon">
-									<i className="fas fa-play media-icon" />
+								<div onClick={this.openModal} className="video-two__popup">
+									<i className="fa fa-play"></i>
 								</div>
 							</div>
 						</div>
