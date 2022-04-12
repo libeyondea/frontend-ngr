@@ -211,7 +211,7 @@ const Footer = () => {
 								Newgoldenroad.com
 							</a>
 						</p>
-					{/*  <div className="site-footer__social">
+						<div className="site-footer__social">
 							<div onClick={scrollTop} className="scroll-to-target site-footer__scroll-top">
 								<i className="kipso-icon-top-arrow"></i>
 							</div>
@@ -224,23 +224,15 @@ const Footer = () => {
 							</a>
 							<a href="#">
 								<i className="fab fa-pinterest-p text-white"></i>
-
-
 							</a>
 							<a href="#">
 								<i className="fab fa-instagram text-white"></i>
 							</a>
-						</div>*/}
-						<div class="site-footer__social">
-							<a class="ttip-none" title="Google+" href="https://newgoldenroad.com" target="_blank"><i class="fa fa-google-plus"></i></a>
-							<a class="fab fa-facebook-square text-white" title="Facebook" href="https://www.facebook.com/newgoldenroad" target="_blank"><i class="fa fa-facebook"></i></a>
-							<a class="fab fa-twitter text-white" title="Twitter" href="https://twitter.com/newgoldenroad" target="_blank"><i class="fa fa-twitter"></i></a>
-							<a class="fab fa-youtube text-white" title="Youtube" href="http://www.youtube.com/newgoldenroad" target="_blank"><i class="fa fa-youtube"></i></a>
-							<a class="fab fa-instagram text-white" title="instagram" href="http://instagram.com/newgoldenroad" target="_blank"><i class="fa fa-instagram"></i></a>
 						</div>
 					</div>
 				</div>
 			</footer>
+
 			<div className="search-popup">
 				<div className="search-popup__overlay custom-cursor__overlay search-overlay"></div>
 				<div className="search-popup__inner">
