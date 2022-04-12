@@ -3,14 +3,14 @@ import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
-import ThongtinCa from "../components/ThongtinCa";
+import ThongTinCa from "../components/ThongTinCa";
 
 const ThongTinCanada = () => {
     return (
         <Layout pageTitle="Tân Con Đường Vàng | Thông tin Canada">
             <NavOne />
             <PageHeader title="Thông tin Canada" />
-            <ThongtinCa />
+            <ThongTinCa />
             <Footer />
         </Layout>
     );

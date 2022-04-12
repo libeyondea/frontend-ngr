@@ -403,8 +403,6 @@ a:visited {
 	padding: 35px 0;
 	display: inline-block;
 	vertical-align: middle;
-	/* Second Level Menu */
-	/* Thrid Level Menu */
 }
 .header-navigation ul.navigation-box > li + li {
 	margin-left: 48px;
@@ -499,9 +497,6 @@ a:visited {
 .header-navigation ul.navigation-box > li:hover > .sub-menu {
 	opacity: 1;
 	visibility: visible;
-}
-.header-navigation ul.navigation-box > li > ul > li {
-	/* no more nested showen */
 }
 .header-navigation ul.navigation-box > li > ul > li > .sub-menu {
 	position: absolute;
@@ -6704,7 +6699,15 @@ html {
 	left: 80px;
 	opacity: 0;
 }
+.btn-slide span.title-hover,
+.btn-slide2 span.title-hover2 {
+	color: #fff;
+}
 
+.fixstyle {
+	margin-left: 60px;
+	margin-top: -19px;
+}
 .away{
 	text-align:center;
 	font-size:30px;

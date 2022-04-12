@@ -1,39 +1,7 @@
-import React from 'react';
-import Swiper from 'react-id-swiper';
 import Link from 'next/link';
 import Image from '../components/Image';
 
 const Customer = () => {
-	const params = {
-		slidesPerView: 3,
-		loop: true,
-		speed: 1000,
-		spaceBetween: 30,
-		autoplay: {
-			delay: 3000,
-			disableOnInteraction: false
-		},
-		pagination: {
-			el: '.swiper-pagination',
-			clickable: true
-		},
-
-		// Responsive breakpoints
-		breakpoints: {
-			1024: {
-				slidesPerView: 3
-			},
-			768: {
-				slidesPerView: 2
-			},
-			640: {
-				slidesPerView: 2
-			},
-			320: {
-				slidesPerView: 1
-			}
-		}
-	};
 	return (
 		<div>
 			<section className="course-one__top-title home-two">
