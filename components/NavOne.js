@@ -579,9 +579,9 @@ class NavOne extends Component {
 				</button>
 				<div className="chat-popup" id="myForm">
 					<form action="/action_page.php" className="form-container">
-						<button type="button" className="btn cancel" onClick={(event) => this.closeForm(event)}>
+						{/*<button type="button" className="btn cancel" onClick={(event) => this.closeForm(event)}>
 							Close
-						</button>
+						</button>*/}
 					</form>
 				</div>
 			</header>
