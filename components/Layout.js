@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Script from 'next/script';
 
 const Layout = (props) => {
 	return (
@@ -7,8 +8,8 @@ const Layout = (props) => {
 				<title>{props.pageTitle}</title>
 			</Head>
 			<div className="page-wrapper">{props.children}</div>
-			<script src="/assets/plugins/bootstrap/jquery.min.js"></script>
-			<script src="/assets/plugins/bootstrap/bootstrap.min.js"></script>
+			<Script src="/assets/plugins/bootstrap/jquery.min.js" strategy="beforeInteractive" />
+			<Script src="/assets/plugins/bootstrap/bootstrap.min.js" strategy="beforeInteractive" />
 		</div>
 	);
 };
