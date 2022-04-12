@@ -6007,11 +6007,9 @@ a:visited {
 	height: 100px;
 }
 .brand-one__carousel img:hover {
-	transform: scale(1.5);
+	transform: scale(1.3);
 	transition: 1s;
 }
-
-
 .brand-two {
 	padding: 120px 0;
 	border-top: 2px solid #f1f1f1;
@@ -6583,7 +6581,7 @@ html {
 	height: 330px;
 }
 .row {
-	margin-top: 50px;
+	margin-top: 6px;
 }
 
 .course-category-one {
@@ -6595,7 +6593,7 @@ html {
 	margin: 0;
 	color: #012237 !important;
 	font-size: 2rem !important;
-	margin-top: 53px;
+	margin-top: 29px;
 }
 
 .become-teacher__form-top {
@@ -6754,9 +6752,11 @@ html {
 	background-color: red;
 	border-radius: 50%;
 	position: relative;
-	line-height: 130px;
+	line-height: 140px;
 	text-align: center;
 	cursor: pointer;
+	font-size: 40px;
+	color: #fff;
 }
 .media-play-icon::before,
 .media-play-icon::after {
