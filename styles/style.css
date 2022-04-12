@@ -6578,7 +6578,7 @@ html {
 .site-footer__upper {
 	padding: 50px;
 	background: #ff944d;
-	height: 330px;
+	/* height: 330px; */
 }
 .row {
 	margin-top: 6px;
