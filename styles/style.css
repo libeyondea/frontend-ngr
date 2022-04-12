@@ -5980,19 +5980,23 @@ a:visited {
 .brand-one__home-three {
 	border-top: 2px solid #f1f1f1;
 }
-
 .brand-one__carousel {
-	padding-left: 45px;
-	padding-right: 45px;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	transition: 1s;
+	margin: auto;
+	box-sizing: border-box;
 }
 .brand-one__carousel img {
-	opacity: 0.2;
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
+	opacity: 1 !important;
+	width: 100px;
+	height: 100px;
 }
 .brand-one__carousel img:hover {
-	opacity: 0.6;
+	transform: scale(1.5);
+	transition: 1s;
 }
+
 
 .brand-two {
 	padding: 120px 0;
