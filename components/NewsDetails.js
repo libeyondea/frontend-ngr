@@ -1,128 +1,14 @@
 import React from 'react';
+
 const NewsDetails = () => {
 	return (
 		<section className="blog-details">
-			<div id="breaking-news" className="breaking-news">
-				<span className="breaking-news-title">
-					<span>TIN MỚI NHẤT</span>
-				</span>
-				<ul className="innerFade" style={{ position: 'relative', height: 32 }}>
-					<li style={{ display: 'block', zIndex: 10, position: 'absolute' }}>
-						<a
-							href="https://newgoldenroad.com/du-hoc-uc-sophia-nhi-do-tot-nghiep-truong-woodcroft-college-du-hoc-tan-con-duong-vang/"
-							title="[DU HỌC ÚC] – Du học sinh Sophia Nhi Đỗ vừa tốt nghiệp trường Woodcroft College – Du học Úc – Du học Tân Con Đường Vàng"
-						>
-							[DU HỌC ÚC] – Du học sinh Sophia Nhi Đỗ vừa tốt nghiệp trường Woodcroft College – Du học Úc – Du học
-							Tân Con Đường Vàng
-						</a>
-					</li>
-				</ul>
-			</div>
 			<div className="container">
 				<div className="row">
-					<div id="crumbs" style={{ paddingTop: '20px' }}>
-						<span typeof="v:Breadcrumb">
-							<a className="crumbs-home" href="https://newgoldenroad.com">
-								Trang Chủ
-							</a>
-						</span>
-						&nbsp;&nbsp;
-						<span className="delimiter">/</span>
-						&nbsp;&nbsp;
-						<span typeof="v:Breadcrumb">
-							<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
-								Hoạt Động Công Ty
-							</a>
-						</span>
-						&nbsp;&nbsp;
-						<span className="delimiter">/</span>
-						&nbsp;&nbsp;
-						<span className="current">
-							[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
-						</span>
-					</div>
-
-					<div className="">
+					<div className="col-lg-8">
 						<div className="blog-one__single">
-							<h2 className="blog-one__title">
-								[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
-							</h2>
-							<div>
-								<p className="post-meta">
-									<span className="post-meta-author">
-										<i className="fa fa-user" />
-										&nbsp;&nbsp;
-										<a href="https://newgoldenroad.com/author/admin/" title>
-											admin
-										</a>
-									</span>
-									<span className="tie-date">
-										<i className="fa fa-clock-o" />1 Tháng Chín, 2021
-									</span>
-									<span className="post-cats">
-										<i className="fa fa-folder" />
-										&nbsp;&nbsp;
-										<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" rel="category tag">
-											Hoạt Động Công Ty
-										</a>
-										,&nbsp;&nbsp;
-										<a
-											href="https://newgoldenroad.com/chuyen-muc/chuong-trinh-dao-tao/luyen-ielts-du-hoc/"
-											rel="category tag"
-										>
-											Luyện IELTS Du Học
-										</a>
-										,&nbsp;&nbsp;
-										<a href="https://newgoldenroad.com/chuyen-muc/tin-tuc/" rel="category tag">
-											Tin Tức
-										</a>
-										,&nbsp;&nbsp;
-										<a href="https://newgoldenroad.com/chuyen-muc/dang-ky-thi-ielts/" rel="category tag">
-											Đăng Ký Thi IELTS
-										</a>
-									</span>
-									<span className="post-views">
-										<i className="fa fa-eye" />
-										&nbsp;&nbsp; 1,410 Views
-									</span>
-								</p>
-								<div className="clear" />
-							</div>
-
 							<div className="blog-one__image">
-								<img src="/assets/images/New/du-hoc-tan-con-duong-vang-ielts-indicator.jpg" alt="" />
-							</div>
-							<div className="blog-one__content text-center">
-								<div className="blog-one__meta">
-									<a
-										data-toggle="tooltip"
-										data-placement="top"
-										title=""
-										href="#"
-										data-original-title="Posted On Jan 19"
-									>
-										<i className="fa fa-calendar-alt"></i>
-									</a>
-									<a
-										data-toggle="tooltip"
-										data-placement="top"
-										title=""
-										href="#"
-										data-original-title="No Comments"
-									>
-										<i className="fa fa-comments"></i>
-									</a>
-									<a
-										data-toggle="tooltip"
-										data-placement="top"
-										title=""
-										href="#"
-										data-original-title="Posted By Admin"
-									>
-										<i className="fa fa-user"></i>
-									</a>
-								</div>
-
+								<img src="/assets/images/blog-d-1-1.jpg" alt="" />
 								<p className="blog-one__text">IELTS INDICATOR là gì?</p>
 								<p className="blog-one__text">
 									Bạn cần lấy bằng IELTS để kịp thời gian ra trường, hay để đi du học, hoặc để thăng tiến hơn
