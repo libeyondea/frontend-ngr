@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Teachers = () => {
+const Khachhang = () => {
 	return (
 		<section className="team-one team-page">
 			<div className="container">
@@ -14,7 +14,7 @@ const Teachers = () => {
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a>Đan Vy</a>
+										<a className="tenkh">Đan Vy</a>
 									</Link>
 								</h2>
 								<p className="team-one__designation">Khách hàng</p>
@@ -195,16 +195,18 @@ const Teachers = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img className="img-kh" src="/assets/images/KH_NGR/kh1.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/KH_NGR/kh13.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a>Lizzie Butler</a>
+										<a>Vy Nguyễn</a>
 									</Link>
 								</h2>
-								<p className="team-one__designation">Teacher</p>
-								<p className="team-one__text">There are many varia of passages of lorem.</p>
+								<p className="team-one__designation">Khách Hàng</p>
+								<p className="team-one__text">
+									Hiện đang học lớp 10 trường Forest Lawn High School tại Calgary, Canad.
+								</p>
 							</div>
 							<div className="team-one__social">
 								<a href="#">
@@ -225,16 +227,16 @@ const Teachers = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img className="img-kh" src="/assets/images/KH_NGR/kh1.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/KH_NGR/kh14.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a>Trevor Turner</a>
+										<a>Đỗ Thị Kim Nhi</a>
 									</Link>
 								</h2>
-								<p className="team-one__designation">Teacher</p>
-								<p className="team-one__text">There are many varia of passages of lorem.</p>
+								<p className="team-one__designation">Khách Hàng</p>
+								<p className="team-one__text">đã tốt nghiệp trường Woodcroft College tại Adelaide, Úc.</p>
 							</div>
 							<div className="team-one__social">
 								<a href="#">
@@ -258,4 +260,4 @@ const Teachers = () => {
 	);
 };
 
-export default Teachers;
+export default Khachhang;
