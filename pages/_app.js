@@ -4,6 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import '../styles/style-icon.css';
 import '../styles/style.css';
 import '../styles/new.css';
+import '../styles/kh.css';
 import '../styles/responsive.css';
 import '../node_modules/react-modal-video/scss/modal-video.scss';
 import 'react-slideshow-image/dist/styles.css';
