@@ -634,8 +634,8 @@ a:visited {
 }
 
 [class*='site-header__decor-inner-'] {
-
 }
+
 [class*='site-header__decor-inner-']::before {
 	content: '';
 	position: absolute;
@@ -652,7 +652,7 @@ a:visited {
 }
 
 .site-header__decor-inner-3::before {
-	background-color: #FF944D;
+	background-color: #ff944d;
 }
 
 .header__social {
@@ -2843,9 +2843,9 @@ a:visited {
 .become-teacher__form-btn {
 	font-size: 18px;
 	margin-top: 10px;
-    background-color: #FF944D;
-    border-radius: 50px;
-	border:none;
+	background-color: #ff944d;
+	border-radius: 50px;
+	border: none;
 	font-weight: bold;
 	color: #fff;
 	padding: 11.5px 46px;
@@ -4381,8 +4381,7 @@ a:visited {
 	position: relative;
 }
 
-.icon{
-
+.icon {
 	margin-top: -20px;
 }
 
@@ -4395,7 +4394,6 @@ a:visited {
 	height: 100%;
 	background-color: #022c46;
 }
-
 
 .site-footer__social a {
 	color: #94a3ac;
@@ -4427,7 +4425,7 @@ a:visited {
 	width: 60px;
 	height: 60px;
 	cursor: pointer;
-	background-color: #FF0000;
+	background-color: #ff0000;
 	border-radius: 50%;
 	position: absolute !important;
 	top: 0;
@@ -6470,6 +6468,8 @@ html {
 
 .video-two {
 	padding: 50px 0 !important;
+	padding-top: 100px !important;
+	padding-bottom: 100px !important;
 	background-image: none !important;
 }
 
@@ -6629,8 +6629,6 @@ html {
 } */
 
 /* news */
-
-
 
 /* scroll res */
 
@@ -6794,14 +6792,20 @@ html {
 }
 .table-ngoaite{
 	width: 80%;
+}
+.table-ngoaite {
+	width: 50%;
 	margin-top: 20px;
 }
-.table-ngoaite, tr, th, td {
-	border:2px #ff944d solid;
+.table-ngoaite,
+tr,
+th,
+td {
+	border: 2px #ff944d solid;
 	color: #000;
 	text-align: center;
 }
-.table-ngoaite th{
+.table-ngoaite th {
 	background-color: #f7be81;
 	width: 35%;
 }
@@ -6811,6 +6815,14 @@ html {
 	font-size: 22px;
 	font-weight: bold;
 	margin: auto;
+}
+
+/* video style */
+
+.video-two::before {
+	background-size: auto 100% !important;
+	background-repeat: no-repeat !important;
+	background-position: left top !important;
 }
 
 /*Trang các trường Canada*/
@@ -6862,7 +6874,7 @@ html {
 	padding-bottom: 20px;
 	text-shadow: 5px 5px 2px #A50505, 0 0 25px wheat, 0 0 8px white;
 }
-.card-header-TH{
+.card-header-TH {
 	background-color: #ffd19f;
 	color: #ff944d;
 	font-weight: bolder;
@@ -6874,7 +6886,7 @@ html {
 	margin-bottom: auto;
 	margin-left: 80px;
 }
-.card-title-TH{
+.card-title-TH {
 	color: #000;
 }
 .card-text-TH{
@@ -6895,27 +6907,132 @@ html {
 }
 /********************CHAT BUTTON****************************/
 
-@keyframes zoom{0%{transform:scale(.5);opacity:0}50%{opacity:1}to{opacity:0;transform:scale(1)}}
-@keyframes lucidgenzalo{0% {transform:rotate(-25deg)}50%{transform:rotate(25deg)}}
-.jscroll-to-top{bottom:100px}
-.fcta-zalo-ben-trong-nut svg path{fill:#fff}
-.fcta-zalo-vi-tri-nut{position:fixed;bottom:185px;right:20px;z-index:999}
-.fcta-zalo-nen-nut,div.fcta-zalo-mess{box-shadow:0 1px 6px rgba(0,0,0,.06),0 2px 32px rgba(0,0,0,.16)}
-.fcta-zalo-nen-nut{width:50px;height:50px;text-align:center;color:#fff;background:#0068ff;border-radius:50%;position:relative}
+@keyframes zoom {
+	0% {
+		transform: scale(0.5);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+		transform: scale(1);
+	}
+}
+@keyframes lucidgenzalo {
+	0% {
+		transform: rotate(-25deg);
+	}
+	50% {
+		transform: rotate(25deg);
+	}
+}
+.jscroll-to-top {
+	bottom: 100px;
+}
+.fcta-zalo-ben-trong-nut svg path {
+	fill: #fff;
+}
+.fcta-zalo-vi-tri-nut {
+	position: fixed;
+	bottom: 185px;
+	right: 20px;
+	z-index: 999;
+}
+.fcta-zalo-nen-nut,
+div.fcta-zalo-mess {
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06), 0 2px 32px rgba(0, 0, 0, 0.16);
+}
+.fcta-zalo-nen-nut {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	color: #fff;
+	background: #0068ff;
+	border-radius: 50%;
+	position: relative;
+}
 .fcta-zalo-nen-nut::after,
-.fcta-zalo-nen-nut::before{content:"";position:absolute;border:1px solid #0068ff;background:#0068ff80;z-index:-1;left:-20px;right:-20px;top:-20px;bottom:-20px;border-radius:50%;animation:zoom 1.9s linear infinite}
-.fcta-zalo-nen-nut::after{animation-delay:.4s}
+.fcta-zalo-nen-nut::before {
+	content: '';
+	position: absolute;
+	border: 1px solid #0068ff;
+	background: #0068ff80;
+	z-index: -1;
+	left: -20px;
+	right: -20px;
+	top: -20px;
+	bottom: -20px;
+	border-radius: 50%;
+	animation: zoom 1.9s linear infinite;
+}
+.fcta-zalo-nen-nut::after {
+	animation-delay: 0.4s;
+}
 .fcta-zalo-ben-trong-nut,
-.fcta-zalo-ben-trong-nut i{transition:all 1s}
-.fcta-zalo-ben-trong-nut{position:absolute;text-align:center;width:60%;height:60%;left:10px;bottom:25px;line-height:70px;font-size:25px;opacity:1}
-.fcta-zalo-ben-trong-nut i{animation:lucidgenzalo 1s linear infinite}
-.fcta-zalo-nen-nut:hover
-.fcta-zalo-ben-trong-nut,
-.fcta-zalo-text{opacity:0}
-.fcta-zalo-nen-nut:hover i{transform:scale(.5);transition:all .5s ease-in}
-.fcta-zalo-text a{text-decoration:none;color:#fff}.fcta-zalo-text{position:absolute;top:6px;text-transform:uppercase;font-size:12px;font-weight:700;transform:scaleX(-1);transition:all .5s;line-height:1.5}
-.fcta-zalo-nen-nut:hover .fcta-zalo-text{transform:scaleX(1);opacity:1}div
-.fcta-zalo-mess{position:fixed;bottom:185px;right:58px;z-index:99;background:#fff;padding:7px 25px 7px 15px;color:#0068ff;border-radius:50px 0 0 50px;font-weight:700;font-size:15px}
-.fcta-zalo-mess span{color:#0068ff!important}
-span#fcta-zalo-tracking{font-family:Roboto;line-height:1.5}.fcta-zalo-text{font-family:Roboto}
-
+.fcta-zalo-ben-trong-nut i {
+	transition: all 1s;
+}
+.fcta-zalo-ben-trong-nut {
+	position: absolute;
+	text-align: center;
+	width: 60%;
+	height: 60%;
+	left: 10px;
+	bottom: 25px;
+	line-height: 70px;
+	font-size: 25px;
+	opacity: 1;
+}
+.fcta-zalo-ben-trong-nut i {
+	animation: lucidgenzalo 1s linear infinite;
+}
+.fcta-zalo-nen-nut:hover .fcta-zalo-ben-trong-nut,
+.fcta-zalo-text {
+	opacity: 0;
+}
+.fcta-zalo-nen-nut:hover i {
+	transform: scale(0.5);
+	transition: all 0.5s ease-in;
+}
+.fcta-zalo-text a {
+	text-decoration: none;
+	color: #fff;
+}
+.fcta-zalo-text {
+	position: absolute;
+	top: 6px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	transform: scaleX(-1);
+	transition: all 0.5s;
+	line-height: 1.5;
+}
+.fcta-zalo-nen-nut:hover .fcta-zalo-text {
+	transform: scaleX(1);
+	opacity: 1;
+}
+div .fcta-zalo-mess {
+	position: fixed;
+	bottom: 185px;
+	right: 58px;
+	z-index: 99;
+	background: #fff;
+	padding: 7px 25px 7px 15px;
+	color: #0068ff;
+	border-radius: 50px 0 0 50px;
+	font-weight: 700;
+	font-size: 15px;
+}
+.fcta-zalo-mess span {
+	color: #0068ff !important;
+}
+span#fcta-zalo-tracking {
+	font-family: Roboto;
+	line-height: 1.5;
+}
+.fcta-zalo-text {
+	font-family: Roboto;
+}
