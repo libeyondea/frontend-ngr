@@ -6254,7 +6254,6 @@ a:visited {
 	font-weight: 700;
 	margin-top: -15px;
 	text-align: center;
-	width: 60%;
 }
 .countdown-one__tag-line {
 	margin: 0;
@@ -6883,7 +6882,7 @@ td {
 	text-align: center;
 }
 .card-TH{
-	width: 55%;
+	width: 100%;
 	margin-bottom: auto;
 	margin-left: 80px;
 }
@@ -6898,7 +6897,7 @@ td {
 	padding-right:20px;
 }
 .countdown-one__content-LuotTruyCap{
-	width: 40%;
+	width: 100%;
 }
 .luottruycap{
 	margin-top: 45px;

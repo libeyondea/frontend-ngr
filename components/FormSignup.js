@@ -6,7 +6,7 @@ const FormSignup = () => {
 		<section className="countdown-one">
 			<div className="container">
 				<div className="row">
-				<div className="col-lg-4">
+				<div className="col-lg-6">
 						<div className="countdown-one__content">
 							<h2 className="countdown-one__title">TẠI SAO PHẢI CHỌN TÂN CON ĐƯỜNG VÀNG ? </h2>
 							<p className="countdown-one__tag-line">Du học tân con đường vàng nơi chấp cánh ước mơ</p>
@@ -73,7 +73,7 @@ const FormSignup = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-lg-6">
+					<div className="col-lg-4">
 						<div className="become-teacher__form" id="back-top">
 							<div className="become-teacher__form-top">
 								<h2 className="become-teacher__form-title">TƯ VẤN MIỄN PHÍ</h2>
