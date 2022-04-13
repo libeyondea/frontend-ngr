@@ -9,7 +9,7 @@ const Teachers = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img src="/assets/images/KH_NGR/kh7.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/KH_NGR/kh7.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
@@ -39,7 +39,7 @@ const Teachers = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img src="/assets/images/KH_NGR/kh8.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/KH_NGR/kh8.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
@@ -69,7 +69,7 @@ const Teachers = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img src="/assets/images/KH_NGR/kh9.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/KH_NGR/kh9.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
@@ -99,7 +99,7 @@ const Teachers = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img src="/assets/images/KH_NGR/kh10.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/KH_NGR/kh10.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
@@ -131,7 +131,7 @@ const Teachers = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img src="/assets/images/KH_NGR/kh11.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/KH_NGR/kh11.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
@@ -163,7 +163,7 @@ const Teachers = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img src="/assets/images/KH_NGR/kh12.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/KH_NGR/kh12.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
@@ -195,7 +195,7 @@ const Teachers = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img src="/assets/images/KH_NGR/kh1.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/KH_NGR/kh1.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
@@ -225,7 +225,7 @@ const Teachers = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img src="/assets/images/KH_NGR/kh1.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/KH_NGR/kh1.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
