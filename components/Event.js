@@ -66,7 +66,7 @@ const Event = () => {
 					</div>
 				</div>
 			</section>
-			<section className="course-one course-one__teacher-details home-one" style={{ 'padding-bottom': '150px' }}>
+			<section className="course-one course-one__teacher-details home-one">
 				<div className="container">
 					<div className="course-one__carousel">
 						<Slide {...properties}>
