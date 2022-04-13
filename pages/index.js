@@ -10,6 +10,7 @@ import FormSignup from '../components/FormSignup';
 import TestimonialOne from '../components/TestimonialOne';
 import Partner from '../components/Partner';
 import Footer from '../components/Footer';
+import Chat from '../components/Chat';
 
 const HomePageTwo = () => {
 	return (
@@ -24,6 +25,7 @@ const HomePageTwo = () => {
 			<TestimonialOne />
 			<Partner />
 			<Footer />
+			<Chat />
 		</Layout>
 	);
 };
