@@ -6786,5 +6786,6 @@ html {
 .media-play-icon::after {
 	animation-delay: 0.5s;
 }
-/*******************************/
-
+.table-ngoaite, th, td {
+	border:2px solid black;
+  }
