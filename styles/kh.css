@@ -1,0 +1,12 @@
+.img-kh {
+    width: 206px;
+    height: 206px;
+}
+.inner-banner {
+    background-color: #011928;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-image: url(../images/banner3.jpg);
+}

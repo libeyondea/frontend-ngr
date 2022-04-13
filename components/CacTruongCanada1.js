@@ -26,7 +26,7 @@ const CacTruongCanada1 = () => {
 					<p class='img-card'>
 						<img src="/assets/images/TruongHoc/SAIT.png" alt="Trường Southern Alberta Institute of Technology (SAIT)" />
 					</p>
-					<h5 class="card-title">Trường Southern Alberta Institute of Technology (SAIT)</h5>
+					<h5 class="card-title-TH">Trường Southern Alberta Institute of Technology (SAIT)</h5>
 					<p class="card-text">SASKATCHEWAN POLYTECHNIC  Saskatchewan Polytechnic được thành lập vào năm 1941 tọa lạc tại Saskatchewan –
 					nơi được ví von là “Land of Living Skies” của Canada.  Cùng với 12 cơ sở nghiên cứu chuyên sâu, Saskatchewan Polytechnic còn 
 					là thành viên của Nhóm các trường bách khoa Canada (Polytechnics Canada) …</p>
@@ -41,7 +41,7 @@ const CacTruongCanada1 = () => {
 					<p class='img-card'>
 						<img src="/assets/images/TruongHoc/SASK.png" alt="Trường Saskatchewan Polytechnic" />
 					</p>
-					<h5 class="card-title">Trường Saskatchewan Polytechnic</h5>
+					<h5 class="card-title-TH">Trường Saskatchewan Polytechnic</h5>
 					<p class="card-text">SASKATCHEWAN POLYTECHNIC  Saskatchewan Polytechnic được thành lập vào năm 1941 tọa lạc tại Saskatchewan – 
 					nơi được ví von là “Land of Living Skies” của Canada.  Cùng với 12 cơ sở nghiên cứu chuyên sâu, Saskatchewan Polytechnic còn 
 					là thành viên của Nhóm các trường bách khoa Canada (Polytechnics Canada) …</p>
@@ -56,7 +56,7 @@ const CacTruongCanada1 = () => {
 					<p class='img-card'>
 						<img src="/assets/images/TruongHoc/BRITI.png" alt="Trường British Columbia University" />
 					</p>
-					<h5 class="card-title">Trường British Columbia University</h5>
+					<h5 class="card-title-TH">Trường British Columbia University</h5>
 					<p class="card-text">BRITISH COLUMBIA UNIVERSITY British Columbia – ngôi trường của những giải Nobel và những người nổi tiếng. 
 					Nếu Mỹ có Đại học Havard, Anh có Đại học Oxford thì Canada có Đại học British Columbia. Du học, ai cũng mong được sở hữu tấm bằng 
 					của những trường danh tiếng. …</p>
@@ -71,7 +71,7 @@ const CacTruongCanada1 = () => {
 					<p class='img-card'>
 							<img src="/assets/images/TruongHoc/COAST.png" alt="Trường Coast Mountain College" />
 					</p>
-					<h5 class="card-title">Trường Coast Mountain College</h5>
+					<h5 class="card-title-TH">Trường Coast Mountain College</h5>
 					<p class="card-text">COAST MOUNTAIN COLLEGE Coast Mountain College (CMTN) được thành lập dưới sự công nhận của Chính phủ. 
 					Toạ lạc tại khu vực cộng đồng dân cư thịnh vượng và đa dạng của Tây Bắc thuộc tỉnh British Columbia. Coast Mountain
 						College cung cấp nhiều chương trình đào tạo chất lượng với …</p>

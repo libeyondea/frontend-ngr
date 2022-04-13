@@ -8,10 +8,10 @@ const FormSignup = () => {
 				<div className="row">
 					<div className="col-lg-6">
 						<div className="countdown-one__content">
-							<h2  className="countdown-one__title">TỶ GIÁ NGOẠI TỆ</h2>
+							<h2 className="countdown-one__title">TỶ GIÁ NGOẠI TỆ</h2>
 							<table class='table-ngoaite'> 				
 								<tr>
-									<th>Mã NT</th>
+									<th>Mã Ngoại Tệ</th>
 									<th>Mua Vào</th>
 									<th>Bán Ra</th>
 								</tr>
