@@ -112,7 +112,8 @@ const Footer = () => {
 									</ul>
 								</div>
 							</div>
-							{/* <div className="col-xl-3 col-lg-6 col-sm-12">
+
+							{/*<div className="col-xl-3 col-lg-6 col-sm-12">
 								<div className="footer-widget footer-widget__link">
 									<h2 className="footer-widget__title">Explore</h2>
 									<div className="footer-widget__link-wrap">
@@ -199,14 +200,27 @@ const Footer = () => {
 										</a>
 									</div>
 								</div>
-							</div> */}
+							</div>*/}
+						</div>
+						<div className="row mt-0">
+							<div className="col-12 col-md-6"></div>
+							<div className="col-12 col-md-6 text-right">
+								<div className="text-white" style={{ fontSize: '21px',textAlign: 'center' }}>
+									Số lượt truy cập: 
+								
+								<div className="badge badge-secondary text-wrap" style={{ fontSize: '20px',color: '#F8FF0E'}}>
+									12345
+									</div>
+									
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div className="site-footer__bottom">
 					<div className="container">
 						<p className="site-footer__copy text-white">
-							&copy; Copyright 2020 by{' '}
+							<h5 className="banquyen">&copy; Copyright 2020 by </h5>
 							<a href="#" className="font-weight-bold">
 								Newgoldenroad.com
 							</a>
@@ -215,19 +229,20 @@ const Footer = () => {
 							<div onClick={scrollTop} className="scroll-to-target site-footer__scroll-top">
 								<i className="kipso-icon-top-arrow"></i>
 							</div>
-
-							<a href="https://twitter.com/newgoldenroad">
-								<i className="fab fa-twitter text-white"></i>
-							</a>
-							<a href="https://www.facebook.com/newgoldenroad">
-								<i className="fab fa-facebook-square text-white"></i>
-							</a>
-							<a href="#">
-								<i className="fab fa-pinterest-p text-white"></i>
-							</a>
-							<a href="#">
-								<i className="fab fa-instagram text-white"></i>
-							</a>
+							<div className="icon">
+								<a href="https://twitter.com/newgoldenroad">
+									<i className="fab fa-twitter"></i>
+								</a>
+								<a href="https://www.facebook.com/newgoldenroad">
+									<i className="fab fa-facebook-square"></i>
+								</a>
+								<a href="#">
+									<i className="fab fa-pinterest-p"></i>
+								</a>
+								<a href="#">
+									<i className="fab fa-instagram"></i>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>

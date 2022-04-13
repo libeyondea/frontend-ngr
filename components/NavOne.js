@@ -123,7 +123,7 @@ class NavOne extends Component {
 											<a href="#">Du Học Canada</a>
 											<ul className="sub-menu">
 												<li>
-													<Link href="/">
+													<Link href="/DuHocCanada">
 														<a>
 															Các Trường Đại Học Và
 															<br /> Cao Đẳng Canada
@@ -141,7 +141,7 @@ class NavOne extends Component {
 													</Link>
 												</li>
 												<li>
-													<Link href="/index-4">
+													<Link href="/ThongTinCanada">
 														<a>Thông Tin Nước Canada</a>
 													</Link>
 												</li>
