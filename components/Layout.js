@@ -10,6 +10,7 @@ const Layout = (props) => {
 			<div className="page-wrapper">{props.children}</div>
 			<Script src="/assets/plugins/bootstrap/jquery.min.js" strategy="beforeInteractive" />
 			<Script src="/assets/plugins/bootstrap/bootstrap.min.js" strategy="beforeInteractive" />
+			<Script src="https://sp.zalo.me/plugins/sdk.js" />
 		</div>
 	);
 };
