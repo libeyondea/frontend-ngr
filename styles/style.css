@@ -6251,11 +6251,12 @@ a:visited {
 
 .countdown-one__title {
 	margin: 0;
-	color: #012237;
+	color: #ff944d;
 	font-size: 60px;
 	font-weight: 700;
 	margin-top: -15px;
 	text-align: center;
+	width: 80%;
 }
 .countdown-one__tag-line {
 	margin: 0;
@@ -6593,7 +6594,7 @@ html {
 
 .countdown-one__title {
 	margin: 0;
-	color: #012237 !important;
+	color: #ff944d !important;
 	font-size: 2rem !important;
 	margin-top: 29px;
 }
@@ -6792,7 +6793,7 @@ html {
 	animation-delay: 0.5s;
 }
 .table-ngoaite{
-	width: 50%;
+	width: 80%;
 	margin-top: 20px;
 }
 .table-ngoaite, tr, th, td {
@@ -6802,14 +6803,22 @@ html {
 }
 .table-ngoaite th{
 	background-color: #f7be81;
+	width: 35%;
+}
+.TenBang{
+	row-gap: 3;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	margin: auto;
 }
 
 /*Trang các trường Canada*/
 .inner-banner-THCA {
-	background-color: #f7be81;
+	background-color: #ffd19f;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment:fixed;
 	position: relative;
 	background-image: url(../images/banner3.png);
 }
@@ -6847,18 +6856,42 @@ html {
 	font-size: 100px;
 	font-weight: 700;
 	letter-spacing: -0.04em;
-	color: #fff;
+	color: #ff944d;
 	margin-top: 5px;
-	margin-bottom: -25px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #A50505, 0 0 25px wheat, 0 0 8px white;
 }
 .card-header-TH{
 	background-color: #ffd19f;
 	color: #ff944d;
 	font-weight: bolder;
 	margin-bottom: 0;
+	text-align: center;
+}
+.card-TH{
+	width: 55%;
+	margin-bottom: auto;
+	margin-left: 80px;
 }
 .card-title-TH{
 	color: #000;
+}
+.card-text-TH{
+	text-align: justify;
+}
+.img-card-TH{
+	float: left;
+	padding-right:20px;
+}
+.countdown-one__content-LuotTruyCap{
+	width: 40%;
+}
+.luottruycap{
+	color: #000;
+	margin-top: 29px;
+	border: #000;
+	text-align: center;
 }
 /********************CHAT BUTTON****************************/
 
