@@ -19,27 +19,12 @@ const FormSignup = () => {
 									<td>USD</td>
 									<td> </td>
 									<td> </td>
-								</tr>	
-								<tr>
-									<td>GBP</td>
-									<td> </td>
-									<td> </td>
-								</tr>
-								<tr>
-									<td>EUR</td>
-									<td> </td>
-									<td> </td>
 								</tr>
 								<tr>
 									<td>SGD</td>
 									<td> </td>
 									<td> </td>
 								</tr>	
-								<tr>	
-									<td>HKD</td>
-									<td> </td>
-									<td> </td>
-								</tr>
 								<tr>
 									<td>AUD</td>
 									<td> </td>
@@ -51,26 +36,19 @@ const FormSignup = () => {
 									<td> </td>
 								</tr>
 								<tr>
-									<td>MYD</td>
-									<td> </td>
-									<td> </td>
-								</tr>
-								<tr>
-									<td>CHF</td>
-									<td> </td>
-								</tr>
-								<tr>
 									<td>NZD</td>
 									<td> </td>
 									<td> </td>
-								</tr>
-								<tr>
-									<td>THB</td>
-									<td> </td>
-									<td> </td>
-								</tr>		
+								</tr>	
 							</table>
-							<div className="countdown-one__list list-unstyled"></div>
+							<div className="countdown-one__list list-unstyled">
+								<div className="luottruycap">
+									SỐ LƯỢT TRUY CẬP							
+								<div className="soluottruycap">
+									12345
+								</div>							
+								</div>
+							</div>
 						</div>
 					</div>
 					<div className="col-lg-6">

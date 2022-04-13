@@ -6254,7 +6254,7 @@ a:visited {
 	font-weight: 700;
 	margin-top: -15px;
 	text-align: center;
-	width: 80%;
+	width: 60%;
 }
 .countdown-one__tag-line {
 	margin: 0;
@@ -6317,6 +6317,10 @@ a:visited {
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	line-height: 41px;
+}
+.countdown-one__list list-unstyled{
+	border: 1px solid #ff944d;
+	width: 60%;
 }
 
 /*
@@ -6790,11 +6794,8 @@ html {
 .media-play-icon::after {
 	animation-delay: 0.5s;
 }
-.table-ngoaite{
-	width: 80%;
-}
 .table-ngoaite {
-	width: 50%;
+	width: 60%;
 	margin-top: 20px;
 }
 .table-ngoaite,
@@ -6900,10 +6901,22 @@ td {
 	width: 40%;
 }
 .luottruycap{
-	color: #000;
-	margin-top: 29px;
-	border: #000;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	color: #ff944d;
+	font-weight: bold;
+	font-size: 32px;
 	text-align: center;
+	width: 60%;
+}
+.soluottruycap{
+	color: #000;
+	background-color: #f7be81;
+	margin-top: 26px;
+    margin-left: 5px;
+	border: solid #ff944d;
+	text-align: center;
+	height: auto;
 }
 /********************CHAT BUTTON****************************/
 
