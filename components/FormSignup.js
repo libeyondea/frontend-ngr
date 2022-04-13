@@ -10,20 +10,68 @@ const FormSignup = () => {
 						<div className="countdown-one__content">
 							<h2 className="countdown-one__title">TẠI SAO PHẢI CHỌN TÂN CON ĐƯỜNG VÀNG ? </h2>
 							<p className="countdown-one__tag-line">Du học tân con đường vàng nơi chấp cánh ước mơ</p>
-							<p className="countdown-one__text">
-								Là một công ty tư vấn du học hàng đầu ở Việt Nam, được các lãnh sự Mỹ, Úc, Canada tin cậy, là đại
-								diện chính thức cho các trường trong hệ thống giáo dục của Mỹ, Anh, Úc, Canada, New Zealand,
-								Singapore….
-								<br />
-								Đội ngũ nhân viên của New Golden Road đã từng làm việc nhiều năm trong môi trường giáo dục, với bề
-								dày kinh nghiệm và kiến thức chuyên môn vững chắc sẽ góp tay chung sức chấp cánh cho ước mơ của
-								các em học sinh – sinh viên Việt Nam bay cao hơn, đạt được khát vọng cũng như thành công mỹ mãn
-								trên con đường sự nghiệp của mình và còn là các nhân tài cho đất nước hôm nay và mai sau.
-								<br />
-								New GOLDEN ROAD luôn đồng hành cùng du học sinh trong suốt chặn đường học tập tại các nước trên
-								thế giới, đồng thời phối hợp cùng nhà trường, và các tổ chức giáo dục trên thế giới để hổ trợ các
-								vấn đề khó khăn mà du học sinh gặp phải.
-							</p>
+							<table className='table-ngoaite'> 
+								<tr>TỶ GIÁ NGOẠI TỆ</tr>
+								<tr>
+									<th>Mã NT</th>
+									<th>Mua Vào</th>
+									<th>Bán Ra</th>
+								</tr>
+								<tr>
+									<td>USD</td>
+									<td> </td>
+									<td> </td>
+								</tr>	
+								<tr>
+									<td>GBP</td>
+									<td> </td>
+									<td> </td>
+								</tr>
+								<tr>
+									<td>EUR</td>
+									<td> </td>
+									<td> </td>
+								</tr>
+								<tr>
+									<td>SGD</td>
+									<td> </td>
+									<td> </td>
+								</tr>	
+								<tr>	
+									<td>HKD</td>
+									<td> </td>
+									<td> </td>
+								</tr>
+								<tr>
+									<td>AUD</td>
+									<td> </td>
+									<td> </td>
+								</tr>
+								<tr>
+									<td>CAD</td>
+									<td> </td>
+									<td> </td>
+								</tr>
+								<tr>
+									<td>MYD</td>
+									<td> </td>
+									<td> </td>
+								</tr>
+								<tr>
+									<td>CHF</td>
+									<td> </td>
+								</tr>
+								<tr>
+									<td>NZD</td>
+									<td> </td>
+									<td> </td>
+								</tr>
+								<tr>
+									<td>THB</td>
+									<td> </td>
+									<td> </td>
+								</tr>		
+							</table>
 							<div className="countdown-one__list list-unstyled"></div>
 						</div>
 					</div>
@@ -32,12 +80,12 @@ const FormSignup = () => {
 							<div className="become-teacher__form-top">
 								<h2 className="become-teacher__form-title">TƯ VẤN MIỄN PHÍ</h2>
 							</div>
-							<form action="#" method="POST" className="become-teacher__form-content contact-form-validated">
+							<form action="#" metdod="POST" className="become-teacher__form-content contact-form-validated">
 								<input type="text" placeholder="Họ và Tên" name="name" />
 								<input type="text" placeholder=" Địa chỉ Email" name="email" />
-								<input type="text" placeholder="Số điện thoại" name="phone" />
+								<input type="text" placeholder="Số điện tdoại" name="phone" />
 								<input type="text" placeholder="Lời nhắn" name="message" />
-								<button type="submit" className="thm-btn become-teacher__form-btn">
+								<button type="submit" className="tdm-btn become-teacher__form-btn">
 									ĐĂNG KÝ
 								</button>
 							</form>
