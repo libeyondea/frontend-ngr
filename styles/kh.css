@@ -10,3 +10,30 @@
     position: relative;
     background-image: url(../images/banner3.jpg);
 }
+.cta-two__btn {
+    font-size: 20px;
+}
+.thm-base-bg {
+    background-color: #e93232;
+}
+.thm-base-bg-2 {
+    background-color: #1a7a14;
+}
+.cta-two__text {
+    font-size: 22px;
+}
+.team-one__text {
+    font-size: 16px;
+ 
+}
+.team-one__designation {
+    font-size: 14px;
+}
+.tenkh{
+    font-size: 20px;
+}
+.footer-widget__title {
+
+    color: white;
+ 
+}

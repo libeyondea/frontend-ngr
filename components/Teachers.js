@@ -14,7 +14,7 @@ const Khachhang = () => {
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a>Đan Vy</a>
+										<a className="tenkh">Đan Vy</a>
 									</Link>
 								</h2>
 								<p className="team-one__designation">Khách hàng</p>
