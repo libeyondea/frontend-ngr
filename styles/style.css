@@ -6251,6 +6251,7 @@ a:visited {
 	font-size: 60px;
 	font-weight: 700;
 	margin-top: -15px;
+	text-align: center;
 }
 .countdown-one__tag-line {
 	margin: 0;
@@ -6786,6 +6787,15 @@ html {
 .media-play-icon::after {
 	animation-delay: 0.5s;
 }
-.table-ngoaite, th, td {
-	border:2px solid black;
-  }
+.table-ngoaite{
+	width: 100%;
+	margin-top: 20px;
+}
+.table-ngoaite, tr, th, td {
+	border:2px #ff944d solid;
+	color: #000;
+	text-align: center;
+}
+.table-ngoaite th{
+	background-color: #f7be81;
+}
