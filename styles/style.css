@@ -2842,6 +2842,10 @@ a:visited {
 }
 .become-teacher__form-btn {
 	font-size: 18px;
+	margin-top: 10px;
+    background-color: #FF944D;
+    border-radius: 50px;
+	border:none;
 	font-weight: bold;
 	color: #fff;
 	padding: 11.5px 46px;
