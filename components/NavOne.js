@@ -474,7 +474,7 @@ class NavOne extends Component {
 									</ul>
 								</li>
 								<li>
-									<a href="/courses">Dịch Vụ </a>
+									<Link href="/courses">Dịch Vụ </Link>
 									<ul className="sub-menu">
 										<li>
 											<Link href="/courses">
@@ -495,12 +495,12 @@ class NavOne extends Component {
 									<ul className="sub-menu">
 										<li>
 											<Link href="/teachers">
-												<a>Teachers</a>
+												<a>Khách Hàng</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/teacher-details">
-												<a>Teachers Details</a>
+												<a>Chi Tiết Khách Hàng</a>
 											</Link>
 										</li>
 										<li>
