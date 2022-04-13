@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Teachers = () => {
+const Khachhang = () => {
 	return (
 		<section className="team-one team-page">
 			<div className="container">
@@ -260,4 +260,4 @@ const Teachers = () => {
 	);
 };
 
-export default Teachers;
+export default Khachhang;
