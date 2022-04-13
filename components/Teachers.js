@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Teachers = () => {
+const Khachhang = () => {
 	return (
 		<section className="team-one team-page">
 			<div className="container">
@@ -14,7 +14,7 @@ const Teachers = () => {
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a>Đan Vy</a>
+										<a className="tenkh">Đan Vy</a>
 									</Link>
 								</h2>
 								<p className="team-one__designation">Khách hàng</p>
@@ -260,4 +260,4 @@ const Teachers = () => {
 	);
 };
 
-export default Teachers;
+export default Khachhang;
