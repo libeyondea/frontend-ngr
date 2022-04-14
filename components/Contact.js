@@ -145,7 +145,7 @@ const Contact = () => {
 			<iframe
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.240806941771!2d106.61845171524104!3d10.792859761840461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eb1494db369%3A0xcdadee593e1b7cce!2zRHUgSOG7jWMgVMOibiBDb24gxJDGsOG7nW5nIFbDoG5nIC0gTmV3IEdvbGRlbiBSb2Fk!5e0!3m2!1svi!2s!4v1649906001010!5m2!1svi!2s"
 				className="google-map__contact map"
-				allowFullScreen=""
+				allowFullScreen="#!"
 			></iframe>
 		</div>
 	);
