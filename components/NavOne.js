@@ -432,47 +432,47 @@ class NavOne extends Component {
 									<a href="#">Học Bổng</a>
 									<ul className="sub-menu">
 										<li>
-											<Link href="/about">
-												<a>Học Bổng Canada</a>
+											<Link href="/hocbong/hocbongcanada">
+												<a >Học Bổng Canada</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/gallery">
+											<Link href="/HocBongAnh">
 												<a>Học Bổng Anh</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/pricing">
+											<Link href="/HocBongMy">
 												<a>Học Bổng mỹ</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/faq">
+											<Link href="/HocBongUc">
 												<a>Học Bổng Úc</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/faq">
+											<Link href="/HocBongNewZeaLand">
 												<a>Học Bổng New ZeaLand</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/faq">
+											<Link href="/HocBongSingapore">
 												<a>Học Bổng Singapore</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/faq">
+											<Link href="/HocBongPhanLan">
 												<a>Học Bổng Phần Lan</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/faq">
+											<Link href="/HocBongHaLan">
 												<a>Học Bổng Hà Lan</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/faq">
+											<Link href="/HocBongThuySi">
 												<a>Học Bổng Thụy sĩ</a>
 											</Link>
 										</li>
@@ -517,7 +517,7 @@ class NavOne extends Component {
 
 											<Link href="/teacher-details">
 
-	
+
 
 												<a>Luyện Thi Tiếng Anh</a>
 											</Link>
