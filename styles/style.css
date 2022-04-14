@@ -1802,13 +1802,14 @@ a:visited {
 * 6. faq styles
 */
 .faq-one {
-	padding-top: 120px;
+	padding-top: 12px;
 	padding-bottom: 120px;
 }
+
 .faq-one [class*='col-lg-'] {
 	border-bottom: 1px solid #f1f1f1;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 24px;
+	padding-bottom: 33px;
 }
 .faq-one [class*='col-lg-']:nth-child(odd) {
 	padding-right: 76px;
@@ -1918,7 +1919,7 @@ a:visited {
 	line-height: 34px;
 	margin: 0;
 	color: #81868a;
-	margin-top: -10px;
+	margin-top: -52px;
 	margin-bottom: -10px;
 }
 
@@ -7049,3 +7050,75 @@ span#fcta-zalo-tracking {
 .fcta-zalo-text {
 	font-family: Roboto;
 }
+.tai-sao{
+	font-size: 17px;
+}
+.tieu-de{
+	font-size: 35px;
+    line-height: 44px;
+	padding-top: 20px;
+    font-weight: 700;
+    color: #606060;
+    text-shadow: 1px 1px 0 rgb(255 255 255 / 50%);
+}
+/**/
+ul#menu, ul#menu ul#sub {
+ 
+    padding:0;
+ 
+    margin: 0;
+ 
+}
+ 
+ul#menu li {
+ 
+     list-style-type: none;    /* code này để bỏ các dấu chấm tròn*/
+ 
+     float: left;    /* code này để menu dàn hàng ngang*/
+ 
+     margin-right: 10px;    /* tạo lề cho các menu*/
+ 
+}
+ 
+ul#menu li a {
+ 
+text-decoration: none;
+ 
+background-color: #900;
+ 
+padding: 5px;
+ 
+color: white;
+ 
+}
+ 
+ul#menu li {
+ 
+positon: relative;
+ 
+}
+ 
+ul#menu li ul#sub {
+ 
+display: none;
+ 
+position: absolute;
+ 
+width: 100px;
+ 
+}
+ 
+ul#menu li ul#sub li {
+ 
+margin-top: 10px;
+ 
+margin-bottom: 5px;
+ 
+}
+ 
+ul#menu li:hover ul#sub {
+ 
+display: block;
+ 
+ }
+
