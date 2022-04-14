@@ -6601,9 +6601,8 @@ html {
 	margin: 0;
 	color: #ff944d !important;
 	font-size: 2rem !important;
-
 	margin-top: -5px;
-	margin-left: 50px;
+	margin-left: -50px;
 
 }
 
