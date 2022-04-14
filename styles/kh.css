@@ -1,0 +1,62 @@
+.img-kh {
+    width: 206px;
+    height: 206px;
+}
+.inner-banner {
+    background-color: #011928;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-image: url(../images/banner3.jpg);
+}
+.cta-two__btn {
+    font-size: 20px;
+}
+.thm-base-bg {
+    background-color: #e93232;
+}
+.thm-base-bg-2 {
+    background-color: #1a7a14;
+}
+.cta-two__text {
+    font-size: 22px;
+}
+.team-one__text {
+    font-size: 16px;
+ 
+}
+.team-one__designation {
+    font-size: 14px;
+}
+.tenkh{
+    font-size: 20px;
+}
+.footer-widget__title {
+
+    color: white;
+ 
+}
+.team-one {
+     padding-bottom: 10px;
+
+}
+.post-pagination {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* duhoc */
+h3.title-comm:before {
+    border-top: 0px solid #d0d2d3;
+}
+.title-comm {
+  
+    right: 0px; 
+ 
+}
+/* contac */
+.map{
+    margin-bottom: 58px;
+}
+/* hieuung */
+

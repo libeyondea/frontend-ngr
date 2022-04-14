@@ -10,17 +10,18 @@ import messenge from '../images/messenge_icon.jpg';
 const Chat = () => {
 	const openForm = () => {
 		const btn = document.getElementById('btn');
-			if (form.style.visibility === 'hidden') {
-				form.style.visibility = 'visible';
-			} else {
-				form.style.visibility = 'hidden';
-			}
+		if (form.style.visibility === 'hidden') {
+			form.style.visibility = 'visible';
+		} else {
+			form.style.visibility = 'hidden';
+		}
 	};
 	return (
 		<div>
 			<button id="linkzalo" target="_blank" rel="noopener noreferrer" onClick={openForm}>
-			<div id="fcta-zalo-tracking" className="fcta-zalo-mess">
-<span id="fcta-zalo-tracking">Chat hỗ trợ</span></div>
+				<div id="fcta-zalo-tracking" className="fcta-zalo-mess">
+					<span id="fcta-zalo-tracking">Chat hỗ trợ</span>
+				</div>
 				<div className="fcta-zalo-vi-tri-nut">
 					<div id="fcta-zalo-tracking" className="fcta-zalo-nen-nut">
 						<div id="fcta-zalo-tracking" className="fcta-zalo-ben-trong-nut">
@@ -34,13 +35,22 @@ const Chat = () => {
 			</button>
 			<div className="form_chat" id="form">
 				<div>
-					<div className='tieude-chat'><div className='canhle-chat'><h2 className='title-chat'>Chọn Tài Khoản</h2></div></div>
-					<div className='chuamucchat'>
-                        <a href='https://chat.zalo.me/?phone=0969843351'><img src="/assets/images/chat/zalo_icon.png" alt="zalo_icon" className="icon_chat"/></a>
+					<div className="tieude-chat">
+						<div className="canhle-chat">
+							<h2 className="title-chat">Chọn Tài Khoản</h2>
+						</div>
+					</div>
+					<div className="chuamucchat">
+						<a href="https://chat.zalo.me/?phone=0969843351">
+							<img src="/assets/images/chat/zalo_icon.png" alt="zalo_icon" className="icon_chat" />
+						</a>
 						{/* <div className="zalo-chat-widget" data-oaid="579745863508352884" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="5" data-width="" data-height=""></div> */}
 					</div>
-					<div className='chuamucchat'>
-                       <a href='https://m.me/ngr.duhoc'> <img src="/assets/images/chat/messenge_icon.png" alt="zalo_icon" className="icon_chat"/></a>
+					<div className="chuamucchat">
+						<a href="https://m.me/ngr.duhoc">
+							{' '}
+							<img src="/assets/images/chat/messenge_icon.png" alt="zalo_icon" className="icon_chat" />
+						</a>
 					</div>
 					<div></div>
 				</div>

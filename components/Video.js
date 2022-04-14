@@ -21,10 +21,8 @@ export default class Video extends Component {
 					<div className="row">
 						<div className="col-lg-7">
 							<div className="video-two__content">
-							
 								<h2 className="video-two__title">DU HỌC TÂN CON ĐƯỜNG VÀNG</h2>
 								<h3 className="title mb-4">
-								
 									Với gần hơn 12 năm kinh nghiệm làm việc trong lĩnh vực tư vấn du học, Ban Giám Đốc Công ty New
 									Golden Road hiểu rõ về niềm tin, sự kỳ vọng của các em học sinh- sinh viên và các bậc phụ
 									huynh trao sứ mệnh quan trọng cho Công ty tư vấn du học trong quá trình chuẩn bị và hoàn thiện
