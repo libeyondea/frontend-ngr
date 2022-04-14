@@ -433,7 +433,7 @@ class NavOne extends Component {
 									<ul className="sub-menu">
 										<li>
 											<Link href="/hocbong/hocbongcanada">
-												<a >Học Bổng Canada</a>
+												<a>Học Bổng Canada</a>
 											</Link>
 										</li>
 										<li>
@@ -487,13 +487,8 @@ class NavOne extends Component {
 											</Link>
 										</li>
 										<li>
-											<Link href="/courses">
+											<Link href="/doitac">
 												<a>Đối Tác</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/course-details">
-												<a>Khách Hàng</a>
 											</Link>
 										</li>
 										<li>
@@ -502,7 +497,7 @@ class NavOne extends Component {
 											</Link>
 										</li>
 										<li>
-											<Link href="/course-details">
+											<Link href="/news">
 												<a>Tin Tức</a>
 											</Link>
 										</li>
@@ -514,39 +509,26 @@ class NavOne extends Component {
 									</Link>
 									<ul className="sub-menu">
 										<li>
-
 											<Link href="/teacher-details">
-
-
-
 												<a>Luyện Thi Tiếng Anh</a>
 											</Link>
 										</li>
 										<li>
-
 											<Link href="/become-teacher">
-
-
 												<a>Luyện IELTS Du Học</a>
 											</Link>
 										</li>
 										<li>
-
 											<Link href="">
-
 												<a>Luyện Anh Văn Phỏng Vấn Xin Visa Mỹ</a>
 											</Link>
 										</li>
 										<li>
-
 											<Link href="">
-
-
 												<a>Dạy Anh Văn Du Lịch</a>
 											</Link>
 										</li>
 										<li>
-
 											<Link href="">
 												<a>Dạy Anh Văn Cho Người Sắp Định Cư</a>
 											</Link>
@@ -559,7 +541,6 @@ class NavOne extends Component {
 										<li>
 											<Link href="">
 												<a>Huấn Luyện Nhân Sự</a>
-
 											</Link>
 										</li>
 										<li>

@@ -24,8 +24,7 @@ const HomePageTwo = () => {
 			<FormSignup />
 			<TestimonialOne />
 			<Partner />
-			<Footer />
-			<Chat />
+			<Footer />			
 		</Layout>
 	);
 };
