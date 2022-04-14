@@ -6809,9 +6809,9 @@ html {
 @keyframes lucidgenzalo{0% {transform:rotate(-25deg)}50%{transform:rotate(25deg)}}
 .jscroll-to-top{bottom:100px}
 .fcta-zalo-ben-trong-nut svg path{fill:#fff}
-.fcta-zalo-vi-tri-nut{position:fixed;bottom:185px;right:20px;z-index:999}
+.fcta-zalo-vi-tri-nut{position:fixed;bottom:60px;right:20px;z-index:999}
 .fcta-zalo-nen-nut,div.fcta-zalo-mess{box-shadow:0 1px 6px rgba(0,0,0,.06),0 2px 32px rgba(0,0,0,.16)}
-.fcta-zalo-nen-nut{width:50px;height:50px;text-align:center;color:#fff;background:#0068ff;border-radius:50%;position:relative}
+.fcta-zalo-nen-nut{width:80px;height:80px;text-align:center;color:#fff;background:#0068ff;border-radius:50%;position:relative;background: url('/assets/images/chat/tuvanvien.png');background-position:center;background-repeat:no-repeat;}
 .fcta-zalo-nen-nut::after,
 .fcta-zalo-nen-nut::before{content:"";position:absolute;border:1px solid #0068ff;background:#0068ff80;z-index:-1;left:-20px;right:-20px;top:-20px;bottom:-20px;border-radius:50%;animation:zoom 1.9s linear infinite}
 .fcta-zalo-nen-nut::after{animation-delay:.4s}
@@ -6819,12 +6819,28 @@ html {
 .fcta-zalo-ben-trong-nut i{transition:all 1s}
 .fcta-zalo-ben-trong-nut{position:absolute;text-align:center;width:60%;height:60%;left:10px;bottom:25px;line-height:70px;font-size:25px;opacity:1}
 .fcta-zalo-ben-trong-nut i{animation:lucidgenzalo 1s linear infinite}
-.fcta-zalo-nen-nut:hover
-.fcta-zalo-ben-trong-nut,
-.fcta-zalo-text{opacity:0}
+.fcta-zalo-nen-nut:hover.fcta-zalo-ben-trong-nut,.fcta-zalo-text{opacity:0}
 .fcta-zalo-nen-nut:hover i{transform:scale(.5);transition:all .5s ease-in}
 .fcta-zalo-text a{text-decoration:none;color:#fff}.fcta-zalo-text{position:absolute;top:6px;text-transform:uppercase;font-size:12px;font-weight:700;transform:scaleX(-1);transition:all .5s;line-height:1.5}
 .fcta-zalo-nen-nut:hover .fcta-zalo-text{transform:scaleX(1);opacity:1}div
-.fcta-zalo-mess{position:fixed;bottom:185px;right:58px;z-index:99;background:#fff;padding:7px 25px 7px 15px;color:#0068ff;border-radius:50px 0 0 50px;font-weight:700;font-size:15px}
+.fcta-zalo-mess{position:fixed;bottom:75px;right:94px;z-index:99;background:#fff;padding:7px 25px 7px 15px;color:#0068ff;border-radius:50px 0 0 50px;font-weight:700;font-size:15px}
 .fcta-zalo-mess span{color:#0068ff!important}
 span#fcta-zalo-tracking{font-family:Roboto;line-height:1.5}.fcta-zalo-text{font-family:Roboto}
+/********************************** Form-Chat********************************* */
+.form_chat{position: fixed;bottom:155px;right:20px;z-index:999;width: 280px;height: 350px;background-color: #fff;border-radius: 18px;box-shadow:-6px 5px 6px 0px #424242;visibility: hidden;}
+.title-chat{text-align: center;color: #fff;margin-top: 20px;}
+.canhle-chat{margin: 10px auto;}
+.icon_chat{width: 120px;height: 120px;margin-top:10px; }
+.chuamucchat{width: 280px;height: 130px;text-align: center;}
+.chuamucchat:hover{background-color: #ff944d;cursor:pointer;}
+.tieude-chat{width:100%;height: 75px;background-color:#0068ff80;border-radius: 18px 18px 0px 0px;padding-top: 1px;}
+.za-chat__head-box {
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: absolute;
+    bottom: 15px;
+    right: 70px !important;
+}
+
