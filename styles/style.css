@@ -2803,10 +2803,10 @@ a:visited {
 	border-width: 2px;
 	border-color: #f1f1f1;
 	background-color: white;
-	padding-left: 60px;
-	padding-right: 60px;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .become-teacher__form input {
 	border: none;
@@ -4769,6 +4769,7 @@ a:visited {
 }
 .blog-one .post-pagination {
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .blog-one__home-two {
 	padding-bottom: 90px;
@@ -6254,9 +6255,9 @@ a:visited {
 .countdown-one__tag-line {
 	margin: 0;
 	font-size: 26px;
-	color: #ff944d;
+	color: #000;
 	margin-top: 5px;
-	font-weight: bold;
+	font-weight: 500;
 }
 .countdown-one__text {
 	margin: 0;
@@ -6596,7 +6597,7 @@ html {
 	margin: 0;
 	color: #ff944d !important;
 	font-size: 2rem !important;
-	margin-top: 20px;
+	margin-top: 29px;
 }
 
 .become-teacher__form-top {
@@ -6823,6 +6824,18 @@ td {
 }
 
 /*Trang các trường Canada*/
+.tieude{
+	color: #000;
+	background-color: #ff944d;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 50px 150px;
+	height: 80px;
+	width: 80%;
+	align-content: center;
+	border: 5px double #000;
+}
 .inner-banner-THCA {
 	background-color: #ffd19f;
 	background-repeat: no-repeat;
@@ -6880,8 +6893,8 @@ td {
 }
 .card-TH{
 	width: 100%;
-	margin-bottom: auto;
-	margin-left: 80px;
+	border: 1px solid #94a2ab;
+	margin-left: 20px;
 }
 .card-title-TH {
 	color: #000;
