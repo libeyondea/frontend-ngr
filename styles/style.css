@@ -2770,6 +2770,7 @@ a:visited {
 	content: '';
 	width: 197px;
 	height: 268px;
+	/* background-image: url(../images/tintuc.jpg); */
 	position: absolute;
 	bottom: -11%;
 	left: 87%;
@@ -4288,7 +4289,7 @@ a:visited {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	padding-top: 169px;
+	padding-top: 300px;
 }
 
 .inner-banner__title {

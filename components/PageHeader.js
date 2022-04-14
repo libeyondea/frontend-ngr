@@ -6,14 +6,7 @@ const PageHeader = (props) => {
 		<section className="inner-banner">
 			<div className="container">
 				<ul className="list-unstyled thm-breadcrumb">
-					<li>
-						<Link href="/">
-							<a>Home</a>
-						</Link>
-					</li>
-					<li className="active">
-						<a href="#">{props.title}</a>
-					</li>
+					
 				</ul>
 				<h2 className="inner-banner__title">{props.title}</h2>
 			</div>
