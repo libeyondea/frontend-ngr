@@ -2761,9 +2761,9 @@ a:visited {
 }
 
 .become-teacher__form {
-	padding-left: 20px;
-	position: relative;
-	margin-right: 150px;
+	padding-left: 88px;
+    position: relative;
+    margin-right: 90px;
 
 }
 .become-teacher__form:before {
@@ -7099,7 +7099,7 @@ span#fcta-zalo-tracking {
 .card-TH {
 	width: 100%;
 	border: 1px solid #94a2ab;
-	margin-left: 20px;
+	margin-left: 90px;
 }
 .card-title-TH {
 	color: #000;
