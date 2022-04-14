@@ -413,38 +413,18 @@ class NavOne extends Component {
 									<ul className="sub-menu">
 										<li>
 											<Link href="/">
-												<a>Home 01</a>
+												<a>Định Cư Mỹ</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/index-2">
-												<a>Home 02</a>
+												<a>Định Cư Úc</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/index-3">
-												<a>Home 03</a>
+												<a>Định cư Canada</a>
 											</Link>
-										</li>
-										<li>
-											<a href="#">Header</a>
-											<ul className="sub-menu">
-												<li>
-													<Link href="/">
-														<a>Header 01</a>
-													</Link>
-												</li>
-												<li>
-													<Link href="/index-2">
-														<a>Header 02</a>
-													</Link>
-												</li>
-												<li>
-													<Link href="/index-3">
-														<a>Header 03</a>
-													</Link>
-												</li>
-											</ul>
 										</li>
 									</ul>
 								</li>
@@ -453,22 +433,47 @@ class NavOne extends Component {
 									<ul className="sub-menu">
 										<li>
 											<Link href="/about">
-												<a>About Page</a>
+												<a>Học Bổng Canada</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/gallery">
-												<a>Gallery</a>
+												<a>Học Bổng Anh</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/pricing">
-												<a>Pricing Plans</a>
+												<a>Học Bổng mỹ</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/faq">
-												<a>FAQ'S</a>
+												<a>Học Bổng Úc</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/faq">
+												<a>Học Bổng New ZeaLand</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/faq">
+												<a>Học Bổng Singapore</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/faq">
+												<a>Học Bổng Phần Lan</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/faq">
+												<a>Học Bổng Hà Lan</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/faq">
+												<a>Học Bổng Thụy sĩ</a>
 											</Link>
 										</li>
 									</ul>
@@ -477,53 +482,94 @@ class NavOne extends Component {
 									<Link href="/courses">Dịch Vụ </Link>
 									<ul className="sub-menu">
 										<li>
-											<Link href="/courses">
-												<a>Courses</a>
-											</Link>
-										</li>
-										<li>
-											<Link href="/course-details">
-												<a>Courses Details</a>
-											</Link>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<Link href="/khachhang">
-										<a>Đào Tạo</a>
-									</Link>
-									<ul className="sub-menu">
-										<li>
 											<Link href="/khachhang">
 												<a>Khách Hàng</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/teacher-details">
-												<a>Chi Tiết Khách Hàng</a>
+											<Link href="/courses">
+												<a>Đối Tác</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/become-teacher">
-												<a>Become Teacher</a>
+											<Link href="/course-details">
+												<a>Khách Hàng</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/course-details">
+												<a>Tuyển Dụng</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/course-details">
+												<a>Tin Tức</a>
 											</Link>
 										</li>
 									</ul>
 								</li>
-
 								<li>
-									<Link href="/news">
-										<a>Tin Tức</a>
+									<Link href="/Đào Tạo">
+										<a>Đào Tạo</a>
 									</Link>
 									<ul className="sub-menu">
 										<li>
-											<Link href="/news">
-												<a>News Page</a>
+
+											<Link href="/teacher-details">
+
+	
+
+												<a>Luyện Thi Tiếng Anh</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/news-details">
-												<a>News Details</a>
+
+											<Link href="/become-teacher">
+
+
+												<a>Luyện IELTS Du Học</a>
+											</Link>
+										</li>
+										<li>
+
+											<Link href="">
+
+												<a>Luyện Anh Văn Phỏng Vấn Xin Visa Mỹ</a>
+											</Link>
+										</li>
+										<li>
+
+											<Link href="">
+
+
+												<a>Dạy Anh Văn Du Lịch</a>
+											</Link>
+										</li>
+										<li>
+
+											<Link href="">
+												<a>Dạy Anh Văn Cho Người Sắp Định Cư</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="">
+												<a>Huấn Luyện Sinh Viên Thực Tập</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="">
+												<a>Huấn Luyện Nhân Sự</a>
+
+											</Link>
+										</li>
+										<li>
+											<Link href="/Luyện Sinh Viên Thực Tập">
+												<a>Luyện Sinh Viên Thực Tập</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="/Huấn Luyện Nhân Sự">
+												<a>Huấn Luyện Nhân Sự</a>
 											</Link>
 										</li>
 									</ul>

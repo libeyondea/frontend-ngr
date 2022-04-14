@@ -4,7 +4,7 @@ import NavOne from '../components/NavOne';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
 import CallToActionTwo from '../components/CallToActionTwo';
-import Khachhang from '../components/Teachers';
+import Khachhang from '../components/Khachhang';
 
 const TeachersPage = () => {
 	return (

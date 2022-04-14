@@ -37,3 +37,26 @@
     color: white;
  
 }
+.team-one {
+     padding-bottom: 10px;
+
+}
+.post-pagination {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* duhoc */
+h3.title-comm:before {
+    border-top: 0px solid #d0d2d3;
+}
+.title-comm {
+  
+    right: 0px; 
+ 
+}
+/* contac */
+.map{
+    margin-bottom: 58px;
+}
+/* hieuung */
+
