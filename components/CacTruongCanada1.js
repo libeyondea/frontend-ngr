@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Swiper from 'react-id-swiper';
 import Image from './Image';
 const CacTruongCanada1 = () => {
 	return (
@@ -18,7 +17,7 @@ const CacTruongCanada1 = () => {
 				</div>    
 			</section>    
 			<h3 className="title-comm">
-						<span className="title-holder">TIN TỨC MỚI</span>
+						<span className="title-holder">MỘT SỐ TRƯỜNG ĐẠI HỌC & CAO ĐẲNG TIÊU BIỂU</span>
 					</h3>
 			<div class="col-lg-7">
 				<div class="card-TH">
