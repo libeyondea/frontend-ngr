@@ -214,6 +214,16 @@ const Footer = () => {
 										12345
 									</div>
 								</div>
+
+								<div className="text-white" style={{ fontSize: '21px', textAlign: 'center' }}>
+									Số lượt truy cập:
+									<div
+										className="badge badge-secondary text-wrap"
+										style={{ fontSize: '20px', color: '#F8FF0E' }}
+									>
+										12345
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
