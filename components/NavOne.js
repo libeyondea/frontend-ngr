@@ -500,12 +500,37 @@ class NavOne extends Component {
 									<ul className="sub-menu">
 										<li>
 											<Link href="/teacher-details">
-												<a>Chi Tiết Khách Hàng</a>
+												<a>Luyện Thi Tiếng Anh</a>
 											</Link>
 										</li>
 										<li>
 											<Link href="/become-teacher">
-												<a>Become Teacher</a>
+												<a>Luyện IELTS Du Học</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="">
+												<a>Luyện Anh Văn Phỏng Vấn Xin Visa Mỹ</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="">
+												<a>Dạy Anh Văn Du Lịch</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="">
+												<a>Dạy Anh Văn Cho Người Sắp Định Cư</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="">
+												<a>Huấn Luyện Sinh Viên Thực Tập</a>
+											</Link>
+										</li>
+										<li>
+											<Link href="">
+												<a>Huấn Luyện Nhân Sự</a>
 											</Link>
 										</li>
 									</ul>
