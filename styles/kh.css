@@ -49,10 +49,40 @@
 h3.title-comm:before {
     border-top: 0px solid #d0d2d3;
 }
+
 .title-comm {
-  
-    right: 0px; 
- 
+    padding-left: 700px;
+	padding-top: 40px;
+    right: 410px;
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+h3.title-comm:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    border-top: 2px solid #d0d2d3;
+    z-index: 1;
+    display: block;
+}
+.title-comm .title-holder {
+    min-width: 350px;
+    height: 45px;
+    background-color: #ff944d;
+    height: auto;
+    line-height: 45px;
+    padding: 0px 20px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: inline-block;
 }
 /* contac */
 .map{
