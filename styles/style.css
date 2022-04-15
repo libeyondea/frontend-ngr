@@ -7111,6 +7111,7 @@ span#fcta-zalo-tracking {
 .img-card-TH {
 	float: left;
 	padding-right: 20px;
+	layout: fill;
 }
 .countdown-one__content-LuotTruyCap {
 	width: 100%;
