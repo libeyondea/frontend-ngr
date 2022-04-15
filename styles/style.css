@@ -2764,7 +2764,6 @@ a:visited {
 .become-teacher__form {
 	padding-left: 88px;
     position: relative;
-    margin-right: 90px;
 
 }
 .become-teacher__form:before {
@@ -6957,15 +6956,15 @@ div.fcta-zalo-mess {
 }
 div .fcta-zalo-mess {
 	position: fixed;
-	bottom: 75px;
-	right: 94px;
+	bottom: 136px;
+	right: 93px;
 	z-index: 99;
 	background: #fff;
 	padding: 7px 25px 7px 15px;
 	color: #0068ff;
 	border-radius: 50px 0 0 50px;
 	font-weight: 700;
-	font-size: 15px;
+	font-size: 21px;
 }
 .fcta-zalo-mess span {
 	color: #0068ff !important;
@@ -6980,15 +6979,12 @@ span#fcta-zalo-tracking {
 /********************************** Form-Chat********************************* */
 .form_chat {
 	position: fixed;
-	bottom: 155px;
+	bottom: 222px;
 	right: 20px;
 	z-index: 999;
-	width: 280px;
-	height: 350px;
-	background-color: #fff;
-	border-radius: 18px;
-	box-shadow: -6px 5px 6px 0px #424242;
-	visibility: hidden;
+    opacity: 100%;
+	height: 157px;
+/* 	visibility: hidden; */
 }
 .title-chat {
 	text-align: center;
@@ -6999,18 +6995,22 @@ span#fcta-zalo-tracking {
 	margin: 10px auto;
 }
 .icon_chat {
-	width: 120px;
-	height: 120px;
-	margin-top: 10px;
+	width: 75px;
+	height: 75px;
+	margin-top: 5px;
 }
 .chuamucchat {
-	width: 280px;
-	height: 130px;
+	width: 87px;
+	height: 87px;
 	text-align: center;
 }
-.chuamucchat:hover {
+/* .chuamucchat:hover {
 	background-color: #ff944d;
 	cursor: pointer;
+} */
+.icon_chat:hover{
+	width: 86px;
+	height: 86px;
 }
 .tieude-chat {
 	width: 100%;
@@ -7175,7 +7175,7 @@ span#fcta-zalo-tracking {
 }
 .fcta-zalo-vi-tri-nut {
 	position: fixed;
-	bottom: 185px;
+	bottom: 120px;
 	right: 20px;
 	z-index: 999;
 }
@@ -7184,11 +7184,10 @@ div.fcta-zalo-mess {
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06), 0 2px 32px rgba(0, 0, 0, 0.16);
 }
 .fcta-zalo-nen-nut {
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	text-align: center;
 	color: #fff;
-	background: #0068ff;
 	border-radius: 50%;
 	position: relative;
 }
@@ -7253,18 +7252,6 @@ div.fcta-zalo-mess {
 	transform: scaleX(1);
 	opacity: 1;
 }
-div .fcta-zalo-mess {
-	position: fixed;
-	bottom: 185px;
-	right: 58px;
-	z-index: 99;
-	background: #fff;
-	padding: 7px 25px 7px 15px;
-	color: #0068ff;
-	border-radius: 50px 0 0 50px;
-	font-weight: 700;
-	font-size: 15px;
-}
 .fcta-zalo-mess span {
 	color: #0068ff !important;
 }
@@ -7275,6 +7262,21 @@ span#fcta-zalo-tracking {
 .fcta-zalo-text {
 	font-family: Roboto;
 }
+.button-chat{
+	background-image: url('/images/chat/tuvanvien.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.hide {
+	visibility: hidden;
+  }
+
+  .myDIV:hover + .hide, .hide:hover {
+	visibility: visible;
+
+  }
+/********************************************Finish Button Chat********************************************/
 .tai-sao{
 	font-size: 17px;
 }

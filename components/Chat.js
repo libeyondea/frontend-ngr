@@ -18,7 +18,8 @@ const Chat = () => {
 	};
 	return (
 		<div>
-			<button id="linkzalo" target="_blank" rel="noopener noreferrer" onClick={openForm}>
+			<div className='myDIV'>
+			<button id="linkzalo" target="_blank" rel="noopener noreferrer" /* onClick={openForm} */ className='button-chat'>
 				<div id="fcta-zalo-tracking" className="fcta-zalo-mess">
 					<span id="fcta-zalo-tracking">Chat hỗ trợ</span>
 				</div>
@@ -33,23 +34,24 @@ const Chat = () => {
 					</div>
 				</div>
 			</button>
-			<div className="form_chat" id="form">
+			</div>
+			<div className="form_chat hide" id="form">
 				<div>
-					<div className="tieude-chat">
+{/* 					<div className="tieude-chat">
 						<div className="canhle-chat">
 							<h2 className="title-chat">Chọn Tài Khoản</h2>
 						</div>
-					</div>
+					</div> */}
 					<div className="chuamucchat">
-						<a href="https://chat.zalo.me/?phone=0969843351">
+						<a href="https://chat.zalo.me/?phone=0909866528">
 							<img src="/assets/images/chat/zalo_icon.png" alt="zalo_icon" className="icon_chat" />
 						</a>
-						 <div className="zalo-chat-widget" data-oaid="579745863508352884" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="5" data-width="" data-height=""></div>
+						{/*  <div className="zalo-chat-widget" data-oaid="579745863508352884" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="5" data-width="" data-height=""></div> */}
 					</div>
 					<div className="chuamucchat">
 						<a href="https://m.me/ngr.duhoc">
 							{' '}
-							<img src="/assets/images/chat/messenge_icon.png" alt="zalo_icon" className="icon_chat" />
+							<img src="/assets/images/chat/messenge_icon1.png" alt="zalo_icon" className="icon_chat" />
 						</a>
 					</div>
 					<div></div>
