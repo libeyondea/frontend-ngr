@@ -8,3 +8,81 @@
     margin-bottom: -5px;
 
 }
+.become-teacher__formm {
+    padding-left: 0px; 
+    position: relative; 
+     margin-right: 0px;
+}
+.become-teacher__formm:before {
+    content: '';
+    width: 197px;
+    height: 268px;
+    position: absolute;
+    bottom: -11%;
+    left: 87%;
+    z-index: -1;
+}
+.become-teacher__formm-content {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f1f1f1;
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.become-teacher__formm-top {
+    background-color: #ff944d !important;
+    padding-left: 60px;
+    position: relative;
+}
+.become-teacher__formm-top::before {
+    content: '';
+    background-position: 0 0;
+    position: absolute;
+    top: 100%;
+    left: 60px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ff944d !important;
+    background-image: none !important;
+}
+.become-teacher__formm-top::before {
+    content: '';
+    width: 38px;
+    height: 10px;
+    background-image: url(/_next/static/media/become-form-angle.f7e6fce5.png);
+    background-position: 0 0;
+    position: absolute;
+    top: 100%;
+    left: 60px;
+}
+.become-teacher__formm input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 60px;
+    font-size: 16px;
+    color: #81868a;
+    font-weight: 500;
+    padding-left: 40px;
+    display: block;
+    margin-bottom: 10px;
+}
+.blog-one__title {
+    margin-bottom: 20px;
+}
+.blog-one__meta {
+    margin-bottom: 20px;
+}
+.blog-one__text {
+    margin-bottom: 20px;
+}
+.blog-one__content {
+    padding-top: 30px;
+
+}

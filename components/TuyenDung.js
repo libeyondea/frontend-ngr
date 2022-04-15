@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-const CourseDetails = () => {
+const TuyenDung = () => {
 	return (
 		<section className="course-details">
 			<div className="container">
@@ -23,9 +23,9 @@ const CourseDetails = () => {
 				<div className="row">
 					<div id="crumbs" className="crumbss">
 						<span typeof="v:Breadcrumb">
-							<a className="crumbs-home" href="https://newgoldenroad.com">
+							<Link className="crumbs-home" href="/">
 								Trang Chủ
-							</a>
+							</Link>
 						</span>
 						&nbsp;&nbsp;
 						<span className="delimiter">/</span>
@@ -91,13 +91,13 @@ const CourseDetails = () => {
 								</div>
 								<h2 className="blog-one__title">
 									<Link href="/news-details">
-										<a>[DU HỌC MỸ] – Cần chuẩn bị gì khi du học Mỹ – Du học Mỹ – Du học Tân Con Đường Vàng</a>
+										<a>[JOB HIRING] – Tuyển dụng Thực tập sinh các ngành tại Du học Tân Con Đường Vàng</a>
 									</Link>
 								</h2>
 								<p className="blog-one__text">
-									CẦN CHUẨN BỊ GÌ KHI DU HỌC MỸ ? Cần chuẩn bị gì khi đi du học Mỹ? hay Du học Mỹ cần mang theo
-									gì? Đây là những từ khoá được gõ nhiều nhất khi các bậc phụ huynh hoặc các bạn học sinh sinh
-									viên muốn tìm hiểu …
+									JOB HIRING AT NEW GOLDEN ROAD Job Hiring for SUMMER TUYỂN DỤNG THỰC TẬP SINH Địa chỉ làm việc:
+									219 Tân Quý, Phường Tân Quý, Quận Tân Phú, TP.HCM Thời gian làm việc: Sáng (8h – 17h) hoặc
+									Chiều (13h – 21h) NEW GOLDEN ROAD – DU HỌC TÂN CON …
 								</p>
 								<Link href="/news-details">
 									<a className="blog-one__link">Read More</a>
@@ -583,44 +583,20 @@ const CourseDetails = () => {
 								Buy This Course
 							</a>
 						</div> */}
-
-						<div className="course-details__meta">
-							<a href="#" className="course-details__meta-link">
-								<span className="course-details__meta-icon">
-									<i className="far fa-clock"></i>
-								</span>
-								Durations: <span>10 hours</span>
-							</a>
-							<a href="#" className="course-details__meta-link">
-								<span className="course-details__meta-icon">
-									<i className="far fa-folder-open"></i>
-								</span>
-								Lectures: <span>6</span>
-							</a>
-							<a href="#" className="course-details__meta-link">
-								<span className="course-details__meta-icon">
-									<i className="far fa-user-circle"></i>
-								</span>
-								Students: <span>Max 4</span>
-							</a>
-							<a href="#" className="course-details__meta-link">
-								<span className="course-details__meta-icon">
-									<i className="fas fa-play"></i>
-								</span>
-								Video: <span>8 hours</span>
-							</a>
-							<a href="#" className="course-details__meta-link">
-								<span className="course-details__meta-icon">
-									<i className="far fa-flag"></i>
-								</span>
-								Skill Level: <span>Advanced</span>
-							</a>
-							<a href="#" className="course-details__meta-link">
-								<span className="course-details__meta-icon">
-									<i className="far fa-bell"></i>
-								</span>
-								Language: <span>English</span>
-							</a>
+						<div className="become-teacher__formm" id="back-top">
+							<div className="become-teacher__form-top">
+								<h2 className="become-teacher__form-title">TƯ VẤN MIỄN PHÍ</h2>
+							</div>
+							<form action="#" metdod="POST" className="become-teacher__form-content contact-form-validated">
+								<input type="text" placeholder="Họ và Tên" name="name" />
+								<input type="text" placeholder=" Địa chỉ Email" name="email" />
+								<input type="text" placeholder="Số điện tdoại" name="phone" />
+								<input type="text" placeholder="Lời nhắn" name="message" />
+								<button type="submit" className="tdm-btn become-teacher__form-btn">
+									ĐĂNG KÝ
+								</button>
+							</form>
+							<div className="result text-center"></div>
 						</div>
 						<div className="course-details__list">
 							<h2 className="course-details__list-title">New Courses</h2>
@@ -674,4 +650,4 @@ const CourseDetails = () => {
 	);
 };
 
-export default CourseDetails;
+export default TuyenDung;

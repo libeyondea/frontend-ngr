@@ -492,7 +492,7 @@ class NavOne extends Component {
 											</Link>
 										</li>
 										<li>
-											<Link href="/course-details">
+											<Link href="/tuyendung">
 												<a>Tuyển Dụng</a>
 											</Link>
 										</li>
