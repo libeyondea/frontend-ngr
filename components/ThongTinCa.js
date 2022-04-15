@@ -5,6 +5,44 @@ const ThongTinCa = () => {
 	return (
 		<section className="faq-one">
 			<div className="container">
+			<div id="breaking-news" className="breaking-news">
+					<span className="breaking-news-title">
+						<span>TIN MỚI NHẤT</span>
+					</span>
+					<ul className="innerFade" style={{ position: 'relative', height: 32 }}>
+						<li style={{ display: 'block', zIndex: 10, position: 'absolute' }}>
+							<a
+								href="https://newgoldenroad.com/du-hoc-uc-sophia-nhi-do-tot-nghiep-truong-woodcroft-college-du-hoc-tan-con-duong-vang/"
+								title="[DU HỌC ÚC] – Du học sinh Sophia Nhi Đỗ vừa tốt nghiệp trường Woodcroft College – Du học Úc – Du học Tân Con Đường Vàng"
+							>
+								[DU HỌC ÚC] – Du học sinh Sophia Nhi Đỗ vừa tốt nghiệp trường Woodcroft College – Du học Úc – Du
+								học Tân Con Đường Vàng
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div className="row">
+					<div id="crumbs" className="crumbss" style={{ paddingTop: '10px' }}>
+						<span typeof="v:Breadcrumb">
+							<a className="crumbs-home" href="https://newgoldenroad.com">
+								Trang Chủ
+							</a>
+						</span>
+						&nbsp;&nbsp;
+						<span className="delimiter">/</span>
+						&nbsp;&nbsp;
+						<span typeof="v:Breadcrumb">
+							<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
+								Hoạt Động Công Ty
+							</a>
+						</span>
+						&nbsp;&nbsp;
+						<span className="delimiter">/</span>
+						&nbsp;&nbsp;
+						<span className="current">
+							[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
+						</span>
+					</div>
 				<h2 className="tieu-de">TẠI SAO LẠI CHỌN DU HỌC CANADA ?</h2>
 				<p className="tai-sao">
 					Nền giáo dục Canada thuộc top 3 thế giới và có rất nhiều lí do để học sinh và gia đình chọn làm điểm đến du
@@ -213,10 +251,10 @@ const ThongTinCa = () => {
 						<div className="card-body">
 							Canada linh động cho phép sinh viên từ Việt Nam có thể:
 							<br />
-							Xin visa diện thông thường: Bắt buộc chứng minh tài chính với quy trình xét duyệt, cấp visa trong
+							- Xin visa diện thông thường: Bắt buộc chứng minh tài chính với quy trình xét duyệt, cấp visa trong
 							khoảng thời gian trung bình là 11 tuần.
 							<br />
-							Xin visa diện miễn chứng minh tài chính SDS (Study Direct Stream): Sinh viên phải mua Giấy chứng nhận
+							- Xin visa diện miễn chứng minh tài chính SDS (Study Direct Stream): Sinh viên phải mua Giấy chứng nhận
 							đầu tư đảm bảo (GIC) trị giá 10.000 CAD, đồng thời phải có chứng chỉ IELTS tối thiểu 6.0 ở tất cả các
 							kỹ năng.
 						</div>
@@ -297,6 +335,7 @@ const ThongTinCa = () => {
 						</div>
 					</div>
 				</div>
+			</div>
 			</div>
 		</section>
 	);
