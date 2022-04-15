@@ -79,10 +79,10 @@ class NavOne extends Component {
 								<a className="navbar-brand">
 									<div className="fixstyle">
 										<Image
-											src="/assets/images/logongrr.png"
+											src="/assets/images/logongrnew.png"
 											className="main-logo"
-											width="100"
-											height="84"
+											width="165"
+											height="100"
 											alt="Awesome Image"
 										/>
 									</div>
@@ -492,7 +492,7 @@ class NavOne extends Component {
 											</Link>
 										</li>
 										<li>
-											<Link href="/course-details">
+											<Link href="/tuyendung">
 												<a>Tuyển Dụng</a>
 											</Link>
 										</li>
