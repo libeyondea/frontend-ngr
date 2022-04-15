@@ -84,6 +84,14 @@ h3.title-comm:before {
     text-align: center;
     display: inline-block;
 }
+.course-details__list {
+    padding-left: 88px !important;
+    position: relative !important;
+    border-style: unset;
+    border-width: 2px;
+    border-color: #f1f1f1;
+    padding: 50px;
+}
 /* contac */
 .map{
     margin-bottom: 58px;
