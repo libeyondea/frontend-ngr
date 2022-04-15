@@ -12,7 +12,7 @@ const SliderTwo = () => {
 		}
 	};
 
-	const slideImages = ['/assets/images/banner-1.png', '/assets/images/banner-2.png', '/assets/images/banner-3.png'];
+	const slideImages = ['/assets/images/banner1-1.png', '/assets/images/banner-2.png', '/assets/images/banner-3.png'];
 
 	const properties = {
 		duration: 5000,
