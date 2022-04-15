@@ -147,101 +147,157 @@ const ThongTinCa = () => {
 					<div className=" col-md-12 col-sm-12"></div>
 				</div>
 			</div>
-	<div className="accordion" id="accordionExample">
-  <div className="card">
-    <div className="card-header" id="headingOne">
-      <h2 className="mb-0">
-        <button className="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-		Du học Canada có giới hạn độ tuổi không?
-        </button>
-      </h2>
-    </div>
-    <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div className="card-body">
-      Nguyện vọng đi học là lý do chính đáng. Canada không khống chế tuổi theo học các chương trình sau phổ thông miễn sinh viên đủ 
-	  điều kiện về sức khỏe, năng lực học tập đáp ứng được yêu cầu của ngành nghề và đủ khả năng tài chính thì đều được phép đăng ký học.
-      </div>
-    </div>
-  </div>
-  <div className="card">
-    <div className="card-header" id="headingTwo">
-      <h2 className="mb-0">
-        <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-		Du học sinh ở Canada có được làm thêm không?
-        </button>
-      </h2>
-    </div>
-    <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div className="card-body">
-	  Canada cho phép sinh viên quốc tế làm thêm tối đa 20 giờ/tuần trong khi học và toàn thời gian (40 giờ/tuần) 
-	  vào các kỳ nghỉ với điều kiện sinh viên chu toàn việc học. Khi hoàn thành một chương trình bằng cấp, sinh viên được phép ở lại từ 1 - 3 năm tùy theo độ dài khóa học chính trước đó.
-      </div>
-    </div>
-  </div>
-  <div className="card">
-    <div className="card-header" id="headingThree">
-      <h2 className="mb-0">
-        <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-		Du học Canada có cần chứng minh tài chính không?
-        </button>
-      </h2>
-    </div>
-    <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-      <div className="card-body">
-	  Canada linh động cho phép sinh viên từ Việt Nam có thể:<br/>
-	Xin visa diện thông thường: Bắt buộc chứng minh tài chính với quy trình xét duyệt, cấp visa trong khoảng thời gian trung bình là 11 tuần.
-	<br/>Xin visa diện miễn chứng minh tài chính SDS (Study Direct Stream): Sinh viên phải mua Giấy chứng nhận đầu tư đảm bảo (GIC) trị giá 10.000 CAD, đồng thời phải có chứng chỉ IELTS tối thiểu 6.0 ở tất cả các kỹ năng.
-	</div>
-    </div>
-  </div>
-  <div className="card">
-    <div className="card-header" id="headingFour">
-      <h2 className="mb-0">
-        <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-		Xin visa du học Canada có khó không?
-        </button>
-      </h2>
-    </div>
-    <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-      <div className="card-body">
-      Xin visa du học Canada sẽ cần chứng minh được ý định du học Canada nghiêm túc, có lộ trình học hợp lý, khả năng tài chính đảm bảo chi trả toàn bộ khóa học… Do đó, việc xin visa khó hay dễ là còn 
-	  tùy thuộc vào tình trạng thực tế của mỗi học sinh và gia đình. Cái khó của nhiều học sinh là không thu thập được tài liệu chứng minh được nguồn tài chính bảo trợ vì không phải gia đình nào cũng có thu nhập chịu thuế. Ngoài ra là không xây dựng được lộ trình học hợp lý do không hiểu rõ chương trình học, yêu cầu của Lãnh sự quán…
-      </div>
-    </div>
-  </div>
-  <div className="card">
-    <div className="card-header" id="headingFive">
-      <h2 className="mb-0">
-        <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-		Xin visa du học Canada mất bao lâu?
-        </button>
-      </h2>
-    </div>
-    <div id="collapseFive" className="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-      <div className="card-body">
-	  Tùy thuộc vào chương trình visa và lưu lượng hồ sơ xin visa tại thời điểm bạn nộp hồ sơ mà thời gian xét duyệt visa sẽ nhanh hoặc chậm. Với chương trình visa diện thông thường (có chứng minh tài chính) 
-	  thì tùy mỗi thời điểm trung bình xét từ 3 – 8 tuần. Với chương trình visa SDS (miễn chứng minh tài chính), thời gian xét (trong điều kiện bình thường) tối đa 45 ngày làm việc và có thể nhanh hơn là sau 2 ngày.
-      </div>
-    </div>
-  </div>
-  <div className="card">
-    <div className="card-header" id="headingSix">
-      <h2 className="mb-0">
-        <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-		Ở Canada có những loại hình cư trú nào cho sinh viên?
-        </button>
-      </h2>
-    </div>
-    <div id="collapseSix" className="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-      <div className="card-body">
-	  Sinh viên quốc tế có nhiều lựa chọn loại hình cư trú ở Canada: homestay – ở cùng gia đình bản xứ, ký túc xá trong khuôn viên trường, thuê nhà/phòng bên ngoài trường. Riêng các học sinh 
-	  trung học dưới 18 tuổi thì đều yêu cầu phải có người giám hộ nên thường chỉ được chọn hình thức ở nội trú hoặc homestay hoặc ở với người thân, người quen nếu có.
-      </div>
-    </div>
-  </div>
-</div>
-
-	
+			<div className="accordion" id="accordionExample">
+				<div className="card">
+					<div className="card-header" id="headingOne">
+						<h2 className="mb-0">
+							<button
+								className="btn btn-link btn-block text-left"
+								type="button"
+								data-toggle="collapse"
+								data-target="#collapseOne"
+								aria-expanded="true"
+								aria-controls="collapseOne"
+							>
+								Du học Canada có giới hạn độ tuổi không?
+							</button>
+						</h2>
+					</div>
+					<div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div className="card-body">
+							Nguyện vọng đi học là lý do chính đáng. Canada không khống chế tuổi theo học các chương trình sau phổ
+							thông miễn sinh viên đủ điều kiện về sức khỏe, năng lực học tập đáp ứng được yêu cầu của ngành nghề và
+							đủ khả năng tài chính thì đều được phép đăng ký học.
+						</div>
+					</div>
+				</div>
+				<div className="card">
+					<div className="card-header" id="headingTwo">
+						<h2 className="mb-0">
+							<button
+								className="btn btn-link btn-block text-left collapsed"
+								type="button"
+								data-toggle="collapse"
+								data-target="#collapseTwo"
+								aria-expanded="false"
+								aria-controls="collapseTwo"
+							>
+								Du học sinh ở Canada có được làm thêm không?
+							</button>
+						</h2>
+					</div>
+					<div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+						<div className="card-body">
+							Canada cho phép sinh viên quốc tế làm thêm tối đa 20 giờ/tuần trong khi học và toàn thời gian (40
+							giờ/tuần) vào các kỳ nghỉ với điều kiện sinh viên chu toàn việc học. Khi hoàn thành một chương trình
+							bằng cấp, sinh viên được phép ở lại từ 1 - 3 năm tùy theo độ dài khóa học chính trước đó.
+						</div>
+					</div>
+				</div>
+				<div className="card">
+					<div className="card-header" id="headingThree">
+						<h2 className="mb-0">
+							<button
+								className="btn btn-link btn-block text-left collapsed"
+								type="button"
+								data-toggle="collapse"
+								data-target="#collapseThree"
+								aria-expanded="false"
+								aria-controls="collapseThree"
+							>
+								Du học Canada có cần chứng minh tài chính không?
+							</button>
+						</h2>
+					</div>
+					<div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+						<div className="card-body">
+							Canada linh động cho phép sinh viên từ Việt Nam có thể:
+							<br />
+							Xin visa diện thông thường: Bắt buộc chứng minh tài chính với quy trình xét duyệt, cấp visa trong
+							khoảng thời gian trung bình là 11 tuần.
+							<br />
+							Xin visa diện miễn chứng minh tài chính SDS (Study Direct Stream): Sinh viên phải mua Giấy chứng nhận
+							đầu tư đảm bảo (GIC) trị giá 10.000 CAD, đồng thời phải có chứng chỉ IELTS tối thiểu 6.0 ở tất cả các
+							kỹ năng.
+						</div>
+					</div>
+				</div>
+				<div className="card">
+					<div className="card-header" id="headingFour">
+						<h2 className="mb-0">
+							<button
+								className="btn btn-link btn-block text-left collapsed"
+								type="button"
+								data-toggle="collapse"
+								data-target="#collapseFour"
+								aria-expanded="false"
+								aria-controls="collapseFour"
+							>
+								Xin visa du học Canada có khó không?
+							</button>
+						</h2>
+					</div>
+					<div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+						<div className="card-body">
+							Xin visa du học Canada sẽ cần chứng minh được ý định du học Canada nghiêm túc, có lộ trình học hợp lý,
+							khả năng tài chính đảm bảo chi trả toàn bộ khóa học… Do đó, việc xin visa khó hay dễ là còn tùy thuộc
+							vào tình trạng thực tế của mỗi học sinh và gia đình. Cái khó của nhiều học sinh là không thu thập được
+							tài liệu chứng minh được nguồn tài chính bảo trợ vì không phải gia đình nào cũng có thu nhập chịu
+							thuế. Ngoài ra là không xây dựng được lộ trình học hợp lý do không hiểu rõ chương trình học, yêu cầu
+							của Lãnh sự quán…
+						</div>
+					</div>
+				</div>
+				<div className="card">
+					<div className="card-header" id="headingFive">
+						<h2 className="mb-0">
+							<button
+								className="btn btn-link btn-block text-left collapsed"
+								type="button"
+								data-toggle="collapse"
+								data-target="#collapseFive"
+								aria-expanded="false"
+								aria-controls="collapseFive"
+							>
+								Xin visa du học Canada mất bao lâu?
+							</button>
+						</h2>
+					</div>
+					<div id="collapseFive" className="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+						<div className="card-body">
+							Tùy thuộc vào chương trình visa và lưu lượng hồ sơ xin visa tại thời điểm bạn nộp hồ sơ mà thời gian
+							xét duyệt visa sẽ nhanh hoặc chậm. Với chương trình visa diện thông thường (có chứng minh tài chính)
+							thì tùy mỗi thời điểm trung bình xét từ 3 – 8 tuần. Với chương trình visa SDS (miễn chứng minh tài
+							chính), thời gian xét (trong điều kiện bình thường) tối đa 45 ngày làm việc và có thể nhanh hơn là sau
+							2 ngày.
+						</div>
+					</div>
+				</div>
+				<div className="card">
+					<div className="card-header" id="headingSix">
+						<h2 className="mb-0">
+							<button
+								className="btn btn-link btn-block text-left collapsed"
+								type="button"
+								data-toggle="collapse"
+								data-target="#collapseSix"
+								aria-expanded="false"
+								aria-controls="collapseSix"
+							>
+								Ở Canada có những loại hình cư trú nào cho sinh viên?
+							</button>
+						</h2>
+					</div>
+					<div id="collapseSix" className="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+						<div className="card-body">
+							Sinh viên quốc tế có nhiều lựa chọn loại hình cư trú ở Canada: homestay – ở cùng gia đình bản xứ, ký
+							túc xá trong khuôn viên trường, thuê nhà/phòng bên ngoài trường. Riêng các học sinh trung học dưới 18
+							tuổi thì đều yêu cầu phải có người giám hộ nên thường chỉ được chọn hình thức ở nội trú hoặc homestay
+							hoặc ở với người thân, người quen nếu có.
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 	);
 };

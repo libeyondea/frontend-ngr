@@ -44,7 +44,7 @@ const Chat = () => {
 						<a href="https://chat.zalo.me/?phone=0969843351">
 							<img src="/assets/images/chat/zalo_icon.png" alt="zalo_icon" className="icon_chat" />
 						</a>
-						{/* <div className="zalo-chat-widget" data-oaid="579745863508352884" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="5" data-width="" data-height=""></div> */}
+						 <div className="zalo-chat-widget" data-oaid="579745863508352884" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="5" data-width="" data-height=""></div>
 					</div>
 					<div className="chuamucchat">
 						<a href="https://m.me/ngr.duhoc">
