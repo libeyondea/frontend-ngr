@@ -412,17 +412,17 @@ class NavOne extends Component {
 									</Link>
 									<ul className="sub-menu">
 										<li>
-											<Link href="/">
+											<Link href="/dinhcumy">
 												<a>Định Cư Mỹ</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/index-2">
+											<Link href="/dinhcuuc">
 												<a>Định Cư Úc</a>
 											</Link>
 										</li>
 										<li>
-											<Link href="/index-3">
+											<Link href="/dinhcucanada">
 												<a>Định cư Canada</a>
 											</Link>
 										</li>
