@@ -3,16 +3,14 @@ import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
-import CallToActionTwo from '../components/CallToActionTwo';
-import Doitac from '../components/Doitac';
+import DinhCuMy from '../components/DinhCuMy';
 
 const TeachersPage = () => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Định Cư">
 			<NavOne />
 			<PageHeader title="Định Cư Mỹ" />
-			<Doitac />
-			<CallToActionTwo />
+			<DinhCuMy />
 			<Footer />
 		</Layout>
 	);
