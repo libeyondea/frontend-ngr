@@ -7277,6 +7277,47 @@ span#fcta-zalo-tracking {
 
   }
 /********************************************Finish Button Chat********************************************/
+/********************************************Học Bổng********************************************/
+.content-hb{
+	width: 80%;
+	margin: 20px auto;
+	box-sizing: border-box;
+	box-shadow: -1px 1px 3px #7b7f85;
+}
+.tieu-de-1{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+    font-size: 28px;
+	color: #000;
+	font-weight: normal;
+	display: block;
+}
+.anh-noidung1{
+	width: 90%;
+	height: 500px;
+	margin: 5px auto;
+	object-fit: contain;
+}
+.anh1{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tai-sao{
 	font-size: 17px;
 }

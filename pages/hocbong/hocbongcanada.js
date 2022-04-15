@@ -9,7 +9,7 @@ const GalleryPage = () => {
     return (
         <Layout pageTitle="Tân Con Đường Vàng | Gallery">
             <NavOne />
-            <PageHeader title="Du Học Canada" />
+            <PageHeader title="Học Bổng Canada" />
              <HocBongCanada/>
             <Footer />
         </Layout>
