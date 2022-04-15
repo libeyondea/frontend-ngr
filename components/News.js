@@ -43,7 +43,7 @@ const News = () => {
 							[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
 						</span>
 					</div>
-					<h3 className="title-comm">
+					<h3 className="title-com">
 						<span className="title-holder">TIN TỨC MỚI</span>
 					</h3>
 					<div className="col-lg-4">

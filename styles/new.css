@@ -12,7 +12,7 @@
 	padding-bottom: 10px;
 	padding-left: 14px;
 }
-.title-comm {
+.title-com {
 	padding-top: 40px;
     right: 410px;
     color: #fff;
@@ -23,7 +23,7 @@
     font-weight: 700;
     text-align: center;
 }
-h3.title-comm:before {
+h3.title-com:before {
     content: '';
     position: absolute;
     top: 50%;
@@ -34,7 +34,7 @@ h3.title-comm:before {
     z-index: 1;
     display: block;
 }
-.title-comm .title-holder {
+.title-com .title-holder {
     min-width: 350px;
     height: 45px;
     background-color: #ff944d;
