@@ -3690,7 +3690,7 @@ a:visited {
 	position: relative;
 }
 .course-details__meta-icon:before {
-	content: '';
+
 	position: absolute;
 	left: -5px;
 	top: 0;

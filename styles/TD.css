@@ -86,3 +86,40 @@
     padding-top: 30px;
 
 }
+.course-detail__list {
+    padding-left: 88px !important;
+    position: relative !important;
+    border-style: double;
+    border-width: 2px;
+    border-color: #f1f1f1;
+    padding: 50px;
+}
+.course-details__list-title {
+    margin-bottom: 60px;
+}
+.content_1{
+    margin-top: -30px;
+    color: black;
+}
+.list{
+    list-style: disc;
+}
+p.post-meta {
+    padding-left: 15px;
+}
+.lienhe{
+    color: #33cccc;
+    font-size: 24px;
+}
+.auto{
+    text-align: center;
+    color: #ff0000;
+}
+.iconfa{
+    width: 16;
+    height: 16;
+    color: white;
+}
+.icon-gg{
+    background-color: red !important;
+}
