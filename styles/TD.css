@@ -93,6 +93,7 @@
     border-width: 2px;
     border-color: #f1f1f1;
     padding: 50px;
+    margin-top: 20px;
 }
 .course-details__list-title {
     margin-bottom: 60px;
@@ -122,4 +123,7 @@ p.post-meta {
 }
 .icon-gg{
     background-color: red !important;
+}.titlee{
+    color: red;
+    font-size: 25px;
 }

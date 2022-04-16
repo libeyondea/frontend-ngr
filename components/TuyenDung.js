@@ -90,7 +90,7 @@ const TuyenDung = () => {
 									</a>
 								</div>
 								<h2 className="blog-one__title">
-									<Link href="/news-details">
+									<Link href="/td-details">
 										<a>[JOB HIRING] – Tuyển dụng Thực tập sinh các ngành tại Du học Tân Con Đường Vàng</a>
 									</Link>
 								</h2>

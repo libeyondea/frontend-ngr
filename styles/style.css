@@ -6787,13 +6787,13 @@ html {
 }
 .media-play-icon::before,
 .media-play-icon::after {
-	animation: ripple 3s infinite;
+	animation: ripple 2s infinite;
 }
 .media-play-icon::before {
-	animation-delay: 0.9s;
+	animation-delay: 0.7s;
 }
 .media-play-icon::after {
-	animation-delay: 0.5s;
+	animation-delay: 0.4s;
 }
 
 .countdown-one__tygia {

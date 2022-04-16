@@ -86,7 +86,7 @@ const TuyenDungDetails = () => {
                         <div className="course-details__content">
                             <p className="course-details__author">
                                 <img src="/assets/images/team-1-1.jpg" alt="" />
-                                by <a href="#">Addie Walters</a>
+                                by <a href="#">Ms.Linda</a>
                             </p>
 
                             <div className="course-details__top">
@@ -128,7 +128,7 @@ const TuyenDungDetails = () => {
                             </ul>
                             <div className="tab-content course-details__tab-content ">
                                 <div className="tab-pane show active  animated fadeInUp content_1" role="tabpanel" id="overview">
-                                    <p style={{ color: 'red' }}><strong>Vị trí tuyển dụng: </strong>Copywriter</p>
+                                    <p className="titlee"><strong>Vị trí tuyển dụng: </strong>Copywriter</p>
                                     <p><strong>Số lượng</strong>: 3</p>
                                     <p><strong>Mô tả công việc:</strong></p>
                                     <ul >
@@ -394,7 +394,7 @@ const TuyenDungDetails = () => {
                             <div className="result text-center"></div>
                         </div>
                         <div className="course-detail__list">
-                            <h2 className="course-details__list-title">New Courses</h2>
+                            <h2 className="course-details__list-title">Nhân Viên</h2>
                             <div className="course-details__list-item">
                                 <div className="course-details__list-img">
                                     <img src="/assets/images/lc-1-1.jpg" alt="" />
