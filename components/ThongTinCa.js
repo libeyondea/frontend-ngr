@@ -201,7 +201,7 @@ const ThongTinCa = () => {
 							</button>
 						</h2>
 					</div>
-					<div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+					<div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
 						<div className="card-body">
 							Nguyện vọng đi học là lý do chính đáng. Canada không khống chế tuổi theo học các chương trình sau phổ
 							thông miễn sinh viên đủ điều kiện về sức khỏe, năng lực học tập đáp ứng được yêu cầu của ngành nghề và
