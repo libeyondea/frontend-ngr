@@ -48,14 +48,14 @@ const CacTruongCanada1 = () => {
 						&nbsp;&nbsp;
 						<span typeof="v:Breadcrumb">
 							<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
-								Hoạt Động Công Ty
+								Du Học Canada
 							</a>
 						</span>
 						&nbsp;&nbsp;
 						<span className="delimiter">/</span>
 						&nbsp;&nbsp;
 						<span className="current">
-							[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
+							[Các Trường Đại Học Và Cao Đẳng Canada] 
 						</span>
 					</div>
 			<h3 className="title-comm">
