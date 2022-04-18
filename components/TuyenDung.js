@@ -48,7 +48,7 @@ const TuyenDung = () => {
 				
 					<div className="card-TH">
 						<div className="card-header">
-							<p className="card-header-TH">
+							<p className="card-header-TD">
 							Tuyển dụng vị trí Copywriter – Du học Tân Con Đường Vàng
 							</p>
 						</div>
@@ -56,7 +56,7 @@ const TuyenDung = () => {
 							<p className="img-card-TH">
 								<img
 									src="/assets/images/TuyenDung/td1.jpg"
-									alt="Trường Southern Alberta Institute of Technology (SAIT)"
+									alt="Tuyển dụng vị trí Copywriter"
 								/>
 							</p>
 							<p className="card-text-TH">
@@ -76,16 +76,16 @@ const TuyenDung = () => {
 				
 					<div className="card-TH">
 						<div className="card-header">
-							<p className="card-header-TH">
+							<p className="card-header-TD">
 							Tuyển dụng vị trí Designer – Du học Tân Con Đường Vàng
 							</p>
 						</div>
 						<div className="card-body">
 							<p className="img-card-TH">
-								<img src="/assets/images/TuyenDung/td2.jpg" alt="Trường Saskatchewan Polytechnic" />
+								<img src="/assets/images/TuyenDung/td2.jpg" alt="Tuyển dụng vị trí Designer" />
 							</p>
 							<p className="card-text-TH">
-							Tuyển dụng vị trí Designer tại Công ty Du học Tân Con Đường Vàng. Số lượng: 1. Nộp hồ sơ trước ngày 15/12/2021.
+							Tuyển dụng vị trí Designer tại Công ty Du học Tân Con Đường Vàng. Số lượng: 1. Nộp hồ sơ trước ngày 01/06/2022.
 							</p>
 							<a href="#" className="btn btn-primary">
 								Đọc Thêm
@@ -94,19 +94,16 @@ const TuyenDung = () => {
 					</div>
 					<div className="card-TH">
 						<div className="card-header">
-							<p className="card-header-TH">
-								Trường British Columbia University – Du học Canada – Du học Tân Con Đường Vàng
+							<p className="card-header-TD">
+							Tuyển dụng vị trí trợ lý tư vấn du học – Du học Tân Con Đường Vàng
 							</p>
 						</div>
 						<div className="card-body">
 							<p className="img-card-TH">
-								<img src="/assets/images/TruongHoc/BRITI.png" alt="Trường British Columbia University" />
+								<img src="/assets/images/TuyenDung/td3.jpg" alt="Tuyển dụng vị trí trợ lý tư vấn du học" />
 							</p>
-							<h5 className="card-title-TH">Trường British Columbia University</h5>
 							<p className="card-text-TH">
-								BRITISH COLUMBIA UNIVERSITY British Columbia – ngôi trường của những giải Nobel và những người nổi
-								tiếng. Nếu Mỹ có Đại học Havard, Anh có Đại học Oxford thì Canada có Đại học British Columbia. Du
-								học, ai cũng mong được sở hữu tấm bằng của những trường danh tiếng. …
+							Tuyển dụng vị trí trợ lý tư vấn du học tại Công ty Du học Tân Con Đường Vàng. Số lượng: 2. Nộp hồ sơ trước ngày 15/05/2022.
 							</p>
 							<a href="#" className="btn btn-primary">
 								Đọc Thêm
@@ -115,19 +112,17 @@ const TuyenDung = () => {
 					</div>
 					<div className="card-TH">
 						<div className="card-header">
-							<p className="card-header-TH">
-								Trường Coast Mountain College – Du học Canada – Du học Tân Con Đường Vàng
+							<p className="card-header-TD">
+							Vị trí biên dịch – Du học Tân Con Đường Vàng
 							</p>
 						</div>
 						<div className="card-body">
 							<p className="img-card-TH">
-								<img src="/assets/images/TruongHoc/COAST.png" alt="Trường Coast Mountain College" />
+								<img src="/assets/images/TuyenDung/td4.jpg" alt="Vị trí biên dịch" />
 							</p>
-							<h5 className="card-title-TH">Trường Coast Mountain College</h5>
+				
 							<p className="card-text-TH">
-								COAST MOUNTAIN COLLEGE Coast Mountain College (CMTN) được thành lập dưới sự công nhận của Chính
-								phủ. Toạ lạc tại khu vực cộng đồng dân cư thịnh vượng và đa dạng của Tây Bắc thuộc tỉnh British
-								Columbia. Coast Mountain College cung cấp nhiều chương trình đào tạo chất lượng với …
+							Tuyển dụng vị trí nhân viên hành chính văn phòng - biên dịch tại Công ty Du học Du học Tân Con Đường Vàng. Nộp hồ sơ trước ngày 10/05/2022.
 							</p>
 							<a href="#" className="btn btn-primary">
 								Đọc Thêm
@@ -135,8 +130,21 @@ const TuyenDung = () => {
 						</div>
 					</div>
 				</div>
+				
 						</div>
-
+						<div className="post-pagination">
+				<a href="#">
+					<i className="fa fa-angle-double-left" />
+				</a>
+				<a className="active" href="#">
+					1
+				</a>
+				<a href="#">2</a>
+				<a href="#">
+					<i className="fa fa-angle-double-right" />
+				</a>
+			</div>
+		
 				
 			
 		</section>

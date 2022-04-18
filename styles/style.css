@@ -7302,6 +7302,14 @@ span#fcta-zalo-tracking {
 	max-width: 100%;
 	max-height: 100%;
 }
+.card-header-TD{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 1px;
+    font-size: 22px;
+	color: #000;
+	font-weight: normal;
+	display: block;
+}
 
 
 

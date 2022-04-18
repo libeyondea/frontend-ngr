@@ -33,7 +33,7 @@ const ThongTinCa = () => {
 						&nbsp;&nbsp;
 						<span typeof="v:Breadcrumb">
 							<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
-								Hoạt Động Công Ty
+								Thông tin Canada
 							</a>
 						</span>
 						&nbsp;&nbsp;
