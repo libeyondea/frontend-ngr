@@ -43,96 +43,87 @@ const TuyenDung = () => {
 						</span>
 					</div>
 					<h3 className="title-com">
-						<span className="title-holder">THÔNG TIN TUYỂN DỤNG</span>
+						<span className="title-holder">DANH SÁCH TUYỂN DỤNG</span>
 					</h3>
-				
+
 					<div className="card-TH">
 						<div className="card-header">
-							<p className="card-header-TD">
-							Tuyển dụng vị trí Copywriter – Du học Tân Con Đường Vàng
-							</p>
+							<p className="card-header-TD">Tuyển dụng vị trí Copywriter – Du học Tân Con Đường Vàng</p>
 						</div>
 						<div className="card-body">
 							<p className="img-card-TH">
-								<img
-									src="/assets/images/TuyenDung/td1.jpg"
-									alt="Tuyển dụng vị trí Copywriter"
-								/>
+								<img src="/assets/images/TuyenDung/td1.jpg" alt="Tuyển dụng vị trí Copywriter" />
 							</p>
 							<p className="card-text-TH">
-							Tuyển dụng vị trí sáng tạo nội dung cho các chiến dịch quảng cáo của Công ty Du học Tân Con Đường Vàng. Số lượng: 3. Nộp hồ sơ trước ngày 15/12/2021.
-
+								Tuyển dụng vị trí sáng tạo nội dung cho các chiến dịch quảng cáo của Công ty Du học Tân Con Đường
+								Vàng. Số lượng: 3. Nộp hồ sơ trước ngày 15/12/2021.
 							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
-								<Link href="/news-details">
-									<a className="blog-one__plus">
-										<i className="kipso-icon-plus-symbol"></i>
-									</a>
-								</Link>
-							</div>						
+							<Link href="/td-details">
+								<a className="btn btn-primary">Đọc Thêm</a>
+							</Link>
+							<Link href="/news-details">
+								<a className="blog-one__plus">
+									<i className="kipso-icon-plus-symbol"></i>
+								</a>
+							</Link>
 						</div>
-				
+					</div>
+
 					<div className="card-TH">
 						<div className="card-header">
-							<p className="card-header-TD">
-							Tuyển dụng vị trí Designer – Du học Tân Con Đường Vàng
-							</p>
+							<p className="card-header-TD">Tuyển dụng vị trí Designer – Du học Tân Con Đường Vàng</p>
 						</div>
 						<div className="card-body">
 							<p className="img-card-TH">
 								<img src="/assets/images/TuyenDung/td2.jpg" alt="Tuyển dụng vị trí Designer" />
 							</p>
 							<p className="card-text-TH">
-							Tuyển dụng vị trí Designer tại Công ty Du học Tân Con Đường Vàng. Số lượng: 1. Nộp hồ sơ trước ngày 01/06/2022.
+								Tuyển dụng vị trí Designer tại Công ty Du học Tân Con Đường Vàng. Số lượng: 1. Nộp hồ sơ trước
+								ngày 01/06/2022.
 							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
+							<Link href="/td-details">
+								<a className="btn btn-primary">Đọc Thêm</a>
+							</Link>
 						</div>
 					</div>
 					<div className="card-TH">
 						<div className="card-header">
-							<p className="card-header-TD">
-							Tuyển dụng vị trí trợ lý tư vấn du học – Du học Tân Con Đường Vàng
-							</p>
+							<p className="card-header-TD">Tuyển dụng vị trí trợ lý tư vấn du học – Du học Tân Con Đường Vàng</p>
 						</div>
 						<div className="card-body">
 							<p className="img-card-TH">
 								<img src="/assets/images/TuyenDung/td3.jpg" alt="Tuyển dụng vị trí trợ lý tư vấn du học" />
 							</p>
 							<p className="card-text-TH">
-							Tuyển dụng vị trí trợ lý tư vấn du học tại Công ty Du học Tân Con Đường Vàng. Số lượng: 2. Nộp hồ sơ trước ngày 15/05/2022.
+								Tuyển dụng vị trí trợ lý tư vấn du học tại Công ty Du học Tân Con Đường Vàng. Số lượng: 2. Nộp hồ
+								sơ trước ngày 15/05/2022.
 							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
+							<Link href="/td-details">
+								<a className="btn btn-primary">Đọc Thêm</a>
+							</Link>
 						</div>
 					</div>
 					<div className="card-TH">
 						<div className="card-header">
-							<p className="card-header-TD">
-							Vị trí biên dịch – Du học Tân Con Đường Vàng
-							</p>
+							<p className="card-header-TD">Vị trí biên dịch – Du học Tân Con Đường Vàng</p>
 						</div>
 						<div className="card-body">
 							<p className="img-card-TH">
 								<img src="/assets/images/TuyenDung/td4.jpg" alt="Vị trí biên dịch" />
 							</p>
-				
+
 							<p className="card-text-TH">
-							Tuyển dụng vị trí nhân viên hành chính văn phòng - biên dịch tại Công ty Du học Du học Tân Con Đường Vàng. Nộp hồ sơ trước ngày 10/05/2022.
+								Tuyển dụng vị trí nhân viên hành chính văn phòng - biên dịch tại Công ty Du học Du học Tân Con
+								Đường Vàng. Nộp hồ sơ trước ngày 10/05/2022.
 							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
+							<Link href="/td-details">
+								<a className="btn btn-primary">Đọc Thêm</a>
+							</Link>
 						</div>
 					</div>
 				</div>
-				
-						</div>
-						<div className="post-pagination">
+			</div>
+			<div className="post-pagination">
 				<a href="#">
 					<i className="fa fa-angle-double-left" />
 				</a>
@@ -144,9 +135,6 @@ const TuyenDung = () => {
 					<i className="fa fa-angle-double-right" />
 				</a>
 			</div>
-		
-				
-			
 		</section>
 	);
 };

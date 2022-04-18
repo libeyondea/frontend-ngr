@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const News = () => {
 	return (
-		<section className="blog-one blog-page">
+		<section className="blog-one1 blog-page">
 			<div className="container">
 				<div id="breaking-news" className="breaking-news">
 					<span className="breaking-news-title">
