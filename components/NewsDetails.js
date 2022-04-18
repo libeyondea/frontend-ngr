@@ -88,10 +88,16 @@ const NewsDetails = () => {
 								</p>
 								<div className="clear" />
 							</div>
-
-							<div className="blog-one__image">
-								<img src="/assets/images/New/du-hoc-tan-con-duong-vang-ielts-indicator.jpg" alt="" />
-							</div>
+							<img
+								className="imagess"
+								src="/assets/images/New/du-hoc-tan-con-duong-vang-ielts-indicator.jpg"
+								alt=""
+							/>
+							<img
+								className="imagess"
+								src="/assets/images/New/du-hoc-tan-con-duong-vang-ielts-indicator.jpg"
+								alt=""
+							/>
 							<div className="blog-one__content text-center">
 								<div className="blog-one__meta">
 									<a
