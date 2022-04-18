@@ -1698,6 +1698,9 @@ a:visited {
 }
 
 .contact-one {
+	background-image: url("/assets/images/bglienhe.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
@@ -1709,12 +1712,14 @@ a:visited {
 .contact-one__title {
 	font-size: 60px;
 	font-weight: bold;
-	color: #012237;
+	color: #000;
 	margin: 0;
 	margin-bottom: 45px;
 }
 .contact-one input,
 .contact-one textarea {
+	font-weight: bold;
+    color: #000;
 	border: none;
 	outline: none;
 	width: 100%;
