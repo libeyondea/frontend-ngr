@@ -132,4 +132,12 @@ h3.title-comm:before {
     margin-bottom: 58px;
 }
 /* hieuung */
-
+/* thong tin */
+.inner-banner {
+    background-color: #011928;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-image: url(/assets/images/banner3.png);
+}
