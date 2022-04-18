@@ -6,8 +6,8 @@ const CacTruongCanada1 = () => {
 			<section className="inner-banner-THCA">
 				<div className="container">
 					<div id="breaking-news" className="breaking-news">
-						<ul class="innerFade" style="position: relative; height: 32px;">
-							<li style="display: block; z-index: 10; position: absolute;">
+						<ul className="innerFade" style={{ position: 'relative', height: 32 }}>
+							<li style={{ display: 'block', zIndex: 10, position: 'absolute' }}>
 								<a
 									href="https://newgoldenroad.com/du-hoc-uc-sophia-nhi-do-tot-nghiep-truong-woodcroft-college-du-hoc-tan-con-duong-vang/"
 									title="[DU HỌC CANADA] – – Du học Tân Con Đường Vàng"
@@ -17,39 +17,41 @@ const CacTruongCanada1 = () => {
 							</li>
 						</ul>
 					</div>
-					<div id="crumbs" className="crumbss" style={{ paddingTop: '10px' }}>
-						<span typeof="v:Breadcrumb">
-							<a className="crumbs-home" href="https://newgoldenroad.com">
-								Trang Chủ
-							</a>
-						</span>
-						&nbsp;&nbsp;
-						<span className="delimiter">/</span>
-						&nbsp;&nbsp;
-						<span typeof="v:Breadcrumb">
-							<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
-								Hoạt Động Công Ty
-							</a>
-						</span>
-						&nbsp;&nbsp;
-						<span className="delimiter">/</span>
-						&nbsp;&nbsp;
-						<span className="current">
-							[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
-						</span>
+					<div className='row'>
+						<div id="crumbs" className="crumbss" style={{ paddingTop: '10px' }}>
+							<span typeof="v:Breadcrumb">
+								<a className="crumbs-home" href="https://newgoldenroad.com">
+									Trang Chủ
+								</a>
+							</span>
+							&nbsp;&nbsp;
+							<span className="delimiter">/</span>
+							&nbsp;&nbsp;
+							<span typeof="v:Breadcrumb">
+								<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
+									Hoạt Động Công Ty
+								</a>
+							</span>
+							&nbsp;&nbsp;
+							<span className="delimiter">/</span>
+							&nbsp;&nbsp;
+							<span className="current">
+								[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
+							</span>
+						</div>
+						<ul className="list-unstyled thm-breadcrumb">
+							<li>
+								<a href="/">Trang Chủ</a>
+							</li>
+							<li className="active">
+								<a href="#">Các Trường Đại Học Và Cao Đẳng Canada</a>
+							</li>
+						</ul>
+						<h2 className="inner-banner-THCA__title">
+							Các Trường Đại Học <br />
+							Và Cao Đẳng Canada
+						</h2>
 					</div>
-					<ul className="list-unstyled thm-breadcrumb">
-						<li>
-							<a href="/">Trang Chủ</a>
-						</li>
-						<li className="active">
-							<a href="#">Các Trường Đại Học Và Cao Đẳng Canada</a>
-						</li>
-					</ul>
-					<h2 className="inner-banner-THCA__title">
-						Các Trường Đại Học <br />
-						Và Cao Đẳng Canada
-					</h2>
 				</div>
 			</section>
 			<h3 className="title-comm">
