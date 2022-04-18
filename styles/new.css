@@ -10,7 +10,7 @@
 }
 .crumbss{
 	padding-bottom: 10px;
-	padding-left: 14px;
+    padding-left: 16px;
 }
 .title-com {
 	padding-top: 40px;
@@ -173,7 +173,13 @@ a {
     margin: -5px -15px 0px;
 
 }
-.blog-one {
+.blog-one1 {
     padding-top: 30px;
-    padding-bottom: 120px;
+    padding-bottom: 10px;
+}
+.blog-one__image > img {
+    height: 500px;
+    width: 100%;
+    opacity: 1;
+    transition: all 0.4s ease;
 }
