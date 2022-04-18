@@ -66,6 +66,57 @@ const TuyenDung = () => {
 							<a href="#" className="btn btn-primary">
 								Đọc Thêm
 							</a>
+								<Link href="/news-details">
+									<a className="blog-one__plus">
+										<i className="kipso-icon-plus-symbol"></i>
+									</a>
+								</Link>
+							</div>
+							<div className="blog-one__content text-center">
+								<div className="blog-one__meta">
+									<a
+										data-toggle="tooltip"
+										data-placement="top"
+										title=""
+										href="#"
+										data-original-title="Posted On Jan 19"
+									>
+										<i className="fa fa-calendar-alt"></i>
+									</a>
+									<a
+										data-toggle="tooltip"
+										data-placement="top"
+										title=""
+										href="#"
+										data-original-title="No Comments"
+									>
+										<i className="fa fa-comments"></i>
+									</a>
+									<a
+										data-toggle="tooltip"
+										data-placement="top"
+										title=""
+										href="#"
+										data-original-title="Posted By Admin"
+									>
+										<i className="fa fa-user"></i>
+									</a>
+								</div>
+								<h2 className="blog-one__title">
+									<Link href="/td-details">
+										<a>[JOB HIRING] – Tuyển dụng Thực tập sinh các ngành tại Du học Tân Con Đường Vàng</a>
+									</Link>
+								</h2>
+								<p className="blog-one__text">
+									JOB HIRING AT NEW GOLDEN ROAD Job Hiring for SUMMER TUYỂN DỤNG THỰC TẬP SINH Địa chỉ làm việc:
+									219 Tân Quý, Phường Tân Quý, Quận Tân Phú, TP.HCM Thời gian làm việc: Sáng (8h – 17h) hoặc
+									Chiều (13h – 21h) NEW GOLDEN ROAD – DU HỌC TÂN CON …
+								</p>
+								<Link href="/news-details">
+									<a className="blog-one__link">Read More</a>
+								</Link>
+							</div>
+
 						</div>
 					</div>
 					<div className="card-TH">
@@ -135,7 +186,7 @@ const TuyenDung = () => {
 				</div>
 						</div>
 
-				</div>
+				
 			
 		</section>
 	);

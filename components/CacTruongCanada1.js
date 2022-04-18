@@ -5,6 +5,39 @@ const CacTruongCanada1 = () => {
 		<div>
 			<section className="inner-banner-THCA">
 				<div className="container">
+					<div id="breaking-news" className="breaking-news">
+						<ul class="innerFade" style="position: relative; height: 32px;">
+							<li style="display: block; z-index: 10; position: absolute;">
+								<a
+									href="https://newgoldenroad.com/du-hoc-uc-sophia-nhi-do-tot-nghiep-truong-woodcroft-college-du-hoc-tan-con-duong-vang/"
+									title="[DU HỌC CANADA] – – Du học Tân Con Đường Vàng"
+								>
+									[DU HỌC CANADA] – – Du học Tân Con Đường Vàng
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div id="crumbs" className="crumbss" style={{ paddingTop: '10px' }}>
+						<span typeof="v:Breadcrumb">
+							<a className="crumbs-home" href="https://newgoldenroad.com">
+								Trang Chủ
+							</a>
+						</span>
+						&nbsp;&nbsp;
+						<span className="delimiter">/</span>
+						&nbsp;&nbsp;
+						<span typeof="v:Breadcrumb">
+							<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
+								Hoạt Động Công Ty
+							</a>
+						</span>
+						&nbsp;&nbsp;
+						<span className="delimiter">/</span>
+						&nbsp;&nbsp;
+						<span className="current">
+							[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
+						</span>
+					</div>
 					<ul className="list-unstyled thm-breadcrumb">
 						<li>
 							<a href="/">Trang Chủ</a>
@@ -19,10 +52,6 @@ const CacTruongCanada1 = () => {
 					</h2>
 				</div>
 			</section>
-			{/*   <h3 classname="title-comm">
-    <span classname="title-holder">MỘT SỐ TRƯỜNG ĐẠI HỌC &amp; CAO ĐẲNG TIÊU BIỂU</span>
-  </h3> */}
-
 			<h3 className="title-comm">
 				<span className="title-holder">MỘT SỐ TRƯỜNG ĐẠI HỌC &amp; CAO ĐẲNG TIÊU BIỂU</span>
 			</h3>
@@ -135,114 +164,113 @@ const CacTruongCanada1 = () => {
 						<div className="result text-center"></div>
 					</div>
 					<div className="course-details__list">
-							<h2 className="course-details__list-title">New Courses</h2>
-							<div className="course-details__list-item">
-								<div className="course-details__list-img">
-									<img src="/assets/images/lc-1-1.jpg" alt="" />
-								</div>
-								<div className="course-details__list-content">
-									<a className="course-details__list-author" href="#">
-										by <span>Lydia Byrd</span>
-									</a>
-									<h3>
-										<a href="#">Marketing strategies</a>
-									</h3>
-									<div className="course-details__list-stars">
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<span>4.8</span>
-									</div>
-								</div>
+						<h2 className="course-details__list-title">New Courses</h2>
+						<div className="course-details__list-item">
+							<div className="course-details__list-img">
+								<img src="/assets/images/lc-1-1.jpg" alt="" />
 							</div>
-							<div className="course-details__list-item">
-								<div className="course-details__list-img">
-									<img src="/assets/images/lc-1-2.jpg" alt="" />
-								</div>
-								<div className="course-details__list-content">
-									<a className="course-details__list-author" href="#">
-										by <span>Lydia Byrd</span>
-									</a>
-									<h3>
-										<a href="#">Marketing strategies</a>
-									</h3>
-									<div className="course-details__list-stars">
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<span>4.8</span>
-									</div>
-								</div>
-							</div>
-							<div className="course-details__list-item">
-								<div className="course-details__list-img">
-									<img src="/assets/images/lc-1-2.jpg" alt="" />
-								</div>
-								<div className="course-details__list-content">
-									<a className="course-details__list-author" href="#">
-										by <span>Lydia Byrd</span>
-									</a>
-									<h3>
-										<a href="#">Marketing strategies</a>
-									</h3>
-									<div className="course-details__list-stars">
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<span>4.8</span>
-									</div>
-								</div>
-							</div>
-							<div className="course-details__list-item">
-								<div className="course-details__list-img">
-									<img src="/assets/images/lc-1-2.jpg" alt="" />
-								</div>
-								<div className="course-details__list-content">
-									<a className="course-details__list-author" href="#">
-										by <span>Lydia Byrd</span>
-									</a>
-									<h3>
-										<a href="#">Marketing strategies</a>
-									</h3>
-									<div className="course-details__list-stars">
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<span>4.8</span>
-									</div>
-								</div>
-							</div>
-							<div className="course-details__list-item">
-								<div className="course-details__list-img">
-									<img src="/assets/images/lc-1-2.jpg" alt="" />
-								</div>
-								<div className="course-details__list-content">
-									<a className="course-details__list-author" href="#">
-										by <span>Lydia Byrd</span>
-									</a>
-									<h3>
-										<a href="#">Marketing strategies</a>
-									</h3>
-									<div className="course-details__list-stars">
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<i className="fas fa-star"></i>
-										<span>4.8</span>
-									</div>
+							<div className="course-details__list-content">
+								<a className="course-details__list-author" href="#">
+									by <span>Lydia Byrd</span>
+								</a>
+								<h3>
+									<a href="#">Marketing strategies</a>
+								</h3>
+								<div className="course-details__list-stars">
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<span>4.8</span>
 								</div>
 							</div>
 						</div>
-					
+						<div className="course-details__list-item">
+							<div className="course-details__list-img">
+								<img src="/assets/images/lc-1-2.jpg" alt="" />
+							</div>
+							<div className="course-details__list-content">
+								<a className="course-details__list-author" href="#">
+									by <span>Lydia Byrd</span>
+								</a>
+								<h3>
+									<a href="#">Marketing strategies</a>
+								</h3>
+								<div className="course-details__list-stars">
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<span>4.8</span>
+								</div>
+							</div>
+						</div>
+						<div className="course-details__list-item">
+							<div className="course-details__list-img">
+								<img src="/assets/images/lc-1-2.jpg" alt="" />
+							</div>
+							<div className="course-details__list-content">
+								<a className="course-details__list-author" href="#">
+									by <span>Lydia Byrd</span>
+								</a>
+								<h3>
+									<a href="#">Marketing strategies</a>
+								</h3>
+								<div className="course-details__list-stars">
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<span>4.8</span>
+								</div>
+							</div>
+						</div>
+						<div className="course-details__list-item">
+							<div className="course-details__list-img">
+								<img src="/assets/images/lc-1-2.jpg" alt="" />
+							</div>
+							<div className="course-details__list-content">
+								<a className="course-details__list-author" href="#">
+									by <span>Lydia Byrd</span>
+								</a>
+								<h3>
+									<a href="#">Marketing strategies</a>
+								</h3>
+								<div className="course-details__list-stars">
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<span>4.8</span>
+								</div>
+							</div>
+						</div>
+						<div className="course-details__list-item">
+							<div className="course-details__list-img">
+								<img src="/assets/images/lc-1-2.jpg" alt="" />
+							</div>
+							<div className="course-details__list-content">
+								<a className="course-details__list-author" href="#">
+									by <span>Lydia Byrd</span>
+								</a>
+								<h3>
+									<a href="#">Marketing strategies</a>
+								</h3>
+								<div className="course-details__list-stars">
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<i className="fas fa-star"></i>
+									<span>4.8</span>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div className="post-pagination">
