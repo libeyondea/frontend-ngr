@@ -5,40 +5,7 @@ const CacTruongCanada1 = () => {
 		<div>
 			<section className="inner-banner-THCA">
 				<div className="container">
-					<div id="breaking-news" className="breaking-news">
-						<ul className="innerFade" style={{ position: 'relative', height: 32 }}>
-							<li style={{ display: 'block', zIndex: 10, position: 'absolute' }}>
-								<a
-									href="https://newgoldenroad.com/du-hoc-uc-sophia-nhi-do-tot-nghiep-truong-woodcroft-college-du-hoc-tan-con-duong-vang/"
-									title="[DU HỌC CANADA] – – Du học Tân Con Đường Vàng"
-								>
-									[DU HỌC CANADA] – – Du học Tân Con Đường Vàng
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div className='row'>
-						<div id="crumbs" className="crumbss" style={{ paddingTop: '10px' }}>
-							<span typeof="v:Breadcrumb">
-								<a className="crumbs-home" href="https://newgoldenroad.com">
-									Trang Chủ
-								</a>
-							</span>
-							&nbsp;&nbsp;
-							<span className="delimiter">/</span>
-							&nbsp;&nbsp;
-							<span typeof="v:Breadcrumb">
-								<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
-									Hoạt Động Công Ty
-								</a>
-							</span>
-							&nbsp;&nbsp;
-							<span className="delimiter">/</span>
-							&nbsp;&nbsp;
-							<span className="current">
-								[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
-							</span>
-						</div>
+								
 						<ul className="list-unstyled thm-breadcrumb">
 							<li>
 								<a href="/">Trang Chủ</a>
@@ -52,8 +19,45 @@ const CacTruongCanada1 = () => {
 							Và Cao Đẳng Canada
 						</h2>
 					</div>
-				</div>
+			
 			</section>
+			<div id="breaking-news" className="breaking-school">
+					<span className="breaking-news-title">
+						<span>TIN MỚI NHẤT</span>
+					</span>
+					<ul className="innerFade" style={{ position: 'relative', height: 32 }}>
+						<li style={{ display: 'block', zIndex: 10, position: 'absolute' }}>
+							<a
+								href="https://newgoldenroad.com/du-hoc-uc-sophia-nhi-do-tot-nghiep-truong-woodcroft-college-du-hoc-tan-con-duong-vang/"
+								title="[DU HỌC ÚC] – Du học sinh Sophia Nhi Đỗ vừa tốt nghiệp trường Woodcroft College – Du học Úc – Du học Tân Con Đường Vàng"
+							>
+								[DU HỌC ÚC] – Du học sinh Sophia Nhi Đỗ vừa tốt nghiệp trường Woodcroft College – Du học Úc – Du
+								học Tân Con Đường Vàng
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div id="crumbs" className="crumbss-school" style={{ paddingTop: '10px' }}>
+						<span typeof="v:Breadcrumb">
+							<a className="crumbs-home" href="https://newgoldenroad.com">
+								Trang Chủ
+							</a>
+						</span>
+						&nbsp;&nbsp;
+						<span className="delimiter">/</span>
+						&nbsp;&nbsp;
+						<span typeof="v:Breadcrumb">
+							<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
+								Hoạt Động Công Ty
+							</a>
+						</span>
+						&nbsp;&nbsp;
+						<span className="delimiter">/</span>
+						&nbsp;&nbsp;
+						<span className="current">
+							[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
+						</span>
+					</div>
 			<h3 className="title-comm">
 				<span className="title-holder">MỘT SỐ TRƯỜNG ĐẠI HỌC &amp; CAO ĐẲNG TIÊU BIỂU</span>
 			</h3>
