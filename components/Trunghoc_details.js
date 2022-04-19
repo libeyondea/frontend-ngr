@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Image from './Image';
-const TrungHoc = () => {
+const TrungHoc_details = () => {
 	return (
 		<div>
 			<section className="inner-banner-THCA">
@@ -133,4 +133,4 @@ const TrungHoc = () => {
 		</div>
 	);
 };
-export default TrungHoc;
+export default TrungHoc_details;
