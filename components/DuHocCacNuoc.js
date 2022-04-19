@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Image from './Image';
-const CacTruongCanada1 = () => {
+const CacTruongDuHocCacNuoc = () => {
 	return (
 		<div>
 			<section className="inner-banner-THCA">
@@ -11,12 +11,12 @@ const CacTruongCanada1 = () => {
 								<a href="/">Trang Chủ</a>
 							</li>
 							<li className="active">
-								<a href="#">Các Trường Đại Học Và Cao Đẳng Canada</a>
+								<a href="#">Các Trường Đại Học Và Cao Đẳng</a>
 							</li>
 						</ul>
 						<h2 className="inner-banner-THCA__title">
 							Các Trường Đại Học <br />
-							Và Cao Đẳng Canada
+							Và Cao Đẳng Các Nước
 						</h2>
 					</div>
 			
@@ -36,7 +36,7 @@ const CacTruongCanada1 = () => {
 							</a>
 						</li>
 					</ul>
-				</div>
+			</div>
 				<div id="crumbs" className="crumbss-school" style={{ paddingTop: '10px' }}>
 						<span typeof="v:Breadcrumb">
 							<a className="crumbs-home" href="https://newgoldenroad.com">
@@ -57,7 +57,7 @@ const CacTruongCanada1 = () => {
 						<span className="current">
 							[Các Trường Đại Học Và Cao Đẳng Canada] 
 						</span>
-					</div>
+				</div>
 			<h3 className="title-comm">
 				<span className="title-holder">MỘT SỐ TRƯỜNG ĐẠI HỌC &amp; CAO ĐẲNG TIÊU BIỂU</span>
 			</h3>
@@ -69,7 +69,7 @@ const CacTruongCanada1 = () => {
 								Trường Southern Alberta Institute of Technology (SAIT) – Du học Canada – Du học Tân Con Đường Vàng
 							</p>
 						</div>
-						<div className="card-body">
+						<div className="card-body" style={{ lineHeight: '24px' }}>
 							<p className="img-card-TH">
 								<img
 									src="/assets/images/TruongHoc/SAIT.png"
@@ -94,7 +94,7 @@ const CacTruongCanada1 = () => {
 								Trường Saskatchewan Polytechnic – Du học Canada – Du học Tân Con Đường Vàng
 							</p>
 						</div>
-						<div className="card-body">
+						<div className="card-body" style={{ lineHeight: '24px' }}>
 							<p className="img-card-TH">
 								<img src="/assets/images/TruongHoc/SASK.png" alt="Trường Saskatchewan Polytechnic" />
 							</p>
@@ -116,7 +116,7 @@ const CacTruongCanada1 = () => {
 								Trường British Columbia University – Du học Canada – Du học Tân Con Đường Vàng
 							</p>
 						</div>
-						<div className="card-body">
+						<div className="card-body" style={{ lineHeight: '24px' }}>
 							<p className="img-card-TH">
 								<img src="/assets/images/TruongHoc/BRITI.png" alt="Trường British Columbia University" />
 							</p>
@@ -137,7 +137,7 @@ const CacTruongCanada1 = () => {
 								Trường Coast Mountain College – Du học Canada – Du học Tân Con Đường Vàng
 							</p>
 						</div>
-						<div className="card-body">
+						<div className="card-body" style={{ lineHeight: '24px' }}>
 							<p className="img-card-TH">
 								<img src="/assets/images/TruongHoc/COAST.png" alt="Trường Coast Mountain College" />
 							</p>
@@ -148,6 +148,125 @@ const CacTruongCanada1 = () => {
 								Columbia. Coast Mountain College cung cấp nhiều chương trình đào tạo chất lượng với …
 							</p>
 							<a href="#" className="btn btn-primary">
+								Đọc Thêm
+							</a>
+						</div>
+					</div>
+					<div className="card-TH">
+						<div className="card-header">
+							<p className="card-header-TH">
+							Trường Đại học Concordia – TOP TRƯỜNG ĐẠI HỌC TRẺ NỔI TIẾNG TẠI CANADA – Du học Canada – Du học Tân Con Đường Vàng
+							</p>
+						</div>
+						<div className="card-body" style={{ lineHeight: '24px' }}>
+							<p className="img-card-TH">
+								<img
+									src="/assets/images/TruongHoc/CONCOR.gif"
+									alt="Trường Đại học Concordia"
+								/>
+							</p>
+							<h5 className="card-title-TH">Trường Đại học Concordia</h5>
+							<p className="card-text-TH">
+							CONCORDIA UNIVERSITY CONCORDIA UNIVERSITY – TOP TRƯỜNG ĐẠI HỌC TRẺ NỔI TIẾNG TẠI CANADA Concordia University thành lập năm 1974, 
+							toạ lạc tại thành phố Montreal. Montreal là thành phố có nhiều người dân nói tiếng Pháp, chỉ sau Paris. Đây còn lầ điểm quy tụ 
+							của nhiều du học …
+							</p>
+							<a href="#" className="btn btn-primary">
+								Đọc Thêm
+							</a>
+						</div>
+					</div>
+					<div className="card-TH">
+						<div className="card-header">
+							<p className="card-header-TH">
+							Trường Alberta University – Du học Canada – Du học Tân Con Đường Vàng
+							</p>
+						</div>
+						<div className="card-body" style={{ lineHeight: '24px' }}>
+							<p className="img-card-TH">
+								<img
+									src="/assets/images/TruongHoc/ALBER.png"
+									alt="Trường Alberta University"
+								/>
+							</p>
+							<h5 className="card-title-TH">Trường Alberta University</h5>
+							<p className="card-text-TH">
+							ALBERTA UNIVERSITY Alberta University là một trường nghiên cứu công lập. 
+							Toạ lạc tại thị trấn Edmonton, tỉnh Alberta, Canada. Nằm phía Tây Canada, giáp liền với British Columbia và Saskatchewan. 
+							Đây được coi là một trong những vùng có mức sống cao nhất tại Canada. Alberta Univeristy là một …
+							</p>
+							<a href="#" className="btn btn-primary">
+								Đọc Thêm
+							</a>
+						</div>
+					</div>
+					<div className="card-TH">
+						<div className="card-header">
+							<p className="card-header-TH">
+							Trường Thompson Rivers Univerity – Du học Canada – Du học Tân Con Đường Vàng
+							</p>
+						</div>
+						<div className="card-body" style={{ lineHeight: '24px' }}>
+							<p className="img-card-TH">
+								<img
+									src="/assets/images/TruongHoc/THOMP.png"
+									alt="Trường Thompson Rivers Univerity"
+								/>
+							</p>
+							<h5 className="card-title-TH">Trường Thompson Rivers Univerity</h5>
+							<p className="card-text-TH">
+							THOMPSON RIVERS THOMPSON RIVERS UNIVERSITY – Ngôi trường chi phí thấp,chất lượng cao của Canada Tọa lạc tại thành phố Kamloops, 
+							thuộc British Columbia của đất nước Canada xinh đẹp. Đại học công lập Thompson Rivers (TRU) là ngôi trường công lập có lịch sử 
+							lâu đời ở Canada. Đại …
+							</p>
+							<a href="/DuHocCanada-details" className="btn btn-primary">
+								Đọc Thêm
+							</a>
+						</div>
+					</div>
+					<div className="card-TH">
+						<div className="card-header">
+							<p className="card-header-TH">
+							Trường Manitoba Institute of Trades & Technology – Du học Canada – Du học Tân Con Đường Vàng
+							</p>
+						</div>
+						<div className="card-body" style={{ lineHeight: '24px' }}>
+							<p className="img-card-TH">
+								<img
+									src="/assets/images/TruongHoc/MANI.png"
+									alt="Trường Manitoba Institute of Trades & Technology"
+								/>
+							</p>
+							<h5 className="card-title-TH">Trường Manitoba Institute of Trades & Technology</h5>
+							<p className="card-text-TH">
+							MANITOBA INSTITUTE OF TRADES & TECHNOLOGY  Manitoba Institute of Trades & Technology (MITT) toạ lạc tại Thành phố Winnipeg, 
+							bang Manitoba (Canada). MITT là Học viện Kĩ thuật hàng đầu tại tỉnh bang Manitoba và được thành lập từ năm 1983. Trong suốt 
+							30 năm qua, trường cung cấp chương …
+							</p>
+							<a href="/DuHocCanada-details" className="btn btn-primary">
+								Đọc Thêm
+							</a>
+						</div>
+					</div>
+					<div className="card-TH">
+						<div className="card-header">
+							<p className="card-header-TH">
+							Trường Dalhousie University – Du học Canada – Du học Tân Con Đường Vàng
+							</p>
+						</div>
+						<div className="card-body" style={{ lineHeight: '24px' }}>
+							<p className="img-card-TH">
+								<img
+									src="/assets/images/TruongHoc/DAL.png"
+									alt="Trường Dalhousie University"
+								/>
+							</p>
+							<h5 className="card-title-TH">Trường Dalhousie University</h5>
+							<p className="card-text-TH">
+							DALHOUSIE UNIVERSITY DALHOUSIE UNIVERSITY – TRƯỜNG ĐẠI HỌC VỚI HƠN 200 NĂM LỊCH SỬ Dalhousie University thành lập năm 1818. 
+							Là trường đại học nghiên cứu hàng đầu thuộc khu vực bờ Đại Tây Dương Canada. Đây còn là ngôi nhà chung của 18.500 sinh viên đang theo học tại …
+							</p>
+							<a href="/DuHocCanada-details" className="btn btn-primary">
 								Đọc Thêm
 							</a>
 						</div>
@@ -296,4 +415,4 @@ const CacTruongCanada1 = () => {
 		</div>
 	);
 };
-export default CacTruongCanada1;
+export default CacTruongDuHocCacNuoc;

@@ -128,7 +128,13 @@ p.post-meta {
     color: red;
     font-size: 25px;
 }
+
 /* CONTACT */
 .contact-info-one {
     padding-top: 50px;
+}
+.blog-one {
+    padding-top: 30px;
+    padding-bottom: 120px;
+
 }

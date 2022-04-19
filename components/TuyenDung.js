@@ -58,8 +58,8 @@ const TuyenDung = () => {
 								Tuyển dụng vị trí sáng tạo nội dung cho các chiến dịch quảng cáo của Công ty Du học Tân Con Đường
 								Vàng. Số lượng: 3. Nộp hồ sơ trước ngày 15/12/2021.
 							</p>
-							<Link href="/td-details" className="btn btn-primary">
-								Đọc Thêm
+							<Link href="/td-details">
+								<a className="btn btn-primary">Đọc Thêm</a>
 							</Link>
 							<Link href="/news-details">
 								<a className="blog-one__plus">
@@ -81,8 +81,8 @@ const TuyenDung = () => {
 								Tuyển dụng vị trí Designer tại Công ty Du học Tân Con Đường Vàng. Số lượng: 1. Nộp hồ sơ trước
 								ngày 01/06/2022.
 							</p>
-							<Link href="/td-details" className="btn btn-primary">
-								Đọc Thêm
+							<Link href="/td-details">
+								<a className="btn btn-primary">Đọc Thêm</a>
 							</Link>
 						</div>
 					</div>
@@ -98,9 +98,9 @@ const TuyenDung = () => {
 								Tuyển dụng vị trí trợ lý tư vấn du học tại Công ty Du học Tân Con Đường Vàng. Số lượng: 2. Nộp hồ
 								sơ trước ngày 15/05/2022.
 							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
+							<Link href="/td-details">
+								<a className="btn btn-primary">Đọc Thêm</a>
+							</Link>
 						</div>
 					</div>
 					<div className="card-TH">
@@ -116,9 +116,9 @@ const TuyenDung = () => {
 								Tuyển dụng vị trí nhân viên hành chính văn phòng - biên dịch tại Công ty Du học Du học Tân Con
 								Đường Vàng. Nộp hồ sơ trước ngày 10/05/2022.
 							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
+							<Link href="/td-details">
+								<a className="btn btn-primary">Đọc Thêm</a>
+							</Link>
 						</div>
 					</div>
 				</div>
