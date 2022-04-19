@@ -36,9 +36,13 @@ class SliderBanner extends React.Component {
 
 	componentDidMount() {
 		this.runAutochangeTO();
+		this.setState({ activeSlide: 0, sliderReady: true });
+	}
+
+	componentDidUpdate() {
 		setTimeout(() => {
-			this.setState({ activeSlide: 0, sliderReady: true });
-		}, 0);
+			this.changeSlides(1);
+		}, 5000);
 	}
 
 	runAutochangeTO() {
