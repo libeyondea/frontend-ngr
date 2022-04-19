@@ -9,6 +9,7 @@
 
 }
 .become-teacher__formm {
+    padding-top: 186px;
     padding-left: 0px; 
     position: relative; 
      margin-right: 0px;
@@ -126,4 +127,14 @@ p.post-meta {
 }.titlee{
     color: red;
     font-size: 25px;
+}
+
+/* CONTACT */
+.contact-info-one {
+    padding-top: 50px;
+}
+.blog-one {
+    padding-top: 30px;
+    padding-bottom: 120px;
+
 }

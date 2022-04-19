@@ -19,7 +19,7 @@ const Chat = () => {
 	return (
 		<div>
 			<div className='myDIV'>
-			<button id="linkzalo" target="_blank" rel="noopener noreferrer" /* onClick={openForm} */ className='button-chat'>
+			<a id="linkzalo" target="_blank" rel="noopener noreferrer" /* onClick={openForm} */ className='button-chat'>
 				<div id="fcta-zalo-tracking" className="fcta-zalo-mess">
 					<span id="fcta-zalo-tracking">Chat hỗ trợ</span>
 				</div>
@@ -33,7 +33,7 @@ const Chat = () => {
 						</div>
 					</div>
 				</div>
-			</button>
+			</a>
 			</div>
 			<div className="form_chat hide" id="form">
 				<div>

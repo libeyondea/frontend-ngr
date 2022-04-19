@@ -9,7 +9,7 @@ const GalleryPage = () => {
     return (
         <Layout pageTitle="Tân Con Đường Vàng | Contact">
             <NavOne />
-            <PageHeader title="Contact" />
+            <PageHeader title=" LIÊN HỆ" />
             <Contact />
             <Footer />
         </Layout>
