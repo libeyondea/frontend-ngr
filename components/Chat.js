@@ -64,27 +64,27 @@ const Chat = () => {
 					<div className="chuamucchat">
 						<a href="https://m.me/ngr.duhoc">
 							{' '}
-							<img src="/assets/images/chat/messenge_icon1.png" alt="zalo_icon" className="icon_chat" />
+							<img src="/assets/images/chat/sky_icon.png" alt="zalo_icon" className="icon_chat" />
 							<div className="chua-muctext">
-								<div className="mucchat-text">Tư vấn Message cùng NGR</div>
+								<div className="mucchat-text">Tư vấn Skychat cùng NGR</div>
+							</div>
+						</a>
+					</div>
+					<div className="chuamucchat">
+						<a href="https://api.whatsapp.com/send?phone=(+84)909416959&text=urlencodedtext">
+							{' '}
+							<img src="/assets/images/chat/whatapp_icon.png" alt="zalo_icon" className="icon_chat" />
+							<div className="chua-muctext">
+								<div className="mucchat-text">Tư vấn Whatapp! cùng NGR</div>
 							</div>
 						</a>
 					</div>
 					<div className="chuamucchat">
 						<a href="https://m.me/ngr.duhoc">
 							{' '}
-							<img src="/assets/images/chat/messenge_icon1.png" alt="zalo_icon" className="icon_chat" />
+							<img src="/assets/images/chat/hotline_icon.png" alt="zalo_icon" className="icon_chat" />
 							<div className="chua-muctext">
-								<div className="mucchat-text">Tư vấn Message cùng NGR</div>
-							</div>
-						</a>
-					</div>
-					<div className="chuamucchat">
-						<a href="https://m.me/ngr.duhoc">
-							{' '}
-							<img src="/assets/images/chat/messenge_icon1.png" alt="zalo_icon" className="icon_chat" />
-							<div className="chua-muctext">
-								<div className="mucchat-text">Tư vấn Message cùng NGR</div>
+								<div className="mucchat-text">Yêu cầu NGR gọi điện tư vấn</div>
 							</div>
 						</a>
 					</div>

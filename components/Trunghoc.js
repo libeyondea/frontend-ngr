@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Image from './Image';
 const TrungHoc = () => {
 	return (
-		<div>
+		<div style={{ backgroundColor: '#7FCA6E' }}>
 			<section className="inner-banner-THCA">
 				<div className="container">
 					<h2 className="inner-banner-THCA__title">Trung học Canada</h2>
@@ -24,9 +24,9 @@ const TrungHoc = () => {
 					</li>
 				</ul>
 			</div>
-			<div id="crumbs" className="crumbss-school" style={{ paddingTop: '10px' }}>
+			<div id="crumbs" className="crumbss-school" style={{ paddingTop: '10px', color: '#E2E9E1' }}>
 				<span typeof="v:Breadcrumb">
-					<a className="crumbs-home" href="https://newgoldenroad.com">
+					<a className="crumbs-home" href="https://newgoldenroad.com"  style={{ color: '#E2E9E1' }}>
 						Trang Chủ
 					</a>
 				</span>
@@ -34,7 +34,7 @@ const TrungHoc = () => {
 				<span className="delimiter">/</span>
 				&nbsp;&nbsp;
 				<span typeof="v:Breadcrumb">
-					<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
+					<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#E2E9E1' }}>
 						Trung Học Canada
 					</a>
 				</span>
@@ -48,68 +48,68 @@ const TrungHoc = () => {
 			</h3>
 			<div class="row row-cols-1 row-cols-md-3 g-4" style={{margin: '50px 150px'}}>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card-school h-100">
                         <img src="assets/images/Trunghoc/trunghoc1.png" class="card-img-top" alt="Trường Bodwell High School"/>
                         <div class="card-body">
-                            <a href="#" class="card-link"><h5 class="card-title">Trường trung học Bodwell High School </h5></a> 
+                            <a href="#" class="card-link"><h5 class="card-title" style={{ color: 'black' }}>Trường trung học Bodwell High School </h5></a> 
                         </div>
                         </div>
                     </div>
 					<div class="col">
-                        <div class="card h-100">
+                        <div class="card-school h-100">
                         <img src="assets/images/Trunghoc/trunghoc2.jpg" class="card-img-top" alt="TRUNG HỌC TRỰC THUỘC ĐẠI HỌC VANCOUVER ISLAND"/>
                         <div class="card-body">
-                            <a href="#" class="card-link"><h5 class="card-title">TRUNG HỌC TRỰC THUỘC ĐẠI HỌC VANCOUVER ISLAND</h5></a> 
+                            <a href="#" class="card-link"><h5 class="card-title" style={{ color: 'black' }}>TRUNG HỌC TRỰC THUỘC ĐẠI HỌC VANCOUVER ISLAND</h5></a> 
                         </div>
                         </div>
                     </div>
 					<div class="col">
-                        <div class="card h-100">
+                        <div class="card-school h-100">
                         <img src="assets/images/Trunghoc/trunghoc3.png" class="card-img-top" alt="Trường Quận Rocky Mountain"/>
                         <div class="card-body">
-                            <a href="#" class="card-link"><h5 class="card-title">Trường Quận Rocky Mountain</h5></a> 
+                            <a href="#" class="card-link"><h5 class="card-title" style={{ color: 'black' }}>Trường Quận Rocky Mountain</h5></a> 
                         </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card-school h-100">
                         <img src="assets/images/Trunghoc/trunghoc4.png" class="card-img-top" alt="Trường Quận Toronto" />
                         <div class="card-body">
-                            <a href="#" class="card-link"><h5 class="card-title">Trường Quận Toronto</h5></a> 
+                            <a href="#" class="card-link"><h5 class="card-title" style={{ color: 'black' }}>Trường Quận Toronto</h5></a> 
                         </div>
                         </div>
                     </div>
             </div>
             <div class="row row-cols-1 row-cols-md-3 g-4" style={{margin: '50px 150px'}}>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card-school h-100">
                         <img src="assets/images/Trunghoc/trunghoc5.png" class="card-img-top" alt="Trường Quận Lambton Kent"/>
                         <div class="card-body">
-                            <a href="#" class="card-link"><h5 class="card-title">Trường Quận Lambton Kent</h5></a> 
+                            <a href="#" class="card-link"><h5 class="card-title" style={{ color: 'black' }}>Trường Quận Lambton Kent</h5></a> 
                         </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card-school h-100">
                         <img src="assets/images/Trunghoc/trunghoc6.png" class="card-img-top" alt="Trường Quận Avon Maitland"/>
                         <div class="card-body">
-                            <a href="#" class="card-link"><h5 class="card-title">Trường Quận Avon Maitland</h5></a> 
+                            <a href="#" class="card-link"><h5 class="card-title" style={{ color: 'black' }}>Trường Quận Avon Maitland</h5></a> 
                         </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card-school h-100">
                         <img src="assets/images/Trunghoc/trunghoc7.png" class="card-img-top" alt="Trường Quận Maple Ridge-Pitt Meadows"/>
                         <div class="card-body">
-                            <a href="#" class="card-link"><h5 class="card-title">Trường Quận Maple Ridge-Pitt Meadows</h5></a> 
+                            <a href="#" class="card-link"><h5 class="card-title" style={{ color: 'black' }}>Trường Quận Maple Ridge-Pitt Meadows</h5></a> 
                         </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card-school h-100">
                         <img src="assets/images/Trunghoc/trunghoc8.png" class="card-img-top" alt=" Trường Greater Victoria High School" />
                         <div class="card-body">
-                            <a href="#" class="card-link"><h5 class="card-title"> Trường Greater Victoria High School</h5></a> 
+                            <a href="#" class="card-link"><h5 class="card-title" style={{ color: 'black' }}> Trường Greater Victoria High School</h5></a> 
                       
             </div>
           </div>
