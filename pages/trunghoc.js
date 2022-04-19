@@ -8,8 +8,7 @@ import TrungHoc from '../components/Trunghoc';
 const trunghoc = () => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Trung Học Canada">
-			<NavOne />
-			<PageHeader title="Trung Học Canada" />
+			<NavOne />		
 			<TrungHoc/>
 			<Footer />
 		</Layout>

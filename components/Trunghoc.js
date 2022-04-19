@@ -2,82 +2,135 @@ import React, { useState } from 'react';
 import Image from './Image';
 const TrungHoc = () => {
 	return (
-        <section className="team-details">
-        <div className="container">
-            <div className="row justify-content-between">
-                <div className="col-lg-5">
-                    <div className="team-details__content">
-                        <h2 className="team-details__title">Read my story</h2>
-                        <p className="team-details__text">Lorem Ipsum is simply dummy text of the printing and type
-                            industry.
-                            Lorem Ipsum has been the standard dummy text ever since the when an unknown was
-                            popularised. It
-                            has survived not only five centuries, but also the leap into electronic typesetting
-                            remaining
-                            unchanged.</p>
-                        <h3 className="team-details__subtitle">Certificate</h3>
-                        <ul className="list-unstyled team-details__certificate-list">
-                            <li>
-                                <img src="/assets/images/certificate-1-1.png" alt="" />
-                            </li>
-                            <li>
-                                <img src="/assets/images/certificate-1-2.png" alt="" />
-                            </li>
-                        </ul>
-
-                        <div className="progress-one__wrap">
-                            <div className="progress-one__single">
-                                <div className="progress-one__top">
-                                    <h3 className="progress-one__title">English</h3>
-                                    <h3 className="progress-one__percent"><span className="counter">98</span>%
-                                    </h3>
-                                </div>
-                                <div className="progress-one__bar">
-                                    <span style={{width: `98%`}} className="wow slideInLeft"></span>
-                                </div>
-                            </div>
-                            <div className="progress-one__single">
-                                <div className="progress-one__top">
-                                    <h3 className="progress-one__title">French</h3>
-                                    <h3 className="progress-one__percent"><span className="counter">64</span>%
-                                    </h3>
-                                </div>
-                                <div className="progress-one__bar">
-                                    <span style={{width: `64%`}} className="wow slideInLeft"></span>
-                                </div>
-                            </div>
-                            <div className="progress-one__single">
-                                <div className="progress-one__top">
-                                    <h3 className="progress-one__title">Spanish</h3>
-                                    <h3 className="progress-one__percent"><span className="counter">34</span>%</h3>
-                                </div>
-                                <div className="progress-one__bar">
-                                    <span style={{width: `34%`}} className="wow slideInLeft"></span>
-                                </div>
-                            </div>
+		<div>
+			<section className="inner-banner-THCA">
+				<div className="container">
+					<h2 className="inner-banner-THCA__title">Trung học Canada</h2>
+				</div>
+			</section>
+			<div id="breaking-news" className="breaking-school">
+				<span className="breaking-news-title">
+					<span>TIN MỚI NHẤT</span>
+				</span>
+				<ul className="innerFade" style={{ position: 'relative', height: 32 }}>
+					<li style={{ display: 'block', zIndex: 10, position: 'absolute' }}>
+						<a
+							href="https://newgoldenroad.com/du-hoc-uc-sophia-nhi-do-tot-nghiep-truong-woodcroft-college-du-hoc-tan-con-duong-vang/"
+							title="[DU HỌC ÚC] – Du học sinh Sophia Nhi Đỗ vừa tốt nghiệp trường Woodcroft College – Du học Úc – Du học Tân Con Đường Vàng"
+						>
+							[DU HỌC ÚC] – Du học sinh Sophia Nhi Đỗ vừa tốt nghiệp trường Woodcroft College – Du học Úc – Du học
+							Tân Con Đường Vàng
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="crumbs" className="crumbss-school" style={{ paddingTop: '10px' }}>
+				<span typeof="v:Breadcrumb">
+					<a className="crumbs-home" href="https://newgoldenroad.com">
+						Trang Chủ
+					</a>
+				</span>
+				&nbsp;&nbsp;
+				<span className="delimiter">/</span>
+				&nbsp;&nbsp;
+				<span typeof="v:Breadcrumb">
+					<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
+						Trung Học Canada
+					</a>
+				</span>
+				&nbsp;&nbsp;
+				<span className="delimiter">/</span>
+				&nbsp;&nbsp;
+				<span className="current">[Các Trường Trung Học Canada]</span>
+			</div>
+			<h3 className="title-comm">
+				<span className="title-holder">MỘT SỐ TRƯỜNG TRUNG HỌC CANADA TIÊU BIỂU</span>
+			</h3>
+			<div class="row row-cols-1 row-cols-md-3 g-4" style={{margin: '50px 150px'}}>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="assets/images/Trunghoc/trunghoc1.png" class="card-img-top" alt="Trường Bodwell High School"/>
+                        <div class="card-body">
+                            <a href="#" class="card-link"><h5 class="card-title">Trường trung học Bodwell High School </h5></a> 
+                        </div>
                         </div>
                     </div>
-                </div>
-                <div className="col-lg-6">
-                    <div className="team-one__single">
-                        <div className="team-one__image">
-                            <img src="/assets/images/team-d-1.jpg" alt="" />
+					<div class="col">
+                        <div class="card h-100">
+                        <img src="assets/images/Trunghoc/trunghoc2.jpg" class="card-img-top" alt="TRUNG HỌC TRỰC THUỘC ĐẠI HỌC VANCOUVER ISLAND"/>
+                        <div class="card-body">
+                            <a href="#" class="card-link"><h5 class="card-title">TRUNG HỌC TRỰC THUỘC ĐẠI HỌC VANCOUVER ISLAND</h5></a> 
                         </div>
-                        <div className="team-one__content">
-                            <h2 className="team-one__name"><a href="team-details.html">Adelaide Hunter</a></h2>
-                            <p className="team-one__designation">Teacher</p>
-                        </div>
-                        <div className="team-one__social">
-                            <a href="#"><i className="fab fa-twitter"></i></a>
-                            <a href="#"><i className="fab fa-facebook-square"></i></a>
-                            <a href="#"><i className="fab fa-pinterest-p"></i></a>
-                            <a href="#"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
-                </div>
+					<div class="col">
+                        <div class="card h-100">
+                        <img src="assets/images/Trunghoc/trunghoc3.png" class="card-img-top" alt="Trường Quận Rocky Mountain"/>
+                        <div class="card-body">
+                            <a href="#" class="card-link"><h5 class="card-title">Trường Quận Rocky Mountain</h5></a> 
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="assets/images/Trunghoc/trunghoc4.png" class="card-img-top" alt="Trường Quận Toronto" />
+                        <div class="card-body">
+                            <a href="#" class="card-link"><h5 class="card-title">Trường Quận Toronto</h5></a> 
+                        </div>
+                        </div>
+                    </div>
             </div>
-        </div>
-    </section>
+            <div class="row row-cols-1 row-cols-md-3 g-4" style={{margin: '50px 150px'}}>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="assets/images/Trunghoc/trunghoc5.png" class="card-img-top" alt="Trường Quận Lambton Kent"/>
+                        <div class="card-body">
+                            <a href="#" class="card-link"><h5 class="card-title">Trường Quận Lambton Kent</h5></a> 
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="assets/images/Trunghoc/trunghoc6.png" class="card-img-top" alt="Trường Quận Avon Maitland"/>
+                        <div class="card-body">
+                            <a href="#" class="card-link"><h5 class="card-title">Trường Quận Avon Maitland</h5></a> 
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="assets/images/Trunghoc/trunghoc7.png" class="card-img-top" alt="Trường Quận Maple Ridge-Pitt Meadows"/>
+                        <div class="card-body">
+                            <a href="#" class="card-link"><h5 class="card-title">Trường Quận Maple Ridge-Pitt Meadows</h5></a> 
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="assets/images/Trunghoc/trunghoc8.png" class="card-img-top" alt=" Trường Greater Victoria High School" />
+                        <div class="card-body">
+                            <a href="#" class="card-link"><h5 class="card-title"> Trường Greater Victoria High School</h5></a> 
+                      
+            </div>
+          </div>
+		  </div>
+                  
+            </div>		
+			<div className="post-pagination">
+				<a href="#">
+					<i className="fa fa-angle-double-left" />
+				</a>
+				<a className="active" href="#">
+					1
+				</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">
+					<i className="fa fa-angle-double-right" />
+				</a>
+			</div>
+		</div>
 	);
 };
 export default TrungHoc;
