@@ -45,13 +45,36 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.team-one__name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #8B5FE8;
+    margin: 0;
+    margin-bottom: -5px;
+}
+.team-one__name a:hover {
+    color: #cb822d;
+}
+.thm-btn {
+    background-color: #8B5FE8;
+}
+a {
+    color: black;
+   
+}
+/* FOOTER */
+.site-footer__upper {
+   /*  padding: 16px;
+    background: #8B5FE8; */
+    /* height: 330px; */
+}
 /* duhoc */
 h3.title-comm:before {
     border-top: 0px solid #d0d2d3;
 }
 
 .title-comm {
-    padding-left: 700px;
+    padding-left: 810px;
     right: 410px;
     color: #fff;
     font-size: 30px;
@@ -96,7 +119,7 @@ h3.title-comm:before {
     padding-top: -6px !important;
     margin-top: 18px;
     padding-bottom: -24px !important;
-    width: 1685px;
+ /*    width: 1685px; */
     background: #FFF;
     height: 32px;
     margin: 15px auto 0px;

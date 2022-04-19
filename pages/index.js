@@ -11,12 +11,14 @@ import TestimonialOne from '../components/TestimonialOne';
 import Partner from '../components/Partner';
 import Footer from '../components/Footer';
 import Chat from '../components/Chat';
+import SliderBanner from '../components/SliderBanner';
 
 const HomePageTwo = () => {
 	return (
 		<Layout pageTitle="Du Học Tân Con Đường Vàng">
 			<NavOne />
-			<SliderTwo />
+			{/* <SliderTwo /> */}
+			<SliderBanner />
 			<Flag />
 			<Video />
 			<Customer />
@@ -24,7 +26,7 @@ const HomePageTwo = () => {
 			<FormSignup />
 			<TestimonialOne />
 			<Partner />
-			<Footer />			
+			<Footer />
 		</Layout>
 	);
 };

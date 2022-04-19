@@ -17,7 +17,7 @@ const Footer = () => {
 										<li>
 											<h2>
 												<a href="course-details.html">
-													Địa Chỉ: 219 Đường Tân Quý, P.Tân Quý, Q.Tân Phú, TP.HCM, VN
+													Địa Chỉ: 219 - Đường Tân Quý - P.Tân Quý - Q.Tân Phú - TP.HCM - VN
 												</a>
 											</h2>
 										</li>
@@ -28,14 +28,14 @@ const Footer = () => {
 										</li>
 										<li className="mt-2">
 											<h2>
-												<a href="course-details.html">Tel: (+84)909 416 959 – Ms. Linda</a>
+												<a href="course-details.html">Tel: (+84) 909 416 959 – Ms. Linda</a>
 											</h2>
 										</li>
 										<li className="mt-4">
 											<h2>
 												<p className="mb-2">Văn Phòng Giao Dịch:</p>
 												<a href="course-details.html">
-													Địa Chỉ: 40 Đường số 7, P.10, Q.Tân Bình – TP.HCM – VN
+													Địa Chỉ: 40 - Đường số 7 - P.10 - Q.Tân Bình – TP.HCM – VN
 												</a>
 											</h2>
 										</li>
@@ -48,7 +48,7 @@ const Footer = () => {
 									<ul className="list-unstyled footer-widget__course-list">
 										<li>
 											<h2>
-												<a href="course-details.html">Địa Chỉ: Số 147 Lê Lợi – Ngãi Giao – BRVT</a>
+												<a href="course-details.html">Địa Chỉ: Số 147 - Lê Lợi – Ngãi Giao – BRVT</a>
 											</h2>
 										</li>
 										<li className="mt-2">
@@ -58,7 +58,7 @@ const Footer = () => {
 										</li>
 										<li className="mt-2">
 											<h2>
-												<a href="course-details.html">Tel: (+84)91 4423 497 – Ms. Phan Quy</a>
+												<a href="course-details.html">Tel: (+84) 91 4423 497 – Ms. Phan Quy</a>
 											</h2>
 										</li>
 									</ul>
@@ -71,7 +71,7 @@ const Footer = () => {
 										<li>
 											<h2>
 												<a href="course-details.html">
-													Địa Chỉ: 3 Trail Rider Dr Brampton, Ontario – Canada
+													Địa Chỉ: 3 - Trail Rider Dr Brampton - Ontario – Canada
 												</a>
 											</h2>
 										</li>
@@ -82,7 +82,7 @@ const Footer = () => {
 										</li>
 										<li className="mt-2">
 											<h2>
-												<a href="course-details.html">Tel: (+1)461 802 2155 – Mr. Tuan</a>
+												<a href="course-details.html">Tel: (+1) 461 802 2155 – Mr. Tuan</a>
 											</h2>
 										</li>
 									</ul>
@@ -95,7 +95,7 @@ const Footer = () => {
 										<li>
 											<h2>
 												<a href="course-details.html">
-													Địa Chỉ: Level 14, 197 St Georges Terrace, Perth Wa 6000, Australia
+													Địa Chỉ: Level 14 - 197 St Georges Terrace - Perth Wa 6000 - Australia
 												</a>
 											</h2>
 										</li>
@@ -106,7 +106,7 @@ const Footer = () => {
 										</li>
 										<li className="mt-2">
 											<h2>
-												<a href="course-details.html">Tel: (+61)424 302 479 – Ms. Kim Kager</a>
+												<a href="course-details.html">Tel: (+61) 424 302 479 – Ms. Kim Kager</a>
 											</h2>
 										</li>
 									</ul>
