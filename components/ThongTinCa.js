@@ -256,12 +256,13 @@ const ThongTinCa = () => {
 						<div className="card-body">
 							Canada linh động cho phép sinh viên từ Việt Nam có thể:
 							<br />
-							- Xin visa diện thông thường: Bắt buộc chứng minh tài chính với quy trình xét duyệt, cấp visa trong
-							khoảng thời gian trung bình là 11 tuần.
-							<br />
-							- Xin visa diện miễn chứng minh tài chính SDS (Study Direct Stream): Sinh viên phải mua Giấy chứng nhận
+							<ul >
+							<li className="list"> Xin visa diện thông thường: Bắt buộc chứng minh tài chính với quy trình xét duyệt, cấp visa trong
+							khoảng thời gian trung bình là 11 tuần.</li>
+							<li className="list"> Xin visa diện miễn chứng minh tài chính SDS (Study Direct Stream): Sinh viên phải mua Giấy chứng nhận
 							đầu tư đảm bảo (GIC) trị giá 10.000 CAD, đồng thời phải có chứng chỉ IELTS tối thiểu 6.0 ở tất cả các
-							kỹ năng.
+							kỹ năng.</li>
+							</ul>
 						</div>
 					</div>
 				</div>
