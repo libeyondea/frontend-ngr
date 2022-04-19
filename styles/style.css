@@ -79,12 +79,13 @@ a:visited {
 }
 .block-title__title {
 	margin: 0;
-	color: #ff944d;
+	color: #fff;
 	font-size: 60px;
 	font-weight: bold;
 	padding-top: 20px;
 	margin-bottom: -35px;
 	margin-top: -15px;
+
 }
 
 .thm-btn {
@@ -4116,6 +4117,7 @@ a:visited {
 .course-one__top-title.home-two {
 	padding-top: 120px;
 	padding-bottom: 0;
+	background-color: ffc107;
 }
 .course-one__top-title.home-two:before {
 	display: none;
@@ -6515,12 +6517,12 @@ html {
 }
 
 .site-footer__bottom {
-	background-color: white !important;
+	background-color: #000099;
 	height: 65px;
 }
 
 .site-footer__social::before {
-	background-color: white !important;
+	background-color: #000099;
 }
 
 .site-footer__copy a {
@@ -6537,11 +6539,11 @@ html {
 }
 
 .header-navigation {
-	background-color: white !important;
+	background-color: #7BF;
 }
 
 .header-navigation ul.navigation-box > li > a {
-	color: #ff944d !important;
+	color: #fff !important;
 	font-weight: bold;
 	font-size: 20px;
 }
@@ -6588,8 +6590,8 @@ html {
 
 .site-footer__upper {
 	padding: 16px;
-	background: #ff944d;
-	/* height: 330px; */
+	background: #7bf;
+
 }
 .row {
 	margin-top: 30px;
@@ -6602,7 +6604,7 @@ html {
 
 .countdown-one__title {
 	margin: 0;
-	color: #ff944d !important;
+	color: #f8ff0e !important;
 	font-size: 2rem !important;
 	margin-top: -5px;
 	margin-left: -50px;
@@ -6803,7 +6805,7 @@ html {
 
 .countdown-one__tygia {
 
-	color: #ff944d !important;
+	color: #f8ff0e !important;
 	font-size: 2rem !important;
 
 }
@@ -6817,12 +6819,13 @@ html {
 tr,
 th,
 td {
-	border: 2px #ff944d solid;
+	border: 2px #94a3ac solid;
 	color: #000;
 	text-align: center;
+	background-color: #fff;
 }
 .table-ngoaite th {
-	background-color: #f7be81;
+
 	width: 20%;
 }
 
@@ -7125,7 +7128,7 @@ span#fcta-zalo-tracking {
 }
 
 .luottruycap{
-	color: #ff944d;
+	color: #f8ff0e;
 	font-weight: bold;
 	font-size: 32px;
 	text-align: center;
@@ -7134,10 +7137,10 @@ span#fcta-zalo-tracking {
 }
 .soluottruycap {
 	color: #000;
-	background-color: #f7be81;
+	background-color: #fff;
 	margin-top: 26px;
     margin-left: 30px;
-	border: solid #ff944d;
+	border: solid #81868a;
 	text-align: center;
 	height: auto;
 	width: 280px;
