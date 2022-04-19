@@ -79,12 +79,13 @@ a:visited {
 }
 .block-title__title {
 	margin: 0;
-	color: #ff944d;
+	color: #fff;
 	font-size: 60px;
 	font-weight: bold;
 	padding-top: 20px;
 	margin-bottom: -35px;
 	margin-top: -15px;
+
 }
 
 .thm-btn {
@@ -3854,7 +3855,7 @@ a:visited {
 .course-category-one {
 	padding: 120px 0;
 	padding-top: 110px;
-	background: #fff;
+	background: #6cc24a;
 }
 .course-category-one .container-fluid {
 	max-width: 1520px;
@@ -4110,6 +4111,7 @@ a:visited {
 .course-one__top-title.home-two {
 	padding-top: 120px;
 	padding-bottom: 0;
+	background-color: ffc107;
 }
 .course-one__top-title.home-two:before {
 	display: none;
@@ -6142,7 +6144,7 @@ a:visited {
 .testimonials-one__home-three {
 	border-top: 0;
 	padding-bottom: 80px;
-	background: #ffd19f;
+	background: #6cc24a;
 }
 
 /*
@@ -6509,12 +6511,12 @@ html {
 }
 
 .site-footer__bottom {
-	background-color: white !important;
+	background-color: #000099;
 	height: 65px;
 }
 
 .site-footer__social::before {
-	background-color: white !important;
+	background-color: #000099;
 }
 
 .site-footer__copy a {
@@ -6531,11 +6533,11 @@ html {
 }
 
 .header-navigation {
-	background-color: white !important;
+	background-color: #f3e2a9;
 }
 
 .header-navigation ul.navigation-box > li > a {
-	color: #ff944d !important;
+	color: #fff !important;
 	font-weight: bold;
 	font-size: 20px;
 }
@@ -6582,8 +6584,8 @@ html {
 
 .site-footer__upper {
 	padding: 16px;
-	background: #ff944d;
-	/* height: 330px; */
+	background: #f3e2a9;
+
 }
 .row {
 	margin-top: 30px;
@@ -6596,7 +6598,7 @@ html {
 
 .countdown-one__title {
 	margin: 0;
-	color: #ff944d !important;
+	color: #f8ff0e !important;
 	font-size: 2rem !important;
 	margin-top: -5px;
 	margin-left: -50px;
@@ -6795,7 +6797,7 @@ html {
 }
 
 .countdown-one__tygia {
-	color: #ff944d !important;
+	color: #f8ff0e;
 	font-size: 2rem !important;
 }
 
@@ -6806,12 +6808,13 @@ html {
 tr,
 th,
 td {
-	border: 2px #ff944d solid;
+	border: 2px #94a3ac solid;
 	color: #000;
 	text-align: center;
+	background-color: #fff;
 }
 .table-ngoaite th {
-	background-color: #f7be81;
+
 	width: 20%;
 }
 
@@ -6967,58 +6970,6 @@ span#fcta-zalo-tracking {
 .fcta-zalo-text {
 	font-family: Roboto;
 }
-/********************************** Form-Chat********************************* */
-.form_chat {
-	position: fixed;
-	bottom: 222px;
-	right: 20px;
-	z-index: 999;
-	opacity: 100%;
-	height: 157px;
-	/* 	visibility: hidden; */
-}
-.title-chat {
-	text-align: center;
-	color: #fff;
-	margin-top: 20px;
-}
-.canhle-chat {
-	margin: 10px auto;
-}
-.icon_chat {
-	width: 75px;
-	height: 75px;
-	margin-top: 5px;
-}
-.chuamucchat {
-	width: 87px;
-	height: 87px;
-	text-align: center;
-}
-/* .chuamucchat:hover {
-	background-color: #ff944d;
-	cursor: pointer;
-} */
-.icon_chat:hover {
-	width: 86px;
-	height: 86px;
-}
-.tieude-chat {
-	width: 100%;
-	height: 75px;
-	background-color: #0068ff80;
-	border-radius: 18px 18px 0px 0px;
-	padding-top: 1px;
-}
-.za-chat__head-box {
-	height: 50px;
-	display: flex;
-	flex-direction: row-reverse;
-	align-items: center;
-	position: absolute;
-	bottom: 15px;
-	right: 70px !important;
-}
 
 /*Trang các trường Canada*/
 .tieude {
@@ -7109,9 +7060,8 @@ span#fcta-zalo-tracking {
 	margin-left: auto;
 	margin-top: 25px;
 }
-
 .luottruycap {
-	color: #ff944d;
+	color: #f8ff0e;
 	font-weight: bold;
 	font-size: 32px;
 	text-align: center;
@@ -7120,10 +7070,10 @@ span#fcta-zalo-tracking {
 }
 .soluottruycap {
 	color: #000;
-	background-color: #f7be81;
+	background-color: #fff;
 	margin-top: 26px;
 	margin-left: 30px;
-	border: solid #ff944d;
+	border: solid #81868a;
 	text-align: center;
 	height: auto;
 	width: 280px;
@@ -7267,28 +7217,185 @@ span#fcta-zalo-tracking {
 	visibility: visible;
 }
 /********************************************Finish Button Chat********************************************/
+/********************************** Form-Chat********************************* */
+.form_chat {
+	position: fixed;
+	bottom: 208px;
+	right: 20px;
+	z-index: 999;
+	background-color: white;
+	width: 360px;
+	height: 423px;
+	box-shadow: -5px 5px 4px #1c1c1c;
+/* 	border-radius: 20px; */
+	opacity: 100%;
+	/* 	visibility: hidden; */
+}
+.title-chat {
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+	font-size: 26px;
+}
+.canhle-chat {
+	margin: 10px auto;
+}
+.icon_chat {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top: 5px;
+}
+.chuamucchat {
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid #d9d8d8;
+}
+.chuamucchat:hover {
+	background-color: #ff944d;
+	cursor: pointer;
+}
+.chua-muctext{
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+.mucchat-text{
+	float: left;
+	margin-top: 20px;
+	font-size: 22px;
+}
+/* .icon_chat:hover {
+	width: 86px;
+	height: 86px;
+}  */
+.tieude-chat {
+	width: 100%;
+	height: 75px;
+	background-color: #0068ff80;
+	/* border-radius: 18px 18px 0px 0px; */
+	padding-top: 1px;
+}
+.za-chat__head-box {
+	height: 50px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	position: absolute;
+	bottom: 15px;
+	right: 70px !important;
+}
 /********************************************Học Bổng********************************************/
 .content-hb {
 	width: 80%;
 	margin: 20px auto;
 	box-sizing: border-box;
 	box-shadow: -1px 1px 3px #7b7f85;
+	margin-top: 50px;
+	padding: 20px 10px;
 }
 .tieu-de-1 {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-bottom: 10px;
 	font-size: 28px;
+
+	/* 	color: #000 !important; */
+
 	color: #000;
+
 	font-weight: normal;
 	display: block;
+	font-weight: normal;
 }
+.tieude-2 {
+	text-align: center;
+	color: #993300;
+	font-size: 3rem;
+}
+.anh-noidung1 {
+	width: 65%;
+	height: 440px;
+	margin: 5px auto;
+	object-fit: contain;
+}
+.anh-noidung5 {
+	width: 65%;
+	height: 680px;
+}
+
 .anh-noidung1 {
 	width: 90%;
 	height: 500px;
+
 	margin: 5px auto;
 	object-fit: contain;
 }
 .anh1 {
+	width: 100%;
+	height: 100%;
+}
+.muc1 {
+	font-size: 40px;
+	color: #1c1c1c;
+}
+/*******************************Next-Previous********************************/
+.next-previous {
+	margin-top: 40px;
+}
+.post-navigation {
+	width: 100%;
+	height: 130px;
+	clear: both;
+	margin: -10px 0 20px;
+	overflow: hidden;
+}
+.post-previous {
+	float: left;
+	width: 22%;
+	padding-left: 40px;
+}
+.post-next {
+	float: right;
+	width: 22%;
+	padding-right: 40px;
+	text-align: right;
+}
+.post-navigation div a:after {
+	position: absolute;
+	color: #ccc;
+	font-size: 56px;
+	margin-top: -11px;
+	height: 22px;
+	line-height: 22px;
+	top: 34%;
+}
+.post-previous a:after {
+	content: '«';
+	left: 0;
+}
+.post-navigation div {
+	display: block;
+	width: 22%;
+	position: relative;
+	font-size: 14px;
+	color: #999;
+}
+.post-navigation div span {
+	display: block;
+	font-size: 80%;
+	color: #999;
+}
+.post-next a:after {
+	content: '»';
+	right: 0;
+}
+.post-navigation div span {
+	display: block;
+	font-size: 80%;
+	color: #999;
+}
+/****************************************************************************/
+.card-header-TD {
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -7339,6 +7446,8 @@ ul#menu li a {
 }
 
 ul#menu li {
+	positon: relative;
+
 	position: relative;
 }
 
