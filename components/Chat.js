@@ -71,7 +71,7 @@ const Chat = () => {
 						</a>
 					</div>
 					<div className="chuamucchat">
-						<a href="https://m.me/ngr.duhoc">
+						<a href="https://api.whatsapp.com/send?phone=(+84)909416959&text=urlencodedtext">
 							{' '}
 							<img src="/assets/images/chat/whatapp_icon.png" alt="zalo_icon" className="icon_chat" />
 							<div className="chua-muctext">
