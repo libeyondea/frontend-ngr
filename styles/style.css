@@ -347,7 +347,7 @@ a:visited {
 	background-color: transparent;
 }
 .header-navigation .container {
-	background: green;
+	background: transparent;
 	position: relative;
 	display: block;
 }
@@ -6533,7 +6533,7 @@ html {
 }
 
 .header-navigation {
-	background-color: #7BF;
+	background-color: #f3e2a9;
 }
 
 .header-navigation ul.navigation-box > li > a {
@@ -6584,7 +6584,7 @@ html {
 
 .site-footer__upper {
 	padding: 16px;
-	background: green;
+	background: #f3e2a9;
 
 }
 .row {
