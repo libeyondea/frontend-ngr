@@ -129,7 +129,7 @@ a:visited {
 }
 .post-pagination a:hover,
 .post-pagination a.active {
-	background-color: #012237;
+	background-color: #ffd19f;
 	color: #fff;
 }
 .post-pagination a + a {
@@ -631,8 +631,6 @@ a:visited {
 	flex: 1 1 33.33333%;
 	max-width: 33.33333%;
 }
-
-
 
 [class*='site-header__decor-inner-']::before {
 	content: '';
@@ -1698,7 +1696,7 @@ a:visited {
 }
 
 .contact-one {
-	background-image: url("/assets/images/bglienhe.png");
+	background-image: url('/assets/images/bglienhe.png');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	padding-top: 120px;
@@ -1719,7 +1717,7 @@ a:visited {
 .contact-one input,
 .contact-one textarea {
 	font-weight: bold;
-    color: #000;
+	color: #000;
 	border: none;
 	outline: none;
 	width: 100%;
@@ -2768,8 +2766,7 @@ a:visited {
 
 .become-teacher__form {
 	padding-left: 88px;
-    position: relative;
-
+	position: relative;
 }
 .become-teacher__form:before {
 	content: '';
@@ -2812,8 +2809,6 @@ a:visited {
 	padding-right: 60px;
 	padding-top: 35px;
 	padding-bottom: 10px;
-
-
 }
 .become-teacher__form input {
 	border: none;
@@ -3695,7 +3690,6 @@ a:visited {
 	position: relative;
 }
 .course-details__meta-icon:before {
-
 	position: absolute;
 	left: -5px;
 	top: 0;
@@ -6606,7 +6600,6 @@ html {
 	font-size: 2rem !important;
 	margin-top: -5px;
 	margin-left: -50px;
-
 }
 
 .become-teacher__form-top {
@@ -6802,16 +6795,12 @@ html {
 }
 
 .countdown-one__tygia {
-
 	color: #ff944d !important;
 	font-size: 2rem !important;
-
 }
 
 .table-ngoaite {
 	width: 90%;
-
-
 }
 .table-ngoaite,
 tr,
@@ -6826,14 +6815,11 @@ td {
 	width: 20%;
 }
 
-
-.table-ngoaite tr{
+.table-ngoaite tr {
 	width: 10px;
 }
 
-.TenBang{
-
-
+.TenBang {
 	row-gap: 3;
 	text-align: center;
 	font-size: 22px;
@@ -6987,9 +6973,9 @@ span#fcta-zalo-tracking {
 	bottom: 222px;
 	right: 20px;
 	z-index: 999;
-    opacity: 100%;
+	opacity: 100%;
 	height: 157px;
-/* 	visibility: hidden; */
+	/* 	visibility: hidden; */
 }
 .title-chat {
 	text-align: center;
@@ -7013,7 +6999,7 @@ span#fcta-zalo-tracking {
 	background-color: #ff944d;
 	cursor: pointer;
 } */
-.icon_chat:hover{
+.icon_chat:hover {
 	width: 86px;
 	height: 86px;
 }
@@ -7124,7 +7110,7 @@ span#fcta-zalo-tracking {
 	margin-top: 25px;
 }
 
-.luottruycap{
+.luottruycap {
 	color: #ff944d;
 	font-weight: bold;
 	font-size: 32px;
@@ -7136,7 +7122,7 @@ span#fcta-zalo-tracking {
 	color: #000;
 	background-color: #f7be81;
 	margin-top: 26px;
-    margin-left: 30px;
+	margin-left: 30px;
 	border: solid #ff944d;
 	text-align: center;
 	height: auto;
@@ -7144,8 +7130,7 @@ span#fcta-zalo-tracking {
 	height: 80px;
 }
 
-
-.number{
+.number {
 	margin-top: 22px;
 }
 
@@ -7267,7 +7252,7 @@ span#fcta-zalo-tracking {
 .fcta-zalo-text {
 	font-family: Roboto;
 }
-.button-chat{
+.button-chat {
 	background-image: url('/images/chat/tuvanvien.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -7275,132 +7260,119 @@ span#fcta-zalo-tracking {
 }
 .hide {
 	visibility: hidden;
-  }
+}
 
-  .myDIV:hover + .hide, .hide:hover {
+.myDIV:hover + .hide,
+.hide:hover {
 	visibility: visible;
-
-  }
+}
 /********************************************Finish Button Chat********************************************/
 /********************************************Học Bổng********************************************/
-.content-hb{
+.content-hb {
 	width: 80%;
 	margin: 20px auto;
 	box-sizing: border-box;
 	box-shadow: -1px 1px 3px #7b7f85;
 }
-.tieu-de-1{
+.tieu-de-1 {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-bottom: 10px;
-    font-size: 28px;
+	font-size: 28px;
 	color: #000;
 	font-weight: normal;
 	display: block;
 }
-.anh-noidung1{
+.anh-noidung1 {
 	width: 90%;
 	height: 500px;
 	margin: 5px auto;
 	object-fit: contain;
 }
-.anh1{
+.anh1 {
 	max-width: 100%;
 	max-height: 100%;
 }
-.card-header-TD{
+.card-header-TD {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-bottom: 1px;
-    font-size: 22px;
+	font-size: 22px;
 	color: #000;
 	font-weight: normal;
 	display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.tai-sao{
+.tai-sao {
 	font-size: 17px;
 }
-.tieu-de{
+.tieu-de {
 	font-size: 35px;
-    line-height: 44px;
+	line-height: 44px;
 	padding-top: 20px;
-    font-weight: 700;
-    color: #606060;
-    text-shadow: 1px 1px 0 rgb(255 255 255 / 50%);
+	font-weight: 700;
+	color: #606060;
+	text-shadow: 1px 1px 0 rgb(255 255 255 / 50%);
 }
 /**/
-ul#menu, ul#menu ul#sub {
+ul#menu,
+ul#menu ul#sub {
+	padding: 0;
 
-    padding:0;
-
-    margin: 0;
-
+	margin: 0;
 }
 
 ul#menu li {
+	list-style-type: none; /* code này để bỏ các dấu chấm tròn*/
 
-     list-style-type: none;    /* code này để bỏ các dấu chấm tròn*/
+	float: left; /* code này để menu dàn hàng ngang*/
 
-     float: left;    /* code này để menu dàn hàng ngang*/
-
-     margin-right: 10px;    /* tạo lề cho các menu*/
-
+	margin-right: 10px; /* tạo lề cho các menu*/
 }
 
 ul#menu li a {
+	text-decoration: none;
 
-text-decoration: none;
+	background-color: #900;
 
-background-color: #900;
+	padding: 5px;
 
-padding: 5px;
-
-color: white;
-
+	color: white;
 }
 
 ul#menu li {
-
-positon: relative;
-
+	position: relative;
 }
 
 ul#menu li ul#sub {
+	display: none;
 
-display: none;
+	position: absolute;
 
-position: absolute;
-
-width: 100px;
-
+	width: 100px;
 }
 
 ul#menu li ul#sub li {
+	margin-top: 10px;
 
-margin-top: 10px;
-
-margin-bottom: 5px;
-
+	margin-bottom: 5px;
 }
 
 ul#menu li:hover ul#sub {
+	display: block;
+}
 
-display: block;
-
- }
-
-
+/*----Các trường du học----*/
+.card-school {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-clip: border-box;
+	border-radius: 0.25rem;
+	background-color: #ffd19f;
+	border: 3px solid black;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	box-shadow: 10px 10px 5px #1d701c;
+}
