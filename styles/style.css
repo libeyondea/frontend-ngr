@@ -6511,12 +6511,12 @@ html {
 }
 
 .site-footer__bottom {
-	background-color: #000099;
+	background-color: #346E6D;
 	height: 65px;
 }
 
 .site-footer__social::before {
-	background-color: #000099;
+	background-color: #346E6D;
 }
 
 .site-footer__copy a {
@@ -6584,7 +6584,7 @@ html {
 
 .site-footer__upper {
 	padding: 16px;
-	background: #007777;
+	background: #009955;
 
 }
 .row {
