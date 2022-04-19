@@ -129,7 +129,7 @@ a:visited {
 }
 .post-pagination a:hover,
 .post-pagination a.active {
-	background-color: #012237;
+	background-color: #ffd19f;
 	color: #fff;
 }
 .post-pagination a + a {
@@ -7403,4 +7403,20 @@ display: block;
 
  }
 
-
+/*----Các trường du học----*/
+.card-school
+{
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+	background-color: #ffd19f;
+	border: 3px solid black;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	box-shadow: 10px 10px 5px #1D701C;
+}

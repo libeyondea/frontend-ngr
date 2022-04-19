@@ -21,7 +21,7 @@ const CacTruongDuHocCacNuoc = () => {
 					</div>
 			
 			</section>
-			<div id="breaking-news" className="breaking-school">
+			<div id="breaking-news" className="breaking-school" style={{color:'color: #E4EAE3'}}>
 					<span className="breaking-news-title">
 						<span>TIN MỚI NHẤT</span>
 					</span>
