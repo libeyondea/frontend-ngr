@@ -6967,70 +6967,7 @@ span#fcta-zalo-tracking {
 .fcta-zalo-text {
 	font-family: Roboto;
 }
-/********************************** Form-Chat********************************* */
-.form_chat {
-	position: fixed;
-	bottom: 208px;
-	right: 20px;
-	z-index: 999;
 
-	height: 157px;
-	/* 	visibility: hidden; */
-	background-color: white;
-	width: 400px;
-	height: 500px;
-	box-shadow: -3px 3px 2px #1c1c1c;
-	border-radius:20px ;
-
-	opacity: 100%;
-	height: 157px;
-	/* 	visibility: hidden; */
-
-}
-.title-chat {
-	text-align: center;
-	color: #fff;
-	margin-top: 20px;
-}
-.canhle-chat {
-	margin: 10px auto;
-}
-.icon_chat {
-	width: 75px;
-	height: 75px;
-	margin-top: 5px;
-    float: left;
-}
-.chuamucchat {
-	width: 100%;
-	height: 87px;
-	border-bottom: 1px solid #d9d8d8;
-}
-.chuamucchat:hover {
-	background-color: #ff944d;
-	cursor: pointer;
-} */
-.icon_chat:hover {
-	width: 86px;
-	height: 86px;
-} */
-.tieude-chat {
-	width: 100%;
-	height: 75px;
-	background-color: #0068ff80;
-	border-radius: 18px 18px 0px 0px;
-	padding-top: 1px;
-}
-.za-chat__head-box {
-	height: 50px;
-	display: flex;
-	flex-direction: row-reverse;
-	align-items: center;
-	position: absolute;
-	bottom: 15px;
-	right: 70px !important;
-}
-/***************************************************************************////////////
 /*Trang các trường Canada*/
 .tieude {
 	color: #000;
@@ -7278,6 +7215,74 @@ span#fcta-zalo-tracking {
 	visibility: visible;
 }
 /********************************************Finish Button Chat********************************************/
+/********************************** Form-Chat********************************* */
+.form_chat {
+	position: fixed;
+	bottom: 208px;
+	right: 20px;
+	z-index: 999;
+	background-color: white;
+	width: 360px;
+	height: 423px;
+	box-shadow: -3px 3px 2px #1c1c1c;
+	border-radius: 20px;
+	opacity: 100%;
+	/* 	visibility: hidden; */
+}
+.title-chat {
+	text-align: center;
+	color: #fff;
+	margin-top: 20px;
+	font-size: 26px;
+}
+.canhle-chat {
+	margin: 10px auto;
+}
+.icon_chat {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top: 5px;
+}
+.chuamucchat {
+	width: 100%;
+	height: 70px;
+	border-bottom: 1px solid #d9d8d8;
+}
+.chuamucchat:hover {
+	background-color: #ff944d;
+	cursor: pointer;
+}
+.chua-muctext{
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+.mucchat-text{
+	float: left;
+	margin-top: 20px;
+	font-size: 22px;
+}
+/* .icon_chat:hover {
+	width: 86px;
+	height: 86px;
+}  */
+.tieude-chat {
+	width: 100%;
+	height: 75px;
+	background-color: #0068ff80;
+	border-radius: 18px 18px 0px 0px;
+	padding-top: 1px;
+}
+.za-chat__head-box {
+	height: 50px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	position: absolute;
+	bottom: 15px;
+	right: 70px !important;
+}
 /********************************************Học Bổng********************************************/
 .content-hb {
 	width: 80%;
@@ -7313,7 +7318,8 @@ span#fcta-zalo-tracking {
 }
 .anh-noidung5 {
 	width: 65%;
-	height: 680px;}
+	height: 680px;
+}
 
 .anh-noidung1 {
 	width: 90%;
@@ -7323,7 +7329,6 @@ span#fcta-zalo-tracking {
 	object-fit: contain;
 }
 .anh1 {
-
 	width: 100%;
 	height: 100%;
 }
@@ -7332,7 +7337,7 @@ span#fcta-zalo-tracking {
 	color: #1c1c1c;
 }
 /*******************************Next-Previous********************************/
-.next-previous{
+.next-previous {
 	margin-top: 40px;
 }
 .post-navigation {
@@ -7388,13 +7393,11 @@ span#fcta-zalo-tracking {
 	color: #999;
 }
 /****************************************************************************/
-.card-header-TD{
-
+.card-header-TD {
 	max-width: 100%;
 	max-height: 100%;
 }
 .card-header-TD {
-
 	font-family: Arial, Helvetica, sans-serif;
 	margin-bottom: 1px;
 	font-size: 22px;
@@ -7441,11 +7444,9 @@ ul#menu li a {
 }
 
 ul#menu li {
-
 	positon: relative;
 
 	position: relative;
-
 }
 
 ul#menu li ul#sub {
@@ -7466,7 +7467,6 @@ ul#menu li:hover ul#sub {
 	display: block;
 }
 
-
 /*----Các trường du học----*/
 .card-school {
 	position: relative;
@@ -7483,4 +7483,3 @@ ul#menu li:hover ul#sub {
 	color: black;
 	box-shadow: 10px 10px 5px #1d701c;
 }
-
