@@ -43,151 +43,98 @@ const TuyenDung = () => {
 						</span>
 					</div>
 					<h3 className="title-com">
-						<span className="title-holder">THÔNG TIN TUYỂN DỤNG</span>
+						<span className="title-holder">DANH SÁCH TUYỂN DỤNG</span>
 					</h3>
-					<div className="col-lg-8">
-					<div className="card-TH">
-						<div className="card-header">
-							<p className="card-header-TH">
-							Tuyển dụng vị trí Copywriter – Du học Tân Con Đường Vàng
-							</p>
-						</div>
-						<div className="card-body">
-							<p className="img-card-TH">
-								<img
-									src="/assets/images/TuyenDung/td1.jpg"
-									alt="Trường Southern Alberta Institute of Technology (SAIT)"
-								/>
-							</p>
-							<p className="card-text-TH">
-							Tuyển dụng vị trí sáng tạo nội dung cho các chiến dịch quảng cáo của Công ty Du học Tân Con Đường Vàng. Số lượng: 3. Nộp hồ sơ trước ngày 15/12/2021.
 
+					<div className="card-TH">
+						<div className="card-header">
+							<p className="card-header-TD">Tuyển dụng vị trí Copywriter – Du học Tân Con Đường Vàng</p>
+						</div>
+						<div className="card-body">
+							<p className="img-card-TH">
+								<img src="/assets/images/TuyenDung/td1.jpg" alt="Tuyển dụng vị trí Copywriter" />
 							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
-								<Link href="/news-details">
-									<a className="blog-one__plus">
-										<i className="kipso-icon-plus-symbol"></i>
-									</a>
-								</Link>
-							</div>
-							<div className="blog-one__content text-center">
-								<div className="blog-one__meta">
-									<a
-										data-toggle="tooltip"
-										data-placement="top"
-										title=""
-										href="#"
-										data-original-title="Posted On Jan 19"
-									>
-										<i className="fa fa-calendar-alt"></i>
-									</a>
-									<a
-										data-toggle="tooltip"
-										data-placement="top"
-										title=""
-										href="#"
-										data-original-title="No Comments"
-									>
-										<i className="fa fa-comments"></i>
-									</a>
-									<a
-										data-toggle="tooltip"
-										data-placement="top"
-										title=""
-										href="#"
-										data-original-title="Posted By Admin"
-									>
-										<i className="fa fa-user"></i>
-									</a>
-								</div>
-								<h2 className="blog-one__title">
-									<Link href="/td-details">
-										<a>[JOB HIRING] – Tuyển dụng Thực tập sinh các ngành tại Du học Tân Con Đường Vàng</a>
-									</Link>
-								</h2>
-								<p className="blog-one__text">
-									JOB HIRING AT NEW GOLDEN ROAD Job Hiring for SUMMER TUYỂN DỤNG THỰC TẬP SINH Địa chỉ làm việc:
-									219 Tân Quý, Phường Tân Quý, Quận Tân Phú, TP.HCM Thời gian làm việc: Sáng (8h – 17h) hoặc
-									Chiều (13h – 21h) NEW GOLDEN ROAD – DU HỌC TÂN CON …
-								</p>
-								<Link href="/news-details">
-									<a className="blog-one__link">Read More</a>
-								</Link>
-							</div>
+							<p className="card-text-TH">
+								Tuyển dụng vị trí sáng tạo nội dung cho các chiến dịch quảng cáo của Công ty Du học Tân Con Đường
+								Vàng. Số lượng: 3. Nộp hồ sơ trước ngày 15/12/2021.
+							</p>
+							<Link href="/td-details">
+								<a className="btn btn-primary">Đọc Thêm</a>
+							</Link>
+							<Link href="/news-details">
+								<a className="blog-one__plus">
+									<i className="kipso-icon-plus-symbol"></i>
+								</a>
+							</Link>
+						</div>
+					</div>
 
+					<div className="card-TH">
+						<div className="card-header">
+							<p className="card-header-TD">Tuyển dụng vị trí Designer – Du học Tân Con Đường Vàng</p>
+						</div>
+						<div className="card-body">
+							<p className="img-card-TH">
+								<img src="/assets/images/TuyenDung/td2.jpg" alt="Tuyển dụng vị trí Designer" />
+							</p>
+							<p className="card-text-TH">
+								Tuyển dụng vị trí Designer tại Công ty Du học Tân Con Đường Vàng. Số lượng: 1. Nộp hồ sơ trước
+								ngày 01/06/2022.
+							</p>
+							<Link href="/td-details">
+								<a className="btn btn-primary">Đọc Thêm</a>
+							</Link>
 						</div>
 					</div>
 					<div className="card-TH">
 						<div className="card-header">
-							<p className="card-header-TH">
-								Trường Saskatchewan Polytechnic – Du học Canada – Du học Tân Con Đường Vàng
-							</p>
+							<p className="card-header-TD">Tuyển dụng vị trí trợ lý tư vấn du học – Du học Tân Con Đường Vàng</p>
 						</div>
 						<div className="card-body">
 							<p className="img-card-TH">
-								<img src="/assets/images/TruongHoc/SASK.png" alt="Trường Saskatchewan Polytechnic" />
+								<img src="/assets/images/TuyenDung/td3.jpg" alt="Tuyển dụng vị trí trợ lý tư vấn du học" />
 							</p>
-							<h5 className="card-title-TH">Trường Saskatchewan Polytechnic</h5>
 							<p className="card-text-TH">
-								SASKATCHEWAN POLYTECHNIC Saskatchewan Polytechnic được thành lập vào năm 1941 tọa lạc tại
-								Saskatchewan – nơi được ví von là “Land of Living Skies” của Canada. Cùng với 12 cơ sở nghiên cứu
-								chuyên sâu, Saskatchewan Polytechnic còn là thành viên của Nhóm các trường bách khoa Canada
-								(Polytechnics Canada) …
+								Tuyển dụng vị trí trợ lý tư vấn du học tại Công ty Du học Tân Con Đường Vàng. Số lượng: 2. Nộp hồ
+								sơ trước ngày 15/05/2022.
 							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
+							<Link href="/td-details">
+								<a className="btn btn-primary">Đọc Thêm</a>
+							</Link>
 						</div>
 					</div>
 					<div className="card-TH">
 						<div className="card-header">
-							<p className="card-header-TH">
-								Trường British Columbia University – Du học Canada – Du học Tân Con Đường Vàng
-							</p>
+							<p className="card-header-TD">Vị trí biên dịch – Du học Tân Con Đường Vàng</p>
 						</div>
 						<div className="card-body">
 							<p className="img-card-TH">
-								<img src="/assets/images/TruongHoc/BRITI.png" alt="Trường British Columbia University" />
+								<img src="/assets/images/TuyenDung/td4.jpg" alt="Vị trí biên dịch" />
 							</p>
-							<h5 className="card-title-TH">Trường British Columbia University</h5>
+
 							<p className="card-text-TH">
-								BRITISH COLUMBIA UNIVERSITY British Columbia – ngôi trường của những giải Nobel và những người nổi
-								tiếng. Nếu Mỹ có Đại học Havard, Anh có Đại học Oxford thì Canada có Đại học British Columbia. Du
-								học, ai cũng mong được sở hữu tấm bằng của những trường danh tiếng. …
+								Tuyển dụng vị trí nhân viên hành chính văn phòng - biên dịch tại Công ty Du học Du học Tân Con
+								Đường Vàng. Nộp hồ sơ trước ngày 10/05/2022.
 							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
-						</div>
-					</div>
-					<div className="card-TH">
-						<div className="card-header">
-							<p className="card-header-TH">
-								Trường Coast Mountain College – Du học Canada – Du học Tân Con Đường Vàng
-							</p>
-						</div>
-						<div className="card-body">
-							<p className="img-card-TH">
-								<img src="/assets/images/TruongHoc/COAST.png" alt="Trường Coast Mountain College" />
-							</p>
-							<h5 className="card-title-TH">Trường Coast Mountain College</h5>
-							<p className="card-text-TH">
-								COAST MOUNTAIN COLLEGE Coast Mountain College (CMTN) được thành lập dưới sự công nhận của Chính
-								phủ. Toạ lạc tại khu vực cộng đồng dân cư thịnh vượng và đa dạng của Tây Bắc thuộc tỉnh British
-								Columbia. Coast Mountain College cung cấp nhiều chương trình đào tạo chất lượng với …
-							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
+							<Link href="/td-details">
+								<a className="btn btn-primary">Đọc Thêm</a>
+							</Link>
 						</div>
 					</div>
 				</div>
-						</div>
-
-				
-			
+			</div>
+			<div className="post-pagination">
+				<a href="#">
+					<i className="fa fa-angle-double-left" />
+				</a>
+				<a className="active" href="#">
+					1
+				</a>
+				<a href="#">2</a>
+				<a href="#">
+					<i className="fa fa-angle-double-right" />
+				</a>
+			</div>
 		</section>
 	);
 };

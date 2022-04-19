@@ -63,7 +63,7 @@ const Contact = () => {
 								<input type="text" name="name" placeholder="Họ và Tên:" />
 							</div>
 							<div className="col-lg-6">
-								<input type="text" placeholder="Email Address" name="Email:" />
+								<input type="text" placeholder="Email" name="Email:" />
 							</div>
 							<div className="col-lg-12">
 								<textarea placeholder="Nội dung : " name="message"></textarea>

@@ -52,7 +52,6 @@ h3.title-comm:before {
 
 .title-comm {
     padding-left: 700px;
-	padding-top: 40px;
     right: 410px;
     color: #fff;
     font-size: 30px;
@@ -92,9 +91,53 @@ h3.title-comm:before {
     border-color: #f1f1f1;
     padding: 50px;
 }
+.breaking-school {
+    padding-left: 85px;
+    padding-top: -6px !important;
+    margin-top: 18px;
+    padding-bottom: -24px !important;
+    width: 1685px;
+    background: #FFF;
+    height: 32px;
+    margin: 15px auto 0px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 10px;
+}
+.breaking-school span.breaking-news-title {
+    background: #ff944d;
+}
+.breaking-school span.breaking-news-title {
+    float: left;
+    padding: 0px 15px 0;
+    height: 32px;
+    color: #FFF;
+}
+.breaking-school span.breaking-news-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.breaking-school ul a {
+    padding-left: 100px;
+    white-space: nowrap;
+    font-family: tahoma;
+}
+.crumbss-school {
+    padding-bottom: 10px;
+    padding-left: 85px;
+}
 /* contac */
 .map{
     margin-bottom: 58px;
 }
 /* hieuung */
-
+/* thong tin */
+.inner-banner {
+    background-color: #011928;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-image: url(/assets/images/banner3.png);
+}
