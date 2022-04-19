@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import '../styles/bootstrap.min.css';
 import '../styles/animate.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -9,7 +10,7 @@ import '../styles/kh.css';
 import '../styles/responsive.css';
 import '../node_modules/react-modal-video/scss/modal-video.scss';
 import 'react-slideshow-image/dist/styles.css';
-import Head from 'next/head';
+import '../styles/banner.scss';
 
 function MyApp({ Component, pageProps }) {
 	return (
