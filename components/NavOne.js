@@ -120,7 +120,7 @@ class NavOne extends Component {
 									</Link>
 									<ul className="sub-menu">
 										<li>
-											<a href="/DuHocCanada">Du Học Canada</a>
+											<Link href="/DuHocCanada">Du Học Canada</Link>
 											<ul className="sub-menu">
 												<li>
 													<Link href="/CacTruongDHCD">
@@ -490,6 +490,33 @@ class NavOne extends Component {
 											<Link href="/doitac">
 												<a>Đối Tác</a>
 											</Link>
+											<ul className="sub-menu">
+												<li>
+													<Link href="/doitac">
+														<a>Đối Tác Nước Mỹ</a>
+													</Link>
+												</li>
+												<li>
+													<Link href="/doitac">
+														<a>Đối Tác Nước Canada</a>
+													</Link>
+												</li>
+												<li>
+													<Link href="/doitac">
+														<a>Đối Tác Nước Singapore</a>
+													</Link>
+												</li>
+												<li>
+													<Link href="/doitac">
+														<a>Đối Tác Nước Singapore</a>
+													</Link>
+												</li>
+												<li>
+													<Link href="/doitac">
+														<a>Đối Tác Nước Singapore</a>
+													</Link>
+												</li>
+											</ul>
 										</li>
 										<li>
 											<Link href="/tuyendung">
