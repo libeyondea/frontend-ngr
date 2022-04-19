@@ -7224,8 +7224,8 @@ span#fcta-zalo-tracking {
 	background-color: white;
 	width: 360px;
 	height: 423px;
-	box-shadow: -3px 3px 2px #1c1c1c;
-	border-radius: 20px;
+	box-shadow: -5px 5px 4px #1c1c1c;
+/* 	border-radius: 20px; */
 	opacity: 100%;
 	/* 	visibility: hidden; */
 }
@@ -7271,7 +7271,7 @@ span#fcta-zalo-tracking {
 	width: 100%;
 	height: 75px;
 	background-color: #0068ff80;
-	border-radius: 18px 18px 0px 0px;
+	/* border-radius: 18px 18px 0px 0px; */
 	padding-top: 1px;
 }
 .za-chat__head-box {
