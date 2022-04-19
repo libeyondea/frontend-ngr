@@ -5,6 +5,9 @@ const Doitac = () => {
 	return (
 		<section className="team-one team-page">
 			<div className="container">
+				<h3 className="titles-com">
+					<span className="titles-holder">ĐỐI TÁC NƯỚC MỸ</span>
+				</h3>
 				<div className="row">
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">

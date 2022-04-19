@@ -128,7 +128,17 @@ p.post-meta {
     color: red;
     font-size: 25px;
 }
-
+.slider__slide-contents {
+    z-index: 6;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100%; */
+    text-transform: uppercase;
+    line-height: 1;
+}
 /* CONTACT */
 .contact-info-one {
     padding-top: 50px;
