@@ -9,7 +9,6 @@ const ThongTinCanada = () => {
     return (
         <Layout pageTitle="Tân Con Đường Vàng | Thông tin Canada">
             <NavOne />
-            <PageHeader title="Thông tin Canada" />
             <ThongTinCa />
             <Footer />
         </Layout>
