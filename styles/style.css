@@ -2803,7 +2803,8 @@ a:visited {
 }
 .become-teacher__form-content {
 	border-style: solid;
-	border-width: 2px;
+	border-width: 16px;
+	margin: 5px;
 	border-color: #f1f1f1;
 	background-color: white;
 	padding-left: 60px;
@@ -7447,8 +7448,6 @@ ul#menu li a {
 }
 
 ul#menu li {
-	positon: relative;
-
 	position: relative;
 }
 
@@ -7485,4 +7484,16 @@ ul#menu li:hover ul#sub {
 	font-weight: bold;
 	color: black;
 	box-shadow: 10px 10px 5px #1d701c;
+}
+/*---- trung học----*/
+.tieudeTH {
+	text-align: center;
+	color: #C06D07;
+	font-size: 3rem;
+}
+.mucTH {
+
+	font-size: 30px;
+	color: #1c1c1c;
+	padding-top: 15px;
 }

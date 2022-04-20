@@ -51,7 +51,7 @@ const TrungHoc = () => {
                         <div class="card-school h-100">
                         <img src="assets/images/Trunghoc/trunghoc1.png" class="card-img-top" alt="Trường Bodwell High School"/>
                         <div class="card-body">
-                            <a href="#" class="card-link"><h5 class="card-title" style={{ color: 'black' }}>Trường trung học Bodwell High School </h5></a> 
+                            <a href="/trunghoc_details" class="card-link"><h5 class="card-title" style={{ color: 'black' }}>Trường trung học Bodwell High School </h5></a> 
                         </div>
                         </div>
                     </div>
