@@ -79,12 +79,13 @@ a:visited {
 }
 .block-title__title {
 	margin: 0;
-	color: #ff944d;
+	color: #fff;
 	font-size: 60px;
 	font-weight: bold;
 	padding-top: 20px;
 	margin-bottom: -35px;
 	margin-top: -15px;
+
 }
 
 .thm-btn {
@@ -2802,7 +2803,8 @@ a:visited {
 }
 .become-teacher__form-content {
 	border-style: solid;
-	border-width: 2px;
+	border-width: 16px;
+	margin: 5px;
 	border-color: #f1f1f1;
 	background-color: white;
 	padding-left: 60px;
@@ -3854,7 +3856,7 @@ a:visited {
 .course-category-one {
 	padding: 120px 0;
 	padding-top: 110px;
-	background: #fff;
+	background: #6cc24a;
 }
 .course-category-one .container-fluid {
 	max-width: 1520px;
@@ -4110,6 +4112,7 @@ a:visited {
 .course-one__top-title.home-two {
 	padding-top: 120px;
 	padding-bottom: 0;
+	background-color: ffc107;
 }
 .course-one__top-title.home-two:before {
 	display: none;
@@ -6142,7 +6145,7 @@ a:visited {
 .testimonials-one__home-three {
 	border-top: 0;
 	padding-bottom: 80px;
-	background: #ffd19f;
+	background: #6cc24a;
 }
 
 /*
@@ -6509,12 +6512,12 @@ html {
 }
 
 .site-footer__bottom {
-	background-color: white !important;
+	background-color: #346E6D;
 	height: 65px;
 }
 
 .site-footer__social::before {
-	background-color: white !important;
+	background-color: #346E6D;
 }
 
 .site-footer__copy a {
@@ -6531,11 +6534,11 @@ html {
 }
 
 .header-navigation {
-	background-color: white !important;
+	background-color: #009955;
 }
 
 .header-navigation ul.navigation-box > li > a {
-	color: #ff944d !important;
+	color: #fff !important;
 	font-weight: bold;
 	font-size: 20px;
 }
@@ -6568,6 +6571,7 @@ html {
 .brand-two {
 	padding-bottom: 25px !important;
 	padding-top: 25px !important;
+	background-color: #fff;
 }
 
 .countdown-one {
@@ -6582,8 +6586,8 @@ html {
 
 .site-footer__upper {
 	padding: 16px;
-	background: #ff944d;
-	/* height: 330px; */
+	background: #009955;
+
 }
 .row {
 	margin-top: 30px;
@@ -6596,7 +6600,7 @@ html {
 
 .countdown-one__title {
 	margin: 0;
-	color: #ff944d !important;
+	color: #f8ff0e !important;
 	font-size: 2rem !important;
 	margin-top: -5px;
 	margin-left: -50px;
@@ -6795,7 +6799,7 @@ html {
 }
 
 .countdown-one__tygia {
-	color: #ff944d !important;
+	color: #f8ff0e;
 	font-size: 2rem !important;
 }
 
@@ -6806,12 +6810,13 @@ html {
 tr,
 th,
 td {
-	border: 2px #ff944d solid;
+	border: 2px #94a3ac solid;
 	color: #000;
 	text-align: center;
+	background-color: #fff;
 }
 .table-ngoaite th {
-	background-color: #f7be81;
+
 	width: 20%;
 }
 
@@ -7057,9 +7062,8 @@ span#fcta-zalo-tracking {
 	margin-left: auto;
 	margin-top: 25px;
 }
-
 .luottruycap {
-	color: #ff944d;
+	color: #f8ff0e;
 	font-weight: bold;
 	font-size: 32px;
 	text-align: center;
@@ -7068,10 +7072,10 @@ span#fcta-zalo-tracking {
 }
 .soluottruycap {
 	color: #000;
-	background-color: #f7be81;
+	background-color: #fff;
 	margin-top: 26px;
 	margin-left: 30px;
-	border: solid #ff944d;
+	border: solid #81868a;
 	text-align: center;
 	height: auto;
 	width: 280px;
@@ -7454,8 +7458,6 @@ ul#menu li a {
 }
 
 ul#menu li {
-	positon: relative;
-
 	position: relative;
 }
 
@@ -7492,4 +7494,16 @@ ul#menu li:hover ul#sub {
 	font-weight: bold;
 	color: black;
 	box-shadow: 10px 10px 5px #1d701c;
+}
+/*---- trung học----*/
+.tieudeTH {
+	text-align: center;
+	color: #C06D07;
+	font-size: 3rem;
+}
+.mucTH {
+
+	font-size: 30px;
+	color: #1c1c1c;
+	padding-top: 15px;
 }

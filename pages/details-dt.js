@@ -3,19 +3,19 @@ import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
 import Footer from '../components/Footer';
 import CallToActionTwo from '../components/CallToActionTwo';
-import Khachhang from '../components/Khachhang';
 import DTSlide from '../components/Doitac-Slide';
+import Details_dt from '../components/Details-dt';
 
-const TeachersPage = () => {
+const Detailspartner = () => {
 	return (
-		<Layout pageTitle="Tân Con Đường Vàng | Khách Hàng">
+		<Layout pageTitle="Tân Con Đường Vàng | Đối Tác">
 			<NavOne />
-			<DTSlide title="Khách Hàng" />
-			<Khachhang />
+			<DTSlide />
+			<Details_dt />
 			<CallToActionTwo />
 			<Footer />
 		</Layout>
 	);
 };
 
-export default TeachersPage;
+export default Detailspartner;

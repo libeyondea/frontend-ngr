@@ -1,4 +1,5 @@
 .course-details {
+    background-color: white !important;
     padding: 30px 0;
 }
 .row {
@@ -128,12 +129,23 @@ p.post-meta {
     color: red;
     font-size: 25px;
 }
-
+.slider__slide-contents {
+    z-index: 6;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100%; */
+    text-transform: uppercase;
+    line-height: 1;
+}
 /* CONTACT */
 .contact-info-one {
     padding-top: 50px;
 }
 .blog-one {
+    background-color: white !important;
     padding-top: 30px;
     padding-bottom: 120px;
 
