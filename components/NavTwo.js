@@ -128,7 +128,7 @@ class NavTwo extends Component {
 										</li>
 										<li>
 											<Link href="/faq">
-												<a>FAQ'S</a>
+												<a>FAQS</a>
 											</Link>
 										</li>
 									</ul>

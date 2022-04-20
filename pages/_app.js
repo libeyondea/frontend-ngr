@@ -1,11 +1,11 @@
-import '../styles/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/animate.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import '../styles/style-icon.css';
 import '../styles/style.css';
 import '../styles/daotao.scss';
 import '../styles/new.css';
-import '../styles/kh.css';                             
+import '../styles/kh.css';
 import '../styles/responsive.css';
 import '../node_modules/react-modal-video/scss/modal-video.scss';
 import 'react-slideshow-image/dist/styles.css';

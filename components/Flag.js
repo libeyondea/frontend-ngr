@@ -55,7 +55,7 @@ const Flag = () => {
 						>
 							<img src="assets/images/my.png" alt="Du học Mỹ" />
 						</a>
-						<div class="desc">
+						<div className="desc">
 							<a
 								href="https://newgoldenroad.com/chuyen-muc/
 						du-hoc-cac-nuoc/du-hoc-my/cac-truong-dai-hoc-cao-dang-my/"
@@ -72,7 +72,7 @@ const Flag = () => {
 						>
 							<img src="assets/images/canada.gif" alt="Du học Canada" />
 						</a>
-						<div class="desc">
+						<div className="desc">
 							<a
 								href="https://newgoldenroad.com/chuyen-muc/
 						du-hoc-cac-nuoc/du-hoc-canada/cac-truong-dai-hoc-cao-dang-canada/"
@@ -89,7 +89,7 @@ const Flag = () => {
 						>
 							<img src="assets/images/uc.gif" alt="Du học Úc" />
 						</a>
-						<div class="desc">
+						<div className="desc">
 							<a
 								href="https://newgoldenroad.com/chuyen-muc/
 						du-hoc-cac-nuoc/du-hoc-uc/cac-truong-dai-hoc-cao-dang-uc/"
@@ -106,7 +106,7 @@ const Flag = () => {
 						>
 							<img src="assets/images/anh.png" alt="Du học Anh" />
 						</a>
-						<div class="desc">
+						<div className="desc">
 							<a
 								href="https://newgoldenroad.com/chuyen-muc/
 							du-hoc-cac-nuoc/du-hoc-anh/cac-truong-dai-hoc-cao-dang-anh/"
@@ -124,7 +124,7 @@ const Flag = () => {
 						>
 							<img src="assets/images/newzealand.gif" alt="Du học New Zealand" />
 						</a>
-						<div class="desc">
+						<div className="desc">
 							<a
 								href="https://newgoldenroad.com/chuyen-muc/
 						du-hoc-cac-nuoc/du-hoc-new-zealand/cac-truong-dai-hoc-cao-dang-

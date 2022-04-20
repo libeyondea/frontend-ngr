@@ -8,11 +8,14 @@ const DinhCuCanada = () => {
 				<div className="row">
 					<div className="col-6">
 						<div className="dinhcu">
-							<div className='thongtin'>
+							<div className="thongtin">
 								<h5 style={{ color: 'black', marginLeft: '30px' }}> CHƯƠNG TRÌNH ĐỊNH CƯ CANADA</h5>
 								<div>
 									<a href="/ThongTinCanada" className="card-link">
-										<h5 className="card-title" style={{ color: 'black', fontSize: '15px', marginLeft: '30px' }}>
+										<h5
+											className="card-title"
+											style={{ color: 'black', fontSize: '15px', marginLeft: '30px' }}
+										>
 											<p> Thông tin nước Canada</p>
 										</h5>
 									</a>
@@ -20,16 +23,18 @@ const DinhCuCanada = () => {
 										<img
 											className="hinhca"
 											src="https://newgoldenroad.com/wp-content/uploads/2017/08/du-hoc-tan-con-duong-vang-%C4%91%E1%BB%8Bnh-c%C6%B0-canada-310x165.jpg"
+											alt=""
 										/>
 										<p className="ttca" style={{ color: 'black' }}>
 											CHƯƠNG TRÌNH ĐỊNH CƯ CANADA Canada được biết đến như một đất nước có nền kinh tế giàu
-											mạnh, nguồn tài nguyên dồi dào, được Liên Hợp Quốc xếp vào một trong những đất nước tốt
-											nhất để sinh sống với những tiêu chuẩn sống cao nhất trên thế giới: …
+											mạnh, nguồn tài nguyên dồi dào, được Liên Hợp Quốc xếp vào một trong những đất nước
+											tốt nhất để sinh sống với những tiêu chuẩn sống cao nhất trên thế giới: …
 										</p>
 
-										<a class="button" href="/#">Đọc Tiếp</a>
+										<a className="button" href="/#">
+											Đọc Tiếp
+										</a>
 									</div>
-
 								</div>
 							</div>
 						</div>

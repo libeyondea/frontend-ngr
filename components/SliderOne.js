@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Swiper from 'react-id-swiper';
+import Swiper from 'swiper';
 
 const SliderOne = () => {
 	const [swiper, setSwiper] = useState(null);

@@ -1,6 +1,5 @@
-import React from 'react';
 import Layout from '../components/Layout';
-import Footer from '../components/Footer';
+/* import Footer from '../components/Footer';
 import NavThree from '../components/NavThree';
 import SliderOne from '../components/SliderOne';
 import CourseCatThree from '../components/CourseCatThree';
@@ -11,12 +10,12 @@ import CallToActionSix from '../components/CallToActionSix';
 import TestimonialOne from '../components/TestimonialOne';
 import VideoThree from '../components/VideoThree';
 import BrandsTwo from '../components/BrandsTwo';
-import CallToActionFive from '../components/CallToActionFive';
+import CallToActionFive from '../components/CallToActionFive'; */
 
 const HomePageThree = () => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Home 3">
-			<NavThree />
+			{/* <NavThree />
 			<SliderOne />
 			<CourseCatThree />
 			<CallToActionOne />
@@ -27,7 +26,7 @@ const HomePageThree = () => {
 			<VideoThree />
 			<BrandsTwo />
 			<CallToActionFive />
-			<Footer />
+			<Footer /> */}
 		</Layout>
 	);
 };

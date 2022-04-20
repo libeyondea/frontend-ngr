@@ -1,5 +1,5 @@
 import React from 'react';
-import Swiper from 'react-id-swiper';
+import Swiper from 'swiper';
 
 const BrandsTwo = () => {
 	const params = {
@@ -30,42 +30,42 @@ const BrandsTwo = () => {
 	};
 
 	return (
-		<section className='brand-two '>
-			<div className='container'>
-				<div className='block-title'>
-					<h2 className='block-title__title'>Our company & partners</h2>
+		<section className="brand-two ">
+			<div className="container">
+				<div className="block-title">
+					<h2 className="block-title__title">Our company & partners</h2>
 				</div>
-				<div className='brand-one__carousel'>
-					<Swiper {...params}>
-						<div className='item'>
-							<img src='assets/images/brand-1-1.png' alt='' />
+				<div className="brand-one__carousel">
+					<Swiper>
+						<div className="item">
+							<img src="assets/images/brand-1-1.png" alt="" />
 						</div>
-						<div className='item'>
-							<img src='assets/images/brand-1-1.png' alt='' />
+						<div className="item">
+							<img src="assets/images/brand-1-1.png" alt="" />
 						</div>
-						<div className='item'>
-							<img src='assets/images/brand-1-1.png' alt='' />
+						<div className="item">
+							<img src="assets/images/brand-1-1.png" alt="" />
 						</div>
-						<div className='item'>
-							<img src='assets/images/brand-1-1.png' alt='' />
+						<div className="item">
+							<img src="assets/images/brand-1-1.png" alt="" />
 						</div>
-						<div className='item'>
-							<img src='assets/images/brand-1-1.png' alt='' />
+						<div className="item">
+							<img src="assets/images/brand-1-1.png" alt="" />
 						</div>
-						<div className='item'>
-							<img src='assets/images/brand-1-1.png' alt='' />
+						<div className="item">
+							<img src="assets/images/brand-1-1.png" alt="" />
 						</div>
-						<div className='item'>
-							<img src='assets/images/brand-1-1.png' alt='' />
+						<div className="item">
+							<img src="assets/images/brand-1-1.png" alt="" />
 						</div>
-						<div className='item'>
-							<img src='assets/images/brand-1-1.png' alt='' />
+						<div className="item">
+							<img src="assets/images/brand-1-1.png" alt="" />
 						</div>
-						<div className='item'>
-							<img src='assets/images/brand-1-1.png' alt='' />
+						<div className="item">
+							<img src="assets/images/brand-1-1.png" alt="" />
 						</div>
-						<div className='item'>
-							<img src='assets/images/brand-1-1.png' alt='' />
+						<div className="item">
+							<img src="assets/images/brand-1-1.png" alt="" />
 						</div>
 					</Swiper>
 				</div>
