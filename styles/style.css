@@ -2773,7 +2773,6 @@ a:visited {
 	content: '';
 	width: 197px;
 	height: 268px;
-	/* background-image: url(../images/tintuc.jpg); */
 	position: absolute;
 	bottom: -11%;
 	left: 87%;
@@ -3708,6 +3707,19 @@ a:visited {
 	font-size: 16px;
 }
 
+.course-details__listt {
+	border-style: solid;
+    border-width: 16px;
+    margin-left: 93px;
+	margin-right: 5px;
+    border-color: #f1f1f1;
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+	position: relative;
+}
 .course-details__list {
 	border-style: solid;
 	border-width: 2px;
@@ -7495,6 +7507,163 @@ ul#menu li:hover ul#sub {
 	color: black;
 	box-shadow: 10px 10px 5px #1d701c;
 }
+/*----Chi tiết trường---*/
+.noidung{
+	margin-left: 100px;
+	text-align: justify;
+	color: #000;
+}
+.share-post {
+    margin: 10px 10px 0px;
+	width:100%;
+
+}
+.share-textt{
+	margin: -8px 30px -10px 60px;
+    display: block;
+    float: left;
+    color: #FFF;
+    font-size: 14pt;
+    height: 50px;
+    line-height: 50px;
+	background-color: #ff944d;
+	text-align: center;
+	width: 150px;
+}
+.mini-share-post {
+	clear: both;
+	margin: 10px -24px -20px;
+	padding: 10px 10px 10px 25px;
+	height: 20px;
+}
+
+.mini-share-post .share-text,
+.entry .share-post .share-text {
+	display: none;
+}
+.entry .share-post {
+	margin: 0 0 15px;
+	background: transparent;
+	border: 0 none;
+	height: auto;
+	padding: 0;
+}
+
+.entry .share-post li,
+.entry .share-post ul {
+	list-style: none;
+	margin: 0;
+}
+
+.recent-box .mini-share-post {
+	margin-bottom: -5px;
+}
+
+.share-post li,
+.mini-share-post li {
+	float: left;
+	width: 106px;
+}
+
+.entry .share-post li iframe,
+.share-post li iframe,
+.mini-share-post li iframe {
+	max-width: none !important;
+}
+
+.share-post span.share-text {
+	background: #FF8500;
+}
+
+.share-post .flat-social a {
+	text-decoration: none !important;
+}
+
+/* Flat Share Buttons */
+
+.flat-social li {
+	width: auto !important;
+}
+
+.flat-social a {
+	padding: 10px 12px;
+	margin: 0 25px 2px 0;
+	display: inline-block;
+	line-height: 14px;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+			border-radius: 2px;
+	color: white !important;
+}
+
+.flat-social a i {
+	margin-right: 3px;
+	color: white !important;
+}
+
+.flat-social a:hover {
+	background: #444;
+}
+.social-facebook {
+	background: #3B5998;
+  }
+  
+  .social-twitter {
+	background: #55ACEE;
+  }
+  
+  .social-google-plus {
+	background: #dd4b39;
+  }
+  
+  .social-linkedin {
+	background: #007bb5;
+  }
+  
+  .social-youtube {
+	background: #bb0000;
+  }
+  
+  .social-instagram {
+	background: #125688;
+  }
+  
+  .social-pinterest {
+	background: #cb2027;
+  }
+  .social-stumble{
+	background: #cb2027;
+  }
+  .fa fa-facebook {
+	background: #3B5998;
+  }
+  
+  .fa fa-twitter {
+	background: #55ACEE;
+  }
+  
+  .fa fa-google-plus {
+	background: #dd4b39;
+  }
+  
+  .fa fa-linkedin {
+	background: #007bb5;
+  }
+  
+  .fa fa-youtube {
+	background: #bb0000;
+  }
+  
+  .fa fa-instagram {
+	background: #125688;
+  }
+  
+  .fa fa-pinterest {
+	background: #cb2027;
+  }
+  .fa fa-stumbleupon{
+	background: #cb2027;
+  }
 /*---- trung học----*/
 .tieudeTH {
 	text-align: center;
