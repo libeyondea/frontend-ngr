@@ -16,7 +16,7 @@ const Doitac = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
+									<Link href="/details-dt">
 										<a className="tenkh">Justin Siena High School</a>
 									</Link>
 								</h2>
@@ -46,7 +46,7 @@ const Doitac = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
+									<Link href="/details-dt">
 										<a>St Patrick - St Vincent High School</a>
 									</Link>
 								</h2>
@@ -76,7 +76,7 @@ const Doitac = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
+									<Link href="/details-dt">
 										<a>Bishop Montgomery High School</a>
 									</Link>
 								</h2>
@@ -106,7 +106,7 @@ const Doitac = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
+									<Link href="/details-dt">
 										<a>Mater Dei Catholic High School</a>
 									</Link>
 								</h2>
@@ -136,7 +136,7 @@ const Doitac = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
+									<Link href="/details-dt">
 										<a>Cretin-Derham Hall High School</a>
 									</Link>
 								</h2>
@@ -166,7 +166,7 @@ const Doitac = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
+									<Link href="/details-dt">
 										<a>Carmel Catholic High School</a>
 									</Link>
 								</h2>
@@ -196,7 +196,7 @@ const Doitac = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
+									<Link href="/details-dt">
 										<a>Red Bank Catholic High School</a>
 									</Link>
 								</h2>
@@ -226,7 +226,7 @@ const Doitac = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
+									<Link href="/details-dt">
 										<a>St Pius X High School</a>
 									</Link>
 								</h2>

@@ -239,3 +239,6 @@ h3.titles-com:before {
 .team-details {
     background-color: yellow !important;
 }
+img {
+    vertical-align: initial;
+}

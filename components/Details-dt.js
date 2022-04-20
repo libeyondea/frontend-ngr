@@ -63,7 +63,11 @@ const Details_dt = () => {
 						<div className="col-lg-6">
 							<div className="team-one__single">
 								<div className="team-one__image">
-									<img src="/assets/images/team-d-1.jpg" alt="" />
+									<img
+										src="/assets/images/DoiTac/amerigo-napa-valley.jpg"
+										alt=""
+										style={{ width: '685px', height: '505px' }}
+									/>
 								</div>
 								<div className="team-one__content">
 									<h2 className="team-one__name">
