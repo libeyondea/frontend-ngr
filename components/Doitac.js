@@ -12,16 +12,16 @@ const Doitac = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img className="img-kh" src="/assets/images/KH_NGR/kh7.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/Doitac/dt1.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a className="tenkh">Đan Vy</a>
+										<a className="tenkh">Justin Siena High School</a>
 									</Link>
 								</h2>
-								<p className="team-one__designation">Khách hàng</p>
-								<p className="team-one__text">Đang học James Cook University tại Brisbane, Úc.</p>
+								<p className="team-one__designation">Đối Tác</p>
+								<p className="team-one__text">Justin Siena High School.</p>
 							</div>
 							<div className="team-one__social">
 								<a href="#">
@@ -42,16 +42,16 @@ const Doitac = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img className="img-kh" src="/assets/images/KH_NGR/kh8.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/Doitac/Vincent-school.png" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a>Ngân Nguyễn</a>
+										<a>St Patrick - St Vincent High School</a>
 									</Link>
 								</h2>
-								<p className="team-one__designation">Khách hàng</p>
-								<p className="team-one__text">Đang học Đại Học Le Cordon Bleu tại Adelaide, Úc.</p>
+								<p className="team-one__designation">Đối Tác</p>
+								<p className="team-one__text">St Patrick - St Vincent High School.</p>
 							</div>
 							<div className="team-one__social">
 								<a href="#">
@@ -72,16 +72,16 @@ const Doitac = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img className="img-kh" src="/assets/images/KH_NGR/kh9.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/Doitac/bishop-montgomery.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a>Linda Đặng</a>
+										<a>Bishop Montgomery High School</a>
 									</Link>
 								</h2>
-								<p className="team-one__designation">Khách hàng</p>
-								<p className="team-one__text">There are many varia of passages of lorem.</p>
+								<p className="team-one__designation">Đối Tác</p>
+								<p className="team-one__text">Bishop Montgomery High School.</p>
 							</div>
 							<div className="team-one__social">
 								<a href="#">
@@ -102,18 +102,16 @@ const Doitac = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img className="img-kh" src="/assets/images/KH_NGR/kh10.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/Doitac/mater-dei.jpeg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a>Giang Nguyễn</a>
+										<a>Mater Dei Catholic High School</a>
 									</Link>
 								</h2>
-								<p className="team-one__designation">Khách hàng</p>
-								<p className="team-one__text">
-									Đã tốt nghiệp Đại Học Le Cordon Bleu hiện đang sống tại Sydney, Úc.
-								</p>
+								<p className="team-one__designation">Đối Tác</p>
+								<p className="team-one__text">Mater Dei Catholic High School.</p>
 							</div>
 							<div className="team-one__social">
 								<a href="#">
@@ -134,18 +132,16 @@ const Doitac = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img className="img-kh" src="/assets/images/KH_NGR/kh11.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/Doitac/cretin-derham.webp" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a>Jessy Huỳnh</a>
+										<a>Cretin-Derham Hall High School</a>
 									</Link>
 								</h2>
-								<p className="team-one__designation">Khách hàng</p>
-								<p className="team-one__text">
-									Đã tốt nghiệp Đại Học Le Cordon Bleu hiện đang làm việc và sinh sống tại Sydney, Úc.
-								</p>
+								<p className="team-one__designation">Đối Tác</p>
+								<p className="team-one__text">Cretin-Derham Hall High Schoo.</p>
 							</div>
 							<div className="team-one__social">
 								<a href="#">
@@ -166,18 +162,16 @@ const Doitac = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img className="img-kh" src="/assets/images/KH_NGR/kh12.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/Doitac/carmel-catholic-highschool.webp" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a>Tân Huỳnh</a>
+										<a>Carmel Catholic High School</a>
 									</Link>
 								</h2>
-								<p className="team-one__designation">Khách hàng</p>
-								<p className="team-one__text">
-									Đã tốt nghiệp Deakin University tại Melbourne hiện đang sinh sống tại Canberra, Úc.
-								</p>
+								<p className="team-one__designation">Đối Tác</p>
+								<p className="team-one__text">Carmel Catholic High School.</p>
 							</div>
 							<div className="team-one__social">
 								<a href="#">
@@ -198,18 +192,16 @@ const Doitac = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img className="img-kh" src="/assets/images/KH_NGR/kh13.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/Doitac/red-bank-catholic.webp" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a>Vy Nguyễn</a>
+										<a>Red Bank Catholic High School</a>
 									</Link>
 								</h2>
-								<p className="team-one__designation">Khách Hàng</p>
-								<p className="team-one__text">
-									Hiện đang học lớp 10 trường Forest Lawn High School tại Calgary, Canad.
-								</p>
+								<p className="team-one__designation">Đối Tác</p>
+								<p className="team-one__text">Red Bank Catholic High School.</p>
 							</div>
 							<div className="team-one__social">
 								<a href="#">
@@ -230,16 +222,16 @@ const Doitac = () => {
 					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
-								<img className="img-kh" src="/assets/images/KH_NGR/kh14.jpg" alt="" />
+								<img className="img-kh" src="/assets/images/Doitac/st-pius.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
 									<Link href="/teacher-details">
-										<a>Đỗ Thị Kim Nhi</a>
+										<a>St Pius X High School</a>
 									</Link>
 								</h2>
-								<p className="team-one__designation">Khách Hàng</p>
-								<p className="team-one__text">đã tốt nghiệp trường Woodcroft College tại Adelaide, Úc.</p>
+								<p className="team-one__designation">Đối Tác</p>
+								<p className="team-one__text">St Pius X High School.</p>
 							</div>
 							<div className="team-one__social">
 								<a href="#">
