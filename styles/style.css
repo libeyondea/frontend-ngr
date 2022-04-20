@@ -7507,6 +7507,66 @@ ul#menu li:hover ul#sub {
 	color: black;
 	box-shadow: 10px 10px 5px #1d701c;
 }
+
+
+
+/* đinhcu*/
+.nuocDC{
+	color: #f8ff0e;
+	margin-top: -70px;
+	margin-bottom: 30px;
+}
+
+.dinhcu{
+	border: 3px solid #94a2ab;
+	margin-right: 600px;
+	margin-top: 3px;
+	width: 740px;
+	height: 360px;
+
+}
+.thongtin{
+	margin-top: 30px;
+}
+.ttca{
+	float: right;
+	width: 47%;
+}
+
+.hinhca{
+	float: left;
+	width: 50%;
+}
+.button {
+  background-color: #58257b; /* Màu của Quản trị mạng ^^ */
+  border: none;
+  color: #fff !important;
+  padding: 1px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 500px;
+  margin-top: -5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 4px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover {
+	background-color: crimson;
+	color: white;
+  }
+  .button:active {
+
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
+
+
 /*----Chi tiết trường---*/
 .noidung{
 	margin-left: 100px;
@@ -7607,27 +7667,27 @@ ul#menu li:hover ul#sub {
 .social-facebook {
 	background: #3B5998;
   }
-  
+
   .social-twitter {
 	background: #55ACEE;
   }
-  
+
   .social-google-plus {
 	background: #dd4b39;
   }
-  
+
   .social-linkedin {
 	background: #007bb5;
   }
-  
+
   .social-youtube {
 	background: #bb0000;
   }
-  
+
   .social-instagram {
 	background: #125688;
   }
-  
+
   .social-pinterest {
 	background: #cb2027;
   }
@@ -7637,27 +7697,27 @@ ul#menu li:hover ul#sub {
   .fa fa-facebook {
 	background: #3B5998;
   }
-  
+
   .fa fa-twitter {
 	background: #55ACEE;
   }
-  
+
   .fa fa-google-plus {
 	background: #dd4b39;
   }
-  
+
   .fa fa-linkedin {
 	background: #007bb5;
   }
-  
+
   .fa fa-youtube {
 	background: #bb0000;
   }
-  
+
   .fa fa-instagram {
 	background: #125688;
   }
-  
+
   .fa fa-pinterest {
 	background: #cb2027;
   }
@@ -7679,3 +7739,4 @@ ul#menu li:hover ul#sub {
 .noidungTH{
 	margin: 20px;
 }
+
