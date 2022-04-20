@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Image from './Image';
 const Trunghoc_details = () => {
 	return (
-		<div>
+		<div className="THdetails">
 			<section className="inner-banner-THCA">
 				<div className="container">
 						<h2 className="inner-banner-THCA__title">
@@ -155,6 +155,7 @@ const Trunghoc_details = () => {
 							<li className="list"> Chi phí ăn ở: $16,000/năm</li>
 							</ul>
 							</div>
+
 				</div>
 				</div>
 				<div className="col-lg-4">
@@ -282,20 +283,6 @@ const Trunghoc_details = () => {
 						</div>
 					</div>
 				</div>
-			</div>
-			<div className="post-pagination">
-				<a href="#">
-					<i className="fa fa-angle-double-left" />
-				</a>
-				<a className="active" href="#">
-					1
-				</a>
-				<a href="#">2</a>
-				<a href="#">3</a>
-				<a href="#">4</a>
-				<a href="#">
-					<i className="fa fa-angle-double-right" />
-				</a>
 			</div>
 		</div>
 	);

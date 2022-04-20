@@ -478,7 +478,7 @@ const TuyenDungDetails = () => {
 							<form action="#" metdod="POST" className="become-teacher__form-content contact-form-validated">
 								<input type="text" placeholder="Họ và Tên" name="name" />
 								<input type="text" placeholder=" Địa chỉ Email" name="email" />
-								<input type="text" placeholder="Số điện tdoại" name="phone" />
+								<input type="text" placeholder="Số điện thoại" name="phone" />
 								<input type="text" placeholder="Lời nhắn" name="message" />
 								<button type="submit" className="tdm-btn become-teacher__form-btn">
 									ĐĂNG KÝ
