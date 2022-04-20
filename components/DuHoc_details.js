@@ -51,9 +51,10 @@ const DuHoc_details = () => {
 				&nbsp;&nbsp;
 				<span className="current">[Các Trường Đại Học Và Cao Đẳng Canada]</span>
 			</div>
-			<h3>MỘT SỐ THÔNG TIN BẠN CẦN BIẾT VỀ ALBERTA UNIVERSITY</h3>
+			
 			<div className="row">
 				<div className="col-lg-8">
+                <h3 style={{color:'#ff944d', textAglin:'center', fontSize:'35px', textAlign:'center', fontWeight:'bold',marginTop: '8px',marginLeft: '75px'}}>MỘT SỐ THÔNG TIN BẠN CẦN BIẾT <br/>VỀ ALBERTA UNIVERSITY</h3>
 					<div className="noidung">
 						<p>
 							Alberta University là một trường nghiên cứu công lập. Toạ lạc tại thị trấn Edmonton, tỉnh Alberta,
@@ -62,6 +63,7 @@ const DuHoc_details = () => {
 							hàng đầu ở Canada về chất lượng giảng dạy và cơ sở vật chất. Đây cũng là ngôi nhà chung của hơn 33 000
 							sinh viên. Trong đó hơn 8000 sinh viên quốc tế đến từ 146 quốc gia trên thế giới.
 						</p>
+                        <img src="assets/images/TruongHoc/ALBER1.jpg" alt="Alberta University" width={'900px'}/>
 						<h3>Giới thiệu chung</h3>
 						<p>
 							<ul>
@@ -80,6 +82,7 @@ const DuHoc_details = () => {
 									dục, cơ khí, khoa học, Luật, Y khoa, Ngôn ngữ, Thực Phẩm, Nghệ thuật,..
 								</li>
 							</ul>
+                            <img src="assets/images/TruongHoc/ALBER2.jpg" alt="Alberta University" width={'900px'}/>
 						</p>
 						<h3>Chương trình đào tạo</h3>
 						<p>
@@ -100,6 +103,7 @@ const DuHoc_details = () => {
 							<ul>&#10147; Điều dưỡng</ul>
 							<ul>&#10147; Khoa học, tâm lý học, sinh học, hóa học…</ul>
 						</ol>
+                        <img src="assets/images/TruongHoc/ALBER3.png" alt="Alberta University" width={'900px'}/>
 						<h3>Cơ sở vật chất</h3>
 						<p>
 							Tọa lạc thành phố Edmonton, là thành phố giàu có thứ 2 tại Alberta, nền kinh tế địa phương rất phát
@@ -109,7 +113,7 @@ const DuHoc_details = () => {
 							Hơn 100 các học viện và trung tâm nhằm đáp ứng đầy đủ yêu cầu học tập của sinh viên. Ngoài ra trường
 							còn nhiều hệ thống phòng nghiên cứu, thí nghiệm, thư viện đến phòng tập gym, các trung tâm thể hình.
 						</p>
-
+                        <img src="assets/images/TruongHoc/ALBER4.png" alt="Alberta University" width={'900px'} />
 						<h3>Học phí:</h3>
 
 						<ol>
