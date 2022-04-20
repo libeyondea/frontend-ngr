@@ -235,3 +235,10 @@ h3.titles-com:before {
     text-align: center;
     display: inline-block;
 }
+/* doi tac */
+.team-details {
+    background-color: yellow !important;
+}
+img {
+    vertical-align: initial;
+}

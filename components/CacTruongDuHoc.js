@@ -61,12 +61,10 @@ const CacTruongDuHoc = () => {
 				<div className="col">
 					<div className="card-school h-100">
 						<img src="assets/images/TruongHoc/ALBER.png" className="card-img-top" alt="Trường Alberta University" />
-						<div className="card-body">
-							<a href="#" className="card-link">
-								<h5 className="card-title" style={{ color: 'black' }}>
-									Trường Alberta University
-								</h5>
-							</a>
+						<div className="card-body">							
+							<a href="/DuHocCanada-details">
+								<h5 className="card-title" style={{ color: 'black' }}>Trường Alberta University</h5>	
+							</a>					
 						</div>
 					</div>
 				</div>

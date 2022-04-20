@@ -1,22 +1,12 @@
 import React, { useState } from 'react';
 import Image from './Image';
-const CacTruongDuHocCacNuoc = () => {
+const Visa = () => {
 	return (
 		<div>
 			<section className="inner-banner-THCA">
-				<div className="container">
-								
-						<ul className="list-unstyled thm-breadcrumb">
-							<li>
-								<a href="/">Trang Chủ</a>
-							</li>
-							<li className="active">
-								<a href="#">Các Trường Đại Học Và Cao Đẳng</a>
-							</li>
-						</ul>
+				<div className="container">		
 						<h2 className="inner-banner-THCA__title">
-							Các Trường Đại Học <br />
-							Và Cao Đẳng Các Nước
+							VISA CANADA
 						</h2>
 					</div>
 			
@@ -48,7 +38,7 @@ const CacTruongDuHocCacNuoc = () => {
 						&nbsp;&nbsp;
 						<span typeof="v:Breadcrumb">
 							<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
-								Du Học Canada
+								Visa Canada
 							</a>
 						</span>
 						&nbsp;&nbsp;
@@ -59,78 +49,10 @@ const CacTruongDuHocCacNuoc = () => {
 						</span>
 				</div>
 			<h3 className="title-comm">
-				<span className="title-holder">MỘT SỐ TRƯỜNG ĐẠI HỌC &amp; CAO ĐẲNG TIÊU BIỂU</span>
+				<span className="title-holder">VISA </span>
 			</h3>
 			<div className="row">
 				<div className="col-lg-8">
-					<div className="card-TH">
-						<div className="card-header">
-							<p className="card-header-TH">
-								Trường Southern Alberta Institute of Technology (SAIT) – Du học Canada – Du học Tân Con Đường Vàng
-							</p>
-						</div>
-						<div className="card-body" style={{ lineHeight: '24px' }}>
-							<p className="img-card-TH">
-								<img
-									src="/assets/images/TruongHoc/SAIT.png"
-									alt="Trường Southern Alberta Institute of Technology (SAIT)"
-								/>
-							</p>
-							<h5 className="card-title-TH">Trường Southern Alberta Institute of Technology (SAIT)</h5>
-							<p className="card-text-TH">
-								SASKATCHEWAN POLYTECHNIC Saskatchewan Polytechnic được thành lập vào năm 1941 tọa lạc tại
-								Saskatchewan – nơi được ví von là “Land of Living Skies” của Canada. Cùng với 12 cơ sở nghiên cứu
-								chuyên sâu, Saskatchewan Polytechnic còn là thành viên của Nhóm các trường bách khoa Canada
-								(Polytechnics Canada) …
-							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
-						</div>
-					</div>
-					<div className="card-TH">
-						<div className="card-header">
-							<p className="card-header-TH">
-								Trường Saskatchewan Polytechnic – Du học Canada – Du học Tân Con Đường Vàng
-							</p>
-						</div>
-						<div className="card-body" style={{ lineHeight: '24px' }}>
-							<p className="img-card-TH">
-								<img src="/assets/images/TruongHoc/SASK.png" alt="Trường Saskatchewan Polytechnic" />
-							</p>
-							<h5 className="card-title-TH">Trường Saskatchewan Polytechnic</h5>
-							<p className="card-text-TH">
-								SASKATCHEWAN POLYTECHNIC Saskatchewan Polytechnic được thành lập vào năm 1941 tọa lạc tại
-								Saskatchewan – nơi được ví von là “Land of Living Skies” của Canada. Cùng với 12 cơ sở nghiên cứu
-								chuyên sâu, Saskatchewan Polytechnic còn là thành viên của Nhóm các trường bách khoa Canada
-								(Polytechnics Canada) …
-							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
-						</div>
-					</div>
-					<div className="card-TH">
-						<div className="card-header">
-							<p className="card-header-TH">
-								Trường British Columbia University – Du học Canada – Du học Tân Con Đường Vàng
-							</p>
-						</div>
-						<div className="card-body" style={{ lineHeight: '24px' }}>
-							<p className="img-card-TH">
-								<img src="/assets/images/TruongHoc/BRITI.png" alt="Trường British Columbia University" />
-							</p>
-							<h5 className="card-title-TH">Trường British Columbia University</h5>
-							<p className="card-text-TH">
-								BRITISH COLUMBIA UNIVERSITY British Columbia – ngôi trường của những giải Nobel và những người nổi
-								tiếng. Nếu Mỹ có Đại học Havard, Anh có Đại học Oxford thì Canada có Đại học British Columbia. Du
-								học, ai cũng mong được sở hữu tấm bằng của những trường danh tiếng. …
-							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
-						</div>
-					</div>
 					<div className="card-TH">
 						<div className="card-header">
 							<p className="card-header-TH">
@@ -288,7 +210,7 @@ const CacTruongDuHocCacNuoc = () => {
 						</form>
 						<div className="result text-center"></div>
 					</div>
-					<div className="course-details__listt">
+					<div className="course-details__list">
 						<h2 className="course-details__list-title">New Courses</h2>
 						<div className="course-details__list-item">
 							<div className="course-details__list-img">
@@ -415,4 +337,4 @@ const CacTruongDuHocCacNuoc = () => {
 		</div>
 	);
 };
-export default CacTruongDuHocCacNuoc;
+export default Visa;
