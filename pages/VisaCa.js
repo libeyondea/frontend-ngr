@@ -3,18 +3,16 @@ import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
-import TeachersDetails from '../components/TeachersDetails';
+import Visa from "../components/Visa";
 
-
-const TeachersDetailsPage = () => {
+const VisaCa = () => {
     return (
-        <Layout pageTitle="Tân Con Đường Vàng | Teachers Details">
+        <Layout pageTitle="Tân Con Đường Vàng | Visa Canada">
             <NavOne />
-            <PageHeader title="Teachers Details" />
-            <TeachersDetails />
+            <Visa />
             <Footer />
         </Layout>
     );
 };
 
-export default TeachersDetailsPage;
+export default VisaCa;

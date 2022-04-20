@@ -79,7 +79,7 @@ a:visited {
 }
 .block-title__title {
 	margin: 0;
-	color: #fff;
+	color: #000;
 	font-size: 60px;
 	font-weight: bold;
 	padding-top: 20px;
@@ -2803,7 +2803,8 @@ a:visited {
 }
 .become-teacher__form-content {
 	border-style: solid;
-	border-width: 2px;
+	border-width: 16px;
+	margin: 5px;
 	border-color: #f1f1f1;
 	background-color: white;
 	padding-left: 60px;
@@ -7228,7 +7229,7 @@ span#fcta-zalo-tracking {
 	width: 360px;
 	height: 423px;
 	box-shadow: -5px 5px 4px #1c1c1c;
-/* 	border-radius: 20px; */
+	border-radius: 18px;
 	opacity: 100%;
 	/* 	visibility: hidden; */
 }
@@ -7246,13 +7247,23 @@ span#fcta-zalo-tracking {
 	height: 50px;
 	float: left;
 	margin-top: 5px;
+	margin-left: 10px;
 }
 .chuamucchat {
 	width: 100%;
 	height: 70px;
 	border-bottom: 1px solid #d9d8d8;
 }
+.chuamucchat-cuoi {
+	width: 100%;
+	height: 70px;
+	border-radius: 0 0 18px 18px;
+}
 .chuamucchat:hover {
+	background-color: #ff944d;
+	cursor: pointer;
+}
+.chuamucchat-cuoi:hover {
 	background-color: #ff944d;
 	cursor: pointer;
 }
@@ -7274,7 +7285,7 @@ span#fcta-zalo-tracking {
 	width: 100%;
 	height: 75px;
 	background-color: #0068ff80;
-	/* border-radius: 18px 18px 0px 0px; */
+	border-radius: 18px 18px 0px 0px;
 	padding-top: 1px;
 }
 .za-chat__head-box {
@@ -7447,8 +7458,6 @@ ul#menu li a {
 }
 
 ul#menu li {
-	positon: relative;
-
 	position: relative;
 }
 
@@ -7643,3 +7652,18 @@ ul#menu li:hover ul#sub {
   .fa fa-stumbleupon{
 	background: #cb2027;
   }
+/*---- trung học----*/
+.tieudeTH {
+	text-align: center;
+	color: #C06D07;
+	font-size: 3rem;
+}
+.mucTH {
+
+	font-size: 30px;
+	color: #1c1c1c;
+	padding-top: 15px;
+}
+.THdetails{
+	border-color: black;
+}
