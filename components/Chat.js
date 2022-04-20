@@ -62,7 +62,7 @@ const Chat = () => {
 						</a>
 					</div>
 					<div className="chuamucchat">
-						<a href="https://m.me/ngr.duhoc">
+						<a href="skype:newgoldenroad2014?chat">
 							{' '}
 							<img src="/assets/images/chat/sky_icon.png" alt="zalo_icon" className="icon_chat" />
 							<div className="chua-muctext">
@@ -79,7 +79,7 @@ const Chat = () => {
 							</div>
 						</a>
 					</div>
-					<div className="chuamucchat">
+					<div className="chuamucchat-cuoi">
 						<a href="https://m.me/ngr.duhoc">
 							{' '}
 							<img src="/assets/images/chat/hotline_icon.png" alt="zalo_icon" className="icon_chat" />

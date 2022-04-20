@@ -3,7 +3,8 @@ import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
-import TeachersDetails from "../components/TeachersDetails";
+import TeachersDetails from '../components/TeachersDetails';
+
 
 const TeachersDetailsPage = () => {
     return (
