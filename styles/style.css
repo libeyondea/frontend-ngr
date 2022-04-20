@@ -3728,8 +3728,8 @@ a:visited {
 }
 .course-details__list-title {
 	margin: 0;
-	color: #012237;
-	font-size: 20px;
+	color: #ff944d;
+    font-size: 25px;
 	font-weight: 600;
 	margin-bottom: 30px;
 }
@@ -7667,8 +7667,8 @@ ul#menu li:hover ul#sub {
 /*---- trung học----*/
 .tieudeTH {
 	text-align: center;
-	color: #C06D07;
-	font-size: 3rem;
+	color: #ff944d ;
+	font-size: 2.5rem;
 }
 .mucTH {
 
@@ -7676,6 +7676,6 @@ ul#menu li:hover ul#sub {
 	color: #1c1c1c;
 	padding-top: 15px;
 }
-.THdetails{
-	border-color: black;
+.noidungTH{
+	margin: 20px;
 }
