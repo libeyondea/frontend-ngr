@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from './Image';
+import useSWR from 'swr';
 
 const NavOne = () => {
 	const [sticky, setsticky] = useState(false);
 	const [showBtn, setshowBtn] = useState(false);
+
+	const { data: listCategory } = useSWR(`/categories`, {
+		revalidateOnFocus: false
+	});
 
 	useEffect(() => {
 		window.addEventListener('scroll', handleScroll);

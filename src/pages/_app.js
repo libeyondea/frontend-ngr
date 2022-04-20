@@ -7,10 +7,12 @@ import '../styles/daotao.scss';
 import '../styles/new.css';
 import '../styles/kh.css';
 import '../styles/responsive.css';
-import '../node_modules/react-modal-video/scss/modal-video.scss';
+import 'react-modal-video/scss/modal-video.scss';
 import 'react-slideshow-image/dist/styles.css';
 import '../styles/banner.scss';
 import Head from 'next/head';
+import { SWRConfig } from 'swr';
+import fetcher from '../utils/fetcher';
 
 function MyApp({ Component, pageProps }) {
 	return (
@@ -18,7 +20,18 @@ function MyApp({ Component, pageProps }) {
 			<Head>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			</Head>
-			<Component {...pageProps} />
+			<SWRConfig
+				value={{
+					fetcher: fetcher,
+					onError: (error, key) => {
+						console.log(error, key);
+						return error.response;
+					},
+					shouldRetryOnError: false
+				}}
+			>
+				<Component {...pageProps} />
+			</SWRConfig>
 		</>
 	);
 }

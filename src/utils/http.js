@@ -1,13 +1,12 @@
 import axios from 'axios';
-import config from 'config';
 
 const instance = axios.create({
-	baseURL: config.API.URL.API_URL,
+	baseURL: process.env.NEXT_PUBLIC_API_URL,
 	headers: {
 		Accept: 'application/json',
 		'Content-Type': 'application/json'
 	},
-	timeout: config.REQUEST.TIMEOUT
+	timeout: process.env.NEXT_PUBLIC_REQUEST_TIMEOUT
 });
 
 instance.interceptors.request.use(
@@ -51,7 +50,7 @@ const http = {
 			}
 		});
 	},
-	put: ({ baseURL, ur, data, token }) => {
+	put: ({ baseURL, url, data, token }) => {
 		return instance.request({
 			baseURL: baseURL,
 			method: 'PUT',
