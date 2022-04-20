@@ -288,7 +288,7 @@ const CacTruongDuHocCacNuoc = () => {
 						</form>
 						<div className="result text-center"></div>
 					</div>
-					<div className="course-details__list">
+					<div className="course-details__listt">
 						<h2 className="course-details__list-title">New Courses</h2>
 						<div className="course-details__list-item">
 							<div className="course-details__list-img">

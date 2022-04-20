@@ -2773,7 +2773,6 @@ a:visited {
 	content: '';
 	width: 197px;
 	height: 268px;
-	/* background-image: url(../images/tintuc.jpg); */
 	position: absolute;
 	bottom: -11%;
 	left: 87%;
@@ -3708,6 +3707,19 @@ a:visited {
 	font-size: 16px;
 }
 
+.course-details__listt {
+	border-style: solid;
+    border-width: 16px;
+    margin-left: 93px;
+	margin-right: 5px;
+    border-color: #f1f1f1;
+    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+	position: relative;
+}
 .course-details__list {
 	border-style: solid;
 	border-width: 2px;
