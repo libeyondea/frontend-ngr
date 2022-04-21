@@ -13,7 +13,7 @@ const DinhCuBritish = () => {
 							<a href="#">Chi Tiết Về Trường</a>
 						</li>
 					</ul>
-					<h2 className="inner-banner-THCA__title">CHƯƠNG TRÌNH CANADA – TỈNH BANG BRITISH COLUMBIA (B.C)</h2>
+					<h2 className="inner-banner-THCA__title">CHƯƠNG TRÌNH CANADA</h2>
 				</div>
 			</section>
 			<div id="breaking-news" className="breaking-school" style={{ color: 'color: #E4EAE3' }}>
@@ -65,105 +65,101 @@ const DinhCuBritish = () => {
 							marginLeft: '75px'
 						}}
 					>
-						MỘT SỐ THÔNG TIN BẠN CẦN BIẾT <br />
-						VỀ ALBERTA UNIVERSITY
+						CHƯƠNG TRÌNH CANADA – TỈNH BANG BRITISH COLUMBIA(B.C)
 					</h3>
 					<div className="noidung">
-						<p>
-							Alberta University là một trường nghiên cứu công lập. Toạ lạc tại thị trấn Edmonton, tỉnh Alberta,
-							Canada. Nằm phía Tây Canada, giáp liền với British Columbia và Saskatchewan. Đây được coi là một trong
-							những vùng có mức sống cao nhất tại Canada. Alberta Univeristy là một trong số những trường đại học
-							hàng đầu ở Canada về chất lượng giảng dạy và cơ sở vật chất. Đây cũng là ngôi nhà chung của hơn 33 000
-							sinh viên. Trong đó hơn 8000 sinh viên quốc tế đến từ 146 quốc gia trên thế giới.
-						</p>
-						<p><img src="assets/images/TruongHoc/ALBER1.jpg" alt="Alberta University" width={'900px'} /></p>
-						<h3>Giới thiệu chung</h3>
-						<p>
-							<ul>
-								<li>
-									💥 Nằm tại thành phố Edmonton, thủ phủ tỉnh bang Alberta. Đại học Alberta hiện phục vụ đào tạo
-									hơn 33.000 sinh viên với hơn 200 chương trình cử nhân và 170 chương trình sau đại học. Thành
-									lập 1908, Alberta University nổi tiếng là một trong những trường đại học chuyên nghiên cứu
-									hàng đầu của Canada. Alberta University đã công nhận và công bố những lĩnh vực nghiên cứu xuất
-									sắc mà mình đã thiết lập và đang phát triển mang tầm cỡ quốc gia và quốc tế, trong đó có Y
-									học, Công trình, Hoá học, Công nghệ Nano và Nhân văn. Đây cũng là trường đại học quốc tế giúp
-									sinh viên theo đuổi học vấn quốc tế qua các chương trình hội nhập.
-								</li>
-								<li>
-									👉💯 Trường đào tạo hơn 200 chương trình Cử nhân và khoảng 170 chương trình Thạc sỹ trong
-									nhiều lĩnh vực nghiên cứu, mang đến cho sinh viên sự lựa chọn rộng rãi như kinh doanh, giáo
-									dục, cơ khí, khoa học, Luật, Y khoa, Ngôn ngữ, Thực Phẩm, Nghệ thuật,..
-								</li>
-							</ul>
-						</p>	
-						<p><img src="assets/images/TruongHoc/ALBER2.jpg" alt="Alberta University" width={'900px'} /></p>
-						<h3>Chương trình đào tạo</h3>
-						<p>
-							Alberta University có 18 khoa, 5 cơ sở, 500 chương trình sau đại học. Hơn 200 chương trình bậc cử nhân
-							và 300 khóa học giáo dục thường xuyên. Cung cấp các khoá học cho 40.061 sinh viên. Một số ngành đặc
-							trưng tại University of Alberta:
-							<ol>
-								<ul>&#10147; Nông nghiệp</ul>
-								<ul>&#10147; Khoa học môi trường, tài nguyên tái tạo</ul>
-								<ul>&#10147; Nghệ thuật, thiết kế, chính trị học</ul>
-								<ul>&#10147; Kinh doanh, kế toán, phân tích tài chính…</ul>
-								<ul>&#10147; Giáo dục</ul>
-								<ul>&#10147; Kỹ thuật điện, máy tính, xây dựng, khai thác mỏ, dầu khí, cơ khí</ul>
-								<ul>&#10147; Thể thao và Giải trí</ul>
-								<ul>&#10147; Luật</ul>
-								<ul>&#10147; Y học & Nha khoa</ul>
-								<ul>&#10147; Điều dưỡng</ul>
-								<ul>&#10147; Khoa học, tâm lý học, sinh học, hóa học…</ul>
-							</ol>
-						</p>
-						<p><img src="assets/images/TruongHoc/ALBER3.png" alt="Alberta University" width={'900px'} /></p>
-						<h3>Cơ sở vật chất</h3>
-						<p>
-							Tọa lạc thành phố Edmonton, là thành phố giàu có thứ 2 tại Alberta, nền kinh tế địa phương rất phát
-							triển, cơ sở vật chất hiện đại. T hư viện trường Đại học university of Alberta lớn thứ 2 tại Canada,
-							với hơn 4.7 triệu đầu sách, 8.7 triệu sách, 1.3 triệu sách điện tử, 1.700 cơ sở dữ liệu.
-							<br />
-							Hơn 100 các học viện và trung tâm nhằm đáp ứng đầy đủ yêu cầu học tập của sinh viên. Ngoài ra trường
-							còn nhiều hệ thống phòng nghiên cứu, thí nghiệm, thư viện đến phòng tập gym, các trung tâm thể hình.
-						</p>
-						<p><img src="assets/images/TruongHoc/ALBER4.png" alt="Alberta University" width={'900px'} /></p>
-						<h3>Học phí:</h3>
+                        <ul>
+                        <li>● VỐN ĐẦU TƯ THẤP: ĐẦU TƯ DOANH NGHIỆP TỪ 200.000 CAD</li>
 
-						<ol>
-							<ul>
-								{' '}
-								&#128204; Chương trình cử nhân: từ $2,103.52 CAD – 7,572.93 CAD/6 tín chỉ (tùy vào ngành học)
-							</ul>
+                        <li>● THỜI GIAN NHANH CHÓNG: CÓ WORK PERMIT SAU KHOẢNG 12 THÁNG</li>
 
-							<ul> &#128204; Chương trình thạc sỹ: khoảng $ 8,790 – 9,740 CAD/năm</ul>
+                        <li>● THẺ XANH – PR: NHẬN THẺ XANH VÀ HƯỞNG QUYỀN THƯỜNG TRÚ NHÂN SAU 2 NĂM</li>
 
-							<ul> &#9962; Nhà ở: 9,600 – 12,600 CAD/năm</ul>
+                        <li>● QUỐC TỊCH – PASSPORT: TRỞ THÀNH CÔNG DÂN SAU KHI SỐNG ¾ NĂM TẠI CANADA</li>
+                        </ul>
+                        <div>
+                            <h3>1. Tổng quan về Tỉnh bang B.C:</h3>
+                            <ul>
+                                <li>- Nằm ở cực Tây của Canada, có khí hậu tương đối ôn đới, thu hút người định cư trong cũng như ngoài nước: 
+                                    Hàng năm có khoảng 40.000 người đến định cư ở đây. </li>
+                                <li>- Thành phố Vancouver là thành phố lớn nhất tại B.C và cũng là hải cảng lớn nhất bên bờ biển Thái Bình Dương của Bắc Mỹ. 
+                                    Đây là nơi tập trung của trên 1,5 triệu người, trở thành thành phố lớn thứ ba của Canada (sau Toronto và Montréal). </li>
+                                <li>- Ngành kinh tế sầm uất, đa dạng: là khu vực phát triển nhất các tỉnh bang của Canada như lâm nghiệp, khai thác mỏ, 
+                                    du lịch... với ngành công nghiệp điện ảnh được mệnh danh “Hollywood phía Bắc”, khu vực Vancouver là địa điểm sản xuất 
+                                    phim lớn thứ ba ở Bắc Mỹ, sau Los Angeles và New York.</li>
+                            </ul>
+                            <h3>Điều kiện tham gia Chương trình Doanh nhân B.C:</h3>
+                            <ol>Nhà đầu tư: Có vốn đầu tư tối thiểu 200,000CAD (từ nguồn Franchise, mua lại doanh nghiệp hoặc mở DN mới)
+                            + Không giới hạn độ tuổi (đang trong độ tuổi lao động là một lợi thế)
 
-							<ul> &#127857; Thực phẩm: 3,240 CAD/năm</ul>
+                            + Đạt thang điểm di trú (phụ thuộc vào thời điểm nộp hồ sơ)
 
-							<ul> &#128084; Quần áo: 600 CAD/năm</ul>
+                            + Học ít nhất 1 năm sau THPT
 
-							<ul> &#128178; Phí khác: 1,860 CAD/năm</ul>
-						</ol>
-						<h3> Kỳ nhập học: THÁNG 1, 9</h3>
-						<ol>
-							{' '}
-							<h5>🎯 Yêu cầu đầu vào🎯</h5>
-							<ul> 🎀 Chương trình đại học: Tốt nghiệp THPT</ul>
-							<ul>
-								{' '}
-								🎀 Chương trình sau đại học: Tốt nghiệp Cử nhân danh dự với ngành liên quan, vài ngành đòi hỏi
-								kinh nghiệm làm việc
-							</ul>
-							<ul> 🎀 Yêu cầu Tiếng Anh:</ul>
-							<ul>
-								{' '}
-								+ TOEFL IBT: mức điểm tối thiểu là 86 (không có môn nào dưới 21 điểm). Riêng đối với chương trình
-								thạc sỹ đòi hỏi điểm TOEFL là 88.
-							</ul>
-							<ul> + TOEFL trên giấy: 580, cho thạc sỹ là 600.</ul>
-							<ul> + IELTS: thấp nhất là 6.5 (không có môn nào nhỏ hơn 5.0)</ul>
-						</ol>
+                            + Tiếng AnhCLB  4 (IELTS 4.0)
+                            </p>
+                            
+                            Kinh nghiệm: DN tư nhân (không phải công ty Nhà nước)
+                            + Có 3 năm là chủ DN (sở hữu tối thiểu 10% CP)
+
+                            + Hoặc 4 năm quản lý cấp cao, có ít nhất 3 nhân viên dưới quyền
+
+                            + Hoặc 1 năm chủ DN và 2 năm quản lý cấp cao
+                            
+                            Tài sản: Tối thiểu 600,000CAD (Trong đó: 100,000CAD là tài sản lưu động)
+                            Mối liên hệ với Tỉnh bang B.C: Thực hiện chuyến khảo sát trực tiếp tại tỉnh bang B.C để thảo luận chi tiết về hồ sơ và ký Performance Agreement.
+                            <p>
+                                <h3>Tổng quan về hoạt động kinh doanh tại B.C:</h3>
+                                <ul>
+                                    Mở DN mới:
+                                    + Phải mang lại lợi ích kinh tế cho B.C và nằm trong danh mục ngành nghề được cho phép
+
+                                    + Nếu NĐT đầu tư với hình thức cổ phần thì NĐT được mua không quá 2/3 số tiền đầu tư tối thiểu theo qui định và NĐT phải có quyền sở hữu và kiểm soát ít nhất 1/3 doanh nghiệp.
+
+                                    + Nếu NĐT đầu tư với hình thức mua tài sản DN thì có thể mua 2/3 số tiền qui định.
+
+                                    + DN được mua lại phải hoạt động ít nhất 5 năm cho đến nay
+                                </ul>
+                                <ul>
+                                    Nhượng quyền – Franchises:
+                                    + Mô hình franchises có thể được chấp thuận nếu NĐT chứng minh mô hình DN hoạt động hiệu quả nếu: DN có thể mở rộng; có thể mang lại thu nhập cao; và DN đã vận hành ít nhất 5 năm
+
+                                    Mua lại DN:
+                                    + Đăng kí kinh doanh hợp pháp, văn phòng cố định
+
+                                    + Nhà đầu tư quản lý hoạt động hàng ngày tại B.C
+
+                                    + Tạo ra ít nhất 01 việc làm toàn thời gian
+
+                                    + Đầu tư tối thiểu 200,000CAD
+                                </ul>
+                            </p>
+                            Tiến trình hồ sơ:
+                            *** Thời gian xử lý hồ sơ: khoảng từ 12 tháng
+
+                            Bước 1: Thẩm định hồ sơ
+                            Chuyên gia thẩm định hồ sơ theo thang điểm di trú
+
+                            Bước 2: Ký HĐDV/ HĐLS
+                            USIS Group chỉ nhận hồ sơ đủ điều kiện
+
+                            Bước 3: Mở hồ sơ EOI
+                            Lập kế hoạch kinh doanh tổng quan/ Tỉnh bang B.C lựa chọn và gửi thư mời nộp hồ sơ
+
+                            Bước 4: Khảo sát tỉnh bang
+                            Khảo sát tỉnh bang B.C và ký Performance Agreement (cam kết đầu tư)
+
+                            Bước 5: Nộp hồ sơ tỉnh bang
+                            Nộp bộ HS đầy đủ và bảng kế hoạch KD chi tiết
+
+                            Bước 6: Work Permit
+                            Nhận thư xác nhận của tỉnh bang/ Nộp HS xin Work Permit/ Sang B.C Canada sinh sống và kinh doanh
+
+                            Bước 7: Nộp hồ sơ liên bang
+                            Nộp HS cùng thư đề cử của tỉnh bang lên IRCC/ Chuyển đổi từ Work Permit -> PR sau 2 năm
+
+                            Tiến trình xử lý hồ sơ sẽ phụ thuộc vào sự hợp tác của khách hàng,thời gian xét duyệt của Chính phủ Canada, tỉnh bang, liên bang và các bên thứ ba.
+</div>
 						<h3> Mọi chi tiết xin vui lòng liên hệ:</h3>
 						<h5 style={{color:'#ff944d'}}> DU HỌC TÂN CON ĐƯỜNG VÀNG – NEW GOLDEN ROAD</h5>
 						<ol>

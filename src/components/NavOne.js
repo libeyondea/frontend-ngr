@@ -509,7 +509,7 @@ const NavOne = () => {
 												</Link>
 											</li>
 											<li>
-												<Link href="/">
+												<Link href="/dinhcubritish">
 													<a>Định cư British Columbia</a>
 												</Link>
 											</li>
