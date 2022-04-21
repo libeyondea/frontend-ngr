@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Image from './Image';
-const DuHoc_details = () => {
+const DinhCuBritish = () => {
 	return (
 		<div style={{ backgroundColor: 'white' }}>
 			<section className="inner-banner-THCA">
@@ -13,7 +13,7 @@ const DuHoc_details = () => {
 							<a href="#">Chi Tiết Về Trường</a>
 						</li>
 					</ul>
-					<h2 className="inner-banner-THCA__title">THÔNG TIN CHI TIẾT VỀ TRƯỜNG</h2>
+					<h2 className="inner-banner-THCA__title">CHƯƠNG TRÌNH CANADA – TỈNH BANG BRITISH COLUMBIA (B.C)</h2>
 				</div>
 			</section>
 			<div id="breaking-news" className="breaking-school" style={{ color: 'color: #E4EAE3' }}>
@@ -417,4 +417,4 @@ const DuHoc_details = () => {
 		</div>
 	);
 };
-export default DuHoc_details;
+export default DinhCuBritish;

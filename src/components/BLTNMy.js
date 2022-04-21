@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const DinhCuMy = () => {
+const CTL1 = () => {
 	return (
 		<section className="team-one team-page">
 
@@ -9,4 +9,4 @@ const DinhCuMy = () => {
 	);
 };
 
-export default DinhCuMy;
+export default CTL1;
