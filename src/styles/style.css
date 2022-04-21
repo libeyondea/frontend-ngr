@@ -3712,6 +3712,7 @@ a:visited {
     border-width: 16px;
     margin-left: 93px;
 	margin-right: 5px;
+	margin-top: 50px;
     border-color: #f1f1f1;
     background-color: white;
     padding-left: 60px;
@@ -7538,27 +7539,22 @@ ul#menu li:hover ul#sub {
 	width: 50%;
 }
 .button {
-  background-color: #58257b; /* Màu của Quản trị mạng ^^ */
+  background-color: #ff944d; /* Màu của Quản trị mạng ^^ */
   border: none;
   color: #fff !important;
-  padding: 1px 15px;
+  padding: 10px 15px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-left: 500px;
-  margin-top: -5px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 4px;
 	-webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .button:hover {
-	background-color: crimson;
-	color: white;
+	background-color: #009955;
   }
   .button:active {
 
