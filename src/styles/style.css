@@ -7746,3 +7746,81 @@ ul#menu li:hover ul#sub {
 	object-fit: contain;
 }
 
+/* dihcuMy CTEB5 */
+
+.phan-dau{
+	margin-top: -100px;
+	margin-left: 200px;
+}
+
+.card-title-tt{
+	margin-top: -42px;
+	margin-left: 105px;
+	color: red;
+	fontSize: 15px;
+	marginLeft: 30px;
+}
+
+.card-title-dong1{
+	margin-left: 300px;
+	margin-top: 50px;
+	color: black;
+}
+.card-title-dong2{
+	color: black;
+	margin-left: 250px;
+	margin-top: 50px;
+}
+
+.video{
+	margin-top: 120px;
+	margin-left:220px;
+}
+
+.hinhvideo{
+	margin-top: -800px;
+	margin-left: 800px;
+}
+.nd-CTEB5{
+	color: black;
+	margin-left: 200px;
+}
+
+.card-title-dong3{
+	color: black;
+	margin-top: 100px;
+	margin-left: 600px;
+}
+
+.row-nd{
+	border: #94a2ab solid 2px;
+	width: 1140px;
+	height: 690.5px;
+	margin-left: 220px;
+	margin-top: 50px;
+}
+
+.hinhPP{
+	margin-left: -17px;
+	margin-top: -2px;
+}
+
+.CO{
+	width: 375px;
+	height: 355px;
+	background-color: #2767a7;
+	margin-top: -703px;
+	margin-left: 373px;
+	color: white;
+
+}
+
+.K{
+	width: 375px;
+	height: 355px;
+	background-color: #1d3768;
+	color: white;
+	margin-top: -355px;
+	margin-left: 748px;
+}
+
