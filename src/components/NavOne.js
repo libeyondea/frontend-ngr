@@ -7,9 +7,11 @@ const NavOne = () => {
 	const [sticky, setsticky] = useState(false);
 	const [showBtn, setshowBtn] = useState(false);
 
-	const { data: listCategory } =  (`/categories`, {
+	const { data: listCategory } = useSWR(`/categories?sort_by=id&sort_direction=asc`, {
 		revalidateOnFocus: false
 	});
+
+	console.log(listCategory);
 
 	useEffect(() => {
 		window.addEventListener('scroll', handleScroll);
@@ -56,6 +58,20 @@ const NavOne = () => {
 
 		searchOverlay.addEventListener('click', function () {
 			searchPopup.classList.remove('active');
+		});
+	};
+
+	// recursive categories
+	const categoriesRecursive = (data = []) => {
+		return data.length && data.map((item, index) => {
+			return (
+				<li key={index}>
+					<Link href={`/category/${item.slug}`}>
+						<a>{item.name}</a>
+					</Link>
+					{item.children.length ? <ul className="sub-menu">{categoriesRecursive(item.children)}</ul> : null}
+				</li>
+			);
 		});
 	};
 
@@ -107,6 +123,7 @@ const NavOne = () => {
 									<a>Trang chủ </a>
 								</Link>
 							</li>
+							{listCategory && categoriesRecursive(listCategory.data)}
 							<li className="current">
 								<Link href="/">
 									<a>Du Học</a>
