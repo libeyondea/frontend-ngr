@@ -85,14 +85,12 @@ const TeachersDetails = () => {
 						<div className="col-md-5 col-sm-12">
 							<div className="content">
 								<h2>
-									Creativity is in our <br /> blood
+								CHINH PHỤC IELTS CHỈ TRONG 5 TUẦN
 								</h2>
 								<p>
-									Curabitur felis nibh, imperdiet eu erat non, luctus cursus lectus. Donec maximus diam leo, sed
-									fringilla nisl auctor eget. Donec dictum neque est, ac faucibus ex blandit a Lorem ipsum dolor
-									sit amet, consectetur adipisicing elit. Recusandae quo minima ab aperiam molestiae natus
-									repellendus neque culpa iure, nemo veritatis explicabo facilis, officia, saepe! Et corrupti
-									odit, non deserunt.
+								Ielts Study Planner sẽ mang đến một kế hoạch phù hợp cho các bạn ôn luyện trong mùa dịch Covid-19 này.
+								 Để thành công trong bất cứ việc gì trong cuộc sống,
+								 bạn cần có một kế hoạch vững chắc và tính tự giác và kiên định để thực hiện kế hoạch đó mỗi ngày.
 								</p>
 							</div>
 							<p />
@@ -103,14 +101,12 @@ const TeachersDetails = () => {
 						<div className="col-12 col-md-5 offset-md-1 col-md-5 col-sm-12">
 							<div className="content">
 								<h2>
-									We think out of the <br /> Box
+								Thực hành thi nói IELTS SpeakUp
 								</h2>
 								<p>
-									Curabitur felis nibh, imperdiet eu erat non, luctus cursus lectus. Donec maximus diam leo, sed
-									fringilla nisl auctor eget. Donec dictum neque est, ac faucibus ex blandit a Lorem ipsum dolor
-									sit amet, consectetur adipisicing elit. Recusandae quo minima ab aperiam molestiae natus
-									repellendus neque culpa iure, nemo veritatis explicabo facilis, officia, saepe! Et corrupti
-									odit, non deserunt.
+								Du học Tân Con Đường Vàng đồng hành cùng British Council (Hội đồng Anh) mang đến giải pháp IELTS SpeakUP giúp bạn
+								 lên kế hoạch luyện tập tại nhà trong mùa giãn cách với cơ hội thực hành thi thử Speaking giao tiếp trực tuyến 1:1. 
+								Ngoài ra, bạn còn nhận được đánh giá phản hồi để cải thiện ngay lập tức cùng các chuyên gia.
 								</p>
 							</div>
 							<p />
