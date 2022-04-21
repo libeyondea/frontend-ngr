@@ -63,16 +63,19 @@ const NavOne = () => {
 
 	// recursive categories
 	const categoriesRecursive = (data = []) => {
-		return data.length && data.map((item, index) => {
-			return (
-				<li key={index}>
-					<Link href={`/category/${item.slug}`}>
-						<a>{item.name}</a>
-					</Link>
-					{item.children.length ? <ul className="sub-menu">{categoriesRecursive(item.children)}</ul> : null}
-				</li>
-			);
-		});
+		return (
+			data.length &&
+			data.map((item, index) => {
+				return (
+					<li key={index}>
+						<Link href={`/${item.slug}`}>
+							<a>{item.name}</a>
+						</Link>
+						{item.children.length ? <ul className="sub-menu">{categoriesRecursive(item.children)}</ul> : null}
+					</li>
+				);
+			})
+		);
 	};
 
 	return (
@@ -124,7 +127,7 @@ const NavOne = () => {
 								</Link>
 							</li>
 							{listCategory && categoriesRecursive(listCategory.data)}
-							<li className="current">
+							{/* 	<li className="current">
 								<Link href="/">
 									<a>Du Học</a>
 								</Link>
@@ -673,6 +676,7 @@ const NavOne = () => {
 									</li>
 								</ul>
 							</li>
+							*/}
 							<li>
 								<Link href="/contact">
 									<a>Liên Hệ</a>
@@ -712,7 +716,6 @@ const NavOne = () => {
 					</div>
 				</div>
 			</nav>
-		
 		</header>
 	);
 };
