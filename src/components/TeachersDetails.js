@@ -125,11 +125,10 @@ const TeachersDetails = () => {
 						<div className="col">
 							<div className="title text-center">
 								<h4>How We Works</h4>
-								<h2>Our work process</h2>
+								<h2>CÁC KHÓA LUYỆN THI</h2>
 								<span className="border" />
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque,
-									obcaecati atque sit!
+								Các khóa học mà New Groden Road sẽ được định hướng theo các mục tiêu lựa chọn của bạn.
 								</p>
 							</div>
 						</div>
@@ -148,6 +147,16 @@ const TeachersDetails = () => {
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
 								<span className="count">2.</span>
+								<i className="tf-ion-ios-locked-outline" />
+								<h4>Secure System</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+								</p>
+							</div>
+							</div>
+						<div className="col-md-4 col-sm-6 p-0">
+							<div className="service-item text-center">
+								<span className="count">3.</span>
 								<i className="tf-ion-ios-alarm-outline" />
 								<h4>Time Management</h4>
 								<p>
@@ -158,7 +167,7 @@ const TeachersDetails = () => {
 						<div className="w-100" />
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
-								<span className="count">3.</span>
+								<span className="count">4.</span>
 								<i className="tf-ion-ios-email-outline" />
 								<h4>Mail Support</h4>
 								<p>
@@ -168,13 +177,24 @@ const TeachersDetails = () => {
 						</div>
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
-								<span className="count">4.</span>
+								<span className="count">5.</span>
 								<i className="tf-ion-ios-locked-outline" />
 								<h4>Secure System</h4>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
 								</p>
 							</div>
+							</div>
+						<div className="col-md-4 col-sm-6 p-0">
+							<div className="service-item text-center">
+								<span className="count">6.</span>
+								<i className="tf-ion-ios-locked-outline" />
+								<h4>Secure System</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+								</p>
+							</div>
+							
 						</div>
 					</div>{' '}
 					{/* End row */}
