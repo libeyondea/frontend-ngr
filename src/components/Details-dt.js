@@ -9,7 +9,7 @@ const Details_dt = () => {
 					{' '}
 					{/*nội dung 1 của trang học bổng */}
 					<h2 className="muc1">1. SƠ LƯỢC VỀ TRƯỜNG</h2>
-					<div className="text111" style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }}>
+					<div style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }}>
 						<strong>
 							<b>Đại học Justin Siena High School</b>
 						</strong>{' '}
@@ -24,34 +24,37 @@ const Details_dt = () => {
 						tu sĩ và giáo dân.
 					</div>
 					<div className="anh-noidung1">
-						<img src="/assets/images/DoiTac/j1.avif" alt="canada" className="anh1" />
+						<img src="/assets/images/DoiTac/j1.avif" alt="canada" className="anh1 anh2" />
 					</div>
 				</div>
-				<div>
+				<div style={{ paddingTop: '515px' }}>
 					<h2 className="muc1">2. Kế Hoạch Tăng Trưởng</h2>
-					<div className="text111">
-						Vào năm 2011, trường đã công bố kế hoạch sơ bộ cho Lowe's thuê 10 mẫu đất của mình. Doanh thu từ việc cho
-						thuê sẽ cung cấp vốn để tài trợ cho việc cải tạo khuôn viên, bao gồm việc xây dựng một trung tâm nghiên
-						cứu khoa học và học thuật mới, một trung tâm thủy sinh, một trung tâm nghệ thuật biểu diễn được cải tạo và
-						cải tạo các lớp học, nhà ăn và phòng thay đồ. [4] Cuối năm 2011, Lowes công bố kế hoạch đóng cửa 20 cửa
-						hàng và thu hẹp quy mô kế hoạch mở rộng trong tương lai, Công ty không cho biết kế hoạch hoạt động của
-						trang Justin Siena sẽ bị ảnh hưởng như thế nào bởi thông báo này. [5] Năm 2014, trường công bố kế hoạch
-						thu nhỏ lại để tu sửa, mở rộng và nâng cấp cơ sở vật chất. Trường đã công bố kế hoạch thuê 6,42 mẫu đất
-						của trường để phát triển thương mại với mục tiêu tài trợ học phí. Vào thời điểm thông báo, một số cư dân ở
-						khu vực lân cận bày tỏ lo ngại về việc gia tăng giao thông và các tác động môi trường khác.
-					</div>
+					Vào năm 2011, trường đã công bố kế hoạch sơ bộ cho Lowe's thuê 10 mẫu đất của mình. Doanh thu từ việc cho thuê
+					sẽ cung cấp vốn để tài trợ cho việc cải tạo khuôn viên, bao gồm việc xây dựng một trung tâm nghiên cứu khoa
+					học và học thuật mới, một trung tâm thủy sinh, một trung tâm nghệ thuật biểu diễn được cải tạo và cải tạo các
+					lớp học, nhà ăn và phòng thay đồ. [4] Cuối năm 2011, Lowes công bố kế hoạch đóng cửa 20 cửa hàng và thu hẹp
+					quy mô kế hoạch mở rộng trong tương lai, Công ty không cho biết kế hoạch hoạt động của trang Justin Siena sẽ
+					bị ảnh hưởng như thế nào bởi thông báo này. [5] Năm 2014, trường công bố kế hoạch thu nhỏ lại để tu sửa, mở
+					rộng và nâng cấp cơ sở vật chất. Trường đã công bố kế hoạch thuê 6,42 mẫu đất của trường để phát triển thương
+					mại với mục tiêu tài trợ học phí. Vào thời điểm thông báo, một số cư dân ở khu vực lân cận bày tỏ lo ngại về
+					việc gia tăng giao thông và các tác động môi trường khác.
 				</div>
 				<div>
 					<h2 className="muc1">3. Cựu Sinh Viên Đáng Chú Ý </h2>
-					<div className="text111">
-						<li className="list">Nicolas Cage, actor, director and producer</li>
-						<li className="list">
-							Josh Jackson, basketball player, attended the school but did not play for the team
+					<b>Thạc sĩ:</b>
+					<p>
+						Sinh viên học MBA ngoài các yêu cầu cơ bản như GPA 3/4, IELTS 6.5 (6.5 (Writing 6.0 or higher)/ TOEFL 88
+						(with minimum of 20 in each component)
+					</p>
+					<p>cần có thêm 1 trong các yêu cầu sau:</p>
+					<ul>
+						<li>Tốt nghiệp ĐH chuyên ngành Quản trị kinh doanh, Thương mại hoặc tương đương</li>
+						<li>Có 2 năm kinh nghiệm làm việc</li>
+						<li>Điểm GMAT/ GRE</li>
+						<li>
+							<b>Đại học</b>: Tốt nghiệp THPT (lớp 12) với điểm C trở lên, IELTS 6.5 (không kỹ năng nào dưới 6.0)
 						</li>
-						<li className="list">Andy Miller (golfer), Professional golfern</li>
-						<li className="list">Olivia O'Brien, singer and songwriter</li>
-						<li className="list">Brett Wallace, baseball</li>
-					</div>
+					</ul>
 				</div>
 				<div>
 					<h2 className="muc1">4. Vì sao nên chọn Đại học Canada West University</h2>
