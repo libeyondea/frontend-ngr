@@ -69,70 +69,104 @@ const DinhCuNewBrunswich = () => {
 
 					</h3>
 					<div className="noidung">
-						<ul>
-							<li>● VỐN ĐẦU TƯ THẤP: ĐẦU TƯ DOANH NGHIỆP TỪ 200.000 CAD</li>
-
-							<li>● THỜI GIAN NHANH CHÓNG: CÓ WORK PERMIT SAU KHOẢNG 12 THÁNG</li>
-
-							<li>● THẺ XANH – PR: NHẬN THẺ XANH VÀ HƯỞNG QUYỀN THƯỜNG TRÚ NHÂN SAU 2 NĂM</li>
-
-							<li>● QUỐC TỊCH – PASSPORT: TRỞ THÀNH CÔNG DÂN SAU KHI SỐNG ¾ NĂM TẠI CANADA</li>
-						</ul>
-						<h3>1. Tổng quan về Tỉnh bang B.C:</h3>
+                        <h5>&#9889; Chính sách định cư bang New Brunswick cập nhật mới nhất</h5>
+                        <p><i> Với văn hóa phong phú và vẻ đẹp quyến rũ của mình, các chương trình định cư New Brunswick được người dân khắp thế giới quan tâm và lựa chọn 
+                            để xây dựng cuộc sống mới. Trong bài viết dưới đây, hãy cùng Le Immigration Group tìm hiểu những thông tin mới nhất về chương trình định cư tại bang New Brunswick.</i></p> 
+						<h3>1. Giới thiệu chung về bang New Brunswick</h3>
 						<ul>
 							<li>
-								- Nằm ở cực Tây của Canada, có khí hậu tương đối ôn đới, thu hút người định cư trong cũng như
-								ngoài nước: Hàng năm có khoảng 40.000 người đến định cư ở đây.{' '}
+								- New Brunswick là tỉnh bang nằm ở vùng duyên hải Canada, giáp Đại Tây Dương với diện tích khoảng 71000km2. 
+                                Đây là vùng đất mang hơi thở của những thành thị cổ kính, lãng mạn với khí hậu 4 mùa rõ rệt. Nhiệt độ mùa hè vào khoảng 20 – 30 độ C, 
+                                không khí mát mẻ, dễ chịu, ít khi đem lại cảm giác oi bức. Nhiệt độ mùa đông vào khoảng -5 độ nhưng không quá rét buốt.{' '}
 							</li>
 							<li>
-								- Thành phố Vancouver là thành phố lớn nhất tại B.C và cũng là hải cảng lớn nhất bên bờ biển Thái
-								Bình Dương của Bắc Mỹ. Đây là nơi tập trung của trên 1,5 triệu người, trở thành thành phố lớn thứ
-								ba của Canada (sau Toronto và Montréal).{' '}
+								- New Brunswick là tỉnh bang duy nhất tại Canada sử dụng chính thức 2 ngôn ngữ với hơn 30% dân số nói tiếng Pháp và 70% dân số 
+                                nói tiếng Anh như tiếng mẹ đẻ. Ba thành phố đóng vai trò quan trọng ở New Brunswick là Saint John, Fredericton và Moncton.{' '}
 							</li>
 							<li>
-								- Ngành kinh tế sầm uất, đa dạng: là khu vực phát triển nhất các tỉnh bang của Canada như lâm
-								nghiệp, khai thác mỏ, du lịch... với ngành công nghiệp điện ảnh được mệnh danh “Hollywood phía
-								Bắc”, khu vực Vancouver là địa điểm sản xuất phim lớn thứ ba ở Bắc Mỹ, sau Los Angeles và New
-								York.
+								- Với diện tích rộng lớn nhưng dân cư thưa thớt, nguồn lực lao động tại tỉnh bang này thiếu hụt trầm trọng, không đáp ứng được 
+                                sự tăng trưởng lớn mạnh của nền kinh tế địa phương. Vì vậy, chính quyền bang đã đưa ra các chính sách định cư New Brunswick 
+                                hấp dẫn dành cho sinh viên quốc tế cũng như các lao động lành nghề trên khắp thế giới để thu hút nhân lực đến sinh sống và làm việc tại đây.{' '}
 							</li>
 						</ul>
-                        <p><img src="assets/images/DinhCu/New-Brunswick2.jpg" alt="Alberta University" width={'900px'} /></p>
-						<h3>2. Điều kiện tham gia Chương trình Doanh nhân B.C:</h3>
+                        <p style={{textAlign:'center'}}>
+                            <img src="assets/images/DinhCu/New-Brunswick1.jpg" alt="Alberta University" width={'700px'} /><br/>
+                            <i>New Brunswick là nơi tuyệt vời để sinh sống và làm việc</i>
+                        </p>
+						<h3>2. Lý do nên định cư New Brunswick</h3>
+						<p>
+                            New Brunswick ngày càng trở thành tâm điểm định cư quốc tế bởi hàng loạt chính sách mở rộng và thu hút người nhập cư. Điều này đã tạo ra một làn sóng định cư 
+                            New Brunswick mạnh mẽ với người nhập cư quốc tế nói chung và tại Việt Nam nói riêng. Vậy vùng đất này có gì mà lại thu hút đầu tư định cư đến vậy?
+						</p>
 						<ul>
-							<li>
-								<b><i>- Nhà đầu tư: Có vốn đầu tư tối thiểu 200,000CAD (từ nguồn Franchise, mua lại doanh nghiệp hoặc mở
-								DN mới)</i></b>
-							</li>
-							<li>+ Không giới hạn độ tuổi (đang trong độ tuổi lao động là một lợi thế)</li>
+							<li><b><i>- Kinh tế phát triển</i></b></li>
+                            
+							<li>+ New Brunswick là một trong 3 tỉnh bang duyên hải miền Trung lớn nhất tại Canada. Nơi đây có 3 mặt giáp biển và gần với các nền kinh tế lớn như 
+                                Quebec, New York. Boston, Toronto,… Nhờ đó, New Brunswick là vùng đất màu mỡ đầy tiềm năng để phát triển các ngành công nghiệp như chế biến, khoáng  sản hay du lịch.</li>
 
-							<li>+ Đạt thang điểm di trú (phụ thuộc vào thời điểm nộp hồ sơ)</li>
+							<li>+ Bên cạnh đó, New Brunswick còn sở hữu nguồn tài nguyên thiên nhiên giàu có và phong phú. Với diện tích rừng rộng lớn, sản phẩm gỗ là một trong 
+                                những hàng hóa xuất khẩu chính tại nơi đây.</li>
 
-							<li>+ Học ít nhất 1 năm sau THPT</li>
-
-							<li>+ Tiếng AnhCLB 4 (IELTS 4.0)</li>
+							<li>+ Ngày nay, nơi đây trở thành điểm lựa chọn cho các ngành nghề kinh tế yêu cầu dịch vụ hiện đại như tài chính và bảo hiểm. 
+                                Rất nhiều công ty đã di dời dịch vụ khách hàng và trung tâm hỗ trợ kỹ thuật về New Brunswick bởi nguồn nhân lực song ngữ tại tỉnh bang này.</li>
 						</ul>
+                        <p style={{textAlign:'center'}}>
+                            <img src="assets/images/DinhCu/New-Brunswick4.jpg" alt="Alberta University" width={'700px'}/><br/>
+                            <i>New Brunswick là nơi có điều kiện nhập cư lý tưởng</i>
+                        </p>
 						<ul>
-							<li><b><i>- Kinh nghiệm: DN tư nhân (không phải công ty Nhà nước)</i></b></li>
-							<li>+ Có 3 năm là chủ DN (sở hữu tối thiểu 10% CP)</li>
+                            <li><b><i>- Nền giáo dục tiên tiến</i></b></li>
+                            <li>+ Nền giáo dục được xây dựng và quản lý khá đồng đều so với hệ thống giáo dục chung của Canada. Tại New Brunswick, học sinh từ 5 – 18 tuổi được 
+                                tài trợ học phí hoàn toàn. Song song với chương trình miễn giảm học phí đến năm 18 tuổi, chính quyền tỉnh bang còn có rất nhiều chương trình, 
+                                chính sách đãi ngộ dành cho sinh viên như vay vốn, miễn giảm hoặc hoàn trả học phí.</li>
 
-							<li>+ Hoặc 4 năm quản lý cấp cao, có ít nhất 3 nhân viên dưới quyền</li>
-
-							<li>+ Hoặc 1 năm chủ DN và 2 năm quản lý cấp cao</li>
-						</ul>
-						<ul><b><i>- Tài sản: Tối thiểu 600,000CAD (Trong đó: 100,000CAD là tài sản lưu động)</i></b></ul>
+                            <li>+ New Brunswick áp dụng chương trình học song ngữ Anh – Pháp với cơ sở hạ tầng và chất lượng giảng dạy đạt chất lượng cao. Nơi đây còn có 
+                                rất nhiều trường đại học danh tiếng trên thế giới, bao gồm University of NB và Saint Thomas University – cả hai trường đều nằm TOP 10 
+                                đại học nổi tiếng tại Canada. Do đó, định cư New Brunswick chính là cách chắp bước phát triển cho con trẻ trên con đường thành công trong tương lai.
+                            </li>  
+                        </ul>
 						<ul>
-                            <b><i>- Mối liên hệ với Tỉnh bang B.C: Thực hiện chuyến khảo sát trực tiếp tại tỉnh bang B.C để thảo luận
-							chi tiết về hồ sơ và ký Performance Agreement.</i></b>
+                            <li><b><i>- Chi phí sinh hoạt thấp nhất Canada</i></b></li>
+                            <li>+ Chi phí sinh hoạt tại New Brunswick khá thấp. Một gia đình có mức thu nhập bình quân là 65.910 CAD một năm có thể tận hưởng một cuộc sống thoải mái và tiện nghi tại nơi đây.</li>
+
+                            <li>+ Điểm cộng lớn của bang New Brunswick chính là có mức giá nhà ở thấp nhất tại Canada. Giá thuê nhà tại đây dao động từ 526 – 930 CAD/tháng, tùy theo từng thành phố và diện tích thuê.
+                            Chi phí sinh hoạt như điện, nước, thực phẩm cũng thấp hơn rất nhiều so với đa số các quốc gia tại Bắc Mỹ.
+                            </li>  
 						</ul>
-                        <p><img src="assets/images/DinhCu/New-Brunswick3.jpg" alt="Alberta University" width={'900px'} /></p>
-                        <h3>3. Tổng quan về hoạt động kinh doanh tại B.C:</h3>
                         <ul>
-                            <b><i>- Mở DN mới:</i></b>
-                            <li>+ Phải mang lại lợi ích kinh tế cho B.C và nằm trong danh mục ngành nghề được cho phép</li>
-                            <li>+ Nếu NĐT đầu tư với hình thức cổ phần thì NĐT được mua không quá 2/3 số tiền đầu tư tối thiểu
-                            theo qui định và NĐT phải có quyền sở hữu và kiểm soát ít nhất 1/3 doanh nghiệp. </li>
-                            <li>+ Nếu NĐT đầu tư với hình thức mua tài sản DN thì có thể mua 2/3 số tiền qui định. </li>
-                            <li>+ DN được mua lại phải hoạt động ít nhất 5 năm cho đến nay</li>
+                            <li><b><i>- Hệ thống y tế chất lượng cao</i></b></li>
+                            <li>Y tế tại New Brunswick hoàn toàn được chính phủ đài thọ. Thường trú nhân sẽ được chăm sóc y tế miễn phí bao gồm việc khám bệnh, 
+                                xét nghiệm, phẫu thuật,… Hàng năm, chính phủ Canada sẽ chi trả khoảng 1.800 CAD chi phí y tế cho mỗi công dân trong nước.</li>
+                        </ul>
+                        <p style={{textAlign:'center'}}>
+                            <img src="assets/images/DinhCu/New-Brunswick3.jpg" alt="Alberta University" width={'700px'}/><br/>
+                            <i>New Brunswick là nơi có điều kiện nhập cư lý tưởng</i>
+                        </p>
+                        <h3>3. Chính sách định cư New Brunswick</h3>
+                        <p>
+                            Không chỉ sở hữu khí hậu thiên nhiên tươi đẹp, kinh tế phát triển, chi phí sinh hoạt thấp, New Brunswick còn có chính sách nhập cư lý tưởng. 
+                            Chính phủ tỉnh bang luôn tạo điều kiện cho những ai muốn định cư New Brunswick thông qua chương trình định cư tỉnh bang 
+                            (New Brunswick Provincial Nominee Program). Chương trình này tiếp nhận vài trăm người nhập cư hàng năm thông qua 2 diện: 
+                            cho cá nhân với lời mời công việc hoặc cho doanh nhân muốn đầu tư, quản lý kinh doanh tại tỉnh bang.
+                        </p>
+                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/New-Brunswick5.jpg" alt="Alberta University" width={'700px'} /><br/>
+                            <i>Các chính sách định cư New Brunswick</i>
+                        </p>
+                        <ul>  
+                            <li><b><i>- Các ứng viên đáp ứng đầy đủ những điều kiện sau đây sẽ được cấp thường trú nhân tại New Brunswick:</i></b></li>
+                            <li>+ Từ 22 – 25 tuổi.</li>
+                            <li>+ Có IELTS tối thiểu từ 5.0 trở lên.</li>   
+                            <li>+ Có công việc chính thức tại New Brunswick hoặc là chủ cơ sở kinh doanh có thời gian hoạt động trên 01 năm.</li>   
+                            <li><b><i>- Bộ Di trú New Brunswick yêu cầu ứng viên đạt tối thiểu 50 điểm trên thang điểm tuyệt đối 78 điểm. 
+                            Trường hợp định cư theo diện “Skilled Worker” được chia thành 3 trường hợp với thang điểm tối thiểu là 51 – 54 – 50. </i></b></li>
+                            <li><b><i>- Theo đó, thang điểm định cư Tỉnh bang New Brunswick được tính dựa theo các yếu tố sau:</i></b></li>
+                            <li>+ Độ tuổi (tối đa 10 điểm): Độ tuổi phù hợp để được tính điểm là từ 22 đến 55 tuổi. Trong đó, độ tuổi từ 35 đến 50 tuổi sẽ được nhận mức điểm cao nhất: 10 điểm.</li>
+                            <li>+ Ngoại ngữ (tối đa 25 điểm): Tiếng Anh tối thiểu CLB 5 hoặc tiếng Pháp tối thiểu NCLC 5. Trình độ ngoại ngữ càng cao thì mức điểm được tính càng tăng, tối đa là 25 điểm.</li>   
+                            <li>+ Trình độ học vấn (tối đa 25 điểm): Ứng viên đạt điểm tối đa khi bằng đối được cấp tại Canada hoặc nước ngoài (có giá trị tương đương).</li>   
+                            <li>+ Kinh nghiệm quản lý, sở hữu doanh nghiệp (tối đa 20 điểm): Để đạt điểm tối đa, ứng viên cần có 10 năm kinh nghiệm 
+                                gần nhất sở hữu doanh nghiệp ít nhất 2 thành viên, số năm kinh nghiệm càng giảm, điểm càng thấp.</li>
+                            <li>+ Khả năng thích ứng của người phối ngẫu (tối đa 10 điểm): Ứng viên sẽ nhận được số điểm tối đa nếu người phối ngẫu 
+                                đã từng học tập, làm việc tại New Brunswick và đáp ứng được yêu cầu ngoại ngữ theo yêu cầu định cư của tỉnh bang này.</li>
                         </ul>
                         <ul>
                             <b><i>- Nhượng quyền – Franchises: </i></b>
@@ -143,27 +177,29 @@ const DinhCuNewBrunswich = () => {
                             động hàng ngày tại B.C </li>
                             <li> + Tạo ra ít nhất 01 việc làm toàn thời gian + Đầu tư tối thiểu 200,000CAD</li>
                         </ul>
-                        <p><img src="assets/images/DinhCu/New-Brunswick4.jpg" alt="Alberta University" width={'900px'} /></p>
-						<h3>4. Tiến trình hồ sơ:</h3>
-                         <a>*** Thời gian xử lý hồ sơ: khoảng từ 12 tháng </a>
+                        
+						<h3>4. AIPP – Chương trình định cư New Brunswick tốt nhất</h3>
+                        <p>
+                            - Chính quyền New Brunswick tạo ra rất nhiều chương trình định cư nhằm giải quyết những lỗ hổng về nguồn nhân lực trong một số ngành nghề tại tỉnh bang này. 
+                            Nổi bật trong số đó  là chương trình lao động diện tay nghề cao – AIPP.<br/>
+                            - (Atlantic Immigration Pilot Program) là chương trình đề cử 4 Tỉnh bang Đại Tây Dương được xây dựng với mục đích tìm kiếm và đáp ứng nhu cầu lao động, 
+                            công đồng địa phương tại: Nova Scotia, New Brunswick, Newfoundland & Labrador và Đảo Hoàng tử (PEI).<br/>
+                            - Chương trình này hỗ trợ các doanh nghiệp thu hút và giữ chân nhân tài từ khắp nơi trên thế giới tới làm việc và đóng góp cho sự phát triển kinh tế chung 
+                            của các tỉnh bang thuộc khu vực Đại Tây Dương cũng như toàn Canada.
+                        </p>
+                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/New-Brunswick6.jpg" alt="Alberta University" width={'700px'} /><br/>
+                            <i>AIPP – Chương trình định cư New Brunswick diện tay nghề cao</i>
+                        </p>
                          <ul>
-                            <li><b><i>Bước 1: </i></b><br/>
-                            Thẩm định hồ sơ Chuyên gia thẩm định hồ sơ theo thang điểm di trú </li>
-                            <li><b><i>Bước 2: </i></b><br/>
-                            Ký HĐDV/ HĐLS USIS Group chỉ nhận hồ sơ đủ điều kiện </li>
-                            <li><b><i>Bước 3: </i></b><br/>
-                            Mở hồ sơ EOI Lập kế hoạch kinh doanh tổng quan/ Tỉnh bang B.C lựa chọn và gửi thư mời nộp hồ sơ </li>
-                            <li><b><i>Bước 4: </i></b> <br/>
-                            Khảo sát tỉnh bang Khảo sát tỉnh bang B.C và ký Performance Agreement (cam kết đầu tư) </li>
-                            <li><b><i>Bước 5: </i></b><br/>
-                            Nộp hồ sơ tỉnh bang Nộp bộ HS đầy đủ và bảng kế hoạch KD chi tiết </li>
-                            <li><b><i>Bước 6: </i></b><br/>
-                            Work Permit Nhận thư xác nhận của tỉnh bang/ Nộp HS xin Work Permit/ Sang B.C Canada sinh sống và kinh doanh </li>
-                            <li><b><i>Bước 7: </i></b><br/>
-                            - Nộp hồ sơ liên bang Nộp HS cùng thư đề cử của tỉnh bang lên IRCC/ Chuyển đổi từ Work Permit &#10145; PR sau 2 năm <br/>
-                            - Tiến trình xử lý hồ sơ sẽ phụ
-                            thuộc vào sự hợp tác của khách hàng,thời gian xét duyệt của Chính phủ Canada, tỉnh bang, liên bang và các bên thứ ba.
-                            </li>
+                            <li><b><i>  Chương trình định cư New Brunswick diện AIPP sở hữu nhiều đặc điểm nổi bật:</i></b></li>
+                            <li>- Thời gian xét duyệt nhanh chóng.</li>
+                            <li>- Được cấp Visa cho cả gia đình.</li>
+                            <li>- Nhận phúc lợi toàn diện như công dân Canada.</li>
+                            <li>- Nhập tịch sau 3 năm</li>
+                            <li>- Được giữ song tịch, tự do sinh sống và làm việc trên toàn lãnh thổ Canada.</li>
+                            <li><b><i> Với những ưu điểm vượt trội của AIPP, đây chính là chương trình định cư New Brunswick được nhiều người Việt Nam lựa chọn và đăng ký.</i></b></li>
+                            <li></li>
+                            <li></li>
                         </ul>
 					<h3> Mọi chi tiết xin vui lòng liên hệ:</h3>
 					<h5 style={{ color: '#ff944d' }}> DU HỌC TÂN CON ĐƯỜNG VÀNG – NEW GOLDEN ROAD</h5>
