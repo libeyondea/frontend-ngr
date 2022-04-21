@@ -405,32 +405,32 @@ const NavOne = () => {
 								</Link>
 								<ul className="sub-menu">
 									<li>
-										<Link href="/dinhcumy">
+										<Link href="/#">
 											<a>Định Cư Mỹ</a>
 										</Link>
 										<ul className="sub-menu">
 											<li>
-												<Link href="/">
+												<Link href="/CTEB5">
 													<a>Chương Trình EB-5</a>
 												</Link>
 											</li>
 											<li>
-												<Link href="/">
+												<Link href="/CTL1">
 													<a>Chương Trình L-1</a>
 												</Link>
 											</li>
 											<li>
-												<Link href="/">
+												<Link href="/BLTNMy">
 													<a>Bảo Lãnh Thân Nhân</a>
 												</Link>
 											</li>
 											<li>
-												<Link href="/">
+												<Link href="/DVAnCu">
 													<a>Dịch Vụ An cư</a>
 												</Link>
 											</li>
 											<li>
-												<Link href="/">
+												<Link href="/DAEB5">
 													<a>Dự Án EB-5</a>
 												</Link>
 											</li>
@@ -442,7 +442,7 @@ const NavOne = () => {
 										</ul>
 									</li>
 									<li>
-										<Link href="/dinhcuuc">
+										<Link href="/#">
 											<a>Định Cư Úc</a>
 										</Link>
 										<ul className="sub-menu">
@@ -479,7 +479,7 @@ const NavOne = () => {
 										</ul>
 									</li>
 									<li>
-										<Link href="/dinhcucanada">
+										<Link href="/#">
 											<a>Định cư Canada</a>
 										</Link>
 										<ul className="sub-menu">
