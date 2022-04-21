@@ -49,7 +49,7 @@ const DinhCuBritish = () => {
 				&nbsp;&nbsp;
 				<span className="delimiter">/</span>
 				&nbsp;&nbsp;
-				<span className="current">[Các Trường Đại Học Và Cao Đẳng Canada]</span>
+				<span className="current">[Định cư British Columbia]</span>
 			</div>
 
 			<div className="row">
@@ -95,7 +95,7 @@ const DinhCuBritish = () => {
 								York.
 							</li>
 						</ul>
-                        <p><img src="assets/images/DinhCu/british1.jpg" alt="Alberta University" width={'900px'} /></p>
+                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/british1.jpg" alt="Alberta University" width={'700px'} /></p>
 						<h3>2. Điều kiện tham gia Chương trình Doanh nhân B.C:</h3>
 						<ul>
 							<li>
@@ -123,7 +123,7 @@ const DinhCuBritish = () => {
                             <b><i>- Mối liên hệ với Tỉnh bang B.C: Thực hiện chuyến khảo sát trực tiếp tại tỉnh bang B.C để thảo luận
 							chi tiết về hồ sơ và ký Performance Agreement.</i></b>
 						</ul>
-                        <p><img src="assets/images/DinhCu/british2.jpg" alt="Alberta University" width={'900px'} /></p>
+                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/british2.jpg" alt="Alberta University" width={'700px'} /></p>
                         <h3>3. Tổng quan về hoạt động kinh doanh tại B.C:</h3>
                         <ul>
                             <b><i>- Mở DN mới:</i></b>
@@ -142,25 +142,25 @@ const DinhCuBritish = () => {
                             động hàng ngày tại B.C </li>
                             <li> + Tạo ra ít nhất 01 việc làm toàn thời gian + Đầu tư tối thiểu 200,000CAD</li>
                         </ul>
-                        <p><img src="assets/images/DinhCu/british3.jpg" alt="Alberta University" width={'900px'} /></p>
+                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/british3.jpg" alt="Alberta University" width={'700px'} /></p>
 						<h3>4. Tiến trình hồ sơ:</h3>
                          <a>*** Thời gian xử lý hồ sơ: khoảng từ 12 tháng </a>
                          <ul>
-                            <li><b><i>Bước 1: </i></b><br/>
+                            <li><b><i>- Bước 1: </i></b><br/>
                             Thẩm định hồ sơ Chuyên gia thẩm định hồ sơ theo thang điểm di trú </li>
-                            <li><b><i>Bước 2: </i></b><br/>
+                            <li><b><i>- Bước 2: </i></b><br/>
                             Ký HĐDV/ HĐLS USIS Group chỉ nhận hồ sơ đủ điều kiện </li>
-                            <li><b><i>Bước 3: </i></b><br/>
+                            <li><b><i>- Bước 3: </i></b><br/>
                             Mở hồ sơ EOI Lập kế hoạch kinh doanh tổng quan/ Tỉnh bang B.C lựa chọn và gửi thư mời nộp hồ sơ </li>
-                            <li><b><i>Bước 4: </i></b> <br/>
+                            <li><b><i>- Bước 4: </i></b> <br/>
                             Khảo sát tỉnh bang Khảo sát tỉnh bang B.C và ký Performance Agreement (cam kết đầu tư) </li>
-                            <li><b><i>Bước 5: </i></b><br/>
+                            <li><b><i>- Bước 5: </i></b><br/>
                             Nộp hồ sơ tỉnh bang Nộp bộ HS đầy đủ và bảng kế hoạch KD chi tiết </li>
-                            <li><b><i>Bước 6: </i></b><br/>
+                            <li><b><i>- Bước 6: </i></b><br/>
                             Work Permit Nhận thư xác nhận của tỉnh bang/ Nộp HS xin Work Permit/ Sang B.C Canada sinh sống và kinh doanh </li>
-                            <li><b><i>Bước 7: </i></b><br/>
-                            - Nộp hồ sơ liên bang Nộp HS cùng thư đề cử của tỉnh bang lên IRCC/ Chuyển đổi từ Work Permit &#10145; PR sau 2 năm <br/>
-                            - Tiến trình xử lý hồ sơ sẽ phụ
+                            <li><b><i>- Bước 7: </i></b><br/>
+                            + Nộp hồ sơ liên bang Nộp HS cùng thư đề cử của tỉnh bang lên IRCC/ Chuyển đổi từ Work Permit &#10145; PR sau 2 năm <br/>
+                            + Tiến trình xử lý hồ sơ sẽ phụ
                             thuộc vào sự hợp tác của khách hàng,thời gian xét duyệt của Chính phủ Canada, tỉnh bang, liên bang và các bên thứ ba.
                             </li>
                         </ul>

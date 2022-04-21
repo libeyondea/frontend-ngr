@@ -49,7 +49,7 @@ const DinhCuNewBrunswich = () => {
 				&nbsp;&nbsp;
 				<span className="delimiter">/</span>
 				&nbsp;&nbsp;
-				<span className="current">[Các Trường Đại Học Và Cao Đẳng Canada]</span>
+				<span className="current">[Định cư New Brunswick]</span>
 			</div>
 
 			<div className="row">

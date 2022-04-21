@@ -7815,7 +7815,7 @@ ul#menu li:hover ul#sub {
 .inner-banner-DCCABRI {
 	background-color: #ffd19f;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-attachment: fixed;
 	position: relative;
 	background-image: url(/assets/images/DinhCu/BritishBG.jpg);
@@ -7845,7 +7845,7 @@ ul#menu li:hover ul#sub {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	padding-top: 169px;
+	padding-top: 150px;
 }
 
 .inner-banner-DCCABRI__title {
