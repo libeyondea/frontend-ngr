@@ -63,6 +63,26 @@ a {
     color: black;
    
 }
+.tieude3 {
+    text-align: center;
+    color: #993300;
+    font-size: 3rem;
+}
+.muc1 {
+    padding-top: 20px;
+}
+.tieude-22 {
+    padding-top: 15px;
+    text-align: center;
+    color: #993300;
+    font-size: 3rem;
+}
+.list{
+    list-style: disc;
+}
+.text111{
+    padding-left: 30px;
+}
 /* FOOTER */
 .site-footer__upper {
    /*  padding: 16px;

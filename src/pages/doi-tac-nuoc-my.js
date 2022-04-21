@@ -1,19 +1,22 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
+import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
+import CallToActionTwo from '../components/CallToActionTwo';
 import DTSlide from '../components/Doitac-Slide';
-import Details_dt from '../components/Details-dt';
+import DoiTacCacNuoc from '../components/DoiTacCacNuoc';
 
-const Detailspartner = () => {
+const TeachersPage = () => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Đối Tác">
 			<NavOne />
 			<DTSlide />
-			<Details_dt />
+			<DoiTacCacNuoc />
+			<CallToActionTwo />
 			<Footer />
 		</Layout>
 	);
 };
 
-export default Detailspartner;
+export default TeachersPage;
