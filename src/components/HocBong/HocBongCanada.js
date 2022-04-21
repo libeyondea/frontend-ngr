@@ -10,19 +10,17 @@ const HocBongCanada = () => {
 				<h1 className="tieude-2">HỌC BỔNG HẤP DẪN TẠI TRƯỜNG ĐẠI HỌC</h1>
 				<h1 className="tieude-2">CANADA WEST</h1>
 				<div className="noidung1">
-					{' '}
-					{/*nội dung 1 của trang học bổng */}
 					<h2 className="muc1">1. SƠ LƯỢC VỀ TRƯỜNG</h2>
-					<div style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }}>
-						<strong>
-							<b>Đại học Canada West (University Canada West)</b>
-						</strong>
-						được thành lập vào năm 2004, tọa lạc tại khuôn viên Thành phố Vancouver, là trường đại học trẻ nhưng chất
+					<div className='style-text text1' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
+						<p >
+                        <b >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Đại học Canada West (University Canada West)</b>được thành lập vào năm 2004, tọa lạc tại khuôn viên Thành phố Vancouver, là trường đại học trẻ nhưng chất
 						lượng lại vô cùng tuyệt vời. Đại học Canada West là một trường đại học có tầm nhìn rõ ràng – trở thành một
 						trường đại học độc lập hàng đầu, được tôn trọng ở Canada và nước ngoài, được biết đến với sự đổi mới và
 						hiệu quả trong việc chuẩn bị cho sinh viên có động lực cho sự nghiệp chuyên nghiệp và lãnh đạo xã hội.
+						</p>
+
 					</div>
-					<div className="anh-noidung1">
+					<div className="anh-1">
 						<img
 							src="/assets/images/HocBong/du-hoc-tan-con-duong-vang-canada-west-uni.png"
 							alt="canada"
@@ -30,9 +28,12 @@ const HocBongCanada = () => {
 						/>
 					</div>
 				</div>
-				<div>
-					<h2 className="muc1">2. Những Ngành Học Nổi Bậc</h2>
-					<b>* Cử nhân thương mại</b>
+				<div style={{clear:"both"}}></div>
+                 {/*********************************NOI DUNG 2*************************************/}
+				<div className="noidung2">
+					<div className='text2 style-text' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
+						<h2 className="muc1">2. Những Ngành Học Nổi Bậc</h2>
+						<b className='style-text'>* Cử nhân thương mại</b>
 					<ul>
 						<li>Chương trình đào tạo: 4 năm</li>
 						<li>Bằng BCom đạt điểm kiểm định ACBSP được Bộ Giáo Dục Hoa Kỳ công nhận</li>
@@ -63,17 +64,21 @@ const HocBongCanada = () => {
 						<li>Có đào tạo chuyên sâu trong các lĩnh vực Leadership, Marketing và Finance</li>
 						<li>Bằng MBA đạt điểm kiểm định ACBSP được Bộ Giáo Dục Hoa Kỳ công nhận</li>
 					</ul>
-					<div className="anh-noidung1">
+					</div>
+					<div className="chuaanh-2">
 						<img
-							src="/assets/images/HocBong/du-hoc-tan-con-duong-vang-canada-west-uni.png"
+							src="/assets/images/HocBong/NGANH.jpg"
 							alt="canada"
 							className="anh1"
 						/>
 					</div>
 				</div>
-				<div>
-					<h2 className="muc1">3. Điều kiện tuyển sinh</h2>
-					<b>Thạc sĩ:</b>
+                <div style={{clear:"both"}}></div>
+                  {/********************************NOI DUNG 3***********************************/}
+				  <div className="noidung3">
+				  <h2 className="muc1">3. Điều Kiện Tuyển Sinh</h2>
+					<div className='style-text text1' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
+						<b>Thạc sĩ:</b>
 					<p>
 						Sinh viên học MBA ngoài các yêu cầu cơ bản như GPA 3/4, IELTS 6.5 (6.5 (Writing 6.0 or higher)/ TOEFL 88
 						(with minimum of 20 in each component)
@@ -87,18 +92,9 @@ const HocBongCanada = () => {
 							<b>Đại học</b>: Tốt nghiệp THPT (lớp 12) với điểm C trở lên, IELTS 6.5 (không kỹ năng nào dưới 6.0)
 						</li>
 					</ul>
-				</div>
-				<div>
-					<h2 className="muc1">4. Vì sao nên chọn Đại học Canada West University</h2>
-					<ul>
-						<li>Giáo sư chuyên gia có kinh nghiệm trong ngành công nghiệp đầu tiên</li>
-						<li>Chương trình cấp bằng kinh doanh được công nhận bởi ACBSP</li>
-						<li>Quy mô lớp học nhỏ để nâng cao kinh nghiệm và sự tham gia của sinh viên</li>
-						<li>Tùy chọn hoàn thành nhanh hơn cho sinh viên có động lực</li>
-						<li>Vị trí trung tâm thành phố Vancouver lịch sử và thuận tiện, gần giao thông công cộng</li>
-						<li>Đại học tập trung vào kinh doanh và công nghệ, tập trung vào ứng dụng thực tế</li>
-					</ul>
-					<div className="anh-noidung1">
+
+					</div>
+					<div className="anh-1">
 						<img
 							src="/assets/images/HocBong/du-hoc-tan-con-duong-vang-canada-west-uni.png"
 							alt="canada"
@@ -106,9 +102,37 @@ const HocBongCanada = () => {
 						/>
 					</div>
 				</div>
-				<div>
-					<h2 className="muc1">5. Học Bổng</h2>
-					<p>
+				<div style={{clear:"both"}}></div>
+                 {/*********************************NOI DUNG 4*************************************/}
+				 <h2 className="muc1">4. Vì Sao Nên Chọn Đại Học Canada West Universityc</h2>
+				<div className="noidung4">
+					{' '}
+					{/*nội dung 1 của trang học bổng */}
+					<div className='text2 style-text' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
+						<b className='style-text'>* Cử nhân thương mại</b>
+						<ul>
+						<li>Giáo sư chuyên gia có kinh nghiệm trong ngành công nghiệp đầu tiên</li>
+						<li>Chương trình cấp bằng kinh doanh được công nhận bởi ACBSP</li>
+						<li>Quy mô lớp học nhỏ để nâng cao kinh nghiệm và sự tham gia của sinh viên</li>
+						<li>Tùy chọn hoàn thành nhanh hơn cho sinh viên có động lực</li>
+						<li>Vị trí trung tâm thành phố Vancouver lịch sử và thuận tiện, gần giao thông công cộng</li>
+						<li>Đại học tập trung vào kinh doanh và công nghệ, tập trung vào ứng dụng thực tế</li>
+					</ul>
+					</div>
+					<div className="chuaanh-2">
+						<img
+							src="/assets/images/HocBong/NGANH.jpg"
+							alt="canada"
+							className="anh1"
+						/>
+					</div>
+				</div>
+                <div style={{clear:"both"}}></div>
+                     {/**************************NOI DUNG 5***************************/}
+				<div className="noidung5">
+				<h2 className="muc1">5. Học Bổng</h2>
+					<div className='style-text text1' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
+						<p>
 						<b>
 							Hiện các kỳ nhập học tiếp theo của năm 2021: kỳ tháng 7, kỳ tháng 10 vẫn đang áp dụng các chương trình
 							học bổng sau ạ:
@@ -132,7 +156,8 @@ const HocBongCanada = () => {
 							</a>
 						</li>
 					</ul>
-					<div className="anh-noidung5">
+					</div>
+					<div className="anh-1">
 						<img
 							src="/assets/images/HocBong/du-hoc-tan-con-duong-vang-hoc-bong-canada-west-university.jpg"
 							alt="canada"
@@ -140,6 +165,8 @@ const HocBongCanada = () => {
 						/>
 					</div>
 				</div>
+                <div style={{clear:"both"}}></div>
+				<div className='line'></div>
 				<div className='next-previous'>
 					<div className="post-navigation">
 						<div className="post-previous">
