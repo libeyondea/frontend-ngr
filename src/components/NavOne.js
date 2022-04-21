@@ -68,8 +68,8 @@ const NavOne = () => {
 			data.map((item, index) => {
 				return (
 					<li key={index}>
-						<Link href={`/${item.slug}`}>
-							<a>{item.name}</a>
+						<Link href={`/${item.translations[0].slug}`}>
+							<a>{item.translations[0].name}</a>
 						</Link>
 						{item.children.length ? <ul className="sub-menu">{categoriesRecursive(item.children)}</ul> : null}
 					</li>
