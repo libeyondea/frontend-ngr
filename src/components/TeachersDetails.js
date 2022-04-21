@@ -62,7 +62,7 @@ const TeachersDetails = () => {
 									<div className="service-icon text-center">
 									<i className="fa fa-coins"></i>
 									</div>
-									<h3>HỌC phí</h3>
+									<h3>HỌC PHÍ</h3>
 									<p>
 										Tùy theo chương trình mà học viên lựa chọn mức học sẽ giao động cho khả năng bản thân mình với các mức học phí phù hợp.
 									</p>
@@ -80,7 +80,7 @@ const TeachersDetails = () => {
 				<div className="container">
 					<div className="row mb-50 justify-content-center">
 						<div className="col-md-5 col-sm-12 text-center offset-md-1">
-							<img src="images/about/about-1.jpg" className="img-fluid rounded shadow" alt="" />
+							<img className="hinhanh"src="/assets/images/daotao2.png"  />
 						</div>
 						<div className="col-md-5 col-sm-12">
 							<div className="content">
@@ -116,7 +116,7 @@ const TeachersDetails = () => {
 							<p />
 						</div>
 						<div className="col-12 col-md-5 col-sm-12 text-center">
-							<img src="images/about/about-2.jpg" className="img-fluid rounded shadow" alt="" />
+						<img  className="hinhanhtwo" src="/assets/images/daotao3.png"  />
 						</div>
 					</div>{' '}
 					{/* End row */}
