@@ -88,8 +88,8 @@ const DinhCuBritish = () => {
                                     du lịch... với ngành công nghiệp điện ảnh được mệnh danh “Hollywood phía Bắc”, khu vực Vancouver là địa điểm sản xuất 
                                     phim lớn thứ ba ở Bắc Mỹ, sau Los Angeles và New York.</li>
                             </ul>
-                            <p>Điều kiện tham gia Chương trình Doanh nhân B.C:
-                            Nhà đầu tư: Có vốn đầu tư tối thiểu 200,000CAD (từ nguồn Franchise, mua lại doanh nghiệp hoặc mở DN mới)
+                            <h3>Điều kiện tham gia Chương trình Doanh nhân B.C:</h3>
+                            <ol>Nhà đầu tư: Có vốn đầu tư tối thiểu 200,000CAD (từ nguồn Franchise, mua lại doanh nghiệp hoặc mở DN mới)
                             + Không giới hạn độ tuổi (đang trong độ tuổi lao động là một lợi thế)
 
                             + Đạt thang điểm di trú (phụ thuộc vào thời điểm nộp hồ sơ)
