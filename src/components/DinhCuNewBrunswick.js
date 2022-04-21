@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Image from './Image';
-const DinhCuBritish = () => {
+const DinhCuNewBrunswich = () => {
 	return (
 		<div style={{ backgroundColor: 'white' }}>
-			<section className="inner-banner-DCCABRI">
+			<section className="inner-banner-DCCANEW">
 				<div className="container">
 					<ul className="list-unstyled thm-breadcrumb">
 						<li>
@@ -13,7 +13,7 @@ const DinhCuBritish = () => {
 							<a href="#">Chi Tiết Về Định Cư</a>
 						</li>
 					</ul>
-					<h2 className="inner-banner-DCCABRI__title">ĐỊNH CƯ CANADA</h2>
+					<h2 className="inner-banner-DCCANEW__title">ĐỊNH CƯ CANADA</h2>
 				</div>
 			</section>
 			<div id="breaking-news" className="breaking-school" style={{ color: 'color: #E4EAE3' }}>
@@ -65,7 +65,8 @@ const DinhCuBritish = () => {
 							marginLeft: '75px'
 						}}
 					>
-						ĐỊNH CƯ CANADA – TỈNH BANG BRITISH COLUMBIA(B.C)
+						ĐỊNH CƯ CANADA – TỈNH BANG NEW BRUNSWICK
+
 					</h3>
 					<div className="noidung">
 						<ul>
@@ -95,7 +96,7 @@ const DinhCuBritish = () => {
 								York.
 							</li>
 						</ul>
-                        <p><img src="assets/images/DinhCu/british1.jpg" alt="Alberta University" width={'900px'} /></p>
+                        <p><img src="assets/images/DinhCu/New-Brunswick2.jpg" alt="Alberta University" width={'900px'} /></p>
 						<h3>2. Điều kiện tham gia Chương trình Doanh nhân B.C:</h3>
 						<ul>
 							<li>
@@ -123,7 +124,7 @@ const DinhCuBritish = () => {
                             <b><i>- Mối liên hệ với Tỉnh bang B.C: Thực hiện chuyến khảo sát trực tiếp tại tỉnh bang B.C để thảo luận
 							chi tiết về hồ sơ và ký Performance Agreement.</i></b>
 						</ul>
-                        <p><img src="assets/images/DinhCu/british2.jpg" alt="Alberta University" width={'900px'} /></p>
+                        <p><img src="assets/images/DinhCu/New-Brunswick3.jpg" alt="Alberta University" width={'900px'} /></p>
                         <h3>3. Tổng quan về hoạt động kinh doanh tại B.C:</h3>
                         <ul>
                             <b><i>- Mở DN mới:</i></b>
@@ -142,7 +143,7 @@ const DinhCuBritish = () => {
                             động hàng ngày tại B.C </li>
                             <li> + Tạo ra ít nhất 01 việc làm toàn thời gian + Đầu tư tối thiểu 200,000CAD</li>
                         </ul>
-                        <p><img src="assets/images/DinhCu/british3.jpg" alt="Alberta University" width={'900px'} /></p>
+                        <p><img src="assets/images/DinhCu/New-Brunswick4.jpg" alt="Alberta University" width={'900px'} /></p>
 						<h3>4. Tiến trình hồ sơ:</h3>
                          <a>*** Thời gian xử lý hồ sơ: khoảng từ 12 tháng </a>
                          <ul>
@@ -423,4 +424,4 @@ const DinhCuBritish = () => {
         </div>
 	);
 };
-export default DinhCuBritish;
+export default DinhCuNewBrunswich;
