@@ -83,7 +83,7 @@ const CacTruongDuHocCacNuoc = () => {
 								chuyên sâu, Saskatchewan Polytechnic còn là thành viên của Nhóm các trường bách khoa Canada
 								(Polytechnics Canada) …
 							</p>
-							<a href="/DuHocCanada-details" className="btn btn-primary">
+							<a href="/DuHocCanada-details" className="button">
 								Đọc Thêm
 							</a>
 						</div>
@@ -105,7 +105,7 @@ const CacTruongDuHocCacNuoc = () => {
 								chuyên sâu, Saskatchewan Polytechnic còn là thành viên của Nhóm các trường bách khoa Canada
 								(Polytechnics Canada) …
 							</p>
-							<a href="#" className="btn btn-primary">
+							<a href="/DuHocCanada-details" className="button">
 								Đọc Thêm
 							</a>
 						</div>
@@ -126,7 +126,7 @@ const CacTruongDuHocCacNuoc = () => {
 								tiếng. Nếu Mỹ có Đại học Havard, Anh có Đại học Oxford thì Canada có Đại học British Columbia. Du
 								học, ai cũng mong được sở hữu tấm bằng của những trường danh tiếng. …
 							</p>
-							<a href="#" className="btn btn-primary">
+							<a href="/DuHocCanada-details" className="button">
 								Đọc Thêm
 							</a>
 						</div>
@@ -147,7 +147,7 @@ const CacTruongDuHocCacNuoc = () => {
 								phủ. Toạ lạc tại khu vực cộng đồng dân cư thịnh vượng và đa dạng của Tây Bắc thuộc tỉnh British
 								Columbia. Coast Mountain College cung cấp nhiều chương trình đào tạo chất lượng với …
 							</p>
-							<a href="#" className="btn btn-primary">
+							<a href="/DuHocCanada-details" className="button">
 								Đọc Thêm
 							</a>
 						</div>
@@ -171,7 +171,7 @@ const CacTruongDuHocCacNuoc = () => {
 							toạ lạc tại thành phố Montreal. Montreal là thành phố có nhiều người dân nói tiếng Pháp, chỉ sau Paris. Đây còn lầ điểm quy tụ 
 							của nhiều du học …
 							</p>
-							<a href="#" className="btn btn-primary">
+							<a href="/DuHocCanada-details" className="button">
 								Đọc Thêm
 							</a>
 						</div>
@@ -195,7 +195,7 @@ const CacTruongDuHocCacNuoc = () => {
 							Toạ lạc tại thị trấn Edmonton, tỉnh Alberta, Canada. Nằm phía Tây Canada, giáp liền với British Columbia và Saskatchewan. 
 							Đây được coi là một trong những vùng có mức sống cao nhất tại Canada. Alberta Univeristy là một …
 							</p>
-							<a href="#" className="btn btn-primary">
+							<a href="/DuHocCanada-details" className="button">
 								Đọc Thêm
 							</a>
 						</div>
@@ -219,7 +219,7 @@ const CacTruongDuHocCacNuoc = () => {
 							thuộc British Columbia của đất nước Canada xinh đẹp. Đại học công lập Thompson Rivers (TRU) là ngôi trường công lập có lịch sử 
 							lâu đời ở Canada. Đại …
 							</p>
-							<a href="/DuHocCanada-details" className="btn btn-primary">
+							<a href="/DuHocCanada-details" className="button">
 								Đọc Thêm
 							</a>
 						</div>
@@ -243,7 +243,7 @@ const CacTruongDuHocCacNuoc = () => {
 							bang Manitoba (Canada). MITT là Học viện Kĩ thuật hàng đầu tại tỉnh bang Manitoba và được thành lập từ năm 1983. Trong suốt 
 							30 năm qua, trường cung cấp chương …
 							</p>
-							<a href="/DuHocCanada-details" className="btn btn-primary">
+							<a href="/DuHocCanada-details" className="button">
 								Đọc Thêm
 							</a>
 						</div>
@@ -266,7 +266,7 @@ const CacTruongDuHocCacNuoc = () => {
 							DALHOUSIE UNIVERSITY DALHOUSIE UNIVERSITY – TRƯỜNG ĐẠI HỌC VỚI HƠN 200 NĂM LỊCH SỬ Dalhousie University thành lập năm 1818. 
 							Là trường đại học nghiên cứu hàng đầu thuộc khu vực bờ Đại Tây Dương Canada. Đây còn là ngôi nhà chung của 18.500 sinh viên đang theo học tại …
 							</p>
-							<a href="/DuHocCanada-details" className="btn btn-primary">
+							<a href="/DuHocCanada-details" className="button">
 								Đọc Thêm
 							</a>
 						</div>

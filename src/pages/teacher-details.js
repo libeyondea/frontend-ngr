@@ -10,7 +10,7 @@ const TeachersDetailsPage = () => {
     return (
         <Layout pageTitle="Tân Con Đường Vàng | Teachers Details">
             <NavOne />
-            <PageHeader title="Teachers Details" />
+            <PageHeader title="Luyện thi tiếng anh" />
             <TeachersDetails />
             <Footer />
         </Layout>
