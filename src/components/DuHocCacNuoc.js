@@ -83,7 +83,7 @@ const CacTruongDuHocCacNuoc = () => {
 								chuyên sâu, Saskatchewan Polytechnic còn là thành viên của Nhóm các trường bách khoa Canada
 								(Polytechnics Canada) …
 							</p>
-							<a href="#" className="btn btn-primary">
+							<a href="/DuHocCanada-details" className="btn btn-primary">
 								Đọc Thêm
 							</a>
 						</div>
