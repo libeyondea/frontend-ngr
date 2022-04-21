@@ -16,9 +16,7 @@ const Khachhang = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
-										<a className="tenkh">Đan Vy</a>
-									</Link>
+									<a className="tenkh">Đan Vy</a>
 								</h2>
 								<p className="team-one__designation">Khách hàng</p>
 								<p className="team-one__text">Đang học James Cook University tại Brisbane, Úc.</p>
@@ -46,9 +44,7 @@ const Khachhang = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
-										<a>Ngân Nguyễn</a>
-									</Link>
+									<a>Ngân Nguyễn</a>
 								</h2>
 								<p className="team-one__designation">Khách hàng</p>
 								<p className="team-one__text">Đang học Đại Học Le Cordon Bleu tại Adelaide, Úc.</p>
@@ -76,9 +72,7 @@ const Khachhang = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
-										<a>Linda Đặng</a>
-									</Link>
+									<a>Linda Đặng</a>
 								</h2>
 								<p className="team-one__designation">Khách hàng</p>
 								<p className="team-one__text">There are many varia of passages of lorem.</p>
@@ -106,9 +100,7 @@ const Khachhang = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
-										<a>Giang Nguyễn</a>
-									</Link>
+									<a>Giang Nguyễn</a>
 								</h2>
 								<p className="team-one__designation">Khách hàng</p>
 								<p className="team-one__text">
@@ -138,9 +130,7 @@ const Khachhang = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
-										<a>Jessy Huỳnh</a>
-									</Link>
+									<a>Jessy Huỳnh</a>
 								</h2>
 								<p className="team-one__designation">Khách hàng</p>
 								<p className="team-one__text">
@@ -170,9 +160,7 @@ const Khachhang = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
-										<a>Tân Huỳnh</a>
-									</Link>
+									<a>Tân Huỳnh</a>
 								</h2>
 								<p className="team-one__designation">Khách hàng</p>
 								<p className="team-one__text">
@@ -202,9 +190,7 @@ const Khachhang = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
-										<a>Vy Nguyễn</a>
-									</Link>
+									<a>Vy Nguyễn</a>
 								</h2>
 								<p className="team-one__designation">Khách Hàng</p>
 								<p className="team-one__text">
@@ -234,9 +220,7 @@ const Khachhang = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/teacher-details">
-										<a>Đỗ Thị Kim Nhi</a>
-									</Link>
+									<a>Đỗ Thị Kim Nhi</a>
 								</h2>
 								<p className="team-one__designation">Khách Hàng</p>
 								<p className="team-one__text">đã tốt nghiệp trường Woodcroft College tại Adelaide, Úc.</p>

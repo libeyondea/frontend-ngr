@@ -7,9 +7,11 @@ const NavOne = () => {
 	const [sticky, setsticky] = useState(false);
 	const [showBtn, setshowBtn] = useState(false);
 
-	const { data: listCategory } = useSWR(`/categories`, {
+	const { data: listCategory } = useSWR(`/categories?sort_by=id&sort_direction=asc`, {
 		revalidateOnFocus: false
 	});
+
+	console.log(listCategory);
 
 	useEffect(() => {
 		window.addEventListener('scroll', handleScroll);
@@ -57,6 +59,23 @@ const NavOne = () => {
 		searchOverlay.addEventListener('click', function () {
 			searchPopup.classList.remove('active');
 		});
+	};
+
+	// recursive categories
+	const categoriesRecursive = (data = []) => {
+		return (
+			data.length &&
+			data.map((item, index) => {
+				return (
+					<li key={index}>
+						<Link href={`/${item.slug}`}>
+							<a>{item.name}</a>
+						</Link>
+						{item.children.length ? <ul className="sub-menu">{categoriesRecursive(item.children)}</ul> : null}
+					</li>
+				);
+			})
+		);
 	};
 
 	return (
@@ -107,7 +126,8 @@ const NavOne = () => {
 									<a>Trang chủ </a>
 								</Link>
 							</li>
-							<li className="current">
+							{listCategory && categoriesRecursive(listCategory.data)}
+							{/* 	<li className="current">
 								<Link href="/">
 									<a>Du Học</a>
 								</Link>
@@ -405,32 +425,32 @@ const NavOne = () => {
 								</Link>
 								<ul className="sub-menu">
 									<li>
-										<Link href="/dinhcumy">
+										<Link href="/#">
 											<a>Định Cư Mỹ</a>
 										</Link>
 										<ul className="sub-menu">
 											<li>
-												<Link href="/">
+												<Link href="/CTEB5">
 													<a>Chương Trình EB-5</a>
 												</Link>
 											</li>
 											<li>
-												<Link href="/">
+												<Link href="/CTL1">
 													<a>Chương Trình L-1</a>
 												</Link>
 											</li>
 											<li>
-												<Link href="/">
+												<Link href="/BLTNMy">
 													<a>Bảo Lãnh Thân Nhân</a>
 												</Link>
 											</li>
 											<li>
-												<Link href="/">
+												<Link href="/DVAnCu">
 													<a>Dịch Vụ An cư</a>
 												</Link>
 											</li>
 											<li>
-												<Link href="/">
+												<Link href="/DAEB5">
 													<a>Dự Án EB-5</a>
 												</Link>
 											</li>
@@ -442,7 +462,7 @@ const NavOne = () => {
 										</ul>
 									</li>
 									<li>
-										<Link href="/dinhcuuc">
+										<Link href="/#">
 											<a>Định Cư Úc</a>
 										</Link>
 										<ul className="sub-menu">
@@ -479,7 +499,7 @@ const NavOne = () => {
 										</ul>
 									</li>
 									<li>
-										<Link href="/dinhcucanada">
+										<Link href="/#">
 											<a>Định cư Canada</a>
 										</Link>
 										<ul className="sub-menu">
@@ -656,6 +676,7 @@ const NavOne = () => {
 									</li>
 								</ul>
 							</li>
+							*/}
 							<li>
 								<Link href="/contact">
 									<a>Liên Hệ</a>
@@ -690,24 +711,11 @@ const NavOne = () => {
 									</>
 								)}
 							</span>
-							<span className="title-hover">Chuyển đi.....</span>
+							<span className="title-hover">Chuyển đi .....</span>
 						</a>
 					</div>
 				</div>
 			</nav>
-			<div className="site-header__decor">
-				<div className="site-header__decor-row">
-					<div className="site-header__decor-single">
-						<div className="site-header__decor-inner-1"></div>
-					</div>
-					<div className="site-header__decor-single">
-						<div className="site-header__decor-inner-2"></div>
-					</div>
-					<div className="site-header__decor-single">
-						<div className="site-header__decor-inner-3"></div>
-					</div>
-				</div>
-			</div>
 		</header>
 	);
 };
