@@ -56,139 +56,42 @@ const Visa = () => {
 					<div className="card-TH">
 						<div className="card-header">
 							<p className="card-header-TH">
-								Trường Coast Mountain College – Du học Canada – Du học Tân Con Đường Vàng
+							[Du học Canada] – Lễ tốt nghiệp cấp ba của bạn Anna Phan – Du học Canada – Du học Tân Con Đường Vàng
 							</p>
 						</div>
 						<div className="card-body" style={{ lineHeight: '24px' }}>
 							<p className="img-card-TH">
-								<img src="/assets/images/TruongHoc/COAST.png" alt="Trường Coast Mountain College" />
+								<img src="/assets/images/Visa/visa1.jpg" alt="HIGH SCHOOL GRADUATION CỦA MỘT BẠN DU HỌC SINH ĐÁNG YÊU" />
 							</p>
-							<h5 className="card-title-TH">Trường Coast Mountain College</h5>
+							<h5 className="card-title-TH">HIGH SCHOOL GRADUATION CỦA MỘT BẠN DU HỌC SINH ĐÁNG YÊU</h5>
 							<p className="card-text-TH">
-								COAST MOUNTAIN COLLEGE Coast Mountain College (CMTN) được thành lập dưới sự công nhận của Chính
-								phủ. Toạ lạc tại khu vực cộng đồng dân cư thịnh vượng và đa dạng của Tây Bắc thuộc tỉnh British
-								Columbia. Coast Mountain College cung cấp nhiều chương trình đào tạo chất lượng với …
+							Vừa rồi, một bạn du học sinh vô cùng xinh xắn của tập thể Du học Tân Con Đường Vàng – Anna Phan vừa hoàn thành chương trình trung học và tham gia lễ tốt nghiệp cấp 3 tại Calgary, Alberta Canada. Anna Phan đã xuất sắc nhận được visa và giờ đây đã tốt nghiệp với thành tích rất tốt tại Canada.
 							</p>
-							<a href="#" className="btn btn-primary">
+							<a href="/VisaCa_details" className="button">
 								Đọc Thêm
 							</a>
 						</div>
 					</div>
+				
 					<div className="card-TH">
 						<div className="card-header">
 							<p className="card-header-TH">
-							Trường Đại học Concordia – TOP TRƯỜNG ĐẠI HỌC TRẺ NỔI TIẾNG TẠI CANADA – Du học Canada – Du học Tân Con Đường Vàng
+							XIN VISA DU HỌC CANADA CÓ CẦN PHỎNG VẤN HAY KHÔNG? – Du học Canada – Du học Tân Con Đường Vàng
 							</p>
 						</div>
 						<div className="card-body" style={{ lineHeight: '24px' }}>
 							<p className="img-card-TH">
 								<img
-									src="/assets/images/TruongHoc/CONCOR.gif"
-									alt="Trường Đại học Concordia"
-								/>
-							</p>
-							<h5 className="card-title-TH">Trường Đại học Concordia</h5>
-							<p className="card-text-TH">
-							CONCORDIA UNIVERSITY CONCORDIA UNIVERSITY – TOP TRƯỜNG ĐẠI HỌC TRẺ NỔI TIẾNG TẠI CANADA Concordia University thành lập năm 1974, 
-							toạ lạc tại thành phố Montreal. Montreal là thành phố có nhiều người dân nói tiếng Pháp, chỉ sau Paris. Đây còn lầ điểm quy tụ 
-							của nhiều du học …
-							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
-						</div>
-					</div>
-					<div className="card-TH">
-						<div className="card-header">
-							<p className="card-header-TH">
-							Trường Alberta University – Du học Canada – Du học Tân Con Đường Vàng
-							</p>
-						</div>
-						<div className="card-body" style={{ lineHeight: '24px' }}>
-							<p className="img-card-TH">
-								<img
-									src="/assets/images/TruongHoc/ALBER.png"
-									alt="Trường Alberta University"
-								/>
-							</p>
-							<h5 className="card-title-TH">Trường Alberta University</h5>
-							<p className="card-text-TH">
-							ALBERTA UNIVERSITY Alberta University là một trường nghiên cứu công lập. 
-							Toạ lạc tại thị trấn Edmonton, tỉnh Alberta, Canada. Nằm phía Tây Canada, giáp liền với British Columbia và Saskatchewan. 
-							Đây được coi là một trong những vùng có mức sống cao nhất tại Canada. Alberta Univeristy là một …
-							</p>
-							<a href="#" className="btn btn-primary">
-								Đọc Thêm
-							</a>
-						</div>
-					</div>
-					<div className="card-TH">
-						<div className="card-header">
-							<p className="card-header-TH">
-							Trường Thompson Rivers Univerity – Du học Canada – Du học Tân Con Đường Vàng
-							</p>
-						</div>
-						<div className="card-body" style={{ lineHeight: '24px' }}>
-							<p className="img-card-TH">
-								<img
-									src="/assets/images/TruongHoc/THOMP.png"
-									alt="Trường Thompson Rivers Univerity"
-								/>
-							</p>
-							<h5 className="card-title-TH">Trường Thompson Rivers Univerity</h5>
-							<p className="card-text-TH">
-							THOMPSON RIVERS THOMPSON RIVERS UNIVERSITY – Ngôi trường chi phí thấp,chất lượng cao của Canada Tọa lạc tại thành phố Kamloops, 
-							thuộc British Columbia của đất nước Canada xinh đẹp. Đại học công lập Thompson Rivers (TRU) là ngôi trường công lập có lịch sử 
-							lâu đời ở Canada. Đại …
-							</p>
-							<a href="/DuHocCanada-details" className="btn btn-primary">
-								Đọc Thêm
-							</a>
-						</div>
-					</div>
-					<div className="card-TH">
-						<div className="card-header">
-							<p className="card-header-TH">
-							Trường Manitoba Institute of Trades & Technology – Du học Canada – Du học Tân Con Đường Vàng
-							</p>
-						</div>
-						<div className="card-body" style={{ lineHeight: '24px' }}>
-							<p className="img-card-TH">
-								<img
-									src="/assets/images/TruongHoc/MANI.png"
-									alt="Trường Manitoba Institute of Trades & Technology"
-								/>
-							</p>
-							<h5 className="card-title-TH">Trường Manitoba Institute of Trades & Technology</h5>
-							<p className="card-text-TH">
-							MANITOBA INSTITUTE OF TRADES & TECHNOLOGY  Manitoba Institute of Trades & Technology (MITT) toạ lạc tại Thành phố Winnipeg, 
-							bang Manitoba (Canada). MITT là Học viện Kĩ thuật hàng đầu tại tỉnh bang Manitoba và được thành lập từ năm 1983. Trong suốt 
-							30 năm qua, trường cung cấp chương …
-							</p>
-							<a href="/DuHocCanada-details" className="btn btn-primary">
-								Đọc Thêm
-							</a>
-						</div>
-					</div>
-					<div className="card-TH">
-						<div className="card-header">
-							<p className="card-header-TH">
-							Trường Dalhousie University – Du học Canada – Du học Tân Con Đường Vàng
-							</p>
-						</div>
-						<div className="card-body" style={{ lineHeight: '24px' }}>
-							<p className="img-card-TH">
-								<img
-									src="/assets/images/TruongHoc/DAL.png"
+									src="/assets/images/Visa/visa2.jpg"
 									alt="Trường Dalhousie University"
 								/>
 							</p>
-							<h5 className="card-title-TH">Trường Dalhousie University</h5>
+							<h5 className="card-title-TH">XIN VISA DU HỌC CANADA CÓ CẦN PHỎNG VẤN HAY KHÔNG?</h5>
 							<p className="card-text-TH">
-							DALHOUSIE UNIVERSITY DALHOUSIE UNIVERSITY – TRƯỜNG ĐẠI HỌC VỚI HƠN 200 NĂM LỊCH SỬ Dalhousie University thành lập năm 1818. 
-							Là trường đại học nghiên cứu hàng đầu thuộc khu vực bờ Đại Tây Dương Canada. Đây còn là ngôi nhà chung của 18.500 sinh viên đang theo học tại …
+							Xin visa du học Canada có khó không? Nhưng để có cơ hội du học Canada thì bạn phải nắm chắc trong tay visa Canada đã nhé. 
+							Người trong cuộc mới hiểu được người trong kẹt, nên hãy để New Golden Road tôi giải quyết thắc mắc này cho quý dị thông qua bài viết dưới đây.
 							</p>
-							<a href="/DuHocCanada-details" className="btn btn-primary">
+							<a href="/DuHocCanada-details" className="button">
 								Đọc Thêm
 							</a>
 						</div>
@@ -328,8 +231,6 @@ const Visa = () => {
 					1
 				</a>
 				<a href="#">2</a>
-				<a href="#">3</a>
-				<a href="#">4</a>
 				<a href="#">
 					<i className="fa fa-angle-double-right" />
 				</a>

@@ -57,9 +57,9 @@ const Trunghoc_details = () => {
 							như tranh Vancouver, British Columbia. Bodwell high school được chứng nhận và thanh tra bởi Sở Giáo
 							Dục British Columbia và được công nhận là một trường hàng đầu trong số các trường nội trú Canada.
 						</div>
-						<div className="anh-noidung1">
-							<img src="/assets/images/Trunghoc/trunghoc1.1.png" alt="canada" className="anh1" />
-						</div>
+				
+							<img src="/assets/images/Trunghoc/trunghoc1.1.png" alt="canada" className="anhTH" />
+					
 
 						<h2 className="mucTH">CHƯƠNG TRÌNH ĐÀO TẠO</h2>
 						<div style={{ color: '#333', fontSize: '20px', fontWeight: 'lighter' }}>
@@ -75,9 +75,9 @@ const Trunghoc_details = () => {
 								<li> &#10004; Khóa học hè</li>
 							</ul>
 						</div>
-						<div className="anh-noidung1">
-							<img src="/assets/images/Trunghoc/trunghoc1.2.jpeg" alt="canada" className="anh1" />
-						</div>
+						
+							<img src="/assets/images/Trunghoc/trunghoc1.2.jpeg" alt="canada" className="anhTH" />
+						
 						<div>
 							<h2 className="mucTH">ĐIỂM NỔI BẬT CỦA BODWELL HIGH SCHOOL</h2>
 							<div style={{ color: '#333', fontSize: '20px', fontWeight: 'lighter' }}>
@@ -104,9 +104,9 @@ const Trunghoc_details = () => {
 									</li>
 								</ul>
 							</div>
-							<div className="anh-noidung1">
-								<img src="/assets/images/Trunghoc/trunghoc1.3.png" alt="canada" className="anh1" />
-							</div>
+						
+								<img src="/assets/images/Trunghoc/trunghoc1.3.png" alt="canada" className="anhTH" />
+						
 						</div>
 						<div>
 							<h2 className="mucTH">HOẠT ĐỘNG NGOẠI KHÓA</h2>
@@ -123,9 +123,9 @@ const Trunghoc_details = () => {
 									</li>
 								</ul>
 							</div>
-							<div className="anh-noidung1">
-								<img src="/assets/images/Trunghoc/trunghoc1.4.png" alt="canada" className="anh1" />
-							</div>
+					
+								<img src="/assets/images/Trunghoc/trunghoc1.4.png" alt="canada" className="anhTH" />
+					
 						</div>
 						<div>
 							<h2 className="mucTH">KÝ TÚC XÁ</h2>
@@ -136,9 +136,9 @@ const Trunghoc_details = () => {
 								vụ nội trú tại trường cho học sinh, Bodwell còn có dịch vụ homestay cho sinh viên quốc tế sống xa
 								nhà.
 							</div>
-							<div className="anh-noidung1">
-								<img src="/assets/images/Trunghoc/trunghoc1.5.png" alt="canada" className="anh1" />
-							</div>
+				
+								<img src="/assets/images/Trunghoc/trunghoc1.5.png" alt="canada" className="anhTH" />
+						
 						</div>
 						<div>
 							<h2 className="mucTH">CHI PHÍ</h2>
@@ -148,6 +148,19 @@ const Trunghoc_details = () => {
 									<li> &#10004; Chi phí ăn ở: $16,000/năm</li>
 								</ul>
 							</div>
+							<h3> Mọi chi tiết xin vui lòng liên hệ:</h3>
+						<h5 style={{color:'#ff944d'}}> DU HỌC TÂN CON ĐƯỜNG VÀNG – NEW GOLDEN ROAD</h5>
+						<ol>
+							<ul> &#127980; Địa chỉ: 219 Tân Quý, phường Tân Quý, quận Tân Phú, Tp Hồ Chí Minh</ul>
+
+							<ul> &#128222; Hotline: 0909416959 – Ms. Linda</ul>
+
+							<ul> &#128231; Email: duhoc@newgoldenroad.edu.vn</ul>
+
+							<ul> &#127760; Website: https://newgoldenroad.com/</ul>
+
+							<ul> &#127759; Facebook: https://www.facebook.com/newgoldenroad</ul>
+						</ol>
 						</div>
 					</div>
 				</div>
