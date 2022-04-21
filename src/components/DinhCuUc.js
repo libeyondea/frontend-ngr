@@ -148,7 +148,7 @@ const DinhCuUc = () => {
 										<li> &#10036; Duy trì sự quản lý trực tiếp và liên tục</li>
 										<li> &#10036; Quyết định liên quan đến định hướng chung và hiệu suất của công ty theo hướng có lợi cho nền kinh tế Úc. </li>
 										</ul>
-									<li> ● Sau khi tham gia vào hoạt động kinh doanh tại Úc, đương đơn sẽ được yêu cầu hoàn thành đơn 1010 – Đơn khảo sát khả năng kinh doanh.: </li>
+									<li> ● Sau khi tham gia vào hoạt động kinh doanh tại Úc, đương đơn sẽ được yêu cầu hoàn thành đơn 1010 – Đơn khảo sát khả năng kinh doanh.</li>
 								</ol>
 							</div>
 				
