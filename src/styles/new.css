@@ -10,7 +10,7 @@
 }
 .crumbss{
 	padding-bottom: 10px;
-    padding-left: 16px;
+    padding-left: 90px;
 }
 .title-com {
 	padding-top: 40px;
@@ -127,8 +127,14 @@ p.post-meta a {
 .blog-details {
     padding: 20px 0;
 }
+.row {
+    margin-top: 15px;
+}
+.courses-details {
+    padding: 30px 0;
+}
 	.breaking-news {
-	    width: 1400px;
+        width: 1315px;
     background: #FFF;
     height: 32px;
     margin: -5px auto 0px;

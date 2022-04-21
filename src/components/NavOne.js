@@ -7,7 +7,7 @@ const NavOne = () => {
 	const [sticky, setsticky] = useState(false);
 	const [showBtn, setshowBtn] = useState(false);
 
-	const { data: listCategory } = useSWR(`/categories`, {
+	const { data: listCategory } =  (`/categories`, {
 		revalidateOnFocus: false
 	});
 
