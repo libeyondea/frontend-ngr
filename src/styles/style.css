@@ -1914,7 +1914,6 @@ a:visited {
 	font-weight: bold;
 	color: #012237;
 	margin-bottom: 55px;
-	
 }
 
 .faq-one__text {
@@ -7224,14 +7223,14 @@ span#fcta-zalo-tracking {
 	background-attachment: fixed;
 	background-size: cover;
 }
-/* .hide {
+.hide {
 	visibility: hidden;
 }
 
 .myDIV:hover + .hide,
 .hide:hover {
 	visibility: visible;
-} */
+}
 /********************************************Finish Button Chat********************************************/
 /********************************** Form-Chat********************************* */
 .form_chat {
@@ -7240,18 +7239,18 @@ span#fcta-zalo-tracking {
 	right: 20px;
 	z-index: 999;
 	background-color: white;
-	width: 320px;
-	height: 360px;
+	width: 360px;
+	height: 423px;
 	box-shadow: -5px 5px 4px #1c1c1c;
 	border-radius: 18px;
 	opacity: 100%;
-	visibility: hidden;
+	/* 	visibility: hidden; */
 }
 .title-chat {
 	text-align: center;
 	color: #fff;
-	margin-top: 14px;
-	font-size: 22px;
+	margin-top: 20px;
+	font-size: 26px;
 }
 .canhle-chat {
 	margin: 10px auto;
@@ -7265,12 +7264,12 @@ span#fcta-zalo-tracking {
 }
 .chuamucchat {
 	width: 100%;
-	height: 60px;
+	height: 70px;
 	border-bottom: 1px solid #d9d8d8;
 }
 .chuamucchat-cuoi {
 	width: 100%;
-	height: 60px;
+	height: 70px;
 	border-radius: 0 0 18px 18px;
 }
 .chuamucchat:hover {
@@ -7288,8 +7287,8 @@ span#fcta-zalo-tracking {
 }
 .mucchat-text{
 	float: left;
-	margin-top: 10px;
-	font-size: 20px;
+	margin-top: 20px;
+	font-size: 22px;
 }
 /* .icon_chat:hover {
 	width: 86px;
@@ -7297,7 +7296,7 @@ span#fcta-zalo-tracking {
 }  */
 .tieude-chat {
 	width: 100%;
-	height: 60px;
+	height: 75px;
 	background-color: #0068ff80;
 	border-radius: 18px 18px 0px 0px;
 	padding-top: 1px;
@@ -7436,20 +7435,13 @@ span#fcta-zalo-tracking {
 
 .tai-sao {
 	font-size: 17px;
-	float: left;
-}
-.tai-sao-vay {
-	font-size: 17px;
-	float: left;
-	margin-left: -750px;
-	margin-top: 60px;
 }
 .tieu-de {
 	font-size: 35px;
 	line-height: 44px;
 	padding-top: 20px;
 	font-weight: 700;
-	color: #13CB53;
+	color: #606060;
 	text-shadow: 1px 1px 0 rgb(255 255 255 / 50%);
 }
 /**/
@@ -7746,10 +7738,52 @@ ul#menu li:hover ul#sub {
 .noidungTH{
 	margin: 20px;
 }
-.anhTH {
-	width: 100%;
-	height: 100%;
-	margin: 5px auto;
-	object-fit: contain;
+/*---Định cư Canada---*/
+.inner-banner-DCCA {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/DinhCu/BritishBG.jpg);
+}
+.inner-banner-DCCA::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-DCCA .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
 }
 
+.inner-banner-DCCA__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
