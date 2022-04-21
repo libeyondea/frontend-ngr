@@ -494,7 +494,7 @@ const NavOne = () => {
 												</Link>
 											</li>
 											<li>
-												<Link href="/">
+												<Link href="/ThongTinCanada">
 													<a>Tìm hiểu về Canada</a>
 												</Link>
 											</li>

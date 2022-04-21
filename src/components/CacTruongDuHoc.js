@@ -60,7 +60,7 @@ const CacTruongDuHoc = () => {
 			<div className="row row-cols-1 row-cols-md-3 g-4" style={{ margin: '50px 150px' }}>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/ALBER.png" className="card-img-top" alt="Trường Alberta University" />
+						<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/ALBER.png" className="card-img-top" alt="Trường Alberta University" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -72,7 +72,7 @@ const CacTruongDuHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/BRITI.png" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/BRITI.png" className="card-img-top" alt="Trường British Columbia University"/></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -84,7 +84,7 @@ const CacTruongDuHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/COAST.png" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/COAST.png" className="card-img-top" alt="Trường Coast Mountain College" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -96,7 +96,7 @@ const CacTruongDuHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/CONCOR.gif" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/CONCOR.gif" className="card-img-top" alt="Trường Concordia University" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -111,7 +111,7 @@ const CacTruongDuHoc = () => {
 			<div className="row row-cols-1 row-cols-md-3 g-4" style={{ margin: '50px 150px' }}>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/DAL.png" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/DAL.png" className="card-img-top" alt="Trường Dalhousie University" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -123,7 +123,7 @@ const CacTruongDuHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/KWAN.png" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/KWAN.png" className="card-img-top" alt="Trường Đại học Kwantlen Polutechnic" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -135,11 +135,11 @@ const CacTruongDuHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/LASA.jpg" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/LASA.jpg" className="card-img-top" alt="Trường Đại học Kwantlen Polutechnic" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
-									Trường LaSalle College
+									Trường Đại học Kwantlen Polutechnic
 								</h5>
 							</a>
 						</div>
@@ -147,7 +147,7 @@ const CacTruongDuHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/MANI.png" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/MANI.png" className="card-img-top" alt="Trường Manitoba Institute of Trades &amp; Technology" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -162,7 +162,7 @@ const CacTruongDuHoc = () => {
 			<div className="row row-cols-1 row-cols-md-3 g-4" style={{ margin: '50px 150px' }}>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/NEW.png" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/NEW.png" className="card-img-top" alt="Trường Newfoundland và Labrabor English" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -174,7 +174,7 @@ const CacTruongDuHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/PEM.png" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/PEM.png" className="card-img-top" alt="TRƯỜNG PEMBINA TRAILS" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -186,7 +186,7 @@ const CacTruongDuHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/PRIN.png" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/PRIN.png" className="card-img-top" alt="Trường Prince Edward Island University" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -198,7 +198,7 @@ const CacTruongDuHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/SAIT.png" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/SAIT.png" className="card-img-top" alt="Trường Southern Alberta Institute of Technology (SAIT)" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -213,7 +213,7 @@ const CacTruongDuHoc = () => {
 			<div className="row row-cols-1 row-cols-md-3 g-4" style={{ margin: '50px 150px' }}>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/SASK.png" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/SASK.png" className="card-img-top" alt="Trường Saskatchewan Polytechnic" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -225,7 +225,7 @@ const CacTruongDuHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/SHERI.png" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/SHERI.png" className="card-img-top" alt="Trường Sheridan College" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -237,7 +237,7 @@ const CacTruongDuHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/SPRO.gif" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/SPRO.gif" className="card-img-top" alt="Trường Sprott Shaw College" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -249,7 +249,7 @@ const CacTruongDuHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img src="assets/images/TruongHoc/STLA.png" className="card-img-top" alt="..." />
+					<a href='/DuHocCanada-details'><img src="assets/images/TruongHoc/STLA.png" className="card-img-top" alt="TRƯỜNG CAO ĐẲNG ST.LAWRENCE" /></a>
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>

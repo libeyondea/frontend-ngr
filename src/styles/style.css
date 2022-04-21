@@ -7720,6 +7720,9 @@ ul#menu li:hover ul#sub {
   .fa fa-stumbleupon{
 	background: #cb2027;
   }
+  .card-title:hover{
+	  color: white;
+  }
 /*---- trung học----*/
 .tieudeTH {
 	text-align: center;
