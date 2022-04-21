@@ -7739,4 +7739,10 @@ ul#menu li:hover ul#sub {
 .noidungTH{
 	margin: 20px;
 }
+.anhTH {
+	width: 100%;
+	height: 100%;
+	margin: 5px auto;
+	object-fit: contain;
+}
 
