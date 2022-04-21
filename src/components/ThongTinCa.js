@@ -48,7 +48,7 @@ const ThongTinCa = () => {
 							[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
 						</span>
 					</div>
-					<h2 className="tieu-de">TẠI SAO LẠI CHỌN DU HỌC CANADA ?</h2>
+					<h2 className="tieu-de">TẠI SAO LẠI CHỌN NƯỚC CANADA ?</h2>
 					<p className="tai-sao">
 						Nền giáo dục Canada thuộc top 3 thế giới và có rất nhiều lí do để học sinh và gia đình chọn làm điểm đến
 						du học và sau đây là các lí do chính mà học sinh của NEW GOLDEN ROAD đã chọn:
@@ -183,7 +183,7 @@ const ThongTinCa = () => {
 						</div>
 					</div>
 					<h2 className="tieu-de">CÁC CÂU HỎI THƯỜNG GẶP KHI DU HỌC CANADA </h2>
-					<p className="tai-sao">
+					<p className="tai-sao-vay">
 						Cùng NEW GOLDEN ROAD giải đáp “tất tần tật” các câu hỏi thường gặp về du học Canada, bạn nhé!
 					</p>
 					<div className="cau-hoi">

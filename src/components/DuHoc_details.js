@@ -76,7 +76,7 @@ const DuHoc_details = () => {
 							hàng đầu ở Canada về chất lượng giảng dạy và cơ sở vật chất. Đây cũng là ngôi nhà chung của hơn 33 000
 							sinh viên. Trong đó hơn 8000 sinh viên quốc tế đến từ 146 quốc gia trên thế giới.
 						</p>
-						<img src="assets/images/TruongHoc/ALBER1.jpg" alt="Alberta University" width={'900px'} />
+						<p><img src="assets/images/TruongHoc/ALBER1.jpg" alt="Alberta University" width={'900px'} /></p>
 						<h3>Giới thiệu chung</h3>
 						<p>
 							<ul>
@@ -95,28 +95,28 @@ const DuHoc_details = () => {
 									dục, cơ khí, khoa học, Luật, Y khoa, Ngôn ngữ, Thực Phẩm, Nghệ thuật,..
 								</li>
 							</ul>
-							<img src="assets/images/TruongHoc/ALBER2.jpg" alt="Alberta University" width={'900px'} />
-						</p>
+						</p>	
+						<p><img src="assets/images/TruongHoc/ALBER2.jpg" alt="Alberta University" width={'900px'} /></p>
 						<h3>Chương trình đào tạo</h3>
 						<p>
 							Alberta University có 18 khoa, 5 cơ sở, 500 chương trình sau đại học. Hơn 200 chương trình bậc cử nhân
 							và 300 khóa học giáo dục thường xuyên. Cung cấp các khoá học cho 40.061 sinh viên. Một số ngành đặc
 							trưng tại University of Alberta:
+							<ol>
+								<ul>&#10147; Nông nghiệp</ul>
+								<ul>&#10147; Khoa học môi trường, tài nguyên tái tạo</ul>
+								<ul>&#10147; Nghệ thuật, thiết kế, chính trị học</ul>
+								<ul>&#10147; Kinh doanh, kế toán, phân tích tài chính…</ul>
+								<ul>&#10147; Giáo dục</ul>
+								<ul>&#10147; Kỹ thuật điện, máy tính, xây dựng, khai thác mỏ, dầu khí, cơ khí</ul>
+								<ul>&#10147; Thể thao và Giải trí</ul>
+								<ul>&#10147; Luật</ul>
+								<ul>&#10147; Y học & Nha khoa</ul>
+								<ul>&#10147; Điều dưỡng</ul>
+								<ul>&#10147; Khoa học, tâm lý học, sinh học, hóa học…</ul>
+							</ol>
 						</p>
-						<ol>
-							<ul>&#10147; Nông nghiệp</ul>
-							<ul>&#10147; Khoa học môi trường, tài nguyên tái tạo</ul>
-							<ul>&#10147; Nghệ thuật, thiết kế, chính trị học</ul>
-							<ul>&#10147; Kinh doanh, kế toán, phân tích tài chính…</ul>
-							<ul>&#10147; Giáo dục</ul>
-							<ul>&#10147; Kỹ thuật điện, máy tính, xây dựng, khai thác mỏ, dầu khí, cơ khí</ul>
-							<ul>&#10147; Thể thao và Giải trí</ul>
-							<ul>&#10147; Luật</ul>
-							<ul>&#10147; Y học & Nha khoa</ul>
-							<ul>&#10147; Điều dưỡng</ul>
-							<ul>&#10147; Khoa học, tâm lý học, sinh học, hóa học…</ul>
-						</ol>
-						<img src="assets/images/TruongHoc/ALBER3.png" alt="Alberta University" width={'900px'} />
+						<p><img src="assets/images/TruongHoc/ALBER3.png" alt="Alberta University" width={'900px'} /></p>
 						<h3>Cơ sở vật chất</h3>
 						<p>
 							Tọa lạc thành phố Edmonton, là thành phố giàu có thứ 2 tại Alberta, nền kinh tế địa phương rất phát
@@ -126,7 +126,7 @@ const DuHoc_details = () => {
 							Hơn 100 các học viện và trung tâm nhằm đáp ứng đầy đủ yêu cầu học tập của sinh viên. Ngoài ra trường
 							còn nhiều hệ thống phòng nghiên cứu, thí nghiệm, thư viện đến phòng tập gym, các trung tâm thể hình.
 						</p>
-						<img src="assets/images/TruongHoc/ALBER4.png" alt="Alberta University" width={'900px'} />
+						<p><img src="assets/images/TruongHoc/ALBER4.png" alt="Alberta University" width={'900px'} /></p>
 						<h3>Học phí:</h3>
 
 						<ol>
