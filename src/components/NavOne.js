@@ -7,7 +7,7 @@ const NavOne = () => {
 	const [sticky, setsticky] = useState(false);
 	const [showBtn, setshowBtn] = useState(false);
 
-	const { data: listCategory } = useSWR(`/categories`, {
+	const { data: listCategory } =  (`/categories`, {
 		revalidateOnFocus: false
 	});
 
@@ -690,24 +690,12 @@ const NavOne = () => {
 									</>
 								)}
 							</span>
-							<span className="title-hover">Chuyển đi.....</span>
+							<span className="title-hover">Chuyển đi .....</span>
 						</a>
 					</div>
 				</div>
 			</nav>
-			<div className="site-header__decor">
-				<div className="site-header__decor-row">
-					<div className="site-header__decor-single">
-						<div className="site-header__decor-inner-1"></div>
-					</div>
-					<div className="site-header__decor-single">
-						<div className="site-header__decor-inner-2"></div>
-					</div>
-					<div className="site-header__decor-single">
-						<div className="site-header__decor-inner-3"></div>
-					</div>
-				</div>
-			</div>
+		
 		</header>
 	);
 };
