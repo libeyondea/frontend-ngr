@@ -152,7 +152,7 @@ const DuHoc_details = () => {
 							<ul> + IELTS: thấp nhất là 6.5 (không có môn nào nhỏ hơn 5.0)</ul>
 						</ol>
 						<h3> Mọi chi tiết xin vui lòng liên hệ:</h3>
-						<h4> DU HỌC TÂN CON ĐƯỜNG VÀNG – NEW GOLDEN ROAD</h4>
+						<h5 style={{color:'#ff944d'}}> DU HỌC TÂN CON ĐƯỜNG VÀNG – NEW GOLDEN ROAD</h5>
 						<ol>
 							<ul> &#127980; Địa chỉ: 219 Tân Quý, phường Tân Quý, quận Tân Phú, Tp Hồ Chí Minh</ul>
 
@@ -162,7 +162,7 @@ const DuHoc_details = () => {
 
 							<ul> &#127760; Website: https://newgoldenroad.com/</ul>
 
-							<ul> Facebook: https://www.facebook.com/newgoldenroad</ul>
+							<ul> &#127759; Facebook: https://www.facebook.com/newgoldenroad</ul>
 						</ol>
 					</div>
 				</div>
