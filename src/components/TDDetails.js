@@ -3,7 +3,7 @@ const TuyenDungDetails = () => {
 	return (
 		<section className="blog-one blog-page">
 			<div className="container">
-				<div id="breaking-news" className="breaking-news">
+				<div id="breaking-news" className="breaking-news title-news">
 					<span className="breaking-news-title">
 						<span>TIN MỚI NHẤT</span>
 					</span>
@@ -20,7 +20,7 @@ const TuyenDungDetails = () => {
 					</ul>
 				</div>
 				<div className="row">
-					<div id="crumbs" className="crumbss" style={{ paddingTop: '10px' }}>
+					<div id="crumbs" className="crumbss title-crums">
 						<span typeof="v:Breadcrumb">
 							<a className="crumbs-home" href="https://newgoldenroad.com">
 								Trang Chủ
@@ -42,7 +42,7 @@ const TuyenDungDetails = () => {
 						</span>
 					</div>
 					<div>
-						<p className="post-meta">
+						<p className="post-meta title-crums">
 							<span className="post-meta-author">
 								<i className="fa fa-user" />
 								&nbsp;&nbsp;

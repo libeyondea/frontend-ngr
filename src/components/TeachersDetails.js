@@ -62,7 +62,7 @@ const TeachersDetails = () => {
 									<div className="service-icon text-center">
 									<i className="fa fa-coins"></i>
 									</div>
-									<h3>HỌC phí</h3>
+									<h3>HỌC PHÍ</h3>
 									<p>
 										Tùy theo chương trình mà học viên lựa chọn mức học sẽ giao động cho khả năng bản thân mình với các mức học phí phù hợp.
 									</p>
@@ -80,19 +80,18 @@ const TeachersDetails = () => {
 				<div className="container">
 					<div className="row mb-50 justify-content-center">
 						<div className="col-md-5 col-sm-12 text-center offset-md-1">
-							<img src="images/about/about-1.jpg" className="img-fluid rounded shadow" alt="" />
+							<img className="hinhanh"src="/assets/images/daotao2.png"  />
+						
 						</div>
 						<div className="col-md-5 col-sm-12">
 							<div className="content">
 								<h2>
-									Creativity is in our <br /> blood
+								CHINH PHỤC IELTS CHỈ TRONG 5 TUẦN
 								</h2>
 								<p>
-									Curabitur felis nibh, imperdiet eu erat non, luctus cursus lectus. Donec maximus diam leo, sed
-									fringilla nisl auctor eget. Donec dictum neque est, ac faucibus ex blandit a Lorem ipsum dolor
-									sit amet, consectetur adipisicing elit. Recusandae quo minima ab aperiam molestiae natus
-									repellendus neque culpa iure, nemo veritatis explicabo facilis, officia, saepe! Et corrupti
-									odit, non deserunt.
+								Ielts Study Planner sẽ mang đến một kế hoạch phù hợp cho các bạn ôn luyện trong mùa dịch Covid-19 này.
+								 Để thành công trong bất cứ việc gì trong cuộc sống,
+								 bạn cần có một kế hoạch vững chắc và tính tự giác và kiên định để thực hiện kế hoạch đó mỗi ngày dành thời gian cùng Tân Con Đường Vàng chiến đấu Ielts trong từng tuần nào.
 								</p>
 							</div>
 							<p />
@@ -103,20 +102,17 @@ const TeachersDetails = () => {
 						<div className="col-12 col-md-5 offset-md-1 col-md-5 col-sm-12">
 							<div className="content">
 								<h2>
-									We think out of the <br /> Box
-								</h2>
+								Thực hành thi nói IELTS SPEAK UP</h2>
 								<p>
-									Curabitur felis nibh, imperdiet eu erat non, luctus cursus lectus. Donec maximus diam leo, sed
-									fringilla nisl auctor eget. Donec dictum neque est, ac faucibus ex blandit a Lorem ipsum dolor
-									sit amet, consectetur adipisicing elit. Recusandae quo minima ab aperiam molestiae natus
-									repellendus neque culpa iure, nemo veritatis explicabo facilis, officia, saepe! Et corrupti
-									odit, non deserunt.
+								Du học Tân Con Đường Vàng đồng hành cùng British Council (Hội đồng Anh) mang đến giải pháp IELTS SpeakUP giúp bạn
+								 lên kế hoạch luyện tập tại nhà trong mùa giãn cách với cơ hội thực hành thi thử Speaking giao tiếp trực tuyến 1:1. 
+								Ngoài ra, bạn còn nhận được đánh giá phản hồi để cải thiện ngay lập tức cùng các chuyên gia.
 								</p>
 							</div>
 							<p />
 						</div>
 						<div className="col-12 col-md-5 col-sm-12 text-center">
-							<img src="images/about/about-2.jpg" className="img-fluid rounded shadow" alt="" />
+						<img  className="hinhanhtwo" src="/assets/images/daotao3.png"  />
 						</div>
 					</div>{' '}
 					{/* End row */}
@@ -129,11 +125,10 @@ const TeachersDetails = () => {
 						<div className="col">
 							<div className="title text-center">
 								<h4>How We Works</h4>
-								<h2>Our work process</h2>
+								<h2>CÁC KHÓA LUYỆN THI</h2>
 								<span className="border" />
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque,
-									obcaecati atque sit!
+								Các khóa học mà New Groden Road sẽ được định hướng theo các mục tiêu lựa chọn của bạn.
 								</p>
 							</div>
 						</div>
@@ -143,42 +138,64 @@ const TeachersDetails = () => {
 							<div className="service-item text-center">
 								<span className="count">1.</span>
 								<i className="tf-ion-ios-briefcase-outline" />
-								<h4>Project Analysis</h4>
+								<h4><a href="#">CƠ BẢN</a></h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+									Khóa học giúp bạn toàn diện và cải thiện về tiếng anh ở mức độ cơ bản
+									.
 								</p>
 							</div>
 						</div>
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
 								<span className="count">2.</span>
-								<i className="tf-ion-ios-alarm-outline" />
-								<h4>Time Management</h4>
+								<i className="tf-ion-ios-locked-outline" />
+								<h4><a href="#">NÂNG CAO</a></h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+								Khóa học giúp bạn toàn diện và cải thiện về tiếng anh ở mức độ Thành thạo.
+								</p>
+							</div>
+							</div>
+						<div className="col-md-4 col-sm-6 p-0">
+							<div className="service-item text-center">
+								<span className="count">3.</span>
+								<i className="tf-ion-ios-alarm-outline" />
+								<h4><a href="#">CHUYỂN CẤP</a></h4>
+								<p>
+								Khóa học giúp bạn cải thiện điểm số tại trường về tiếng anh và trang bị kiến thức để học viên bước vào kỳ thi quan trọng.
 								</p>
 							</div>
 						</div>
 						<div className="w-100" />
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
-								<span className="count">3.</span>
+								<span className="count">4.</span>
 								<i className="tf-ion-ios-email-outline" />
-								<h4>Mail Support</h4>
+								<h4><a href="#">TOEIC</a></h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+								Khóa học giúp bạn ôn và luyện để các học viên đạt được số điểm toeic mong muốn.
 								</p>
 							</div>
 						</div>
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
-								<span className="count">4.</span>
+								<span className="count">5.</span>
 								<i className="tf-ion-ios-locked-outline" />
-								<h4>Secure System</h4>
+								<h4><a href="#">IELTS</a></h4>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+								Khóa học giúp bạn ôn và luyện để các học viên đạt được số điểm ielts mong muốn.
 								</p>
 							</div>
+							</div>
+						<div className="col-md-4 col-sm-6 p-0">
+							<div className="service-item text-center">
+								<span className="count">6.</span>
+								<i className="tf-ion-ios-locked-outline" />
+								<h4><a href="#">GIAO TIẾP</a></h4>
+								<p>
+								Khóa học giúp bạn cải thiện giao tiếp và cũng như các topic giao tiếp phỏng vấn công việc.
+								</p>
+							</div>
+							
 						</div>
 					</div>{' '}
 					{/* End row */}

@@ -3,17 +3,17 @@ import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
-import DinhCuUc from '../components/DinhCuUc';
+import HocBongCanada from '../components/HocBong/HocBongCanada';
 
-const TeachersPage = () => {
+const GalleryPage = () => {
 	return (
-		<Layout pageTitle="Tân Con Đường Vàng | Định Cư">
+		<Layout pageTitle="Tân Con Đường Vàng | Gallery">
 			<NavOne />
-			<PageHeader title="Định Cư Úc" />
-			<DinhCuUc />
+			<PageHeader title="Du Học Canada" />
+			<HocBongCanada />
 			<Footer />
 		</Layout>
 	);
 };
 
-export default TeachersPage;
+export default GalleryPage;

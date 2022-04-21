@@ -35,7 +35,8 @@
 
 	a:focus,
 	a:hover {
-		color: #f0326b;
+		color: #FF944D;
+	
 	}
 
 	.btn-main,
@@ -710,6 +711,7 @@
 		font-size: 40px;
 		font-weight: bold;
 		margin-top: 0;
+		color: #000;
 	}
 
 	@media (max-width: 992px) {
@@ -748,6 +750,7 @@
 	}
 
 	.about-2 h2 {
+		color: #000;
 		position: relative;
 		margin-top: 28px;
 		margin-left: 99px;
@@ -1214,6 +1217,7 @@
 
 	.service-2 .service-item .count {
 		font-size: 80px;
+		text-shadow: 2px 2px 6px #ff944d;
 		position: absolute;
 		top: 0;
 		left: 20px;
@@ -1765,4 +1769,12 @@
 	.page-404 h1 {
 		font-size: 200px;
 	}
+}
+.hinhanh{
+	margin-top:57px;
+	box-shadow: 3px 3px 13px #000;
+}
+.hinhanhtwo{
+	margin-top:63px;
+	box-shadow: 3px 3px 13px #000;
 }

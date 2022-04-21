@@ -7,9 +7,11 @@ const NavOne = () => {
 	const [sticky, setsticky] = useState(false);
 	const [showBtn, setshowBtn] = useState(false);
 
-	const { data: listCategory } =  (`/categories`, {
+	const { data: listCategory } = useSWR(`/categories?sort_by=id&sort_direction=asc`, {
 		revalidateOnFocus: false
 	});
+
+	console.log(listCategory);
 
 	useEffect(() => {
 		window.addEventListener('scroll', handleScroll);
@@ -57,6 +59,23 @@ const NavOne = () => {
 		searchOverlay.addEventListener('click', function () {
 			searchPopup.classList.remove('active');
 		});
+	};
+
+	// recursive categories
+	const categoriesRecursive = (data = []) => {
+		return (
+			data.length &&
+			data.map((item, index) => {
+				return (
+					<li key={index}>
+						<Link href={`/${item.translations[0].slug}`}>
+							<a>{item.translations[0].name}</a>
+						</Link>
+						{item.children.length ? <ul className="sub-menu">{categoriesRecursive(item.children)}</ul> : null}
+					</li>
+				);
+			})
+		);
 	};
 
 	return (
@@ -107,7 +126,8 @@ const NavOne = () => {
 									<a>Trang chủ </a>
 								</Link>
 							</li>
-							<li className="current">
+							{listCategory && categoriesRecursive(listCategory.data)}
+							{/* 	<li className="current">
 								<Link href="/">
 									<a>Du Học</a>
 								</Link>
@@ -489,12 +509,12 @@ const NavOne = () => {
 												</Link>
 											</li>
 											<li>
-												<Link href="/">
+												<Link href="/dinhcubritish">
 													<a>Định cư British Columbia</a>
 												</Link>
 											</li>
 											<li>
-												<Link href="/">
+												<Link href="/ThongTinCanada">
 													<a>Tìm hiểu về Canada</a>
 												</Link>
 											</li>
@@ -656,6 +676,7 @@ const NavOne = () => {
 									</li>
 								</ul>
 							</li>
+							*/}
 							<li>
 								<Link href="/contact">
 									<a>Liên Hệ</a>
@@ -695,7 +716,6 @@ const NavOne = () => {
 					</div>
 				</div>
 			</nav>
-		
 		</header>
 	);
 };
