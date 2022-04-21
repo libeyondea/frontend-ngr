@@ -9,17 +9,17 @@ import messenge from '../images/messenge_icon.jpg';
 
 const Chat = () => {
 	const openForm = () => {
-		const btn = document.getElementById('btn');
-		if (form.style.visibility === 'hidden') {
-			form.style.visibility = 'visible';
-		} else {
+		const form = document.getElementById('form');
+		if (form.style.visibility === 'visible') {
 			form.style.visibility = 'hidden';
+		} else {
+			form.style.visibility = 'visible';
 		}
 	};
 	return (
 		<div>
 			<div className="myDIV">
-				<a id="linkzalo" target="_blank" rel="noopener noreferrer" /* onClick={openForm} */ className="button-chat">
+				<a id="linkzalo" target="_blank" rel="noopener noreferrer" onClick={openForm} className="button-chat">
 					<div id="fcta-zalo-tracking" className="fcta-zalo-mess">
 						<span id="fcta-zalo-tracking">Chat hỗ trợ</span>
 					</div>
