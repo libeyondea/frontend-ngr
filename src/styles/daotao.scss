@@ -382,7 +382,7 @@
 	.gradient,
 	.title .border,
 	.service-2 .service-item i {
-		background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+		background-image: linear-gradient(100deg, #f9643d, #FF944D);
 	}
 
 	.header-bradcrumb {
@@ -749,6 +749,8 @@
 
 	.about-2 h2 {
 		position: relative;
+		margin-top: 28px;
+		margin-left: 99px;
 	}
 
 	.about-2 h2:before {
@@ -759,9 +761,9 @@
 		display: inline-block;
 		width: 12%;
 		height: 3px;
-		background-color: #ffa535;
-		background-image: linear-gradient(100deg, #f9643d, #fe2a77);
-		background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+	    background-color: #FF944D;
+    background-image: linear-gradient(100deg, #f9643d, #FF944D);
+    background-image: linear-gradient(100deg, #f9643d, #FF944D);
 	}
 
 	@media (max-width: 768px) {
@@ -1165,8 +1167,8 @@
 
 	.services .service-block i {
 		font-size: 40px;
-		color: #f0326b;
-		background: linear-gradient(100deg, #f9643d, #fe2a77);
+		color: #FF944D;
+		background: linear-gradient(100deg, #f9643d, #FF944D);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
