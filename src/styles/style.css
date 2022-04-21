@@ -6981,6 +6981,7 @@ div .fcta-zalo-mess {
 span#fcta-zalo-tracking {
 	font-family: Roboto;
 	line-height: 1.5;
+	cursor: pointer;
 }
 .fcta-zalo-text {
 	font-family: Roboto;
@@ -7222,6 +7223,7 @@ span#fcta-zalo-tracking {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	cursor: pointer;
 }
 .hide {
 	visibility: hidden;
@@ -7241,6 +7243,8 @@ span#fcta-zalo-tracking {
 	background-color: white;
 	width: 360px;
 	height: 423px;
+	width: 300px;
+	height: 360px;
 	box-shadow: -5px 5px 4px #1c1c1c;
 	border-radius: 18px;
 	opacity: 100%;
@@ -7289,6 +7293,10 @@ span#fcta-zalo-tracking {
 	float: left;
 	margin-top: 20px;
 	font-size: 22px;
+	margin-top: 12px;
+	font-size: 18px;
+	margin-left: 10px;
+
 }
 /* .icon_chat:hover {
 	width: 86px;
@@ -7312,10 +7320,10 @@ span#fcta-zalo-tracking {
 }
 /********************************************Học Bổng********************************************/
 .content-hb {
-	width: 80%;
+	width: 90%;
 	margin: 20px auto;
 	box-sizing: border-box;
-	box-shadow: -1px 1px 3px #7b7f85;
+	/* box-shadow: -1px 1px 3px #7b7f85; */
 	margin-top: 50px;
 	padding: 20px 10px;
 }
@@ -7337,8 +7345,67 @@ span#fcta-zalo-tracking {
 	color: #993300;
 	font-size: 3rem;
 }
+.text1{
+	width: 55%;
+	float: left;
+}
+.text2{
+	width: 55%;
+	float: right;
+}
+.style-text{
+	font-size: 20px;
+	line-height:24px;
+	color: #535353;
+	text-align: justify;
+}
+.anh-1{
+	width: 40%;
+	height: 300px;
+	margin: 5px auto;
+	object-fit: contain;
+	float: right;
+}
+.chuaanh-2{
+	width: 40%;
+	height: 300px;
+	margin: 5px auto;
+	object-fit: contain;
+	float: left;
+}
+.noidung1{
+	width: 100%;
+	height: 400px;
+	margin-top: 20px;
+}
+.noidung2{
+	width: 100%;
+	height: 620px;
+	margin-top: 20px;
+}
+.noidung3{
+	width: 100%;
+	height: 380px;
+	margin-top: 20px;
+}
+.noidung4{
+	width: 100%;
+	height: 315px;
+	margin-top: 20px;
+}
+.noidung5{
+	width: 100%;
+	height: 365px;
+	margin-top: 20px;
+}
+.line{
+	width: 70%;
+	height: 2px;
+	background-color: #993300;
+	margin: 10px auto;
+}
 .anh-noidung1 {
-	width: 65%;
+	width: 55%;
 	height: 440px;
 	margin: 5px auto;
 	object-fit: contain;
@@ -7359,9 +7426,15 @@ span#fcta-zalo-tracking {
 	width: 100%;
 	height: 100%;
 }
+.anh2{
+	width: 40%;
+	height: 300px;
+}
 .muc1 {
-	font-size: 40px;
-	color: #1c1c1c;
+	font-size: 25px;
+	color: #000;
+	margin-bottom: 20px;
+
 }
 /*******************************Next-Previous********************************/
 .next-previous {
@@ -7738,16 +7811,17 @@ ul#menu li:hover ul#sub {
 .noidungTH{
 	margin: 20px;
 }
-/*---Định cư Canada---*/
-.inner-banner-DCCA {
+/*---Định cư Canada (British)---*/
+.inner-banner-DCCABRI {
 	background-color: #ffd19f;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
 	background-image: url(/assets/images/DinhCu/BritishBG.jpg);
+	align-content:flex-start;
 }
-.inner-banner-DCCA::before {
+.inner-banner-DCCABRI::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -7757,7 +7831,7 @@ ul#menu li:hover ul#sub {
 	background-color: #011928;
 	opacity: 0.5;
 }
-.inner-banner-DCCA .container {
+.inner-banner-DCCABRI .container {
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -7775,7 +7849,7 @@ ul#menu li:hover ul#sub {
 	padding-top: 169px;
 }
 
-.inner-banner-DCCA__title {
+.inner-banner-DCCABRI__title {
 	margin: 0;
 	text-transform: uppercase;
 	font-size: 100px;
@@ -7787,3 +7861,4 @@ ul#menu li:hover ul#sub {
 	padding-bottom: 20px;
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
 }
+/*---------------------*/
