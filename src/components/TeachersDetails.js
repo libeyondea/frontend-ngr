@@ -8,17 +8,16 @@ const TeachersDetails = () => {
 					<div className="container">
 						<div className="row">
 							<div className="col-12 col-md-5">
-								<h2>We have explored the digital landscape with passion for a long time</h2>
+								<h2>LUYỆN THI TIẾNG ANH</h2>
 							</div>
 							<div className="col-12 col-md-7">
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore
-									necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore
-									velit, quibusdam dolor illo! Explicabo.
+								Cải thiện kỹ năng tiếng Anh và thành công với các cơ hội học tập trong tương lai.
 								</p>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste
-									soluta, nihil dolorem?
+								<p style={{fontweight: 'bold'}}>
+								Là một trong những nơi uy tính về giảng dạy và luyện thi tiếng Anh, chúng tôi luôn là lựa chọn hoàn hảo để bạn tận dụng
+								 triệt để các cơ hội học tập và thành công trong tương lai. Chúng tôi tự hào là tổ chức duy nhất đồng thời 
+								cung cấp khóa học tiếng Anh luyện thi; nơi giúp bạn tối ưu điểm thi bạn mong muốn.
 								</p>
 							</div>
 						</div>{' '}
@@ -34,12 +33,12 @@ const TeachersDetails = () => {
 							<div className="col-md-4 col-sm-6 col-xs-12">
 								<div className="service-block color-bg text-center">
 									<div className="service-icon text-center">
-										<i className="tf-ion-ios-copy-outline" />
+									<i className="fa fa-clock"></i>
 									</div>
-									<h3>WordPress Theme</h3>
+									<h3>THỜI GIAN</h3>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id
-										tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+										Tiết kiệm được thời gian trong quá trình luyện thi, giúp bạn nhanh chóng cải thiện tiếng anh trong 
+										thời gian ngắn để bước vào kỳ thi.
 									</p>
 								</div>
 							</div>
@@ -48,12 +47,11 @@ const TeachersDetails = () => {
 							<div className="col-md-4 col-sm-6 col-xs-12">
 								<div className="service-block text-center">
 									<div className="service-icon text-center">
-										<i className="tf-ion-ios-alarm-outline" />
+									<i className="fa fa-book-open"></i>
 									</div>
-									<h3>Responsive Design</h3>
+									<h3>ĐÀO TẠO</h3>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id
-										tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+										Luôn vạch ra lộ trình cho từng học viên,có những phương pháp phù hợp cho từng học viên để học viên đạt được kết quả cao nhất  
 									</p>
 								</div>
 							</div>
@@ -62,12 +60,11 @@ const TeachersDetails = () => {
 							<div className="col-md-4 col-sm-6 col-xs-12 mx-auto">
 								<div className="service-block color-bg text-center">
 									<div className="service-icon text-center">
-										<i className="tf-ion-ios-book-outline" />
+									<i className="fa fa-coins"></i>
 									</div>
-									<h3>Media &amp; Advertisement</h3>
+									<h3>HỌC phí</h3>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id
-										tellus. Nullam iaculis arcu at mauris dapibus consectetur.
+										Tùy theo chương trình mà học viên lựa chọn mức học sẽ giao động cho khả năng bản thân mình với các mức học phí phù hợp.
 									</p>
 								</div>
 							</div>

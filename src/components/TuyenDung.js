@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 const TuyenDung = () => {
 	return (
-		<section className="course-details">
+		<section className="courses-details">
 			<div className="container">
 				<div id="breaking-news" className="breaking-news">
 					<span className="breaking-news-title">

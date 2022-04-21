@@ -13,7 +13,7 @@ const CallToActionTwo = () => {
 								</span>
 							</div>
 							<div className="cta-two__content">
-								<h2 className="cta-two__title">Trở thành khách hàng</h2>
+								<h2 className="cta-two__title">Trở thành đối tác</h2>
 								<p className="cta-two__text">
 									New Golden Road là công ty tư vấn giáo dục quốc tế hàng đầu thế giới, có trụ sở chính tại
 									Melbourne, Úc. Chúng tôi đã hỗ trợ giấc mơ du học của hơn 50 ngàn sinh viên quốc tế, kết nối

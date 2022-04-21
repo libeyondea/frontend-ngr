@@ -7,7 +7,7 @@ const NavOne = () => {
 	const [sticky, setsticky] = useState(false);
 	const [showBtn, setshowBtn] = useState(false);
 
-	const { data: listCategory } = useSWR(`/categories`, {
+	const { data: listCategory } =  (`/categories`, {
 		revalidateOnFocus: false
 	});
 
@@ -408,16 +408,97 @@ const NavOne = () => {
 										<Link href="/dinhcumy">
 											<a>Định Cư Mỹ</a>
 										</Link>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Chương Trình EB-5</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/">
+													<a>Chương Trình L-1</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/">
+													<a>Bảo Lãnh Thân Nhân</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/">
+													<a>Dịch Vụ An cư</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/">
+													<a>Dự Án EB-5</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/">
+													<a>Tìm Hiểu Về Nước Mỹ</a>
+												</Link>
+											</li>
+										</ul>
 									</li>
 									<li>
 										<Link href="/dinhcuuc">
 											<a>Định Cư Úc</a>
 										</Link>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Chương Trình 132A</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/">
+													<a>Chương Trình 132B</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/">
+													<a>Chương Trình 188A</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/">
+													<a>Chương Trình 188B</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/">
+													<a>Chương Trình 188C</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/">
+													<a>Tìm Hiểu Về Nước Úc</a>
+												</Link>
+											</li>
+										</ul>
 									</li>
 									<li>
 										<Link href="/dinhcucanada">
 											<a>Định cư Canada</a>
 										</Link>
+										<ul className="sub-menu">
+											<li>
+												<Link href="/">
+													<a>Định cư New Brunswick</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/">
+													<a>Định cư British Columbia</a>
+												</Link>
+											</li>
+											<li>
+												<Link href="/">
+													<a>Tìm hiểu về Canada</a>
+												</Link>
+											</li>
+										</ul>
 									</li>
 								</ul>
 							</li>
@@ -609,24 +690,12 @@ const NavOne = () => {
 									</>
 								)}
 							</span>
-							<span className="title-hover">Chuyển đi.....</span>
+							<span className="title-hover">Chuyển đi .....</span>
 						</a>
 					</div>
 				</div>
 			</nav>
-			<div className="site-header__decor">
-				<div className="site-header__decor-row">
-					<div className="site-header__decor-single">
-						<div className="site-header__decor-inner-1"></div>
-					</div>
-					<div className="site-header__decor-single">
-						<div className="site-header__decor-inner-2"></div>
-					</div>
-					<div className="site-header__decor-single">
-						<div className="site-header__decor-inner-3"></div>
-					</div>
-				</div>
-			</div>
+		
 		</header>
 	);
 };
