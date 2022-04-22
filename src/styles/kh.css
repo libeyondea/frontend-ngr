@@ -135,7 +135,7 @@ h3.title-comm:before {
     padding-left: 88px !important;
     position: relative !important;
     border-style: unset;
-    border-width: 2px;
+    border-width: 16px;
     border-color: #f1f1f1;
     padding: 50px;
 }

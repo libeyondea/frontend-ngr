@@ -4,17 +4,19 @@ import NavOne from '../components/NavOne';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
 import News from '../components/News';
+import http from '../utils/http';
 
-const NewsPage = () => {
+const NewsPage = ({ posts }) => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | News">
 			<NavOne />
 			<PageHeader title="News" />
-			{posts.data.length && posts.data.map((post, index) => <News post={post} key={index} />)}
+			<News posts={posts} />
 			<Footer />
 		</Layout>
 	);
 };
+
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
@@ -22,8 +24,7 @@ export async function getServerSideProps({ query }) {
 		});
 		return {
 			props: {
-				posts: resPost.data,
-				query: query
+				posts: resPost.data
 			}
 		};
 	} catch (err) {

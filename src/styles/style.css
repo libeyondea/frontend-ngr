@@ -3721,9 +3721,9 @@ a:visited {
     padding-bottom: 10px;
 	position: relative;
 }
-.course-details__list {
+.course-details__listt {
 	border-style: solid;
-	border-width: 2px;
+	border-width: 16px;
 	border-color: #f1f1f1;
 	padding: 50px;
 }
@@ -3766,7 +3766,7 @@ a:visited {
 	color: #2da397;
 	margin-left: 6px;
 }
-.course-details__list h3 {
+.course-details__listt h3 {
 	font-size: 16px;
 	font-weight: 600;
 	color: #81868a;
@@ -3869,7 +3869,7 @@ a:visited {
 .course-category-one {
 	padding: 120px 0;
 	padding-top: 110px;
-	background: #6cc24a;
+	background: #FFF;
 }
 .course-category-one .container-fluid {
 	max-width: 1520px;
@@ -6526,6 +6526,7 @@ html {
 
 .site-footer__bottom {
 	background-color: #205e11;
+	margin-top: 59px;
 	height: 65px;
 }
 
@@ -8096,10 +8097,10 @@ ul#menu li:hover ul#sub {
 .inner-banner-DCMYL1 {
 	background-color: #ffd19f;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-attachment: fixed;
 	position: relative;
-	background-image: url(/assets/images/DinhCuMy/L1-1.jpg);
+	background-image: url(/assets/images/DinhCuMy/VISA.png);
 }
 .inner-banner-DCMYL1::before {
 	content: '';
@@ -8110,6 +8111,7 @@ ul#menu li:hover ul#sub {
 	bottom: 0;
 	background-color: #011928;
 	opacity: 0.5;
+	
 }
 .inner-banner-DCMYL1 .container {
 	position: relative;
@@ -8118,7 +8120,6 @@ ul#menu li:hover ul#sub {
 	display: flex;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
-	justify-content: center;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
@@ -8126,7 +8127,7 @@ ul#menu li:hover ul#sub {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	padding-top: 169px;
+	padding-top: 156px;
 }
 .inner-banner-DCMYL1__title {
 	margin: 0;
