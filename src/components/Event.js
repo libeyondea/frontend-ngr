@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Slide } from 'react-slideshow-image';
 
-const Event = () => {
+const Event = ({ posts }) => {
 	const params = {
 		slidesPerView: 3,
 		loop: true,
@@ -70,41 +70,42 @@ const Event = () => {
 				<div className="container">
 					<div className="course-one__carousel">
 						<Slide {...properties}>
-							<div className="item mr-4">
-								<div className="course-one__single color-1">
-									<div className="course-one__image">
-										<img src="/assets/images/duhocmy.png" alt="" />
-										<i className="far fa-heart"></i>
-									</div>
-									<div className="course-one__content">
-										<a href="#" className="course-one__category">
-											DU HỌC MỸ
-										</a>
-										<div className="course-one__admin">
-											<img src="/assets/images/team-1-1.jpg" alt="" />
-											by <a href="/teacher-details">Linda</a>
+							{posts.data.length &&
+								posts.data.map((post, index) => (
+									<div className="item mr-4" key={index}>
+										<div className="course-one__single color-1">
+											<div className="course-one__image">
+												<img src="/assets/images/duhocmy.png" alt="" />
+												<i className="far fa-heart"></i>
+											</div>
+											<div className="course-one__content">
+												<a href="#" className="course-one__category">
+													DU HỌC MỸ
+												</a>
+												<div className="course-one__admin">
+													<img src="/assets/images/team-1-1.jpg" alt="" />
+													by <a href="/teacher-details">Linda</a>
+												</div>
+												<h2 className="course-one__title">
+													<a href={`/p/${post.translations[0].slug}`}>{post.translations[0].title}</a>
+												</h2>
+												<div className="course-one__meta">
+													<a href="/course-details">
+														<i className="far fa-solid fa-calendar"></i>11/09/2021
+													</a>
+													<a href="/course-details">
+														<i className="far fa-solid fa-eye"></i> 458 views
+													</a>
+												</div>
+												<a href="#" className="course-one__link">
+													Xem thêm
+												</a>
+											</div>
 										</div>
-										<h2 className="course-one__title">
-											<a href="/course-details">
-												[Du học Mỹ] Top 10 Nét đặc trưng về văn hoá và con người ở Mỹ- Du học Mỹ-Du học
-												Tân Con Đường Vàng
-											</a>
-										</h2>
-										<div className="course-one__meta">
-											<a href="/course-details">
-												<i className="far fa-solid fa-calendar"></i>11/09/2021
-											</a>
-											<a href="/course-details">
-												<i className="far fa-solid fa-eye"></i> 458 views
-											</a>
-										</div>
-										<a href="#" className="course-one__link">
-											Xem thêm
-										</a>
 									</div>
-								</div>
-							</div>
-							<div className="item mr-4">
+								))}
+						</Slide>
+						{/* <div className="item mr-4">
 								<div className="course-one__single color-2">
 									<div className="course-one__image">
 										<img src="/assets/images/duhocmy2.png" alt="" />
@@ -368,8 +369,7 @@ const Event = () => {
 										</a>
 									</div>
 								</div>
-							</div>
-						</Slide>
+							</div> */}
 					</div>
 				</div>
 			</section>

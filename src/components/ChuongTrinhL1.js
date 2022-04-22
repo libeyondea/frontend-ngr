@@ -74,43 +74,67 @@ const ChuongTrinhL1 = () => {
 				<div>
 					<div className='noidung'>
 						<div className="row">
-						<div className="col-6">
-							<div className="nd-CTL1">
-								<h4></h4>
-								<p>
-									<i
-										className="fa fa-check"
-										style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
-									/>
-									Visa không định cư Mỹ L-1 là visa hoán chuyển nội bộ công ty, tức là nhân viên của một công ty quốc tế
-									được thuyên chuyển sang công ty mẹ, văn phòng chi nhánh hoặc cùng một công ty tại Mỹ hoặc mua lại
-									doanh nghiệp đang hoạt động tại Mỹ. Công ty quốc tế này có thể là công ty Mỹ hoặc một công ty 
-									nước ngoài. Thời gian cấp visa L-1: Từ 04 đến 06 tháng kể từ ngày nhận được hồ sơ đầy đủ.
-								</p>
+							<div className="col-6">
+								<div className="nd-CTL1">
+									<h4></h4>
+									<p>
+										<i
+											className="fa fa-check"
+											style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
+										/>
+										Visa không định cư Mỹ L-1 là visa hoán chuyển nội bộ công ty, tức là nhân viên của một công ty quốc tế
+										được thuyên chuyển sang công ty mẹ, văn phòng chi nhánh hoặc cùng một công ty tại Mỹ hoặc mua lại
+										doanh nghiệp đang hoạt động tại Mỹ. Công ty quốc tế này có thể là công ty Mỹ hoặc một công ty 
+										nước ngoài. Thời gian cấp visa L-1: Từ 04 đến 06 tháng kể từ ngày nhận được hồ sơ đầy đủ.
+									</p>
+								</div>
 							</div>
-						</div>
-						<div className="col-6">
-							<div className="video">
-								<div className="my-auto">
-									<ModalVideo
-										channel="youtube"
-										isOpen={isOpen}
-										videoId="WbEqt4irqg4"
-										onClose={() => setisopen(false)}
-									/>
-									<div onClick={openModal} className="media-play-icon-L1">
-										<i className="fas fa-play media-icon" />
+							<div className="col-6">
+								<div className="video">
+									<div className="my-auto">
+										<ModalVideo
+											channel="youtube"
+											isOpen={isOpen}
+											videoId="WbEqt4irqg4"
+											onClose={() => setisopen(false)}
+										/>
+										<div onClick={openModal} className="media-play-icon-L1">
+											<i className="fas fa-play media-icon" />
+										</div>
 									</div>
 								</div>
 							</div>
+							<div className="hinhvideoL1">
+								<img src='/assets/images/DinhCuMy/Logo-Visa-L1.png' width={550} height={390} />
+							</div>
 						</div>
-						<div className="hinhvideoL1">
-							<img src='/assets/images/DinhCuMy/Logo-Visa-L1.png' width={550} height={390} />
+						<div className='row' style={{height: '500px'}}>
+							<div className='col-6'>
+								<div className='trai'>
+									<h4>Đối Tượng Đầu Tư</h4>
+									<ul>
+										<li>● Tất cả các nhà đầu tư có khả năng tài chính, có nhu cầu định cư Mỹ</li>
+										<li>● Không giới hạn về độ tuổi</li>
+										<li>● Không yêu cầu ngoại ngữ</li>
+										<li>● Không yêu cầu có công ty kinh doanh hoặc kinh nghiệm quản lý doanh nghiệp</li>
+										<li>● Không cần trực tiếp quản lý công việc đầu tư hàng ngày.</li>
+									</ul>
+								</div>
+							</div>
+							<div className='col-6'>
+								<div className='phai'>
+									<h4>Điều Kiện Đầu Tư</h4>
+									<ul>
+										<li>●Chứng minh nguồn gốc số tiền đầu tư (500 ngàn USD hoặc 1 triệu USD) từ:</li>
+										<li>●Thu nhập từ lợi nhuận doanh nghiệp</li>
+										<li>●Thu nhập cá nhân: tiền lương, tặng, cho, thừa kế…</li>
+										<li>●Từ bán bất động sản, chứng khoán, cổ phiếu…</li>
+									</ul>
+								</div>
+							</div>
 						</div>
-						</div>
-						
-					</div>
-					<div className="share-post" style={{marginBottom: '20px'}}>
+				</div>
+				<div className="share-post" style={{marginBottom: '20px'}}>
 						<span className="share-textt">Chia Sẻ</span>
 						<ul className="flat-social">
 							<li>
@@ -223,8 +247,8 @@ const ChuongTrinhL1 = () => {
 							</li>
 						</ul>
 						<div className="clear" />
-					</div>
 				</div>
+			</div>
 		</div>
 	);
 };

@@ -3,17 +3,16 @@ import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
-import NewsDetails from '../components/NewsDetails';
+import DAEB5 from '../components/DAEB5';
 
-const GalleryPage = () => {
+const daeb5 = () => {
 	return (
-		<Layout pageTitle="Tân Con Đường Vàng | News Details">
-			<NavOne />
-			<PageHeader title="News Details" />
-			<NewsDetails />
+		<Layout pageTitle="Tân Con Đường Vàng | DỰ ÁN ĐẦU TƯ EB-5">
+			<NavOne />		
+			<DAEB5/>
 			<Footer />
 		</Layout>
 	);
 };
 
-export default GalleryPage;
+export default daeb5;

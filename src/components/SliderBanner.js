@@ -91,7 +91,6 @@ const SliderBanner = () => {
 
 	return (
 		<div className={classNames('slider', { 's--ready': sliderReady })}>
-			<p className="slider__top-heading">Travelers</p>
 			<div className="slider__slides">
 				{slides.map((slide, index) => (
 					<div
@@ -108,7 +107,7 @@ const SliderBanner = () => {
 									<span key={index}>{l}</span>
 								))}
 							</h2>
-							<p className="slider__slide-readmore">read more</p>
+	
 						</div>
 						<div className="slider__slide-parts">
 							{[...Array(IMAGE_PARTS).fill()].map((x, i) => (
