@@ -8204,6 +8204,47 @@ ul#menu li:hover ul#sub {
 	margin-left: 30px;
     margin-top: 125px;
 }
+.trai{
+	font-size: 15px;
+	letter-spacing: 0.3px;
+	line-height: 22px;
+	text-decoration: none solid rbg(53, 64, 82);
+	text-align: left;
+	background-color: #fff;
+	background-position: 0% 0%;
+	color: #000;
+	height: 51px;
+	width: 400px;
+	display: none; 
+	list-style-position: outside;
+	transform: matrix(1, 0, 0, 1, 0, 16);
+	transition: all 0s ease 0s;
+	outline: rgb(53, 64, 82) none 0px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 5;
+}
+.phai{
+	font-size: 15px;
+	letter-spacing: 0.3px;
+	line-height: 22px;
+	text-decoration: none solid rbg(53, 64, 82);
+	text-align: left;
+	background-color: #fff;
+	background-position: 0% 0%;
+	color: #000;
+	height: 51px;
+	width: 400px;
+	display: none; 
+	list-style-position: outside;
+	transform: matrix(1, 0, 0, 1, 0, 16);
+	transition: all 0s ease 0s;
+	outline: rgb(53, 64, 82) none 0px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 5;
+}
+/*-----------------------------------*/
 /*--------bảo lãnh------------------*/
 .inner-banner-BL {
 	background-color: #ffd19f;
