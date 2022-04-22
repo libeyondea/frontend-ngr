@@ -7368,9 +7368,16 @@ span#fcta-zalo-tracking {
 }
 .chuaanh-2{
 	width: 40%;
-	height: 300px;
-	margin: 5px auto;
+	height: 510px;
 	object-fit: contain;
+	margin-left: 30px;
+	float: left;
+}
+.chuaanh-4{
+	width: 40%;
+	height: 240px;
+	object-fit: contain;
+	margin-left: 30px;
 	float: left;
 }
 .noidung1{
@@ -7380,7 +7387,7 @@ span#fcta-zalo-tracking {
 }
 .noidung2{
 	width: 100%;
-	height: 620px;
+	height: 700px;
 	margin-top: 20px;
 }
 .noidung3{
@@ -7427,8 +7434,8 @@ span#fcta-zalo-tracking {
 	height: 100%;
 }
 .anh2{
-	width: 40%;
-	height: 300px;
+	width: 70%;
+	height: 500px;
 }
 .muc1 {
 	font-size: 25px;
