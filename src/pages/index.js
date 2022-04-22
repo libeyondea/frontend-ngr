@@ -12,8 +12,9 @@ import Partner from '../components/Partner';
 import Footer from '../components/Footer';
 import Chat from '../components/Chat';
 import SliderBanner from '../components/SliderBanner';
+import http from '../utils/http';
 
-const HomePageTwo = () => {
+const HomePageTwo = ({ posts }) => {
 	return (
 		<Layout pageTitle="Du Học Tân Con Đường Vàng">
 			<NavOne />
@@ -22,7 +23,7 @@ const HomePageTwo = () => {
 			<Flag />
 			<Video />
 			<Customer />
-			<Event />
+			<Event posts={posts} />
 			<FormSignup />
 			<TestimonialOne />
 			<Partner />
@@ -30,5 +31,21 @@ const HomePageTwo = () => {
 		</Layout>
 	);
 };
+export async function getServerSideProps({ query }) {
+	try {
+		const resPost = await http.get({
+			url: `/posts?page_size=9`
+		});
+		return {
+			props: {
+				posts: resPost.data
+			}
+		};
+	} catch (err) {
+		return {
+			notFound: true
+		};
+	}
+}
 
 export default HomePageTwo;
