@@ -1,19 +1,18 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import NavOne from '../components/NavOne';
-import PageHeader from '../components/PageHeader';
-import Footer from '../components/Footer';
-import BLTNMy from '../components/BLTNMy';
+import Layout from "../components/Layout";
+import NavOne from "../components/NavOne";
+import PageHeader from "../components/PageHeader";
+import Footer from "../components/Footer";
+import Baolanhnhanthan from "../components/Baolanhnhanthan";
 
-const TeachersPage = () => {
-	return (
-		<Layout pageTitle="Tân Con Đường Vàng | Định Cư">
-			<NavOne />
-			<PageHeader title="Bảo Lãnh Thân Nhân" />
-			<BLTNMy />
-			<Footer />
-		</Layout>
-	);
+const baolanhnhanthan = () => {
+    return (
+        <Layout pageTitle="Tân Con Đường Vàng | Bảo Lãnh Thân Nhân">
+            <NavOne />
+            <Baolanhnhanthan />
+            <Footer />
+        </Layout>
+    );
 };
 
-export default TeachersPage;
+export default baolanhnhanthan;
