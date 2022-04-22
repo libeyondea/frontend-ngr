@@ -8025,6 +8025,59 @@ ul#menu li:hover ul#sub {
 	padding-top: 169px;
 }
 
+
+
+.namco{
+	margin-left: 20px;
+}
+.namK{
+	margin-left: 20px;
+}
+.chu9d{
+	margin-left: 720px;
+	margin-top: 20px;
+	font-size: 30px;
+	color: black;
+}
+.chindT{
+	margin-left: 375px;
+	width: 355px;
+}
+.chindP{
+	margin-left: 750px;
+	margin-top: -284px;
+	width: 355px;
+}
+.rowT{
+	background-color: #1d3768;
+	width: 570px;
+	height: 435px;
+	margin-left: 204px;
+	margin-top: 100px;
+	color: white;
+}
+.rowP{
+	background-color: #b52243;
+	width: 570px;
+	height: 435px;
+	margin-top: 100px;
+	color: white;
+}
+.DTDT{
+	padding-top: 70px;
+	margin-left: 140px;
+}
+.block_desc{
+	margin-left: 80px;
+}
+.DKDT{
+	padding-top: 70px;
+	margin-left: 140px;
+}
+
+
+/*       */
+
 .inner-banner-DCUC__title {
 	margin: 0;
 	text-transform: uppercase;
