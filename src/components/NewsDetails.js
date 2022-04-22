@@ -1,5 +1,5 @@
 import React from 'react';
-const NewsDetails = () => {
+const NewsDetails = ({ post }) => {
 	return (
 		<section className="blog-details">
 			<div className="container">
@@ -130,15 +130,7 @@ const NewsDetails = () => {
 								</div>
 
 								<p className="blog-one__text">IELTS INDICATOR là gì?</p>
-								<p className="blog-one__text">
-									Bạn cần lấy bằng IELTS để kịp thời gian ra trường, hay để đi du học, hoặc để thăng tiến hơn
-									trong công việc. Thế nhưng, do ảnh hưởng của dịch bệnh Covid-19, nên lịch thi IELTS phần nào
-									cũng bị gián đoạn. Cứ như thế, bao nhiêu kế hoạch trong tương lai cũng theo đó mà bị trì hoãn.
-									Thấu hiểu được những nỗi lo đó, TÂN CON ĐƯỜNG VÀNG và Hội đồng Anh (British Council) xin giới
-									thiệu đến các tín đồ IELTS giải pháp thi trực tuyến với IELTS Indicator. Với phương pháp thi
-									trực tuyến này, bạn hoàn toàn có thể tham gia kỳ thi IELTS thoải mái, an toàn ngay tại nhà.
-									🎉🎉🎉
-								</p>
+								<p className="blog-one__text">{post.translations[0].title}</p>
 								<p className="blog-one__text">
 									It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
 									passages, and more recently with desktop publishing software like Aldus PageMaker including

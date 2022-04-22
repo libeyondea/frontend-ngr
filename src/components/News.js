@@ -1,11 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 import useSWR from 'swr';
-const News = () => {
+import DS_NEWS from './Ds-News';
+const News = ({ posts }) => {
 	const { data: listNews } = useSWR(`/posts?sort_by=id&sort_direction=asc`, {
 		revalidateOnFocus: false
 	});
-	console.log(listNews);
+
 	return (
 		<section className="blog-one1 blog-page">
 			<div className="container">
@@ -50,7 +51,8 @@ const News = () => {
 					<h3 className="title-com">
 						<span className="title-holder">TIN TỨC MỚI</span>
 					</h3>
-					<div className="col-lg-4">
+					{posts.data.length && posts.data.map((post, index) => <DS_NEWS post={post} key={index} />)}
+					{/* 	<div className="col-lg-4">
 						<div className="blog-one__single">
 							<div className="blog-one__image">
 								<img
@@ -403,7 +405,7 @@ const News = () => {
 								</Link>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 				<div className="post-pagination">
 					<a href="#">
