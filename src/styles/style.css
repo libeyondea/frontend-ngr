@@ -7918,14 +7918,6 @@ ul#menu li:hover ul#sub {
 	margin-left: 200px;
 }
 
-.card-title-tt{
-	margin-top: -42px;
-	margin-left: 105px;
-	color: red;
-	font-size: 15px;
-	margin-left: 30px;
-}
-
 .card-title-dong1{
 	margin-left: 300px;
 	margin-top: 50px;
@@ -7972,9 +7964,9 @@ ul#menu li:hover ul#sub {
 
 .CO{
 	width: 375px;
-	height: 355px;
+	height: 365px;
 	background-color: #2767a7;
-	margin-top: -703px;
+	margin-top: -702px;
 	margin-left: 373px;
 	color: white;
 
@@ -7982,11 +7974,32 @@ ul#menu li:hover ul#sub {
 
 .K{
 	width: 375px;
-	height: 355px;
+	height: 365px;
 	background-color: #1d3768;
 	color: white;
-	margin-top: -355px;
+	margin-top: -365px;
 	margin-left: 748px;
+}
+.namco{
+	padding-top: 5px;
+}
+.namK{
+	padding-top: 5px;
+}
+.cuoi{
+	border: 1px solid #81868a;
+	width: 1140px;
+	height: 140px;
+	margin-top: 50px;
+	margin-left: 180px;
+	color: black;
+	background-color: #a7c6f8;
+
+}
+.DuAn{
+	height: 700px;
+	background-color: whitesmoke;
+	margin-top: 150px;
 }
 /*-----định cư úc-----*/
 .inner-banner-DCUC {
