@@ -504,7 +504,7 @@ const NavOne = () => {
 										</Link>
 										<ul className="sub-menu">
 											<li>
-												<Link href="/">
+												<Link href="/dinhcunewbrunswich">
 													<a>Định cư New Brunswick</a>
 												</Link>
 											</li>

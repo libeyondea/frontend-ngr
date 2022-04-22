@@ -89,6 +89,10 @@ a {
     background: #8B5FE8; */
     /* height: 330px; */
 }
+.anh2 {
+    width: 100%;
+    height: 570px;
+}
 /* duhoc */
 h3.title-comm:before {
     border-top: 0px solid #d0d2d3;
