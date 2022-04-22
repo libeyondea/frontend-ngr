@@ -103,7 +103,7 @@ const Baolanhnhanthan = () => {
 									<li>● Bảo lãnh con độc thân dưới 21 tuổi (khoảng 01 – 02 năm)</li>
                                     <li>● Bảo lãnh con độc thân trên 21 tuổi (khoảng 06 - 07 năm)</li>
 									</ul>
-                                <strong> 1. Đối với người có quốc tịch:</strong>
+                                <strong> 2. Đối với người có quốc tịch:</strong>
                                     <ul>
 									<li> ● Bảo lãnh vợ/chồng (khoảng 01 năm)</li>
 									<li>● Bảo lãnh cha/ mẹ (khoảng 01 năm)</li>
