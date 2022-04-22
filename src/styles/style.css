@@ -3869,7 +3869,7 @@ a:visited {
 .course-category-one {
 	padding: 120px 0;
 	padding-top: 110px;
-	background: #6cc24a;
+	background: #FFF;
 }
 .course-category-one .container-fluid {
 	max-width: 1520px;
@@ -6526,6 +6526,7 @@ html {
 
 .site-footer__bottom {
 	background-color: #205e11;
+	margin-top: 59px;
 	height: 65px;
 }
 
@@ -6613,7 +6614,7 @@ html {
 
 .countdown-one__title {
 	margin: 0;
-	color: #f8ff0e !important;
+	color: #ff944d !important;
 	font-size: 2rem !important;
 	margin-top: -5px;
 	margin-left: -50px;
