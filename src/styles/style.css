@@ -7960,7 +7960,7 @@ ul#menu li:hover ul#sub {
 
 .card-title-dong3{
 	color: black;
-	margin-top: 100px;
+	margin-top: 60px;
 	margin-left: 600px;
 }
 
@@ -7984,7 +7984,7 @@ ul#menu li:hover ul#sub {
 	margin-top: -703px;
 	margin-left: 373px;
 	color: white;
-
+	padding-top: 10px;
 }
 
 .K{
@@ -7994,6 +7994,7 @@ ul#menu li:hover ul#sub {
 	color: white;
 	margin-top: -355px;
 	margin-left: 748px;
+	padding-top: 10px;
 }
 /*-----định cư úc-----*/
 .inner-banner-DCUC {
@@ -8032,6 +8033,25 @@ ul#menu li:hover ul#sub {
 	padding-top: 169px;
 }
 
+
+.namco{
+	margin-left: 20px;
+}
+.namK{
+	margin-left: 20px;
+}
+.chu9d{
+	margin-left: 720px;
+	margin-top: 20px;
+	font-size: 30px;
+	color: black;
+}
+.chindT{
+	margin-left: 400px;
+}
+.chindP{
+	float: right;
+}
 .inner-banner-DCUC__title {
 	margin: 0;
 	text-transform: uppercase;
@@ -8092,4 +8112,5 @@ ul#menu li:hover ul#sub {
 	margin-bottom: 25px;
 	padding-bottom: 20px;
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+
 }
