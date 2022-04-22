@@ -8025,6 +8025,59 @@ ul#menu li:hover ul#sub {
 	padding-top: 169px;
 }
 
+
+
+.namco{
+	margin-left: 20px;
+}
+.namK{
+	margin-left: 20px;
+}
+.chu9d{
+	margin-left: 720px;
+	margin-top: 20px;
+	font-size: 30px;
+	color: black;
+}
+.chindT{
+	margin-left: 375px;
+	width: 355px;
+}
+.chindP{
+	margin-left: 750px;
+	margin-top: -284px;
+	width: 355px;
+}
+.rowT{
+	background-color: #1d3768;
+	width: 570px;
+	height: 435px;
+	margin-left: 204px;
+	margin-top: 100px;
+	color: white;
+}
+.rowP{
+	background-color: #b52243;
+	width: 570px;
+	height: 435px;
+	margin-top: 100px;
+	color: white;
+}
+.DTDT{
+	padding-top: 70px;
+	margin-left: 140px;
+}
+.block_desc{
+	margin-left: 80px;
+}
+.DKDT{
+	padding-top: 70px;
+	margin-left: 140px;
+}
+
+
+/*       */
+
 .inner-banner-DCUC__title {
 	margin: 0;
 	text-transform: uppercase;
@@ -8150,4 +8203,52 @@ ul#menu li:hover ul#sub {
 	color: #fff;
 	margin-left: 30px;
     margin-top: 125px;
+}
+/*--------bảo lãnh------------------*/
+.inner-banner-BL {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/baolanh/baolanh1.jpg);
+}
+.inner-banner-BL::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-BL .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+.inner-banner-BL__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
 }

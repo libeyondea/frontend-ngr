@@ -1,5 +1,5 @@
 import React from 'react';
-const DS_NEWS = () => {
+const DS_NEWS = ({ post }) => {
 	return (
 		<>
 			<div className="col-lg-4">
@@ -35,11 +35,7 @@ const DS_NEWS = () => {
 						<h2 className="blog-one__title">
 							<a href="/news-details">{post.translations[0].title}</a>
 						</h2>
-						<p className="blog-one__text">
-							CẦN CHUẨN BỊ GÌ KHI DU HỌC MỸ ? Cần chuẩn bị gì khi đi du học Mỹ? hay Du học Mỹ cần mang theo gì? Đây
-							là những từ khoá được gõ nhiều nhất khi các bậc phụ huynh hoặc các bạn học sinh sinh viên muốn tìm
-							hiểu …
-						</p>
+						<p className="blog-one__text">{post.translations[0].excerpt}</p>
 						<a className="blog-one__link" href="/news-details">
 							Read More
 						</a>

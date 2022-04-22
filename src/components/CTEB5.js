@@ -166,7 +166,7 @@ const CTEB5 = () => {
 							<div className='chindT'>
 								<p style={{fontSize: '16px'}}>
 									<i className="fa fa-check" style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}></i>
-									Tự do sinh sống, làm việc, kinh doanh bất cứ nơi nào tại Mỹ
+									Tự do sinh sống, làm việc, kinh doanh<br/><a className='chu' style={{ marginLeft: '50px' }}></a> bất cứ nơi nào tại Mỹ
 								</p>
 								<p style={{fontSize: '16px'}}>
 									<i className="fa fa-check" style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}></i>
@@ -194,7 +194,7 @@ const CTEB5 = () => {
 								</p>
 								<p style={{fontSize: '16px'}}>
 									<i className="fa fa-check" style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}></i>
-									Miễn học phí tiểu học & trung học, học phí đại học bằng 1/3 so với du học sinh
+									Miễn học phí tiểu học & trung học, <br/><a className='chu' style={{ marginLeft: '50px' }}></a>học phí đại học bằng 1/3 so với du học sinh
 								</p>
 								<p style={{fontSize: '16px'}}>
 									<i className="fa fa-check" style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}></i>
@@ -205,6 +205,40 @@ const CTEB5 = () => {
 									Hưởng mọi quyền lợi của một công dân Mỹ
 								</p>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className='row'>
+				<div className='col-6'>
+					<div className='rowT'>
+						<h2 className='DTDT'>ĐỐI TƯỢNG ĐẦU TƯ</h2>
+						<div className='block_desc'>
+							<p>Tất cả các nhà đầu tư có khả năng tài chính, có nhu cầu định<br/> cư Mỹ<br/>
+							Không giới hạn về độ tuổi<br/>
+							Không yêu cầu ngoại ngữ<br/>
+							Không yêu cầu có công ty kinh doanh hoặc kinh nghiệm quản<br/> lý doanh nghiệp<br/>
+							Không cần trực tiếp quản lý công việc đầu tư hàng ngày.</p>
+						</div>
+					</div>
+				</div>
+				<div className='col-6'>
+					<div className='rowP'>
+						<h2 className='DKDT'>ĐIỀU KIỆN ĐẦU TƯ</h2>
+						<p style={{marginLeft: '80px'}}>Chứng minh nguồn gốc số tiền đầu tư (800,000 USD/suất đầu<br/> tư trong vùng TEA; hoặc 1,050,000 USD/suất đầu tư ngoài<br/> vùng TEA) từ:</p>
+						<div className='bacham' style={{marginLeft:'110px'}}>
+							<p style={{fontSize: '16px'}}>
+								<i className="fa fa-circle" aria-hidden="true" style={{ color: 'white', fontSize: '10px', marginLeft: '20px', marginRight: '15px' }}></i>
+								Thu nhập từ lợi nhuận doanh nghiệp
+							</p>
+							<p style={{fontSize: '16px'}}>
+								<i className="fa fa-circle" aria-hidden="true" style={{ color: 'white', fontSize: '10px', marginLeft: '20px', marginRight: '15px' }}></i>
+								Thu nhập cá nhân: tiền lương, tặng, cho, thừa kế…
+							</p>
+							<p style={{fontSize: '16px'}}>
+								<i className="fa fa-circle" aria-hidden="true" style={{ color: 'white', fontSize: '10px', marginLeft: '20px', marginRight: '15px' }}></i>
+								Từ bán bất động sản, chứng khoán, cổ phiếu…
+							</p>
 						</div>
 					</div>
 				</div>
