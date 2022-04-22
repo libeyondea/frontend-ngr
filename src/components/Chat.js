@@ -39,7 +39,7 @@ const Chat = () => {
 				<div>
 					<div className="tieude-chat">
 						<div className="canhle-chat">
-							<h2 className="title-chat">Trò chuyện cùng Chúng Tôi!</h2>
+							<h2 className="title-chat">Trò chuyện cùng chúng tôi !</h2>
 						</div>
 					</div>
 					<div className="chuamucchat">

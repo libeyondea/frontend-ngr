@@ -1914,7 +1914,6 @@ a:visited {
 	font-weight: bold;
 	color: #012237;
 	margin-bottom: 55px;
-
 }
 
 .faq-one__text {
@@ -7226,14 +7225,14 @@ span#fcta-zalo-tracking {
 	background-size: cover;
 	cursor: pointer;
 }
-/* .hide {
+.hide {
 	visibility: hidden;
 }
 
 .myDIV:hover + .hide,
 .hide:hover {
 	visibility: visible;
-} */
+}
 /********************************************Finish Button Chat********************************************/
 /********************************** Form-Chat********************************* */
 .form_chat {
@@ -7242,18 +7241,20 @@ span#fcta-zalo-tracking {
 	right: 20px;
 	z-index: 999;
 	background-color: white;
+	width: 360px;
+	height: 423px;
 	width: 300px;
 	height: 360px;
 	box-shadow: -5px 5px 4px #1c1c1c;
 	border-radius: 18px;
 	opacity: 100%;
-	visibility: hidden;
+	/* 	visibility: hidden; */
 }
 .title-chat {
 	text-align: center;
 	color: #fff;
-	margin-top: 14px;
-	font-size: 22px;
+	margin-top: 20px;
+	font-size: 20px;
 }
 .canhle-chat {
 	margin: 10px auto;
@@ -7267,12 +7268,12 @@ span#fcta-zalo-tracking {
 }
 .chuamucchat {
 	width: 100%;
-	height: 60px;
+	height: 70px;
 	border-bottom: 1px solid #d9d8d8;
 }
 .chuamucchat-cuoi {
 	width: 100%;
-	height: 60px;
+	height: 70px;
 	border-radius: 0 0 18px 18px;
 }
 .chuamucchat:hover {
@@ -7290,9 +7291,12 @@ span#fcta-zalo-tracking {
 }
 .mucchat-text{
 	float: left;
+	margin-top: 20px;
+	font-size: 22px;
 	margin-top: 12px;
 	font-size: 18px;
 	margin-left: 10px;
+
 }
 /* .icon_chat:hover {
 	width: 86px;
@@ -7300,7 +7304,7 @@ span#fcta-zalo-tracking {
 }  */
 .tieude-chat {
 	width: 100%;
-	height: 60px;
+	height: 75px;
 	background-color: #0068ff80;
 	border-radius: 18px 18px 0px 0px;
 	padding-top: 1px;
@@ -7511,20 +7515,13 @@ span#fcta-zalo-tracking {
 
 .tai-sao {
 	font-size: 17px;
-	float: left;
-}
-.tai-sao-vay {
-	font-size: 17px;
-	float: left;
-	margin-left: -750px;
-	margin-top: 60px;
 }
 .tieu-de {
 	font-size: 35px;
 	line-height: 44px;
 	padding-top: 20px;
 	font-weight: 700;
-	color: #13CB53;
+	color: #606060;
 	text-shadow: 1px 1px 0 rgb(255 255 255 / 50%);
 }
 /**/
@@ -7821,10 +7818,229 @@ ul#menu li:hover ul#sub {
 .noidungTH{
 	margin: 20px;
 }
-.anhTH {
-	width: 100%;
-	height: 100%;
-	margin: 5px auto;
-	object-fit: contain;
+/*---Định cư Canada (British)---*/
+.inner-banner-DCCABRI {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/DinhCu/BritishBG.jpg);
+}
+.inner-banner-DCCABRI::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-DCCABRI .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 150px;
 }
 
+.inner-banner-DCCABRI__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+/*---------------------*/
+/*---Định cư Canada (New Brunswick)---*/
+.inner-banner-DCCANEW {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/DinhCu/New-Brunswick2.png);
+}
+.inner-banner-DCCANEW::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-DCCANEW .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+
+.inner-banner-DCCANEW__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+/*---------------------*/
+/* dihcuMy CTEB5 */
+
+.phan-dau{
+	margin-top: -100px;
+	margin-left: 200px;
+}
+
+.card-title-tt{
+	margin-top: -42px;
+	margin-left: 105px;
+	color: red;
+	fontSize: 15px;
+	marginLeft: 30px;
+}
+
+.card-title-dong1{
+	margin-left: 300px;
+	margin-top: 50px;
+	color: black;
+}
+.card-title-dong2{
+	color: black;
+	margin-left: 250px;
+	margin-top: 50px;
+}
+
+.video{
+	margin-top: 120px;
+	margin-left:220px;
+}
+
+.hinhvideo{
+	margin-top: -800px;
+	margin-left: 800px;
+}
+.nd-CTEB5{
+	color: black;
+	margin-left: 200px;
+}
+
+.card-title-dong3{
+	color: black;
+	margin-top: 100px;
+	margin-left: 600px;
+}
+
+.row-nd{
+	border: #94a2ab solid 2px;
+	width: 1140px;
+	height: 690.5px;
+	margin-left: 220px;
+	margin-top: 50px;
+}
+
+.hinhPP{
+	margin-left: -17px;
+	margin-top: -2px;
+}
+
+.CO{
+	width: 375px;
+	height: 355px;
+	background-color: #2767a7;
+	margin-top: -703px;
+	margin-left: 373px;
+	color: white;
+
+}
+
+.K{
+	width: 375px;
+	height: 355px;
+	background-color: #1d3768;
+	color: white;
+	margin-top: -355px;
+	margin-left: 748px;
+}
+/*-----định cư úc-----*/
+.inner-banner-DCUC {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/Dinhcuuc/banneruc.jpg);
+}
+.inner-banner-DCUC::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-DCUC .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+
+.inner-banner-DCUC__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}

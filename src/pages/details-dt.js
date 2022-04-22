@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
 import Footer from '../components/Footer';
-import CallToActionTwo from '../components/CallToActionTwo';
 import DTSlide from '../components/Doitac-Slide';
 import Details_dt from '../components/Details-dt';
 
@@ -12,7 +11,6 @@ const Detailspartner = () => {
 			<NavOne />
 			<DTSlide />
 			<Details_dt />
-			<CallToActionTwo />
 			<Footer />
 		</Layout>
 	);

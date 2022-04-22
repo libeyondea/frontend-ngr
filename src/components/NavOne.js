@@ -68,8 +68,8 @@ const NavOne = () => {
 			data.map((item, index) => {
 				return (
 					<li key={index}>
-						<Link href={`/${item.slug}`}>
-							<a>{item.name}</a>
+						<Link href={`/${item.translations[0].slug}`}>
+							<a>{item.translations[0].name}</a>
 						</Link>
 						{item.children.length ? <ul className="sub-menu">{categoriesRecursive(item.children)}</ul> : null}
 					</li>
@@ -435,7 +435,7 @@ const NavOne = () => {
 												</Link>
 											</li>
 											<li>
-												<Link href="/CTL1">
+												<Link href="/chuong-trinh-L1">
 													<a>Chương Trình L-1</a>
 												</Link>
 											</li>
@@ -504,7 +504,7 @@ const NavOne = () => {
 										</Link>
 										<ul className="sub-menu">
 											<li>
-												<Link href="/">
+												<Link href="/dinhcunewbrunswich">
 													<a>Định cư New Brunswick</a>
 												</Link>
 											</li>
