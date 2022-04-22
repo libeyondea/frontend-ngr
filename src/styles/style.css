@@ -7818,7 +7818,7 @@ ul#menu li:hover ul#sub {
 	background-size: contain;
 	background-attachment: fixed;
 	position: relative;
-	background-image: url(/assets/images/DinhCu/BritishBG.jpg);
+	background-image: url(/assets/images/DinhCuCanada/BritishBG.jpg);
 }
 .inner-banner-DCCABRI::before {
 	content: '';
@@ -7868,7 +7868,7 @@ ul#menu li:hover ul#sub {
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
-	background-image: url(/assets/images/DinhCu/New-Brunswick2.png);
+	background-image: url(/assets/images/DinhCuCanada/New-Brunswick2.png);
 }
 .inner-banner-DCCANEW::before {
 	content: '';
@@ -7922,8 +7922,8 @@ ul#menu li:hover ul#sub {
 	margin-top: -42px;
 	margin-left: 105px;
 	color: red;
-	fontSize: 15px;
-	marginLeft: 30px;
+	font-size: 15px;
+	margin-left: 30px;
 }
 
 .card-title-dong1{
@@ -7995,7 +7995,7 @@ ul#menu li:hover ul#sub {
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
-	background-image: url(/assets/images/Dinhcuuc/banneruc.jpg);
+	background-image: url(/assets/images/DinhCuuc/banneruc.jpg);
 }
 .inner-banner-DCUC::before {
 	content: '';
@@ -8036,4 +8036,119 @@ ul#menu li:hover ul#sub {
 	margin-bottom: 25px;
 	padding-bottom: 20px;
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+
+/*---Định cư Mỹ---*/
+/*--------Chương trình L1------------------*/
+.inner-banner-DCMYL1 {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/DinhCuMy/L1-1.jpg);
+}
+.inner-banner-DCMYL1::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-DCMYL1 .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+
+.inner-banner-DCMYL1__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+.nd-CTL1{
+	color: black;
+	margin-left: 30px;
+}
+.phan-dau{
+	margin-top: -100px;
+	margin-left: 200px;
+}
+
+.card-title-tt{
+	margin-top: -42px;
+	margin-left: 105px;
+	color: red;
+	font-size: 15px;
+	margin-left: 30px;
+}
+
+.card-title-dong1{
+	margin-left: 300px;
+	margin-top: 50px;
+	color: black;
+}
+.card-title-dong2{
+	color: black;
+	margin-left: 250px;
+	margin-top: 50px;
+}
+
+.video{
+	margin-top: 120px;
+	margin-left:220px;
+}
+
+.hinhvideoL1{
+	margin-top: -245px;
+    margin-left: 800px;
+}
+.card-title-dong3{
+	color: black;
+	margin-top: 100px;
+	margin-left: 600px;
+}
+
+.row-nd{
+	border: #94a2ab solid 2px;
+	width: 1140px;
+	height: 690.5px;
+	margin-left: 220px;
+	margin-top: 50px;
+}
+.media-play-icon-L1 {
+	width: 130px;
+	height: 130px;
+	background-color: red;
+	border-radius: 50%;
+	position: relative;
+	line-height: 140px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 40px;
+	color: #fff;
+	margin-left: 30px;
+    margin-top: 125px;
 }

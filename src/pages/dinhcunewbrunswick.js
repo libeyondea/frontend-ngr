@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import DinhCuNewBrunswich from '../components/DinhCuNewBrunswick';
 
 const dinhcunewbrunswick = () => {
-	console.log('DuHocCanada');
+	console.log('dinhcunewbrunswick');
 	return (
 		<Layout pageTitle="Định cư bang New Brunswick- Canada ">
 			<NavOne />
