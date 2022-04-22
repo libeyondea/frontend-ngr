@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Image from './Image';
 const DinhCuUc = () => {
 	return (
-		<div className="THdetails">
-			<section className="inner-banner-THCA">
+		<div >
+			<section className="inner-banner-DCUC">
 				<div className="container">
-					<h2 className="inner-banner-THCA__title">ĐỊNH CƯ ÚC</h2>
+					<h2 className="inner-banner-DCUC__title">ĐỊNH CƯ ÚC</h2>
 				</div>
 			</section>
 			<div id="breaking-news" className="breaking-school" style={{ color: 'color: #E4EAE3' }}>
@@ -64,9 +64,9 @@ const DinhCuUc = () => {
 								<li> &#10004; Được hưởng phúc lợi xã hội và trợ cấp y tế của Úc.</li>
 							</ul>
 						</div>
-						
-							<img src="/assets/images/Dinhcuuc/dcuc1.png" alt="uc" className="anhTH" />
-						
+						<p  style={{textAlign:'center'}}>
+							<img src="/assets/images/Dinhcuuc/dcuc1.png" alt="uc" className="anhTH" width={'700px'}/>
+							</p>
 						<div>
 							<h2 className="mucTH">3. QUYỀN LỢI CỦA CÔNG DÂN ÚC</h2>
 							<div style={{ color: '#333', fontSize: '20px', fontWeight: 'lighter' }}>
@@ -151,9 +151,9 @@ const DinhCuUc = () => {
 									<li> ● Sau khi tham gia vào hoạt động kinh doanh tại Úc, đương đơn sẽ được yêu cầu hoàn thành đơn 1010 – Đơn khảo sát khả năng kinh doanh.</li>
 								</ol>
 							</div>
-				
-								<img src="/assets/images/Dinhcuuc/dcuc2.jpg" alt="uc" className="anhTH" />
-						
+							<p  style={{textAlign:'center'}}>
+								<img src="/assets/images/Dinhcuuc/dcuc2.jpg" alt="uc" className="anhTH" width={'700px'}/>
+							</p>
 						</div>
 						<div>
 							<h3> Mọi chi tiết xin vui lòng liên hệ:</h3>

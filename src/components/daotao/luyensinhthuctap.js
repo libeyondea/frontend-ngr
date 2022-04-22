@@ -136,7 +136,6 @@ const TeachersDetails = () => {
 					<div className="row justify-content-center">
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
-								<div className="service-item zoomin">
 								<span className="count">1.</span>
 								<i className="tf-ion-ios-briefcase-outline" />
 								<h4><a href="#">CƠ BẢN</a></h4>
@@ -144,61 +143,51 @@ const TeachersDetails = () => {
 									Khóa học giúp bạn toàn diện và cải thiện về tiếng anh ở mức độ cơ bản
 									.
 								</p>
-								</div>
 							</div>
 						</div>
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
-							<div className="service-item zoomin">
 								<span className="count">2.</span>
 								<i className="tf-ion-ios-locked-outline" />
 								<h4><a href="#">NÂNG CAO</a></h4>
 								<p>
 								Khóa học giúp bạn toàn diện và cải thiện về tiếng anh ở mức độ Thành thạo.
 								</p>
-								</div>
 							</div>
 							</div>
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
-							<div className="service-item zoomin">
 								<span className="count">3.</span>
 								<i className="tf-ion-ios-alarm-outline" />
 								<h4><a href="#">CHUYỂN CẤP</a></h4>
 								<p>
-								Khóa học giúp cải thiện điểm số tại trường về tiếng anh và trang bị kiến thức để học viên bước vào kỳ thi quan trọng.
+								Khóa học giúp bạn cải thiện điểm số tại trường về tiếng anh và trang bị kiến thức để học viên bước vào kỳ thi quan trọng.
 								</p>
-								</div>
 							</div>
 						</div>
 						<div className="w-100" />
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
-							<div className="service-item zoomin">
 								<span className="count">4.</span>
 								<i className="tf-ion-ios-email-outline" />
 								<h4><a href="#">TOEIC</a></h4>
 								<p>
 								Khóa học giúp bạn ôn và luyện để các học viên đạt được số điểm toeic mong muốn.
 								</p>
-								</div>
 							</div>
 						</div>
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
-							<div className="service-item zoomin">
 								<span className="count">5.</span>
 								<i className="tf-ion-ios-locked-outline" />
 								<h4><a href="#">IELTS</a></h4>
 								<p>
 								Khóa học giúp bạn ôn và luyện để các học viên đạt được số điểm ielts mong muốn.
 								</p>
-								</div>
 							</div>
 							</div>
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
-							<div className="service-item zoomin">
 								<span className="count">6.</span>
 								<i className="tf-ion-ios-locked-outline" />
 								<h4><a href="#">GIAO TIẾP</a></h4>
@@ -206,7 +195,7 @@ const TeachersDetails = () => {
 								Khóa học giúp bạn cải thiện giao tiếp và cũng như các topic giao tiếp phỏng vấn công việc.
 								</p>
 							</div>
-							</div>
+							
 						</div>
 					</div>{' '}
 					{/* End row */}

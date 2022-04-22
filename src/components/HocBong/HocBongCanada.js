@@ -67,9 +67,9 @@ const HocBongCanada = () => {
 					</div>
 					<div className="chuaanh-2">
 						<img
-							src="/assets/images/HocBong/NGANH.jpg"
+							src="/assets/images/HocBong/nganhhoc.png"
 							alt="canada"
-							className="anh1"
+							className="anh2"
 						/>
 					</div>
 				</div>
@@ -104,10 +104,8 @@ const HocBongCanada = () => {
 				</div>
 				<div style={{clear:"both"}}></div>
                  {/*********************************NOI DUNG 4*************************************/}
-				 <h2 className="muc1">4. Vì Sao Nên Chọn Đại Học Canada West Universityc</h2>
 				<div className="noidung4">
-					{' '}
-					{/*nội dung 1 của trang học bổng */}
+				<h2 className="muc1">4. Vì Sao Nên Chọn Đại Học Canada West Universityc</h2>
 					<div className='text2 style-text' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
 						<b className='style-text'>* Cử nhân thương mại</b>
 						<ul>
@@ -119,7 +117,7 @@ const HocBongCanada = () => {
 						<li>Đại học tập trung vào kinh doanh và công nghệ, tập trung vào ứng dụng thực tế</li>
 					</ul>
 					</div>
-					<div className="chuaanh-2">
+					<div className="chuaanh-4">
 						<img
 							src="/assets/images/HocBong/NGANH.jpg"
 							alt="canada"
@@ -167,6 +165,7 @@ const HocBongCanada = () => {
 				</div>
                 <div style={{clear:"both"}}></div>
 				<div className='line'></div>
+				{/*********************************NEXT-PREVIOUS***************************************/}
 				<div className='next-previous'>
 					<div className="post-navigation">
 						<div className="post-previous">

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Image from './Image';
-const DinhCuBritish = () => {
+const ChuongTrinhL1 = () => {
 	return (
 		<div style={{ backgroundColor: 'white' }}>
-			<section className="inner-banner-DCCABRI">
+			<section className="inner-banner-DCCANEW">
 				<div className="container">
 					<ul className="list-unstyled thm-breadcrumb">
 						<li>
@@ -13,7 +13,7 @@ const DinhCuBritish = () => {
 							<a href="#">Chi Tiết Về Định Cư</a>
 						</li>
 					</ul>
-					<h2 className="inner-banner-DCCABRI__title">ĐỊNH CƯ CANADA</h2>
+					<h2 className="inner-banner-DCCANEW__title">ĐỊNH CƯ CANADA</h2>
 				</div>
 			</section>
 			<div id="breaking-news" className="breaking-school" style={{ color: 'color: #E4EAE3' }}>
@@ -49,7 +49,7 @@ const DinhCuBritish = () => {
 				&nbsp;&nbsp;
 				<span className="delimiter">/</span>
 				&nbsp;&nbsp;
-				<span className="current">[Định cư British Columbia]</span>
+				<span className="current">[Định cư New Brunswick]</span>
 			</div>
 
 			<div className="row">
@@ -65,122 +65,11 @@ const DinhCuBritish = () => {
 							marginLeft: '75px'
 						}}
 					>
-						ĐỊNH CƯ CANADA – TỈNH BANG BRITISH COLUMBIA(B.C)
+						THÀNH LẬP DOANH NGHIỆP MỸ L-1
 					</h3>
 					<div className="noidung">
-						<ul>
-							<li>● VỐN ĐẦU TƯ THẤP: ĐẦU TƯ DOANH NGHIỆP TỪ 200.000 CAD</li>
-
-							<li>● THỜI GIAN NHANH CHÓNG: CÓ WORK PERMIT SAU KHOẢNG 12 THÁNG</li>
-
-							<li>● THẺ XANH – PR: NHẬN THẺ XANH VÀ HƯỞNG QUYỀN THƯỜNG TRÚ NHÂN SAU 2 NĂM</li>
-
-							<li>● QUỐC TỊCH – PASSPORT: TRỞ THÀNH CÔNG DÂN SAU KHI SỐNG ¾ NĂM TẠI CANADA</li>
-						</ul>
-						<h3>1. Tổng quan về Tỉnh bang B.C:</h3>
-						<ul>
-							<li>
-								- Nằm ở cực Tây của Canada, có khí hậu tương đối ôn đới, thu hút người định cư trong cũng như
-								ngoài nước: Hàng năm có khoảng 40.000 người đến định cư ở đây.{' '}
-							</li>
-							<li>
-								- Thành phố Vancouver là thành phố lớn nhất tại B.C và cũng là hải cảng lớn nhất bên bờ biển Thái
-								Bình Dương của Bắc Mỹ. Đây là nơi tập trung của trên 1,5 triệu người, trở thành thành phố lớn thứ
-								ba của Canada (sau Toronto và Montréal).{' '}
-							</li>
-							<li>
-								- Ngành kinh tế sầm uất, đa dạng: là khu vực phát triển nhất các tỉnh bang của Canada như lâm
-								nghiệp, khai thác mỏ, du lịch... với ngành công nghiệp điện ảnh được mệnh danh “Hollywood phía
-								Bắc”, khu vực Vancouver là địa điểm sản xuất phim lớn thứ ba ở Bắc Mỹ, sau Los Angeles và New
-								York.
-							</li>
-						</ul>
-                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/british1.jpg" alt="Alberta University" width={'700px'} /></p>
-						<h3>2. Điều kiện tham gia Chương trình Doanh nhân B.C:</h3>
-						<ul>
-							<li>
-								<b><i>- Nhà đầu tư: Có vốn đầu tư tối thiểu 200,000CAD (từ nguồn Franchise, mua lại doanh nghiệp hoặc mở
-								DN mới)</i></b>
-							</li>
-							<li>+ Không giới hạn độ tuổi (đang trong độ tuổi lao động là một lợi thế)</li>
-
-							<li>+ Đạt thang điểm di trú (phụ thuộc vào thời điểm nộp hồ sơ)</li>
-
-							<li>+ Học ít nhất 1 năm sau THPT</li>
-
-							<li>+ Tiếng AnhCLB 4 (IELTS 4.0)</li>
-						</ul>
-						<ul>
-							<li><b><i>- Kinh nghiệm: DN tư nhân (không phải công ty Nhà nước)</i></b></li>
-							<li>+ Có 3 năm là chủ DN (sở hữu tối thiểu 10% CP)</li>
-
-							<li>+ Hoặc 4 năm quản lý cấp cao, có ít nhất 3 nhân viên dưới quyền</li>
-
-							<li>+ Hoặc 1 năm chủ DN và 2 năm quản lý cấp cao</li>
-						</ul>
-						<ul><b><i>- Tài sản: Tối thiểu 600,000CAD (Trong đó: 100,000CAD là tài sản lưu động)</i></b></ul>
-						<ul>
-                            <b><i>- Mối liên hệ với Tỉnh bang B.C: Thực hiện chuyến khảo sát trực tiếp tại tỉnh bang B.C để thảo luận
-							chi tiết về hồ sơ và ký Performance Agreement.</i></b>
-						</ul>
-                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/british2.jpg" alt="Alberta University" width={'700px'} /></p>
-                        <h3>3. Tổng quan về hoạt động kinh doanh tại B.C:</h3>
-                        <ul>
-                            <b><i>- Mở DN mới:</i></b>
-                            <li>+ Phải mang lại lợi ích kinh tế cho B.C và nằm trong danh mục ngành nghề được cho phép</li>
-                            <li>+ Nếu NĐT đầu tư với hình thức cổ phần thì NĐT được mua không quá 2/3 số tiền đầu tư tối thiểu
-                            theo qui định và NĐT phải có quyền sở hữu và kiểm soát ít nhất 1/3 doanh nghiệp. </li>
-                            <li>+ Nếu NĐT đầu tư với hình thức mua tài sản DN thì có thể mua 2/3 số tiền qui định. </li>
-                            <li>+ DN được mua lại phải hoạt động ít nhất 5 năm cho đến nay</li>
-                        </ul>
-                        <ul>
-                            <b><i>- Nhượng quyền – Franchises: </i></b>
-                            <li> + Mô hình franchises có thể được chấp thuận nếu NĐT chứng minh mô hình
-                            DN hoạt động hiệu quả nếu: DN có thể mở rộng; có thể mang lại thu nhập cao; và DN đã vận hành ít
-                            nhất 5 năm Mua lại DN: </li>
-                            <li> + Đăng kí kinh doanh hợp pháp, văn phòng cố định + Nhà đầu tư quản lý hoạt
-                            động hàng ngày tại B.C </li>
-                            <li> + Tạo ra ít nhất 01 việc làm toàn thời gian + Đầu tư tối thiểu 200,000CAD</li>
-                        </ul>
-                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/british3.jpg" alt="Alberta University" width={'700px'} /></p>
-						<h3>4. Tiến trình hồ sơ:</h3>
-                         <a>*** Thời gian xử lý hồ sơ: khoảng từ 12 tháng </a>
-                         <ul>
-                            <li><b><i>- Bước 1: </i></b><br/>
-                            Thẩm định hồ sơ Chuyên gia thẩm định hồ sơ theo thang điểm di trú </li>
-                            <li><b><i>- Bước 2: </i></b><br/>
-                            Ký HĐDV/ HĐLS USIS Group chỉ nhận hồ sơ đủ điều kiện </li>
-                            <li><b><i>- Bước 3: </i></b><br/>
-                            Mở hồ sơ EOI Lập kế hoạch kinh doanh tổng quan/ Tỉnh bang B.C lựa chọn và gửi thư mời nộp hồ sơ </li>
-                            <li><b><i>- Bước 4: </i></b> <br/>
-                            Khảo sát tỉnh bang Khảo sát tỉnh bang B.C và ký Performance Agreement (cam kết đầu tư) </li>
-                            <li><b><i>- Bước 5: </i></b><br/>
-                            Nộp hồ sơ tỉnh bang Nộp bộ HS đầy đủ và bảng kế hoạch KD chi tiết </li>
-                            <li><b><i>- Bước 6: </i></b><br/>
-                            Work Permit Nhận thư xác nhận của tỉnh bang/ Nộp HS xin Work Permit/ Sang B.C Canada sinh sống và kinh doanh </li>
-                            <li><b><i>- Bước 7: </i></b><br/>
-                            + Nộp hồ sơ liên bang Nộp HS cùng thư đề cử của tỉnh bang lên IRCC/ Chuyển đổi từ Work Permit &#10145; PR sau 2 năm <br/>
-                            + Tiến trình xử lý hồ sơ sẽ phụ
-                            thuộc vào sự hợp tác của khách hàng,thời gian xét duyệt của Chính phủ Canada, tỉnh bang, liên bang và các bên thứ ba.
-                            </li>
-                        </ul>
-					<h3> Mọi chi tiết xin vui lòng liên hệ:</h3>
-					<h5 style={{ color: '#ff944d' }}> DU HỌC TÂN CON ĐƯỜNG VÀNG – NEW GOLDEN ROAD</h5>
-					<ol>
-						<ul> &#127980; Địa chỉ: 219 Tân Quý, phường Tân Quý, quận Tân Phú, Tp Hồ Chí Minh</ul>
-
-						<ul> &#128222; Hotline: 0909416959 – Ms. Linda</ul>
-
-						<ul> &#128231; Email: duhoc@newgoldenroad.edu.vn</ul>
-
-						<ul> &#127760; Website: https://newgoldenroad.com/</ul>
-
-						<ul> &#127759; Facebook: https://www.facebook.com/newgoldenroad</ul>
-					</ol>
                     </div>
-				</div>
-			
-                <div className="col-lg-4">
+                    <div className="col-lg-4">
                     <div className="become-teacher__form" id="back-top">
                         <div className="become-teacher__form-top">
                             <h2 className="become-teacher__form-title">TƯ VẤN MIỄN PHÍ</h2>
@@ -423,4 +312,4 @@ const DinhCuBritish = () => {
         </div>
 	);
 };
-export default DinhCuBritish;
+export default ChuongTrinhL1;
