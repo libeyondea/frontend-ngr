@@ -421,6 +421,7 @@ const CTEB5 = () => {
 			</div>
 			<div className='DuAn'>
 				<h2 className='DA' style={{color:'black', display:'block',textAlign:'center'}}>DỰ ÁN</h2>
+
 			</div>
 		</section>
 	);
