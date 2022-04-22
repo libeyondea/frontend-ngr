@@ -127,7 +127,7 @@ const NavOne = () => {
 								</Link>
 							</li>
 							{listCategory && categoriesRecursive(listCategory.data)}
-							{/* 	<li className="current">
+								{/* <li className="current">
 								<Link href="/">
 									<a>Du Học</a>
 								</Link>
@@ -418,7 +418,7 @@ const NavOne = () => {
 										</ul>
 									</li>
 								</ul>
-							</li>
+							</li> */}
 							<li className="current">
 								<Link href="/">
 									<a>Định Cư</a>
@@ -435,7 +435,7 @@ const NavOne = () => {
 												</Link>
 											</li>
 											<li>
-												<Link href="/CTL1">
+												<Link href="/chuong-trinh-L1">
 													<a>Chương Trình L-1</a>
 												</Link>
 											</li>
@@ -504,7 +504,7 @@ const NavOne = () => {
 										</Link>
 										<ul className="sub-menu">
 											<li>
-												<Link href="/">
+												<Link href="/dinhcunewbrunswich">
 													<a>Định cư New Brunswick</a>
 												</Link>
 											</li>
@@ -526,7 +526,7 @@ const NavOne = () => {
 								<a href="#">Học Bổng</a>
 								<ul className="sub-menu">
 									<li>
-										<Link href="/hocbong/hocbongcanada">
+										<Link href="/hoc-bong-canada">
 											<a>Học Bổng Canada</a>
 										</Link>
 									</li>
@@ -676,7 +676,7 @@ const NavOne = () => {
 									</li>
 								</ul>
 							</li>
-							*/}
+
 							<li>
 								<Link href="/contact">
 									<a>Liên Hệ</a>
