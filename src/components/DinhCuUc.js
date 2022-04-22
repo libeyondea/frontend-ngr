@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Image from './Image';
 const DinhCuUc = () => {
 	return (
-		<div className="THdetails">
-			<section className="inner-banner-THCA">
+		<div >
+			<section className="inner-banner-DCUC">
 				<div className="container">
-					<h2 className="inner-banner-THCA__title">ĐỊNH CƯ ÚC</h2>
+					<h2 className="inner-banner-DCUC__title">ĐỊNH CƯ ÚC</h2>
 				</div>
 			</section>
 			<div id="breaking-news" className="breaking-school" style={{ color: 'color: #E4EAE3' }}>
