@@ -1,7 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
-
+import useSWR from 'swr';
 const News = () => {
+	const { data: listNews } = useSWR(`/posts?sort_by=id&sort_direction=asc`, {
+		revalidateOnFocus: false
+	});
+	console.log(listNews);
 	return (
 		<section className="blog-one1 blog-page">
 			<div className="container">

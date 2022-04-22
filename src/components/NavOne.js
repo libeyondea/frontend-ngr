@@ -91,7 +91,7 @@ const NavOne = () => {
 							<a className="navbar-brand">
 								<div className="fixstyle">
 									<Image
-										src="/assets/images/logongrnew.png"
+										src="/assets/images/NGRLOGO.png"
 										className="main-logo"
 										width="165"
 										height="100"
@@ -127,7 +127,7 @@ const NavOne = () => {
 								</Link>
 							</li>
 							{listCategory && categoriesRecursive(listCategory.data)}
-								{/* <li className="current">
+							{/* <li className="current">
 								<Link href="/">
 									<a>Du Học</a>
 								</Link>
@@ -419,7 +419,7 @@ const NavOne = () => {
 									</li>
 								</ul>
 							</li> */}
-							<li className="current">
+							{/* <li className="current">
 								<Link href="/">
 									<a>Định Cư</a>
 								</Link>
@@ -675,7 +675,7 @@ const NavOne = () => {
 										</Link>
 									</li>
 								</ul>
-							</li>
+							</li> */}
 
 							<li>
 								<Link href="/contact">
