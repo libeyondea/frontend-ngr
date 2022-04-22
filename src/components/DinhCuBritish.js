@@ -95,7 +95,7 @@ const DinhCuBritish = () => {
 								York.
 							</li>
 						</ul>
-                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/british1.jpg" alt="Alberta University" width={'700px'} /></p>
+                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCuCanada/british1.jpg" alt="Alberta University" width={'700px'} /></p>
 						<h3>2. Điều kiện tham gia Chương trình Doanh nhân B.C:</h3>
 						<ul>
 							<li>
@@ -123,7 +123,7 @@ const DinhCuBritish = () => {
                             <b><i>- Mối liên hệ với Tỉnh bang B.C: Thực hiện chuyến khảo sát trực tiếp tại tỉnh bang B.C để thảo luận
 							chi tiết về hồ sơ và ký Performance Agreement.</i></b>
 						</ul>
-                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/british2.jpg" alt="Alberta University" width={'700px'} /></p>
+                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCuCanada/british2.jpg" alt="Alberta University" width={'700px'} /></p>
                         <h3>3. Tổng quan về hoạt động kinh doanh tại B.C:</h3>
                         <ul>
                             <b><i>- Mở DN mới:</i></b>
@@ -142,7 +142,7 @@ const DinhCuBritish = () => {
                             động hàng ngày tại B.C </li>
                             <li> + Tạo ra ít nhất 01 việc làm toàn thời gian + Đầu tư tối thiểu 200,000CAD</li>
                         </ul>
-                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/british3.jpg" alt="Alberta University" width={'700px'} /></p>
+                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCuCanada/british3.jpg" alt="Alberta University" width={'700px'} /></p>
 						<h3>4. Tiến trình hồ sơ:</h3>
                          <a>*** Thời gian xử lý hồ sơ: khoảng từ 12 tháng </a>
                          <ul>

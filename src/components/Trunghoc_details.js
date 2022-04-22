@@ -57,8 +57,10 @@ const Trunghoc_details = () => {
 							như tranh Vancouver, British Columbia. Bodwell high school được chứng nhận và thanh tra bởi Sở Giáo
 							Dục British Columbia và được công nhận là một trường hàng đầu trong số các trường nội trú Canada.
 						</div>
-				
-							<img src="/assets/images/Trunghoc/trunghoc1.1.png" alt="canada" className="anhTH" />
+				<p style={{textAlign:'center'}}>
+					<img src="/assets/images/Trunghoc/trunghoc1.1.png" alt="canada" className="anhTH" width={'700px'} />
+					</p>
+							
 					
 
 						<h2 className="mucTH">CHƯƠNG TRÌNH ĐÀO TẠO</h2>
@@ -75,8 +77,9 @@ const Trunghoc_details = () => {
 								<li> &#10004; Khóa học hè</li>
 							</ul>
 						</div>
-						
-							<img src="/assets/images/Trunghoc/trunghoc1.2.jpeg" alt="canada" className="anhTH" />
+						<p  style={{textAlign:'center'}}>
+							<img src="/assets/images/Trunghoc/trunghoc1.2.jpeg" alt="canada" className="anhTH" width={'700px'}/>
+							</p>
 						
 						<div>
 							<h2 className="mucTH">ĐIỂM NỔI BẬT CỦA BODWELL HIGH SCHOOL</h2>
@@ -104,9 +107,9 @@ const Trunghoc_details = () => {
 									</li>
 								</ul>
 							</div>
-						
-								<img src="/assets/images/Trunghoc/trunghoc1.3.png" alt="canada" className="anhTH" />
-						
+							<p  style={{textAlign:'center'}}>
+								<img src="/assets/images/Trunghoc/trunghoc1.3.png" alt="canada" className="anhTH" width={'700px'}/>
+							</p>
 						</div>
 						<div>
 							<h2 className="mucTH">HOẠT ĐỘNG NGOẠI KHÓA</h2>
@@ -123,9 +126,9 @@ const Trunghoc_details = () => {
 									</li>
 								</ul>
 							</div>
-					
-								<img src="/assets/images/Trunghoc/trunghoc1.4.png" alt="canada" className="anhTH" />
-					
+							<p  style={{textAlign:'center'}}>
+								<img src="/assets/images/Trunghoc/trunghoc1.4.png" alt="canada" className="anhTH" width={'700px'}/>
+							</p>
 						</div>
 						<div>
 							<h2 className="mucTH">KÝ TÚC XÁ</h2>
@@ -136,9 +139,9 @@ const Trunghoc_details = () => {
 								vụ nội trú tại trường cho học sinh, Bodwell còn có dịch vụ homestay cho sinh viên quốc tế sống xa
 								nhà.
 							</div>
-				
-								<img src="/assets/images/Trunghoc/trunghoc1.5.png" alt="canada" className="anhTH" />
-						
+							<p  style={{textAlign:'center'}}>
+								<img src="/assets/images/Trunghoc/trunghoc1.5.png" alt="canada" className="anhTH" width={'700px'}/>
+							</p>
 						</div>
 						<div>
 							<h2 className="mucTH">CHI PHÍ</h2>

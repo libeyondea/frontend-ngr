@@ -3721,9 +3721,9 @@ a:visited {
     padding-bottom: 10px;
 	position: relative;
 }
-.course-details__list {
+.course-details__listt {
 	border-style: solid;
-	border-width: 2px;
+	border-width: 16px;
 	border-color: #f1f1f1;
 	padding: 50px;
 }
@@ -3766,7 +3766,7 @@ a:visited {
 	color: #2da397;
 	margin-left: 6px;
 }
-.course-details__list h3 {
+.course-details__listt h3 {
 	font-size: 16px;
 	font-weight: 600;
 	color: #81868a;
@@ -6521,16 +6521,16 @@ html {
 }
 
 .site-footer {
-	background-color: #bf2604 !important;
+	background-color: #048019 !important;
 }
 
 .site-footer__bottom {
-	background-color: #346E6D;
+	background-color: #205e11;
 	height: 65px;
 }
 
 .site-footer__social::before {
-	background-color: #346E6D;
+	background-color: #205e11;
 }
 
 .site-footer__copy a {
@@ -6547,7 +6547,7 @@ html {
 }
 
 .header-navigation {
-	background-color: #009955;
+	background-color: #048019;
 }
 
 .header-navigation ul.navigation-box > li > a {
@@ -6599,7 +6599,7 @@ html {
 
 .site-footer__upper {
 	padding: 16px;
-	background: #009955;
+	background: #048019;
 
 }
 .row {
@@ -7254,7 +7254,7 @@ span#fcta-zalo-tracking {
 	text-align: center;
 	color: #fff;
 	margin-top: 20px;
-	font-size: 20px;
+	font-size: 26px;
 }
 .canhle-chat {
 	margin: 10px auto;
@@ -7368,16 +7368,9 @@ span#fcta-zalo-tracking {
 }
 .chuaanh-2{
 	width: 40%;
-	height: 510px;
+	height: 300px;
+	margin: 5px auto;
 	object-fit: contain;
-	margin-left: 30px;
-	float: left;
-}
-.chuaanh-4{
-	width: 40%;
-	height: 240px;
-	object-fit: contain;
-	margin-left: 30px;
 	float: left;
 }
 .noidung1{
@@ -7387,7 +7380,7 @@ span#fcta-zalo-tracking {
 }
 .noidung2{
 	width: 100%;
-	height: 700px;
+	height: 620px;
 	margin-top: 20px;
 }
 .noidung3{
@@ -7434,8 +7427,8 @@ span#fcta-zalo-tracking {
 	height: 100%;
 }
 .anh2{
-	width: 70%;
-	height: 500px;
+	width: 40%;
+	height: 300px;
 }
 .muc1 {
 	font-size: 25px;
@@ -7825,7 +7818,7 @@ ul#menu li:hover ul#sub {
 	background-size: contain;
 	background-attachment: fixed;
 	position: relative;
-	background-image: url(/assets/images/DinhCu/BritishBG.jpg);
+	background-image: url(/assets/images/DinhCuCanada/BritishBG.jpg);
 }
 .inner-banner-DCCABRI::before {
 	content: '';
@@ -7875,7 +7868,7 @@ ul#menu li:hover ul#sub {
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
-	background-image: url(/assets/images/DinhCu/New-Brunswick2.png);
+	background-image: url(/assets/images/DinhCuCanada/New-Brunswick2.png);
 }
 .inner-banner-DCCANEW::before {
 	content: '';
@@ -7929,8 +7922,8 @@ ul#menu li:hover ul#sub {
 	margin-top: -42px;
 	margin-left: 105px;
 	color: red;
-	fontSize: 15px;
-	marginLeft: 30px;
+	font-size: 15px;
+	margin-left: 30px;
 }
 
 .card-title-dong1{
@@ -8002,7 +7995,7 @@ ul#menu li:hover ul#sub {
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
-	background-image: url(/assets/images/Dinhcuuc/banneruc.jpg);
+	background-image: url(/assets/images/DinhCuuc/banneruc.jpg);
 }
 .inner-banner-DCUC::before {
 	content: '';
@@ -8032,7 +8025,222 @@ ul#menu li:hover ul#sub {
 	padding-top: 169px;
 }
 
+
+
+.namco{
+	margin-left: 20px;
+}
+.namK{
+	margin-left: 20px;
+}
+.chu9d{
+	margin-left: 720px;
+	margin-top: 20px;
+	font-size: 30px;
+	color: black;
+}
+.chindT{
+	margin-left: 375px;
+	width: 355px;
+}
+.chindP{
+	margin-left: 750px;
+	margin-top: -284px;
+	width: 355px;
+}
+.rowT{
+	background-color: #1d3768;
+	width: 570px;
+	height: 435px;
+	margin-left: 204px;
+	margin-top: 100px;
+	color: white;
+}
+.rowP{
+	background-color: #b52243;
+	width: 570px;
+	height: 435px;
+	margin-top: 100px;
+	color: white;
+}
+.DTDT{
+	padding-top: 70px;
+	margin-left: 140px;
+}
+.block_desc{
+	margin-left: 80px;
+}
+.DKDT{
+	padding-top: 70px;
+	margin-left: 140px;
+}
+
+
+/*       */
+
 .inner-banner-DCUC__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+
+/*---Định cư Mỹ---*/
+/*--------Chương trình L1------------------*/
+.inner-banner-DCMYL1 {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/DinhCuMy/VISA.png);
+}
+.inner-banner-DCMYL1::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+	
+}
+.inner-banner-DCMYL1 .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 156px;
+}
+.inner-banner-DCMYL1__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+.nd-CTL1{
+	color: black;
+	margin-left: 30px;
+}
+.phan-dau{
+	margin-top: -100px;
+	margin-left: 200px;
+}
+
+.card-title-tt{
+	margin-top: -42px;
+	margin-left: 105px;
+	color: red;
+	font-size: 15px;
+	margin-left: 30px;
+}
+
+.card-title-dong1{
+	margin-left: 300px;
+	margin-top: 50px;
+	color: black;
+}
+.card-title-dong2{
+	color: black;
+	margin-left: 250px;
+	margin-top: 50px;
+}
+
+.video{
+	margin-top: 120px;
+	margin-left:220px;
+}
+
+.hinhvideoL1{
+	margin-top: -245px;
+    margin-left: 800px;
+}
+.card-title-dong3{
+	color: black;
+	margin-top: 100px;
+	margin-left: 600px;
+}
+
+.row-nd{
+	border: #94a2ab solid 2px;
+	width: 1140px;
+	height: 690.5px;
+	margin-left: 220px;
+	margin-top: 50px;
+}
+.media-play-icon-L1 {
+	width: 130px;
+	height: 130px;
+	background-color: red;
+	border-radius: 50%;
+	position: relative;
+	line-height: 140px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 40px;
+	color: #fff;
+	margin-left: 30px;
+    margin-top: 125px;
+}
+/*--------bảo lãnh------------------*/
+.inner-banner-BL {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/baolanh/baolanh1.jpg);
+}
+.inner-banner-BL::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-BL .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+.inner-banner-BL__title {
 	margin: 0;
 	text-transform: uppercase;
 	font-size: 100px;

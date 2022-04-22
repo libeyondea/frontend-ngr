@@ -135,12 +135,12 @@ h3.title-comm:before {
     padding-left: 88px !important;
     position: relative !important;
     border-style: unset;
-    border-width: 2px;
+    border-width: 16px;
     border-color: #f1f1f1;
     padding: 50px;
 }
 .breaking-school {
-    padding-left: 85px;
+    padding-left: 100px;
     padding-top: -6px !important;
     margin-top: 18px;
     padding-bottom: -24px !important;
@@ -173,7 +173,7 @@ h3.title-comm:before {
 }
 .crumbss-school {
     padding-bottom: 10px;
-    padding-left: 85px;
+    padding-left: 100px;
 }
 /* contac */
 .map{
