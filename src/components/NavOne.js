@@ -435,7 +435,7 @@ const NavOne = () => {
 												</Link>
 											</li>
 											<li>
-												<Link href="/CTL1">
+												<Link href="/chuong-trinh-L1">
 													<a>Chương Trình L-1</a>
 												</Link>
 											</li>
