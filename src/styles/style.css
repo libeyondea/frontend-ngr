@@ -6521,16 +6521,16 @@ html {
 }
 
 .site-footer {
-	background-color: #bf2604 !important;
+	background-color: #048019 !important;
 }
 
 .site-footer__bottom {
-	background-color: #346E6D;
+	background-color: #205e11;
 	height: 65px;
 }
 
 .site-footer__social::before {
-	background-color: #346E6D;
+	background-color: #205e11;
 }
 
 .site-footer__copy a {
@@ -6547,7 +6547,7 @@ html {
 }
 
 .header-navigation {
-	background-color: #009955;
+	background-color: #048019;
 }
 
 .header-navigation ul.navigation-box > li > a {
@@ -6599,7 +6599,7 @@ html {
 
 .site-footer__upper {
 	padding: 16px;
-	background: #009955;
+	background: #048019;
 
 }
 .row {

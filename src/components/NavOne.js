@@ -91,7 +91,7 @@ const NavOne = () => {
 							<a className="navbar-brand">
 								<div className="fixstyle">
 									<Image
-										src="/assets/images/logongrnew.png"
+										src="/assets/images/NGRLOGO.png"
 										className="main-logo"
 										width="165"
 										height="100"
