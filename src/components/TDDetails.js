@@ -476,7 +476,7 @@ const TuyenDungDetails = () => {
 								<h2 className="become-teacher__form-title">TƯ VẤN MIỄN PHÍ</h2>
 							</div>
 							<form action="#" metdod="POST" className="become-teacher__form-content contact-form-validated">
-								<input type="text" placeholder="Họ và Tên" name="name" />
+								<input className="become-register" type="text" placeholder="Họ và Tên" name="name" />
 								<input type="text" placeholder=" Địa chỉ Email" name="email" />
 								<input type="text" placeholder="Số điện thoại" name="phone" />
 								<input type="text" placeholder="Lời nhắn" name="message" />
