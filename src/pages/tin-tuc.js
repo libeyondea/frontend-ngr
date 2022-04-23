@@ -20,7 +20,7 @@ const NewsPage = ({ posts }) => {
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
-			url: `/posts`
+			url: `/posts?page_size=9`
 		});
 		return {
 			props: {
@@ -28,6 +28,7 @@ export async function getServerSideProps({ query }) {
 			}
 		};
 	} catch (err) {
+		console.log(err);
 		return {
 			notFound: true
 		};

@@ -130,7 +130,7 @@ const NewsDetails = ({ post }) => {
 								</div>
 
 								<p className="blog-one__text">IELTS INDICATOR là gì?</p>
-								<p className="blog-one__text">{post.translations[0].title}</p>
+								<p className="blog-one__text">{post.data.translations[0].title}</p>
 								<p className="blog-one__text">
 									It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
 									passages, and more recently with desktop publishing software like Aldus PageMaker including
