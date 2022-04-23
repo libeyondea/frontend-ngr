@@ -6485,6 +6485,7 @@ html {
 }
 
 .video-two {
+
 	padding: 50px 0 !important;
 	padding-top: 100px !important;
 	padding-bottom: 100px !important;
@@ -6497,7 +6498,7 @@ html {
 
 .video-two::before {
 	background-color: #f7be81 !important;
-	background: url(../images/NGR1.png) repeat-x;
+	background: url(../images/bgvideo1.png) repeat-x;
 }
 
 .video-two__title {
@@ -6849,7 +6850,7 @@ td {
 /* video style */
 
 .video-two::before {
-	background-size: auto 100% !important;
+	background-size:100% !important;
 	background-repeat: no-repeat !important;
 	background-position: left top !important;
 }
