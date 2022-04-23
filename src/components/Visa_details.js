@@ -55,12 +55,10 @@ const Visa_details = () => {
 							</strong>
 							vừa hoàn thành chương trình trung học và tham gia lễ tốt nghiệp cấp 3 tại Calgary, Alberta Canada. Anna Phan đã xuất sắc nhận được visa và giờ đây đã tốt nghiệp với thành tích rất tốt tại Canada.
 						</div>
-						
-							<img src="/assets/images/Visa/visa3.jpg" alt="canada" className="anhTH" />
-						
-						
-							<img src="/assets/images/Visa/visa4.jpg" alt="canada" className="anhTH" />
-						
+						<p  style={{textAlign:'center'}}>
+							<img src="/assets/images/Visa/visa3.jpg" alt="canada" className="anhTH" width={'700px'}/>
+							<img src="/assets/images/Visa/visa4.jpg" alt="canada" className="anhTH" width={'700px'}/>
+							</p>
 						<div>
 							<div style={{ color: '#333', fontSize: '20px', fontWeight: 'lighter' }}>
 							Chúng tôi rất háo hức và xin gửi lời chúc mừng đến Em Anna Phan. Du học Tân Con Đường Vàng mong em có thể
@@ -69,11 +67,11 @@ const Visa_details = () => {
 							<div style={{ color: '#291CE7', fontSize: '20px', }}>
 							<i>Một số hình ảnh trong buổi High School Graduation của Anna Phan cùng các bạn cùng lớp:</i>
 							</div>
-						
-								<img src="/assets/images/Visa/visa5.jpg" alt="canada" className="anhTH" />
-						
-								<img src="/assets/images/Visa/visa6.jpg" alt="canada" className="anhTH" />
+							<p  style={{textAlign:'center'}}>
+								<img src="/assets/images/Visa/visa5.jpg" alt="canada" className="anhTH" width={'700px'}/>
 							
+								<img src="/assets/images/Visa/visa6.jpg" alt="canada" className="anhTH" width={'700px'} />
+								</p>
 						</div>
 						<div>
 		
