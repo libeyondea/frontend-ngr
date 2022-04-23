@@ -43,11 +43,9 @@ const DAEB5 = () => {
 				&nbsp;&nbsp;
 				<span className="current">[Các Trường Trung Học Canada]</span>
 			</div>
-			<h3 className="title-comm">
-				<span className="title-holder">DỰ ÁN ĐẦU TƯ EB-5</span>
-			</h3>
-			Với kinh nghiệm làm việc lâu năm trong lĩnh vực đầu tư EB-5 và có CEO từng làm việc trên 25 năm ở Mỹ - USIS sẽ lựa chọn những dự án 
-			đầu tư EB-5 tốt nhất, khả năng hoàn vốn cao nhất cho nhà đầu tư.
+			<h1 className="card-title-duan"> DỰ ÁN ĐẦU TƯ EB-5</h1>
+			<h3 className="card-title-duan1">Với kinh nghiệm làm việc lâu năm trong lĩnh vực đầu tư EB-5 và có CEO từng làm<br/>
+			 việc trên 25 năm ở Mỹ - USIS sẽ lựa chọn những dự án đầu tư EB-5 tốt nhất, khả<br/> năng hoàn vốn cao nhất cho nhà đầu tư.</h3>
 			<div className="row row-cols-1 row-cols-md-3 g-4" style={{ margin: '50px 150px' }}>
 				<div className="col">
 					<div className="card-school h-100">
