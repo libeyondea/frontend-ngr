@@ -8366,45 +8366,51 @@ ul#menu li:hover ul#sub {
 	margin-left: 30px;
     margin-top: 125px;
 }
-.trai{
-	font-size: 15px;
-	letter-spacing: 0.3px;
-	line-height: 22px;
-	text-decoration: none solid rbg(53, 64, 82);
-	text-align: left;
-	background-color: #fff;
-	background-position: 0% 0%;
-	color: #000;
-	height: 51px;
-	width: 400px;
-	display: none; 
-	list-style-position: outside;
-	transform: matrix(1, 0, 0, 1, 0, 16);
-	transition: all 0s ease 0s;
-	outline: rgb(53, 64, 82) none 0px;
-	box-sizing: border-box;
-	position: relative;
-	z-index: 5;
+.rowL{
+	background-color: #1d3768;
+	width: 570px;
+	height: 435px;
+	margin-left: 85px;
+	margin-top: 120px;
+	color: white;
 }
-.phai{
-	font-size: 15px;
-	letter-spacing: 0.3px;
-	line-height: 22px;
-	text-decoration: none solid rbg(53, 64, 82);
-	text-align: left;
-	background-color: #fff;
-	background-position: 0% 0%;
-	color: #000;
-	height: 51px;
-	width: 400px;
-	display: none; 
-	list-style-position: outside;
-	transform: matrix(1, 0, 0, 1, 0, 16);
-	transition: all 0s ease 0s;
-	outline: rgb(53, 64, 82) none 0px;
-	box-sizing: border-box;
-	position: relative;
-	z-index: 5;
+.rowR{
+	background-color: #b52243;
+	width: 570px;
+	height: 435px;
+	margin-top: 120px;
+	margin-left: -70px;
+	color: white;
+}
+.rowTrai{
+	background-color: #1d3768;
+	width: 380px;
+	height: 300px;
+	margin-left: 85px;
+	margin-top: 120px;
+	color: white;
+	text-align: center;
+	padding-top: 70px;
+}
+.rowGiua{
+	background-color: #b52243;
+	width: 380px;
+	height: 300px;
+	margin-top: 120px;
+	margin-left: -18px;
+	color: white;
+	text-align: center;
+	padding-top: 70px;
+}
+.rowPhai{
+	background-color: #1d3768;
+	width: 380px;
+	height: 300px;
+	margin-left: -121px;
+	margin-top: 120px;
+	color: white;
+	text-align: center;
+	padding-top: 70px;
 }
 /*-----------------------------------*/
 /*--------bảo lãnh------------------*/
