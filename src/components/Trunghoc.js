@@ -3,9 +3,9 @@ import Image from './Image';
 const TrungHoc = () => {
 	return (
 		<div style={{ backgroundColor: '#7FCA6E' }}>
-			<section className="inner-banner-THCA">
+			<section className="inner-banner-THOC">
 				<div className="container">
-					<h2 className="inner-banner-THCA__title">Trung học Canada</h2>
+					<h2 className="inner-banner-THOC__title">Trung học Canada</h2>
 				</div>
 			</section>
 			<div id="breaking-news" className="breaking-school">
@@ -49,11 +49,11 @@ const TrungHoc = () => {
 			<div className="row row-cols-1 row-cols-md-3 g-4" style={{ margin: '50px 150px' }}>
 				<div className="col">
 					<div className="card-school h-100">
-						<img
+					<a href='/trunghoc_details'><img
 							src="assets/images/Trunghoc/trunghoc1.png"
 							className="card-img-top"
 							alt="Trường Bodwell High School"
-						/>
+						/></a>
 						<div className="card-body">
 							<a href="/trunghoc_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -65,11 +65,12 @@ const TrungHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href='/trunghoc_details'>
 						<img
 							src="assets/images/Trunghoc/trunghoc2.jpg"
 							className="card-img-top"
 							alt="TRUNG HỌC TRỰC THUỘC ĐẠI HỌC VANCOUVER ISLAND"
-						/>
+						/></a>
 						<div className="card-body">
 							<a href="#" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -81,11 +82,12 @@ const TrungHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href='/trunghoc_details'>
 						<img
 							src="assets/images/Trunghoc/trunghoc3.png"
 							className="card-img-top"
 							alt="Trường Quận Rocky Mountain"
-						/>
+						/></a>
 						<div className="card-body">
 							<a href="#" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -97,8 +99,10 @@ const TrungHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href='/trunghoc_details'>
 						<img src="assets/images/Trunghoc/trunghoc4.png" className="card-img-top" alt="Trường Quận Toronto" />
-						<div className="card-body">
+					</a>
+					<div className="card-body">
 							<a href="#" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
 									Trường Quận Toronto
@@ -111,7 +115,9 @@ const TrungHoc = () => {
 			<div className="row row-cols-1 row-cols-md-3 g-4" style={{ margin: '50px 150px' }}>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href='/trunghoc_details'>
 						<img src="assets/images/Trunghoc/trunghoc5.png" className="card-img-top" alt="Trường Quận Lambton Kent" />
+						</a>
 						<div className="card-body">
 							<a href="#" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -123,11 +129,12 @@ const TrungHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href='/trunghoc_details'>
 						<img
 							src="assets/images/Trunghoc/trunghoc6.png"
 							className="card-img-top"
 							alt="Trường Quận Avon Maitland"
-						/>
+						/></a>
 						<div className="card-body">
 							<a href="#" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -139,11 +146,12 @@ const TrungHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href='/trunghoc_details'>
 						<img
 							src="assets/images/Trunghoc/trunghoc7.png"
 							className="card-img-top"
 							alt="Trường Quận Maple Ridge-Pitt Meadows"
-						/>
+						/></a>
 						<div className="card-body">
 							<a href="#" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
@@ -155,11 +163,12 @@ const TrungHoc = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href='/trunghoc_details'>
 						<img
 							src="assets/images/Trunghoc/trunghoc8.png"
 							className="card-img-top"
 							alt=" Trường Greater Victoria High School"
-						/>
+						/></a>
 						<div className="card-body">
 							<a href="#" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>

@@ -97,7 +97,7 @@ const Event = ({ posts }) => {
 														<i className="far fa-solid fa-eye"></i> 458 views
 													</a>
 												</div>
-												<a href="#" className="course-one__link">
+												<a href={`/p/${post.translations[0].slug}`} className="course-one__link">
 													Xem thêm
 												</a>
 											</div>
