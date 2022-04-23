@@ -4,9 +4,9 @@ import Link from 'next/link';
 const ThongTinCa = () => {
 	return (
 		<section className="faq-one">
-			<section className="inner-banner-THCA">
+			<section className="inner-banner-CD">
 				<div className="container">
-					<h2 className="inner-banner-THCA__title">THÔNG TIN CANADA</h2>
+					<h2 className="inner-banner-CD__title">THÔNG TIN CANADA</h2>
 				</div>
 			</section>
 			<div className="container">
@@ -353,6 +353,7 @@ const ThongTinCa = () => {
 						</div>
 					</div>
 				</div>
+				
 			</div>
 		</section>
 	);
