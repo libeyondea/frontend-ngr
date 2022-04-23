@@ -3878,7 +3878,7 @@ a:visited {
 .course-category-one__single {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: #fff;
+	background-color: #e7f3e3;
 	text-align: center;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
@@ -8367,47 +8367,6 @@ ul#menu li:hover ul#sub {
 	margin-left: 30px;
     margin-top: 125px;
 }
-
-.trai{
-	font-size: 15px;
-	letter-spacing: 0.3px;
-	line-height: 22px;
-	text-decoration: none solid rbg(53, 64, 82);
-	text-align: left;
-	background-color: #fff;
-	background-position: 0% 0%;
-	color: #000;
-	height: 51px;
-	width: 400px;
-	display: none;
-	list-style-position: outside;
-	transform: matrix(1, 0, 0, 1, 0, 16);
-	transition: all 0s ease 0s;
-	outline: rgb(53, 64, 82) none 0px;
-	box-sizing: border-box;
-	position: relative;
-	z-index: 5;
-}
-.phai{
-	font-size: 15px;
-	letter-spacing: 0.3px;
-	line-height: 22px;
-	text-decoration: none solid rbg(53, 64, 82);
-	text-align: left;
-	background-color: #fff;
-	background-position: 0% 0%;
-	color: #000;
-	height: 51px;
-	width: 400px;
-	display: none;
-	list-style-position: outside;
-	transform: matrix(1, 0, 0, 1, 0, 16);
-	transition: all 0s ease 0s;
-	outline: rgb(53, 64, 82) none 0px;
-	box-sizing: border-box;
-	position: relative;
-	z-index: 5;
-}
 .rowL{
 	background-color: #1d3768;
 	width: 570px;
@@ -8432,32 +8391,32 @@ ul#menu li:hover ul#sub {
 }
 .rowTrai{
 	background-color: #1d3768;
-	width: 380px;
+	width: 480px;
 	height: 300px;
-	margin-left: 85px;
+	margin-left: -64px;
 	margin-top: 120px;
 	color: white;
-	text-align: center;
+	text-align: justify;
 	padding-top: 70px;
 }
 .rowGiua{
 	background-color: #b52243;
-	width: 380px;
+	width: 480px;
 	height: 300px;
 	margin-top: 120px;
-	margin-left: -18px;
+	margin-left: -67px;
 	color: white;
-	text-align: center;
+	text-align: justify;
 	padding-top: 70px;
 }
 .rowPhai{
 	background-color: #1d3768;
-	width: 380px;
+	width: 480px;
 	height: 300px;
-	margin-left: -121px;
+	margin-left: -70px;
 	margin-top: 120px;
 	color: white;
-	text-align: center;
+	text-align: justify;
 	padding-top: 70px;
 
 }
@@ -8486,6 +8445,9 @@ ul#menu li:hover ul#sub {
 }
 .block1 .block_item_left .block_img:before {
     background-color: #1d3768;
+	margin-bottom: 50px;
+	margin-right: 20px;
+	margin-left: 19px;
 }
 .block1 .block_img:before {
     content: "";
@@ -8510,38 +8472,36 @@ ul#menu li:hover ul#sub {
     display: table-cell;
     height: 100%;
     width: 100%;
-    vertical-align: middle;
 }
 .block1 .block_text {
     position: relative;
     z-index: 5;
-    padding: 80px 15px;
+    padding-right: 0px;
+	padding-top: 80px;
+	padding-left: 0px;
+	padding-bottom: 115px;
     max-width: 460px;
     margin: 0 auto;
 }
 .block1 .block_desc {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+	margin-left: 59px;
 }
 
 .u011 .block_desc {
     text-align: left;
 }
+.block1 .block_item_left{
+	margin-left: 20px;
+}
+.block1 .block_item_right{
+	margin-left: -40px;
+}
 .block1 .block_item_right .block_img:before {
     background-color: #b52243;
-}
-.block1 .block_img:before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-    opacity: .85;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
+	margin-bottom: 50px;
+	margin-left: 19px;
+	margin-right: 19px;
 }
 /*-----------------------------------*/
 /*--------bảo lãnh------------------*/

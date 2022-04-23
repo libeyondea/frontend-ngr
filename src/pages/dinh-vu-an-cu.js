@@ -5,7 +5,7 @@ import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
 import DVAnCu from '../components/DVAnCu';
 
-const TeachersPage = () => {
+const DichVuAnCu = () => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Định Cư">
 			<NavOne />
@@ -16,4 +16,4 @@ const TeachersPage = () => {
 	);
 };
 
-export default TeachersPage;
+export default DichVuAnCu ;
