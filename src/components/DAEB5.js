@@ -3,9 +3,9 @@ import Image from './Image';
 const DAEB5 = () => {
 	return (
 		<div style={{ backgroundColor: '#7FCA6E' }}>
-			<section className="inner-banner-THCA">
+			<section className="inner-banner-DABE5">
 				<div className="container">
-					<h2 className="inner-banner-THCA__title">DỰ ÁN ĐẦU TƯ EB-5</h2>
+					<h2 className="inner-banner-DABE5__title">DỰ ÁN ĐẦU TƯ EB-5</h2>
 				</div>
 			</section>
 			<div id="breaking-news" className="breaking-school">
@@ -45,17 +45,18 @@ const DAEB5 = () => {
 			</div>
 			<h1 className="card-title-duan"> DỰ ÁN ĐẦU TƯ EB-5</h1>
 			<h3 className="card-title-duan1">Với kinh nghiệm làm việc lâu năm trong lĩnh vực đầu tư EB-5 và có CEO từng làm<br/>
-			 việc trên 25 năm ở Mỹ - USIS sẽ lựa chọn những dự án đầu tư EB-5 tốt nhất, khả<br/> năng hoàn vốn cao nhất cho nhà đầu tư.</h3>
+			 việc trên 25 năm ở Mỹ - NEW GOLDEN ROAD sẽ lựa chọn những dự án đầu tư EB-5 tốt nhất, khả<br/> năng hoàn vốn cao nhất cho nhà đầu tư.</h3>
 			<div className="row row-cols-1 row-cols-md-3 g-4" style={{ margin: '50px 150px' }}>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href="/daeb5_details">
 						<img
 							src="assets/images/DAEB5/da1.jpg"
 							className="card-img-top"
 							alt="Trường Bodwell High School"
-						/>
+						/></a>
 						<div className="card-body">
-							<a href="/trunghoc_details" className="card-link">
+							<a href="/daeb5_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
 								CMB GROUP 80 – CƠ SỞ KHO VẬN HOMESTEAD{' '}
 								</h5>
@@ -65,13 +66,13 @@ const DAEB5 = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img
+					<a href="/daeb5_details"><img
 							src="assets/images/DAEB5/da2.jpg"
 							className="card-img-top"
 							alt="TRUNG HỌC TRỰC THUỘC ĐẠI HỌC VANCOUVER ISLAND"
-						/>
+						/></a>
 						<div className="card-body">
-							<a href="#" className="card-link">
+							<a href="/daeb5_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
 								QUẢNG TRƯỜNG KỶ NGUYÊN - CENTENNIAL PLAZA
 								</h5>
@@ -81,13 +82,13 @@ const DAEB5 = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
-						<img
+					<a href="/daeb5_details"><img
 							src="assets/images/DAEB5/da3.jpg"
 							className="card-img-top"
 							alt="Trường Quận Rocky Mountain"
-						/>
+						/></a>
 						<div className="card-body">
-							<a href="#" className="card-link">
+							<a href="/daeb5_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
 								DỰ ÁN CMB GROUP 10 - GOODYEAR  HOOVER
 								</h5>
@@ -97,9 +98,11 @@ const DAEB5 = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href="/daeb5_details">
 						<img src="assets/images/DAEB5/da8.jpg" className="card-img-top" alt="Trường Quận Toronto" />
+						</a>
 						<div className="card-body">
-							<a href="#" className="card-link">
+							<a href="/daeb5_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
 								DỰ ÁN HILLWOOD AMAZON PITTSBURGH - GROUP 72
 								</h5>
@@ -111,9 +114,11 @@ const DAEB5 = () => {
 			<div className="row row-cols-1 row-cols-md-3 g-4" style={{ margin: '50px 150px' }}>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href="/daeb5_details">
 						<img src="assets/images/DAEB5/da4.jpg" className="card-img-top" alt="Trường Quận Lambton Kent" />
+						</a>
 						<div className="card-body">
-							<a href="#" className="card-link">
+							<a href="/daeb5_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
 								CMB GROUP 80 – CƠ SỞ KHO VẬN HOMESTEAD
 								</h5>
@@ -123,13 +128,14 @@ const DAEB5 = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href="/daeb5_details">
 						<img
 							src="assets/images/DAEB5/da5.jpg"
 							className="card-img-top"
 							alt="Trường Quận Avon Maitland"
-						/>
+						/></a>
 						<div className="card-body">
-							<a href="#" className="card-link">
+							<a href="/daeb5_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
 								QUẢNG TRƯỜNG KỶ NGUYÊN - CENTENNIAL PLAZA
 								</h5>
@@ -139,13 +145,14 @@ const DAEB5 = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href="/daeb5_details">
 						<img
 							src="assets/images/DAEB5/da6.jpg"
 							className="card-img-top"
 							alt="Trường Quận Maple Ridge-Pitt Meadows"
-						/>
+						/></a>
 						<div className="card-body">
-							<a href="#" className="card-link">
+							<a href="/daeb5_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
 								DỰ ÁN CMB GROUP 10 - GOODYEAR  HOOVER
 								</h5>
@@ -155,13 +162,14 @@ const DAEB5 = () => {
 				</div>
 				<div className="col">
 					<div className="card-school h-100">
+					<a href="/daeb5_details">
 						<img
 							src="assets/images/DAEB5/da7.png"
 							className="card-img-top"
 							alt=" Trường Greater Victoria High School"
-						/>
+						/></a>
 						<div className="card-body">
-							<a href="#" className="card-link">
+							<a href="/daeb5_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
 									{' '}
 									DỰ ÁN CMB NHÓM 6C - McClellan

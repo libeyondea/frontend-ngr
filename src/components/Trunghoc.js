@@ -3,9 +3,9 @@ import Image from './Image';
 const TrungHoc = () => {
 	return (
 		<div style={{ backgroundColor: '#7FCA6E' }}>
-			<section className="inner-banner-THCA">
+			<section className="inner-banner-THOC">
 				<div className="container">
-					<h2 className="inner-banner-THCA__title">Trung học Canada</h2>
+					<h2 className="inner-banner-THOC__title">Trung học Canada</h2>
 				</div>
 			</section>
 			<div id="breaking-news" className="breaking-school">

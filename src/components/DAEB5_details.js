@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Image from './Image';
-const Trunghoc_details = () => {
+const DAEB5_details = () => {
 	return (
 		<div className="THdetails">
-			<section className="inner-banner-THOC">
+			<section className="inner-banner-DABE5">
 				<div className="container">
-					<h2 className="inner-banner-THOC__title">TRUNG HỌC CANADA</h2>
+					<h2 className="inner-banner-DABE5__title">DỰ ÁN ĐẦU TƯ EB-5</h2>
 				</div>
 			</section>
 			<div id="breaking-news" className="breaking-school" style={{ color: 'color: #E4EAE3' }}>
@@ -406,4 +406,4 @@ const Trunghoc_details = () => {
 		</div>
 	);
 };
-export default Trunghoc_details;
+export default DAEB5_details;

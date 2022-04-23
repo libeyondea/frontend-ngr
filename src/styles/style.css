@@ -6485,6 +6485,7 @@ html {
 }
 
 .video-two {
+
 	padding: 50px 0 !important;
 	padding-top: 100px !important;
 	padding-bottom: 100px !important;
@@ -6497,7 +6498,7 @@ html {
 
 .video-two::before {
 	background-color: #f7be81 !important;
-	background: url(../images/NGR1.png) repeat-x;
+	background: url(../images/bgvideo1.png) repeat-x;
 }
 
 .video-two__title {
@@ -6849,7 +6850,7 @@ td {
 /* video style */
 
 .video-two::before {
-	background-size: auto 100% !important;
+	background-size:100% !important;
 	background-repeat: no-repeat !important;
 	background-position: left top !important;
 }
@@ -7709,6 +7710,105 @@ ul#menu li:hover ul#sub {
 	text-decoration: none !important;
 }
 
+/*---VISA-----*/
+.inner-banner-VS {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/Visa/banner.jpg);
+}
+.inner-banner-VS::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-VS .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+.inner-banner-VS__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+
+/*---ThongtinCa---*/
+.inner-banner-CD {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/anhcacnuoc/banner.jpg);
+}
+.inner-banner-CD::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-CD .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+.inner-banner-CD__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+
+
 /* Flat Share Buttons */
 
 .flat-social li {
@@ -7812,6 +7912,55 @@ ul#menu li:hover ul#sub {
 .noidungTH{
 	margin: 20px;
 }
+.inner-banner-THOC {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/Trunghoc/banner.jpg);
+}
+.inner-banner-THOC::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-THOC .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+.inner-banner-THOC__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+
+
 /*---Định cư Canada (British)---*/
 .inner-banner-DCCABRI {
 	background-color: #ffd19f;
@@ -7998,7 +8147,7 @@ ul#menu li:hover ul#sub {
 
 }
 .DuAn{
-	height: 700px;
+	height: 750px;
 	background-color: whitesmoke;
 	margin-top: 150px;
 }
@@ -8124,7 +8273,7 @@ ul#menu li:hover ul#sub {
 	bottom: 0;
 	background-color: #011928;
 	opacity: 0.5;
-	
+
 }
 .inner-banner-DCMYL1 .container {
 	position: relative;
@@ -8218,6 +8367,47 @@ ul#menu li:hover ul#sub {
 	margin-left: 30px;
     margin-top: 125px;
 }
+
+.trai{
+	font-size: 15px;
+	letter-spacing: 0.3px;
+	line-height: 22px;
+	text-decoration: none solid rbg(53, 64, 82);
+	text-align: left;
+	background-color: #fff;
+	background-position: 0% 0%;
+	color: #000;
+	height: 51px;
+	width: 400px;
+	display: none;
+	list-style-position: outside;
+	transform: matrix(1, 0, 0, 1, 0, 16);
+	transition: all 0s ease 0s;
+	outline: rgb(53, 64, 82) none 0px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 5;
+}
+.phai{
+	font-size: 15px;
+	letter-spacing: 0.3px;
+	line-height: 22px;
+	text-decoration: none solid rbg(53, 64, 82);
+	text-align: left;
+	background-color: #fff;
+	background-position: 0% 0%;
+	color: #000;
+	height: 51px;
+	width: 400px;
+	display: none;
+	list-style-position: outside;
+	transform: matrix(1, 0, 0, 1, 0, 16);
+	transition: all 0s ease 0s;
+	outline: rgb(53, 64, 82) none 0px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 5;
+}
 .rowL{
 	background-color: #1d3768;
 	width: 570px;
@@ -8269,6 +8459,7 @@ ul#menu li:hover ul#sub {
 	color: white;
 	text-align: center;
 	padding-top: 70px;
+
 }
 .block1 .block {
     display: flex;
@@ -8414,3 +8605,52 @@ ul#menu li:hover ul#sub {
 	font-size: 20px;
 	color: white;
 }
+
+.inner-banner-DABE5 {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/DAEB5/banner.jpg);
+}
+.inner-banner-DABE5::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-DABE5 .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+.inner-banner-DABE5__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+
