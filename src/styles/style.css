@@ -8461,6 +8461,17 @@ ul#menu li:hover ul#sub {
 	padding-bottom: 20px;
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
 }
+/*----DABE5_details----*/
+.card-title-details{
+	text-align: center;
+	font-size: 20px;
+}
+.card-title-details2{
+	color: black;
+	margin-left: 200px;
+	margin-top: 50px;
+	padding-top: 10px;
+}
 
 /*----DABE5----*/
 .card-title-duan{
