@@ -8132,70 +8132,13 @@ ul#menu li:hover ul#sub {
 }
 .namco{
 	padding-top: 5px;
+	margin-left: 20px;
 }
 .namK{
 	padding-top: 5px;
-}
-.cuoi{
-	border: 1px solid #81868a;
-	width: 1140px;
-	height: 140px;
-	margin-top: 50px;
-	margin-left: 180px;
-	color: black;
-	background-color: #a7c6f8;
-
-}
-.DuAn{
-	height: 750px;
-	background-color: whitesmoke;
-	margin-top: 150px;
-}
-/*-----định cư úc-----*/
-.inner-banner-DCUC {
-	background-color: #ffd19f;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-	background-image: url(/assets/images/DinhCuuc/banneruc.jpg);
-}
-.inner-banner-DCUC::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: #011928;
-	opacity: 0.5;
-}
-.inner-banner-DCUC .container {
-	position: relative;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	padding-top: 169px;
-}
-
-
-
-.namco{
 	margin-left: 20px;
 }
-.namK{
-	margin-left: 20px;
-}
+
 .chu9d{
 	margin-left: 720px;
 	margin-top: 20px;
@@ -8237,7 +8180,60 @@ ul#menu li:hover ul#sub {
 	padding-top: 70px;
 	margin-left: 140px;
 }
+.cuoi{
+	border: 1px solid #81868a;
+	width: 1140px;
+	height: 140px;
+	margin-top: 50px;
+	margin-left: 180px;
+	color: black;
+	background-color: #a7c6f8;
 
+}
+.DuAn{
+	height: 750px;
+	background-color: whitesmoke;
+	margin-top: 150px;
+}
+.card-img-top-DA :hover{
+	transform: scale(1.9);
+}
+/*-----định cư úc-----*/
+.inner-banner-DCUC {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/DinhCuuc/banneruc.jpg);
+}
+.inner-banner-DCUC::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-DCUC .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
 
 /*       */
 
