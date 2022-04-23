@@ -176,7 +176,7 @@ const TeachersDetails = () => {
 							<div className="service-item text-center">
 							<div className="service-item zoomin">
 								<span className="count">4.</span>
-								<i className="tf-ion-ios-email-outline" />
+								<i className="tf-ion-ios-email-outline" />	-
 								<h4><a href="#">TOEIC</a></h4>
 								<p>
 								Khóa học giúp bạn ôn và luyện để các học viên đạt được số điểm toeic mong muốn.

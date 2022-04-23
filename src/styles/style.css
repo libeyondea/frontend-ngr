@@ -6500,6 +6500,10 @@ html {
 	background-color: #f7be81 !important;
 	background: url(../images/bgvideo1.png) repeat-x;
 }
+.video-two:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
 
 .video-two__title {
 	font-size: 60px !important;
@@ -6771,6 +6775,7 @@ html {
 /* play button */
 .media-play-icon {
 	width: 130px;
+	margin-right: 104px;
 	height: 130px;
 	background-color: red;
 	border-radius: 50%;
