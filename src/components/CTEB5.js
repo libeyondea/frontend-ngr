@@ -101,7 +101,9 @@ const CTEB5 = () => {
 					<img src="https://i.ytimg.com/vi_webp/IOGn-QmVc8k/maxresdefault.webp" width={550} height={390} />
 				</div>
 			</div>
-			<h1 className="card-title-dong3">Lợi ích từ chương trình EB-5?</h1>
+			<h1 className="card-title-dong3" style={{ TextAlign: 'center' }}>
+				Lợi ích từ chương trình EB-5?
+			</h1>
 			<div className="row">
 				<div className="row-nd">
 					<div className="col-4">
@@ -355,15 +357,15 @@ const CTEB5 = () => {
 				</div>
 			</div>
 			<div>
-				<h2 className="LoaiHinhDT" style={{ color: 'black', marginLeft: '430px', padding: '100px' }}>
+				<h2 className="LoaiHinhDT" style={{ color: 'black', textAlign: 'center', padding: '100px' }}>
 					CÁC LOẠI HÌNH ĐẦU TƯ
 				</h2>
 				<p className="dautu" style={{ color: 'black', marginLeft: '395px', marginTop: '-70px' }}>
 					<i
 						className="fa fa-circle"
 						aria-hidden="true"
-						style={{ color: 'black', fontSize: '8px', marginLeft: '20px', marginRight: '15px' }}>
-					</i>
+						style={{ color: 'black', fontSize: '8px', marginLeft: '20px', marginRight: '15px' }}
+					></i>
 					Đầu tư uỷ thác (gián tiếp): Thông qua Trung tâm Vùng (Regional Centers), Nhà đầu tư đầu tư
 					<br />
 					<a className="congty" style={{ marginLeft: '43px' }}>
@@ -374,7 +376,7 @@ const CTEB5 = () => {
 						đầu tư trong vùng TEA; 1,050,000 USD/suất đầu tư ngoài vùng TEA.
 					</a>
 				</p>
-				<h2 className="DKTT" style={{ color: 'black', marginLeft: '460px', padding: '70px' }}>
+				<h2 className="DKTT" style={{ color: 'black', textAlign: 'center', padding: '70px' }}>
 					ĐIỀU KIỆN THƯỜNG TRÚ
 				</h2>
 				<p className="dautu" style={{ color: 'black', marginLeft: '395px', marginTop: '-40px' }}>
@@ -410,18 +412,89 @@ const CTEB5 = () => {
 					</a>
 				</p>
 			</div>
-			<div className='cuoi'>
-				<p className='vietnam'style={{marginLeft:'40px', marginTop:'7px'}}>Tại Việt Nam, USIS Group là
-					<a className='donvi' style={{color:'#b22222' }}> Đơn vị đầu tiên có khách hàng được nhận hoàn vốn 100% từ chương trình đầu tư định cư Mỹ EB-5</a>
+			<div className="cuoi">
+				<p className="vietnam" style={{ marginLeft: '40px', marginTop: '7px' }}>
+					Tại Việt Nam, USIS Group là
+					<a className="donvi" style={{ color: '#b22222' }}>
+						{' '}
+						Đơn vị đầu tiên có khách hàng được nhận hoàn vốn 100% từ chương trình đầu tư định cư Mỹ EB-5
+					</a>
 				</p>
-				<p className='ngay' style={{marginLeft:'40px'}}>Ngày 5.5.2019, tại Washington, Mỹ, USIS Group đã chính thức nhận giải thưởng
-				<a className='donvi' style={{color:'#b22222' }}>Đơn vị tư vấn EB-5 xuất sắc nhất toàn cầu - International Champion
-				<br/>Award</a> - do tổ chức IIUSA (Hiệp hội Đầu tư Mỹ - một tổ chức phi lợi nhuận, uy tín và chính thống nhất của ngành EB-5 tại Mỹ) trao tặng.
+				<p className="ngay" style={{ marginLeft: '40px' }}>
+					Ngày 5.5.2019, tại Washington, Mỹ, USIS Group đã chính thức nhận giải thưởng
+					<a className="donvi" style={{ color: '#b22222' }}>
+						Đơn vị tư vấn EB-5 xuất sắc nhất toàn cầu - International Champion
+						<br />
+						Award
+					</a>{' '}
+					- do tổ chức IIUSA (Hiệp hội Đầu tư Mỹ - một tổ chức phi lợi nhuận, uy tín và chính thống nhất của ngành EB-5
+					tại Mỹ) trao tặng.
 				</p>
 			</div>
-			<div className='DuAn'>
-				<h2 className='DA' style={{color:'black', display:'block',textAlign:'center'}}>DỰ ÁN</h2>
-
+			<div className="DuAn">
+				<h1 className="DA" style={{ color: 'black', display: 'block', textAlign: 'center', paddingTop: '70px' }}>
+					DỰ ÁN
+				</h1>
+				<div className="rowDA" style={{ marginLeft: '220px', paddingTop: '50px' }}>
+					<div className="col-4" style={{ width: '360px', float: 'left' }}>
+						<div className="card">
+							<img
+								src="/assets/images/kh4.jpg"
+								className="card-img-top-DA"
+								alt="..."
+								isBlur
+								width={328}
+								height={471}
+							/>
+						</div>
+						<div className="card-body-chu" style={{ color: 'white', marginTop: '-200px', position: 'absolute' }}>
+							<h4 className="card-text">Dự án CMB-64 Hillwood Rialto & Sycamore </h4>
+							<p>
+								{' '}
+								Hillwood Rialto & Sycamore là dự án hợp tác giữa Trung tâm Khu vực CMB và Hillwood Development-
+								top 10 công ty phát triển bất động sản hàng đầu tại Mỹ.{' '}
+							</p>
+						</div>
+					</div>
+					<div className="col-4" style={{ width: '360px', float: 'left' }}>
+						<div className="card">
+							<img
+								src="/assets/images/kh5.jpg"
+								className="card-img-top-DA"
+								alt="..."
+								isBlur
+								width={328}
+								height={471}
+							/>
+						</div>
+						<div className="card-body-chu" style={{ color: 'white', marginTop: '-200px', position: 'absolute' }}>
+							<h4 className="card-text">Dự Án CMB Nhóm 55 – Hillwood York & West Deptford </h4>
+							<p>
+								Hillwood Development, LLC: là một trong mười công ty bất động sản hàng đầu tại Hoa Kỳ, được ghi
+								nhận qua các dự án tầm cỡ và các quỹ đầu tư công-tư.{' '}
+							</p>
+						</div>
+					</div>
+					<div className="col-4" style={{ width: '328px', height: '471px', float: 'left' }}>
+						<div className="card-DA">
+							<img
+								src="/assets/images/kh6.jpg"
+								className="card-img-top-DA"
+								alt="..."
+								isBlur
+								width={328}
+								height={471}
+							/>
+						</div>
+						<div className="card-body-chu" style={{ color: 'white', marginTop: '-200px', position: 'absolute' }}>
+							<h4 className="card-text">Dự Án Tái Phát Triển Steiner (Giai Đoạn III) </h4>
+							<p>
+								Dự án tái phát triển Steiner (giai đoạn 3) nằm trong Cảng Bãi Hải Quân Brooklyn (là dự án chính
+								phủ Mỹ) nhằm tái phát triển khu vực phía tây nam của Cảng thành một trung tâm thương...
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 	);
