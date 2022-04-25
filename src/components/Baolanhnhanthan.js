@@ -52,27 +52,31 @@ const Baolanhnhanthan = () => {
                                      <form class="row g-3">
                                 <div className="col-md-6">
                                 <label for="inputHolot" class="form-label">Họ, tên lót</label>
-                                    <input type="Holot" class="form-control" id="inputHolot" placeholder="Nhập họ, tên lót" style={{ marginTop:'-7px'}}/>
+                                    <input type="Holot" class="form-control" id="inputHolot" placeholder="Nhập họ, tên lót"/>
                                 </div>
                                 <div className="col-md-6">
                                 <label for="inputTen" class="form-label">Tên</label>
-                                    <input type="Ten" class="form-control" id="inputTen" placeholder="Nhập tên "style={{ marginTop:'-7px'}}/>
+                                    <input type="Ten" class="form-control" id="inputTen" placeholder="Nhập tên "/>
                                 </div>
                                 <div className="col-md-6">
                                     <label for="inputEmailAddress" class="form-label">Email</label>
-                                    <input type="text" class="form-control" id="inputEmail" placeholder="Nhập Email" style={{ marginTop:'-7px'}}/>
+                                    <input type="text" class="form-control" id="inputEmail" placeholder="Nhập Email"/>
                                 </div>
-								<div className="form-check form-check-inline" style={{marginTop:'25px', marginLeft:'20px'}}>
-							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="rdNam" value="option1"/>
-							<label class="form-check-label" for="inlineRadio1">Nam</label>
-							</div>
-							<div className="form-check form-check-inline"style={{marginTop:'25px'}}>
-							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="rdNu" value="option2"/>
-							<label class="form-check-label" for="inlineRadio2">Nữ</label>
-							</div>
+                                <div className="col-md-6">
+                                    <label for="inputSDT" class="form-label">Số điện thoại</label>
+                                    <input type="text" class="form-control" id="inputSDT" placeholder="Nhập số điện thoại"/>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheckNam"/>
+                                    <label class="form-check-label" for="gridCheckNam">
+                                        Nam
+                                    </label>
+                                    </div>
+                                </div>
                                 
                                 <div className="col-12">
-                                    <button type="submit" class="btn btn-primary" style={{marginLeft:'400px', marginTop:'15px', backgroundColor:'#ff8100' }}>ĐĂNG KÝ</button>
+                                    <button type="submit" class="btn btn-primary">ĐĂNG KÝ</button>
                                 </div>
                                 </form>
 
