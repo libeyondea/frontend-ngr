@@ -466,7 +466,7 @@ const CTEB5 = () => {
 					<Slide {...properties}>
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
-								<div className="imgDA">
+								<div className="imgDA" style={{ marginTop: '00px' }}>
 									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/c4e2daaef10602-hillwoodyorkwestdeptford1.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
 							</div>
@@ -481,7 +481,7 @@ const CTEB5 = () => {
 						</div>
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
-								<div className="imgDA">
+								<div className="imgDA" style={{ marginTop: '00px' }}>
 									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/0be73d834504f8-cangbaihaiquansteiner1.png&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
 							</div>
@@ -496,7 +496,7 @@ const CTEB5 = () => {
 						</div>
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
-								<div className="imgDA">
+								<div className="imgDA" style={{ marginTop: '00px' }}>
 									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/97e516508a48fd-stillwaterdeepellum1.png&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
 							</div>
@@ -511,7 +511,7 @@ const CTEB5 = () => {
 						</div>
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
-								<div className="imgDA">
+								<div className="imgDA" style={{ marginTop: '00px' }}>
 									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/1db87fc13872c6-hiltonchicagorockfordcityhub.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
 							</div>
@@ -526,7 +526,7 @@ const CTEB5 = () => {
 						</div>
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
-								<div className="imgDA">
+								<div className="imgDA" style={{ marginTop: '00px' }}>
 									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/d89b5f23b8ccee-duanlinknyc1.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
 							</div>
@@ -541,7 +541,7 @@ const CTEB5 = () => {
 						</div>
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
-								<div className="imgDA">
+								<div className="imgDA" style={{ marginTop: '00px' }}>
 									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/90c4c76b4d29f8-group48centuryplaza.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
 							</div>
@@ -556,7 +556,7 @@ const CTEB5 = () => {
 						</div>
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
-								<div className="imgDA">
+								<div className="imgDA" style={{ marginTop: '00px' }}>
 									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/9e3ebdf63405e9-denvercoloradogroup415.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
 							</div>
@@ -571,7 +571,7 @@ const CTEB5 = () => {
 						</div>
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
-								<div className="imgDA">
+								<div className="imgDA" style={{ marginTop: '00px' }}>
 									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/e852400822e15d-quangtruongkynguyen2.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
 							</div>
@@ -586,7 +586,7 @@ const CTEB5 = () => {
 						</div>
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
-								<div className="imgDA">
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
 									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/f90e80888453b3-duanparkrow1.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
 							</div>
