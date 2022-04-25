@@ -7,6 +7,7 @@ import '../styles/daotao.scss';
 import '../styles/new.css';
 import '../styles/kh.css';
 import '../styles/TD.css';
+import '../styles/pagination.css';
 import '../styles/responsive.css';
 import 'react-modal-video/scss/modal-video.scss';
 import 'react-slideshow-image/dist/styles.css';
