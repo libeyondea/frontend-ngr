@@ -5,6 +5,8 @@ import React, { Component } from 'react';
 import Countdown from 'react-countdown';
 import * as yup from 'yup';
 import http from '../utils/http';
+import { ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import ChartExample from './charts';
 
 const FormSignup = ({ post }) => {
 	const initialValues = {
@@ -121,7 +123,7 @@ const FormSignup = ({ post }) => {
 											className={classNames('form-control', {
 												'is-invalid': post.touched.phone_number && post.errors.phone_number
 											})}
-											placeholder="So dien thoai"
+											placeholder="So điện thoại"
 											id="phone_number"
 											name="phone_number"
 											onChange={post.handleChange}
@@ -158,12 +160,14 @@ const FormSignup = ({ post }) => {
 						</div>
 					</div>
 				</div>
+<h2 className="countdown-one__tygia">TỶ GIÁ NGOẠI TỆ</h2>
 				<div className="row">
-					<div className="col-6"></div>
-					<div className="col-3">
+					
+					<div className="col-6">
+						<ChartExample />
+					</div>
+					<div className="col-6">
 						<div className="countdown-one__content-LuotTruyCap">
-							<h3 className="countdown-one__tygia">TỶ GIÁ NGOẠI TỆ</h3>
-
 							<table className="table-ngoaite">
 								<tr>
 									<th>Mã Ngoại Tệ</th>
@@ -186,16 +190,6 @@ const FormSignup = ({ post }) => {
 									<td> </td>
 								</tr>
 							</table>
-						</div>
-					</div>
-					<div className="col-3">
-						<div className="countdown-one__list list-unstyled">
-							<div className="luottruycap">
-								SỐ LƯỢT TRUY CẬP
-								<div className="soluottruycap">
-									<p className="number">004103549</p>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>

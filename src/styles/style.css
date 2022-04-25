@@ -6819,8 +6819,13 @@ html {
 }
 
 .countdown-one__tygia {
-	color: #f8ff0e;
-	font-size: 2rem !important;
+	color: #000;
+    font-size: 2.5rem !important;
+    text-align: center;
+    margin-bottom: 43px;
+
+
+    margin-top: 41px;
 }
 
 .table-ngoaite {
@@ -6830,10 +6835,11 @@ html {
 tr,
 th,
 td {
-	border: 2px #94a3ac solid;
-	color: #000;
+	border: 16px #94a3ac solid;
+    color: #000;
+    margin-left: 43px;
+    margin-top: -24px;
 	text-align: center;
-	background-color: #fff;
 }
 .table-ngoaite th {
 
