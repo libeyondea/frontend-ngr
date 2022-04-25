@@ -6826,16 +6826,13 @@ html {
 .table-ngoaite {
 	width: 90%;
 }
-.table-ngoaite,
-tr,
-th,
-td {
-	border: 11px #94a3ac solid;
-	color: #000;
-	margin-top: -20px;
-	margin-left: 44px;
-	text-align: center;
-	background-color: #fff;
+.table-ngoaite, tr, th, td {
+    border: 2px #000000 solid;
+    color: #000;
+    margin-top: -20px;
+    margin-left: 44px;
+    text-align: center;
+    background-color: #fff;
 }
 .table-ngoaite th {
 
