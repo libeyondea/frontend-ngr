@@ -66,7 +66,7 @@ const Baolanhnhanthan = () => {
                                     <label for="inputSDT" class="form-label">Số điện thoại</label>
                                     <input type="text" class="form-control" id="inputSDT" placeholder="Nhập số điện thoại"style={{ marginTop:'-7px'}}/>
                                 </div>
-								<div className="form-check">
+								<div className="form-check" style={{ paddingLeft:'2.25rem'}}>
 									<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked/>
 									<label class="form-check-label" for="exampleRadios1">
 										Nam
