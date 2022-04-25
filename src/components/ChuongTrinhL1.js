@@ -9,7 +9,7 @@ const ChuongTrinhL1 = () => {
 		setisopen(true);
 	};
 	return (
-		<div style={{ backgroundColor: 'white' }}>
+		<div style={{ backgroundColor: 'white', background: 'url(/assets/images/DinhCuMy/bg.png) no-repeat left 500px'}}>
 			<section className="inner-banner-DCMYL1">
 				<div className="container">
 					<ul className="list-unstyled thm-breadcrumb">
@@ -110,32 +110,38 @@ const ChuongTrinhL1 = () => {
 						</div>
 					</div>
 					<div className="row">
-						<div className="col-4">
+						<div className="col-md-4">
 							<div className="rowTrai">
-								<h3>Quyền Lợi Của Nhà Đầu Tư</h3>
-								<p>
-									Con cái được đi học miễn phí trường công từ tiểu học đến hết trung học, học phí đại học bằng
-									1/3 chi phí của du học sinh.
+								<h2>Quyền Lợi Của Nhà Đầu Tư</h2>
+								<p style={{marginTop:'57px'}}>
+								<span style={{fontSize:'40px',paddingLeft:'14px',paddingRight:'20px'}}>&#10112;</span>
+								<span>Con cái được đi học miễn phí trường công từ tiểu học đến hết trung học, học phí đại học bằng
+									1/3 chi phí của du học sinh.</span>
 								</p>
 							</div>
 						</div>
-						<div className="col-4">
+						<div className="col-md-4">
 							<div className="rowGiua">
-								<p>
-									Được mở chi nhánh, văn phòng đại diện, buôn bán thương mại tại bất kỳ tiểu bang nào trên nước
-									Mỹ
+								<p style={{marginLeft: '-47px'}}>
+									<span style={{fontSize:'40px', paddingLeft: '38px',paddingRight: '18px'}}>&#10113;</span>  
+									<span>Được mở chi nhánh, văn phòng đại diện, buôn bán<br/> thương mại tại bất kỳ tiểu bang nào trên nước Mỹ.</span>
 								</p>
-								<p>Được hưởng những phúc lợi xã hội như dân bản xứ</p>
+								<p style={{marginTop:'20px'}}>
+									<span style={{fontSize:'40px',marginleft: '-40px',paddingRight:'20px'}}>&#10114;</span> 
+									<span>Được hưởng những phúc lợi xã hội như dân bản xứ</span>
+								</p>
 							</div>
 						</div>
-						<div className="col-4">
+						<div className="col-md-4">
 							<div className="rowPhai">
 								<p>
-									Đương đơn và người phụ thuộc (vợ/chồng và tất cả con cái dưới 21 tuổi độc thân được cấp visa
-									làm việc, học tập tại Mỹ tối đa 07 năm).
+								<span style={{fontSize:'40px',paddingLeft: '11px',paddingRight: '20px'}}>&#10115;</span>
+								<span>Đương đơn và người phụ thuộc ( vợ/ chồng và tất cả con cái <br/>dưới 21 tuổi độc thân được cấp visa
+									làm việc, học tập tại Mỹ tối đa 07 năm).</span>
 								</p>
-								<p>
-									Đương đơn cùng gia đình có thể đạt thẻ xanh sau 01 năm sinh sống, làm việc và học tập tại Mỹ.
+								<p style={{marginTop:'-29px', marginLeft:'-10px'}}>
+								<span style={{fontSize:'40px',paddingLeft:'4px',paddingRight:'20px'}}>&#10116;</span>
+								<span>Đương đơn cùng gia đình có thể đạt thẻ xanh sau 01 năm <br/>sinh sống, làm việc và học tập tại Mỹ.</span>
 								</p>
 							</div>
 						</div>
@@ -188,6 +194,23 @@ const ChuongTrinhL1 = () => {
 						</div>
 					</div>
 				</section>
+				<div className='donxinvisa'>
+						<h1>ĐƯƠNG ĐƠN XIN VISA L-1 PHẢI CHỨNG MINH:</h1>
+						<ul>
+							<li>
+								Họ là nhân viên cấp quản lý hoặc điều hành hoặc có kiến thức đặc biệt và được hoán chuyển sang Mỹ công tác.
+							</li>
+							<li>
+								Được chuyển sang Mỹ làm việc với cấp độ quản lý/nhà điều hành
+							</li>
+							<li>
+								Họ đã và đang làm việc ở ngoài Mỹ cho công ty mà họ được hoán chuyển ít nhất là một năm trong vòng ba năm gần đây và sẽ sang Mỹ làm việc cho cùng công ty hoặc chi nhánh
+							</li>
+							<li>
+								Chứng minh sự liên hệ giữa công ty Việt Nam và công ty Mỹ
+							</li>
+						</ul>
+					</div>
 			</div>
 		
 

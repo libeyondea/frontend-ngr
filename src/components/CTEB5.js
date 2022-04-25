@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
+import { Slide } from 'react-slideshow-image';
 const ModalVideo = dynamic(() => import('react-modal-video'), { ssr: false });
 
 const CTEB5 = () => {
@@ -7,6 +8,32 @@ const CTEB5 = () => {
 	const openModal = () => {
 		setisopen(true);
 	};
+
+	const properties = {
+		duration: 3000,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		indicators: false,
+		arrows: false,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3
+				}
+			},
+			{
+				breakpoint: 500,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2
+				}
+			}
+		]
+	};
+
 	return (
 		<section className="team-one team-page">
 			<div className="phan-dau">
@@ -435,65 +462,162 @@ const CTEB5 = () => {
 				<h1 className="DA" style={{ color: 'black', display: 'block', textAlign: 'center', paddingTop: '70px' }}>
 					DỰ ÁN
 				</h1>
-				<div className="rowDA" style={{ marginLeft: '220px', paddingTop: '50px' }}>
-					<div className="col-4" style={{ width: '360px', float: 'left' }}>
-						<div className="card">
-							<img
-								src="/assets/images/kh4.jpg"
-								className="card-img-top-DA"
-								alt="..."
-								isBlur
-								width={328}
-								height={471}
-							/>
+				<div className="testimonials-one__carousel">
+					<Slide {...properties}>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div>
+									<h5>Dự án CMB-64 Hillwood Rialto & Sycamore </h5>
+									<p>	Hillwood Rialto & Sycamore là dự án hợp tác giữa Trung tâm Khu vực CMB và Hillwood Development- top 10 công ty phát triển bất động sản hàng đầu tại Mỹ. </p>
+								</div>
+								<div>
+									<img
+									src="/assets/images/phan_hoi1.jpg"
+									alt=""
+									className="imgDA"
+									width={360}
+									height={479}
+									/>
+								</div>
+							</div>
 						</div>
-						<div className="card-body-chu" style={{ color: 'white', marginTop: '-200px', position: 'absolute' }}>
-							<h4 className="card-text">Dự án CMB-64 Hillwood Rialto & Sycamore </h4>
-							<p>
-								{' '}
-								Hillwood Rialto & Sycamore là dự án hợp tác giữa Trung tâm Khu vực CMB và Hillwood Development-
-								top 10 công ty phát triển bất động sản hàng đầu tại Mỹ.{' '}
-							</p>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div>
+									<p className="testimonials-one__text">
+									Cảm ơn Du Học Tân Con Đường Vàng đã đồng hành và giúp đỡ em trong suốt
+									thời gian chuẩn bị những hành trang, kiến thức trên con đường du học Úc.
+									</p>
+								</div>
+								<div>
+									<img
+										src="/assets/images/phan_hoi2.jpg"
+										alt=""
+										className="imgDA"
+										width={360}
+										height={479}
+									/>
+								</div>
+
+							</div>
 						</div>
-					</div>
-					<div className="col-4" style={{ width: '360px', float: 'left' }}>
-						<div className="card">
-							<img
-								src="/assets/images/kh5.jpg"
-								className="card-img-top-DA"
-								alt="..."
-								isBlur
-								width={328}
-								height={471}
-							/>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div>
+									<p className="testimonials-one__text">
+									Đội ngũ nhân viên nhiệt tình, tận tụy. Luôn hỗ trợ hết mình cho khách hàng.
+									Em rất bất ngờ vì sự quá chu đáo của bên công ty mình!! Love NEW GOLDEN ROAD!!!
+									</p>
+								</div>
+								<div>
+									<img
+										src="/assets/images/phan_hoi3.jpg"
+										alt=""
+										className="imgDA"
+										width={360}
+										height={479}
+									/>
+								</div>
+
+							</div>
 						</div>
-						<div className="card-body-chu" style={{ color: 'white', marginTop: '-200px', position: 'absolute' }}>
-							<h4 className="card-text">Dự Án CMB Nhóm 55 – Hillwood York & West Deptford </h4>
-							<p>
-								Hillwood Development, LLC: là một trong mười công ty bất động sản hàng đầu tại Hoa Kỳ, được ghi
-								nhận qua các dự án tầm cỡ và các quỹ đầu tư công-tư.{' '}
-							</p>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div>
+									<p className="testimonials-one__text">
+									Thật là quyết định đúng đắn khi chọn Du Học Tân Con Đường Vàng. Mọi thắc mắc hay khó khắn
+									trong vấn đề hồ sơ du học đều được giải thích và hỗ trợ cực kỳ nhiệt tình!
+									</p>
+								</div>
+								<div>
+									<img
+										src="/assets/images/phan_hoi4.jpg"
+										alt=""
+										className="imgDA"
+										width={360}
+										height={479}
+									/>
+								</div>
+							</div>
 						</div>
-					</div>
-					<div className="col-4" style={{ width: '328px', height: '471px', float: 'left' }}>
-						<div className="card-DA">
-							<img
-								src="/assets/images/kh6.jpg"
-								className="card-img-top-DA"
-								alt="..."
-								isBlur
-								width={328}
-								height={471}
-							/>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div>
+									<p className="testimonials-one__text">
+									Từ con bé rỗng tuếch tiếng Anh 3 năm trời, giờ em đã tự tin bắt chuyện với
+									người nước ngoài. Và nhờ Du Học Tân Con Đường Vàng, em đã đậu Visa đi Mỹ.
+									</p>
+								</div>
+								<div>
+									<img
+										src="/assets/images/phan_hoi5.jpg"
+										alt=""
+										className="imgDA"
+										width={360}
+										height={479}
+									/>
+								</div>
+							</div>
 						</div>
-						<div className="card-body-chu" style={{ color: 'white', marginTop: '-200px', position: 'absolute' }}>
-							<h4 className="card-text">Dự Án Tái Phát Triển Steiner (Giai Đoạn III) </h4>
-							<p>
-								Dự án tái phát triển Steiner (giai đoạn 3) nằm trong Cảng Bãi Hải Quân Brooklyn (là dự án chính
-								phủ Mỹ) nhằm tái phát triển khu vực phía tây nam của Cảng thành một trung tâm thương...
-							</p>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div>
+									<p className="testimonials-one__text">
+									Ai cũng nghĩ làm ăn quan trọng nhất là lợi nhuận. Nhưng với riêng NGR, mình cảm nhận được
+									là cái tâm, chữ tín đặt lên trên tất cả. Cảm ơn rất nhiều!!!
+									</p>
+								</div>
+								<div>
+									<img
+										src="/assets/images/phan_hoi6.jpg"
+										alt=""
+										className="imgDA"
+										width={360}
+										height={479}
+									/>
+								</div>
+							</div>
 						</div>
-					</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div>
+									<p className="testimonials-one__text">
+									Đây là Công ty tư vấn du học chuyên nghiệp từ cách hướng dẫn phỏng vấn, hồ sơ, thủ tục
+									tư vấn chi tiết,giúp em rất nhiệt tình chu đáo thuận lợi trong việc xin visa du học Mỹ.
+									</p>
+								</div>
+								<div>
+									<img
+										src="/assets/images/phan_hoi7.jpg"
+										alt=""
+										className="imgDA"
+										width={360}
+										height={479}
+									/>
+								</div>
+							</div>
+						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+							<div>
+								<p className="testimonials-one__text">
+								Cảm ơn Du học Tân Con Đường Vàng đã tư vấn nhiệt tình cho
+								em về việc chuẩn bị hồ sơ du học Úc. Cảm thấy buồn vì phải xa những con người ở đây.
+								</p>
+								</div>
+								<div>
+								<img
+									src="/assets/images/phan_hoi8.jpg"
+									alt=""
+									className="imgDA"
+									width={360}
+									height={479}
+								/>
+								</div>
+
+							</div>
+						</div>
+					</Slide>
 				</div>
 			</div>
 		</section>
