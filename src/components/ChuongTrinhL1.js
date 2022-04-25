@@ -139,55 +139,55 @@ const ChuongTrinhL1 = () => {
 								</p>
 							</div>
 						</div>
-					</div>				
-				</div>
-				<section className="u011 block1 wow">
-					<div className="block">
-						<div className="block_item block_item_left">
-							<div className="block_img ">
-								<img alt className="img-loaded" src="assets/images/DinhCuMy/img-14.jpg" />
-							</div>
-							<div className="display-table">
-								<div className="table-cell" style={{ height: 405 }}>
-									<div className="block_text">
-										<h2 className="block_title">Đối tượng đầu tư</h2>
-										<div className="block_desc">
-											Tất cả các nhà đầu tư có khả năng tài chính, có nhu cầu định cư Mỹ
-											<br />
-											Không giới hạn về độ tuổi
-											<br />
-											Không yêu cầu ngoại ngữ
-											<br />
-											Không yêu cầu có công ty kinh doanh hoặc kinh nghiệm quản lý doanh nghiệp
-											<br />
-											Không cần trực tiếp quản lý công việc đầu tư hàng ngày.
-										</div>
-									</div>
-								</div>
-							</div>
+					</div>
+					<section className="u011 block1 wow">
+				<div className="block">
+					<div className="block_item block_item_left">
+						<div className="block_img ">
+							<img alt className="img-loaded" src="assets/images/DinhCuMy/img-14.jpg" />
 						</div>
-						<div className="block_item block_item_right">
-							<div className="block_img ">
-								<img alt className="img-loaded" src="assets/images/DinhCuMy/img-15.jpg" />
-							</div>
-							<div className="display-table">
-								<div className="table-cell" style={{ height: 405 }}>
-									<div className="block_text">
-										<h2 className="block_title">Điều kiện đầu tư</h2>
-										<div className="block_desc entry-content">
-											Chứng minh nguồn gốc số tiền đầu tư (500 ngàn USD hoặc 1 triệu USD) từ:
-											<ul>
-												<li>Thu nhập từ lợi nhuận doanh nghiệp</li>
-												<li>Thu nhập cá nhân: tiền lương, tặng, cho, thừa kế…</li>
-												<li>Từ bán bất động sản, chứng khoán, cổ phiếu…</li>
-											</ul>
-										</div>
+						<div className="display-table">
+							<div className="table-cell" style={{ height: 405 }}>
+								<div className="block_text">
+									<h2 className="block_title">Đối tượng đầu tư</h2>
+									<div className="block_desc">
+										Tất cả các nhà đầu tư có khả năng tài chính, có nhu cầu định cư Mỹ
+										<br />
+										Không giới hạn về độ tuổi
+										<br />
+										Không yêu cầu ngoại ngữ
+										<br />
+										Không yêu cầu có công ty kinh doanh hoặc kinh nghiệm quản lý doanh nghiệp
+										<br />
+										Không cần trực tiếp quản lý công việc đầu tư hàng ngày.
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</section>
+					<div className="block_item block_item_right">
+						<div className="block_img ">
+							<img alt className="img-loaded" src="assets/images/DinhCuMy/img-15.jpg" />
+						</div>
+						<div className="display-table">
+							<div className="table-cell" style={{ height: 405 }}>
+								<div className="block_text">
+									<h2 className="block_title">Điều kiện đầu tư</h2>
+									<div className="block_desc entry-content">
+										Chứng minh nguồn gốc số tiền đầu tư (500 ngàn USD hoặc 1 triệu USD) từ:
+										<ul>
+											<li>Thu nhập từ lợi nhuận doanh nghiệp</li>
+											<li>Thu nhập cá nhân: tiền lương, tặng, cho, thừa kế…</li>
+											<li>Từ bán bất động sản, chứng khoán, cổ phiếu…</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+				</div>
 			</div>
 		
 

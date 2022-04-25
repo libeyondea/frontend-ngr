@@ -446,7 +446,7 @@ const NavOne = () => {
 												</Link>
 											</li>
 											<li>
-												<Link href="/dich-vu-an-cu">
+												<Link href="/DVAnCu">
 													<a>Dịch Vụ An cư</a>
 												</Link>
 											</li>

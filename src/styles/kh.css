@@ -17,7 +17,7 @@
     background-color: #e93232;
 }
 .thm-base-bg-2 {
-    background-color: #b6c117;
+    background-color: #1a7a14;
 }
 .cta-two__text {
     font-size: 22px;
@@ -84,6 +84,11 @@ a {
     padding-left: 30px;
 }
 /* FOOTER */
+.site-footer__upper {
+   /*  padding: 16px;
+    background: #8B5FE8; */
+    /* height: 330px; */
+}
 .anh2 {
     width: 100%;
     height: 570px;

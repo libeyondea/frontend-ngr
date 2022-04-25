@@ -432,19 +432,19 @@ const CTEB5 = () => {
 				</p>
 			</div>
 			<div className="DuAn">
-				<h1 className="DA" style={{ color: 'black', display: 'block', textAlign: 'center', paddingTop: '70px' }}>
+				<h2 className="DA" style={{ color: 'black', display: 'block', textAlign: 'center', paddingTop: '80px' }}>
 					DỰ ÁN
-				</h1>
-				<div className="rowDA" style={{ marginLeft: '220px', paddingTop: '50px' }}>
+				</h2>
+				<div className="rowDA" style={{ marginLeft: '220px', paddingTop: '60px' }}>
 					<div className="col-4" style={{ width: '360px', float: 'left' }}>
 						<div className="card">
 							<img
 								src="/assets/images/kh4.jpg"
-								className="card-img-top-DA"
+								className="card-img-top"
 								alt="..."
 								isBlur
-								width={328}
-								height={471}
+								width={300}
+								height={470}
 							/>
 						</div>
 						<div className="card-body-chu" style={{ color: 'white', marginTop: '-200px', position: 'absolute' }}>
@@ -460,11 +460,11 @@ const CTEB5 = () => {
 						<div className="card">
 							<img
 								src="/assets/images/kh5.jpg"
-								className="card-img-top-DA"
+								className="card-img-top"
 								alt="..."
 								isBlur
-								width={328}
-								height={471}
+								width={300}
+								height={470}
 							/>
 						</div>
 						<div className="card-body-chu" style={{ color: 'white', marginTop: '-200px', position: 'absolute' }}>
@@ -475,15 +475,15 @@ const CTEB5 = () => {
 							</p>
 						</div>
 					</div>
-					<div className="col-4" style={{ width: '328px', height: '471px', float: 'left' }}>
-						<div className="card-DA">
+					<div className="col-4" style={{ width: '360px', height: '479px', float: 'left' }}>
+						<div className="card">
 							<img
 								src="/assets/images/kh6.jpg"
-								className="card-img-top-DA"
+								className="card-img-top"
 								alt="..."
 								isBlur
-								width={328}
-								height={471}
+								width={300}
+								height={470}
 							/>
 						</div>
 						<div className="card-body-chu" style={{ color: 'white', marginTop: '-200px', position: 'absolute' }}>
