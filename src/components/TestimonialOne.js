@@ -95,6 +95,7 @@ const TestimonialOne = () => {
 								<p className="testimonials-one__text">
 								Cảm ơn Du Học Tân Con Đường Vàng đã đồng hành và giúp đỡ em trong suốt 
 								thời gian chuẩn bị những hành trang, kiến thức trên con đường du học Úc.
+								Love you guys!!!
 								</p>
 								<Image
 									src="/assets/images/phan_hoi2.jpg"
@@ -154,7 +155,7 @@ const TestimonialOne = () => {
 								</div>
 								<p className="testimonials-one__text">
 								Từ con bé rỗng tuếch tiếng Anh 3 năm trời, giờ em đã tự tin bắt chuyện với 
-								người nước ngoài. Và nhờ Du Học Tân Con Đường Vàng, em đã đậu Visa đi Mỹ.
+								người nước ngoài. Và nhờ Du Học Tân Con Đường Vàng, em đã đậu Visa đi Mỹ. Chất lượng tuyệt vời!
 								</p>
 								<Image
 									src="/assets/images/phan_hoi5.jpg"
@@ -173,8 +174,8 @@ const TestimonialOne = () => {
 									<img src="/assets/images/qoute-1-1.png" alt="" />
 								</div>
 								<p className="testimonials-one__text">
-								Ai cũng nghĩ làm ăn quan trọng nhất là lợi nhuận. Nhưng với riêng NGR, mình cảm nhận được
-								 là cái tâm, chữ tín đặt lên trên tất cả. Cảm ơn rất nhiều!!! 
+								Ai cũng nghĩ làm ăn quan trọng nhất là lợi nhuận. Nhưng với riêng NEW GOLDEN ROAD, mình cảm nhận được
+								 là cái tâm, chữ tín đặt lên trên tất cả. Luôn luôn tin tưởng nơi đây!
 								</p>
 								<Image
 									src="/assets/images/phan_hoi6.jpg"
@@ -214,7 +215,7 @@ const TestimonialOne = () => {
 								</div>
 								<p className="testimonials-one__text">
 								Cảm ơn Du học Tân Con Đường Vàng đã tư vấn nhiệt tình cho 
-								em về việc chuẩn bị hồ sơ du học Úc. Cảm thấy buồn vì phải xa những con người ở đây.
+								em về việc chuẩn bị hồ sơ du học Úc. Cảm thấy buồn vì phải xa những con người ở đây. Nhớ mọi người nhiều.
 								</p>
 								<Image
 									src="/assets/images/phan_hoi8.jpg"

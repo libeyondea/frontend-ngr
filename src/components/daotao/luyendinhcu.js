@@ -137,14 +137,12 @@ const TeachersDetails = () => {
 						<div className="col-md-4 col-sm-6 p-0">
 							<div className="service-item text-center">
 								<span className="count">1.</span>
-								<div className="zoomin content">
 								<i className="tf-ion-ios-briefcase-outline" />
 								<h4><a href="#">CƠ BẢN</a></h4>
 								<p>
 									Khóa học giúp bạn toàn diện và cải thiện về tiếng anh ở mức độ cơ bản
 									.
 								</p>
-								</div>
 							</div>
 						</div>
 						<div className="col-md-4 col-sm-6 p-0">
