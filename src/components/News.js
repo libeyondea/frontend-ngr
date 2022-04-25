@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import useSWR from 'swr';
 import DS_NEWS from './Ds-News';
+import Pagination from './Pagination';
+
 const News = ({ posts }) => {
 	const { data: listNews } = useSWR(`/posts?sort_by=id&sort_direction=asc`, {
 		revalidateOnFocus: false
@@ -407,7 +409,9 @@ const News = ({ posts }) => {
 						</div>
 					</div> */}
 				</div>
-				<div className="post-pagination">
+				<Pagination total={posts?.pagination?.total} limit={6} />
+
+				{/* <div className="post-pagination">
 					<a href="#">
 						<i className="fa fa-angle-double-left"></i>
 					</a>
@@ -420,7 +424,7 @@ const News = ({ posts }) => {
 					<a href="#">
 						<i className="fa fa-angle-double-right"></i>
 					</a>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);
