@@ -9,7 +9,6 @@ const DichVuAnCu = () => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Định Cư">
 			<NavOne />
-			<PageHeader title="Dịch Vụ An Cư" />
 			<DVAnCu />
 			<Footer />
 		</Layout>

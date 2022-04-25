@@ -8642,7 +8642,7 @@ ul#menu li:hover ul#sub {
 .inner-banner-DVAC {
 	background-color: #ffd19f;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
 	background-image: url(/assets/images/DinhCuMy/img-15.jpg);
