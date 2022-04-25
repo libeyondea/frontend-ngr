@@ -459,162 +459,143 @@ const CTEB5 = () => {
 				</p>
 			</div>
 			<div className="DuAn">
-				<h1 className="DA" style={{ color: 'black', display: 'block', textAlign: 'center', paddingTop: '70px' }}>
+				<h1 className="DA" style={{ color: 'black', display: 'block', textAlign: 'center', paddingTop: '50px', marginBottom:'50px' }}>
 					DỰ ÁN
 				</h1>
 				<div className="testimonials-one__carousel">
 					<Slide {...properties}>
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
-								<div>
-									<h5>Dự án CMB-64 Hillwood Rialto & Sycamore </h5>
-									<p>	Hillwood Rialto & Sycamore là dự án hợp tác giữa Trung tâm Khu vực CMB và Hillwood Development- top 10 công ty phát triển bất động sản hàng đầu tại Mỹ. </p>
-								</div>
-								<div>
-									<img
-									src="/assets/images/phan_hoi1.jpg"
-									alt=""
-									className="imgDA"
-									width={360}
-									height={479}
-									/>
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/c4e2daaef10602-hillwoodyorkwestdeptford1.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
 							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div>
-									<p className="testimonials-one__text">
-									Cảm ơn Du Học Tân Con Đường Vàng đã đồng hành và giúp đỡ em trong suốt
-									thời gian chuẩn bị những hành trang, kiến thức trên con đường du học Úc.
-									</p>
-								</div>
-								<div>
-									<img
-										src="/assets/images/phan_hoi2.jpg"
-										alt=""
-										className="imgDA"
-										width={360}
-										height={479}
-									/>
-								</div>
-
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div>
-									<p className="testimonials-one__text">
-									Đội ngũ nhân viên nhiệt tình, tận tụy. Luôn hỗ trợ hết mình cho khách hàng.
-									Em rất bất ngờ vì sự quá chu đáo của bên công ty mình!! Love NEW GOLDEN ROAD!!!
-									</p>
-								</div>
-								<div>
-									<img
-										src="/assets/images/phan_hoi3.jpg"
-										alt=""
-										className="imgDA"
-										width={360}
-										height={479}
-									/>
-								</div>
-
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div>
-									<p className="testimonials-one__text">
-									Thật là quyết định đúng đắn khi chọn Du Học Tân Con Đường Vàng. Mọi thắc mắc hay khó khắn
-									trong vấn đề hồ sơ du học đều được giải thích và hỗ trợ cực kỳ nhiệt tình!
-									</p>
-								</div>
-								<div>
-									<img
-										src="/assets/images/phan_hoi4.jpg"
-										alt=""
-										className="imgDA"
-										width={360}
-										height={479}
-									/>
-								</div>
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div>
-									<p className="testimonials-one__text">
-									Từ con bé rỗng tuếch tiếng Anh 3 năm trời, giờ em đã tự tin bắt chuyện với
-									người nước ngoài. Và nhờ Du Học Tân Con Đường Vàng, em đã đậu Visa đi Mỹ.
-									</p>
-								</div>
-								<div>
-									<img
-										src="/assets/images/phan_hoi5.jpg"
-										alt=""
-										className="imgDA"
-										width={360}
-										height={479}
-									/>
-								</div>
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div>
-									<p className="testimonials-one__text">
-									Ai cũng nghĩ làm ăn quan trọng nhất là lợi nhuận. Nhưng với riêng NGR, mình cảm nhận được
-									là cái tâm, chữ tín đặt lên trên tất cả. Cảm ơn rất nhiều!!!
-									</p>
-								</div>
-								<div>
-									<img
-										src="/assets/images/phan_hoi6.jpg"
-										alt=""
-										className="imgDA"
-										width={360}
-										height={479}
-									/>
-								</div>
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div>
-									<p className="testimonials-one__text">
-									Đây là Công ty tư vấn du học chuyên nghiệp từ cách hướng dẫn phỏng vấn, hồ sơ, thủ tục
-									tư vấn chi tiết,giúp em rất nhiệt tình chu đáo thuận lợi trong việc xin visa du học Mỹ.
-									</p>
-								</div>
-								<div>
-									<img
-										src="/assets/images/phan_hoi7.jpg"
-										alt=""
-										className="imgDA"
-										width={360}
-										height={479}
-									/>
-								</div>
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-							<div>
-								<p className="testimonials-one__text">
-								Cảm ơn Du học Tân Con Đường Vàng đã tư vấn nhiệt tình cho
-								em về việc chuẩn bị hồ sơ du học Úc. Cảm thấy buồn vì phải xa những con người ở đây.
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+								<h5>Dự án CMB-64 Hillwood Rialto & Sycamore </h5>
+								<p>
+									{' '}
+									Hillwood Rialto & Sycamore là dự án hợp tác giữa Trung tâm Khu vực CMB và Hillwood
+									Development- top 10 công ty phát triển bất động sản hàng đầu tại Mỹ.{' '}
 								</p>
+							</div>
+						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/0be73d834504f8-cangbaihaiquansteiner1.png&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
-								<div>
-								<img
-									src="/assets/images/phan_hoi8.jpg"
-									alt=""
-									className="imgDA"
-									width={360}
-									height={479}
-								/>
+							</div>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+								<h5>Dự Án CMB Nhóm 55 – Hillwood York & West Deptford </h5>
+								<p>
+									{' '}
+									Hillwood Development, LLC: là một trong mười công ty bất động sản hàng đầu tại Hoa Kỳ, được
+									ghi nhận qua các dự án tầm cỡ và các quỹ đầu tư công-tư.{' '}
+								</p>
+							</div>
+						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/97e516508a48fd-stillwaterdeepellum1.png&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
-
+							</div>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+								<h5>Dự Án Tái Phát Triển Steiner (Giai Đoạn III) </h5>
+								<p>
+									{' '}
+									Dự án tái phát triển Steiner (giai đoạn 3) nằm trong Cảng Bãi Hải Quân Brooklyn (là dự án
+									chính phủ Mỹ) nhằm tái phát triển khu vực phía tây nam của Cảng thành một trung tâm thương...{' '}
+								</p>
+							</div>
+						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div className="imgDA" style={{ marginTop: '-50px'}}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/1db87fc13872c6-hiltonchicagorockfordcityhub.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+								</div>
+							</div>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+								<h5>Dự án CMB Nhóm 65 - Stillwater Deep Ellum </h5>
+								<p>
+									{' '}
+									Trung tâm khu vực CMB một lần nữa có cơ hội hợp tác với đơn vị phát triển bất động sản hàng
+									đầu Texas, là Stillwater Capital Investments, LLC{' '}
+								</p>
+							</div>
+						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/d89b5f23b8ccee-duanlinknyc1.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+								</div>
+							</div>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+								<h5>Dự án Khách sạn và Trung tâm Hội nghị Hilton Chicago-Rockford CityHub (Warren Buffett ) </h5>
+								<p>
+									{' '}
+									Công ty Gorman vinh dự nhận giải thưởng AHF - top 50 Doanh nghiệp phát triển của nước Mỹ năm
+									2011, 2012, 2013, 2014 và 2015 (xếp thứ 17 năm 2015){' '}
+								</p>
+							</div>
+						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/90c4c76b4d29f8-group48centuryplaza.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+								</div>
+							</div>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+								<h5>Tổng quan Dự án LinkNYC - Giai đoạn II với sự đầu tư của Google </h5>
+								<p>
+									{' '}
+									Là một trong những sáng kiến công nghệ đột phá và quan trọng nhất từng được chính quyền New
+									York thực hiện, dự án LinkNYC Phase II là giai đoạn tiếp theo của chiến lược phát...{' '}
+								</p>
+							</div>
+						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/9e3ebdf63405e9-denvercoloradogroup415.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+								</div>
+							</div>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+								<h5>Dự án đầu tư cơ sở hạ tầng Texas CMB 53, l.p. </h5>
+								<p>
+									{' '}
+									Tập đoàn Hillwood Development Company đã ủy thác cho CMB gây quỹ lên đến 48 triệu đô la tiền
+									vốn EB-5 làm khoản cho vay cho Dự án Group 53.{' '}
+								</p>
+							</div>
+						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/e852400822e15d-quangtruongkynguyen2.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+								</div>
+							</div>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+								<h5>Dự án đầu tư cơ sở hạ tầng Texas CMB 49 </h5>
+								<p>
+									{' '}
+									Harwood NO10 là dự án văn phòng cao tầng tùy chỉnh xây dựng trên khu vực rông 1,06 mẫu tọa lạc
+									ở nửa phía bắc của khối đô thị tiếp giáp với North Harwood Street, Randall Street,...{' '}
+								</p>
+							</div>
+						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/8a4f40b4437379-nycrcfdiibrochurevietnamese21111.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+								</div>
+							</div>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px' , color: 'white' }}>
+								<h5>Dự án CMB nhóm 67 - Great Wolf Lodge Arizona </h5>
+								<p>
+									{' '}
+									Dự án là khu nghỉ dưỡng gồm: Công viên nước trong nhà, các nhà hàng, cửa hàng đồ lưu niệm, dịch vụ spa, trung tâm thể dục, khu vực vui chơi của trẻ em và nhiều dịch vụ khác… {' '}
+								</p>
 							</div>
 						</div>
 					</Slide>
