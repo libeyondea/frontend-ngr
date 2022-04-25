@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
 import News from '../components/News';
 import http from '../utils/http';
+import pageNumber from '../utils/pageNumber';
 
 const NewsPage = ({ posts }) => {
 	return (
@@ -20,7 +21,11 @@ const NewsPage = ({ posts }) => {
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
-			url: `/posts?page_size=9`
+			url: `/posts`,
+			params: {
+				page: pageNumber(query.page),
+				page_size: 6
+			}
 		});
 		return {
 			props: {
