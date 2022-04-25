@@ -52,31 +52,35 @@ const Baolanhnhanthan = () => {
                                      <form class="row g-3">
                                 <div className="col-md-6">
                                 <label for="inputHolot" class="form-label">Họ, tên lót</label>
-                                    <input type="Holot" class="form-control" id="inputHolot" placeholder="Nhập họ, tên lót"/>
+								<input type="Holot" class="form-control" id="inputHolot" placeholder="Nhập họ, tên lót" style={{ marginTop:'-7px'}}/>
                                 </div>
                                 <div className="col-md-6">
                                 <label for="inputTen" class="form-label">Tên</label>
-                                    <input type="Ten" class="form-control" id="inputTen" placeholder="Nhập tên "/>
+                                    <input type="Ten" class="form-control" id="inputTen" placeholder="Nhập tên "style={{ marginTop:'-7px'}}/>
                                 </div>
                                 <div className="col-md-6">
                                     <label for="inputEmailAddress" class="form-label">Email</label>
-                                    <input type="text" class="form-control" id="inputEmail" placeholder="Nhập Email"/>
+                                    <input type="text" class="form-control" id="inputEmail" placeholder="Nhập Email"style={{ marginTop:'-7px'}}/>
                                 </div>
                                 <div className="col-md-6">
                                     <label for="inputSDT" class="form-label">Số điện thoại</label>
-                                    <input type="text" class="form-control" id="inputSDT" placeholder="Nhập số điện thoại"/>
+                                    <input type="text" class="form-control" id="inputSDT" placeholder="Nhập số điện thoại"style={{ marginTop:'-7px'}}/>
                                 </div>
-                                <div className="col-md-6">
-                                    <div className="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheckNam"/>
-                                    <label class="form-check-label" for="gridCheckNam">
-                                        Nam
-                                    </label>
-                                    </div>
-                                </div>
+								<div className="form-check" style={{ paddingLeft:'2.25rem'}}>
+									<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked/>
+									<label class="form-check-label" for="exampleRadios1">
+										Nam
+									</label>
+									</div>
+									<div className="form-check">
+									<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"/>
+									<label class="form-check-label" for="exampleRadios2">
+										Nữ
+									</label>
+									</div>
                                 
                                 <div className="col-12">
-                                    <button type="submit" class="btn btn-primary">ĐĂNG KÝ</button>
+                                    <button type="submit" class="btn btn-primary" style={{marginLeft:'400px', marginTop:'15px', backgroundColor:'#ff8100' }}>ĐĂNG KÝ</button>
                                 </div>
                                 </form>
 

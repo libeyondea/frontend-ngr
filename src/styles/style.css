@@ -6087,7 +6087,9 @@ a:visited {
 	border-width: 2px;
 	border-color: #f1f1f1;
 	background-color: white;
-	padding: 60px 55px;
+	padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 10px;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
@@ -6498,7 +6500,7 @@ html {
 
 .video-two::before {
 	background-color: #f7be81 !important;
-	background: url(../images/bgvideo1.png) repeat-x;
+	background: url(../images/NGR1.png) repeat-x;
 }
 
 .video-two__title {
@@ -6814,8 +6816,11 @@ html {
 }
 
 .countdown-one__tygia {
-	color: #f8ff0e;
-	font-size: 2rem !important;
+	color: #000;
+	font-size: 2.5rem !important;
+	text-align: center;
+    margin-top: 40px;
+    margin-bottom: 33px;
 }
 
 .table-ngoaite {
@@ -6825,8 +6830,10 @@ html {
 tr,
 th,
 td {
-	border: 2px #94a3ac solid;
+	border: 11px #94a3ac solid;
 	color: #000;
+	margin-top: -20px;
+	margin-left: 44px;
 	text-align: center;
 	background-color: #fff;
 }

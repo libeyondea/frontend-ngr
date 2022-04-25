@@ -25,6 +25,7 @@ const HomePageTwo = ({ posts }) => {
 			<Customer />
 			<Event posts={posts} />
 			<FormSignup />
+			<charts/>
 			<TestimonialOne />
 			<Partner />
 			<Footer />
