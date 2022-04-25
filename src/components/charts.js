@@ -7,7 +7,7 @@ class ChartExample extends Component {
 		super(props);
 		this.state = {
 			data: [
-				{ name: 'Mã ngoại tệ', VND: 0, pv: 0, amt: 0 },
+				{ name: 'Mã ngoại tệ', VND: 0, pv: 0, amt: 1 },
 				{ name: 'USD', pv: 22900, VND: 22979, amt: 22979 },
 				{ name: 'UER', VND: 24782, pv: 25024, amt: 2290 },
 				{ name: 'CAD', VND:18046 , pv:18316 , amt: 2000 },
