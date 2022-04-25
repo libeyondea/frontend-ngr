@@ -17,5 +17,4 @@ const TeachersPage = () => {
 		</Layout>
 	);
 };
-
 export default TeachersPage;
