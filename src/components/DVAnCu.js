@@ -9,7 +9,7 @@ const DVAnCu = () => {
 		setisopen(true);
 	};
 	return (
-		<div style={{ backgroundColor: 'white' }}>
+		<div style={{ backgroundColor: 'white', background: 'url(/assets/images/DinhCuMy/bg.png) no-repeat left 400px'}}>
 			<section className="inner-banner-DCMYL1">
 				<div className="container">
 					<ul className="list-unstyled thm-breadcrumb">
@@ -20,7 +20,7 @@ const DVAnCu = () => {
 							<a href="#">Chi Tiết Về Định Cư</a>
 						</li>
 					</ul>
-					<h2 className="inner-banner-DCMYL1__title">ĐỊNH CƯ MỸ</h2>
+					<h2 className="inner-banner-DCMYL1__title">DỊCH VỤ AN CƯ</h2>
 				</div>
 			</section>
 			<div id="breaking-news" className="breaking-school" style={{ color: 'color: #E4EAE3' }}>
@@ -56,7 +56,7 @@ const DVAnCu = () => {
 				&nbsp;&nbsp;
 				<span className="delimiter">/</span>
 				&nbsp;&nbsp;
-				<span className="current">[Chương Trình L1]</span>
+				<span className="current">[Dịch Vụ An Cư]</span>
 			</div>
 			<h3
 				style={{
@@ -65,7 +65,8 @@ const DVAnCu = () => {
 					fontSize: '35px',
 					textAlign: 'center',
 					fontWeight: 'bold',
-					marginTop: '8px',
+					marginTop: '50px',
+					marginBottom: '50px',
 					marginLeft: '75px'
 				}}
 			>
@@ -74,27 +75,26 @@ const DVAnCu = () => {
 		<div>
 			<div className="noidung">
 				<div className="row">
-					<div className="col-6">
-						<div className="nd-CTL1">
-							<h4></h4>
+					<div className="col-6"> 
+						<div className="nd-DVAC">
 							<p>
 								<i
 									className="fa fa-check"
 									style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
 								/>
-								USIS Group luôn tự hào là đơn vị đầu tiên và duy nhất có văn phòng tại Mỹ và có dịch vụ an cư 
+								Tân con Đường Vàng (NRG) luôn tự hào là đơn vị đầu tiên và duy nhất có văn phòng tại Mỹ và có dịch vụ an cư 
 								tại Mỹ dành cho tất cả khách hàng. Không chỉ đồng hành trên con đường lấy thẻ xanh cho cả gia đình, 
-								USIS Group còn bên cạnh khách hàng khi ổn định cuộc sống tại đất nước cờ hoa này. 
-								Văn phòng USIS Group tại Mỹ sẽ hỗ trợ, tư vấn một cách tận tâm nhất ngay khi gia đình bạn vừa đặt chân 
+								Tân con Đường Vàng (NRG) còn bên cạnh khách hàng khi ổn định cuộc sống tại đất nước cờ hoa này. 
+								Văn phòng Tân con Đường Vàng (NRG) tại Mỹ sẽ hỗ trợ, tư vấn một cách tận tâm nhất ngay khi gia đình bạn vừa đặt chân 
 								xuống nước Mỹ từ việc đưa đón tại sân bay cho đến việc chọn nhà ở, chọn trường cho con, ổn định công việc 
-								kinh doanh… Tương lai và hạnh phúc của gia đình bạn cũng chính là niềm vui và trách nhiệm cao cả của USIS Group.
+								kinh doanh… Tương lai và hạnh phúc của gia đình bạn cũng chính là niềm vui và trách nhiệm cao cả của Tân con Đường Vàng (NRG).
 							</p>
 							<p>
 								<i
 									className="fa fa-check"
 									style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
 								/>
-								Để hỗ trợ khách hàng một cách hoàn hảo nhất, USIS Group luôn xây dựng và phát triển một đội ngũ 
+								Để hỗ trợ khách hàng một cách hoàn hảo nhất, Tân con Đường Vàng (NRG) luôn xây dựng và phát triển một đội ngũ 
 								chuyên nghiệp, hợp tác cùng những đơn vị uy tín, với nhiều kinh nghiệm cũng như có nhiều năm 
 								sinh sống tại Mỹ, hiểu rõ văn hóa, con người, luật pháp Mỹ.
 							</p>
@@ -115,89 +115,20 @@ const DVAnCu = () => {
 							</div>
 						</div>
 					</div>
-					<div className="hinhvideoL1">
+					<div className="hinhvideoDVAC">
 						<img src="/assets/images/DinhCuMy/ancu.jpg" width={550} height={390} />
 					</div>
-				</div>
-				<div className="row">
-					<div className="col-4">
-						<div className="rowTrai">
-							<h3>Quyền Lợi Của Nhà Đầu Tư</h3>
-							<p>
-								Con cái được đi học miễn phí trường công từ tiểu học đến hết trung học, học phí đại học bằng
-								1/3 chi phí của du học sinh.
-							</p>
+				</div>	
+				<div className='DoiNgu'>
+					<h2 style={{textAlign:'center', paddingTop:'50px'}}>ĐỘI NGŨ</h2>
+					<div class="card" style={{width: '20rem', marginLeft:'100px', marginBottom:'100px', height:'500px'}}>
+						<img src="..." class="card-img-top" alt="Đội Ngũ Hỗ Trợ"/>
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						</div>
 					</div>
-					<div className="col-4">
-						<div className="rowGiua">
-							<p>
-								Được mở chi nhánh, văn phòng đại diện, buôn bán thương mại tại bất kỳ tiểu bang nào trên nước
-								Mỹ
-							</p>
-							<p>Được hưởng những phúc lợi xã hội như dân bản xứ</p>
-						</div>
-					</div>
-					<div className="col-4">
-						<div className="rowPhai">
-							<p>
-								Đương đơn và người phụ thuộc (vợ/chồng và tất cả con cái dưới 21 tuổi độc thân được cấp visa
-								làm việc, học tập tại Mỹ tối đa 07 năm).
-							</p>
-							<p>
-								Đương đơn cùng gia đình có thể đạt thẻ xanh sau 01 năm sinh sống, làm việc và học tập tại Mỹ.
-							</p>
-						</div>
-					</div>
-				</div>				
+				</div>			
 			</div>
-			<section className="u011 block1 wow">
-					<div className="block">
-						<div className="block_item block_item_left">
-							<div className="block_img ">
-								<img alt className="img-loaded" src="assets/images/DinhCuMy/img-14.jpg" />
-							</div>
-							<div className="display-table">
-								<div className="table-cell" style={{ height: 405 }}>
-									<div className="block_text">
-										<h2 className="block_title">Đối tượng đầu tư</h2>
-										<div className="block_desc">
-											Tất cả các nhà đầu tư có khả năng tài chính, có nhu cầu định cư Mỹ
-											<br />
-											Không giới hạn về độ tuổi
-											<br />
-											Không yêu cầu ngoại ngữ
-											<br />
-											Không yêu cầu có công ty kinh doanh hoặc kinh nghiệm quản lý doanh nghiệp
-											<br />
-											Không cần trực tiếp quản lý công việc đầu tư hàng ngày.
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="block_item block_item_right">
-							<div className="block_img ">
-								<img alt className="img-loaded" src="assets/images/DinhCuMy/img-15.jpg" />
-							</div>
-							<div className="display-table">
-								<div className="table-cell" style={{ height: 405 }}>
-									<div className="block_text">
-										<h2 className="block_title">Điều kiện đầu tư</h2>
-										<div className="block_desc entry-content">
-											Chứng minh nguồn gốc số tiền đầu tư (500 ngàn USD hoặc 1 triệu USD) từ:
-											<ul>
-												<li>● Thu nhập từ lợi nhuận doanh nghiệp</li>
-												<li>● Thu nhập cá nhân: tiền lương, tặng, cho, thừa kế…</li>
-												<li>● Từ bán bất động sản, chứng khoán, cổ phiếu…</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
 		</div>
 	
 		<div className="share-post" style={{ marginBottom: '20px' }}>

@@ -61,7 +61,8 @@ const DinhCuNewBrunswich = () => {
 							fontSize: '35px',
 							textAlign: 'center',
 							fontWeight: 'bold',
-							marginTop: '8px',
+							marginTop: '50px',
+					        marginBottom: '50px',
 							marginLeft: '75px'
 						}}
 					>

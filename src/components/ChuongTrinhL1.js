@@ -9,7 +9,7 @@ const ChuongTrinhL1 = () => {
 		setisopen(true);
 	};
 	return (
-		<div style={{ backgroundColor: 'white', background: 'url(/assets/images/DinhCuMy/bg.png) no-repeat left 500px'}}>
+		<div style={{ backgroundColor: 'white', background: 'url(/assets/images/DinhCuMy/bg.png) no-repeat left 400px'}}>
 			<section className="inner-banner-DCMYL1">
 				<div className="container">
 					<ul className="list-unstyled thm-breadcrumb">
@@ -65,7 +65,8 @@ const ChuongTrinhL1 = () => {
 					fontSize: '35px',
 					textAlign: 'center',
 					fontWeight: 'bold',
-					marginTop: '8px',
+					marginTop: '50px',
+					marginBottom: '50px',
 					marginLeft: '75px'
 				}}
 			>
@@ -147,7 +148,7 @@ const ChuongTrinhL1 = () => {
 						</div>
 					</div>				
 				</div>
-				<section className="u011 block1 wow">
+				<section className="u011 block1 wow" style={{background: 'url(/assets/images/DinhCuMy/bg.png) no-repeat left bottom -100px'}}>
 					<div className="block">
 						<div className="block_item block_item_left">
 							<div className="block_img ">
@@ -193,8 +194,7 @@ const ChuongTrinhL1 = () => {
 							</div>
 						</div>
 					</div>
-				</section>
-				<div className='donxinvisa'>
+					<div className='donxinvisa'>
 						<h1>ĐƯƠNG ĐƠN XIN VISA L-1 PHẢI CHỨNG MINH:</h1>
 						<ul>
 							<li>
@@ -210,7 +210,9 @@ const ChuongTrinhL1 = () => {
 								Chứng minh sự liên hệ giữa công ty Việt Nam và công ty Mỹ
 							</li>
 						</ul>
-					</div>
+				</div>
+				</section>
+				
 			</div>
 		
 

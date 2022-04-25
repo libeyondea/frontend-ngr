@@ -8422,7 +8422,12 @@ ul#menu li:hover ul#sub {
 	padding-top: 70px;
 
 }
-
+.donxinvisa{
+	text-align: center;
+	color: #000;
+	margin-top: 100px;
+	height: 300px;
+}
 .block1 .block {
     display: flex;
     overflow: hidden;
@@ -8519,10 +8524,6 @@ ul#menu li:hover ul#sub {
 	color: #fff;
 	margin-left: 30px;
     margin-top: 125px;
-}
-.donxinvisa{
-	text-align: center;
-	color: #000;
 }
 /*-----------------------------------*/
 /*--------bảo lãnh------------------*/
@@ -8633,4 +8634,18 @@ ul#menu li:hover ul#sub {
 	padding-bottom: 20px;
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
 }
-
+/*--------------Dịch Vụ An Cư-----------*/
+.hinhvideoDVAC{
+	margin-top: -360px;
+    margin-left: 780px;
+}
+.nd-DVAC{
+	color: black;
+	margin-left: 20px;
+}
+.DoiNgu{
+	margin-top: 100px;
+	margin-right: 100px;
+	background-color: #d9d8d8;
+	margin-bottom: 100px;
+}
