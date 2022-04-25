@@ -6087,7 +6087,9 @@ a:visited {
 	border-width: 2px;
 	border-color: #f1f1f1;
 	background-color: white;
-	padding: -300px 55px;
+	padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 10px;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
@@ -6498,7 +6500,7 @@ html {
 
 .video-two::before {
 	background-color: #f7be81 !important;
-	background: url(../images/bgvideo1.png) repeat-x;
+	background: url(../images/NGR1.png) repeat-x;
 }
 
 .video-two__title {
@@ -6814,8 +6816,11 @@ html {
 }
 
 .countdown-one__tygia {
-	color: #f8ff0e;
-	font-size: 2rem !important;
+	color: #000;
+	font-size: 2.5rem !important;
+	text-align: center;
+    margin-top: 40px;
+    margin-bottom: 33px;
 }
 
 .table-ngoaite {
@@ -6825,8 +6830,10 @@ html {
 tr,
 th,
 td {
-	border: 2px #94a3ac solid;
+	border: 11px #94a3ac solid;
 	color: #000;
+	margin-top: -20px;
+	margin-left: 44px;
 	text-align: center;
 	background-color: #fff;
 }
@@ -8422,7 +8429,12 @@ ul#menu li:hover ul#sub {
 	padding-top: 70px;
 
 }
-
+.donxinvisa{
+	text-align: center;
+	color: #000;
+	margin-top: 100px;
+	height: 300px;
+}
 .block1 .block {
     display: flex;
     overflow: hidden;
@@ -8519,10 +8531,6 @@ ul#menu li:hover ul#sub {
 	color: #fff;
 	margin-left: 30px;
     margin-top: 125px;
-}
-.donxinvisa{
-	text-align: center;
-	color: #000;
 }
 /*-----------------------------------*/
 /*--------bảo lãnh------------------*/
@@ -8633,4 +8641,18 @@ ul#menu li:hover ul#sub {
 	padding-bottom: 20px;
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
 }
-
+/*--------------Dịch Vụ An Cư-----------*/
+.hinhvideoDVAC{
+	margin-top: -360px;
+    margin-left: 780px;
+}
+.nd-DVAC{
+	color: black;
+	margin-left: 20px;
+}
+.DoiNgu{
+	margin-top: 100px;
+	margin-right: 100px;
+	background-color: #d9d8d8;
+	margin-bottom: 100px;
+}

@@ -1,17 +1,17 @@
-import { isEmpty, pickBy } from 'lodash';
+import React from 'react';
+import Item from './Item';
 import NextLink from 'next/link';
+import List from './List';
+import Link from './Link';
+import { isEmpty, pickBy } from 'lodash';
 import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
 import queryString from 'query-string';
-import React from 'react';
 import { MdMoreHoriz } from 'react-icons/md';
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from 'react-icons/fa';
 
 import getPageNumbers from '../../utils/getPageNumbers';
 import pageNumber from '../../utils/pageNumber';
-
-import Link from './Link';
-import List from './List';
 
 const Pagination = ({ total, limit, classNameContainer }) => {
 	const router = useRouter();
@@ -31,7 +31,6 @@ const Pagination = ({ total, limit, classNameContainer }) => {
 			...query,
 			page
 		})}`;
-
 	return (
 		<div className={classNameContainer || ''}>
 			<List>
