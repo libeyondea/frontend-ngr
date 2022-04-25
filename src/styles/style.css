@@ -6084,9 +6084,9 @@ a:visited {
 }
 .testimonials-one__single {
 	border-style: solid;
-	border-width: 2px;
+	border-width: 0px;
 	border-color: #f1f1f1;
-	background-color: white;
+	background-color: whitesmoke;
 	padding-bottom: 50px;
     padding-top: 50px;
     margin: 10px;
@@ -8154,7 +8154,7 @@ ul#menu li:hover ul#sub {
 
 }
 .DuAn{
-	height: 750px;
+	height: 800px;
 	background-color: whitesmoke;
 	margin-top: 150px;
 }
