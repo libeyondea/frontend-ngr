@@ -3878,7 +3878,7 @@ a:visited {
 .course-category-one__single {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: #fff;
+	background-color: #e7f3e3;
 	text-align: center;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
@@ -6500,6 +6500,10 @@ html {
 	background-color: #f7be81 !important;
 	background: url(../images/bgvideo1.png) repeat-x;
 }
+.video-two:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
 
 .video-two__title {
 	font-size: 60px !important;
@@ -6618,7 +6622,7 @@ html {
 	color: #ff944d !important;
 	font-size: 2rem !important;
 	margin-top: -5px;
-	margin-left: -50px;
+	margin-left: -88px;
 }
 
 .become-teacher__form-top {
@@ -6771,6 +6775,7 @@ html {
 /* play button */
 .media-play-icon {
 	width: 130px;
+	margin-right: 104px;
 	height: 130px;
 	background-color: red;
 	border-radius: 50%;
@@ -8132,70 +8137,13 @@ ul#menu li:hover ul#sub {
 }
 .namco{
 	padding-top: 5px;
+	margin-left: 20px;
 }
 .namK{
 	padding-top: 5px;
-}
-.cuoi{
-	border: 1px solid #81868a;
-	width: 1140px;
-	height: 140px;
-	margin-top: 50px;
-	margin-left: 180px;
-	color: black;
-	background-color: #a7c6f8;
-
-}
-.DuAn{
-	height: 750px;
-	background-color: whitesmoke;
-	margin-top: 150px;
-}
-/*-----định cư úc-----*/
-.inner-banner-DCUC {
-	background-color: #ffd19f;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-	background-image: url(/assets/images/DinhCuuc/banneruc.jpg);
-}
-.inner-banner-DCUC::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: #011928;
-	opacity: 0.5;
-}
-.inner-banner-DCUC .container {
-	position: relative;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	padding-top: 169px;
-}
-
-
-
-.namco{
 	margin-left: 20px;
 }
-.namK{
-	margin-left: 20px;
-}
+
 .chu9d{
 	margin-left: 720px;
 	margin-top: 20px;
@@ -8237,7 +8185,60 @@ ul#menu li:hover ul#sub {
 	padding-top: 70px;
 	margin-left: 140px;
 }
+.cuoi{
+	border: 1px solid #81868a;
+	width: 1140px;
+	height: 140px;
+	margin-top: 50px;
+	margin-left: 180px;
+	color: black;
+	background-color: #a7c6f8;
 
+}
+.DuAn{
+	height: 750px;
+	background-color: whitesmoke;
+	margin-top: 150px;
+}
+.card-img-top-DA :hover{
+	transform: scale(1.9);
+}
+/*-----định cư úc-----*/
+.inner-banner-DCUC {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/DinhCuuc/banneruc.jpg);
+}
+.inner-banner-DCUC::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-DCUC .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
 
 /*       */
 
@@ -8367,47 +8368,6 @@ ul#menu li:hover ul#sub {
 	margin-left: 30px;
     margin-top: 125px;
 }
-
-.trai{
-	font-size: 15px;
-	letter-spacing: 0.3px;
-	line-height: 22px;
-	text-decoration: none solid rbg(53, 64, 82);
-	text-align: left;
-	background-color: #fff;
-	background-position: 0% 0%;
-	color: #000;
-	height: 51px;
-	width: 400px;
-	display: none;
-	list-style-position: outside;
-	transform: matrix(1, 0, 0, 1, 0, 16);
-	transition: all 0s ease 0s;
-	outline: rgb(53, 64, 82) none 0px;
-	box-sizing: border-box;
-	position: relative;
-	z-index: 5;
-}
-.phai{
-	font-size: 15px;
-	letter-spacing: 0.3px;
-	line-height: 22px;
-	text-decoration: none solid rbg(53, 64, 82);
-	text-align: left;
-	background-color: #fff;
-	background-position: 0% 0%;
-	color: #000;
-	height: 51px;
-	width: 400px;
-	display: none;
-	list-style-position: outside;
-	transform: matrix(1, 0, 0, 1, 0, 16);
-	transition: all 0s ease 0s;
-	outline: rgb(53, 64, 82) none 0px;
-	box-sizing: border-box;
-	position: relative;
-	z-index: 5;
-}
 .rowL{
 	background-color: #1d3768;
 	width: 570px;
@@ -8432,32 +8392,32 @@ ul#menu li:hover ul#sub {
 }
 .rowTrai{
 	background-color: #1d3768;
-	width: 380px;
+	width: 480px;
 	height: 300px;
-	margin-left: 85px;
+	margin-left: -64px;
 	margin-top: 120px;
 	color: white;
-	text-align: center;
+	text-align: justify;
 	padding-top: 70px;
 }
 .rowGiua{
 	background-color: #b52243;
-	width: 380px;
+	width: 480px;
 	height: 300px;
 	margin-top: 120px;
-	margin-left: -18px;
+	margin-left: -67px;
 	color: white;
-	text-align: center;
+	text-align: justify;
 	padding-top: 70px;
 }
 .rowPhai{
 	background-color: #1d3768;
-	width: 380px;
+	width: 480px;
 	height: 300px;
-	margin-left: -121px;
+	margin-left: -70px;
 	margin-top: 120px;
 	color: white;
-	text-align: center;
+	text-align: justify;
 	padding-top: 70px;
 
 }
@@ -8486,6 +8446,9 @@ ul#menu li:hover ul#sub {
 }
 .block1 .block_item_left .block_img:before {
     background-color: #1d3768;
+	margin-bottom: 50px;
+	margin-right: 20px;
+	margin-left: 19px;
 }
 .block1 .block_img:before {
     content: "";
@@ -8510,38 +8473,36 @@ ul#menu li:hover ul#sub {
     display: table-cell;
     height: 100%;
     width: 100%;
-    vertical-align: middle;
 }
 .block1 .block_text {
     position: relative;
     z-index: 5;
-    padding: 80px 15px;
+    padding-right: 0px;
+	padding-top: 80px;
+	padding-left: 0px;
+	padding-bottom: 115px;
     max-width: 460px;
     margin: 0 auto;
 }
 .block1 .block_desc {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+	margin-left: 59px;
 }
 
 .u011 .block_desc {
     text-align: left;
 }
+.block1 .block_item_left{
+	margin-left: 20px;
+}
+.block1 .block_item_right{
+	margin-left: -40px;
+}
 .block1 .block_item_right .block_img:before {
     background-color: #b52243;
-}
-.block1 .block_img:before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-    opacity: .85;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
+	margin-bottom: 50px;
+	margin-left: 19px;
+	margin-right: 19px;
 }
 /*-----------------------------------*/
 /*--------bảo lãnh------------------*/
