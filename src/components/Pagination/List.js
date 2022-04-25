@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 const List = ({ children }) => {
-	return <ul className={`pagination flex-wrap mb-0`}>{children}</ul>;
+	return <div className={`post-pagination flex-wrap mb-0`}>{children}</div>;
 };
 
 List.propTypes = {

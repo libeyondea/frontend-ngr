@@ -17,5 +17,25 @@ const TeachersPage = () => {
 		</Layout>
 	);
 };
-
+export async function getServerSideProps({ query }) {
+	try {
+		const resPost = await http.get({
+			url: `/posts`,
+			params: {
+				page: pageNumber(query.page),
+				page_size: 6
+			}
+		});
+		return {
+			props: {
+				posts: resPost.data
+			}
+		};
+	} catch (err) {
+		console.log(err);
+		return {
+			notFound: true
+		};
+	}
+}
 export default TeachersPage;
