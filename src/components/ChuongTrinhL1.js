@@ -9,7 +9,7 @@ const ChuongTrinhL1 = () => {
 		setisopen(true);
 	};
 	return (
-		<div style={{ backgroundColor: 'white' }}>
+		<div style={{ backgroundColor: 'white', background: 'url(/assets/images/DinhCuMy/bg.png) no-repeat left 500px'}}>
 			<section className="inner-banner-DCMYL1">
 				<div className="container">
 					<ul className="list-unstyled thm-breadcrumb">
