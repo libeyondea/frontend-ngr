@@ -5,12 +5,12 @@ import Footer from '../components/Footer';
 import DTSlide from '../components/Doitac-Slide';
 import Details_dt from '../components/Details-dt';
 
-const Detailspartner = () => {
+const Detailspartner = ({ posts }) => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Đối Tác">
 			<NavOne />
 			<DTSlide />
-			<Details_dt />
+			<Details_dt posts={posts} />
 			<Footer />
 		</Layout>
 	);
