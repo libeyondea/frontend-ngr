@@ -8263,7 +8263,7 @@ ul#menu li:hover ul#sub {
 
 /*---Định cư Mỹ---*/
 /*--------Chương trình L1------------------*/
-.inner-banner-DCMYL1 {
+.inner-banner-DVAC {
 	background-color: #ffd19f;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -8271,7 +8271,7 @@ ul#menu li:hover ul#sub {
 	position: relative;
 	background-image: url(/assets/images/DinhCuMy/VISA.png);
 }
-.inner-banner-DCMYL1::before {
+.inner-banner-DVAC::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -8282,7 +8282,7 @@ ul#menu li:hover ul#sub {
 	opacity: 0.5;
 
 }
-.inner-banner-DCMYL1 .container {
+.inner-banner-DVAC .container {
 	position: relative;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -8298,7 +8298,7 @@ ul#menu li:hover ul#sub {
 	flex-direction: column;
 	padding-top: 156px;
 }
-.inner-banner-DCMYL1__title {
+.inner-banner-DVAC__title {
 	margin: 0;
 	text-transform: uppercase;
 	font-size: 100px;
@@ -8642,6 +8642,53 @@ ul#menu li:hover ul#sub {
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
 }
 /*--------------Dịch Vụ An Cư-----------*/
+.inner-banner-DVAC {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/DinhCuMy/img-15.png);
+}
+.inner-banner-DVAC::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+
+}
+.inner-banner-DVAC .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 156px;
+}
+.inner-banner-DVAC__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
 .hinhvideoDVAC{
 	margin-top: -360px;
     margin-left: 780px;
@@ -8653,6 +8700,42 @@ ul#menu li:hover ul#sub {
 .DoiNgu{
 	margin-top: 100px;
 	margin-right: 100px;
-	background-color: #d9d8d8;
+	background-color: #640202;
 	margin-bottom: 100px;
+	height: 730px;
 }
+.Phan_DoiNgu{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+.card-deck {
+    flex-flow: row wrap;
+    margin-right: 74px;
+    margin-left: 74px;
+}
+.card card-anhtho{
+	margin-left: 100px;
+	margin-bottom: 100px;
+	height: 500px ;
+	max-width: 18rem;
+	background-color: #d9d8d8;
+}
+.card-img-top {
+	width: 358px;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    height: 300px;
+}
+.card-title {
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+.DoiTac{
+	margin-top: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+	height: 300px;
+}
+/*--------------------------------------------------*/
