@@ -3721,9 +3721,9 @@ a:visited {
     padding-bottom: 10px;
 	position: relative;
 }
-.course-details__list {
+.course-details__listt {
 	border-style: solid;
-	border-width: 2px;
+	border-width: 16px;
 	border-color: #f1f1f1;
 	padding: 50px;
 }
@@ -3766,7 +3766,7 @@ a:visited {
 	color: #2da397;
 	margin-left: 6px;
 }
-.course-details__list h3 {
+.course-details__listt h3 {
 	font-size: 16px;
 	font-weight: 600;
 	color: #81868a;
@@ -3869,7 +3869,7 @@ a:visited {
 .course-category-one {
 	padding: 120px 0;
 	padding-top: 110px;
-	background: #6cc24a;
+	background: #FFF;
 }
 .course-category-one .container-fluid {
 	max-width: 1520px;
@@ -3878,7 +3878,7 @@ a:visited {
 .course-category-one__single {
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: #fff;
+	background-color: #e7f3e3;
 	text-align: center;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
@@ -6084,10 +6084,12 @@ a:visited {
 }
 .testimonials-one__single {
 	border-style: solid;
-	border-width: 2px;
+	border-width: 0px;
 	border-color: #f1f1f1;
-	background-color: white;
-	padding: 60px 55px;
+	background-color: whitesmoke;
+	padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 10px;
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
@@ -6485,6 +6487,7 @@ html {
 }
 
 .video-two {
+
 	padding: 50px 0 !important;
 	padding-top: 100px !important;
 	padding-bottom: 100px !important;
@@ -6521,16 +6524,17 @@ html {
 }
 
 .site-footer {
-	background-color: #bf2604 !important;
+	background-color: #048019 !important;
 }
 
 .site-footer__bottom {
-	background-color: #346E6D;
+	background-color: #205e11;
+	margin-top: 59px;
 	height: 65px;
 }
 
 .site-footer__social::before {
-	background-color: #346E6D;
+	background-color: #205e11;
 }
 
 .site-footer__copy a {
@@ -6547,7 +6551,7 @@ html {
 }
 
 .header-navigation {
-	background-color: #009955;
+	background-color: #048019;
 }
 
 .header-navigation ul.navigation-box > li > a {
@@ -6599,7 +6603,7 @@ html {
 
 .site-footer__upper {
 	padding: 16px;
-	background: #009955;
+	background: #048019;
 
 }
 .row {
@@ -6613,7 +6617,7 @@ html {
 
 .countdown-one__title {
 	margin: 0;
-	color: #f8ff0e !important;
+	color: #ff944d !important;
 	font-size: 2rem !important;
 	margin-top: -5px;
 	margin-left: -50px;
@@ -6812,21 +6816,23 @@ html {
 }
 
 .countdown-one__tygia {
-	color: #f8ff0e;
-	font-size: 2rem !important;
+	color: #000;
+	font-size: 2.5rem !important;
+	text-align: center;
+    margin-top: 40px;
+    margin-bottom: 33px;
 }
 
 .table-ngoaite {
 	width: 90%;
 }
-.table-ngoaite,
-tr,
-th,
-td {
-	border: 2px #94a3ac solid;
-	color: #000;
-	text-align: center;
-	background-color: #fff;
+.table-ngoaite, tr, th, td {
+    border: 2px #000000 solid;
+    color: #000;
+    margin-top: -20px;
+    margin-left: 44px;
+    text-align: center;
+    background-color: #fff;
 }
 .table-ngoaite th {
 
@@ -6848,7 +6854,7 @@ td {
 /* video style */
 
 .video-two::before {
-	background-size: auto 100% !important;
+	background-size:100% !important;
 	background-repeat: no-repeat !important;
 	background-position: left top !important;
 }
@@ -7225,14 +7231,14 @@ span#fcta-zalo-tracking {
 	background-size: cover;
 	cursor: pointer;
 }
-/* .hide {
+.hide {
 	visibility: hidden;
 }
 
 .myDIV:hover + .hide,
 .hide:hover {
 	visibility: visible;
-} */
+}
 /********************************************Finish Button Chat********************************************/
 /********************************** Form-Chat********************************* */
 .form_chat {
@@ -7248,13 +7254,13 @@ span#fcta-zalo-tracking {
 	box-shadow: -5px 5px 4px #1c1c1c;
 	border-radius: 18px;
 	opacity: 100%;
-		visibility: hidden;
+	/* 	visibility: hidden; */
 }
 .title-chat {
 	text-align: center;
 	color: #fff;
 	margin-top: 20px;
-	font-size: 20px;
+	font-size: 26px;
 }
 .canhle-chat {
 	margin: 10px auto;
@@ -7268,12 +7274,12 @@ span#fcta-zalo-tracking {
 }
 .chuamucchat {
 	width: 100%;
-	height: 60px;
+	height: 70px;
 	border-bottom: 1px solid #d9d8d8;
 }
 .chuamucchat-cuoi {
 	width: 100%;
-	height: 60px;
+	height: 70px;
 	border-radius: 0 0 18px 18px;
 }
 .chuamucchat:hover {
@@ -7304,7 +7310,7 @@ span#fcta-zalo-tracking {
 }  */
 .tieude-chat {
 	width: 100%;
-	height: 60px;
+	height: 75px;
 	background-color: #0068ff80;
 	border-radius: 18px 18px 0px 0px;
 	padding-top: 1px;
@@ -7368,16 +7374,9 @@ span#fcta-zalo-tracking {
 }
 .chuaanh-2{
 	width: 40%;
-	height: 510px;
+	height: 300px;
+	margin: 5px auto;
 	object-fit: contain;
-	margin-left: 30px;
-	float: left;
-}
-.chuaanh-4{
-	width: 40%;
-	height: 240px;
-	object-fit: contain;
-	margin-left: 30px;
 	float: left;
 }
 .noidung1{
@@ -7387,7 +7386,7 @@ span#fcta-zalo-tracking {
 }
 .noidung2{
 	width: 100%;
-	height: 700px;
+	height: 620px;
 	margin-top: 20px;
 }
 .noidung3{
@@ -7440,8 +7439,8 @@ span#fcta-zalo-tracking {
 	height: 100%;
 }
 .anh2{
-	width: 70%;
-	height: 500px;
+	width: 40%;
+	height: 300px;
 }
 .muc1 {
 	font-size: 25px;
@@ -7798,6 +7797,105 @@ ul#menu li:hover ul#sub {
 	text-decoration: none !important;
 }
 
+/*---VISA-----*/
+.inner-banner-VS {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/Visa/banner.jpg);
+}
+.inner-banner-VS::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-VS .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+.inner-banner-VS__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+
+/*---ThongtinCa---*/
+.inner-banner-CD {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/anhcacnuoc/banner.jpg);
+}
+.inner-banner-CD::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-CD .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+.inner-banner-CD__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+
+
 /* Flat Share Buttons */
 
 .flat-social li {
@@ -7901,6 +7999,55 @@ ul#menu li:hover ul#sub {
 .noidungTH{
 	margin: 20px;
 }
+.inner-banner-THOC {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/Trunghoc/banner.jpg);
+}
+.inner-banner-THOC::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-THOC .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+.inner-banner-THOC__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+
+
 /*---Định cư Canada (British)---*/
 .inner-banner-DCCABRI {
 	background-color: #ffd19f;
@@ -7908,7 +8055,7 @@ ul#menu li:hover ul#sub {
 	background-size: contain;
 	background-attachment: fixed;
 	position: relative;
-	background-image: url(/assets/images/DinhCu/BritishBG.jpg);
+	background-image: url(/assets/images/DinhCuCanada/BritishBG.jpg);
 }
 .inner-banner-DCCABRI::before {
 	content: '';
@@ -7958,7 +8105,7 @@ ul#menu li:hover ul#sub {
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
-	background-image: url(/assets/images/DinhCu/New-Brunswick2.png);
+	background-image: url(/assets/images/DinhCuCanada/New-Brunswick2.png);
 }
 .inner-banner-DCCANEW::before {
 	content: '';
@@ -8008,14 +8155,6 @@ ul#menu li:hover ul#sub {
 	margin-left: 200px;
 }
 
-.card-title-tt{
-	margin-top: -42px;
-	margin-left: 105px;
-	color: red;
-	fontSize: 15px;
-	marginLeft: 30px;
-}
-
 .card-title-dong1{
 	margin-left: 300px;
 	margin-top: 50px;
@@ -8062,9 +8201,9 @@ ul#menu li:hover ul#sub {
 
 .CO{
 	width: 375px;
-	height: 355px;
+	height: 365px;
 	background-color: #2767a7;
-	margin-top: -703px;
+	margin-top: -702px;
 	margin-left: 373px;
 	color: white;
 
@@ -8072,11 +8211,32 @@ ul#menu li:hover ul#sub {
 
 .K{
 	width: 375px;
-	height: 355px;
+	height: 365px;
 	background-color: #1d3768;
 	color: white;
-	margin-top: -355px;
+	margin-top: -365px;
 	margin-left: 748px;
+}
+.namco{
+	padding-top: 5px;
+}
+.namK{
+	padding-top: 5px;
+}
+.cuoi{
+	border: 1px solid #81868a;
+	width: 1140px;
+	height: 140px;
+	margin-top: 50px;
+	margin-left: 180px;
+	color: black;
+	background-color: #a7c6f8;
+
+}
+.DuAn{
+	height: 800px;
+	background-color: whitesmoke;
+	margin-top: 150px;
 }
 /*-----định cư úc-----*/
 .inner-banner-DCUC {
@@ -8085,7 +8245,7 @@ ul#menu li:hover ul#sub {
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
-	background-image: url(/assets/images/Dinhcuuc/banneruc.jpg);
+	background-image: url(/assets/images/DinhCuuc/banneruc.jpg);
 }
 .inner-banner-DCUC::before {
 	content: '';
@@ -8115,6 +8275,59 @@ ul#menu li:hover ul#sub {
 	padding-top: 169px;
 }
 
+
+
+.namco{
+	margin-left: 20px;
+}
+.namK{
+	margin-left: 20px;
+}
+.chu9d{
+	margin-left: 720px;
+	margin-top: 20px;
+	font-size: 30px;
+	color: black;
+}
+.chindT{
+	margin-left: 375px;
+	width: 355px;
+}
+.chindP{
+	margin-left: 750px;
+	margin-top: -284px;
+	width: 355px;
+}
+.rowT{
+	background-color: #1d3768;
+	width: 570px;
+	height: 435px;
+	margin-left: 204px;
+	margin-top: 100px;
+	color: white;
+}
+.rowP{
+	background-color: #b52243;
+	width: 570px;
+	height: 435px;
+	margin-top: 100px;
+	color: white;
+}
+.DTDT{
+	padding-top: 70px;
+	margin-left: 140px;
+}
+.block_desc{
+	margin-left: 80px;
+}
+.DKDT{
+	padding-top: 70px;
+	margin-left: 140px;
+}
+
+
+/*       */
+
 .inner-banner-DCUC__title {
 	margin: 0;
 	text-transform: uppercase;
@@ -8127,3 +8340,482 @@ ul#menu li:hover ul#sub {
 	padding-bottom: 20px;
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
 }
+
+/*---Định cư Mỹ---*/
+/*--------Chương trình L1------------------*/
+.inner-banner-DCMYL1 {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/DinhCuMy/VISA.png);
+}
+.inner-banner-DCMYL1::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+
+}
+.inner-banner-DCMYL1 .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 156px;
+}
+.inner-banner-DCMYL1__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+.nd-CTL1{
+	color: black;
+	margin-left: 30px;
+}
+.phan-dau{
+	margin-top: -100px;
+	margin-left: 200px;
+}
+
+.card-title-tt{
+	margin-top: -42px;
+	margin-left: 105px;
+	color: red;
+	font-size: 15px;
+	margin-left: 30px;
+}
+
+.card-title-dong1{
+	margin-left: 300px;
+	margin-top: 50px;
+	color: black;
+}
+.card-title-dong2{
+	color: black;
+	margin-left: 250px;
+	margin-top: 50px;
+}
+
+.video{
+	margin-top: 120px;
+	margin-left:220px;
+}
+
+.hinhvideoL1{
+	margin-top: -245px;
+    margin-left: 800px;
+}
+.card-title-dong3{
+	color: black;
+	margin-top: 100px;
+	margin-left: 600px;
+}
+
+.row-nd{
+	border: #94a2ab solid 2px;
+	width: 1140px;
+	height: 690.5px;
+	margin-left: 220px;
+	margin-top: 50px;
+}
+.media-play-icon-L1 {
+	width: 130px;
+	height: 130px;
+	background-color: red;
+	border-radius: 50%;
+	position: relative;
+	line-height: 140px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 40px;
+	color: #fff;
+	margin-left: 30px;
+    margin-top: 125px;
+}
+.rowL{
+	background-color: #1d3768;
+	width: 570px;
+	height: 435px;
+	margin-left: 85px;
+	margin-top: 120px;
+	color: white;
+	position: relative;
+    z-index: 5;
+	overflow: hidden;
+}
+.rowR{
+	background-color: #b52243;
+	width: 570px;
+	height: 435px;
+	margin-top: 120px;
+	margin-left: -70px;
+	color: white;
+	position: relative;
+    z-index: 5;
+	overflow: hidden;
+}
+.rowTrai{
+	background-image:  linear-gradient(to right, #111559 , #05a6fd);
+	width: 480px;
+	height: 300px;
+	margin-left: -64px;
+	margin-top: 120px;
+	color: white;
+	text-align: center;
+	padding-top: 70px;
+
+}
+.rowGiua{
+	background-image: linear-gradient(to right, #05a5fc , #a4bfd6);
+	width: 480px;
+	height: 300px;
+	margin-top: 120px;
+	margin-left: -67px;
+	color: white;
+	text-align: center;
+	padding-top: 70px;
+
+}
+.rowPhai{
+	background-image: linear-gradient(to right, #a8bed2 , #06dfee);
+	width: 480px;
+	height: 300px;
+	margin-left: -70px;
+	margin-top: 120px;
+	color: white;
+	text-align: center;
+	padding-top: 70px;
+
+}
+.donxinvisa{
+	text-align: center;
+	color: #000;
+	margin-top: 100px;
+	height: 300px;
+}
+.block1 .block {
+    display: flex;
+    overflow: hidden;
+}
+.block1 .block_item {
+    flex: 0 0 50%;
+    position: relative;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    overflow: hidden;
+	margin-top: 125px;
+}
+.block1 .block_img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.block1 .block_item_left .block_img img {
+    right: 0;
+}
+.block1 .block_item_left .block_img:before {
+    background-color: #1d3768;
+	margin-bottom: 50px;
+	margin-right: 20px;
+	margin-left: 19px;
+}
+.block1 .block_img:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    opacity: .85;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+.display-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.display-table .table-cell {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+}
+.block1 .block_text {
+    position: relative;
+    z-index: 5;
+    padding-right: 0px;
+	padding-top: 80px;
+	padding-left: 0px;
+	padding-bottom: 115px;
+    max-width: 460px;
+    margin: 0 auto;
+}
+.block1 .block_desc {
+    margin-bottom: 0px;
+	margin-left: 25px;
+}
+
+.u011 .block_desc {
+    text-align: left;
+}
+.block1 .block_item_left{
+	margin-left: 20px;
+}
+.block1 .block_item_right{
+	margin-left: -40px;
+}
+.block1 .block_item_right .block_img:before {
+    background-color: #b52243;
+	margin-bottom: 50px;
+	margin-left: 19px;
+	margin-right: 19px;
+}
+.media-play-icon-DVAC{
+	width: 130px;
+	height: 130px;
+	background-color: red;
+	border-radius: 50%;
+	position: relative;
+	line-height: 140px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 40px;
+	color: #fff;
+	margin-left: 30px;
+    margin-top: 125px;
+}
+/*-----------------------------------*/
+/*--------bảo lãnh------------------*/
+.inner-banner-BL {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/baolanh/baolanh1.jpg);
+}
+.inner-banner-BL::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-BL .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+.inner-banner-BL__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+/*----DABE5----*/
+.card-title-duan{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 20px;
+	color: black;
+}
+.card-title-duan1{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+.inner-banner-DABE5 {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/DAEB5/banner.jpg);
+}
+.inner-banner-DABE5::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+}
+.inner-banner-DABE5 .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 169px;
+}
+.inner-banner-DABE5__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+/*--------------Dịch Vụ An Cư-----------*/
+.inner-banner-DVAC {
+	background-color: #ffd19f;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/DinhCuMy/img-15.jpg);
+}
+.inner-banner-DVAC::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #011928;
+	opacity: 0.5;
+
+}
+.inner-banner-DVAC .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-top: 156px;
+}
+.inner-banner-DVAC__title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+	color: #ff944d;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+.hinhvideoDVAC{
+	margin-top: -360px;
+    margin-left: 780px;
+}
+.nd-DVAC{
+	color: black;
+	margin-left: 20px;
+}
+.DoiNgu{
+	margin-top: 100px;
+	margin-right: 100px;
+	background-color: #640202;
+	margin-bottom: 100px;
+	height: 730px;
+}
+.Phan_DoiNgu{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+.card-deck {
+    flex-flow: row wrap;
+    margin-right: 74px;
+    margin-left: 74px;
+}
+.card card-anhtho{
+	margin-left: 100px;
+	margin-bottom: 100px;
+	height: 500px ;
+	max-width: 18rem;
+	background-color: #d9d8d8;
+}
+.card-img-top {
+	width: 358px;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    height: 300px;
+}
+.card-title {
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+.DoiTac{
+	margin-top: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+}
+
+/*--------------------------------------------------*/

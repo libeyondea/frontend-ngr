@@ -1,7 +1,56 @@
+import axios from 'axios';
+import classNames from 'classnames';
+import { Formik } from 'formik';
 import React, { Component } from 'react';
 import Countdown from 'react-countdown';
-
-const FormSignup = () => {
+import * as yup from 'yup';
+import http from '../utils/http';
+import ChartExample from '../components/charts';
+const FormSignup = ({ post }) => {
+	const initialValues = {
+		name: '',
+		email: '',
+		phone_number: '',
+		content: ''
+	};
+	const validationSchema = yup.object().shape({
+		name: yup
+			.string()
+			.min(6, 'Họ và tên ít nhất phải có 6 ký tự')
+			.max(16, 'Họ và tên phải có nhiều nhất 16 ký tự')
+			.required('Họ và tên là bắt buộc'),
+		email: yup
+			.string()
+			.matches(
+				/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+				'Email invalid'
+			)
+			.required('Email là bắt buộc'),
+		phone_number: yup
+			.string()
+			.min(10, 'Số điện thoại ít nhất phải có 10 ký tự')
+			.matches(/^[0-9 +]+$/, 'Sdt invalid')
+			.nullable(),
+		content: yup
+			.string()
+			.min(6, 'Nội dung ít nhất phải có 6 ký tự')
+			.max(66, 'Nội dung phải có nhiều nhất 16 ký tự')
+			.required('Nội dung là bắt buộc')
+			.nullable()
+	});
+	const onSubmit = async (values) => {
+		const user = {
+			name: values.name,
+			email: values.email,
+			phone_number: values.phone_number,
+			content: values.content
+		};
+		console.log(user);
+		const res = await http.post({
+			url: `/advise`,
+			data: user
+		});
+	};
 	return (
 		<section className="countdown-one">
 			<div className="container">
@@ -31,25 +80,94 @@ const FormSignup = () => {
 							<div className="become-teacher__form-top">
 								<h2 className="become-teacher__form-title">TƯ VẤN MIỄN PHÍ</h2>
 							</div>
-							<form action="#" metdod="POST" className="become-teacher__form-content contact-form-validated">
-								<input type="text" placeholder="Họ và Tên" name="name" />
-								<input type="text" placeholder=" Địa chỉ Email" name="email" />
-								<input type="text" placeholder="Số điện tdoại" name="phone" />
-								<input type="text" placeholder="Lời nhắn" name="message" />
-								<button type="submit" className="tdm-btn become-teacher__form-btn">
-									ĐĂNG KÝ
-								</button>
-							</form>
+							<Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={onSubmit}>
+								{(post) => (
+									<form
+										onSubmit={post.handleSubmit}
+										className="become-teacher__form-content contact-form-validated"
+									>
+										<input
+											type="text"
+											className={classNames('form-control', {
+												'is-invalid': post.touched.name && post.errors.name
+											})}
+											placeholder="Họ và tên"
+											id="name"
+											name="name"
+											onChange={post.handleChange}
+											onBlur={post.handleBlur}
+											value={post.values.name}
+										/>
+										{post.touched.name && post.errors.name && (
+											<div id="invalid-feedback">{post.errors.name}</div>
+										)}
+										<input
+											type="text"
+											className={classNames('form-control', {
+												'is-invalid': post.touched.email && post.errors.email
+											})}
+											placeholder="Email"
+											id="email"
+											name="email"
+											onChange={post.handleChange}
+											onBlur={post.handleBlur}
+											value={post.values.email}
+										/>
+										{post.touched.email && post.errors.email && (
+											<div id="invalid-feedback">{post.errors.email}</div>
+										)}
+										<input
+											type="text"
+											className={classNames('form-control', {
+												'is-invalid': post.touched.phone_number && post.errors.phone_number
+											})}
+											placeholder="So dien thoai"
+											id="phone_number"
+											name="phone_number"
+											onChange={post.handleChange}
+											onBlur={post.handleBlur}
+											value={post.values.phone_number}
+										/>
+										{post.touched.phone_number && post.errors.phone_number && (
+											<div id="invalid-feedback">{post.errors.phone_number}</div>
+										)}
+
+										<textarea
+											rows={4}
+											className={classNames('form-control', {
+												'is-invalid': post.touched.content && post.errors.content
+											})}
+											placeholder="Content"
+											id="content"
+											name="content"
+											onChange={post.handleChange}
+											onBlur={post.handleBlur}
+											value={post.values.content}
+										></textarea>
+										{post.touched.content && post.errors.content && (
+											<div id="invalid-feedback">{post.errors.content}</div>
+										)}
+
+										<button type="submit" className="tdm-btn become-teacher__form-btn">
+											ĐĂNG KÝ
+										</button>
+									</form>
+								)}
+							</Formik>
 							<div className="result text-center"></div>
 						</div>
 					</div>
-				</div>
+				</div>	
+				<h2 className="countdown-one__tygia">TỶ GIÁ NGOẠI TỆ</h2>
 				<div className="row">
-					<div className="col-6"></div>
-					<div className="col-3">
-						<div className="countdown-one__content-LuotTruyCap">
-							<h3 className="countdown-one__tygia">TỶ GIÁ NGOẠI TỆ</h3>
+					<div className="col-6">
+					<ChartExample/>
+					</div>
+				
 
+					<div className="col-6">
+						<div className="countdown-one__content-LuotTruyCap">
+					
 							<table className="table-ngoaite">
 								<tr>
 									<th>Mã Ngoại Tệ</th>
@@ -72,16 +190,6 @@ const FormSignup = () => {
 									<td> </td>
 								</tr>
 							</table>
-						</div>
-					</div>
-					<div className="col-3">
-						<div className="countdown-one__list list-unstyled">
-							<div className="luottruycap">
-								SỐ LƯỢT TRUY CẬP
-								<div className="soluottruycap">
-									<p className='number'>004103549</p>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>

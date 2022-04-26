@@ -3,14 +3,14 @@ import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
-import DVAnCu from '../components/DVAnCu';
+import DAEB5 from '../components/DAEB5';
 
 const TeachersPage = () => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Định Cư">
 			<NavOne />
-			<PageHeader title="Dịch Vụ An Cư" />
-			<DVAnCu />
+			<PageHeader title="Tìm Hiểu Về Nước Mỹ" />
+			<DAEB5 />
 			<Footer />
 		</Layout>
 	);

@@ -61,7 +61,8 @@ const DinhCuNewBrunswich = () => {
 							fontSize: '35px',
 							textAlign: 'center',
 							fontWeight: 'bold',
-							marginTop: '8px',
+							marginTop: '50px',
+					        marginBottom: '50px',
 							marginLeft: '75px'
 						}}
 					>
@@ -90,7 +91,7 @@ const DinhCuNewBrunswich = () => {
 							</li>
 						</ul>
                         <p style={{textAlign:'center'}}>
-                            <img src="assets/images/DinhCu/New-Brunswick1.jpg" alt="Alberta University" width={'700px'} /><br/>
+                            <img src="assets/images/DinhCuCanada/New-Brunswick1.jpg" alt="Alberta University" width={'700px'} /><br/>
                             <i>New Brunswick là nơi tuyệt vời để sinh sống và làm việc</i>
                         </p>
 						<h3>2. Lý do nên định cư New Brunswick</h3>
@@ -111,7 +112,7 @@ const DinhCuNewBrunswich = () => {
                                 Rất nhiều công ty đã di dời dịch vụ khách hàng và trung tâm hỗ trợ kỹ thuật về New Brunswick bởi nguồn nhân lực song ngữ tại tỉnh bang này.</li>
 						</ul>
                         <p style={{textAlign:'center'}}>
-                            <img src="assets/images/DinhCu/New-Brunswick4.jpg" alt="Alberta University" width={'700px'}/><br/>
+                            <img src="assets/images/DinhCuCanada/New-Brunswick4.jpg" alt="Alberta University" width={'700px'}/><br/>
                             <i>New Brunswick là nơi có điều kiện nhập cư lý tưởng</i>
                         </p>
 						<ul>
@@ -139,7 +140,7 @@ const DinhCuNewBrunswich = () => {
                                 xét nghiệm, phẫu thuật,… Hàng năm, chính phủ Canada sẽ chi trả khoảng 1.800 CAD chi phí y tế cho mỗi công dân trong nước.</li>
                         </ul>
                         <p style={{textAlign:'center'}}>
-                            <img src="assets/images/DinhCu/New-Brunswick3.jpg" alt="Alberta University" width={'700px'}/><br/>
+                            <img src="assets/images/DinhCuCanada/New-Brunswick3.jpg" alt="Alberta University" width={'700px'}/><br/>
                             <i>New Brunswick là nơi có điều kiện nhập cư lý tưởng</i>
                         </p>
                         <h3>3. Chính sách định cư New Brunswick</h3>
@@ -149,7 +150,7 @@ const DinhCuNewBrunswich = () => {
                             (New Brunswick Provincial Nominee Program). Chương trình này tiếp nhận vài trăm người nhập cư hàng năm thông qua 2 diện: 
                             cho cá nhân với lời mời công việc hoặc cho doanh nhân muốn đầu tư, quản lý kinh doanh tại tỉnh bang.
                         </p>
-                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/New-Brunswick5.jpg" alt="Alberta University" width={'700px'} /><br/>
+                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCuCanada/New-Brunswick5.jpg" alt="Alberta University" width={'700px'} /><br/>
                             <i>Các chính sách định cư New Brunswick</i>
                         </p>
                         <ul>  
@@ -187,7 +188,7 @@ const DinhCuNewBrunswich = () => {
                             - Chương trình này hỗ trợ các doanh nghiệp thu hút và giữ chân nhân tài từ khắp nơi trên thế giới tới làm việc và đóng góp cho sự phát triển kinh tế chung 
                             của các tỉnh bang thuộc khu vực Đại Tây Dương cũng như toàn Canada.
                         </p>
-                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCu/New-Brunswick6.jpg" alt="Alberta University" width={'700px'} /><br/>
+                        <p style={{textAlign:'center'}}><img src="assets/images/DinhCuCanada/New-Brunswick6.jpg" alt="Alberta University" width={'700px'} /><br/>
                             <i>AIPP – Chương trình định cư New Brunswick diện tay nghề cao</i>
                         </p>
                          <ul>

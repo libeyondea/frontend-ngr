@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const Khachhang = () => {
+const Khachhang = ({ props }) => {
 	return (
 		<section className="team-one team-page">
 			<div className="container">

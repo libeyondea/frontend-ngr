@@ -3,9 +3,9 @@ import Image from './Image';
 const Visa = () => {
 	return (
 		<div>
-			<section className="inner-banner-THCA">
+			<section className="inner-banner-VS">
 				<div className="container">		
-						<h2 className="inner-banner-THCA__title">
+						<h2 className="inner-banner-VS__title">
 							VISA CANADA
 						</h2>
 					</div>

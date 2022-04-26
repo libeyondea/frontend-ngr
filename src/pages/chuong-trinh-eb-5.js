@@ -3,17 +3,17 @@ import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
-import NewsDetails from '../components/NewsDetails';
+import CTEB5 from '../components/CTEB5';
 
-const GalleryPage = () => {
+const TeachersPage = () => {
 	return (
-		<Layout pageTitle="Tân Con Đường Vàng | News Details">
+		<Layout pageTitle="Tân Con Đường Vàng | Định Cư">
 			<NavOne />
-			<PageHeader title="News Details" />
-			<NewsDetails />
+			<PageHeader title="CHƯƠNG TRÌNH EB-5" />
+			<CTEB5 />
 			<Footer />
 		</Layout>
 	);
 };
 
-export default GalleryPage;
+export default TeachersPage;
