@@ -35,6 +35,20 @@ const CTEB5 = () => {
 	};
 
 	return (
+		<section>
+		<section className="inner-banner-DCMYL1">
+				<div className="container">
+					<ul className="list-unstyled thm-breadcrumb">
+						<li>
+							<a href="/">Trang Chủ</a>
+						</li>
+						<li className="active">
+							<a href="#">Chi Tiết Về Định Cư</a>
+						</li>
+					</ul>
+					<h2 className="inner-banner-DCMYL1__title">ĐỊNH CƯ MỸ</h2>
+				</div>
+			</section>
 		<section className="team-one team-page">
 			<div className="phan-dau">
 				<a href="/" className="card-link">
@@ -665,6 +679,7 @@ const CTEB5 = () => {
 					</Slide>
 				</div>
 			</div>
+		</section>
 		</section>
 	);
 };
