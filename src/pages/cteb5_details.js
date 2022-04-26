@@ -3,13 +3,13 @@ import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
-import CTEB5 from '../components/CTEB5';
+import CTEB5_details from '../components/CTEB5_details';
 
 const TeachersPage = () => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Định Cư">
 			<NavOne />
-			<CTEB5 />
+			<CTEB5_details />
 			<Footer />
 		</Layout>
 	);
