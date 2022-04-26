@@ -10,7 +10,10 @@ const HocBongCanada = () => {
 				<h1 className="tieude-2">HỌC BỔNG HẤP DẪN TẠI TRƯỜNG ĐẠI HỌC</h1>
 				<h1 className="tieude-2">CANADA WEST</h1>
 				<div className="noidung1">
-					<h2 className="muc1">1. SƠ LƯỢC VỀ TRƯỜNG</h2>
+					<div className="muc1">
+						<h2 >SƠ LƯỢC VỀ TRƯỜNG</h2>
+						<div className='line-tieude1'></div>
+					</div>
 					<div className='style-text text1' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
 						<p >
                         <b >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Đại học Canada West (University Canada West)</b>được thành lập vào năm 2004, tọa lạc tại khuôn viên Thành phố Vancouver, là trường đại học trẻ nhưng chất
@@ -18,7 +21,6 @@ const HocBongCanada = () => {
 						trường đại học độc lập hàng đầu, được tôn trọng ở Canada và nước ngoài, được biết đến với sự đổi mới và
 						hiệu quả trong việc chuẩn bị cho sinh viên có động lực cho sự nghiệp chuyên nghiệp và lãnh đạo xã hội.
 						</p>
-
 					</div>
 					<div className="anh-1">
 						<img
@@ -32,7 +34,10 @@ const HocBongCanada = () => {
                  {/*********************************NOI DUNG 2*************************************/}
 				<div className="noidung2">
 					<div className='text2 style-text' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
-						<h2 className="muc1">2. Những Ngành Học Nổi Bậc</h2>
+					<div className="muc2">
+					<h2>Những Ngành Học Nổi Bậc</h2>
+						<div className='line-tieude1'></div>
+					</div>
 						<b className='style-text'>* Cử nhân thương mại</b>
 					<ul>
 						<li>Chương trình đào tạo: 4 năm</li>
@@ -76,8 +81,11 @@ const HocBongCanada = () => {
                 <div style={{clear:"both"}}></div>
                   {/********************************NOI DUNG 3***********************************/}
 				  <div className="noidung3">
-				  <h2 className="muc1">3. Điều Kiện Tuyển Sinh</h2>
 					<div className='style-text text1' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
+					<div className="muc3">
+					<h2 >Điều Kiện Tuyển Sinh</h2>
+						<div className='line-tieude1'></div>
+					</div>
 						<b>Thạc sĩ:</b>
 					<p>
 						Sinh viên học MBA ngoài các yêu cầu cơ bản như GPA 3/4, IELTS 6.5 (6.5 (Writing 6.0 or higher)/ TOEFL 88
@@ -105,8 +113,11 @@ const HocBongCanada = () => {
 				<div style={{clear:"both"}}></div>
                  {/*********************************NOI DUNG 4*************************************/}
 				<div className="noidung4">
-				<h2 className="muc1">4. Vì Sao Nên Chọn Đại Học Canada West Universityc</h2>
 					<div className='text2 style-text' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
+					<div className="muc4">
+					<h2>Vì Sao Nên Chọn Đại Học Canada West University</h2>
+						<div className='line-tieude1'></div>
+					</div>
 						<b className='style-text'>* Cử nhân thương mại</b>
 						<ul>
 						<li>Giáo sư chuyên gia có kinh nghiệm trong ngành công nghiệp đầu tiên</li>
@@ -128,8 +139,11 @@ const HocBongCanada = () => {
                 <div style={{clear:"both"}}></div>
                      {/**************************NOI DUNG 5***************************/}
 				<div className="noidung5">
-				<h2 className="muc1">5. Học Bổng</h2>
 					<div className='style-text text1' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
+					<div className="muc5">
+					<h2>Học Bổng</h2>
+						<div className='line-tieude1'></div>
+					</div>
 						<p>
 						<b>
 							Hiện các kỳ nhập học tiếp theo của năm 2021: kỳ tháng 7, kỳ tháng 10 vẫn đang áp dụng các chương trình

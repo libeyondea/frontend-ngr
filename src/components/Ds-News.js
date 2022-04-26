@@ -10,7 +10,7 @@ const DS_NEWS = ({ post }) => {
 							alt=""
 						/>
 
-						<a className="blog-one__plus" href={`/p/${post.translations[0].slug}`}>
+						<a className="blog-one__plus" href={`/p/${post.slug}`}>
 							<i className="kipso-icon-plus-symbol"></i>
 						</a>
 					</div>
@@ -33,10 +33,10 @@ const DS_NEWS = ({ post }) => {
 							</a>
 						</div>
 						<h2 className="blog-one__title">
-							<a href={`/p/${post.translations[0].slug}`}>{post.translations[0].title}</a>
+							<a href={`/p/${post.slug}`}>{post.title}</a>
 						</h2>
-						<p className="blog-one__text">{post.translations[0].excerpt}</p>
-						<a className="blog-one__link" href={`/p/${post.translations[0].slug}`}>
+						<p className="blog-one__text">{post.excerpt}</p>
+						<a className="blog-one__link" href={`/p/${post.slug}`}>
 							Read More
 						</a>
 					</div>

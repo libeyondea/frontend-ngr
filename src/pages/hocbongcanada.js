@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
-import HocBongCanada from '../components/HocBong/HB-Canada';
+import HocBongCanada from '../components/HocBong/HocBongCanada';
 
 const GalleryPage = () => {
 	return (
