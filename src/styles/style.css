@@ -7411,6 +7411,12 @@ span#fcta-zalo-tracking {
 	background-color: #993300;
 	margin: 10px auto;
 }
+.line-tieude1{
+	width: 70%;
+	height: 2px;
+	background-color: #993300;
+	margin:0 auto;
+}
 .anh-noidung1 {
 	width: 55%;
 	height: 440px;
@@ -7440,8 +7446,32 @@ span#fcta-zalo-tracking {
 .muc1 {
 	font-size: 25px;
 	color: #000;
-	margin-bottom: 20px;
-
+	margin-bottom: 10px;
+	width: 303px;
+}
+.muc2 {
+	font-size: 25px;
+	color: #000;
+	margin-bottom: 10px;
+	width: 372px;
+}
+.muc3 {
+	font-size: 25px;
+	color: #000;
+	margin-bottom: 10px;
+	width: 294px;
+}
+.muc4 {
+	font-size: 25px;
+	color: #000;
+	margin-bottom: 10px;
+	width: 700px;
+}
+.muc5 {
+	font-size: 25px;
+	color: #000;
+	margin-bottom: 10px;
+	width: 136px;
 }
 /*******************************Next-Previous********************************/
 .next-previous {
@@ -7499,7 +7529,60 @@ span#fcta-zalo-tracking {
 	font-size: 80%;
 	color: #999;
 }
-/****************************************************************************/
+/************************************HB-CANADA****************************************/
+.card-TH1 {
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px #b7b3b3;
+	height: 258px;
+	/* border: 1px solid #94a2ab; */
+}
+.card-header-TH1 {
+	background-color: #ffd19f;
+	color: #ff944d;
+	font-weight: bolder;
+	margin-bottom: 0;
+	text-align: center;
+}
+.img-card-TH1 {
+	float: left;
+	padding-right: 20px;
+	width: 40%;
+	height: 200px;
+	object-fit: contain;
+}
+.img-HB{
+	width: 100%;
+	height: 100%;
+}
+.blog-one__plus1 {
+	font-size: 46px;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	-webkit-transform: perspective(20px) translateZ(10px) translate(-50%, -50%);
+	transform: perspective(20px) translateZ(10px) translate(-50%, -50%);
+	-webkit-transition: opacity 0.4s ease, color 0.3s ease, -webkit-transform 0.3s ease;
+	transition: opacity 0.4s ease, color 0.3s ease, -webkit-transform 0.3s ease;
+	transition: opacity 0.4s ease, transform 0.3s ease, color 0.3s ease;
+	transition: opacity 0.4s ease, transform 0.3s ease, color 0.3s ease, -webkit-transform 0.3s ease;
+}
+.blog-one__plus1:hover {
+	color: #f16101;
+}
+.card-text-TH1 {
+	text-align: justify;
+}
+.chua-item{
+	width: 90%;
+	margin: 0 auto;
+}
+.canhgiua{
+	margin: 0 auto;
+}
+/*********************************************************************************/
+
 .card-header-TD {
 	max-width: 100%;
 	max-height: 100%;
