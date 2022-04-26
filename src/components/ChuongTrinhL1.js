@@ -196,26 +196,24 @@ const ChuongTrinhL1 = () => {
 					</div>
 					<div className='donxinvisa'>
 						<h1>ĐƯƠNG ĐƠN XIN VISA L-1 PHẢI CHỨNG MINH:</h1>
-						<ul>
+						<ul className='DonViSaL1'>
 							<li>
-								Họ là nhân viên cấp quản lý hoặc điều hành hoặc có kiến thức đặc biệt và được hoán chuyển sang Mỹ công tác.
+							● Họ là nhân viên cấp quản lý hoặc điều hành hoặc có kiến thức đặc biệt và được hoán chuyển sang Mỹ công tác.
 							</li>
 							<li>
-								Được chuyển sang Mỹ làm việc với cấp độ quản lý/nhà điều hành
+							● Được chuyển sang Mỹ làm việc với cấp độ quản lý/nhà điều hành
 							</li>
 							<li>
-								Họ đã và đang làm việc ở ngoài Mỹ cho công ty mà họ được hoán chuyển ít nhất là một năm trong vòng ba năm gần đây và sẽ sang Mỹ làm việc cho cùng công ty hoặc chi nhánh
+							● Họ đã và đang làm việc ở ngoài Mỹ cho công ty mà họ được hoán chuyển ít nhất là một năm trong vòng ba năm gần đây và sẽ sang Mỹ làm việc cho cùng công ty hoặc chi nhánh
 							</li>
 							<li>
-								Chứng minh sự liên hệ giữa công ty Việt Nam và công ty Mỹ
+							● Chứng minh sự liên hệ giữa công ty Việt Nam và công ty Mỹ
 							</li>
 						</ul>
 				</div>
 				</section>
 
 			</div>
-
-
 			<div className="share-post" style={{ marginBottom: '20px' }}>
 				<span className="share-textt">Chia Sẻ</span>
 				<ul className="flat-social">
