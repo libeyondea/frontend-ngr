@@ -7231,14 +7231,14 @@ span#fcta-zalo-tracking {
 	background-size: cover;
 	cursor: pointer;
 }
-.hide {
+/* .hide {
 	visibility: hidden;
 }
 
 .myDIV:hover + .hide,
 .hide:hover {
 	visibility: visible;
-}
+} */
 /********************************************Finish Button Chat********************************************/
 /********************************** Form-Chat********************************* */
 .form_chat {
@@ -7254,13 +7254,13 @@ span#fcta-zalo-tracking {
 	box-shadow: -5px 5px 4px #1c1c1c;
 	border-radius: 18px;
 	opacity: 100%;
-	/* 	visibility: hidden; */
+		visibility: hidden;
 }
 .title-chat {
 	text-align: center;
 	color: #fff;
 	margin-top: 20px;
-	font-size: 26px;
+	font-size: 23px;
 }
 .canhle-chat {
 	margin: 10px auto;
@@ -7274,12 +7274,12 @@ span#fcta-zalo-tracking {
 }
 .chuamucchat {
 	width: 100%;
-	height: 70px;
+	height: 60px;
 	border-bottom: 1px solid #d9d8d8;
 }
 .chuamucchat-cuoi {
 	width: 100%;
-	height: 70px;
+	height: 60px;
 	border-radius: 0 0 18px 18px;
 }
 .chuamucchat:hover {
@@ -7310,7 +7310,7 @@ span#fcta-zalo-tracking {
 }  */
 .tieude-chat {
 	width: 100%;
-	height: 75px;
+	height: 60px;
 	background-color: #0068ff80;
 	border-radius: 18px 18px 0px 0px;
 	padding-top: 1px;
