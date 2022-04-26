@@ -20,9 +20,9 @@ const Chat = () => {
 		<div>
 			<div className="myDIV">
 				<a id="linkzalo" target="_blank" rel="noopener noreferrer" onClick={openForm} className="button-chat">
-					<div id="fcta-zalo-tracking" className="fcta-zalo-mess">
+					{/* <div id="fcta-zalo-tracking" className="fcta-zalo-mess">
 						<span id="fcta-zalo-tracking">Chat hỗ trợ</span>
-					</div>
+					</div> */}
 					<div className="fcta-zalo-vi-tri-nut">
 						<div id="fcta-zalo-tracking" className="fcta-zalo-nen-nut">
 							<div id="fcta-zalo-tracking" className="fcta-zalo-ben-trong-nut">
