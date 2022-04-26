@@ -123,7 +123,7 @@ const DVAnCu = () => {
 					<div className="DoiNgu">
 						<h2 className="Phan_DoiNgu">ĐỘI NGŨ</h2>
 						<div className="card-deck">
-							<div className="card card-anhtho" style={{ width: '15rem' }}>
+							<div className="card" style={{ width: '15rem' }}>
 								<img src="/assets/images/DinhCuMy/Cathy.jpg" className="card-img-top" alt="..." />
 								<div className="card-body">
 									<h5 className="card-title">Cathy Lê</h5>
@@ -136,7 +136,7 @@ const DVAnCu = () => {
 									<small className="text-muted">Cập nhật 3 phút trước</small>
 								</div>
 							</div>
-							<div className="card card-anhtho ">
+							<div className="card">
 								<img src="/assets/images/DinhCuMy/gam.jpg" className="card-img-top" alt="..." />
 								<div className="card-body">
 									<h5 className="card-title">Edna Lee</h5>
@@ -148,7 +148,7 @@ const DVAnCu = () => {
 									<small className="text-muted">Cập nhật 3 phút trước</small>
 								</div>
 							</div>
-							<div className="card card-anhtho">
+							<div className="card">
 								<img src="/assets/images/DinhCuMy/avatar.jpg" className="card-img-top" alt="..." />
 								<div className="card-body">
 									<h5 className="card-title">Trâm Julie</h5>

@@ -8982,7 +8982,7 @@ ul#menu li:hover ul#sub {
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
-	background-image: url(/assets/images/DinhCuMy/img-15.jpg);
+	background-image: url(/assets/images/DinhCuMy/bg-dich-vu-an-cu-my.jpg);
 }
 .inner-banner-DVAC::before {
 	content: '';
@@ -9043,28 +9043,6 @@ ul#menu li:hover ul#sub {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	color: white;
-}
-.card-deck {
-    flex-flow: row wrap;
-    margin-right: 74px;
-    margin-left: 74px;
-}
-.card card-anhtho{
-	margin-left: 100px;
-	margin-bottom: 100px;
-	height: 500px ;
-	max-width: 18rem;
-	background-color: #d9d8d8;
-}
-.card-img-top {
-	width: 358px;
-    border-top-left-radius: calc(0.25rem - 1px);
-    border-top-right-radius: calc(0.25rem - 1px);
-    height: 300px;
-}
-.card-title {
-    text-align: center;
-    margin-bottom: 0.75rem;
 }
 .DoiTac{
 	margin-top: 100px;
