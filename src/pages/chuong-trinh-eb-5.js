@@ -9,7 +9,6 @@ const TeachersPage = () => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Định Cư">
 			<NavOne />
-			<PageHeader title="CHƯƠNG TRÌNH EB-5" />
 			<CTEB5 />
 			<Footer />
 		</Layout>

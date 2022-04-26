@@ -459,7 +459,10 @@ const CTEB5 = () => {
 				</p>
 			</div>
 			<div className="DuAn">
-				<h1 className="DA" style={{ color: 'black', display: 'block', textAlign: 'center', paddingTop: '50px', marginBottom:'50px' }}>
+				<h1
+					className="DA"
+					style={{ color: 'black', display: 'block', textAlign: 'center', paddingTop: '50px', marginBottom: '50px' }}
+				>
 					DỰ ÁN
 				</h1>
 				<div className="testimonials-one__carousel">
@@ -467,10 +470,16 @@ const CTEB5 = () => {
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/c4e2daaef10602-hillwoodyorkwestdeptford1.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+									<img
+										src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/c4e2daaef10602-hillwoodyorkwestdeptford1.jpg&w=360&h=479&zc=1&q=100&s=1"
+										alt=""
+										className="imgDA"
+										width={480}
+										height={580}
+									/>
 								</div>
 							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
 								<h5>Dự án CMB-64 Hillwood Rialto & Sycamore </h5>
 								<p>
 									{' '}
@@ -482,10 +491,16 @@ const CTEB5 = () => {
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/0be73d834504f8-cangbaihaiquansteiner1.png&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+									<img
+										src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/0be73d834504f8-cangbaihaiquansteiner1.png&w=360&h=479&zc=1&q=100&s=1"
+										alt=""
+										className="imgDA"
+										width={480}
+										height={580}
+									/>
 								</div>
 							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
 								<h5>Dự Án CMB Nhóm 55 – Hillwood York & West Deptford </h5>
 								<p>
 									{' '}
@@ -497,10 +512,16 @@ const CTEB5 = () => {
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/97e516508a48fd-stillwaterdeepellum1.png&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+									<img
+										src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/97e516508a48fd-stillwaterdeepellum1.png&w=360&h=479&zc=1&q=100&s=1"
+										alt=""
+										className="imgDA"
+										width={480}
+										height={580}
+									/>
 								</div>
 							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
 								<h5>Dự Án Tái Phát Triển Steiner (Giai Đoạn III) </h5>
 								<p>
 									{' '}
@@ -511,11 +532,17 @@ const CTEB5 = () => {
 						</div>
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
-								<div className="imgDA" style={{ marginTop: '-50px'}}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/1db87fc13872c6-hiltonchicagorockfordcityhub.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
+									<img
+										src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/1db87fc13872c6-hiltonchicagorockfordcityhub.jpg&w=360&h=479&zc=1&q=100&s=1"
+										alt=""
+										className="imgDA"
+										width={480}
+										height={580}
+									/>
 								</div>
 							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
 								<h5>Dự án CMB Nhóm 65 - Stillwater Deep Ellum </h5>
 								<p>
 									{' '}
@@ -527,10 +554,16 @@ const CTEB5 = () => {
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/d89b5f23b8ccee-duanlinknyc1.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+									<img
+										src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/d89b5f23b8ccee-duanlinknyc1.jpg&w=360&h=479&zc=1&q=100&s=1"
+										alt=""
+										className="imgDA"
+										width={480}
+										height={580}
+									/>
 								</div>
 							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
 								<h5>Dự án Khách sạn và Trung tâm Hội nghị Hilton Chicago-Rockford CityHub (Warren Buffett ) </h5>
 								<p>
 									{' '}
@@ -542,10 +575,16 @@ const CTEB5 = () => {
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/90c4c76b4d29f8-group48centuryplaza.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+									<img
+										src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/90c4c76b4d29f8-group48centuryplaza.jpg&w=360&h=479&zc=1&q=100&s=1"
+										alt=""
+										className="imgDA"
+										width={480}
+										height={580}
+									/>
 								</div>
 							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
 								<h5>Tổng quan Dự án LinkNYC - Giai đoạn II với sự đầu tư của Google </h5>
 								<p>
 									{' '}
@@ -557,10 +596,16 @@ const CTEB5 = () => {
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/9e3ebdf63405e9-denvercoloradogroup415.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+									<img
+										src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/9e3ebdf63405e9-denvercoloradogroup415.jpg&w=360&h=479&zc=1&q=100&s=1"
+										alt=""
+										className="imgDA"
+										width={480}
+										height={580}
+									/>
 								</div>
 							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
 								<h5>Dự án đầu tư cơ sở hạ tầng Texas CMB 53, l.p. </h5>
 								<p>
 									{' '}
@@ -572,10 +617,16 @@ const CTEB5 = () => {
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/e852400822e15d-quangtruongkynguyen2.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+									<img
+										src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/e852400822e15d-quangtruongkynguyen2.jpg&w=360&h=479&zc=1&q=100&s=1"
+										alt=""
+										className="imgDA"
+										width={480}
+										height={580}
+									/>
 								</div>
 							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
 								<h5>Dự án đầu tư cơ sở hạ tầng Texas CMB 49 </h5>
 								<p>
 									{' '}
@@ -587,14 +638,21 @@ const CTEB5 = () => {
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/8a4f40b4437379-nycrcfdiibrochurevietnamese21111.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+									<img
+										src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/8a4f40b4437379-nycrcfdiibrochurevietnamese21111.jpg&w=360&h=479&zc=1&q=100&s=1"
+										alt=""
+										className="imgDA"
+										width={480}
+										height={580}
+									/>
 								</div>
 							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px' , color: 'white' }}>
+							<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
 								<h5>Dự án CMB nhóm 67 - Great Wolf Lodge Arizona </h5>
 								<p>
 									{' '}
-									Dự án là khu nghỉ dưỡng gồm: Công viên nước trong nhà, các nhà hàng, cửa hàng đồ lưu niệm, dịch vụ spa, trung tâm thể dục, khu vực vui chơi của trẻ em và nhiều dịch vụ khác… {' '}
+									Dự án là khu nghỉ dưỡng gồm: Công viên nước trong nhà, các nhà hàng, cửa hàng đồ lưu niệm,
+									dịch vụ spa, trung tâm thể dục, khu vực vui chơi của trẻ em và nhiều dịch vụ khác…{' '}
 								</p>
 							</div>
 						</div>
