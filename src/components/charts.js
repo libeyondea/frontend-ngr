@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import { ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 class ChartExample extends Component {
