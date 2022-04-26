@@ -90,7 +90,7 @@ const CTEB5 = () => {
 								style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
 							/>
 							Năm 1992, Quốc hội thành lập Chương trình Nhà đầu tư Nhập cư, còn được gọi là Chương trình Trung tâm
-							Vùng (Regional Centers), dành thị thực EB-5 cho những người tham gia đầu tư vào các doanh nghiệp
+Vùng (Regional Centers), dành thị thực EB-5 cho những người tham gia đầu tư vào các doanh nghiệp
 							thương mại liên kết với các trung tâm khu vực đã được Sở Di trú & Nhập tịch Mỹ phê duyệt dựa trên các
 							đề xuất thúc đẩy tăng trưởng kinh tế. Cho phép các dự án nằm trong khu vực khuyến khích đầu tư (TEA)
 							thu hút vốn đầu tư từ nhiều quốc gia trên thế giới, trong đó có Việt Nam.
@@ -168,7 +168,7 @@ const CTEB5 = () => {
 										className="fa fa-check"
 										style={{ color: 'white', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
 									></i>
-									Chi phí hợp lý nhất (thấp hơn du học)
+Chi phí hợp lý nhất (thấp hơn du học)
 								</p>
 								<p style={{ fontSize: '16px' }}>
 									<i
@@ -255,10 +255,10 @@ const CTEB5 = () => {
 					</div>
 					<div className="row-9d">
 						<div className="col-6">
-							<div className="chindT" style={{ marginTop: '25px' }}>
+							<div className="chindT" style={{ marginTop: '25px', color:'black' }}>
 								<a style={{ fontSize: '16px' }}>
 									<i
-										className="fa fa-check"
+className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
 									></i>
 									Tự do sinh sống, làm việc, kinh doanh
@@ -266,7 +266,7 @@ const CTEB5 = () => {
 									<a className="chu" style={{ marginLeft: '50px' }}></a> bất cứ nơi nào tại Mỹ
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
+								<a style={{ fontSize: '16px', color:'black' }}>
 									<i
 										className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -274,7 +274,7 @@ const CTEB5 = () => {
 									Tự do ra vào Mỹ
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
+								<a style={{ fontSize: '16px' , color:'black'}}>
 									<i
 										className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -282,7 +282,7 @@ const CTEB5 = () => {
 									Có song tịch
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
+								<a style={{ fontSize: '16px', color:'black' }}>
 									<i
 										className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -290,7 +290,7 @@ const CTEB5 = () => {
 									Bảo lãnh người thân
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
+								<a style={{ fontSize: '16px', color:'black' }}>
 									<i
 										className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -300,7 +300,7 @@ const CTEB5 = () => {
 							</div>
 						</div>
 						<div className="col-6">
-							<div className="chindP" style={{ marginTop: '-205px' }}>
+							<div className="chindP" style={{ marginTop: '-205px', color:'black' }}>
 								<a style={{ fontSize: '16px' }}>
 									<i
 										className="fa fa-check"
@@ -309,7 +309,7 @@ const CTEB5 = () => {
 									Duy trì công việc và tài sản tại Việt Nam
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
+								<a style={{ fontSize: '16px', color:'black' }}>
 									<i
 										className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -319,15 +319,12 @@ const CTEB5 = () => {
 									sinh
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
-									<i
-										className="fa fa-check"
-										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
-									></i>
+								<a style={{ fontSize: '16px', color:'black'}}>
+									<i className="fa fa-check"	style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}></i>
 									Cơ hội kinh doanh rộng mở
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
+								<a style={{ fontSize: '16px', color:'black' }}>
 									<i
 										className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -342,7 +339,7 @@ const CTEB5 = () => {
 			<section className="u011 block2 wow">
 					<div className="block">
 						<div className="block_item block_item_left">
-							<div className="block_img ">
+<div className="block_img ">
 								<img alt className="img-loaded" src="assets/images/DinhCuMy/img-14.jpg" />
 							</div>
 							<div className="display-table">
@@ -387,7 +384,7 @@ const CTEB5 = () => {
 					</div>
 				</section>
 				<div>
-					<h2 className="LoaiHinhDT" style={{ color: 'black', textAlign: 'center', padding: '100px' }}>
+					<h2 className="LoaiHinhDT" style={{ color: 'black', marginLeft:'510px', padding: '100px' }}>
 						CÁC LOẠI HÌNH ĐẦU TƯ
 					</h2>
 					<p className="dautu" style={{ color: 'black', marginLeft: '395px', marginTop: '-70px' }}>
@@ -406,14 +403,14 @@ const CTEB5 = () => {
 							đầu tư trong vùng TEA; 1,050,000 USD/suất đầu tư ngoài vùng TEA.
 						</a>
 					</p>
-					<h2 className="DKTT" style={{ color: 'black', textAlign: 'center', padding: '70px' }}>
+					<h2 className="DKTT" style={{ color: 'black', marginLeft:'550px', padding: '70px' }}>
 						ĐIỀU KIỆN THƯỜNG TRÚ
 					</h2>
 					<p className="dautu" style={{ color: 'black', marginLeft: '395px', marginTop: '-40px' }}>
 						<a>
 							<i
 								className="fa fa-circle"
-								aria-hidden="true"
+aria-hidden="true"
 								style={{ color: 'black', fontSize: '8px', marginLeft: '20px', marginRight: '15px' }}
 							></i>
 							Thẻ Xanh được cấp cho cả gia đình lần đầu có giá trị 2 năm
@@ -492,7 +489,7 @@ const CTEB5 = () => {
 									<h5>Dự án CMB-64 Hillwood Rialto & Sycamore </h5>
 									<p>
 										{' '}
-										Hillwood Rialto & Sycamore là dự án hợp tác giữa Trung tâm Khu vực CMB và Hillwood
+Hillwood Rialto & Sycamore là dự án hợp tác giữa Trung tâm Khu vực CMB và Hillwood
 										Development- top 10 công ty phát triển bất động sản hàng đầu tại Mỹ.{' '}
 									</p>
 								</div>
@@ -557,7 +554,7 @@ const CTEB5 = () => {
 									<p>
 										{' '}
 										Trung tâm khu vực CMB một lần nữa có cơ hội hợp tác với đơn vị phát triển bất động sản
-										hàng đầu Texas, là Stillwater Capital Investments, LLC{' '}
+hàng đầu Texas, là Stillwater Capital Investments, LLC{' '}
 									</p>
 								</div>
 							</div>
@@ -626,7 +623,7 @@ const CTEB5 = () => {
 									</p>
 								</div>
 							</div>
-							<div className="item mr-4">
+<div className="item mr-4">
 								<div className="testimonials-one__single">
 									<div className="imgDA" style={{ marginTop: '-50px' }}>
 										<img
