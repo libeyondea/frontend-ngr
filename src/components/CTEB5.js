@@ -35,7 +35,21 @@ const CTEB5 = () => {
 	};
 
 	return (
-		<section className="team-one team-page">
+		<section>
+			<section className="inner-banner-DCMYEB5">
+				<div className="container">
+					<ul className="list-unstyled thm-breadcrumb">
+						<li>
+							<a href="/">Trang Chủ</a>
+						</li>
+						<li className="active">
+							<a href="#">Chi Tiết Về Định Cư</a>
+						</li>
+					</ul>
+					<h2 className="inner-banner-DCMYEB5__title">ĐỊNH CƯ MỸ</h2>
+				</div>
+			</section>
+			<section className="team-one team-page">
 			<div className="phan-dau">
 				<a href="/" className="card-link">
 					<h5 lassName="card-title" style={{ color: 'red', fontSize: '16px', marginLeft: '30px' }}>
@@ -76,7 +90,7 @@ const CTEB5 = () => {
 								style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
 							/>
 							Năm 1992, Quốc hội thành lập Chương trình Nhà đầu tư Nhập cư, còn được gọi là Chương trình Trung tâm
-							Vùng (Regional Centers), dành thị thực EB-5 cho những người tham gia đầu tư vào các doanh nghiệp
+Vùng (Regional Centers), dành thị thực EB-5 cho những người tham gia đầu tư vào các doanh nghiệp
 							thương mại liên kết với các trung tâm khu vực đã được Sở Di trú & Nhập tịch Mỹ phê duyệt dựa trên các
 							đề xuất thúc đẩy tăng trưởng kinh tế. Cho phép các dự án nằm trong khu vực khuyến khích đầu tư (TEA)
 							thu hút vốn đầu tư từ nhiều quốc gia trên thế giới, trong đó có Việt Nam.
@@ -154,7 +168,7 @@ const CTEB5 = () => {
 										className="fa fa-check"
 										style={{ color: 'white', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
 									></i>
-									Chi phí hợp lý nhất (thấp hơn du học)
+Chi phí hợp lý nhất (thấp hơn du học)
 								</p>
 								<p style={{ fontSize: '16px' }}>
 									<i
@@ -241,10 +255,10 @@ const CTEB5 = () => {
 					</div>
 					<div className="row-9d">
 						<div className="col-6">
-							<div className="chindT" style={{ marginTop: '25px' }}>
+							<div className="chindT" style={{ marginTop: '25px', color:'black' }}>
 								<a style={{ fontSize: '16px' }}>
 									<i
-										className="fa fa-check"
+className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
 									></i>
 									Tự do sinh sống, làm việc, kinh doanh
@@ -252,7 +266,7 @@ const CTEB5 = () => {
 									<a className="chu" style={{ marginLeft: '50px' }}></a> bất cứ nơi nào tại Mỹ
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
+								<a style={{ fontSize: '16px', color:'black' }}>
 									<i
 										className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -260,7 +274,7 @@ const CTEB5 = () => {
 									Tự do ra vào Mỹ
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
+								<a style={{ fontSize: '16px' , color:'black'}}>
 									<i
 										className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -268,7 +282,7 @@ const CTEB5 = () => {
 									Có song tịch
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
+								<a style={{ fontSize: '16px', color:'black' }}>
 									<i
 										className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -276,7 +290,7 @@ const CTEB5 = () => {
 									Bảo lãnh người thân
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
+								<a style={{ fontSize: '16px', color:'black' }}>
 									<i
 										className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -286,7 +300,7 @@ const CTEB5 = () => {
 							</div>
 						</div>
 						<div className="col-6">
-							<div className="chindP" style={{ marginTop: '-205px' }}>
+							<div className="chindP" style={{ marginTop: '-205px', color:'black' }}>
 								<a style={{ fontSize: '16px' }}>
 									<i
 										className="fa fa-check"
@@ -295,7 +309,7 @@ const CTEB5 = () => {
 									Duy trì công việc và tài sản tại Việt Nam
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
+								<a style={{ fontSize: '16px', color:'black' }}>
 									<i
 										className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -305,15 +319,12 @@ const CTEB5 = () => {
 									sinh
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
-									<i
-										className="fa fa-check"
-										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
-									></i>
+								<a style={{ fontSize: '16px', color:'black'}}>
+									<i className="fa fa-check"	style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}></i>
 									Cơ hội kinh doanh rộng mở
 								</a>
 								<br />
-								<a style={{ fontSize: '16px' }}>
+								<a style={{ fontSize: '16px', color:'black' }}>
 									<i
 										className="fa fa-check"
 										style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -325,282 +336,339 @@ const CTEB5 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="row">
-				<div className="col-6">
-					<div className="rowT">
-						<h2 className="DTDT">ĐỐI TƯỢNG ĐẦU TƯ</h2>
-						<div className="block_desc">
-							<p>
-								Tất cả các nhà đầu tư có khả năng tài chính, có nhu cầu định
-								<br /> cư Mỹ
-								<br />
-								Không giới hạn về độ tuổi
-								<br />
-								Không yêu cầu ngoại ngữ
-								<br />
-								Không yêu cầu có công ty kinh doanh hoặc kinh nghiệm quản
-								<br /> lý doanh nghiệp
-								<br />
-								Không cần trực tiếp quản lý công việc đầu tư hàng ngày.
-							</p>
+			<section className="u011 block2 wow">
+					<div className="block">
+						<div className="block_item block_item_left">
+<div className="block_img ">
+								<img alt className="img-loaded" src="assets/images/DinhCuMy/img-14.jpg" />
+							</div>
+							<div className="display-table">
+								<div className="table-cell" style={{ height: 405 }}>
+									<div className="block_text">
+										<h2 className="block_title">Đối tượng đầu tư</h2>
+										<div className="block_desc">
+											Tất cả các nhà đầu tư có khả năng tài chính, có nhu cầu định cư Mỹ
+											<br />
+											Không giới hạn về độ tuổi
+											<br />
+											Không yêu cầu ngoại ngữ
+											<br />
+											Không yêu cầu có công ty kinh doanh hoặc kinh nghiệm quản lý doanh nghiệp
+											<br />
+											Không cần trực tiếp quản lý công việc đầu tư hàng ngày.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="block_item block_item_right">
+							<div className="block_img ">
+								<img alt className="img-loaded" src="assets/images/DinhCuMy/img-15.jpg" />
+							</div>
+							<div className="display-table">
+								<div className="table-cell" style={{ height: 405 }}>
+									<div className="block_text">
+										<h2 className="block_title">Điều kiện đầu tư</h2>
+										<div className="block_desc entry-content">
+											Chứng minh nguồn gốc số tiền đầu tư (500 ngàn USD hoặc 1 triệu USD) từ:
+											<ul>
+												<li>Thu nhập từ lợi nhuận doanh nghiệp</li>
+												<li>Thu nhập cá nhân: tiền lương, tặng, cho, thừa kế…</li>
+												<li>Từ bán bất động sản, chứng khoán, cổ phiếu…</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div className="col-6">
-					<div className="rowP">
-						<h2 className="DKDT">ĐIỀU KIỆN ĐẦU TƯ</h2>
-						<p style={{ marginLeft: '80px' }}>
-							Chứng minh nguồn gốc số tiền đầu tư (800,000 USD/suất đầu
-							<br /> tư trong vùng TEA; hoặc 1,050,000 USD/suất đầu tư ngoài
-							<br /> vùng TEA) từ:
-						</p>
-						<div className="bacham" style={{ marginLeft: '110px' }}>
-							<p style={{ fontSize: '16px' }}>
-								<i
-									className="fa fa-circle"
-									aria-hidden="true"
-									style={{ color: 'white', fontSize: '10px', marginLeft: '20px', marginRight: '15px' }}
-								></i>
-								Thu nhập từ lợi nhuận doanh nghiệp
-							</p>
-							<p style={{ fontSize: '16px' }}>
-								<i
-									className="fa fa-circle"
-									aria-hidden="true"
-									style={{ color: 'white', fontSize: '10px', marginLeft: '20px', marginRight: '15px' }}
-								></i>
-								Thu nhập cá nhân: tiền lương, tặng, cho, thừa kế…
-							</p>
-							<p style={{ fontSize: '16px' }}>
-								<i
-									className="fa fa-circle"
-									aria-hidden="true"
-									style={{ color: 'white', fontSize: '10px', marginLeft: '20px', marginRight: '15px' }}
-								></i>
-								Từ bán bất động sản, chứng khoán, cổ phiếu…
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div>
-				<h2 className="LoaiHinhDT" style={{ color: 'black', textAlign: 'center', padding: '100px' }}>
-					CÁC LOẠI HÌNH ĐẦU TƯ
-				</h2>
-				<p className="dautu" style={{ color: 'black', marginLeft: '395px', marginTop: '-70px' }}>
-					<i
-						className="fa fa-circle"
-						aria-hidden="true"
-						style={{ color: 'black', fontSize: '8px', marginLeft: '20px', marginRight: '15px' }}
-					></i>
-					Đầu tư uỷ thác (gián tiếp): Thông qua Trung tâm Vùng (Regional Centers), Nhà đầu tư đầu tư
-					<br />
-					<a className="congty" style={{ marginLeft: '43px' }}>
-						vào công ty hoặc dự án được sự chấp thuận của Chính phủ Mỹ với vốn đầu tư 800,000 USD/suất
-						<br />{' '}
-					</a>
-					<a className="congty" style={{ marginLeft: '43px' }}>
-						đầu tư trong vùng TEA; 1,050,000 USD/suất đầu tư ngoài vùng TEA.
-					</a>
-				</p>
-				<h2 className="DKTT" style={{ color: 'black', textAlign: 'center', padding: '70px' }}>
-					ĐIỀU KIỆN THƯỜNG TRÚ
-				</h2>
-				<p className="dautu" style={{ color: 'black', marginLeft: '395px', marginTop: '-40px' }}>
-					<a>
+				</section>
+				<div>
+					<h2 className="LoaiHinhDT" style={{ color: 'black', marginLeft:'510px', padding: '100px' }}>
+						CÁC LOẠI HÌNH ĐẦU TƯ
+					</h2>
+					<p className="dautu" style={{ color: 'black', marginLeft: '395px', marginTop: '-70px' }}>
 						<i
 							className="fa fa-circle"
 							aria-hidden="true"
 							style={{ color: 'black', fontSize: '8px', marginLeft: '20px', marginRight: '15px' }}
 						></i>
-						Thẻ Xanh được cấp cho cả gia đình lần đầu có giá trị 2 năm
-					</a>
-					<br />
-					<a>
-						<i
-							className="fa fa-circle"
-							aria-hidden="true"
-							style={{ color: 'black', fontSize: '8px', marginLeft: '20px', marginRight: '15px' }}
-						></i>
-						Hưởng quyền lợi như một thường trú nhân
-					</a>
-					<br />
-					<a>
-						<i
-							className="fa fa-circle"
-							aria-hidden="true"
-							style={{ color: 'black', fontSize: '8px', marginLeft: '20px', marginRight: '15px' }}
-						></i>
-						Sau 1 năm 9 tháng, Luật sư USIS sẽ đại diện Nhà đầu tư nộp đơn I-829 xoá bỏ điều kiện của Thẻ
+						Đầu tư uỷ thác (gián tiếp): Thông qua Trung tâm Vùng (Regional Centers), Nhà đầu tư đầu tư
 						<br />
-						<a className="xanh" style={{ marginLeft: '42px' }}>
-							Xanh để xin Thẻ Xanh vĩnh viễn. Sau 4 năm 9 tháng, Nhà đầu tư có Thẻ Xanh sẽ được nhập tịch Mỹ.
+						<a className="congty" style={{ marginLeft: '43px' }}>
+							vào công ty hoặc dự án được sự chấp thuận của Chính phủ Mỹ với vốn đầu tư 800,000 USD/suất
+							<br />{' '}
 						</a>
-					</a>
-				</p>
-			</div>
-			<div className="cuoi">
-				<p className="vietnam" style={{ marginLeft: '40px', marginTop: '7px' }}>
-					Tại Việt Nam, USIS Group là
-					<a className="donvi" style={{ color: '#b22222' }}>
-						{' '}
-						Đơn vị đầu tiên có khách hàng được nhận hoàn vốn 100% từ chương trình đầu tư định cư Mỹ EB-5
-					</a>
-				</p>
-				<p className="ngay" style={{ marginLeft: '40px' }}>
-					Ngày 5.5.2019, tại Washington, Mỹ, USIS Group đã chính thức nhận giải thưởng
-					<a className="donvi" style={{ color: '#b22222' }}>
-						Đơn vị tư vấn EB-5 xuất sắc nhất toàn cầu - International Champion
+						<a className="congty" style={{ marginLeft: '43px' }}>
+							đầu tư trong vùng TEA; 1,050,000 USD/suất đầu tư ngoài vùng TEA.
+						</a>
+					</p>
+					<h2 className="DKTT" style={{ color: 'black', marginLeft:'550px', padding: '70px' }}>
+						ĐIỀU KIỆN THƯỜNG TRÚ
+					</h2>
+					<p className="dautu" style={{ color: 'black', marginLeft: '395px', marginTop: '-40px' }}>
+						<a>
+							<i
+								className="fa fa-circle"
+aria-hidden="true"
+								style={{ color: 'black', fontSize: '8px', marginLeft: '20px', marginRight: '15px' }}
+							></i>
+							Thẻ Xanh được cấp cho cả gia đình lần đầu có giá trị 2 năm
+						</a>
 						<br />
-						Award
-					</a>{' '}
-					- do tổ chức IIUSA (Hiệp hội Đầu tư Mỹ - một tổ chức phi lợi nhuận, uy tín và chính thống nhất của ngành EB-5
-					tại Mỹ) trao tặng.
-				</p>
-			</div>
-			<div className="DuAn">
-				<h1 className="DA" style={{ color: 'black', display: 'block', textAlign: 'center', paddingTop: '50px', marginBottom:'50px' }}>
-					DỰ ÁN
-				</h1>
-				<div className="testimonials-one__carousel">
-					<Slide {...properties}>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/c4e2daaef10602-hillwoodyorkwestdeptford1.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
-								</div>
-							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
-								<h5>Dự án CMB-64 Hillwood Rialto & Sycamore </h5>
-								<p>
-									{' '}
-									Hillwood Rialto & Sycamore là dự án hợp tác giữa Trung tâm Khu vực CMB và Hillwood
-									Development- top 10 công ty phát triển bất động sản hàng đầu tại Mỹ.{' '}
-								</p>
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/0be73d834504f8-cangbaihaiquansteiner1.png&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
-								</div>
-							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
-								<h5>Dự Án CMB Nhóm 55 – Hillwood York & West Deptford </h5>
-								<p>
-									{' '}
-									Hillwood Development, LLC: là một trong mười công ty bất động sản hàng đầu tại Hoa Kỳ, được
-									ghi nhận qua các dự án tầm cỡ và các quỹ đầu tư công-tư.{' '}
-								</p>
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/97e516508a48fd-stillwaterdeepellum1.png&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
-								</div>
-							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
-								<h5>Dự Án Tái Phát Triển Steiner (Giai Đoạn III) </h5>
-								<p>
-									{' '}
-									Dự án tái phát triển Steiner (giai đoạn 3) nằm trong Cảng Bãi Hải Quân Brooklyn (là dự án
-									chính phủ Mỹ) nhằm tái phát triển khu vực phía tây nam của Cảng thành một trung tâm thương...{' '}
-								</p>
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div className="imgDA" style={{ marginTop: '-50px'}}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/1db87fc13872c6-hiltonchicagorockfordcityhub.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
-								</div>
-							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
-								<h5>Dự án CMB Nhóm 65 - Stillwater Deep Ellum </h5>
-								<p>
-									{' '}
-									Trung tâm khu vực CMB một lần nữa có cơ hội hợp tác với đơn vị phát triển bất động sản hàng
-									đầu Texas, là Stillwater Capital Investments, LLC{' '}
-								</p>
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/d89b5f23b8ccee-duanlinknyc1.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
-								</div>
-							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
-								<h5>Dự án Khách sạn và Trung tâm Hội nghị Hilton Chicago-Rockford CityHub (Warren Buffett ) </h5>
-								<p>
-									{' '}
-									Công ty Gorman vinh dự nhận giải thưởng AHF - top 50 Doanh nghiệp phát triển của nước Mỹ năm
-									2011, 2012, 2013, 2014 và 2015 (xếp thứ 17 năm 2015){' '}
-								</p>
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/90c4c76b4d29f8-group48centuryplaza.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
-								</div>
-							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
-								<h5>Tổng quan Dự án LinkNYC - Giai đoạn II với sự đầu tư của Google </h5>
-								<p>
-									{' '}
-									Là một trong những sáng kiến công nghệ đột phá và quan trọng nhất từng được chính quyền New
-									York thực hiện, dự án LinkNYC Phase II là giai đoạn tiếp theo của chiến lược phát...{' '}
-								</p>
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/9e3ebdf63405e9-denvercoloradogroup415.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
-								</div>
-							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
-								<h5>Dự án đầu tư cơ sở hạ tầng Texas CMB 53, l.p. </h5>
-								<p>
-									{' '}
-									Tập đoàn Hillwood Development Company đã ủy thác cho CMB gây quỹ lên đến 48 triệu đô la tiền
-									vốn EB-5 làm khoản cho vay cho Dự án Group 53.{' '}
-								</p>
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/e852400822e15d-quangtruongkynguyen2.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
-								</div>
-							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px', color: 'white' }}>
-								<h5>Dự án đầu tư cơ sở hạ tầng Texas CMB 49 </h5>
-								<p>
-									{' '}
-									Harwood NO10 là dự án văn phòng cao tầng tùy chỉnh xây dựng trên khu vực rông 1,06 mẫu tọa lạc
-									ở nửa phía bắc của khối đô thị tiếp giáp với North Harwood Street, Randall Street,...{' '}
-								</p>
-							</div>
-						</div>
-						<div className="item mr-4">
-							<div className="testimonials-one__single">
-								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/8a4f40b4437379-nycrcfdiibrochurevietnamese21111.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
-								</div>
-							</div>
-							<div className="chuDA" style={{ marginTop: '-225px', marginLeft:'10px' , color: 'white' }}>
-								<h5>Dự án CMB nhóm 67 - Great Wolf Lodge Arizona </h5>
-								<p>
-									{' '}
-									Dự án là khu nghỉ dưỡng gồm: Công viên nước trong nhà, các nhà hàng, cửa hàng đồ lưu niệm, dịch vụ spa, trung tâm thể dục, khu vực vui chơi của trẻ em và nhiều dịch vụ khác… {' '}
-								</p>
-							</div>
-						</div>
-					</Slide>
+						<a>
+							<i
+								className="fa fa-circle"
+								aria-hidden="true"
+								style={{ color: 'black', fontSize: '8px', marginLeft: '20px', marginRight: '15px' }}
+							></i>
+							Hưởng quyền lợi như một thường trú nhân
+						</a>
+						<br />
+						<a>
+							<i
+								className="fa fa-circle"
+								aria-hidden="true"
+								style={{ color: 'black', fontSize: '8px', marginLeft: '20px', marginRight: '15px' }}
+							></i>
+							Sau 1 năm 9 tháng, Luật sư USIS sẽ đại diện Nhà đầu tư nộp đơn I-829 xoá bỏ điều kiện của Thẻ
+							<br />
+							<a className="xanh" style={{ marginLeft: '42px' }}>
+								Xanh để xin Thẻ Xanh vĩnh viễn. Sau 4 năm 9 tháng, Nhà đầu tư có Thẻ Xanh sẽ được nhập tịch Mỹ.
+							</a>
+						</a>
+					</p>
 				</div>
-			</div>
+				<div className="cuoi">
+					<p className="vietnam" style={{ marginLeft: '40px', marginTop: '7px' }}>
+						Tại Việt Nam, USIS Group là
+						<a className="donvi" style={{ color: '#b22222' }}>
+							{' '}
+							Đơn vị đầu tiên có khách hàng được nhận hoàn vốn 100% từ chương trình đầu tư định cư Mỹ EB-5
+						</a>
+					</p>
+					<p className="ngay" style={{ marginLeft: '40px' }}>
+						Ngày 5.5.2019, tại Washington, Mỹ, USIS Group đã chính thức nhận giải thưởng
+						<a className="donvi" style={{ color: '#b22222' }}>
+							Đơn vị tư vấn EB-5 xuất sắc nhất toàn cầu - International Champion
+							<br />
+							Award
+						</a>{' '}
+						- do tổ chức IIUSA (Hiệp hội Đầu tư Mỹ - một tổ chức phi lợi nhuận, uy tín và chính thống nhất của ngành
+						EB-5 tại Mỹ) trao tặng.
+					</p>
+				</div>
+				<div className="DuAn">
+					<h1
+						className="DA"
+						style={{
+							color: 'black',
+							display: 'block',
+							textAlign: 'center',
+							paddingTop: '50px',
+							marginBottom: '50px'
+						}}
+					>
+						DỰ ÁN
+					</h1>
+					<div className="testimonials-one__carousel">
+						<Slide {...properties}>
+							<div className="item mr-4">
+								<div className="testimonials-one__single">
+									<div className="imgDA" style={{ marginTop: '-50px' }}>
+										<img
+											src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/c4e2daaef10602-hillwoodyorkwestdeptford1.jpg&w=360&h=479&zc=1&q=100&s=1"
+											alt=""
+											className="imgDA"
+											width={480}
+											height={580}
+										/>
+									</div>
+								</div>
+								<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
+									<h5>Dự án CMB-64 Hillwood Rialto & Sycamore </h5>
+									<p>
+										{' '}
+Hillwood Rialto & Sycamore là dự án hợp tác giữa Trung tâm Khu vực CMB và Hillwood
+										Development- top 10 công ty phát triển bất động sản hàng đầu tại Mỹ.{' '}
+									</p>
+								</div>
+							</div>
+							<div className="item mr-4">
+								<div className="testimonials-one__single">
+									<div className="imgDA" style={{ marginTop: '-50px' }}>
+										<img
+											src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/0be73d834504f8-cangbaihaiquansteiner1.png&w=360&h=479&zc=1&q=100&s=1"
+											alt=""
+											className="imgDA"
+											width={480}
+											height={580}
+										/>
+									</div>
+								</div>
+								<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
+									<h5>Dự Án CMB Nhóm 55 – Hillwood York & West Deptford </h5>
+									<p>
+										{' '}
+										Hillwood Development, LLC: là một trong mười công ty bất động sản hàng đầu tại Hoa Kỳ,
+										được ghi nhận qua các dự án tầm cỡ và các quỹ đầu tư công-tư.{' '}
+									</p>
+								</div>
+							</div>
+							<div className="item mr-4">
+								<div className="testimonials-one__single">
+									<div className="imgDA" style={{ marginTop: '-50px' }}>
+										<img
+											src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/97e516508a48fd-stillwaterdeepellum1.png&w=360&h=479&zc=1&q=100&s=1"
+											alt=""
+											className="imgDA"
+											width={480}
+											height={580}
+										/>
+									</div>
+								</div>
+								<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
+									<h5>Dự Án Tái Phát Triển Steiner (Giai Đoạn III) </h5>
+									<p>
+										{' '}
+										Dự án tái phát triển Steiner (giai đoạn 3) nằm trong Cảng Bãi Hải Quân Brooklyn (là dự án
+										chính phủ Mỹ) nhằm tái phát triển khu vực phía tây nam của Cảng thành một trung tâm
+										thương...{' '}
+									</p>
+								</div>
+							</div>
+							<div className="item mr-4">
+								<div className="testimonials-one__single">
+									<div className="imgDA" style={{ marginTop: '-50px' }}>
+										<img
+											src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/1db87fc13872c6-hiltonchicagorockfordcityhub.jpg&w=360&h=479&zc=1&q=100&s=1"
+											alt=""
+											className="imgDA"
+											width={480}
+											height={580}
+										/>
+									</div>
+								</div>
+								<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
+									<h5>Dự án CMB Nhóm 65 - Stillwater Deep Ellum </h5>
+									<p>
+										{' '}
+										Trung tâm khu vực CMB một lần nữa có cơ hội hợp tác với đơn vị phát triển bất động sản
+hàng đầu Texas, là Stillwater Capital Investments, LLC{' '}
+									</p>
+								</div>
+							</div>
+							<div className="item mr-4">
+								<div className="testimonials-one__single">
+									<div className="imgDA" style={{ marginTop: '-50px' }}>
+										<img
+											src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/d89b5f23b8ccee-duanlinknyc1.jpg&w=360&h=479&zc=1&q=100&s=1"
+											alt=""
+											className="imgDA"
+											width={480}
+											height={580}
+										/>
+									</div>
+								</div>
+								<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
+									<h5>
+										Dự án Khách sạn và Trung tâm Hội nghị Hilton Chicago-Rockford CityHub (Warren Buffett ){' '}
+									</h5>
+									<p>
+										{' '}
+										Công ty Gorman vinh dự nhận giải thưởng AHF - top 50 Doanh nghiệp phát triển của nước Mỹ
+										năm 2011, 2012, 2013, 2014 và 2015 (xếp thứ 17 năm 2015){' '}
+									</p>
+								</div>
+							</div>
+							<div className="item mr-4">
+								<div className="testimonials-one__single">
+									<div className="imgDA" style={{ marginTop: '-50px' }}>
+										<img
+											src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/90c4c76b4d29f8-group48centuryplaza.jpg&w=360&h=479&zc=1&q=100&s=1"
+											alt=""
+											className="imgDA"
+											width={480}
+											height={580}
+										/>
+									</div>
+								</div>
+								<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
+									<h5>Tổng quan Dự án LinkNYC - Giai đoạn II với sự đầu tư của Google </h5>
+									<p>
+										{' '}
+										Là một trong những sáng kiến công nghệ đột phá và quan trọng nhất từng được chính quyền
+										New York thực hiện, dự án LinkNYC Phase II là giai đoạn tiếp theo của chiến lược phát...{' '}
+									</p>
+								</div>
+							</div>
+							<div className="item mr-4">
+								<div className="testimonials-one__single">
+									<div className="imgDA" style={{ marginTop: '-50px' }}>
+										<img
+											src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/9e3ebdf63405e9-denvercoloradogroup415.jpg&w=360&h=479&zc=1&q=100&s=1"
+											alt=""
+											className="imgDA"
+											width={480}
+											height={580}
+										/>
+									</div>
+								</div>
+								<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
+									<h5>Dự án đầu tư cơ sở hạ tầng Texas CMB 53, l.p. </h5>
+									<p>
+										{' '}
+										Tập đoàn Hillwood Development Company đã ủy thác cho CMB gây quỹ lên đến 48 triệu đô la
+										tiền vốn EB-5 làm khoản cho vay cho Dự án Group 53.{' '}
+									</p>
+								</div>
+							</div>
+<div className="item mr-4">
+								<div className="testimonials-one__single">
+									<div className="imgDA" style={{ marginTop: '-50px' }}>
+										<img
+											src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/e852400822e15d-quangtruongkynguyen2.jpg&w=360&h=479&zc=1&q=100&s=1"
+											alt=""
+											className="imgDA"
+											width={480}
+											height={580}
+										/>
+									</div>
+								</div>
+								<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
+									<h5>Dự án đầu tư cơ sở hạ tầng Texas CMB 49 </h5>
+									<p>
+										{' '}
+										Harwood NO10 là dự án văn phòng cao tầng tùy chỉnh xây dựng trên khu vực rông 1,06 mẫu tọa
+										lạc ở nửa phía bắc của khối đô thị tiếp giáp với North Harwood Street, Randall Street,...{' '}
+									</p>
+								</div>
+							</div>
+							<div className="item mr-4">
+								<div className="testimonials-one__single">
+									<div className="imgDA" style={{ marginTop: '-50px' }}>
+										<img
+											src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/8a4f40b4437379-nycrcfdiibrochurevietnamese21111.jpg&w=360&h=479&zc=1&q=100&s=1"
+											alt=""
+											className="imgDA"
+											width={480}
+											height={580}
+										/>
+									</div>
+								</div>
+								<div className="chuDA" style={{ marginTop: '-225px', marginLeft: '10px', color: 'white' }}>
+									<h5>Dự án CMB nhóm 67 - Great Wolf Lodge Arizona </h5>
+									<p>
+										{' '}
+										Dự án là khu nghỉ dưỡng gồm: Công viên nước trong nhà, các nhà hàng, cửa hàng đồ lưu niệm,
+										dịch vụ spa, trung tâm thể dục, khu vực vui chơi của trẻ em và nhiều dịch vụ khác…{' '}
+									</p>
+								</div>
+							</div>
+						</Slide>
+					</div>
+				</div>
+			</section>
 		</section>
 	);
 };

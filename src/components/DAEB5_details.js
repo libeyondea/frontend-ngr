@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Slide } from 'react-slideshow-image';
 
 const DAEB5_details = () => {
-	
+	const [isOpen, setisopen] = useState(false);
+
 	const properties = {
 		duration: 3000,
 		slidesToShow: 1,
@@ -152,24 +153,50 @@ const DAEB5_details = () => {
 					<h2 className="TDDA">TIẾN ĐỘ DỰ ÁN</h2>
 					<p className="tiendo">Đã bắt đầu xây dựng, dự kiến hoàn thành vào quý 4 năm 2021.</p>
 				</div>
-			<div className="DuAn">
-				<h1 className="DA" style={{ color: 'black', display: 'block', textAlign: 'center', paddingTop: '50px', marginBottom:'50px' }}>
-					DỰ ÁN
-				</h1>
+			
+			</div>
+				{/* one__carousel */}
 				<div className="testimonials-one__carousel">
+				<h2 className="HINH">HÌNH ẢNH DỰ ÁN</h2>
 					<Slide {...properties}>
-						
 						<div className="item mr-4">
 							<div className="testimonials-one__single">
 								<div className="imgDA" style={{ marginTop: '-50px' }}>
-									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/8a4f40b4437379-nycrcfdiibrochurevietnamese21111.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/c4e2daaef10602-hillwoodyorkwestdeptford1.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
 								</div>
-							</div>							
+							</div>
 						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/0be73d834504f8-cangbaihaiquansteiner1.png&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+								</div>
+							</div>
+						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/97e516508a48fd-stillwaterdeepellum1.png&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+								</div>
+							</div>
+						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div className="imgDA" style={{ marginTop: '-50px'}}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/1db87fc13872c6-hiltonchicagorockfordcityhub.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+								</div>
+							</div>
+						</div>
+						<div className="item mr-4">
+							<div className="testimonials-one__single">
+								<div className="imgDA" style={{ marginTop: '-50px' }}>
+									<img src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/d89b5f23b8ccee-duanlinknyc1.jpg&w=360&h=479&zc=1&q=100&s=1" alt="" className="imgDA" width={480} height={580} />
+								</div>
+							</div>
+						</div>
+						
 					</Slide>
 				</div>
-			</div>
-			</div>
 		</div>
 	);
 };

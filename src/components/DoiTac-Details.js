@@ -1,13 +1,5 @@
-import React, { useState } from 'react';
-import dynamic from 'next/dynamic';
-import Image from './Image';
-
-const ModalVideo = dynamic(() => import('react-modal-video'), { ssr: false });
-const DVAnCu = () => {
-	const [isOpen, setisopen] = useState(false);
-	const openModal = () => {
-		setisopen(true);
-	};
+import React from 'react';
+const DoiTac_Details = ({ post }) => {
 	return (
 		<div style={{ backgroundColor: 'white', background: 'url(/assets/images/DinhCuMy/bg.png) no-repeat left 400px' }}>
 			<section className="inner-banner-DVAC">
@@ -73,143 +65,8 @@ const DVAnCu = () => {
 				DỊCH VỤ AN CƯ MỸ
 			</h3>
 			<div>
-				<div className="noidung">
-					<div className="row">
-						<div className="col-6">
-							<div className="nd-DVAC">
-								<p>
-									<i
-										className="fa fa-check"
-										style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
-									/>
-									Tân con Đường Vàng (NRG) luôn tự hào là đơn vị đầu tiên và duy nhất có văn phòng tại Mỹ và có
-									dịch vụ an cư tại Mỹ dành cho tất cả khách hàng. Không chỉ đồng hành trên con đường lấy thẻ
-									xanh cho cả gia đình, Tân con Đường Vàng (NRG) còn bên cạnh khách hàng khi ổn định cuộc sống
-									tại đất nước cờ hoa này. Văn phòng Tân con Đường Vàng (NRG) tại Mỹ sẽ hỗ trợ, tư vấn một cách
-									tận tâm nhất ngay khi gia đình bạn vừa đặt chân xuống nước Mỹ từ việc đưa đón tại sân bay cho
-									đến việc chọn nhà ở, chọn trường cho con, ổn định công việc kinh doanh… Tương lai và hạnh phúc
-									của gia đình bạn cũng chính là niềm vui và trách nhiệm cao cả của Tân con Đường Vàng (NRG).
-								</p>
-								<p>
-									<i
-										className="fa fa-check"
-										style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
-									/>
-									Để hỗ trợ khách hàng một cách hoàn hảo nhất, Tân con Đường Vàng (NRG) luôn xây dựng và phát
-									triển một đội ngũ chuyên nghiệp, hợp tác cùng những đơn vị uy tín, với nhiều kinh nghiệm cũng
-									như có nhiều năm sinh sống tại Mỹ, hiểu rõ văn hóa, con người, luật pháp Mỹ.
-								</p>
-							</div>
-						</div>
-						<div className="col-6">
-							<div className="video">
-								<div className="my-auto">
-									<ModalVideo
-										channel="youtube"
-										isOpen={isOpen}
-										videoId="Zknga9ite-4"
-										onClose={() => setisopen(false)}
-									/>
-									<div onClick={openModal} className="media-play-icon-L1">
-										<i className="fas fa-play media-icon" />
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="hinhvideoDVAC">
-							<img src="/assets/images/DinhCuMy/ancu.jpg" width={550} height={390} />
-						</div>
-					</div>
-					<div className="DoiNgu">
-						<h2 className="Phan_DoiNgu">ĐỘI NGŨ</h2>
-						<div className="card-deck">
-							<div className="card" style={{ width: '15rem' }}>
-								<img src="/assets/images/DinhCuMy/Cathy.jpg" className="card-img-top" alt="..." />
-								<div className="card-body">
-									<h5 className="card-title">Cathy Lê</h5>
-									<p className="card-text">
-										This is a wider card with supporting text below as a natural lead-in to additional
-										content. This content is a little bit longer.
-									</p>
-								</div>
-								<div className="card-footer">
-									<small className="text-muted">Cập nhật 3 phút trước</small>
-								</div>
-							</div>
-							<div className="card">
-								<img src="/assets/images/DinhCuMy/gam.jpg" className="card-img-top" alt="..." />
-								<div className="card-body">
-									<h5 className="card-title">Edna Lee</h5>
-									<p className="card-text">
-										This card has supporting text below as a natural lead-in to additional content.
-									</p>
-								</div>
-								<div className="card-footer">
-									<small className="text-muted">Cập nhật 3 phút trước</small>
-								</div>
-							</div>
-							<div className="card">
-								<img src="/assets/images/DinhCuMy/avatar.jpg" className="card-img-top" alt="..." />
-								<div className="card-body">
-									<h5 className="card-title">Trâm Julie</h5>
-									<p className="card-text">
-										This is a wider card with supporting text below as a natural lead-in to additional
-										content. This card has even longer content than the first to show that equal height
-										action.
-									</p>
-								</div>
-								<div className="card-footer">
-									<small className="text-muted">Cập nhật 3 phút trước</small>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="DoiTac">
-						<div className="card-group">
-							<div className="card">
-								<img src="/assets/images/DinhCuMy/" className="card-img-top" alt="..." />
-								<div className="card-body">
-									<h5 className="card-title">Card title</h5>
-									<p className="card-text">
-										This is a wider card with supporting text below as a natural lead-in to additional
-										content. This content is a little bit longer.
-									</p>
-									<p className="card-text">
-										<small className="text-muted">Last updated 3 mins ago</small>
-									</p>
-								</div>
-							</div>
-							<div className="card">
-								<img src="..." className="card-img-top" alt="..." />
-								<div className="card-body">
-									<h5 className="card-title">Card title</h5>
-									<p className="card-text">
-										This card has supporting text below as a natural lead-in to additional content.
-									</p>
-									<p className="card-text">
-										<small className="text-muted">Last updated 3 mins ago</small>
-									</p>
-								</div>
-							</div>
-							<div className="card">
-								<img src="..." className="card-img-top" alt="..." />
-								<div className="card-body">
-									<h5 className="card-title">Card title</h5>
-									<p className="card-text">
-										This is a wider card with supporting text below as a natural lead-in to additional
-										content. This card has even longer content than the first to show that equal height
-										action.
-									</p>
-									<p className="card-text">
-										<small className="text-muted">Last updated 3 mins ago</small>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<div className="noidung"></div>
 			</div>
-
 			<div className="share-post" style={{ marginBottom: '20px' }}>
 				<span className="share-textt">Chia Sẻ</span>
 				<ul className="flat-social">
@@ -328,4 +185,4 @@ const DVAnCu = () => {
 	);
 };
 
-export default DVAnCu;
+export default DoiTac_Details;
