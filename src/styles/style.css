@@ -8155,6 +8155,11 @@ ul#menu li:hover ul#sub {
 	background-color: whitesmoke;
 	margin-top: 150px;
 }
+.hinhanhvavideo{
+	height: 800px;
+	background-color: whitesmoke;
+	margin-top: 150px;
+}
 /*-----định cư úc-----*/
 .inner-banner-DCUC {
 	background-color: #ffd19f;
@@ -8637,6 +8642,59 @@ ul#menu li:hover ul#sub {
 	margin-bottom: 25px;
 	padding-bottom: 20px;
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
+}
+.fa fa-circle3{
+	color: black;
+	text-align: justify;
+	font-size: 8px;
+	margin-left: 50px;
+	margin-right: 15px ;
+}
+.fa fa-circle1{ 
+	color: black;
+	font-size: 8px;
+	margin-left: -30px;
+	margin-right: 15px ;
+}
+.LoaiHinhDT{
+	color: black;
+	margin-left : 500px;
+	margin-top: -70px;
+	padding : 100px;
+}
+.TDDA{
+	color: black;
+	margin-left : 593px;
+	padding : 50px;
+}
+.tiendo{
+	color: black;
+	margin-left : 395px;
+	margin-top: -40px;
+}
+.DKTT{ 
+	color: black;
+	margin-left : 600px;
+	padding : 70px;
+	margin-top: -25px;
+}
+.dautu{
+	color: black;
+	margin-left : 395px;
+	margin-top: -86px;
+}
+.nen{
+	background-color: #E4E4E4;
+}
+.card-title-details{
+	text-align: center;
+	font-size: 25px;
+	margin-top: -10px;
+}
+.card-title-details2{
+	padding-left: 195px;
+	padding-top: 10px;
+	color: black;
 }
 /*--------------Dịch Vụ An Cư-----------*/
 .inner-banner-DVAC {
