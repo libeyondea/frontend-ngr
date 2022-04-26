@@ -328,6 +328,9 @@ const CTEB5 = () => {
 			<div className="row">
 				<div className="col-6">
 					<div className="rowT">
+						<div className="block_img ">
+							<img alt className="img-loaded" src="assets/images/DinhCuMy/img-14.jpg" />
+						</div>
 						<h2 className="DTDT">ĐỐI TƯỢNG ĐẦU TƯ</h2>
 						<div className="block_desc">
 							<p>
@@ -348,6 +351,9 @@ const CTEB5 = () => {
 				</div>
 				<div className="col-6">
 					<div className="rowP">
+						<div className="block_img ">
+							<img alt className="img-loaded" src="assets/images/DinhCuMy/img-15.jpg" />
+						</div>
 						<h2 className="DKDT">ĐIỀU KIỆN ĐẦU TƯ</h2>
 						<p style={{ marginLeft: '80px' }}>
 							Chứng minh nguồn gốc số tiền đầu tư (800,000 USD/suất đầu
