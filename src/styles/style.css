@@ -8736,7 +8736,7 @@ ul#menu li:hover ul#sub {
 }
 .block1 .block_item_left .block_img:before {
     background-color: #1d3768;
-	margin-bottom: 15px;
+	margin-bottom: 50px;
 	margin-right: 20px;
 	margin-left: 19px;
 }
@@ -8790,7 +8790,7 @@ ul#menu li:hover ul#sub {
 }
 .block1 .block_item_right .block_img:before {
     background-color: #b52243;
-	margin-bottom: 15px;
+	margin-bottom: 50px;
 	margin-left: 19px;
 	margin-right: 19px;
 }
