@@ -6485,13 +6485,11 @@ html {
 .brand-one__carousel img:hover {
 	opacity: 0.6 !important;
 }
-
 .video-two {
-
-	padding: 50px 0 !important;
-	padding-top: 100px !important;
-	padding-bottom: 100px !important;
-	background-image: none !important;
+    padding: 50px 0 !important;
+    padding-top: 100px !important;
+    padding-bottom: 22px !important;
+    background-image: none !important;
 }
 
 .video-two__title {
