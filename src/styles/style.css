@@ -8735,7 +8735,7 @@ ul#menu li:hover ul#sub {
 }
 .block1 .block_item_left .block_img:before {
     background-color: #1d3768;
-	margin-bottom: 50px;
+	margin-bottom: 15px;
 	margin-right: 20px;
 	margin-left: 19px;
 }
@@ -8789,7 +8789,7 @@ ul#menu li:hover ul#sub {
 }
 .block1 .block_item_right .block_img:before {
     background-color: #b52243;
-	margin-bottom: 50px;
+	margin-bottom: 15px;
 	margin-left: 19px;
 	margin-right: 19px;
 }
@@ -9023,7 +9023,7 @@ ul#menu li:hover ul#sub {
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
 }
 .hinhvideoDVAC{
-	margin-top: -360px;
+	margin-top: -265px;
     margin-left: 780px;
 }
 .nd-DVAC{
