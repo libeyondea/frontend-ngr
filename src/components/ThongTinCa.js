@@ -9,46 +9,47 @@ const ThongTinCa = () => {
 					<h2 className="inner-banner-CD__title">THÔNG TIN CANADA</h2>
 				</div>
 			</section>
+			<div id="breaking-news" className="breaking-news">
+				<span className="breaking-news-title">
+					<span>TIN MỚI NHẤT</span>
+				</span>
+				<ul className="innerFade" style={{ position: 'relative', height: 32 }}>
+					<li style={{ display: 'block', zIndex: 10, position: 'absolute' }}>
+						<a
+							href="https://newgoldenroad.com/du-hoc-uc-sophia-nhi-do-tot-nghiep-truong-woodcroft-college-du-hoc-tan-con-duong-vang/"
+							title="[DU HỌC ÚC] – Du học sinh Sophia Nhi Đỗ vừa tốt nghiệp trường Woodcroft College – Du học Úc – Du học Tân Con Đường Vàng"
+						>
+							[DU HỌC ÚC] – Du học sinh Sophia Nhi Đỗ vừa tốt nghiệp trường Woodcroft College – Du học Úc – Du học
+							Tân Con Đường Vàng
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div id="crumbs" className="crumbss" style={{ paddingTop: '10px' }}>
+				<span typeof="v:Breadcrumb">
+					<a className="crumbs-home" href="https://newgoldenroad.com">
+						Trang Chủ
+					</a>
+				</span>
+				&nbsp;&nbsp;
+				<span className="delimiter">/</span>
+				&nbsp;&nbsp;
+				<span typeof="v:Breadcrumb">
+					<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
+						Thông tin Canada
+					</a>
+				</span>
+				&nbsp;&nbsp;
+				<span className="delimiter">/</span>
+				&nbsp;&nbsp;
+				<span className="current">
+					[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
+				</span>
+			</div>
+
+			<h2 className="tieu-de">TẠI SAO LẠI CHỌN NƯỚC CANADA ?</h2>
 			<div className="container">
-				<div id="breaking-news" className="breaking-news">
-					<span className="breaking-news-title">
-						<span>TIN MỚI NHẤT</span>
-					</span>
-					<ul className="innerFade" style={{ position: 'relative', height: 32 }}>
-						<li style={{ display: 'block', zIndex: 10, position: 'absolute' }}>
-							<a
-								href="https://newgoldenroad.com/du-hoc-uc-sophia-nhi-do-tot-nghiep-truong-woodcroft-college-du-hoc-tan-con-duong-vang/"
-								title="[DU HỌC ÚC] – Du học sinh Sophia Nhi Đỗ vừa tốt nghiệp trường Woodcroft College – Du học Úc – Du học Tân Con Đường Vàng"
-							>
-								[DU HỌC ÚC] – Du học sinh Sophia Nhi Đỗ vừa tốt nghiệp trường Woodcroft College – Du học Úc – Du
-								học Tân Con Đường Vàng
-							</a>
-						</li>
-					</ul>
-				</div>
 				<div className="row">
-					<div id="crumbs" className="crumbss" style={{ paddingTop: '10px' }}>
-						<span typeof="v:Breadcrumb">
-							<a className="crumbs-home" href="https://newgoldenroad.com">
-								Trang Chủ
-							</a>
-						</span>
-						&nbsp;&nbsp;
-						<span className="delimiter">/</span>
-						&nbsp;&nbsp;
-						<span typeof="v:Breadcrumb">
-							<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
-								Thông tin Canada
-							</a>
-						</span>
-						&nbsp;&nbsp;
-						<span className="delimiter">/</span>
-						&nbsp;&nbsp;
-						<span className="current">
-							[IELTS INDICATOR] – Phương pháp thi IELTS trực tuyến tại nhà cùng với Du học Tân Con Đường Vàng
-						</span>
-					</div>
-					<h2 className="tieu-de">TẠI SAO LẠI CHỌN NƯỚC CANADA ?</h2>
 					<p className="tai-sao">
 						Nền giáo dục Canada thuộc top 3 thế giới và có rất nhiều lí do để học sinh và gia đình chọn làm điểm đến
 						du học và sau đây là các lí do chính mà học sinh của NEW GOLDEN ROAD đã chọn:
@@ -353,7 +354,6 @@ const ThongTinCa = () => {
 						</div>
 					</div>
 				</div>
-				
 			</div>
 		</section>
 	);

@@ -110,7 +110,7 @@ const DVAnCu = () => {
 										videoId="Zknga9ite-4"
 										onClose={() => setisopen(false)}
 									/>
-									<div onClick={openModal} className="media-play-icon-L1">
+									<div onClick={openModal} className="media-play-icon-DVAC">
 										<i className="fas fa-play media-icon" />
 									</div>
 								</div>
@@ -122,8 +122,8 @@ const DVAnCu = () => {
 					</div>
 					<div className="DoiNgu">
 						<h2 className="Phan_DoiNgu">ĐỘI NGŨ</h2>
-						<div className="card-deck">
-							<div className="card" style={{ width: '15rem' }}>
+						<div className="card-deck" style={{ width: '80%', marginLeft: '120px' }}>
+							<div className="card">
 								<img src="/assets/images/DinhCuMy/Cathy.jpg" className="card-img-top" alt="..." />
 								<div className="card-body">
 									<h5 className="card-title">Cathy Lê</h5>
@@ -164,46 +164,112 @@ const DVAnCu = () => {
 							</div>
 						</div>
 					</div>
-					<div className="DoiTac">
-						<div className="card-group">
-							<div className="card">
-								<img src="/assets/images/DinhCuMy/" className="card-img-top" alt="..." />
-								<div className="card-body">
-									<h5 className="card-title">Card title</h5>
-									<p className="card-text">
-										This is a wider card with supporting text below as a natural lead-in to additional
-										content. This content is a little bit longer.
+					<div className="HDAC">
+						<h2 className="Phan_HDAC">HOẠT ĐỘNG AN CƯ</h2>
+						<div className="row">
+							<div className="col-6">
+								<div className="nd-SOCVH1">
+									<p>
+										<i
+											className="fa fa-check"
+											style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
+										/>
+										<span>THAY ĐỔI MỘT SỐ THÓI QUEN THỜI GIAN TRONG SINH HOẠT HÀNG NGÀY</span> <br />
+										“Cao su thời gian” là điều rất hay gặp ở học sinh Việt Nam nói riêng và châu Á nói chung.
+										Trừ trường hợp bất khả kháng như ốm nặng phải đi cấp cứu hay tang thương mới có thể được
+										chấp nhận là lý do để trễ hẹn. Sắp xếp thời gian sinh hoạt và học tập hợp lý, bắt đầu công
+										việc và bài tập ngay lúc được giao và cố gắng hoàn thành công việc sớm nhất có thể chính
+										là những biện pháp để bạn có thể làm chủ được thời gian và hoàn thành công việc đúng thời
+										gian. CHỦ ĐỘ
 									</p>
-									<p className="card-text">
-										<small className="text-muted">Last updated 3 mins ago</small>
+									<p>
+										<i
+											className="fa fa-check"
+											style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
+										/>
+										<span>CHỦ ĐỘNG TÌM TÒI, HỌC HỎI VĂN HÓA MỸ</span> <br />
+										Mỹ là quốc gia đa sắc tộc cùng với nền lịch sử và văn hóa rất hấp dẫn. Chính vì lẽ đó khá
+										nhiều bạn du học sinh cảm thấy bị lạc lõng trên nước Mỹ rộng lớn. Làm thế nào để vượt qua
+										điều này? Rất đơn giản, chấp nhận và học hỏi những điều mới lạ. Các bạn cũng nên đơn giản
+										hóa những điều mà mình không thể hiểu được (ví dụ như chuyện cười), chịu khó quan sát,
+										lắng nghe cũng như cảm nhận những nền văn hóa khác nhau trên đất Mỹ. Bổ sung những kiến
+										thức về văn hóa Mỹ qua trường lớp, phim ảnh và bạn bè hay tham gia những câu lạc bộ trong
+										và ngoài trường là những điều nên làm để làm quen và thích nghi với văn hóa Mỹ.
+									</p>
+									<p>
+										<i
+											className="fa fa-check"
+											style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
+										/>
+										<span>KHOẢNG CÁCH CÁ NHÂN LÀ ĐIỀU VÔ CÙNG QUAN TRỌNG </span>
+										<br />
+										Mỹ rất tôn trọng sự tự do, chính vì thế duy trì khoảng cách giữa bạn và người khác là điều
+										cần phải chú ý. Khi nói chuyện với ai đó, không nên đứng quá gần họ. Khoảng cách tiếp xúc
+										quá gần làm cho người đối diện cảm thấy không thoải mái và họ có thể cho rằng bạn đang xâm
+										phạm không gian cá nhân của họ. Không chỉ trong giao tiếp mà ngay cả những tình huống hàng
+										ngày như xếp hàng nơi công cộng hay đi bộ trên vỉa hè, duy trì khoảng cách cũng là điều vô
+										cùng quan trọng.
+									</p>
+									<p>
+										<i
+											className="fa fa-check"
+											style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
+										/>
+										<span>THAM GIA CÁC CÂU LẠC BỘ, HỘI NHÓM</span> <br />
+										Đây là cơ hội tốt nhất cho du học sinh tìm hiểu về các truyền thống của trường, làm quen
+										với bạn bè quốc tế cũng như người bản xứ. Bạn sẽ tìm hiểu được mọi thông tin về các câu
+										lạc bộ, hội nhóm phù hợp với bạn. Không gì có thể dễ dàng và đơn giản hơn việc làm quen
+										với những người bạn mới khi tham gia các câu lạc bộ ngoại khoá của trường, tại đây, họ đa
+										phần sẽ là những người có cùng sở thích và mối quan tâm giống với bạn.
 									</p>
 								</div>
 							</div>
-							<div className="card">
-								<img src="..." className="card-img-top" alt="..." />
-								<div className="card-body">
-									<h5 className="card-title">Card title</h5>
-									<p className="card-text">
-										This card has supporting text below as a natural lead-in to additional content.
+							<div className="col-6">
+								<div className="video">
+									<div className="my-auto">
+										<ModalVideo
+											channel="youtube"
+											isOpen={isOpen}
+											videoId="Zknga9ite-4"
+											onClose={() => setisopen(false)}
+										/>
+										<div onClick={openModal} className="media-play-icon-DVAC">
+											<i className="fas fa-play media-icon" />
+										</div>
+									</div>
+								</div>
+								<div className="nd-SOCVH2">
+									
+									<p>
+										<i
+											className="fa fa-check"
+											style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
+										/>
+										<span>KHOẢNG CÁCH CÁ NHÂN LÀ ĐIỀU VÔ CÙNG QUAN TRỌNG </span>
+										<br />
+										Mỹ rất tôn trọng sự tự do, chính vì thế duy trì khoảng cách giữa bạn và người khác là điều
+										cần phải chú ý. Khi nói chuyện với ai đó, không nên đứng quá gần họ. Khoảng cách tiếp xúc
+										quá gần làm cho người đối diện cảm thấy không thoải mái và họ có thể cho rằng bạn đang xâm
+										phạm không gian cá nhân của họ. Không chỉ trong giao tiếp mà ngay cả những tình huống hàng
+										ngày như xếp hàng nơi công cộng hay đi bộ trên vỉa hè, duy trì khoảng cách cũng là điều vô
+										cùng quan trọng.
 									</p>
-									<p className="card-text">
-										<small className="text-muted">Last updated 3 mins ago</small>
+									<p>
+										<i
+											className="fa fa-check"
+											style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
+										/>
+										<span>THAM GIA CÁC CÂU LẠC BỘ, HỘI NHÓM</span> <br />
+										Đây là cơ hội tốt nhất cho du học sinh tìm hiểu về các truyền thống của trường, làm quen
+										với bạn bè quốc tế cũng như người bản xứ. Bạn sẽ tìm hiểu được mọi thông tin về các câu
+										lạc bộ, hội nhóm phù hợp với bạn. Không gì có thể dễ dàng và đơn giản hơn việc làm quen
+										với những người bạn mới khi tham gia các câu lạc bộ ngoại khoá của trường, tại đây, họ đa
+										phần sẽ là những người có cùng sở thích và mối quan tâm giống với bạn.
 									</p>
 								</div>
 							</div>
-							<div className="card">
-								<img src="..." className="card-img-top" alt="..." />
-								<div className="card-body">
-									<h5 className="card-title">Card title</h5>
-									<p className="card-text">
-										This is a wider card with supporting text below as a natural lead-in to additional
-										content. This card has even longer content than the first to show that equal height
-										action.
-									</p>
-									<p className="card-text">
-										<small className="text-muted">Last updated 3 mins ago</small>
-									</p>
-								</div>
+							<div className="hinhvideoSOCVH">
+								<img src="/assets/images/DinhCuMy/shockvanhoa.jpg" width={550} height={390} />
 							</div>
 						</div>
 					</div>
