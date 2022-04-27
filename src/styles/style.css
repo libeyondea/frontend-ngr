@@ -8952,7 +8952,7 @@ ul#menu li:hover ul#sub {
 .dautu{
 	color: black;
 	font-size: 18px;
-	margin-left : 395px;
+	margin-left : 335px;
 	margin-top: -86px;
 	text-align: revert;
 }
@@ -8968,8 +8968,8 @@ ul#menu li:hover ul#sub {
 .card-title-details{
 	text-align: center;
 	font-size: 22px;
-	margin-top: -10px;
-	font-family: 'Roboto';
+	font-family: inherit;
+	margin-top: -9px;
 }
 .card-title-details2{
 	padding-left: 195px;

@@ -138,9 +138,8 @@ const DAEB5_details = () => {
 		
 				<div className="nen" >
 					<h2 className="TDDA">TIẾN ĐỘ DỰ ÁN</h2>
-					<p className="tiendo">Đã bắt đầu xây dựng, dự kiến hoàn thành vào quý 4 năm 2021.</p>
-			
-			
+					<p className="tiendo"><strong>1. Cơ sở kho vận thứ nhất - Waterman TI: </strong> đã xây xong vào ngày 27/09/2019. Việc cải thiện bắt đầu vào Quý 1/2020, hoàn thành vào Quý 4/2021.<br/>
+					<strong>2. Cơ sở kho vận thứ hai - Veterans Industrial Park I-215 (VIP 215): </strong> bắt đầu xây dựng vào đầu vào quý 3/2020; hoàn thành bên ngoài vào quý<br/> 4/2021; toàn bộ tòa nhà dự kiến sẽ hoàn thành vào quý 3/2022.</p>	
 			</div>
 				{/* one__carousel */}
 				<div className="testimonials-one__carousel">
