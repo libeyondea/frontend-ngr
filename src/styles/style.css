@@ -7605,12 +7605,13 @@ span#fcta-zalo-tracking {
 	font-size: 17px;
 }
 .tieu-de {
-	font-size: 35px;
-	line-height: 44px;
-	padding-top: 20px;
-	font-weight: 700;
-	color: #606060;
-	text-shadow: 1px 1px 0 rgb(255 255 255 / 50%);
+    font-size: 35px;
+    line-height: 44px;
+    padding-top: 20px;
+    font-weight: 700;
+    color: #ff944d;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgb(255 255 255 / 50%);
 }
 /**/
 ul#menu,
@@ -7675,6 +7676,7 @@ ul#menu li:hover ul#sub {
 	font-weight: bold;
 	color: black;
 	box-shadow: 10px 10px 5px #1d701c;
+	width: 18rem;
 }
 
 
@@ -9031,7 +9033,7 @@ ul#menu li:hover ul#sub {
 }
 .nd-DVAC{
 	color: black;
-	margin-left: 20px;
+	margin-left: 30px;
 }
 .DoiNgu{
 	margin-top: 100px;
@@ -9069,7 +9071,7 @@ ul#menu li:hover ul#sub {
     cursor: pointer;
     font-size: 40px;
     color: #fff;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 162px;
 }
 .nd-SOCVH1{
@@ -9080,21 +9082,7 @@ ul#menu li:hover ul#sub {
 	color: white;
 	margin-left: 84px;
 	margin-right: 45px;
-	margin-top: 120px;
-}
-media-play-icon-SOCVH{
-    width: 130px;
-    height: 130px;
-    background-color: red;
-    border-radius: 50%;
-    position: relative;
-    line-height: 140px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 40px;
-    color: #fff;
-    margin-left: 30px;
-    margin-top: 162px;
+	margin-top: 130px;
 }
 .hinhvideoSOCVH{
     margin-top: -1042px;
