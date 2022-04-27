@@ -72,7 +72,7 @@ const TrungHoc = () => {
 							alt="TRUNG HỌC TRỰC THUỘC ĐẠI HỌC VANCOUVER ISLAND"
 						/></a>
 						<div className="card-body">
-							<a href="#" className="card-link">
+							<a href="/trunghoc_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
 									TRUNG HỌC TRỰC THUỘC ĐẠI HỌC VANCOUVER ISLAND
 								</h5>
@@ -89,7 +89,7 @@ const TrungHoc = () => {
 							alt="Trường Quận Rocky Mountain"
 						/></a>
 						<div className="card-body">
-							<a href="#" className="card-link">
+							<a href="/trunghoc_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
 									Trường Quận Rocky Mountain
 								</h5>
@@ -103,7 +103,7 @@ const TrungHoc = () => {
 						<img src="assets/images/Trunghoc/trunghoc4.png" className="card-img-top" alt="Trường Quận Toronto" />
 					</a>
 					<div className="card-body">
-							<a href="#" className="card-link">
+							<a href="/trunghoc_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
 									Trường Quận Toronto
 								</h5>
