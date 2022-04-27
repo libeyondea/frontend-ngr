@@ -15,7 +15,7 @@ const HocBongCanada = () => {
 						<div className='line-tieude1'></div>
 					</div>
 					<div className='style-text text1' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
-						<p >
+						<p className='style-text' >
                         <b >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Đại học Canada West (University Canada West)</b>được thành lập vào năm 2004, tọa lạc tại khuôn viên Thành phố Vancouver, là trường đại học trẻ nhưng chất
 						lượng lại vô cùng tuyệt vời. Đại học Canada West là một trường đại học có tầm nhìn rõ ràng – trở thành một
 						trường đại học độc lập hàng đầu, được tôn trọng ở Canada và nước ngoài, được biết đến với sự đổi mới và
@@ -43,27 +43,27 @@ const HocBongCanada = () => {
 						<li>Chương trình đào tạo: 4 năm</li>
 						<li>Bằng BCom đạt điểm kiểm định ACBSP được Bộ Giáo Dục Hoa Kỳ công nhận</li>
 					</ul>
-					<b>*Cử nhân Truyền thông</b>
+					<b className='style-text'>*Cử nhân Truyền thông</b>
 					<ul>
 						<li>Chương trình đào tạo: 4 năm</li>
 					</ul>
-					<b>*Cao đẳng đại cương</b>
+					<b className='style-text'>*Cao đẳng đại cương</b>
 					<ul>
 						<li>Chương trình đào tạo: 2 năm</li>
 					</ul>
-					<b>*Dự bị MBA</b>
+					<b className='style-text'>*Dự bị MBA</b>
 					<ul>
 						<li>
 							SV không thuộc chuyên ngành Quản trị kinh doanh hoặc Điểm trung bình môn dưới 7.3 thì cần học khóa Dự
 							bị MBA : 3 tháng
 						</li>
 					</ul>
-					<b>*Dự bị tiếng Anh</b>
+					<b className='style-text'>*Dự bị tiếng Anh</b>
 					<ul>
 						<li>SV có điểm IELTS từ 5.0 – dưới 6.5 thì cần học khóa Dự bị tiếng Anh</li>
 						<li>Mỗi khóa tương đương 3 tháng tăng 0.5 điểm IELTS</li>
 					</ul>
-					<b>*Thạc sỹ Quản trị kinh doanh (MBA):</b>
+					<b className='style-text'>*Thạc sỹ Quản trị kinh doanh (MBA):</b>
 					<ul>
 						<li>Chương trình đào tạo: 2 năm</li>
 						<li>Có đào tạo chuyên sâu trong các lĩnh vực Leadership, Marketing và Finance</li>
@@ -86,18 +86,18 @@ const HocBongCanada = () => {
 					<h2 >Điều Kiện Tuyển Sinh</h2>
 						<div className='line-tieude1'></div>
 					</div>
-						<b>Thạc sĩ:</b>
-					<p>
+						<b className='style-text'>Thạc sĩ:</b>
+					<p className='style-text'>
 						Sinh viên học MBA ngoài các yêu cầu cơ bản như GPA 3/4, IELTS 6.5 (6.5 (Writing 6.0 or higher)/ TOEFL 88
 						(with minimum of 20 in each component)
 					</p>
-					<p>cần có thêm 1 trong các yêu cầu sau:</p>
+					<p className='style-text'>cần có thêm 1 trong các yêu cầu sau:</p>
 					<ul>
 						<li>Tốt nghiệp ĐH chuyên ngành Quản trị kinh doanh, Thương mại hoặc tương đương</li>
 						<li>Có 2 năm kinh nghiệm làm việc</li>
 						<li>Điểm GMAT/ GRE</li>
 						<li>
-							<b>Đại học</b>: Tốt nghiệp THPT (lớp 12) với điểm C trở lên, IELTS 6.5 (không kỹ năng nào dưới 6.0)
+							<b className='style-text'>Đại học</b>: Tốt nghiệp THPT (lớp 12) với điểm C trở lên, IELTS 6.5 (không kỹ năng nào dưới 6.0)
 						</li>
 					</ul>
 
@@ -115,7 +115,8 @@ const HocBongCanada = () => {
 				<div className="noidung4">
 					<div className='text2 style-text' /* style={{ color: '#333', fontSize: '30px', fontWeight: 'lighter' }} */>
 					<div className="muc4">
-					<h2>Vì Sao Nên Chọn Đại Học Canada West University</h2>
+					<h2>Vì Sao Nên Chọn Đại Học</h2>
+					<h2>Canada West University</h2>
 						<div className='line-tieude1'></div>
 					</div>
 						<b className='style-text'>* Cử nhân thương mại</b>
@@ -144,8 +145,8 @@ const HocBongCanada = () => {
 					<h2>Học Bổng</h2>
 						<div className='line-tieude1'></div>
 					</div>
-						<p>
-						<b>
+						<p className='style-text'>
+						<b className='style-text'>
 							Hiện các kỳ nhập học tiếp theo của năm 2021: kỳ tháng 7, kỳ tháng 10 vẫn đang áp dụng các chương trình
 							học bổng sau ạ:
 						</b>
