@@ -85,7 +85,7 @@ const NavOne = () => {
 					sticky ? 'stricked-menu stricky-fixed' : ''
 				}`}
 			>
-				
+
 				<div className="container clearfix">
 					<div className="logo-box clearfix">
 						<Link href="/">
