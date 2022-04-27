@@ -141,7 +141,7 @@ const CTEB5 = () => {
 							</div>
 						</div>
 					</div>
-					<div className="hinhvideo">
+					<div className="hinhvideo" style={{marginLeft:'20px'}}>
 						<img src="https://i.ytimg.com/vi_webp/IOGn-QmVc8k/maxresdefault.webp" width={550} height={390} />
 					</div>
 				</div>

@@ -6485,13 +6485,11 @@ html {
 .brand-one__carousel img:hover {
 	opacity: 0.6 !important;
 }
-
 .video-two {
-
-	padding: 50px 0 !important;
-	padding-top: 100px !important;
-	padding-bottom: 100px !important;
-	background-image: none !important;
+    padding: 50px 0 !important;
+    padding-top: 100px !important;
+    padding-bottom: 22px !important;
+    background-image: none !important;
 }
 
 .video-two__title {
@@ -8179,7 +8177,7 @@ ul#menu li:hover ul#sub {
 }
 
 .hinhvideo{
-	margin-top: -800px;
+	margin-top: -417px;
 	margin-left: 800px;
 }
 .nd-CTEB5{
@@ -8203,6 +8201,7 @@ ul#menu li:hover ul#sub {
 
 .hinhPP{
 	margin-left: -17px;
+	margin-right: -25px;
 	margin-top: -2px;
 }
 
