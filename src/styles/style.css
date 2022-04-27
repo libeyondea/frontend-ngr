@@ -9051,3 +9051,6 @@ ul#menu li:hover ul#sub {
 }
 
 /*--------------------------------------------------*/
+.card-school{
+	width: 18rem !important;
+}
