@@ -1,7 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
+import DSKH from './DSKH';
+import Pagination from './Pagination';
 
-const Khachhang = ({ props }) => {
+const Khachhang = ({ posts }) => {
 	return (
 		<section className="team-one team-page">
 			<div className="container">
@@ -9,7 +11,8 @@ const Khachhang = ({ props }) => {
 					<span className="titles-holder">KHÁCH HÀNG NEW GOLDEN ROAD</span>
 				</h3>
 				<div className="row">
-					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+					{posts.data.length && posts.data.map((posts, index) => <DSKH post={posts} key={index} />)}
+					{/* <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
 								<img className="img-kh" src="/assets/images/KH_NGR/kh7.jpg" alt="" />
@@ -240,10 +243,11 @@ const Khachhang = ({ props }) => {
 								</a>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
-			<div className="post-pagination">
+			<Pagination total={posts?.pagination?.total} limit={6} />
+			{/* 	<div className="post-pagination">
 				<a href="#">
 					<i className="fa fa-angle-double-left"></i>
 				</a>
@@ -256,7 +260,7 @@ const Khachhang = ({ props }) => {
 				<a href="#">
 					<i className="fa fa-angle-double-right"></i>
 				</a>
-			</div>
+			</div> */}
 		</section>
 	);
 };

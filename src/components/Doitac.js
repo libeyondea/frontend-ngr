@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
+import DSDT from './DSDT';
 
-const Doitac = () => {
+const Doitac = ({ posts }) => {
 	return (
 		<section className="team-one team-page">
 			<div className="container">
@@ -39,7 +40,8 @@ const Doitac = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+					{posts.data.length && posts.data.map((posts, index) => <DSDT post={posts} key={index} />)}
+					{/* 	<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
 								<img className="img-kh" src="/assets/images/Doitac/Vincent-school.png" alt="" />
@@ -248,7 +250,7 @@ const Doitac = () => {
 								</a>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<div className="post-pagination">
