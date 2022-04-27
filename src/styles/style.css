@@ -9114,3 +9114,13 @@ ul#menu li:hover ul#sub {
 	margin-top: -550px;
 	margin-bottom: 20px;
 }
+.hd1{
+	margin-top: 20px;
+	color: #000;
+	font-size: 50px;
+	font-family: 'Bahnschrift';
+}
+.text_content{
+	background-color: #fff;
+
+}

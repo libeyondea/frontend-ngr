@@ -391,7 +391,7 @@ const CTEB5 = () => {
 					</div>
 				</section>
 				<div>
-					<h2 className="LoaiHinhDT" style={{ color: 'black', marginLeft: '510px', padding: '100px' }}>
+					<h2 className="LoaiHinhDT" style={{ color: 'black', marginLeft: '0px', padding: '100px' }}>
 						CÁC LOẠI HÌNH ĐẦU TƯ
 					</h2>
 					<p className="dautu" style={{ color: 'black', marginLeft: '395px', marginTop: '-70px' }}>
