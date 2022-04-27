@@ -3,16 +3,38 @@ import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
 import Footer from '../components/Footer';
 import CacTruongDuHoc from '../components/CacTruongDuHoc';
-
-const CacTruongDHCD = () => {
+import http from '../utils/http';
+import pageNumber from '../utils/pageNumber';
+const CacTruongDHCD = ({posts}) => {
 	console.log('DuHocCanada');
 	return (
 		<Layout pageTitle="Các Trường Đại Học Và Cao Đẳng">
 			<NavOne />
-			<CacTruongDuHoc />
+			<CacTruongDuHoc posts={posts} />
 			<Footer />
 		</Layout>
 	);
 };
+export async function getServerSideProps({ query }) {
+	try {
+		const resPost = await http.get({
+			url: `/posts`,
+			params: {
+				page: pageNumber(query.page),
+				page_size: 8
+			}
+		});
+		return {
+			props: {
+				posts: resPost.data
+			}
+		};
+	} catch (err) {
+		console.log(err);
+		return {
+			notFound: true
+		};
+	}
+}
 
 export default CacTruongDHCD;

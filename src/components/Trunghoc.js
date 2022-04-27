@@ -48,9 +48,9 @@ const TrungHoc = ({posts}) => {
 			<h3 className="title-comm">
 				<span className="title-holder">MỘT SỐ TRƯỜNG TRUNG HỌC CANADA TIÊU BIỂU</span>
 			</h3>
-			<div className="row row-cols-1 row-cols-md-4 g-3" style={{ margin: '50px 150px' }}>
+			<div className="row row-cols-1 row-cols-md-4 g-4" style={{ margin: '50px 115px' }}>
 			{posts.data.length && posts.data.map((post, index) => <DSTH post={post} key={index} />)}
-				{/* <div className="col mb-4">
+				{/* <div className="col mb-5">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'><img
 							src="assets/images/Trunghoc/trunghoc1.png"
@@ -66,7 +66,7 @@ const TrungHoc = ({posts}) => {
 						</div>
 					</div>
 				</div>
-				<div className="col mb-4">
+				<div className="col mb-5">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
 						<img
@@ -83,7 +83,7 @@ const TrungHoc = ({posts}) => {
 						</div>
 					</div>
 				</div>
-				<div className="col mb-4">
+				<div className="col mb-5">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
 						<img
@@ -100,7 +100,7 @@ const TrungHoc = ({posts}) => {
 						</div>
 					</div>
 				</div>
-				<div className="col mb-4">
+				<div className="col mb-5">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
 						<img src="assets/images/Trunghoc/trunghoc4.png" className="card-img-top" alt="Trường Quận Toronto" />
@@ -114,7 +114,7 @@ const TrungHoc = ({posts}) => {
 						</div>
 					</div>
 				</div>
-				<div className="col mb-4">
+				<div className="col mb-5">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
 						<img src="assets/images/Trunghoc/trunghoc4.png" className="card-img-top" alt="Trường Quận Toronto" />
@@ -128,7 +128,7 @@ const TrungHoc = ({posts}) => {
 						</div>
 					</div>
 				</div>
-				<div className="col mb-4">
+				<div className="col mb-5">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
 						<img src="assets/images/Trunghoc/trunghoc4.png" className="card-img-top" alt="Trường Quận Toronto" />
@@ -142,7 +142,7 @@ const TrungHoc = ({posts}) => {
 						</div>
 					</div>
 				</div>
-				<div className="col mb-4">
+				<div className="col mb-5">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
 						<img src="assets/images/Trunghoc/trunghoc4.png" className="card-img-top" alt="Trường Quận Toronto" />
@@ -156,7 +156,7 @@ const TrungHoc = ({posts}) => {
 						</div>
 					</div>
 				</div>
-				<div className="col mb-4">
+				<div className="col mb-5">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
 						<img src="assets/images/Trunghoc/trunghoc4.png" className="card-img-top" alt="Trường Quận Toronto" />

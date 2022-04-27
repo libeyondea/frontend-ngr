@@ -59,9 +59,11 @@ const CacTruongDuHoc = ({posts}) => {
 			<h3 className="title-comm">
 				<span className="title-holder">MỘT SỐ TRƯỜNG ĐẠI HỌC &amp; CAO ĐẲNG</span>
 			</h3>
+
 			<div className="row row-cols-1 row-cols-md-4 g-3" style={{ margin: '50px 150px' }}>
 			{posts.data.length && posts.data.map((post, index) => <DSCTRG post={post} key={index} />)}
 			</div>	
+
 			<Pagination total={posts?.pagination?.total} limit={6} />	
 		</div>
 	);
