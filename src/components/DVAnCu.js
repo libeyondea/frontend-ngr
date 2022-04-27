@@ -168,7 +168,7 @@ const DVAnCu = () => {
 						<h2 className="Phan_HDAC">HOẠT ĐỘNG AN CƯ</h2>
 						<div className="row">
 							<div className="col-6">
-								<div className="nd-SOCVH">
+								<div className="nd-SOCVH1">
 									<p>
 										<i
 											className="fa fa-check"
@@ -237,6 +237,35 @@ const DVAnCu = () => {
 											<i className="fas fa-play media-icon" />
 										</div>
 									</div>
+								</div>
+								<div className="nd-SOCVH2">
+									
+									<p>
+										<i
+											className="fa fa-check"
+											style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
+										/>
+										<span>KHOẢNG CÁCH CÁ NHÂN LÀ ĐIỀU VÔ CÙNG QUAN TRỌNG </span>
+										<br />
+										Mỹ rất tôn trọng sự tự do, chính vì thế duy trì khoảng cách giữa bạn và người khác là điều
+										cần phải chú ý. Khi nói chuyện với ai đó, không nên đứng quá gần họ. Khoảng cách tiếp xúc
+										quá gần làm cho người đối diện cảm thấy không thoải mái và họ có thể cho rằng bạn đang xâm
+										phạm không gian cá nhân của họ. Không chỉ trong giao tiếp mà ngay cả những tình huống hàng
+										ngày như xếp hàng nơi công cộng hay đi bộ trên vỉa hè, duy trì khoảng cách cũng là điều vô
+										cùng quan trọng.
+									</p>
+									<p>
+										<i
+											className="fa fa-check"
+											style={{ color: 'red', fontSize: '18px', marginLeft: '-30px', marginRight: '15px' }}
+										/>
+										<span>THAM GIA CÁC CÂU LẠC BỘ, HỘI NHÓM</span> <br />
+										Đây là cơ hội tốt nhất cho du học sinh tìm hiểu về các truyền thống của trường, làm quen
+										với bạn bè quốc tế cũng như người bản xứ. Bạn sẽ tìm hiểu được mọi thông tin về các câu
+										lạc bộ, hội nhóm phù hợp với bạn. Không gì có thể dễ dàng và đơn giản hơn việc làm quen
+										với những người bạn mới khi tham gia các câu lạc bộ ngoại khoá của trường, tại đây, họ đa
+										phần sẽ là những người có cùng sở thích và mối quan tâm giống với bạn.
+									</p>
 								</div>
 							</div>
 							<div className="hinhvideoSOCVH">

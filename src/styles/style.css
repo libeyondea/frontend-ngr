@@ -9072,9 +9072,15 @@ ul#menu li:hover ul#sub {
     margin-left: 30px;
     margin-top: 162px;
 }
-.nd-SOCVH{
+.nd-SOCVH1{
 	color: white;
 	margin-left: 50px;
+}
+.nd-SOCVH2{
+	color: white;
+	margin-left: 84px;
+	margin-right: 45px;
+	margin-top: 120px;
 }
 media-play-icon-SOCVH{
     width: 130px;
