@@ -79,42 +79,29 @@ const DAEB5_details = () => {
 				<div className="row">
 					<div className="col-6">
 						<div className="nd-CTEB5">
-							<p>
-								<i className="fa fa-circle1" />● Dự án nằm trong Khu Công Nghiệp Trung tâm thành phố Miami.
-							</p>
-
-							<p>
+						
+								<i className="fa fa-circle1" />● Dự án nằm trong Khu Công Nghiệp Trung tâm thành phố Miami.<br />
+							
 								<i className="fa fa-circle1" />● Báo cáo dân số thành phố năm 2018 là 6.2 triệu dân; Là thành phố
-								lớn thứ 7 của Hoa Kỳ.
-							</p>
-
-							<p>
-								<i className="fa fa-circle1" />● Báo cáo dân số thành phố năm 2018 là 6.2 triệu dân; Là thành phố
-								lớn thứ 7 của Hoa Kỳ.
-							</p>
-
-							<p>
-								<i className="fa fa-circle1" />● Nền công nghiệp du lịch và cộng đồng hưu dưỡng lớn.
-							</p>
-
-							<p>
+								lớn thứ 7 của Hoa Kỳ.<br />
+						<i className="fa fa-circle1" />● Báo cáo dân số thành phố năm 2018 là 6.2 triệu dân; Là thành phố
+								lớn thứ 7 của Hoa Kỳ.<br />
+							
+								<i className="fa fa-circle1" />● Nền công nghiệp du lịch và cộng đồng hưu dưỡng lớn.<br />
+							
 								<i className="fa fa-circle1" />● Dự án sẽ phân phối hàng hóa tới thị trường toàn bộ Đông Nam
-								Florida.
-							</p>
-
-							<p>
-								<i className="fa fa-circle1" />● Thành phố Miami mang đến thị trường to lớn dọc bờ Đại Tây Dương
-								của Florida và Nam Florida.
-							</p>
-							<p>
+								Florida.<br />
+							<i className="fa fa-circle1" />● Thành phố Miami mang đến thị trường to lớn dọc bờ Đại Tây Dương
+								của Florida và Nam Florida.<br />
+							
 								<i />● Theo Ông Steven D. Losner - Thị trưởng của thành phố này cho biết: “Việc lựa chọn Homestead
 								để xây dựng Trạm giao hàng khẳng định vị thế mới cho đầu tư từ tất cả mọi người trên toàn cầu.
 								Điều quan trọng là hàng trăm cơ hội việc làm mới và đa dạng sẽ được tạo ra cho cư dân của chúng
 								tôi. Tác động kinh tế đối với Homestead sẽ nhanh chóng mở rộng khi các doanh nghiệp và các nhà
 								lãnh đạo ngành khác lưu ý đến dự án này và khu vực của chúng tôi. Tôi tin tưởng rằng chúng tôi sẵn
 								sàng chào đón việc mở rộng hơn nữa việc làm và kinh tế địa phương, đồng thời nâng cao chất lượng
-								cuộc sống của người dân”.
-							</p>
+								cuộc sống của người dân”.<br />
+							
 						</div>
 					</div>
 					<div className="col-6">
@@ -126,7 +113,7 @@ const DAEB5_details = () => {
 					</div>
 				</div>
 			</div>
-			<div className="row">
+
 				<h2 className="LoaiHinhDT">THÔNG TIN CHI TIẾT DỰ ÁN</h2>
 				<p className="dautu">
 					<i className="fa fa-circle3" aria-hidden="true"></i>
@@ -148,11 +135,11 @@ const DAEB5_details = () => {
 					<strong>● Tổng số việc làm đã tạo ra: </strong> 274 việc làm gián tiếp và 285 việc làm trực tiếp. Vượt xa con
 					số yêu cầu tối thiểu của Sở Di trú Mỹ. <br />{' '}
 				</p>
-
-				<div className="container" style={{ backgroundColor: '#E4E4E4' }}>
+		
+				<div className="nen" >
 					<h2 className="TDDA">TIẾN ĐỘ DỰ ÁN</h2>
 					<p className="tiendo">Đã bắt đầu xây dựng, dự kiến hoàn thành vào quý 4 năm 2021.</p>
-				</div>
+			
 			
 			</div>
 				{/* one__carousel */}
