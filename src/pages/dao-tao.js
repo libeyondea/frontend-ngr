@@ -3,16 +3,17 @@ import Layout from '../components/Layout';
 import NavOne from '../components/NavOne';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
-import CTEB5 from '../components/CTEB5';
+import Daotaochinh from '../components/daotao/daotao';
 
-const TeachersPage = () => {
+
+const daotao_chinh = () => {
 	return (
-		<Layout pageTitle="Tân Con Đường Vàng | Định Cư">
-			<NavOne />
-			<CTEB5 />
+		<Layout pageTitle="Tân Con Đường Vàng | DỰ ÁN ĐẦU TƯ EB-5">
+			<NavOne />		
+			<Daotaochinh/>
 			<Footer />
 		</Layout>
 	);
 };
 
-export default TeachersPage;
+export default daotao_chinh;
