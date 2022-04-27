@@ -9026,7 +9026,7 @@ ul#menu li:hover ul#sub {
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
 }
 .hinhvideoDVAC{
-	margin-top: -265px;
+	margin-top: -360px;
     margin-left: 780px;
 }
 .nd-DVAC{
@@ -9038,7 +9038,7 @@ ul#menu li:hover ul#sub {
 	margin-right: 100px;
 	background-color: #640202;
 	margin-bottom: 100px;
-	height: 730px;
+	height: 800px;
 }
 .Phan_DoiNgu{
 	text-align: center;
@@ -9046,10 +9046,53 @@ ul#menu li:hover ul#sub {
 	padding-bottom: 20px;
 	color: white;
 }
-.DoiTac{
+.HDAC{
 	margin-top: 100px;
 	margin-right: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 100px;;
+	background-color: #121456;
+}
+.Phan_HDAC{
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 20px;
+	color: white;
+}
+.media-play-icon-DVAC {
+    width: 130px;
+    height: 130px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    line-height: 140px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 40px;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 162px;
+}
+.nd-SOCVH{
+	color: white;
+	margin-left: 50px;
+}
+media-play-icon-SOCVH{
+    width: 130px;
+    height: 130px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    line-height: 140px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 40px;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 162px;
+}
+.hinhvideoSOCVH{
+    margin-top: -1042px;
+    margin-left: 742px;
 }
 
 /*--------------------------------------------------*/
