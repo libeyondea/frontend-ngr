@@ -4,15 +4,37 @@ import NavOne from '../components/NavOne';
 import PageHeader from '../components/PageHeader';
 import Footer from '../components/Footer';
 import TrungHoc from '../components/Trunghoc';
+import http from '../utils/http';
+import pageNumber from '../utils/pageNumber';
 
-const trunghoc = () => {
+const trunghoc = ({posts}) => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Trung Học Canada">
 			<NavOne />		
-			<TrungHoc/>
+			<TrungHoc posts={posts} />
 			<Footer />
 		</Layout>
 	);
 };
-
+export async function getServerSideProps({ query }) {
+	try {
+		const resPost = await http.get({
+			url: `/posts`,
+			params: {
+				page: pageNumber(query.page),
+				page_size: 8
+			}
+		});
+		return {
+			props: {
+				posts: resPost.data
+			}
+		};
+	} catch (err) {
+		console.log(err);
+		return {
+			notFound: true
+		};
+	}
+}
 export default trunghoc;

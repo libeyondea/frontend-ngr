@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import DSTH from './DSTH';
 import Image from './Image';
-const TrungHoc = () => {
+import Pagination from './Pagination';
+const TrungHoc = ({posts}) => {
 	return (
 		<div style={{ backgroundColor: '#7FCA6E' }}>
 			<section className="inner-banner-THOC">
@@ -46,8 +48,9 @@ const TrungHoc = () => {
 			<h3 className="title-comm">
 				<span className="title-holder">MỘT SỐ TRƯỜNG TRUNG HỌC CANADA TIÊU BIỂU</span>
 			</h3>
-			<div className="row row-cols-1 row-cols-md-3 g-4" style={{ margin: '50px 150px' }}>
-				<div className="col">
+			<div className="row row-cols-1 row-cols-md-4 g-3" style={{ margin: '50px 150px' }}>
+			{posts.data.length && posts.data.map((post, index) => <DSTH post={post} key={index} />)}
+				{/* <div className="col mb-4">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'><img
 							src="assets/images/Trunghoc/trunghoc1.png"
@@ -63,7 +66,7 @@ const TrungHoc = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col">
+				<div className="col mb-4">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
 						<img
@@ -80,7 +83,7 @@ const TrungHoc = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col">
+				<div className="col mb-4">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
 						<img
@@ -97,7 +100,7 @@ const TrungHoc = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col">
+				<div className="col mb-4">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
 						<img src="assets/images/Trunghoc/trunghoc4.png" className="card-img-top" alt="Trường Quận Toronto" />
@@ -111,89 +114,65 @@ const TrungHoc = () => {
 						</div>
 					</div>
 				</div>
-			</div>
-			<div className="row row-cols-1 row-cols-md-3 g-4" style={{ margin: '50px 150px' }}>
-				<div className="col">
+				<div className="col mb-4">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
-						<img src="assets/images/Trunghoc/trunghoc5.png" className="card-img-top" alt="Trường Quận Lambton Kent" />
-						</a>
-						<div className="card-body">
-							<a href="#" className="card-link">
+						<img src="assets/images/Trunghoc/trunghoc4.png" className="card-img-top" alt="Trường Quận Toronto" />
+					</a>
+					<div className="card-body">
+							<a href="/trunghoc_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
-									Trường Quận Lambton Kent
+									Trường Quận Toronto
 								</h5>
 							</a>
 						</div>
 					</div>
 				</div>
-				<div className="col">
+				<div className="col mb-4">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
-						<img
-							src="assets/images/Trunghoc/trunghoc6.png"
-							className="card-img-top"
-							alt="Trường Quận Avon Maitland"
-						/></a>
-						<div className="card-body">
-							<a href="#" className="card-link">
+						<img src="assets/images/Trunghoc/trunghoc4.png" className="card-img-top" alt="Trường Quận Toronto" />
+					</a>
+					<div className="card-body">
+							<a href="/trunghoc_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
-									Trường Quận Avon Maitland
+									Trường Quận Toronto
 								</h5>
 							</a>
 						</div>
 					</div>
 				</div>
-				<div className="col">
+				<div className="col mb-4">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
-						<img
-							src="assets/images/Trunghoc/trunghoc7.png"
-							className="card-img-top"
-							alt="Trường Quận Maple Ridge-Pitt Meadows"
-						/></a>
-						<div className="card-body">
-							<a href="#" className="card-link">
+						<img src="assets/images/Trunghoc/trunghoc4.png" className="card-img-top" alt="Trường Quận Toronto" />
+					</a>
+					<div className="card-body">
+							<a href="/trunghoc_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
-									Trường Quận Maple Ridge-Pitt Meadows
+									Trường Quận Toronto
 								</h5>
 							</a>
 						</div>
 					</div>
 				</div>
-				<div className="col">
+				<div className="col mb-4">
 					<div className="card-school h-100">
 					<a href='/trunghoc_details'>
-						<img
-							src="assets/images/Trunghoc/trunghoc8.png"
-							className="card-img-top"
-							alt=" Trường Greater Victoria High School"
-						/></a>
-						<div className="card-body">
-							<a href="#" className="card-link">
+						<img src="assets/images/Trunghoc/trunghoc4.png" className="card-img-top" alt="Trường Quận Toronto" />
+					</a>
+					<div className="card-body">
+							<a href="/trunghoc_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
-									{' '}
-									Trường Greater Victoria High School
+									Trường Quận Toronto
 								</h5>
 							</a>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div className="post-pagination">
-				<a href="#">
-					<i className="fa fa-angle-double-left" />
-				</a>
-				<a className="active" href="#">
-					1
-				</a>
-				<a href="#">2</a>
-				<a href="#">3</a>
-				<a href="#">4</a>
-				<a href="#">
-					<i className="fa fa-angle-double-right" />
-				</a>
-			</div>
+				</div> */}
+			</div>	
+			<Pagination total={posts?.pagination?.total} limit={6} />		
+			
 		</div>
 	);
 };
