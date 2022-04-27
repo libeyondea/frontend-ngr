@@ -1,17 +1,20 @@
 import React from 'react';
-const DSKH = ({ posts }) => {
+import Link from './Pagination/Link';
+const DSDT = ({ posts }) => {
 	return (
 		<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 			<div className="team-one__single">
 				<div className="team-one__image">
-					<img className="img-kh" src="/assets/images/KH_NGR/kh7.jpg" alt="" />
+					<img className="img-kh" src="/assets/images/Doitac/st-pius.jpg" alt="" />
 				</div>
 				<div className="team-one__content">
 					<h2 className="team-one__name">
-						<a className="tenkh">Đan Vy</a>
+						<Link href="/details-dt">
+							<a>St Pius X High School</a>
+						</Link>
 					</h2>
-					<p className="team-one__designation">Khách hàng</p>
-					<p className="team-one__text">Đang học James Cook University tại Brisbane, Úc.</p>
+					<p className="team-one__designation">Đối Tác</p>
+					<p className="team-one__text">St Pius X High School.</p>
 				</div>
 				<div className="team-one__social">
 					<a href="#">
@@ -31,4 +34,4 @@ const DSKH = ({ posts }) => {
 		</div>
 	);
 };
-export default DSKH;
+export default DSDT;
