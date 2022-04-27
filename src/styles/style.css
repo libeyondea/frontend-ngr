@@ -9051,3 +9051,26 @@ ul#menu li:hover ul#sub {
 }
 
 /*--------------------------------------------------*/
+/*cteb5-details////////////////////////////////////////////////////////////////////*/
+
+.p2{
+	width: 1524px;
+	height: 420px;
+	color: black;
+	background-color: #f5f5f5;
+
+}
+.hi{
+	font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: .8px;
+    font-family: muli,sans-serif;
+    color: #354052;
+}
+
+.imgEB5{
+	margin-left: 800px;
+	margin-top: -550px;
+	margin-bottom: 20px;
+}
