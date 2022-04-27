@@ -410,7 +410,7 @@ const CTEB5_details = () => {
 								<br />
 							</ul>
 							<h4>
-								<strong>Tòa Nhà 1:</strong>
+								<strong>Tòa nhà 1:</strong>
 							</h4>
 
 							<ul>
