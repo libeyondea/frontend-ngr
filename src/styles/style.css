@@ -7604,7 +7604,9 @@ span#fcta-zalo-tracking {
 .tai-sao {
 	font-size: 17px;
 }
-
+.cau-hoi{
+	color: #009955;
+}
 .tieu-de {
     font-size: 35px;
     line-height: 44px;
@@ -7612,70 +7614,6 @@ span#fcta-zalo-tracking {
     font-weight: 900;
     color: #ff944d;
     text-shadow: 1px 1px 0 rgb(255 255 255 / 50%);
-}
-.share-postCa{
-	margin: 10px 10px 0px;
-	width:100%;
-}
-.share-textCa{
-	margin: -8px 30px -10px 60px;
-    display: block;
-    float: left;
-    color: #FFF;
-    font-size: 14pt;
-    height: 50px;
-    line-height: 50px;
-	background-color: #ff944d;
-	text-align: center;
-	width: 150px;
-}
-.mini-share-postCa {
-	clear: both;
-	margin: 10px -24px -20px;
-	padding: 10px 10px 10px 25px;
-	height: 20px;
-}
-
-.mini-share-postCa .share-textCa,
-.entry .share-postCa .share-textCa {
-	display: none;
-}
-.entry .share-postCa {
-	margin: 0 0 15px;
-	background: transparent;
-	border: 0 none;
-	height: auto;
-	padding: 0;
-}
-
-.entry .share-postCa li,
-.entry .share-postCa ul {
-	list-style: none;
-	margin: 0;
-}
-
-.recent-box .mini-share-postCa {
-	margin-bottom: -5px;
-}
-
-.share-postCa li,
-.mini-share-postCa li {
-	float: left;
-	width: 106px;
-}
-
-.entry .share-postCa li iframe,
-.share-postCa li iframe,
-.mini-share-postCa li iframe {
-	max-width: none !important;
-}
-
-.share-postCa span.share-textCa {
-	background: #FF8500;
-}
-
-.share-postCa .flat-socialCa a {
-	text-decoration: none !important;
 }
 /**/
 ul#menu,
