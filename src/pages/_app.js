@@ -7,8 +7,10 @@ import '../styles/daotao.scss';
 import '../styles/new.css';
 import '../styles/kh.css';
 import '../styles/TD.css';
+
 import '../styles/speaking.css';
 /* import '../styles/dtc.css'; */
+import '../styles/dtc.scss';
 import '../styles/pagination.css';
 import '../styles/responsive.css';
 import 'react-modal-video/scss/modal-video.scss';

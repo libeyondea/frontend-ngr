@@ -7468,8 +7468,9 @@ span#fcta-zalo-tracking {
 .muc4 {
 	font-size: 25px;
 	color: #000;
+	margin: 0 auto;
 	margin-bottom: 10px;
-	width: 733px;
+	width: 365px;
 }
 .muc5 {
 	font-size: 25px;
@@ -7603,13 +7604,16 @@ span#fcta-zalo-tracking {
 .tai-sao {
 	font-size: 17px;
 }
+.cau-hoi{
+	color: #009955;
+}
 .tieu-de {
-	font-size: 35px;
-	line-height: 44px;
-	padding-top: 20px;
-	font-weight: 700;
-	color: #606060;
-	text-shadow: 1px 1px 0 rgb(255 255 255 / 50%);
+    font-size: 35px;
+    line-height: 44px;
+    padding-top: 20px;
+    font-weight: 900;
+    color: #ff944d;
+    text-shadow: 1px 1px 0 rgb(255 255 255 / 50%);
 }
 /**/
 ul#menu,
@@ -7674,6 +7678,7 @@ ul#menu li:hover ul#sub {
 	font-weight: bold;
 	color: black;
 	box-shadow: 10px 10px 5px #1d701c;
+	width: 18rem;
 }
 
 
@@ -7737,9 +7742,8 @@ ul#menu li:hover ul#sub {
 	color: #000;
 }
 .share-post {
-    margin: 10px 10px 0px;
-	width:100%;
-
+		margin: 62px 5px 5px;
+		width: 100%;
 }
 .share-textt{
 	margin: -8px 30px -10px 60px;
@@ -8177,8 +8181,8 @@ ul#menu li:hover ul#sub {
 }
 
 .hinhvideo{
-	margin-top: -417px;
-	margin-left: 800px;
+	margin-top: -800px;
+	padding-left:790px;
 }
 .nd-CTEB5{
 	color: black;
@@ -8735,7 +8739,7 @@ ul#menu li:hover ul#sub {
 }
 .block1 .block_item_left .block_img:before {
     background-color: #1d3768;
-	margin-bottom: 15px;
+	margin-bottom: 50px;
 	margin-right: 20px;
 	margin-left: 19px;
 }
@@ -8789,7 +8793,7 @@ ul#menu li:hover ul#sub {
 }
 .block1 .block_item_right .block_img:before {
     background-color: #b52243;
-	margin-bottom: 15px;
+	margin-bottom: 50px;
 	margin-left: 19px;
 	margin-right: 19px;
 }
@@ -8859,6 +8863,7 @@ ul#menu li:hover ul#sub {
 /*----DABE5----*/
 .card-title-duan{
 	text-align: center;
+	font-family: revert;
 	font-size: 50px;
 	margin-top: 20px;
 	color: black;
@@ -8916,13 +8921,7 @@ ul#menu li:hover ul#sub {
 	padding-bottom: 20px;
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
 }
-.fa fa-circle3{
-	color: black;
-	text-align: justify;
-	font-size: 8px;
-	margin-left: 50px;
-	margin-right: 15px ;
-}
+
 .fa fa-circle1{
 	color: black;
 	font-size: 8px;
@@ -8931,18 +8930,21 @@ ul#menu li:hover ul#sub {
 }
 .LoaiHinhDT{
 	color: black;
-	margin-left : 500px;
+	margin-left : 30px;
 	margin-top: -70px;
 	padding : 100px;
+	text-align: center;
 }
 .TDDA{
 	color: black;
-	margin-left : 593px;
-	padding : 50px;
+	margin-left : 20px;
+	padding : 40px;
+	text-align: center;
 }
 .tiendo{
 	color: black;
-	margin-left : 395px;
+	font-size: 18px;
+	margin-left : 333px;
 	margin-top: -40px;
 }
 .DKTT{
@@ -8953,25 +8955,32 @@ ul#menu li:hover ul#sub {
 }
 .dautu{
 	color: black;
-	margin-left : 395px;
+	font-size: 18px;
+	margin-left : 335px;
 	margin-top: -86px;
+	text-align: revert;
 }
 .HINH{
 	color: black;
-	margin-left : 50px;
-	padding : 30px;
+	padding : 20px;
+	text-align: center;
+	margin-left : 20px;
 }
 .nen{
 	background-color: #E4E4E4;
+	margin-top: 20px;
 }
+
 .card-title-details{
 	text-align: center;
-	font-size: 25px;
-	margin-top: -10px;
+	font-size: 22px;
+	font-family: inherit;
+	margin-top: -9px;
 }
 .card-title-details2{
 	padding-left: 195px;
 	padding-top: 10px;
+	font-family: inherit;
 	color: black;
 }
 /*--------------Dịch Vụ An Cư-----------*/
@@ -9023,19 +9032,19 @@ ul#menu li:hover ul#sub {
 	text-shadow: 5px 5px 2px #a50505, 0 0 25px wheat, 0 0 8px white;
 }
 .hinhvideoDVAC{
-	margin-top: -265px;
+	margin-top: -360px;
     margin-left: 780px;
 }
 .nd-DVAC{
 	color: black;
-	margin-left: 20px;
+	margin-left: 30px;
 }
 .DoiNgu{
 	margin-top: 100px;
 	margin-right: 100px;
 	background-color: #640202;
 	margin-bottom: 100px;
-	height: 730px;
+	height: 800px;
 }
 .Phan_DoiNgu{
 	text-align: center;
@@ -9043,10 +9052,45 @@ ul#menu li:hover ul#sub {
 	padding-bottom: 20px;
 	color: white;
 }
-.DoiTac{
+.HDAC{
 	margin-top: 100px;
 	margin-right: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 100px;;
+	background-color: #121456;
+}
+.Phan_HDAC{
+	text-align: center;
+	padding-top: 45px;
+	padding-bottom: 20px;
+	color: white;
+}
+.media-play-icon-DVAC {
+    width: 130px;
+    height: 130px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    line-height: 140px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 40px;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 162px;
+}
+.nd-SOCVH1{
+	color: white;
+	margin-left: 50px;
+}
+.nd-SOCVH2{
+	color: white;
+	margin-left: 84px;
+	margin-right: 45px;
+	margin-top: 130px;
+}
+.hinhvideoSOCVH{
+    margin-top: -1042px;
+    margin-left: 742px;
 }
 
 /*--------------------------------------------------*/
@@ -9072,4 +9116,14 @@ ul#menu li:hover ul#sub {
 	margin-left: 800px;
 	margin-top: -550px;
 	margin-bottom: 20px;
+}
+.hd1{
+	margin-top: 20px;
+	color: #000;
+	font-size: 50px;
+	font-family: 'Bahnschrift';
+}
+.text_content{
+	background-color: #fff;
+
 }

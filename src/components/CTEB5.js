@@ -180,7 +180,7 @@ const CTEB5 = () => {
 										></i>
 										Thời gian nhận Thẻ Xanh nhanh chóng
 										<br />
-										<a className="chu" style={{ marginLeft: '50px' }}>
+										<a className="chu" style={{ marginLeft: '50px', color:'white' }}>
 											(khoảng 3 - 4 năm)
 										</a>
 									</p>
@@ -270,7 +270,7 @@ const CTEB5 = () => {
 										<a className="chu" style={{ marginLeft: '50px' }}></a> bất cứ nơi nào tại Mỹ
 									</a>
 									<br />
-									<a style={{ fontSize: '16px', color: 'black' }}>
+									<a style={{ fontSize: '16px', color: 'black', marginLeft:'0px' }}>
 										<i
 											className="fa fa-check"
 											style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -323,7 +323,7 @@ const CTEB5 = () => {
 										học sinh
 									</a>
 									<br />
-									<a style={{ fontSize: '16px', color: 'black' }}>
+									<a style={{ fontSize: '16px', color: 'black', marginLeft:'0px' }}>
 										<i
 											className="fa fa-check"
 											style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -391,7 +391,7 @@ const CTEB5 = () => {
 					</div>
 				</section>
 				<div>
-					<h2 className="LoaiHinhDT" style={{ color: 'black', marginLeft: '510px', padding: '100px' }}>
+					<h2 className="LoaiHinhDT" style={{ color: 'black', marginLeft: '0px', padding: '100px' }}>
 						CÁC LOẠI HÌNH ĐẦU TƯ
 					</h2>
 					<p className="dautu" style={{ color: 'black', marginLeft: '395px', marginTop: '-70px' }}>
