@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from './Pagination/Link';
-const DSDT = ({ posts }) => {
+const DSDT = ({ post}) => {
 	return (
 		<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 			<div className="team-one__single">

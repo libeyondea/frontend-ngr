@@ -4,6 +4,7 @@ import DSKH from './DSKH';
 import Pagination from './Pagination';
 
 const Khachhang = ({ posts }) => {
+	console.log(posts);
 	return (
 		<section className="team-one team-page">
 			<div className="container">
@@ -11,7 +12,7 @@ const Khachhang = ({ posts }) => {
 					<span className="titles-holder">KHÁCH HÀNG NEW GOLDEN ROAD</span>
 				</h3>
 				<div className="row">
-					{posts.data.length && posts.data.map((posts, index) => <DSKH post={posts} key={index} />)}
+					{posts.data.length && posts.data.map((post, index) => <DSKH post={post} key={index} />)}
 					{/* <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">

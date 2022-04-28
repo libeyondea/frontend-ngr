@@ -25,9 +25,7 @@ const Test = ({ post }) => {
 						</a>
 					</div>
 					<h2 className="blog-one__title">
-						<a href="/news-details">
-							{post.translations[0].title}
-						</a>
+						<a href="/news-details">{post.translations[0].title}</a>
 					</h2>
 					<p className="blog-one__text">
 						CẦN CHUẨN BỊ GÌ KHI DU HỌC MỸ ? Cần chuẩn bị gì khi đi du học Mỹ? hay Du học Mỹ cần mang theo gì? Đây là
@@ -39,6 +37,7 @@ const Test = ({ post }) => {
 				</div>
 			</div>
 		</div>
+		/* https://backend-ngr.herokuapp.com/api/posts?category=khach-hang */
 	);
 };
 

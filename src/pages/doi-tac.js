@@ -26,7 +26,7 @@ export async function getServerSideProps({ query }) {
 			url: `/posts`,
 			params: {
 				page: pageNumber(query.page),
-				page_size: 6
+				page_size: 8
 			}
 		});
 		return {

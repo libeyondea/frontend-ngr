@@ -22,12 +22,13 @@ const TeachersPage = ({ posts }) => {
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
-			url: `/posts`,
+			url: `/posts?category=khach-hang`,
 			params: {
 				page: pageNumber(query.page),
-				page_size: 6
+				page_size: 8
 			}
 		});
+		console.log(resPost.data);
 		return {
 			props: {
 				posts: resPost.data

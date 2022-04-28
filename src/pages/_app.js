@@ -7,6 +7,7 @@ import '../styles/daotao.scss';
 import '../styles/new.css';
 import '../styles/kh.css';
 import '../styles/TD.css';
+import '../styles/speaking.css';
 /* import '../styles/dtc.css'; */
 import '../styles/pagination.css';
 import '../styles/responsive.css';
