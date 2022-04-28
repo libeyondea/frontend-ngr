@@ -7742,7 +7742,7 @@ ul#menu li:hover ul#sub {
 	color: #000;
 }
 .share-post {
-		margin: 62px 5px -120px;
+		margin: 62px 5px 5px;
 		width: 100%;
 }
 .share-textt{
