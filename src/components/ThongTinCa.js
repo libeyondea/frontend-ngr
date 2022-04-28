@@ -181,18 +181,20 @@ const ThongTinCa = () => {
 									</p>
 								</div>
 							</div>
+						</div>		
 						</div>
-					</div>
-				
+										
+								
 					<div className="cau-hoi">
-					<h2 className="tieu-de">CÁC CÂU HỎI THƯỜNG GẶP KHI DU HỌC CANADA </h2>
-					<p className="tai-sao">
-						Cùng NEW GOLDEN ROAD giải đáp “tất tần tật” các câu hỏi thường gặp về du học Canada, bạn nhé!
-					</p>
+
 						<div className=" col-md-12 col-sm-12"></div>
 					</div>
 				</div>
 				<div className="accordion" id="accordionExample">
+				<h2 className="tieu-de">CÁC CÂU HỎI THƯỜNG GẶP KHI DU HỌC CANADA </h2>
+					<p className="tai-sao">
+						Cùng NEW GOLDEN ROAD giải đáp “tất tần tật” các câu hỏi thường gặp về du học Canada, bạn nhé!
+					</p>
 					<div className="card">
 						<div className="card-header" id="headingOne">
 							<h2 className="mb-0">
@@ -465,6 +467,8 @@ const ThongTinCa = () => {
 					<div className="clear" />
 				</div>
 			</div>
+			
+			
 		</section>
 	);
 };
