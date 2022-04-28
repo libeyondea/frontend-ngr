@@ -109,7 +109,7 @@ const Daotaochinh = () => {
       <div className="col-lg-3 col-sm-6">
         <div className="single_member_counter">
           <span className="counter">820</span>
-          <h4>Ofline Students</h4>f 5344
+          <h4>Ofline Students</h4>
         </div>
       </div>
     </div>
