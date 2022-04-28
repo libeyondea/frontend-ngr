@@ -357,7 +357,9 @@ const ThongTinCa = () => {
 						</div>
 					</div>
 				</div>
-				<div className="share-post">
+				
+			</div>
+			<div className="share-post">
 					<span className="share-textt">Chia Sẻ</span>
 					<ul className="flat-social">
 						<li>
@@ -466,10 +468,8 @@ const ThongTinCa = () => {
 					</ul>
 					<div className="clear" />
 				</div>
-			</div>
-			
-			
-		</section>
+		</section>			
+					
 	);
 };
 

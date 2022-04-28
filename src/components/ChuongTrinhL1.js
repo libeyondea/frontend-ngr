@@ -214,7 +214,7 @@ const ChuongTrinhL1 = () => {
 				</section>
 
 			</div>
-			<div className="share-post" style={{ marginBottom: '20px' }}>
+			<div className="share-post" style={{ marginBottom: '0px' }}>
 				<span className="share-textt">Chia Sẻ</span>
 				<ul className="flat-social">
 					<li>
