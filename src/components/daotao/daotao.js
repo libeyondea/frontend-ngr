@@ -1,6 +1,59 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Daotaochinh = () => {
+	const [counter, setCounter] = useState(0);
+	const [counter1, setCounter1] = useState(0);
+	const [counter2, setCounter2] = useState(0);
+	const [counter3, setCounter3] = useState(0);
+	//counter0
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setCounter((counter) => counter + 1);
+		}, 2);
+		if (counter === 1000) {
+			clearInterval(interval);
+		}
+		return () => {
+			clearInterval(interval);
+		};
+	}, [counter]);
+	//counter1
+	useEffect(() => {
+		const interval1 = setInterval(() => {
+			setCounter1((counter1) => counter1 + 1);
+		}, 2);
+		if (counter1 === 2000) {
+			clearInterval(interval1);
+		}
+		return () => {
+			clearInterval(interval1);
+		};
+	}, [counter1]);
+	//counter2
+	useEffect(() => {
+		const interval2 = setInterval(() => {
+			setCounter2((counter2) => counter2 + 1);
+		}, 2);
+		if (counter2 === 1200) {
+			clearInterval(interval2);
+		}
+		return () => {
+			clearInterval(interval2);
+		};
+	}, [counter2]);
+	//counter3
+	useEffect(() => {
+		const interval3 = setInterval(() => {
+			setCounter3((counter3) => counter3 + 1);
+		}, 2);
+		if (counter3 === 800) {
+			clearInterval(interval3);
+		}
+		return () => {
+			clearInterval(interval3);
+		};
+	}, [counter3]);
+
 	return (
 		<>
 			<div className="dao-tao-style">
@@ -10,14 +63,14 @@ const Daotaochinh = () => {
 							<div className="col-sm-6 col-xl-3 align-self-center">
 								<div className="single_feature_text ">
 									<h2>
-										Awesome <br /> Feature
+										Chương Trình Đào Tạo
 									</h2>
 									<p>
-										Set have great you male grass yielding an yielding first their have called the abundantly
-										fruit were man
+										Là một trong những chương trình đào tạo với nhiều khóa học chất lượng,
+										trong từng cách giảng dạy giữa giáo viên và học viên.
 									</p>
 									<a href="#" className="btn_1">
-										Read More
+										Xem Thêm
 									</a>
 								</div>
 							</div>
@@ -25,12 +78,11 @@ const Daotaochinh = () => {
 								<div className="single_feature">
 									<div className="single_feature_part">
 										<span className="single_feature_icon">
-											<i className="ti-layers" />
+										<i className="fa fa-star"></i>
 										</span>
-										<h4>Better Future</h4>
+										<h4 style={{color: '#FF944D'}}>TIÊU CHUẨN</h4>
 										<p>
-											Set have great you male grasses yielding yielding first their to called deep
-											abundantly Set have great you male
+										Đảm bảo chất lượng cho từng học viên trong quá trình học tập đúng mức khả năng học viên mong muốn.
 										</p>
 									</div>
 								</div>
@@ -39,12 +91,11 @@ const Daotaochinh = () => {
 								<div className="single_feature">
 									<div className="single_feature_part">
 										<span className="single_feature_icon">
-											<i className="ti-new-window" />
+										<i className="fa fa-clock"></i>
 										</span>
-										<h4>Qualified Trainers</h4>
+										<h4 style={{color: '#FF944D'}}>THỜI GIAN</h4>
 										<p>
-											Set have great you male grasses yielding yielding first their to called deep
-											abundantly Set have great you male
+											Luôn đảm bảo thời gian cho tửng học viên để học tập đúng thời gian mong muốn và hoàn thành khóa học đúng hạn.
 										</p>
 									</div>
 								</div>
@@ -53,9 +104,9 @@ const Daotaochinh = () => {
 								<div className="single_feature">
 									<div className="single_feature_part single_feature_part_2">
 										<span className="single_service_icon style_icon">
-											<i className="ti-light-bulb" />
+										<i className="fa fa-book"></i>
 										</span>
-										<h4>Job Oppurtunity</h4>
+										<h4 style={{color: '#FF944D'}}>KẾT QUẢ</h4>
 										<p>
 											Set have great you male grasses yielding yielding first their to called deep
 											abundantly Set have great you male
@@ -113,26 +164,26 @@ const Daotaochinh = () => {
 						<div className="row">
 							<div className="col-lg-3 col-sm-6">
 								<div className="single_member_counter">
-									<span className="counter">1024</span>
-									<h4>All Teachers</h4>
+									<span className="counter">{counter}</span>
+									<h4>TẤT CẢ GIÁO VIÊN</h4>
 								</div>
 							</div>
 							<div className="col-lg-3 col-sm-6">
 								<div className="single_member_counter">
-									<span className="counter">960</span>
-									<h4> All Students</h4>
+									<span className="counter">{counter1}</span>
+									<h4>TẤT CẢ HỌC VIÊN</h4>
 								</div>
 							</div>
 							<div className="col-lg-3 col-sm-6">
 								<div className="single_member_counter">
-									<span className="counter">1020</span>
-									<h4>Online Students</h4>
+									<span className="counter">{counter2}</span>
+									<h4>HỌC VIÊN ONLINE</h4>
 								</div>
 							</div>
 							<div className="col-lg-3 col-sm-6">
 								<div className="single_member_counter">
-									<span className="counter">820</span>
-									<h4>Ofline Students</h4>
+									<span className="counter">{counter3}</span>
+									<h4>HỌC VIÊN OFFLINE</h4>
 								</div>
 							</div>
 						</div>
@@ -143,8 +194,162 @@ const Daotaochinh = () => {
 						<div className="row justify-content-center">
 							<div className="col-xl-5">
 								<div className="section_tittle text-center">
-									<p>popular courses</p>
-									<h2>Special Courses</h2>
+									<p>Học viên online</p>
+									<h2>KHÓA ONLINE</h2>
+								</div>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-sm-6 col-lg-4">
+								<div className="single_special_cource">
+									<img src="img/special_cource_1.png" className="special_img" alt />
+									<div className="special_cource_text">
+										<a href="course-details.html" className="btn_4">
+											Web Development
+										</a>
+										<h4>$130.00</h4>
+										<a href="course-details.html">
+											<h3>Web Development</h3>
+										</a>
+										<p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
+										<div className="author_info">
+											<div className="author_img">
+												<img src="img/author/autho.png" alt />
+												<div className="author_info_text">
+													<p>Conduct by:</p>
+													<h5>
+														<a href="#">James Well</a>
+													</h5>
+												</div>
+											</div>
+											<div className="author_rating">
+												<div className="rating">
+													<a href="#">
+														<img src="img/icon/color_star.svg" alt />
+													</a>
+													<a href="#">
+														<img src="img/icon/color_star.svg" alt />
+													</a>
+													<a href="#">
+														<img src="img/icon/color_star.svg" alt />
+													</a>
+													<a href="#">
+														<img src="img/icon/color_star.svg" alt />
+													</a>
+													<a href="#">
+														<img src="img/icon/star.svg" alt />
+													</a>
+												</div>
+												<p>3.8 Ratings</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-sm-6 col-lg-4">
+								<div className="single_special_cource">
+									<img src="img/special_cource_2.png" className="special_img" alt />
+									<div className="special_cource_text">
+										<a href="course-details.html" className="btn_4">
+											design
+										</a>
+										<h4>$160.00</h4>
+										<a href="course-details.html">
+											{' '}
+											<h3>Web UX/UI Design </h3>
+										</a>
+										<p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
+										<div className="author_info">
+											<div className="author_img">
+												<img src="img/author/author_2.png" alt />
+												<div className="author_info_text">
+													<p>Conduct by:</p>
+													<h5>
+														<a href="#">James Well</a>
+													</h5>
+												</div>
+											</div>
+											<div className="author_rating">
+												<div className="rating">
+													<a href="#">
+														<img src="img/icon/color_star.svg" alt />
+													</a>
+													<a href="#">
+														<img src="img/icon/color_star.svg" alt />
+													</a>
+													<a href="#">
+														<img src="img/icon/color_star.svg" alt />
+													</a>
+													<a href="#">
+														<img src="img/icon/color_star.svg" alt />
+													</a>
+													<a href="#">
+														<img src="img/icon/star.svg" alt />
+													</a>
+												</div>
+												<p>3.8 Ratings</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-sm-6 col-lg-4">
+								<div className="single_special_cource">
+									<img src="img/special_cource_3.png" className="special_img" alt />
+									<div className="special_cource_text">
+										<a href="course-details.html" className="btn_4">
+											Wordpress
+										</a>
+										<h4>$140.00</h4>
+										<a href="course-details.html">
+											{' '}
+											<h3>Wordpress Development</h3>{' '}
+										</a>
+										<p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
+										<div className="author_info">
+											<div className="author_img">
+												<img src="img/author/author_3.png" alt />
+												<div className="author_info_text">
+													<p>Conduct by:</p>
+													<h5>
+														<a href="#">James Well</a>
+													</h5>
+												</div>
+											</div>
+											<div className="author_rating">
+												<div className="rating">
+													<a href="#">
+														<img src="img/icon/color_star.svg" alt />
+													</a>
+													<a href="#">
+														<img src="img/icon/color_star.svg" alt />
+													</a>
+													<a href="#">
+														<img src="img/icon/color_star.svg" alt />
+													</a>
+													<a href="#">
+														<img src="img/icon/color_star.svg" alt />
+													</a>
+													<a href="#">
+														<img src="img/icon/star.svg" alt />
+													</a>
+												</div>
+												<p>3.8 Ratings</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section className="special_cource padding_top">
+					<div className="container">
+						<div className="row justify-content-center">
+							<div className="col-xl-5">
+								<div className="section_tittle text-center">
+									<p>Học viên offline</p>
+									<h2>KHÓA OFFLINE</h2>
 								</div>
 							</div>
 						</div>
