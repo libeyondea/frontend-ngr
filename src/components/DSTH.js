@@ -1,5 +1,5 @@
 import React from 'react';
-const DSTH = ({posts})=>{
+const DSTH = ({post})=>{
     return(
 <div className="col mb-4">
 					<div className="card-school h-100">
@@ -11,7 +11,7 @@ const DSTH = ({posts})=>{
 						<div className="card-body">
 							<a href="/trunghoc_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
-									Trường trung học Bodwell High School{' '}
+								{post.title}{' '}
 								</h5>
 							</a>
 						</div>

@@ -19,7 +19,7 @@ const daeb5 = ({posts}) => {
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
-			url: `/posts`,
+			url: `posts?category=du-an-eb-5`,
 			params: {
 				page: pageNumber(query.page),
 				page_size: 8
