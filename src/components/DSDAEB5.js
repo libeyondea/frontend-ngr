@@ -1,5 +1,5 @@
 import React from 'react';
-const DSDAEB5= ({posts})=>{
+const DSDAEB5= ({post})=>{
     return(
 <div className="col mb-4">
 					<div className="card-school h-100">
@@ -11,7 +11,7 @@ const DSDAEB5= ({posts})=>{
 						<div className="card-body">
 							<a href="/daeb5_details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
-                                QUẢNG TRƯỜNG KỶ NGUYÊN - CENTENNIAL PLAZA{' '}
+								{post.title}{' '}
 								</h5>
 							</a>
 						</div>
