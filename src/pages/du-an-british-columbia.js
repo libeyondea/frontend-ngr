@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 import DinhCuBritish from '../components/DinhCuBritish';
 
 const dinhcubritish = () => {
-	console.log('DuHocCanada');
 	return (
 		<Layout pageTitle="Định cư bang British- Canada ">
 			<NavOne />
