@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-const TuyenDung = () => {
+import DSTD from './DSTD';
+const TuyenDung = ({ posts }) => {
 	return (
 		<section className="courses-details">
 			<div className="container">
@@ -45,8 +46,9 @@ const TuyenDung = () => {
 					<h3 className="title-com">
 						<span className="title-holder">DANH SÁCH TUYỂN DỤNG</span>
 					</h3>
+					{posts.data.length && posts.data.map((post, index) => <DSTD post={post} key={index} />)}
 
-					<div className="card-TH">
+					{/* 	<div className="card-TH">
 						<div className="card-header">
 							<p className="card-header-TD">Tuyển dụng vị trí Copywriter – Du học Tân Con Đường Vàng</p>
 						</div>
@@ -68,7 +70,6 @@ const TuyenDung = () => {
 							</Link>
 						</div>
 					</div>
-
 					<div className="card-TH">
 						<div className="card-header">
 							<p className="card-header-TD">Tuyển dụng vị trí Designer – Du học Tân Con Đường Vàng</p>
@@ -120,7 +121,7 @@ const TuyenDung = () => {
 								<a className="btn btn-primary">Đọc Thêm</a>
 							</Link>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<div className="post-pagination">
