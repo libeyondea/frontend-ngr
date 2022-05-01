@@ -1,5 +1,5 @@
 import React from 'react';
-const DSCTRG = ({posts})=>{
+const DSCTRG = ({post})=>{
     return(
 <div className="col mb-4">
 					<div className="card-school h-100">
@@ -11,7 +11,7 @@ const DSCTRG = ({posts})=>{
 						<div className="card-body">
 							<a href="/DuHocCanada-details" className="card-link">
 								<h5 className="card-title" style={{ color: 'black' }}>
-                                Trường Alberta University{' '}
+                                {post.title}{' '}
 								</h5>
 							</a>
 						</div>

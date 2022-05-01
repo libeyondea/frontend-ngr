@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Image from './Image';
-const CacTruongDuHocCacNuoc = () => {
+import Pagination from './Pagination';
+const CacTruongDuHocCacNuoc = ({posts}) => {
+	console.log(posts)
 	return (
 		<div>
 			<section className="inner-banner-THCA">
@@ -63,32 +65,31 @@ const CacTruongDuHocCacNuoc = () => {
 			</h3>
 			<div className="row">
 				<div className="col-lg-8">
-					<div className="card-TH">
+		
+			{posts.data.length && posts.data.map((posts, index) => (
+				<div className="card-TH">
 						<div className="card-header">
 							<p className="card-header-TH">
-								Trường Southern Alberta Institute of Technology (SAIT) – Du học Canada – Du học Tân Con Đường Vàng
+							{posts.title}
 							</p>
 						</div>
 						<div className="card-body" style={{ lineHeight: '24px' }}>
 							<p className="img-card-TH">
-								<img
-									src="/assets/images/TruongHoc/SAIT.png"
-									alt="Trường Southern Alberta Institute of Technology (SAIT)"
-								/>
+							{posts.image_url}
 							</p>
 							<h5 className="card-title-TH">Trường Southern Alberta Institute of Technology (SAIT)</h5>
 							<p className="card-text-TH">
-								SASKATCHEWAN POLYTECHNIC Saskatchewan Polytechnic được thành lập vào năm 1941 tọa lạc tại
-								Saskatchewan – nơi được ví von là “Land of Living Skies” của Canada. Cùng với 12 cơ sở nghiên cứu
-								chuyên sâu, Saskatchewan Polytechnic còn là thành viên của Nhóm các trường bách khoa Canada
-								(Polytechnics Canada) …
+							{posts.excerpt}
 							</p>
 							<a href="/DuHocCanada-details" className="button">
 								Đọc Thêm
 							</a>
 						</div>
 					</div>
-					<div className="card-TH">
+			))}
+			
+					
+					{/* <div className="card-TH">
 						<div className="card-header">
 							<p className="card-header-TH">
 								Trường Saskatchewan Polytechnic – Du học Canada – Du học Tân Con Đường Vàng
@@ -270,7 +271,7 @@ const CacTruongDuHocCacNuoc = () => {
 								Đọc Thêm
 							</a>
 						</div>
-					</div>
+					</div> */}
 				</div>
 				<div className="col-lg-4">
 					<div className="become-teacher__form" id="back-top">
@@ -398,20 +399,7 @@ const CacTruongDuHocCacNuoc = () => {
 					</div>
 				</div>
 			</div>
-			<div className="post-pagination">
-				<a href="#">
-					<i className="fa fa-angle-double-left" />
-				</a>
-				<a className="active" href="#">
-					1
-				</a>
-				<a href="#">2</a>
-				<a href="#">3</a>
-				<a href="#">4</a>
-				<a href="#">
-					<i className="fa fa-angle-double-right" />
-				</a>
-			</div>
+			<Pagination total={posts?.pagination?.total} limit={6} />
 		</div>
 	);
 };

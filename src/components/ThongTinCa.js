@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const ThongTinCa = () => {
 	return (
-		<section className="faq-one">
+		<div>
 			<section className="inner-banner-CD">
 				<div className="container">
 					<h2 className="inner-banner-CD__title">THÔNG TIN CANADA</h2>
@@ -468,7 +468,7 @@ const ThongTinCa = () => {
 					</ul>
 					<div className="clear" />
 				</div>
-		</section>			
+		</div>			
 					
 	);
 };

@@ -18,7 +18,7 @@ const CacTruongDHCD = ({posts}) => {
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
-			url: `/posts`,
+			url: `/posts?category=cac-truong-dai-hoc-va-cao-dang-canada`,
 			params: {
 				page: pageNumber(query.page),
 				page_size: 8

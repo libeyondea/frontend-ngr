@@ -19,7 +19,7 @@ const trunghoc = ({posts}) => {
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
-			url: `/posts`,
+			url: `/posts?category=trung-hoc-canada`,
 			params: {
 				page: pageNumber(query.page),
 				page_size: 8
