@@ -23,7 +23,7 @@ const TeachersPage = ({ posts }) => {
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
-			url: `/posts?category=doi-tac`,
+			url: `/posts?category=doi-tac-nuoc-my`,
 			params: {
 				page: pageNumber(query.page),
 				page_size: 8
