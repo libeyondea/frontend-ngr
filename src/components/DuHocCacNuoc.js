@@ -69,15 +69,16 @@ const CacTruongDuHocCacNuoc = ({posts}) => {
 			{posts.data.length && posts.data.map((posts, index) => (
 				<div className="card-TH">
 						<div className="card-header">
-							<p className="card-header-TH">
-							{posts.title}
+						<p className="card-header-TH">
+								Trường Saskatchewan Polytechnic – Du học Canada – Du học Tân Con Đường Vàng
 							</p>
 						</div>
 						<div className="card-body" style={{ lineHeight: '24px' }}>
 							<p className="img-card-TH">
-							{posts.image_url}
+							{/* <img src={`${posts.image_url}`} alt="Trường Saskatchewan Polytechnic" /> */}
+							<img src="/assets/images/TruongHoc/SASK.png" alt="Trường Saskatchewan Polytechnic" />
 							</p>
-							<h5 className="card-title-TH">Trường Southern Alberta Institute of Technology (SAIT)</h5>
+							<h5 className="card-title-TH">{posts.title}</h5>
 							<p className="card-text-TH">
 							{posts.excerpt}
 							</p>
