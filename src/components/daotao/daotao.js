@@ -108,8 +108,7 @@ const Daotaochinh = () => {
 										</span>
 										<h4 style={{color: '#FF944D'}}>KẾT QUẢ</h4>
 										<p>
-											Set have great you male grasses yielding yielding first their to called deep
-											abundantly Set have great you male
+										Học viên sẽ có những kiến thức cũng như giao tiếp n cao trình độ tiếng anh bản thân sau khóa học tại du học"Tân Con Đường Vàng"
 										</p>
 									</div>
 								</div>
@@ -124,30 +123,39 @@ const Daotaochinh = () => {
 						<div className="row align-items-sm-center align-items-lg-stretch">
 							<div className="col-md-7 col-lg-7">
 								<div className="learning_img">
-									<img src="img/learning_img.png" alt />
+								<img className="hinhanh"src="/assets/images/learning_img.png"  />
 								</div>
 							</div>
 							<div className="col-md-5 col-lg-5">
 								<div className="learning_member_text">
-									<h5>About us</h5>
-									<h2>Learning with Love and Laughter</h2>
+									<h5>Chúng tôi </h5>
+									<h2>Học bằng tình yêu và tiếng cười</h2>
 									<p>
-										Fifth saying upon divide divide rule for deep their female all hath brind Days and beast
-										greater grass signs abundantly have greater also days years under brought moveth.
+										Chúng tôi luôn nâng cao về tâm trí học viên trong quá trình học tiếng anh, vì nếu học một cách máy móc
+										sẽ khó tiếp thu hoặc chán nản trong việc học tiếng anh, bằng phương pháp" tình yêu và tiếng cười"sẽ giúp học viên hứng thú hơn trong việc học tiếng anh ngay từ bây giờ.
 									</p>
 									<ul>
 										<li>
 											<span className="ti-pencil-alt" />
-											Him lights given i heaven second yielding seas gathered wear
-										</li>
-										<li>
-											<span className="ti-ruler-pencil" />
-											Fly female them whales fly them day deep given night.
+										
 										</li>
 									</ul>
-									<a href="#" className="btn_1">
-										Read More
-									</a>
+									<div className="row">
+										<div className="col-sm-6 col-md-12 col-lg-6">
+											<div className="learning_member_text_iner">
+												<span className="ti-pencil-alt" />
+												<h4 style={{color: '#FF944D',fontWeight: 'bold'}}>Học bằng😘</h4>
+												<p>Tạo cho học viên hứng thú học hơn trong việc học tiếng anh ,có thể nói là bằng cả trái tim.</p>
+											</div>
+										</div>
+										<div className="col-sm-6 col-md-12 col-lg-6">
+											<div className="learning_member_text_iner">
+												<span className="ti-stamp" />
+												<h4 style={{color: '#FF944D',fontWeight: 'bold'}}>Học bằng 😃</h4>
+												<p>Không việc học bên cạnh đó phải áp dụng thực tế ngay từ người bản xứ và các trò chơi tiếng anh hứng thú.</p>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
