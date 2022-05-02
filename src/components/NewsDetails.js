@@ -206,20 +206,20 @@ const NewsDetails = ({ post }) => {
 									<li> &#10004; Chi phí ăn ở: $16,000/năm</li>
 								</ul>
 							</div>
-							<h3> Mọi chi tiết xin vui lòng liên hệ:</h3>
-							<h5 style={{ color: '#ff944d' }}> DU HỌC TÂN CON ĐƯỜNG VÀNG – NEW GOLDEN ROAD</h5>
-							<ol>
-								<ul> &#127980; Địa chỉ: 219 Tân Quý, phường Tân Quý, quận Tân Phú, Tp Hồ Chí Minh</ul>
+							</div> */}
+						<h3> Mọi chi tiết xin vui lòng liên hệ:</h3>
+						<h5 style={{ color: '#ff944d' }}> DU HỌC TÂN CON ĐƯỜNG VÀNG – NEW GOLDEN ROAD</h5>
+						<ol>
+							<ul> &#127980; Địa chỉ: 219 Tân Quý, phường Tân Quý, quận Tân Phú, Tp Hồ Chí Minh</ul>
 
-								<ul> &#128222; Hotline: 0909416959 – Ms. Linda</ul>
+							<ul> &#128222; Hotline: 0909416959 – Ms. Linda</ul>
 
-								<ul> &#128231; Email: duhoc@newgoldenroad.edu.vn</ul>
+							<ul> &#128231; Email: duhoc@newgoldenroad.edu.vn</ul>
 
-								<ul> &#127760; Website: https://newgoldenroad.com/</ul>
+							<ul> &#127760; Website: https://newgoldenroad.com/</ul>
 
-								<ul> &#127759; Facebook: https://www.facebook.com/newgoldenroad</ul>
-							</ol>
-						</div> */}
+							<ul> &#127759; Facebook: https://www.facebook.com/newgoldenroad</ul>
+						</ol>
 					</div>
 				</div>
 
