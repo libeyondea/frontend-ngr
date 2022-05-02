@@ -12,17 +12,17 @@ const SliderBanner = () => {
 	const [sliderReady, setsliderReady] = useState(true);
 	const [slides, setslides] = useState([
 		{
-			city: 'Paris',
-			country: 'France',
+			/* city: 'Paris',
+			country: 'France', */
 			img: '/assets/images/banner1-1.png'
 		},
 		{
-			city: 'Singapore',
+			/* city: 'Singapore', */
 			img: '/assets/images/banner-2.png'
 		},
 		{
-			city: 'Prague',
-			country: 'Czech Republic',
+			/* city: 'Prague',
+			country: 'Czech Republic', */
 			img: '/assets/images/banner-3.png'
 		}
 	]);
