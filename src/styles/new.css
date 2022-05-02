@@ -92,6 +92,9 @@ p.post-meta span {
     display: inline-block;
     margin-right: 10px;
 }
+.tile1{
+    padding-left: 100px !important;
+}
 p.post-meta a {
     color: #888;
 }

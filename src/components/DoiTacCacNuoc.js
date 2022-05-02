@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const DoiTacCacNuoc = () => {
+const DoiTacCacNuoc = ({ posts }) => {
 	return (
 		<section className="team-one team-page">
 			<div className="container">
@@ -16,7 +16,7 @@ const DoiTacCacNuoc = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/details-dt">
+									<Link href="/chi-tiet-doi-tac-nuoc-my">
 										<a className="tenkh">Justin Siena High School</a>
 									</Link>
 								</h2>
@@ -46,7 +46,7 @@ const DoiTacCacNuoc = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/details-dt">
+									<Link href="/chi-tiet-doi-tac-nuoc-my">
 										<a>St Patrick - St Vincent High School</a>
 									</Link>
 								</h2>
@@ -76,7 +76,7 @@ const DoiTacCacNuoc = () => {
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/details-dt">
+									<Link href="/chi-tiet-doi-tac-nuoc-my">
 										<a>Bishop Montgomery High School</a>
 									</Link>
 								</h2>

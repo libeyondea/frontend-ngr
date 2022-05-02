@@ -10,7 +10,7 @@ const News = ({ posts }) => {
 	});
 
 	return (
-		<section className="blog-one1 blog-page">
+		<section className="blog-one1 blog-page" style={{ paddingTop: '20px' }}>
 			<div className="container">
 				<div id="breaking-news" className="breaking-news">
 					<span className="breaking-news-title">
