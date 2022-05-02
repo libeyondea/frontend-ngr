@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import DSDTCN from './DSDTCN';
+import Pagination from './Pagination';
 
 const DoiTacCacNuoc = ({ posts }) => {
 	return (
@@ -10,7 +11,7 @@ const DoiTacCacNuoc = ({ posts }) => {
 					<span className="titles-holder">ĐỐI TÁC NƯỚC MỸ</span>
 				</h3>
 				<div className="row">
-					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+					{/* 			<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
 								<img className="img-kh" src="/assets/images/Doitac/dt1.jpg" alt="" />
@@ -39,9 +40,9 @@ const DoiTacCacNuoc = ({ posts }) => {
 								</a>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					{posts.data.length && posts.data.map((post, index) => <DSDTCN post={post} key={index} />)}
-				
+
 					{/* 	<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
@@ -224,7 +225,8 @@ const DoiTacCacNuoc = ({ posts }) => {
 					</div> */}
 				</div>
 			</div>
-			<div className="post-pagination">
+			<Pagination total={posts?.pagination?.total} limit={8} />
+			{/* 	<div className="post-pagination">
 				<a href="#">
 					<i className="fa fa-angle-double-left"></i>
 				</a>
@@ -237,7 +239,7 @@ const DoiTacCacNuoc = ({ posts }) => {
 				<a href="#">
 					<i className="fa fa-angle-double-right"></i>
 				</a>
-			</div>
+			</div> */}
 		</section>
 	);
 };
