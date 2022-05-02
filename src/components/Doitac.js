@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import DSDT from './DSDT';
 
-const Doitac = ({ post }) => {
+const Doitac = ({ posts }) => {
 	return (
 		<section className="team-one team-page">
 			<div className="container">
