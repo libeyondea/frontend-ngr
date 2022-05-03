@@ -1,12 +1,12 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import NavOne from '../components/NavOne';
-import Footer from '../components/Footer';
-import CallToActionTwo from '../components/CallToActionTwo';
-import Khachhang from '../components/Khachhang';
-import DTSlide from '../components/Doitac-Slide';
-import http from '../utils/http';
-import pageNumber from '../utils/pageNumber';
+import Layout from '../../components/Layout';
+import NavOne from '../../components/NavOne';
+import Footer from '../../components/Footer';
+import CallToActionTwo from '../../components/CallToActionTwo';
+import Khachhang from '../../components/Khachhang';
+import DTSlide from '../../components/Doitac-Slide';
+import http from '../../utils/http';
+import pageNumber from '../../utils/pageNumber';
 
 const TeachersPage = ({ posts }) => {
 	return (

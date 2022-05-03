@@ -1,11 +1,11 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import NavOne from '../components/NavOne';
-import PageHeader from '../components/PageHeader';
-import Footer from '../components/Footer';
-import News from '../components/News';
-import http from '../utils/http';
-import pageNumber from '../utils/pageNumber';
+import Layout from '../../components/Layout';
+import NavOne from '../../components/NavOne';
+import PageHeader from '../../components/PageHeader';
+import Footer from '../../components/Footer';
+import News from '../../components/News';
+import http from '../../utils/http';
+import pageNumber from '../../utils/pageNumber';
 
 const NewsPage = ({ posts }) => {
 	return (
