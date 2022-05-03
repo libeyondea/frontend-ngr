@@ -213,9 +213,9 @@ const Daotaochinh = () => {
 									<img src="img/special_cource_1.png" className="special_img" alt />
 									<div className="special_cource_text">
 										<a href="course-details.html" className="btn_4">
-											Web Development
+											Luyện Ilets
 										</a>
-										<h4>$130.00</h4>
+									
 										<a href="course-details.html">
 											<h3>Web Development</h3>
 										</a>
