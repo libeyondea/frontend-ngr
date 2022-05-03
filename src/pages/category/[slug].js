@@ -5,12 +5,14 @@ import PageHeader from '../../components/PageHeader';
 import Footer from '../../components/Footer';
 import NewsDetails from '../../components/NewsDetails';
 import http from '../../utils/http';
-const GalleryPage = ({ post }) => {
+import DuHocCacNuoc from '../../components/DuHocCacNuoc';
+
+const GalleryPage = ({ posts, query }) => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | News Details">
 			<NavOne />
-			<PageHeader title="News Details" />
-			<NewsDetails post={post} />
+
+			<DuHocCacNuoc posts={posts} />
 			<Footer />
 		</Layout>
 	);
@@ -18,11 +20,12 @@ const GalleryPage = ({ post }) => {
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
-			url: `/posts/${query.slug}`
+			url: `/posts?category=${query.slug}`
 		});
 		return {
 			props: {
-				post: resPost.data
+				posts: resPost.data,
+				query: query
 			}
 		};
 	} catch (err) {
@@ -31,6 +34,5 @@ export async function getServerSideProps({ query }) {
 		};
 	}
 }
-
 
 export default GalleryPage;

@@ -1,7 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
+import DSDTCN from './DSDTCN';
+import Pagination from './Pagination';
 
-const DoiTacCacNuoc = () => {
+const DoiTacCacNuoc = ({ posts }) => {
 	return (
 		<section className="team-one team-page">
 			<div className="container">
@@ -9,14 +11,14 @@ const DoiTacCacNuoc = () => {
 					<span className="titles-holder">ĐỐI TÁC NƯỚC MỸ</span>
 				</h3>
 				<div className="row">
-					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+					{/* 			<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
 								<img className="img-kh" src="/assets/images/Doitac/dt1.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/details-dt">
+									<Link href="/chi-tiet-doi-tac-nuoc-my">
 										<a className="tenkh">Justin Siena High School</a>
 									</Link>
 								</h2>
@@ -38,45 +40,17 @@ const DoiTacCacNuoc = () => {
 								</a>
 							</div>
 						</div>
-					</div>
-					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-						<div className="team-one__single">
-							<div className="team-one__image">
-								<img className="img-kh" src="/assets/images/Doitac/Vincent-school.png" alt="" />
-							</div>
-							<div className="team-one__content">
-								<h2 className="team-one__name">
-									<Link href="/details-dt">
-										<a>St Patrick - St Vincent High School</a>
-									</Link>
-								</h2>
-								<p className="team-one__designation">Đối Tác</p>
-								<p className="team-one__text">St Patrick - St Vincent High School.</p>
-							</div>
-							<div className="team-one__social">
-								<a href="#">
-									<i className="fab fa-twitter"></i>
-								</a>
-								<a href="#">
-									<i className="fab fa-facebook-square"></i>
-								</a>
-								<a href="#">
-									<i className="fab fa-pinterest-p"></i>
-								</a>
-								<a href="#">
-									<i className="fab fa-instagram"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+					</div> */}
+					{posts.data.length && posts.data.map((post, index) => <DSDTCN post={post} key={index} />)}
+
+					{/* 	<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
 								<img className="img-kh" src="/assets/images/Doitac/bishop-montgomery.jpg" alt="" />
 							</div>
 							<div className="team-one__content">
 								<h2 className="team-one__name">
-									<Link href="/details-dt">
+									<Link href="/chi-tiet-doi-tac-nuoc-my">
 										<a>Bishop Montgomery High School</a>
 									</Link>
 								</h2>
@@ -248,10 +222,11 @@ const DoiTacCacNuoc = () => {
 								</a>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
-			<div className="post-pagination">
+			<Pagination total={posts?.pagination?.total} limit={8} />
+			{/* 	<div className="post-pagination">
 				<a href="#">
 					<i className="fa fa-angle-double-left"></i>
 				</a>
@@ -264,7 +239,7 @@ const DoiTacCacNuoc = () => {
 				<a href="#">
 					<i className="fa fa-angle-double-right"></i>
 				</a>
-			</div>
+			</div> */}
 		</section>
 	);
 };

@@ -1,8 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import DSDT from './DSDT';
+import Pagination from './Pagination';
 
-const Doitac = ({ post }) => {
+const Doitac = ({ posts }) => {
 	return (
 		<section className="team-one team-page">
 			<div className="container">
@@ -253,7 +254,8 @@ const Doitac = ({ post }) => {
 					</div> */}
 				</div>
 			</div>
-			<div className="post-pagination">
+			<Pagination total={posts?.pagination?.total} limit={6} />
+			{/* 	<div className="post-pagination">
 				<a href="#">
 					<i className="fa fa-angle-double-left"></i>
 				</a>
@@ -266,7 +268,7 @@ const Doitac = ({ post }) => {
 				<a href="#">
 					<i className="fa fa-angle-double-right"></i>
 				</a>
-			</div>
+			</div> */}
 		</section>
 	);
 };

@@ -10,7 +10,7 @@ const News = ({ posts }) => {
 	});
 
 	return (
-		<section className="blog-one1 blog-page">
+		<section className="blog-one1 blog-page" style={{ paddingTop: '20px' }}>
 			<div className="container">
 				<div id="breaking-news" className="breaking-news">
 					<span className="breaking-news-title">
@@ -409,7 +409,7 @@ const News = ({ posts }) => {
 						</div>
 					</div> */}
 				</div>
-				<Pagination total={posts?.pagination?.total} limit={6} />
+				<Pagination total={posts?.pagination?.total} limit={4} />
 
 				{/* <div className="post-pagination">
 					<a href="#">

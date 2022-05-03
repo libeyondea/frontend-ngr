@@ -68,7 +68,7 @@ const NavOne = () => {
 			data.map((item, index) => {
 				return (
 					<li key={index}>
-						<Link href={`/${item.slug}`}>
+						<Link href={`/category/${item.slug}`}>
 							<a>{item.name}</a>
 						</Link>
 						{item.children.length ? <ul className="sub-menu">{categoriesRecursive(item.children)}</ul> : null}
@@ -85,7 +85,6 @@ const NavOne = () => {
 					sticky ? 'stricked-menu stricky-fixed' : ''
 				}`}
 			>
-
 				<div className="container clearfix">
 					<div className="logo-box clearfix">
 						<Link href="/">

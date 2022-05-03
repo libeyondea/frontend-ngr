@@ -21,7 +21,7 @@ const NewsPage = ({ posts }) => {
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
-			url: `/posts`,
+			url: `/posts?category=tin-tuc`,
 			params: {
 				page: pageNumber(query.page),
 				page_size: 6
