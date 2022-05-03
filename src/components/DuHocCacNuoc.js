@@ -71,11 +71,18 @@ const CacTruongDuHocCacNuoc = ({ posts }) => {
 								</div>
 								<div className="card-body" style={{ lineHeight: '24px' }}>
 									<p className="img-card-TH">
-										{/* <img src={`${posts.image_url}`} alt="Trường Saskatchewan Polytechnic" /> */}
-										<img src="/assets/images/TruongHoc/SASK.png" alt="Trường Saskatchewan Polytechnic" />
+										<img src={`${posts.image_url}`} alt="Trường Saskatchewan Polytechnic" />
+										{/* <img src="/assets/images/TruongHoc/SASK.png" alt="Trường Saskatchewan Polytechnic" /> */}
 									</p>
 									<h5 className="card-title-TH">{posts.title}</h5>
-									<p className="card-text-TH">{posts.excerpt}</p>
+
+									{/* <p className="card-text-TH">{posts.excerpt}</p> */}
+									<p className="card-text-TH">
+										SASKATCHEWAN POLYTECHNIC Saskatchewan Polytechnic được thành lập vào năm 1941 tọa lạc tại
+										Saskatchewan – nơi được ví von là “Land of Living Skies” của Canada. Cùng với 12 cơ sở
+										nghiên cứu chuyên sâu, Saskatchewan Polytechnic còn là thành viên của Nhóm các trường bách
+										khoa Canada (Polytechnics Canada) …
+									</p>
 									<a href="/DuHocCanada-details" className="button">
 										Đọc Thêm
 									</a>

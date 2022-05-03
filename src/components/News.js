@@ -409,7 +409,7 @@ const News = ({ posts }) => {
 						</div>
 					</div> */}
 				</div>
-				<Pagination total={posts?.pagination?.total} limit={6} />
+				<Pagination total={posts?.pagination?.total} limit={4} />
 
 				{/* <div className="post-pagination">
 					<a href="#">
