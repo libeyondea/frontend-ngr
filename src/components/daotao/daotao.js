@@ -512,12 +512,12 @@ const Daotaochinh = () => {
 						<div className="row align-items-sm-center align-items-xl-stretch">
 							<div className="col-md-6 col-lg-6">
 								<div className="learning_member_text">
-									<h5>Advance feature</h5>
-									<h2>Our Advance Educator Learning System</h2>
+									<h5>TÍNH NĂNG</h5>
+									<h2>Hệ thống học tập trực tuyến của chúng tôi</h2>
 									<p>
-										Fifth saying upon divide divide rule for deep their female all hath brind mid Days and
-										beast greater grass signs abundantly have greater also use over face earth days years
-										under brought moveth she star
+									Các công cụ đào tạo bao gồm: Clip bài giảng, bài đọc, học liệu, Quiz, Game simulation. Học viên làm Bài tập cá nhân, 
+									bài tập nhóm và nhận Feedback của giảng viên thông qua Livestreaming tương tác.
+									 Hiệu quả đào tạo của các mô hình dự trên sự kết hợp này và sự triển khai trên các trên hệ thống Elearning.
 									</p>
 									<div className="row">
 										<div className="col-sm-6 col-md-12 col-lg-6">
@@ -539,7 +539,7 @@ const Daotaochinh = () => {
 							</div>
 							<div className="col-lg-6 col-md-6">
 								<div className="learning_img">
-									<img src="img/advance_feature_img.png" alt />
+								
 								</div>
 							</div>
 						</div>
