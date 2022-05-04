@@ -1,11 +1,11 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import NavOne from '../components/NavOne';
-import PageHeader from '../components/PageHeader';
-import Footer from '../components/Footer';
-import DAEB5 from '../components/DAEB5';
-import http from '../utils/http';
-import pageNumber from '../utils/pageNumber';
+import Layout from '../../components/Layout';
+import NavOne from '../../components/NavOne';
+import PageHeader from '../../components/PageHeader';
+import Footer from '../../components/Footer';
+import DAEB5 from '../../components/DAEB5';
+import http from '../../utils/http';
+import pageNumber from '../../utils/pageNumber';
 
 const daeb5 = ({ posts }) => {
 	return (

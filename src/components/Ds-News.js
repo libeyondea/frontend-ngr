@@ -5,10 +5,7 @@ const DS_NEWS = ({ post }) => {
 			<div className="col-lg-4">
 				<div className="blog-one__single">
 					<div className="blog-one__image">
-						<img
-							src="/assets/images/New/du-hoc-tan-con-duong-vang-5-dieu-can-biet-khi-du-hoc-my-310x165.jpg"
-							alt=""
-						/>
+						<img src={`${post.image_url}`} alt="" />
 
 						<a className="blog-one__plus" href={`/p/${post.slug}`}>
 							<i className="kipso-icon-plus-symbol"></i>
