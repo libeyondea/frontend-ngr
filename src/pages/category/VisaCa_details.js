@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import NavOne from '../components/NavOne';
-import PageHeader from '../components/PageHeader';
-import Footer from '../components/Footer';
-import Visa_details from '../components/Visa_details';
+import Layout from '../../components/Layout';
+import NavOne from '../../components/NavOne';
+import PageHeader from '../../components/PageHeader';
+import Footer from '../../components/Footer';
+import Visa_details from '../../components/Visa_details';
 
 const VisaCa_details = () => {
 	return (
