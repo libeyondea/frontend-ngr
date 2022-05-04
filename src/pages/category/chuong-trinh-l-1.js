@@ -1,8 +1,8 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import NavOne from '../components/NavOne';
-import Footer from '../components/Footer';
-import ChuongTrinhL1 from '../components/ChuongTrinhL1';
+import Layout from '../../components/Layout';
+import NavOne from '../../components/NavOne';
+import Footer from '../../components/Footer';
+import ChuongTrinhL1 from '../../components/ChuongTrinhL1';
 
 const chuongtrinhL1 = () => {
 	console.log('chuongtrinhL1');
