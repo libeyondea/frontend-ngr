@@ -32,45 +32,40 @@ const HBCanada = () => {
 					</Link>
 				</div>
 			</div>
-			<div style={{clear:'both'}}></div>
+			<div style={{ clear: 'both' }}></div>
 			<div className="card-TH1">
 				<div className="card-header1">
-					<p className="card-header-TD">
-					[Hội thảo]: Trường Excelsia College- Du học Úc – Du học Tân Con Đường Vàng
-					</p>
+					<p className="card-header-TD">[Hội thảo]: Trường Excelsia College- Du học Úc – Du học Tân Con Đường Vàng</p>
 				</div>
 				<div className="card-body">
 					<p className="img-card-TH1">
-						<img
-							className="img-HB"
-							src="/assets/images/HocBong/nganhhoc3.jpg"
-							alt="Tuyển dụng vị trí Copywriter"
-						/>
+						<img className="img-HB" src="/assets/images/HocBong/nganhhoc3.jpg" alt="Tuyển dụng vị trí Copywriter" />
 					</p>
 					<p className="card-text-TH1">
-					Excelsia College – Sydney đã có mặt tại công ty Du học Tân Con Đường Vàng lúc 10:00AM ngày 07/04/2021.
-					Tại đây, người đại diện của Excelsia College – anh Peter sẽ chia sẻ những thông tin cần thiết về chương trình học, chính sách và những lưu ý cần biết dành cho du học sinh tại Úc...
+						Excelsia College – Sydney đã có mặt tại công ty Du học Tân Con Đường Vàng lúc 10:00AM ngày 07/04/2021. Tại
+						đây, người đại diện của Excelsia College – anh Peter sẽ chia sẻ những thông tin cần thiết về chương trình
+						học, chính sách và những lưu ý cần biết dành cho du học sinh tại Úc...
 					</p>
 					<Link href="/hocbongcanada">
 						<a className="btn btn-primary">Đọc Thêm</a>
 					</Link>
 				</div>
 			</div>
-			<div style={{clear:'both'}}></div>
+			<div style={{ clear: 'both' }}></div>
 
 			{/*********************************************  PHAN-TRANG ***************************************/}
-				<div className="post-pagination" /* style={{justifyContent:'normal'}} */>
-					<a href="#">
-						<i className="fa fa-angle-double-left" />
-					</a>
-					<a className="active" href="#">
-						1
-					</a>
-					<a href="#">2</a>
-					<a href="#">
-						<i className="fa fa-angle-double-right" />
-					</a>
-				</div>
+			<div className="post-pagination" /* style={{justifyContent:'normal'}} */>
+				<a href="#">
+					<i className="fa fa-angle-double-left" />
+				</a>
+				<a className="active" href="#">
+					1
+				</a>
+				<a href="#">2</a>
+				<a href="#">
+					<i className="fa fa-angle-double-right" />
+				</a>
+			</div>
 		</div>
 	);
 };
