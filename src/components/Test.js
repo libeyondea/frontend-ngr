@@ -32,7 +32,7 @@ const Test = ({ post }) => {
 						những từ khoá được gõ nhiều nhất khi các bậc phụ huynh hoặc các bạn học sinh sinh viên muốn tìm hiểu …
 					</p>
 					<a className="blog-one__link" href="/news-details">
-						dddđ
+						dddđdđ
 					</a>
 				</div>
 			</div>
