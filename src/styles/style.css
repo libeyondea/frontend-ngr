@@ -4649,6 +4649,7 @@ a:visited {
 	color: #f16101;
 }
 .blog-one__image {
+	height: 250px;
 	background-color: #012237;
 	position: relative;
 	overflow: hidden;
@@ -4750,7 +4751,7 @@ a:visited {
 	transition: all 0.4s ease;
 }
 .blog-one__title {
-	font-size: 30px;
+    font-size: 25px;
 	font-weight: bold;
 	color: #012237;
 	margin-bottom: 38px;
@@ -4764,7 +4765,7 @@ a:visited {
 	color: #f16101;
 }
 .blog-one__text {
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 34px;
 	color: #81868a;
 	font-weight: 500;
