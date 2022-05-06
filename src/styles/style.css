@@ -4649,6 +4649,7 @@ a:visited {
 	color: #f16101;
 }
 .blog-one__image {
+	height: 250px;
 	background-color: #012237;
 	position: relative;
 	overflow: hidden;

@@ -1,13 +1,13 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import NavOne from '../components/NavOne';
-import PageHeader from '../components/PageHeader';
-import Footer from '../components/Footer';
-import CallToActionTwo from '../components/CallToActionTwo';
-import DTSlide from '../components/Doitac-Slide';
-import DoiTacCacNuoc from '../components/DoiTacCacNuoc';
-import http from '../utils/http';
-import pageNumber from '../utils/pageNumber';
+import Layout from '../../components/Layout';
+import NavOne from '../../components/NavOne';
+import PageHeader from '../../components/PageHeader';
+import Footer from '../../components/Footer';
+import CallToActionTwo from '../../components/CallToActionTwo';
+import DTSlide from '../../components/Doitac-Slide';
+import DoiTacCacNuoc from '../../components/DoiTacCacNuoc';
+import http from '../../utils/http';
+import pageNumber from '../../utils/pageNumber';
 
 const TeachersPage = ({ posts }) => {
 	return (

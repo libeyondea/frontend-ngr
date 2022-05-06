@@ -6,7 +6,7 @@ const DSDT = ({ post }) => {
 		<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 			<div className="team-one__single">
 				<div className="team-one__image">
-					<img className="img-kh" src="/assets/images/Doitac/st-pius.jpg" alt="" />
+					<img className="img-kh" src={`${post.image_url}`} alt="" />
 				</div>
 				<div className="team-one__content">
 					<h2 className="team-one__name">
