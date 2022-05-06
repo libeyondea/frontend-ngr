@@ -3,6 +3,7 @@ import DSTH from './DSTH';
 import Image from './Image';
 import Pagination from './Pagination';
 const TrungHoc = ({posts}) => {
+	console.log(posts);
 	return (
 		<div style={{ backgroundColor: '#7FCA6E' }}>
 			<section className="inner-banner-THOC">

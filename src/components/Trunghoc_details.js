@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Image from './Image';
-const Trunghoc_details = () => {
+const Trunghoc_details = ({posts}) => {
+	console.log(posts)
 	return (
 		<div className="THdetails">
 			<section className="inner-banner-THOC">
@@ -48,8 +49,8 @@ const Trunghoc_details = () => {
 				<div className="col-lg-8">
 					<div className="noidung">
 						<h1 className="tieudeTH">BODWELL HIGH SCHOOL – Vancouver, British Columbia– Du học Tân Con Đường Vàng</h1>
-
-						<div style={{ color: '#333', fontSize: '20px', fontWeight: 'lighter' }}>
+						<div dangerouslySetInnerHTML={{ __html: posts.data.content }} />
+					{/* 	<div style={{ color: '#333', fontSize: '20px', fontWeight: 'lighter' }}>
 							<strong>
 								<b>Bodwell High School </b>
 							</strong>
@@ -142,7 +143,7 @@ const Trunghoc_details = () => {
 							<p  style={{textAlign:'center'}}>
 								<img src="/assets/images/Trunghoc/trunghoc1.5.png" alt="canada" className="anhTH" width={'700px'}/>
 							</p>
-						</div>
+						</div> */}
 						<div>
 							<h2 className="mucTH">CHI PHÍ</h2>
 							<div style={{ color: '#333', fontSize: '20px', fontWeight: 'lighter' }}>
