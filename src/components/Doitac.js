@@ -8,39 +8,9 @@ const Doitac = ({ posts }) => {
 		<section className="team-one team-page">
 			<div className="container">
 				<h3 className="titles-com">
-					<span className="titles-holder">ĐỐI TÁC NƯỚC MỸ</span>
+					<span className="titles-holder">ĐỐI TÁC NEW GOLDEN ROAD</span>
 				</h3>
 				<div className="row">
-					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
-						<div className="team-one__single">
-							<div className="team-one__image">
-								<img className="img-kh" src="/assets/images/Doitac/dt1.jpg" alt="" />
-							</div>
-							<div className="team-one__content">
-								<h2 className="team-one__name">
-									<Link href="/details-dt">
-										<a className="tenkh">Justin Siena High School</a>
-									</Link>
-								</h2>
-								<p className="team-one__designation">Đối Tác</p>
-								<p className="team-one__text">Justin Siena High School.</p>
-							</div>
-							<div className="team-one__social">
-								<a href="#">
-									<i className="fab fa-twitter"></i>
-								</a>
-								<a href="#">
-									<i className="fab fa-facebook-square"></i>
-								</a>
-								<a href="#">
-									<i className="fab fa-pinterest-p"></i>
-								</a>
-								<a href="#">
-									<i className="fab fa-instagram"></i>
-								</a>
-							</div>
-						</div>
-					</div>
 					{posts.data.length && posts.data.map((post, index) => <DSDT post={post} key={index} />)}
 					{/* 	<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
