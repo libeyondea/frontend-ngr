@@ -75,7 +75,7 @@ const Event = ({ posts }) => {
 									<div className="item mr-4" key={index}>
 										<div className="course-one__single color-1">
 											<div className="course-one__image">
-												<img src="/assets/images/duhocmy.png" alt="" />
+												<img src={`${post.image_url}`} alt="" />
 												<i className="far fa-heart"></i>
 											</div>
 											<div className="course-one__content">

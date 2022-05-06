@@ -2940,6 +2940,7 @@ a:visited {
 	box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .course-one__image {
+	height: 250px;
 	position: relative;
 }
 .course-one__image > img {

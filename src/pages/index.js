@@ -13,6 +13,7 @@ import Footer from '../components/Footer';
 import Chat from '../components/Chat';
 import SliderBanner from '../components/SliderBanner';
 import http from '../utils/http';
+import pageNumber from '../utils/pageNumber';
 
 const HomePageTwo = ({ posts }) => {
 	return (
@@ -35,7 +36,11 @@ const HomePageTwo = ({ posts }) => {
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
-			url: `/posts?page_size=9`
+			url: `/posts?category=tin-tuc`,
+			params: {
+				page: pageNumber(query.page),
+				page_size: 6
+			}
 		});
 		return {
 			props: {
