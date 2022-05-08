@@ -38,14 +38,14 @@ const Visa = () => {
 						&nbsp;&nbsp;
 						<span typeof="v:Breadcrumb">
 							<a href="https://newgoldenroad.com/chuyen-muc/hoat-dong-cong-ty/" style={{ color: '#81868a' }}>
-								Visa Canada
+							Du Học Canada	
 							</a>
 						</span>
 						&nbsp;&nbsp;
 						<span className="delimiter">/</span>
 						&nbsp;&nbsp;
 						<span className="current">
-							[Các Trường Đại Học Và Cao Đẳng Canada] 
+							[Visa Canada] 
 						</span>
 				</div>
 			<h3 className="title-comm">
