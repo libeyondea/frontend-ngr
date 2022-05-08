@@ -167,7 +167,8 @@
 		line-height: 1.929;
 		font-size: 14px;
 		margin-bottom: 0px;
-		color: #888888;
+		font-weight: 500;
+		color: #000;
 	}
 
 	/* line 85, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
@@ -7305,4 +7306,7 @@
 	.footer-area .btn_1 {
 		margin-top: 0px;
 	}
+	.rating {
+		color: #FF9F00;
+}
 }
