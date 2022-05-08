@@ -213,9 +213,9 @@ const Daotaochinh = () => {
 									<img src="img/special_cource_1.png" className="special_img" alt />
 									<div className="special_cource_text">
 										<a href="course-details.html" className="btn_4">
-											Web Development
-										</a>
-										<h4>$130.00</h4>
+											Ielts
+											</a>
+										<h4>100000 d</h4>
 										<a href="course-details.html">
 											<h3>Web Development</h3>
 										</a>
@@ -507,6 +507,7 @@ const Daotaochinh = () => {
 				</section>
 				{/*::blog_part end::*/}
 				{/* learning part start*/}
+				
 				<section className="advance_feature learning_part">
 					<div className="container">
 						<div className="row align-items-sm-center align-items-xl-stretch">
