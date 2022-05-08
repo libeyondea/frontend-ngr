@@ -213,42 +213,32 @@ const Daotaochinh = () => {
 									<img src="img/special_cource_1.png" className="special_img" alt />
 									<div className="special_cource_text">
 										<a href="course-details.html" className="btn_4">
-											Ielts
+											IELTS
 											</a>
-										<h4>100000 d</h4>
+										<h4>100.000 Đ</h4>
 										<a href="course-details.html">
-											<h3>Web Development</h3>
+											<h3>IELTS</h3>
 										</a>
-										<p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
+										<p>Khóa học giúp học viên nâng  cao  trình độ ilets</p>
 										<div className="author_info">
 											<div className="author_img">
 												<img src="img/author/autho.png" alt />
 												<div className="author_info_text">
-													<p>Conduct by:</p>
+													<p>Đánh giá:</p>
 													<h5>
-														<a href="#">James Well</a>
+														<a href="#">Học viên</a>
 													</h5>
 												</div>
 											</div>
 											<div className="author_rating">
 												<div className="rating">
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/star.svg" alt />
-													</a>
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
 												</div>
-												<p>3.8 Ratings</p>
+												<p>5.0 đánh giá</p>
 											</div>
 										</div>
 									</div>
@@ -271,31 +261,21 @@ const Daotaochinh = () => {
 											<div className="author_img">
 												<img src="img/author/author_2.png" alt />
 												<div className="author_info_text">
-													<p>Conduct by:</p>
+												<p>Đánh giá:</p>
 													<h5>
-														<a href="#">James Well</a>
+														<a href="#">Học viên</a>
 													</h5>
 												</div>
 											</div>
 											<div className="author_rating">
 												<div className="rating">
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/star.svg" alt />
-													</a>
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
 												</div>
-												<p>3.8 Ratings</p>
+												<p>5.0 đánh giá</p>
 											</div>
 										</div>
 									</div>
@@ -318,31 +298,21 @@ const Daotaochinh = () => {
 											<div className="author_img">
 												<img src="img/author/author_3.png" alt />
 												<div className="author_info_text">
-													<p>Conduct by:</p>
+												<p>Đánh giá:</p>
 													<h5>
-														<a href="#">James Well</a>
+														<a href="#">Học viên</a>
 													</h5>
 												</div>
 											</div>
 											<div className="author_rating">
 												<div className="rating">
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/star.svg" alt />
-													</a>
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
 												</div>
-												<p>3.8 Ratings</p>
+												<p>5.0 đánh giá</p>
 											</div>
 										</div>
 									</div>
@@ -367,42 +337,32 @@ const Daotaochinh = () => {
 									<img src="img/special_cource_1.png" className="special_img" alt />
 									<div className="special_cource_text">
 										<a href="course-details.html" className="btn_4">
-											Web Development
-										</a>
-										<h4>$130.00</h4>
+											IELTS
+											</a>
+										<h4>100.000 Đ</h4>
 										<a href="course-details.html">
-											<h3>Web Development</h3>
+											<h3>IELTS</h3>
 										</a>
-										<p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
+										<p>Khóa học giúp học viên nâng  cao  trình độ ilets</p>
 										<div className="author_info">
 											<div className="author_img">
 												<img src="img/author/autho.png" alt />
 												<div className="author_info_text">
-													<p>Conduct by:</p>
+													<p>Đánh giá:</p>
 													<h5>
-														<a href="#">James Well</a>
+														<a href="#">Học viên</a>
 													</h5>
 												</div>
 											</div>
 											<div className="author_rating">
 												<div className="rating">
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/star.svg" alt />
-													</a>
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
 												</div>
-												<p>3.8 Ratings</p>
+												<p>5.0 đánh giá</p>
 											</div>
 										</div>
 									</div>
@@ -425,31 +385,21 @@ const Daotaochinh = () => {
 											<div className="author_img">
 												<img src="img/author/author_2.png" alt />
 												<div className="author_info_text">
-													<p>Conduct by:</p>
+												<p>Đánh giá:</p>
 													<h5>
-														<a href="#">James Well</a>
+														<a href="#">Học viên</a>
 													</h5>
 												</div>
 											</div>
 											<div className="author_rating">
 												<div className="rating">
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/star.svg" alt />
-													</a>
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
 												</div>
-												<p>3.8 Ratings</p>
+												<p>5.0 đánh giá</p>
 											</div>
 										</div>
 									</div>
@@ -472,31 +422,21 @@ const Daotaochinh = () => {
 											<div className="author_img">
 												<img src="img/author/author_3.png" alt />
 												<div className="author_info_text">
-													<p>Conduct by:</p>
+												<p>Đánh giá:</p>
 													<h5>
-														<a href="#">James Well</a>
+														<a href="#">Học viên</a>
 													</h5>
 												</div>
 											</div>
 											<div className="author_rating">
 												<div className="rating">
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/color_star.svg" alt />
-													</a>
-													<a href="#">
-														<img src="img/icon/star.svg" alt />
-													</a>
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
+												<i className="fa fa-star" />
 												</div>
-												<p>3.8 Ratings</p>
+												<p>5.0 đánh giá</p>
 											</div>
 										</div>
 									</div>
@@ -505,6 +445,8 @@ const Daotaochinh = () => {
 						</div>
 					</div>
 				</section>
+				
+		
 				{/*::blog_part end::*/}
 				{/* learning part start*/}
 				
