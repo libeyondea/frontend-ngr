@@ -339,14 +339,14 @@ const Daotaochinh = () => {
 										<a href="course-details.html" className="btn_4">
 											IELTS
 											</a>
-											<h4>1.000.000 ĐỒNG</h4>
+										<h4>1.500.000 ĐỒNG</h4>
 										<a href="course-details.html">
 											<h3>IELTS</h3>
 										</a>
-										<p>Khóa học giúp học viên nâng  cao  trình độ ilets</p>
+										<p>Khóa học giúp học viên nâng cao trình độ ilets và nhiều kỳ thi mong muốn.</p>
 										<div className="author_info">
 											<div className="author_img">
-										
+											
 												<div className="author_info_text">
 													<p>Đánh giá:</p>
 													<h5>
@@ -373,18 +373,18 @@ const Daotaochinh = () => {
 									<img src="img/special_cource_2.png" className="special_img" alt />
 									<div className="special_cource_text">
 										<a href="course-details.html" className="btn_4">
-											design
+											TOEIC
 										</a>
-										<h4>1.000.000 ĐỒNG</h4>
+										<h4>2.000.000 ĐỒNG</h4>
+										
 										<a href="course-details.html">
 											{' '}
-											<h3>Web UX/UI Design </h3>
+											<h3>TOEIC </h3>
 										</a>
-										<p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
+										<p>Hoàn thành khóa học cấp tốc toeic chỉ trong vòng 3 tháng.</p>
 										<div className="author_info">
 											<div className="author_img">
-											
-												<div className="author_info_text">
+													<div className="author_info_text">
 												<p>Đánh giá:</p>
 													<h5>
 														<a href="#">Học viên</a>
@@ -410,17 +410,17 @@ const Daotaochinh = () => {
 									<img src="img/special_cource_3.png" className="special_img" alt />
 									<div className="special_cource_text">
 										<a href="course-details.html" className="btn_4">
-											Wordpress
+											Chuyển cấp
 										</a>
 										<h4>1.000.000 ĐỒNG</h4>
 										<a href="course-details.html">
 											{' '}
-											<h3>Wordpress Development</h3>{' '}
+											<h3>Chuyển cấp</h3>{' '}
 										</a>
-										<p>Which whose darkness saying were life unto fish wherein all fish of together called</p>
+										<p>Nâng cao trình đô tiếng anh tại trường và đạt kết quả cao trong trường.</p>
 										<div className="author_info">
 											<div className="author_img">
-											
+												
 												<div className="author_info_text">
 												<p>Đánh giá:</p>
 													<h5>
