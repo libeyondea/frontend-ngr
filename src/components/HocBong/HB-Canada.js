@@ -1,12 +1,31 @@
 import React from 'react';
 import Link from 'next/link';
 
-const HBCanada = () => {
+const HBCanada = ({ post }) => {
 	return (
 		<div className="content-hb">
 			<h1 className="tieude-2">HỌC BỔNG HẤP DẪN TẠI TRƯỜNG ĐẠI HỌC</h1>
 			<h1 className="tieude-2">CANADA WEST</h1>
-			<div className="card-TH1">
+			{post.data.map((post) => (
+				<>
+					<div className="card-TH1">
+						<div className="card-header1">
+							<p className="card-header-TD">{post.title}</p>
+						</div>
+						<div className="card-body">
+							<p className="img-card-TH1">
+								<img className="img-HB" src={post.image_url} alt="Tuyển dụng vị trí Copywriter" />
+							</p>
+							<p className="card-text-TH1">{post.excerpt}...</p>
+							<Link href={`/p/${post.slug}`}>
+								<a className="btn btn-primary">Đọc Thêm</a>
+							</Link>
+						</div>
+					</div>
+					<div style={{ clear: 'both' }}></div>
+				</>
+			))}
+			{/* <div className="card-TH1">
 				<div className="card-header1">
 					<p className="card-header-TD">
 						[HỌC BỔNG] – Học Bổng hấp dẫn tại trường Canada West University – Du học Canada – Du học Tân Con Đường
@@ -51,7 +70,7 @@ const HBCanada = () => {
 					</Link>
 				</div>
 			</div>
-			<div style={{ clear: 'both' }}></div>
+			<div style={{ clear: 'both' }}></div> */}
 
 			{/*********************************************  PHAN-TRANG ***************************************/}
 			<div className="post-pagination" /* style={{justifyContent:'normal'}} */>
