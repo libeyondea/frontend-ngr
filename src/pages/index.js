@@ -59,7 +59,6 @@ export async function getServerSideProps({ query }) {
 			}
 		};
 	} catch (err) {
-		console.log('test');
 		return {
 			notFound: true
 		};

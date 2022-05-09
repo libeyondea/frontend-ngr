@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Image from './Image';
-const Visa = () => {
+import Pagination from './Pagination';
+const Visa = ({ posts }) => {
+	console.log(posts);
 	return (
 		<div>
 			<section className="inner-banner-VS">
@@ -48,6 +50,8 @@ const Visa = () => {
 			</h3>
 			<div className="row">
 				<div className="col-lg-8">
+				{posts.data.length &&
+						posts.data.map((posts, index) => (
 					<div className="card-TH">
 						<div className="card-header">
 							<p className="card-header-TH">
@@ -57,10 +61,11 @@ const Visa = () => {
 						</div>
 						<div className="card-body" style={{ lineHeight: '24px' }}>
 							<p className="img-card-TH">
-								<img
+							<img src={`${posts.image_url}`} alt="HIGH SCHOOL GRADUATION CỦA MỘT BẠN DU HỌC SINH ĐÁNG YÊU" />
+								{/* <img
 									src="/assets/images/Visa/visa1.jpg"
 									alt="HIGH SCHOOL GRADUATION CỦA MỘT BẠN DU HỌC SINH ĐÁNG YÊU"
-								/>
+								/> */}
 							</p>
 							<h5 className="card-title-TH">HIGH SCHOOL GRADUATION CỦA MỘT BẠN DU HỌC SINH ĐÁNG YÊU</h5>
 							<p className="card-text-TH">
@@ -74,7 +79,7 @@ const Visa = () => {
 						</div>
 					</div>
 
-					<div className="card-TH">
+				/* 	<div className="card-TH">
 						<div className="card-header">
 							<p className="card-header-TH">
 								XIN VISA DU HỌC CANADA CÓ CẦN PHỎNG VẤN HAY KHÔNG? – Du học Canada – Du học Tân Con Đường Vàng
@@ -94,8 +99,10 @@ const Visa = () => {
 								Đọc Thêm
 							</a>
 						</div>
-					</div>
+					</div> */
+					))}
 				</div>
+				
 				<div className="col-lg-4">
 					<div className="become-teacher__form" id="back-top">
 						<div className="become-teacher__form-top">
@@ -202,7 +209,8 @@ const Visa = () => {
 					</div>
 				</div>
 			</div>
-			<div className="post-pagination">
+			<Pagination total={posts?.pagination?.total} limit={6} />
+			{/* <div className="post-pagination">
 				<a href="#">
 					<i className="fa fa-angle-double-left" />
 				</a>
@@ -213,7 +221,7 @@ const Visa = () => {
 				<a href="#">
 					<i className="fa fa-angle-double-right" />
 				</a>
-			</div>
+			</div> */}
 		</div>
 	);
 };
