@@ -19,7 +19,7 @@ const VisaCa = ({ posts }) => {
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
-			url: `/posts?category=du-hoc-canada`,
+			url: `/posts?category=visa-canada`,
 			params: {
 				page: pageNumber(query.page),
 				page_size: 6

@@ -1871,6 +1871,7 @@ a:visited {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	margin: 10px;
 	-webkit-box-align: start;
 	-ms-flex-align: start;
 	align-items: flex-start;
