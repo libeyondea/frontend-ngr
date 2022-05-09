@@ -210,7 +210,7 @@ const Daotaochinh = () => {
 						<div className="row">
 							<div className="col-sm-6 col-lg-4">
 								<div className="single_special_cource">
-									<img src="img/special_cource_1.png" className="special_img" alt />
+									<img className src="/assets/images/IELTS2.jpg" alt="" />
 									<div className="special_cource_text">
 										<a href="course-details.html" className="btn_4">
 											IELTS
@@ -240,13 +240,13 @@ const Daotaochinh = () => {
 												</div>
 												<p>5.0 đánh giá</p>
 											</div>
-										</div>
+										</div>0
 									</div>
 								</div>
 							</div>
 							<div className="col-sm-6 col-lg-4">
 								<div className="single_special_cource">
-									<img src="img/special_cource_2.png" className="special_img" alt />
+									<img className src="/assets/images/toeic.jpg" alt />
 									<div className="special_cource_text">
 										<a href="course-details.html" className="btn_4">
 											TOEIC
