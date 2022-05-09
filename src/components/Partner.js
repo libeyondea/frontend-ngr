@@ -1,7 +1,8 @@
 import { Slide } from 'react-slideshow-image';
 import Image from './Image';
 
-const CourseCatOne = () => {
+const CourseCatOne = ({ dtdh }) => {
+	console.log('dtdh', dtdh);
 	const params = {
 		slidesPerView: 1.5,
 		centeredSlides: true,
@@ -63,7 +64,20 @@ const CourseCatOne = () => {
 				</div>
 				<div className="course-category-one__carousel">
 					<Slide {...properties}>
-						<div className="item mr-4">
+						{dtdh.data.length &&
+							dtdh.data.map((dtdh, index) => (
+								<div className="item mr-4" key={index}>
+									<div className="course-category-one__single color-1" style={{ height: '250px' }}>
+										<div className="">
+											<Image src={`${dtdh.image_url}`} alt="" width={150} height={80} />
+										</div>
+										<h3 className="course-category-one__title">
+											<a href="#">{dtdh.title}</a>
+										</h3>
+									</div>
+								</div>
+							))}
+						{/* 	<div className="item mr-4">
 							<div className="course-category-one__single color-1">
 								<div className="">
 									<Image
@@ -147,7 +161,7 @@ const CourseCatOne = () => {
 									<a href="#">Kent Institute</a>
 								</h3>
 							</div>
-						</div>
+						</div> */}
 					</Slide>
 				</div>
 			</div>

@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import DSTD from './DSTD';
 const TuyenDung = ({ posts }) => {
+	console.log(posts);
 	return (
 		<section className="courses-details">
 			<div className="container">

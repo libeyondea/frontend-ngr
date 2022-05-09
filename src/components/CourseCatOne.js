@@ -1,7 +1,8 @@
 import React from 'react';
 import Swiper from 'swiper';
 
-const CourseCatOne = () => {
+const CourseCatOne = ({ dtdh }) => {
+	console.log(dtdh);
 	const params = {
 		slidesPerView: 6,
 		loop: true,
