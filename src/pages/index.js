@@ -15,7 +15,7 @@ import SliderBanner from '../components/SliderBanner';
 import http from '../utils/http';
 import pageNumber from '../utils/pageNumber';
 
-const HomePageTwo = ({ posts, fbkh }) => {
+const HomePageTwo = ({ posts, fbkh, khdh, dtdh }) => {
 	return (
 		<Layout pageTitle="Du Học Tân Con Đường Vàng">
 			<NavOne />
@@ -23,19 +23,19 @@ const HomePageTwo = ({ posts, fbkh }) => {
 			<SliderBanner />
 			<Flag />
 			<Video />
-			<Customer />
+			<Customer khdh={khdh} />
 			<Event posts={posts} />
 			<FormSignup />
 			<charts />
 			<TestimonialOne fbkh={fbkh} />
-			<Partner />
+			<Partner dtdh={dtdh} />
 			<Footer />
 		</Layout>
 	);
 };
 export async function getServerSideProps({ query }) {
 	try {
-		const [resPost1, resPost2] = await Promise.all([
+		const [resPost1, resPost2, resPost3, resPost4] = await Promise.all([
 			http.get({
 				url: `/posts?category=tin-tuc`,
 				params: {
@@ -49,13 +49,29 @@ export async function getServerSideProps({ query }) {
 					page: pageNumber(query.page),
 					page_size: 6
 				}
+			}),
+			http.get({
+				url: `/posts?category=khach-hang`,
+				params: {
+					page: pageNumber(query.page),
+					page_size: 4
+				}
+			}),
+			http.get({
+				url: `/posts?category=doi-tac`,
+				params: {
+					page: pageNumber(query.page),
+					page_size: 10
+				}
 			})
 		]);
 		console.log('resPost1', resPost1);
 		return {
 			props: {
 				posts: resPost1.data,
-				fbkh: resPost2.data
+				fbkh: resPost2.data,
+				khdh: resPost3.data,
+				dtdh: resPost4.data
 			}
 		};
 	} catch (err) {

@@ -1,5 +1,5 @@
 import React from 'react';
-const TuyenDungDetails = () => {
+const TuyenDungDetails = ({ post }) => {
 	return (
 		<section className="blog-one blog-page">
 			<div className="container">

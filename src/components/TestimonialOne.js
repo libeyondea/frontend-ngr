@@ -76,7 +76,7 @@ const TestimonialOne = ({ fbkh }) => {
 										</div>
 										<p className="testimonials-one__text">{fbkh.content}</p>
 										<Image
-											src="/assets/images/phan_hoi1.jpg"
+											src={`${fbkh.avatar_url}`}
 											alt=""
 											className="testimonials-one__img"
 											width={100}

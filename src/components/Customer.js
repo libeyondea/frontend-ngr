@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import Image from '../components/Image';
 
-const Customer = () => {
+const Customer = ({ khdh }) => {
+	console.log('khdh', khdh);
 	return (
 		<div>
 			<section className="course-one__top-title home-two">
@@ -15,24 +16,25 @@ const Customer = () => {
 				<div className="container">
 					<div className="course-one__carousel">
 						<div className="row">
-							<div className="col-12 col-md-3">
-								<div className="card">
-									<Image
-										src="/assets/images/kh3.jpg"
-										className="card-img-top"
-										alt="..."
-										isBlur
-										width={300}
-										height={300}
-									/>
-									<div className="card-body">
-										<div className="card-text">
-											Khách hàng đậu Visa định cư Mỹ tại Du học Tân Con Đường Vàng.
+							{khdh.data.length &&
+								khdh.data.map((khdh, index) => (
+									<div className="col-12 col-md-3" key={index}>
+										<div className="card">
+											<Image
+												src={`${khdh.image_url}`}
+												className="card-img-top"
+												alt="..."
+												isBlur
+												width={300}
+												height={300}
+											/>
+											<div className="card-body">
+												<div className="card-text">{khdh.excerpt}</div>
+											</div>
 										</div>
 									</div>
-								</div>
-							</div>
-							<div className="col-12 col-md-3">
+								))}
+							{/* <div className="col-12 col-md-3">
 								<div className="card">
 									<Image
 										src="/assets/images/kh4.jpg"
@@ -85,7 +87,7 @@ const Customer = () => {
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>
