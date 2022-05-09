@@ -185,27 +185,7 @@ const Visa = () => {
 								<a className="course-details__list-author" href="#">
 									by <span>Lydia Byrd</span>
 								</a>
-								<h3>
-									<a href="#">Marketing strategies</a>
-								</h3>
-								<div className="course-details__list-stars">
-									<i className="fas fa-star"></i>
-									<i className="fas fa-star"></i>
-									<i className="fas fa-star"></i>
-									<i className="fas fa-star"></i>
-									<i className="fas fa-star"></i>
-									<span>4.8</span>
-								</div>
-							</div>
-						</div>
-						<div className="course-details__list-item">
-							<div className="course-details__list-img">
-								<img src="/assets/images/lc-1-2.jpg" alt="" />
-							</div>
-							<div className="course-details__list-content">
-								<a className="course-details__list-author" href="#">
-									by <span>Lydia Byrd</span>
-								</a>
+						
 								<h3>
 									<a href="#">Marketing strategies</a>
 								</h3>
