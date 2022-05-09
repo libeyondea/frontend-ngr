@@ -204,3 +204,26 @@ a {
     height: 400px;
     width: 715px;
 }
+.gioithieu-title{
+    font-size: 45pt;
+    margin: auto;
+    text-align: center;
+    color: #ff944d;
+    text-shadow: 5px 5px 8px #d3b06a;
+    font-weight: bolder;
+}
+.noidunggioithieu{
+    color: black;
+    margin-left: 100px;
+    margin-right:  100px;
+    margin-top: 50px;
+    text-align: justify;
+}
+.HinhGT{
+    margin-left: 250px;
+    width: 800px;
+}
+.H_KHDT{
+    margin-left: 350px;
+    padding-right: 20px;
+}
