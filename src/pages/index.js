@@ -15,7 +15,7 @@ import SliderBanner from '../components/SliderBanner';
 import http from '../utils/http';
 import pageNumber from '../utils/pageNumber';
 
-const HomePageTwo = ({ posts }) => {
+const HomePageTwo = ({ posts, fbkh }) => {
 	return (
 		<Layout pageTitle="Du Học Tân Con Đường Vàng">
 			<NavOne />
@@ -27,7 +27,7 @@ const HomePageTwo = ({ posts }) => {
 			<Event posts={posts} />
 			<FormSignup />
 			<charts />
-			<TestimonialOne />
+			<TestimonialOne fbkh={fbkh} />
 			<Partner />
 			<Footer />
 		</Layout>
@@ -35,16 +35,27 @@ const HomePageTwo = ({ posts }) => {
 };
 export async function getServerSideProps({ query }) {
 	try {
-		const resPost = await http.get({
-			url: `/posts?category=tin-tuc`,
-			params: {
-				page: pageNumber(query.page),
-				page_size: 6
-			}
-		});
+		const [resPost1, resPost2] = await Promise.all([
+			http.get({
+				url: `/posts?category=tin-tuc`,
+				params: {
+					page: pageNumber(query.page),
+					page_size: 6
+				}
+			}),
+			http.get({
+				url: `/feedback`,
+				params: {
+					page: pageNumber(query.page),
+					page_size: 6
+				}
+			})
+		]);
+		console.log('resPost1', resPost1);
 		return {
 			props: {
-				posts: resPost.data
+				posts: resPost1.data,
+				fbkh: resPost2.data
 			}
 		};
 	} catch (err) {
