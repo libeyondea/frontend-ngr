@@ -80,7 +80,7 @@ const NavOne = () => {
 
 	return (
 		<>
-			<div className="header-bn-top" style={{ background: 'rgb(255, 60, 18)' }}>
+			<div className="header-bn-top" style={{ background: 'rgb(161 103 90)' }}>
 				<div className="header-bn-normal">
 					<a className="abc" href="/speaking-club" target="_blank">
 						<img src="/assets/images/A-HIEU-BANNER03.gif" alt="" />
