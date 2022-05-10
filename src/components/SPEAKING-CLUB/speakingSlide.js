@@ -19,7 +19,7 @@ class SpeakingSlide extends React.Component {
 				},
 				{
 					/* 	city: 'Singapore', */
-					img: '/assets/images/speaking-club01.png'
+					img: '/assets/images/tu-van-dinh-cu.png'
 				},
 				{
 					/* city: 'Prague',

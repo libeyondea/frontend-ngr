@@ -156,6 +156,7 @@
   .checkbox {
     position: relative; }
     .checkbox label {
+        margin-bottom: auto !important;
       padding-left: 22px;
       cursor: pointer; }
     .checkbox input {
