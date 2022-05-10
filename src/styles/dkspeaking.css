@@ -15,7 +15,7 @@
   body {
     font-family: "Muli-Regular";
     color: #666;
-    font-size: 13px;
+   /*  font-size: 13px; */
     margin: 0; }
   
   input, textarea, select, button {
@@ -40,7 +40,8 @@
     outline: none; }
   
   .wrapper {
-    min-height: 100vh;
+    padding-top: 25px;
+/*     min-height: 100vh; */
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -63,9 +64,12 @@
       letter-spacing: 2px; }
   
   form {
-    width: 50%;
+    /* width: 50%; */
     padding-left: 45px; }
-  
+  .form01{
+     width: 50%;
+    padding-left: 45px;
+  }
   .form-group {
     display: flex; }
     .form-group .form-wrapper {
@@ -200,4 +204,9 @@
       padding-left: 15px; } }
   
   /*# sourceMappingURL=style.css.map */
-  
+  .title01 {
+    text-align: center;
+    color: #0906e7;
+    font-size: 25px;
+    padding-top: 15px;
+}

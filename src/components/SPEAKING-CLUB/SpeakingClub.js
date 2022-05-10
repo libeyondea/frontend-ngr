@@ -78,7 +78,7 @@ const SpeakingClub = () => {
 								>
 									<img
 										style={{ width: '1470px' }}
-										src="https://custom.cvent.com/1E2DC248CBF74FDF99E90B287547C12A/pix/bf722756655e4f22b9e5434dc5d9758d.png"
+										src="/assets/images/speaking-club2.png"
 										alt="Workshop T4_Banner LP 1300_600"
 										title="Workshop T4_Banner LP 1300_600"
 										data-reactid=".0.0.$/=10.2.0.0.$section2.$row0.$column0.$widget0.0.0.0"
@@ -101,38 +101,73 @@ const SpeakingClub = () => {
 							<div className="tab-content course-details__tab-content ">
 								<div className="tab-pane show active  animated fadeInUp content_1" role="tabpanel" id="overview">
 									<p className="titlee">
-										<strong>Thời gian: 9:30 - 11:30, duy nhất Chủ Nhật 24.04.2022</strong>
+										<strong>THỜI GIAN: SÁNG CHỦ NHẬT HÀNG TUẦN - 9:00AM đến 12:00PM</strong>
 									</p>
 									<p>
-										<strong>Số lượng</strong>: 3
+										<strong>Bạn đang khó khăn trong việc giao tiếp bằng tiếng Anh ?</strong>
 									</p>
 									<p>
-										<strong>Mô tả chi tiết:</strong>
+										<strong>Bạn cảm thấy khả năng phản xạ hay từ vựng tiếng Anh không tốt?</strong>
+									</p>
+									<p>
+										<strong>
+											Bạn cảm thấy mình muốn cải thiện khả năng nói và sử dụng tiếng Anh của mình?
+										</strong>
+									</p>
+									<p className="titlee">
+										<strong>BẠN ĐỪNG LO!</strong>
 									</p>
 									<strong>
-										Bạn có bao giờ tự đặt câu hỏi vì sao bản thân đã dành nhiều thời gian ôn luyện Speaking
-										nhưng vẫn chưa đạt kết quả như mong muốn?
+										Hãy tham gia Speaking Club cùng New Golden Road nhé!! Tại đây, các bạn sẽ được trò chuyện,
+										chia sẽ với nhau trực tiếp tất cả bằng tiếng Anh. Dưới sự hỗ trợ của các giảng viên tại
+										New Golden Road, các bạn sẽ được bổ sung và phát triển thêm vốn từ vựng và đồng thời sẽ
+										được cải thiện khả năng phản xạ khi giao tiếp tiếng Anh!
 									</strong>
-									<strong>
-										Gần mực thì đen, gần đến ngày thi phải tham gia hội thảo trực tuyến tháng 4 của IELTS IDP
-										nhé!
-									</strong>
-									<strong>
-										Đến với hội thảo của IELTS IDP cùng sự hướng dẫn của thầy Phan Trọng Khôi (8.5 Speaking) -
-										Thạc sỹ đại học Curtin (Úc) với bề dày hơn 10 năm kinh nghiệm đào tạo Anh Ngữ và IELTS,
-										các thí sinh sẽ nắm được
-									</strong>
-									:
-									<ul>
-										<li className="list">5 cách trả lời hiệu quả cho Speaking Part 1c</li>
-										<li className="list">6 Bước giúp bạn ẵm trọn điểm Speaking Part 2</li>
-										<li className="list">Hiểu rõ sự khác nhau giữa Speaking Part 1 và Part 3</li>
-										<li className="list">
-											Cơ hội thực hành và luyện tập với các chủ đề cụ thể cùng diễn giả và nhận về các phần
-											quà xinh xắn chỉ có tại IELTS IDP
-										</li>
-									</ul>
-									<strong>Hoàn toàn miễn phí, đăng ký ngay!</strong>
+									<div>
+										<p className="titlee title01">
+											<strong>TẤT CẢ ĐỀU HOÀN TOÀN MIỄN PHÍ, THAM GIA NGAY NHÉ!</strong>
+										</p>
+										<div
+											className="wrapper"
+											style={{ backgroundImage: 'url("images/bg-registration-form-2.jpg")' }}
+										>
+											<div className="inner">
+												<form action className='form01'>
+													<h3>Registration Form</h3>
+													<div className="form-group">
+														<div className="form-wrapper">
+															<label htmlFor>First Name</label>
+															<input type="text" className="form-control" />
+														</div>
+														<div className="form-wrapper">
+															<label htmlFor>Last Name</label>
+															<input type="text" className="form-control" />
+														</div>
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Email</label>
+														<input type="text" className="form-control" />
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Password</label>
+														<input type="password" className="form-control" />
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Confirm Password</label>
+														<input type="password" className="form-control" />
+													</div>
+													<div className="checkbox">
+														<label>
+															<input type="checkbox" /> I caccept the Terms of Use &amp; Privacy
+															Policy.
+															<span className="checkmark" />
+														</label>
+													</div>
+													<button>Register Now</button>
+												</form>
+											</div>
+										</div>
+									</div>
 								</div>
 								<div className="tab-pane  animated fadeInUp" role="tabpanel" id="curriculum">
 									<span className="lienhe">
