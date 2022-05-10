@@ -76,25 +76,35 @@ const SpeakingClub = () => {
 									className="cvui-image-wrapper"
 									data-reactid=".0.0.$/=10.2.0.0.$section2.$row0.$column0.$widget0.0.0"
 								>
-									<img
+									{/* <img
 										style={{ width: '1470px' }}
 										src="/assets/images/speaking-club2.png"
 										alt="Workshop T4_Banner LP 1300_600"
 										title="Workshop T4_Banner LP 1300_600"
 										data-reactid=".0.0.$/=10.2.0.0.$section2.$row0.$column0.$widget0.0.0.0"
-									/>
+									/> */}
 								</div>
 							</div>
 
 							<ul className="course-details__tab-navs list-unstyled nav nav-tabs" role="tablist">
 								<li>
 									<a className="active" role="tab" data-toggle="tab" href="#overview">
-										Đăng ký tham dự
+										Tư vấn du học
 									</a>
 								</li>
 								<li>
 									<a className="" role="tab" data-toggle="tab" href="#curriculum">
-										Liên Hệ Tuyển Dụng
+										Speaking Club
+									</a>
+								</li>
+								<li>
+									<a className="" role="tab" data-toggle="tab" href="#dinhcu">
+										Tư vấn định cư
+									</a>
+								</li>
+								<li>
+									<a className="" role="tab" data-toggle="tab" href="#luyenIel">
+										Luyện thi IELTS
 									</a>
 								</li>
 							</ul>
@@ -132,7 +142,7 @@ const SpeakingClub = () => {
 											style={{ backgroundImage: 'url("images/bg-registration-form-2.jpg")' }}
 										>
 											<div className="inner">
-												<form action className='form01'>
+												<form action className="form01">
 													<h3>Registration Form</h3>
 													<div className="form-group">
 														<div className="form-wrapper">
@@ -282,135 +292,145 @@ const SpeakingClub = () => {
 									<br />
 									<br />
 								</div>
-								<div className="tab-pane  animated fadeInUp" role="tabpanel" id="review">
-									<div className="row">
-										<div className="col-xl-7 d-flex">
-											<div className="course-details__progress my-auto">
-												<div className="course-details__progress-item">
-													<p className="course-details__progress-text">Excellent</p>
-													<div className="course-details__progress-bar">
-														<span style={{ width: `95%` }}></span>
-													</div>
-													<p className="course-details__progress-count">5</p>
-												</div>
-												<div className="course-details__progress-item">
-													<p className="course-details__progress-text">Very Good</p>
-													<div className="course-details__progress-bar">
-														<span style={{ width: `65%` }}></span>
-													</div>
-													<p className="course-details__progress-count">2</p>
-												</div>
-												<div className="course-details__progress-item">
-													<p className="course-details__progress-text">Average</p>
-													<div className="course-details__progress-bar">
-														<span style={{ width: `33%` }}></span>
-													</div>
-													<p className="course-details__progress-count">1</p>
-												</div>
-												<div className="course-details__progress-item">
-													<p className="course-details__progress-text">Poor</p>
-													<div className="course-details__progress-bar">
-														<span style={{ width: `0%` }} className="no-bubble"></span>
-													</div>
-													<p className="course-details__progress-count">0</p>
-												</div>
-												<div className="course-details__progress-item">
-													<p className="course-details__progress-text">Terrible</p>
-													<div className="course-details__progress-bar">
-														<span style={{ width: `0%` }} className="no-bubble"></span>
-													</div>
-													<p className="course-details__progress-count">0</p>
-												</div>
-											</div>
-										</div>
-										<div className="col-xl-5 justify-content-xl-end justify-content-sm-center d-flex">
-											<div className="course-details__review-box">
-												<p className="course-details__review-count">4.6</p>
-												<div className="course-details__review-stars">
-													<i className="fas fa-star"></i>
-													<i className="fas fa-star"></i>
-													<i className="fas fa-star"></i>
-													<i className="fas fa-star"></i>
-													<i className="fas fa-star-half"></i>
-												</div>
-												<p className="course-details__review-text">30 reviews</p>
-											</div>
-										</div>
-									</div>
-									<div className="course-details__comment">
-										<div className="course-details__comment-single">
-											<div className="course-details__comment-top">
-												<div className="course-details__comment-img">
-													<img src="/assets/images/team-1-1.jpg" alt="" />
-												</div>
-												<div className="course-details__comment-right">
-													<h2 className="course-details__comment-name">Steven Meyer</h2>
-													<div className="course-details__comment-meta">
-														<p className="course-details__comment-date">26 July, 2019</p>
-														<div className="course-details__comment-stars">
-															<i className="fa fa-star"></i>
-															<i className="fa fa-star"></i>
-															<i className="fa fa-star"></i>
-															<i className="fa fa-star"></i>
-															<i className="fa fa-star star-disabled"></i>
-														</div>
-													</div>
-												</div>
-											</div>
-											<p className="course-details__comment-text">
-												Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui
-												dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae
-												dicta sunt explicabo.
-											</p>
-										</div>
-										<div className="course-details__comment-single">
-											<div className="course-details__comment-top">
-												<div className="course-details__comment-img">
-													<img src="/assets/images/team-1-2.jpg" alt="" />
-												</div>
-												<div className="course-details__comment-right">
-													<h2 className="course-details__comment-name">Lina Kelley</h2>
-													<div className="course-details__comment-meta">
-														<p className="course-details__comment-date">26 July, 2019</p>
-														<div className="course-details__comment-stars">
-															<i className="fa fa-star"></i>
-															<i className="fa fa-star"></i>
-															<i className="fa fa-star"></i>
-															<i className="fa fa-star star-disabled"></i>
-															<i className="fa fa-star star-disabled"></i>
-														</div>
-													</div>
-												</div>
-											</div>
-											<p className="course-details__comment-text">
-												Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui
-												dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae
-												dicta sunt explicabo.
-											</p>
-										</div>
-									</div>
-									<form action="#" className="course-details__comment-form">
-										<h2 className="course-details__title">Add a review</h2>
-										<p className="course-details__comment-form-text">
-											Rate this Course? <a href="#" className="fas fa-star"></a>
-											<a href="#" className="fas fa-star"></a>
-											<a href="#" className="fas fa-star"></a>
-											<a href="#" className="fas fa-star"></a>
-											<a href="#" className="fas fa-star"></a>
+								<div className="tab-pane  animated fadeInUp" role="tabpanel" id="dinhcu">
+									<p className="titlee">
+										<strong>THỜI GIAN: SÁNG CHỦ NHẬT HÀNG TUẦN - 9:00AM đến 12:00PM</strong>
+									</p>
+									<p>
+										<strong>Bạn đang khó khăn trong việc giao tiếp bằng tiếng Anh ?</strong>
+									</p>
+									<p>
+										<strong>Bạn cảm thấy khả năng phản xạ hay từ vựng tiếng Anh không tốt?</strong>
+									</p>
+									<p>
+										<strong>
+											Bạn cảm thấy mình muốn cải thiện khả năng nói và sử dụng tiếng Anh của mình?
+										</strong>
+									</p>
+									<p className="titlee">
+										<strong>BẠN ĐỪNG LO!</strong>
+									</p>
+									<strong>
+										Hãy tham gia Speaking Club cùng New Golden Road nhé!! Tại đây, các bạn sẽ được trò chuyện,
+										chia sẽ với nhau trực tiếp tất cả bằng tiếng Anh. Dưới sự hỗ trợ của các giảng viên tại
+										New Golden Road, các bạn sẽ được bổ sung và phát triển thêm vốn từ vựng và đồng thời sẽ
+										được cải thiện khả năng phản xạ khi giao tiếp tiếng Anh!
+									</strong>
+									<div>
+										<p className="titlee title01">
+											<strong>TẤT CẢ ĐỀU HOÀN TOÀN MIỄN PHÍ, THAM GIA NGAY NHÉ!</strong>
 										</p>
-										<div className="row">
-											<div className="col-lg-6">
-												<input type="text" placeholder="Your Name" />
-												<input type="text" placeholder="Email Address" />
-											</div>
-											<div className="col-lg-12">
-												<textarea placeholder="Write Message"></textarea>
-												<button type="submit" className="thm-btn course-details__comment-form-btn">
-													Leave a Review
-												</button>
+										<div
+											className="wrapper"
+											style={{ backgroundImage: 'url("images/bg-registration-form-2.jpg")' }}
+										>
+											<div className="inner">
+												<form action className="form01">
+													<h3>Registration Form</h3>
+													<div className="form-group">
+														<div className="form-wrapper">
+															<label htmlFor>First Name</label>
+															<input type="text" className="form-control" />
+														</div>
+														<div className="form-wrapper">
+															<label htmlFor>Last Name</label>
+															<input type="text" className="form-control" />
+														</div>
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Email</label>
+														<input type="text" className="form-control" />
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Password</label>
+														<input type="password" className="form-control" />
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Confirm Password</label>
+														<input type="password" className="form-control" />
+													</div>
+													<div className="checkbox">
+														<label>
+															<input type="checkbox" /> I caccept the Terms of Use &amp; Privacy
+															Policy.
+															<span className="checkmark" />
+														</label>
+													</div>
+													<button>Register Now</button>
+												</form>
 											</div>
 										</div>
-									</form>
+									</div>
+								</div>
+								<div className="tab-pane  animated fadeInUp" role="tabpanel" id="luyenIel">
+									<p className="titlee">
+										<strong>THỜI GIAN: SÁNG CHỦ NHẬT HÀNG TUẦN - 9:00AM đến 12:00PM</strong>
+									</p>
+									<p>
+										<strong>Bạn đang khó khăn trong việc giao tiếp bằng tiếng Anh ?</strong>
+									</p>
+									<p>
+										<strong>Bạn cảm thấy khả năng phản xạ hay từ vựng tiếng Anh không tốt?</strong>
+									</p>
+									<p>
+										<strong>
+											Bạn cảm thấy mình muốn cải thiện khả năng nói và sử dụng tiếng Anh của mình?
+										</strong>
+									</p>
+									<p className="titlee">
+										<strong>BẠN ĐỪNG LO!</strong>
+									</p>
+									<strong>
+										Hãy tham gia Speaking Club cùng New Golden Road nhé!! Tại đây, các bạn sẽ được trò chuyện,
+										chia sẽ với nhau trực tiếp tất cả bằng tiếng Anh. Dưới sự hỗ trợ của các giảng viên tại
+										New Golden Road, các bạn sẽ được bổ sung và phát triển thêm vốn từ vựng và đồng thời sẽ
+										được cải thiện khả năng phản xạ khi giao tiếp tiếng Anh!
+									</strong>
+									<div>
+										<p className="titlee title01">
+											<strong>TẤT CẢ ĐỀU HOÀN TOÀN MIỄN PHÍ, THAM GIA NGAY NHÉ!</strong>
+										</p>
+										<div
+											className="wrapper"
+											style={{ backgroundImage: 'url("images/bg-registration-form-2.jpg")' }}
+										>
+											<div className="inner">
+												<form action className="form01">
+													<h3>Registration Form</h3>
+													<div className="form-group">
+														<div className="form-wrapper">
+															<label htmlFor>First Name</label>
+															<input type="text" className="form-control" />
+														</div>
+														<div className="form-wrapper">
+															<label htmlFor>Last Name</label>
+															<input type="text" className="form-control" />
+														</div>
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Email</label>
+														<input type="text" className="form-control" />
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Password</label>
+														<input type="password" className="form-control" />
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Confirm Password</label>
+														<input type="password" className="form-control" />
+													</div>
+													<div className="checkbox">
+														<label>
+															<input type="checkbox" /> I caccept the Terms of Use &amp; Privacy
+															Policy.
+															<span className="checkmark" />
+														</label>
+													</div>
+													<button>Register Now</button>
+												</form>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>

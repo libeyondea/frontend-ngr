@@ -9,8 +9,7 @@
    /*  src: url("../fonts/muli/Muli-Bold.ttf");  */}
   * {
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
+    -moz-box-sizing: border-box;}
   
   body {
     font-family: "Muli-Regular";
@@ -30,7 +29,7 @@
     max-width: 100%; }
   
   ul {
-    padding-left: 0;
+    /* padding-left: 0; */
     margin-bottom: 0; }
   
   a:hover {
