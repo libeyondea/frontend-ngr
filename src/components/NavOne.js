@@ -79,28 +79,38 @@ const NavOne = () => {
 	};
 
 	return (
-		<header className="site-header site-header__header-one ">
-			<nav
-				className={`navbar navbar-expand-lg navbar-light header-navigation stricky ${
-					sticky ? 'stricked-menu stricky-fixed' : ''
-				}`}
-			>
-				<div className="container clearfix">
-					<div className="logo-box clearfix">
-						<Link href="/">
-							<a className="navbar-brand">
-								<div className="fixstyle">
-									<Image
-										src="/assets/images/NGRLOGO.png"
-										className="main-logo"
-										width="165"
-										height="100"
-										alt="Awesome Image"
-									/>
-								</div>
-							</a>
-						</Link>
-						{/* <div className='header__social'>
+		<>
+			<div className="header-bn-top" style={{ background: 'rgb(255, 60, 18)' }}>
+				<div className="header-bn-normal">
+					<a className="abc" href="/" target="_blank">
+						<img src="/assets/images/header-43lvv.png" alt="" />
+					</a>
+				</div>
+				<style dangerouslySetInnerHTML={{ __html: '.header-mobile-textlinks{background:#f99817;color:#c20000}' }} />
+			</div>
+
+			<header className="site-header site-header__header-one ">
+				<nav
+					className={`navbar navbar-expand-lg navbar-light header-navigation stricky ${
+						sticky ? 'stricked-menu stricky-fixed' : ''
+					}`}
+				>
+					<div className="container clearfix">
+						<div className="logo-box clearfix">
+							<Link href="/">
+								<a className="navbar-brand">
+									<div className="fixstyle">
+										<Image
+											src="/assets/images/NGRLOGO.png"
+											className="main-logo"
+											width="165"
+											height="100"
+											alt="Awesome Image"
+										/>
+									</div>
+								</a>
+							</Link>
+							{/* <div className='header__social'>
 								<a href='#'>
 									<i className='fab fa-twitter'></i>
 								</a>
@@ -114,20 +124,20 @@ const NavOne = () => {
 									<i className='fab fa-instagram'></i>
 								</a>
 							</div> */}
-						{/* <button className='menu-toggler'>
+							{/* <button className='menu-toggler'>
 								<span className='kipso-icon-menu'></span>
 							</button> */}
-					</div>
+						</div>
 
-					<div className="main-navigation">
-						<ul className=" navigation-box">
-							<li className="current">
-								<Link href="/">
-									<a>Trang chủ </a>
-								</Link>
-							</li>
-							{listCategory && categoriesRecursive(listCategory.data)}
-							{/* <li className="current">
+						<div className="main-navigation">
+							<ul className=" navigation-box">
+								<li className="current">
+									<Link href="/">
+										<a>Trang chủ </a>
+									</Link>
+								</li>
+								{listCategory && categoriesRecursive(listCategory.data)}
+								{/* <li className="current">
 								<Link href="/">
 									<a>Du Học</a>
 								</Link>
@@ -419,7 +429,7 @@ const NavOne = () => {
 									</li>
 								</ul>
 							</li> */}
-							{/* <li className="current">
+								{/* <li className="current">
 								<Link href="/">
 									<a>Định Cư</a>
 								</Link>
@@ -677,46 +687,47 @@ const NavOne = () => {
 								</ul>
 							</li> */}
 
-							<li>
-								<Link href="/contact">
-									<a>Liên Hệ</a>
-								</Link>
-							</li>
-						</ul>
+								<li>
+									<Link href="/contact">
+										<a>Liên Hệ</a>
+									</Link>
+								</li>
+							</ul>
+						</div>
+						<div className="right-side-box clearfix">
+							<a className="header__search-btn search-popup__toggler search-toggle float-left" href="#">
+								<i className="kipso-icon-magnifying-glass"></i>
+							</a>
+							<button className="menu-toggler m-0 ml-2">
+								<span className="kipso-icon-menu"></span>
+							</button>
+						</div>
+						<div id="wrap">
+							<a
+								href="#back-top"
+								className="btn-slide"
+								onMouseEnter={() => setshowBtn(true)}
+								onMouseLeave={() => setshowBtn(false)}
+							>
+								<span className="title">Đăng ký</span>
+								<span className="circle">
+									{showBtn ? (
+										<>
+											<i className="fa fa-arrow-down"></i>
+										</>
+									) : (
+										<>
+											<i className="fa fa-arrow-right"></i>
+										</>
+									)}
+								</span>
+								<span className="title-hover">Chuyển đi .....</span>
+							</a>
+						</div>
 					</div>
-					<div className="right-side-box clearfix">
-						<a className="header__search-btn search-popup__toggler search-toggle float-left" href="#">
-							<i className="kipso-icon-magnifying-glass"></i>
-						</a>
-						<button className="menu-toggler m-0 ml-2">
-							<span className="kipso-icon-menu"></span>
-						</button>
-					</div>
-					<div id="wrap">
-						<a
-							href="#back-top"
-							className="btn-slide"
-							onMouseEnter={() => setshowBtn(true)}
-							onMouseLeave={() => setshowBtn(false)}
-						>
-							<span className="title">Đăng ký</span>
-							<span className="circle">
-								{showBtn ? (
-									<>
-										<i className="fa fa-arrow-down"></i>
-									</>
-								) : (
-									<>
-										<i className="fa fa-arrow-right"></i>
-									</>
-								)}
-							</span>
-							<span className="title-hover">Chuyển đi .....</span>
-						</a>
-					</div>
-				</div>
-			</nav>
-		</header>
+				</nav>
+			</header>
+		</>
 	);
 };
 

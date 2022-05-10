@@ -218,7 +218,7 @@ const SpeakingClub = () => {
 								<div className="tab-pane  animated fadeInUp" role="tabpanel" id="curriculum">
 									<img
 										style={{ width: '1470px' }}
-										src="/assets/images/tu-van-dinh-cu.png"
+										src="/assets/images/speaking-club01.png"
 										alt="Workshop T4_Banner LP 1300_600"
 										title="Workshop T4_Banner LP 1300_600"
 										data-reactid=".0.0.$/=10.2.0.0.$section2.$row0.$column0.$widget0.0.0.0"
@@ -289,7 +289,7 @@ const SpeakingClub = () => {
 														</select>
 													</div>
 													<div className="form-wrapper">
-														<label htmlFor>Bạn đang hoạc có dự định thi ielts, Toeic không?</label>
+														<label htmlFor>Bạn đang hoạc có dự định thi Ielts, Toeic không?</label>
 														<input type="password" className="form-control" />
 													</div>
 
