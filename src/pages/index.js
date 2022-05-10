@@ -16,6 +16,7 @@ import http from '../utils/http';
 import pageNumber from '../utils/pageNumber';
 
 const HomePageTwo = ({ posts, fbkh, khdh, dtdh }) => {
+	console.log('fbkh', fbkh);
 	return (
 		<Layout pageTitle="Du Học Tân Con Đường Vàng">
 			<NavOne />
