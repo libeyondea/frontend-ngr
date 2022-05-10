@@ -5,6 +5,7 @@ import '../styles/style-icon.css';
 import '../styles/style.css';
 import '../styles/daotao.scss';
 import '../styles/new.css';
+import '../styles/dkspeaking.css';
 import '../styles/kh.css';
 import '../styles/TD.css';
 

@@ -13,7 +13,7 @@ const Khachhang = ({ posts }) => {
 				</h3>
 				<div className="row">
 					{posts.data.length && posts.data.map((post, index) => <DSKH post={post} key={index} />)}
-					<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+					{/* 	<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 						<div className="team-one__single">
 							<div className="team-one__image">
 								<img className="img-kh" src="/assets/images/KH_NGR/kh7.jpg" alt="" />
@@ -244,7 +244,7 @@ const Khachhang = ({ posts }) => {
 								</a>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<Pagination total={posts?.pagination?.total} limit={6} />
