@@ -51,7 +51,7 @@ export async function getServerSideProps({ query }) {
 				}
 			}),
 			http.get({
-				url: `/posts?category=khach-hang`,
+				url: `/feedback`,
 				params: {
 					page: pageNumber(query.page),
 					page_size: 4

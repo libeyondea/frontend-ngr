@@ -5,14 +5,14 @@ const DSKH = ({ post }) => {
 		<div className="col-xl-3 col-lg-6 col-md-6 col-sm-12">
 			<div className="team-one__single">
 				<div className="team-one__image">
-					<img className="img-kh" src={`${post.image_url}`} alt="" />
+					<img className="img-kh" src={`${post.avatar_url}`} alt="" />
 				</div>
 				<div className="team-one__content">
 					<h2 className="team-one__name">
-						<a className="tenkh">{post.title}</a>
+						<a className="tenkh">{post.name}</a>
 					</h2>
-					<p className="team-one__designation">{post.title}</p>
-					<p className="team-one__text">{post.excerpt}</p>
+					<p className="team-one__designation">KHÁCH HÀNG</p>
+					{/* 	<p className="team-one__text">{post.content}</p> */}
 				</div>
 				<div className="team-one__social">
 					<a href="#">

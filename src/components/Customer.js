@@ -21,7 +21,7 @@ const Customer = ({ khdh }) => {
 									<div className="col-12 col-md-3" key={index}>
 										<div className="card">
 											<Image
-												src={`${khdh.image_url}`}
+												src={`${khdh.avatar_url}`}
 												className="card-img-top"
 												alt="..."
 												isBlur
@@ -29,7 +29,7 @@ const Customer = ({ khdh }) => {
 												height={300}
 											/>
 											<div className="card-body">
-												<div className="card-text">{khdh.excerpt}</div>
+												<div className="card-text">{khdh.content}</div>
 											</div>
 										</div>
 									</div>

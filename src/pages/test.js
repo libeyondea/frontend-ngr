@@ -12,13 +12,14 @@ const Test1 = ({ posts }) => {
 		<Layout pageTitle="Tân Con Đường Vàng | Test">
 			<NavOne />
 			<PageHeader title="Test" />
-			{posts.data.length && posts.data.map((post, index) => <Test post={post} key={index} />)}
+			{/* {posts.data.length && posts.data.map((post, index) => <Test post={post} key={index} />)} */}
+			<Test />
 			<Footer />
 		</Layout>
 	);
 };
 
-export async function getServerSideProps({ query }) {
+/* export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
 			url: `/posts`
@@ -34,6 +35,6 @@ export async function getServerSideProps({ query }) {
 			notFound: true
 		};
 	}
-}
+} */
 
 export default Test1;
