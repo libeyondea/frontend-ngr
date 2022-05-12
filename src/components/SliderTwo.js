@@ -37,7 +37,7 @@ const SliderTwo = () => {
 					{slideImages.map((url, index) => (
 						<div className="each-fade" key={index}>
 							<div className="image-container">
-								<Image alt="img" src={url} isBlur width={1920} height={700} layout="responsive" />
+								<Image alt="img" src="" isBlur width={1920} height={700} layout="responsive" />
 							</div>
 						</div>
 					))}
