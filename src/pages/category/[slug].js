@@ -7,6 +7,7 @@ import NewsDetails from '../../components/NewsDetails';
 import http from '../../utils/http';
 import DuHocCacNuoc from '../../components/DuHocCacNuoc';
 import HocBongCanada from '../../components/HocBong/HocBongCanada';
+import pageNumber from '../../utils/pageNumber';
 
 const GalleryPage = ({ posts, query }) => {
 	return (
@@ -40,7 +41,11 @@ const GalleryPage = ({ posts, query }) => {
 export async function getServerSideProps({ query }) {
 	try {
 		const resPost = await http.get({
-			url: `/posts?category=${query.slug}`
+			url: `/posts?category=${query.slug}`,
+			params: {
+				page: pageNumber(query.page),
+				page_size: 6
+			}
 		});
 		return {
 			props: {

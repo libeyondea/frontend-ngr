@@ -68,24 +68,6 @@ const SpeakingClub = () => {
 					</div> */}
 					<div className="col-lg-12">
 						<div className="course-details__content">
-							<div className="course-details__top">
-								<div className="course-details__top-left">
-									<h1 className="title-speaking">NÓI ĐI NGẠI CHI - CHINH PHỤC SPEAKING CÙNG IELTS IDP</h1>
-								</div>
-								<div
-									className="cvui-image-wrapper"
-									data-reactid=".0.0.$/=10.2.0.0.$section2.$row0.$column0.$widget0.0.0"
-								>
-									{/* <img
-										style={{ width: '1470px' }}
-										src="/assets/images/speaking-club2.png"
-										alt="Workshop T4_Banner LP 1300_600"
-										title="Workshop T4_Banner LP 1300_600"
-										data-reactid=".0.0.$/=10.2.0.0.$section2.$row0.$column0.$widget0.0.0.0"
-									/> */}
-								</div>
-							</div>
-
 							<ul className="course-details__tab-navs list-unstyled nav nav-tabs" role="tablist">
 								<li>
 									<a className="active" role="tab" data-toggle="tab" href="#overview">

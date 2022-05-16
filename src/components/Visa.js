@@ -50,36 +50,41 @@ const Visa = ({ posts }) => {
 			</h3>
 			<div className="row">
 				<div className="col-lg-8">
-				{posts.data.length &&
+					{posts.data.length &&
 						posts.data.map((posts, index) => (
-					<div className="card-TH" key={index}>
-						<div className="card-header">
-							<p className="card-header-TH">
-								[Du học Canada] – Lễ tốt nghiệp cấp ba của bạn Anna Phan – Du học Canada – Du học Tân Con Đường
-								Vàng
-							</p>
-						</div>
-						<div className="card-body" style={{ lineHeight: '24px' }}>
-							<p className="img-card-TH">
-							<img src={`${posts.image_url}`} alt="HIGH SCHOOL GRADUATION CỦA MỘT BẠN DU HỌC SINH ĐÁNG YÊU" />
-								{/* <img
+							<div className="card-TH" key={index}>
+								<div className="card-header">
+									<p className="card-header-TH">
+										[Du học Canada] – Lễ tốt nghiệp cấp ba của bạn Anna Phan – Du học Canada – Du học Tân Con
+										Đường Vàng
+									</p>
+								</div>
+								<div className="card-body" style={{ lineHeight: '24px' }}>
+									<p className="img-card-TH">
+										<img
+											src={`${posts.image_url}`}
+											alt="HIGH SCHOOL GRADUATION CỦA MỘT BẠN DU HỌC SINH ĐÁNG YÊU"
+										/>
+										{/* <img
+
 									src="/assets/images/Visa/visa1.jpg"
 									alt="HIGH SCHOOL GRADUATION CỦA MỘT BẠN DU HỌC SINH ĐÁNG YÊU"
 								/> */}
-							</p>
-							<h5 className="card-title-TH">HIGH SCHOOL GRADUATION CỦA MỘT BẠN DU HỌC SINH ĐÁNG YÊU</h5>
-							<p className="card-text-TH">
-								Vừa rồi, một bạn du học sinh vô cùng xinh xắn của tập thể Du học Tân Con Đường Vàng – Anna Phan
-								vừa hoàn thành chương trình trung học và tham gia lễ tốt nghiệp cấp 3 tại Calgary, Alberta Canada.
-								Anna Phan đã xuất sắc nhận được visa và giờ đây đã tốt nghiệp với thành tích rất tốt tại Canada.
-							</p>
-							<a href="/category/VisaCa_details" className="button">
-								Đọc Thêm
-							</a>
-						</div>
-					</div>
+									</p>
+									<h5 className="card-title-TH">HIGH SCHOOL GRADUATION CỦA MỘT BẠN DU HỌC SINH ĐÁNG YÊU</h5>
+									<p className="card-text-TH">
+										Vừa rồi, một bạn du học sinh vô cùng xinh xắn của tập thể Du học Tân Con Đường Vàng – Anna
+										Phan vừa hoàn thành chương trình trung học và tham gia lễ tốt nghiệp cấp 3 tại Calgary,
+										Alberta Canada. Anna Phan đã xuất sắc nhận được visa và giờ đây đã tốt nghiệp với thành
+										tích rất tốt tại Canada.
+									</p>
+									<a href="/category/VisaCa_details" className="button">
+										Đọc Thêm
+									</a>
+								</div>
+							</div>
 
-				/* 	<div className="card-TH">
+							/* 	<div className="card-TH">
 						<div className="card-header">
 							<p className="card-header-TH">
 								XIN VISA DU HỌC CANADA CÓ CẦN PHỎNG VẤN HAY KHÔNG? – Du học Canada – Du học Tân Con Đường Vàng
@@ -100,9 +105,9 @@ const Visa = ({ posts }) => {
 							</a>
 						</div>
 					</div> */
-					))}
+						))}
 				</div>
-				
+
 				<div className="col-lg-4">
 					<div className="become-teacher__form" id="back-top">
 						<div className="become-teacher__form-top">
@@ -162,15 +167,12 @@ const Visa = ({ posts }) => {
 									<span>4.8</span>
 								</div>
 							</div>
-						
-					
-							
 						</div>
 					</div>
 				</div>
 			</div>
-			<Pagination total={posts?.pagination?.total} limit={6} />
-			{/* <div className="post-pagination">
+			<Pagination total={posts?.pagination?.total} limit={4} />
+			<div className="post-pagination">
 				<a href="#">
 					<i className="fa fa-angle-double-left" />
 				</a>
@@ -181,7 +183,7 @@ const Visa = ({ posts }) => {
 				<a href="#">
 					<i className="fa fa-angle-double-right" />
 				</a>
-			</div> */}
+			</div>
 		</div>
 	);
 };
