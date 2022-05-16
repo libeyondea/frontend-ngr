@@ -84,16 +84,16 @@ const Event = ({ posts }) => {
 												</a>
 												<div className="course-one__admin">
 													<img src="/assets/images/team-1-1.jpg" alt="" />
-													by <a href="/teacher-details">Linda</a>
+													by <a href="/">Linda</a>
 												</div>
 												<h2 className="course-one__title">
 													<a href={`/p/${post.slug}`}>{post.title}</a>
 												</h2>
 												<div className="course-one__meta">
-													<a href="/course-details">
+													<a href={`/p/${post.slug}`}>
 														<i className="far fa-solid fa-calendar"></i>11/09/2021
 													</a>
-													<a href="/course-details">
+													<a href="/">
 														<i className="far fa-solid fa-eye"></i> 458 views
 													</a>
 												</div>
