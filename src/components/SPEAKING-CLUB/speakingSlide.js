@@ -10,7 +10,7 @@ const SpeakingSlide = () => {
 					<div className="slider__slide-parts">
 						<div className="slider__slide-part" style={{ width: '100%' }}>
 							<div className="slider__slide-part-inner">
-								<img src="/assets/images/New-Golden-Road.gif" alt="" style={{ minWidth: '100%' }} />
+								<img src="/assets/images/speaking/New-Golden-Road-1.gif" alt="" style={{ minWidth: '100%' }} />
 							</div>
 						</div>
 					</div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import DSTD from './DSTD';
+import Pagination from './Pagination';
 const TuyenDung = ({ posts }) => {
 	console.log(posts);
 	return (
@@ -125,7 +126,8 @@ const TuyenDung = ({ posts }) => {
 					</div> */}
 				</div>
 			</div>
-			<div className="post-pagination">
+			<Pagination total={posts?.pagination?.total} limit={4} />
+			{/* 	<div className="post-pagination">
 				<a href="#">
 					<i className="fa fa-angle-double-left" />
 				</a>
@@ -136,7 +138,7 @@ const TuyenDung = ({ posts }) => {
 				<a href="#">
 					<i className="fa fa-angle-double-right" />
 				</a>
-			</div>
+			</div> */}
 		</section>
 	);
 };
