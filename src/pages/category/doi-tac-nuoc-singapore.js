@@ -11,7 +11,7 @@ const DoiTacNuocSingapor = () => {
 		<Layout pageTitle="Tân Con Đường Vàng | Đối Tác">
 			<NavOne />
 			<DTSlide />
-			<DoiTacCacNuoc />
+			<DoiTacCacNuoc posts={{ data: [] }} />
 			<CallToActionTwo />
 			<Footer />
 		</Layout>

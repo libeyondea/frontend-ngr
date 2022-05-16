@@ -52,7 +52,7 @@ const Visa = ({ posts }) => {
 				<div className="col-lg-8">
 				{posts.data.length &&
 						posts.data.map((posts, index) => (
-					<div className="card-TH">
+					<div className="card-TH" key={index}>
 						<div className="card-header">
 							<p className="card-header-TH">
 								[Du học Canada] – Lễ tốt nghiệp cấp ba của bạn Anna Phan – Du học Canada – Du học Tân Con Đường

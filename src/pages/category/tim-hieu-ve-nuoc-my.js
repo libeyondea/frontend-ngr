@@ -10,7 +10,7 @@ const TeachersPage = () => {
 		<Layout pageTitle="Tân Con Đường Vàng | Định Cư">
 			<NavOne />
 			<PageHeader title="Tìm Hiểu Về Nước Mỹ" />
-			<DAEB5 />
+			<DAEB5 posts={{ data: [] }} />
 			<Footer />
 		</Layout>
 	);

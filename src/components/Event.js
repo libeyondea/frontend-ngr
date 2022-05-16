@@ -2,37 +2,6 @@ import Link from 'next/link';
 import { Slide } from 'react-slideshow-image';
 
 const Event = ({ posts }) => {
-	const params = {
-		slidesPerView: 3,
-		loop: true,
-		speed: 1000,
-		spaceBetween: 30,
-		autoplay: {
-			delay: 3000,
-			disableOnInteraction: false
-		},
-		pagination: {
-			el: '.swiper-pagination',
-			clickable: true
-		},
-
-		// Responsive breakpoints
-		breakpoints: {
-			1024: {
-				slidesPerView: 3
-			},
-			768: {
-				slidesPerView: 2
-			},
-			640: {
-				slidesPerView: 2
-			},
-			320: {
-				slidesPerView: 1
-			}
-		}
-	};
-
 	const properties = {
 		duration: 3000,
 		slidesToShow: 1,
@@ -80,7 +49,7 @@ const Event = ({ posts }) => {
 											</div>
 											<div className="course-one__content">
 												<a href="#" className="course-one__category">
-													DU HỌC MỸ
+													{post.category.title}
 												</a>
 												<div className="course-one__admin">
 													<img src="/assets/images/team-1-1.jpg" alt="" />
@@ -91,7 +60,8 @@ const Event = ({ posts }) => {
 												</h2>
 												<div className="course-one__meta">
 													<a href="/course-details">
-														<i className="far fa-solid fa-calendar"></i>11/09/2021
+														<i className="far fa-solid fa-calendar"></i>
+														{post.created_at}
 													</a>
 													<a href="/course-details">
 														<i className="far fa-solid fa-eye"></i> 458 views
