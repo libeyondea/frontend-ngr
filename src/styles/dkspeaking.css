@@ -28,6 +28,9 @@
   img {
    /*  min-width: 100%; */
     max-width: 100%; }
+  .img1{
+    min-width: 100%;
+  }
   
   ul {
     /* padding-left: 0; */

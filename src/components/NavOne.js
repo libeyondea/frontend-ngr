@@ -83,7 +83,7 @@ const NavOne = () => {
 			<div className="header-bn-top" style={{ background: 'rgb(161 103 90)' }}>
 				<div className="header-bn-normal">
 					<a className="abc" href="/speaking-club" target="_blank">
-						<img src="/assets/images/A-HIEU-BANNER03.gif" alt="" />
+						<img className="img1" src="/assets/images/A-HIEU-BANNER03.gif" alt="" />
 					</a>
 				</div>
 				<style dangerouslySetInnerHTML={{ __html: '.header-mobile-textlinks{background:#f99817;color:#c20000}' }} />
