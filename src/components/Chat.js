@@ -1,6 +1,4 @@
 import React from 'react';
-import zalo from '../images/zalo_icon.png';
-import messenge from '../images/messenge_icon.jpg';
 
 /* const za-chat__head-box ={
 	bottom: "15px",
