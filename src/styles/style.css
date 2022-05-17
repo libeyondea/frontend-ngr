@@ -3786,6 +3786,7 @@ a:visited {
 	color: #012237;
 }
 .course-details__list-stars {
+	padding-left: 185px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -6072,18 +6073,14 @@ a:visited {
 	background-color: #012237;
 }
 .testimonials-one__carousel span {
-	width: 9px;
-	height: 9px;
-	background-color: #012237;
-	margin: 0 2.5px;
-	border-radius: 50%;
-	opacity: 0.2;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: -webkit-transform 0.4s ease;
-	transition: -webkit-transform 0.4s ease;
-	transition: transform 0.4s ease;
-	transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+    width: 30px;
+    height: 15px;
+    background-color: #6cc24a;
+    margin: 1px 2.5px;
+    border-radius: 50%;
+    opacity: 0.8;
+    transform: scale(1);
+    transition: transform 0.4s ease;
 }
 .testimonials-one__single {
 	border-style: solid;

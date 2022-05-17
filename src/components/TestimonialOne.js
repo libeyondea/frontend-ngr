@@ -83,6 +83,14 @@ const TestimonialOne = ({ fbkh }) => {
 										/>
 
 										<h3 className="testimonials-one__name">{fbkh.name}</h3>
+										<div className="course-details__list-stars">
+											<i className="fas fa-star"></i>
+											<i className="fas fa-star"></i>
+											<i className="fas fa-star"></i>
+											<i className="fas fa-star"></i>
+											<i className="fas fa-star"></i>
+											<span>4.8</span>
+										</div>
 										{/* <p className="testimonials-one__designation">Du Học Úc</p> */}
 										<p className="testimonials-one__text">{fbkh.content}</p>
 									</div>
