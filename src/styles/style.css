@@ -9118,3 +9118,6 @@ ul#menu li:hover ul#sub {
 .card-body {
 	height: 245px;
 }
+.card {
+  height: 100%;
+}
