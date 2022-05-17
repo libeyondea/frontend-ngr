@@ -35,7 +35,7 @@ const Test = () => {
 							<span className="checkmark" />
 						</label>
 					</div>
-					ddff
+					ddffd
 					<button>Register Now</button>
 				</form>
 			</div>
