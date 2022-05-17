@@ -9115,3 +9115,6 @@ ul#menu li:hover ul#sub {
 .text_content {
 	background-color: #fff;
 }
+.card-body {
+	height: 245px;
+}
