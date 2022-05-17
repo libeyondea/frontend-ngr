@@ -15,7 +15,7 @@ const DSDT = ({ post }) => {
 						</Link>
 					</h2>
 					<p className="team-one__designation">Đối Tác</p>
-					<p className="team-one__text">St Pius X High School.</p>
+					{/* 	<p className="team-one__text">St Pius X High School.</p> */}
 				</div>
 				<div className="team-one__social">
 					<a href="#">
