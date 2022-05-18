@@ -207,10 +207,11 @@ const Footer = () => {
 				<div className="site-footer__bottom">
 					<div className="container">
 						<p className="site-footer__copy text-white">
-							<h5 className="banquyen">&copy; Copyright 2020 by </h5>
-							<a href="#" className="font-weight-bold">
+							<h5 className="banquyen">&copy; 2022 NGR | Hotline Tel: (+84) 909 416 959 </h5>
+
+							{/* <a href="#" className="font-weight-bold">
 								Newgoldenroad.com
-							</a>
+							</a> */}
 						</p>
 						<div className="site-footer__social">
 							<div onClick={scrollTop} className="scroll-to-target site-footer__scroll-top">
