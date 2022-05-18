@@ -28,7 +28,7 @@ export default class Video extends Component {
 									huynh trao sứ mệnh quan trọng cho Công ty tư vấn du học trong quá trình chuẩn bị và hoàn thiện
 									hồ sơ du học.
 								</h3>
-								<a href="#" className="thm-btn">
+								<a href="/gioi-thieu-NGR" className="thm-btn">
 									ĐỌC THÊM
 								</a>
 							</div>
