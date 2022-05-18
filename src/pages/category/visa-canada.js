@@ -1,16 +1,16 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import NavOne from '../../components/NavOne';
 import PageHeader from '../../components/PageHeader';
 import Footer from '../../components/Footer';
 import Visa from '../../components/Visa';
 import pageNumber from '../../utils/pageNumber';
 import http from '../../utils/http';
+import NavOne1 from '../../components/Nav0ne1';
 
 const VisaCa = ({ posts }) => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Visa Canada">
-			<NavOne />
+			<NavOne1 />
 			<Visa posts={posts} />
 			<Footer />
 		</Layout>

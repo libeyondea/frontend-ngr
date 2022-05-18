@@ -1,15 +1,15 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import NavOne from '../../components/NavOne';
 import Footer from '../../components/Footer';
 import TrungHoc from '../../components/Trunghoc';
 import http from '../../utils/http';
 import pageNumber from '../../utils/pageNumber';
+import NavOne1 from '../../components/Nav0ne1';
 
-const trunghoc = ({posts}) => {
+const trunghoc = ({ posts }) => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Trung Học Canada">
-			<NavOne />
+			<NavOne1 />
 			<TrungHoc posts={posts} />
 			<Footer />
 		</Layout>
