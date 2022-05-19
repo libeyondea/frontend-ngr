@@ -4,8 +4,7 @@ const instance = axios.create({
 	baseURL: process.env.NEXT_PUBLIC_API_URL,
 	headers: {
 		Accept: 'application/json',
-		'Content-Type': 'application/json',
-		apikey: 'D02eRUTLbJ2FF2sDuRZStrYugvhLjSRY'
+		'Content-Type': 'application/json'
 	},
 	timeout: process.env.NEXT_PUBLIC_REQUEST_TIMEOUT
 });
@@ -29,14 +28,14 @@ instance.interceptors.response.use(
 );
 
 const http = {
-	get: ({ baseURL, url, params, token }) => {
+	get: ({ baseURL, url, params, token = false }) => {
 		return instance.request({
 			baseURL: baseURL,
 			method: 'GET',
 			url: url,
 			params: params,
 			headers: {
-				...(token && { Authorization: `Bearer ${token}` })
+				...(token && { apikey: `D02eRUTLbJ2FF2sDuRZStrYugvhLjSRY` })
 			}
 		});
 	},
