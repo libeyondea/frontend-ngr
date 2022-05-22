@@ -69,7 +69,7 @@ const CourseCatOne = ({ dtdh }) => {
 								<div className="item mr-4" key={index}>
 									<div className="course-category-one__single color-1" style={{ height: '250px' }}>
 										<div className="">
-											<Image src={`${dtdh.image_url}`} alt="" width={150} height={80} />
+											<Image src={`${dtdh.image_url}`} alt="" width={150} height={100} />
 										</div>
 										<h3 className="course-category-one__title">
 											<a href="#">{dtdh.title}</a>
@@ -84,7 +84,7 @@ const CourseCatOne = ({ dtdh }) => {
 										src="/assets/images/DoiTac/du-hoc-tan-con-duong-vang-du-hoc-canada-EDMONTON-PUBLIC-SCHOOLS5.jpg"
 										alt=""
 										width={150}
-										height={80}
+										height={100}
 									/>
 								</div>
 								<h3 className="course-category-one__title">
@@ -95,7 +95,7 @@ const CourseCatOne = ({ dtdh }) => {
 						<div className="item mr-4">
 							<div className="course-category-one__single color-1">
 								<div className="">
-									<Image src="/assets/images/DoiTac/achieve-the-edge.jpg" alt="" width={150} height={80} />
+									<Image src="/assets/images/DoiTac/achieve-the-edge.jpg" alt="" width={150} height={100} />
 								</div>
 								<h3 className="course-category-one__title">
 									<a href="#">Achieve the Edge</a>
@@ -105,7 +105,7 @@ const CourseCatOne = ({ dtdh }) => {
 						<div className="item mr-4">
 							<div className="course-category-one__single color-1">
 								<div className="">
-									<Image src="/assets/images/DoiTac/algonquin-college.jpg" alt="" width={150} height={80} />
+									<Image src="/assets/images/DoiTac/algonquin-college.jpg" alt="" width={150} height={100} />
 								</div>
 								<h3 className="course-category-one__title">
 									<a href="#">Algonquin College</a>
@@ -115,7 +115,7 @@ const CourseCatOne = ({ dtdh }) => {
 						<div className="item mr-4">
 							<div className="course-category-one__single color-1">
 								<div className="">
-									<Image src="/assets/images/DoiTac/assiniboine.jpg" alt="" width={150} height={80} />
+									<Image src="/assets/images/DoiTac/assiniboine.jpg" alt="" width={150} height={100} />
 								</div>
 								<h3 className="course-category-one__title">
 									<a href="#">Assiniboine</a>
@@ -125,7 +125,7 @@ const CourseCatOne = ({ dtdh }) => {
 						<div className="item mr-4">
 							<div className="course-category-one__single color-1">
 								<div className="">
-									<Image src="/assets/images/DoiTac/bowvalley.jpg" alt="" width={150} height={80} />
+									<Image src="/assets/images/DoiTac/bowvalley.jpg" alt="" width={150} height={100} />
 								</div>
 								<h3 className="course-category-one__title">
 									<a href="#">Bowvalley</a>
@@ -139,7 +139,7 @@ const CourseCatOne = ({ dtdh }) => {
 										src="/assets/images/DoiTac/du-hoc-tan-con-duong-vang-du-hoc-canada-DELTA-SCHOOL-DISTRICT.png"
 										alt=""
 										width={150}
-										height={80}
+										height={100}
 									/>
 								</div>
 								<h3 className="course-category-one__title">
@@ -154,7 +154,7 @@ const CourseCatOne = ({ dtdh }) => {
 										src="/assets/images/DoiTac/du-hoc-tan-con-duong-vang-du-hoc-uc-hoc-vien-kent-5.png"
 										alt=""
 										width={150}
-										height={80}
+										height={100}
 									/>
 								</div>
 								<h3 className="course-category-one__title">
