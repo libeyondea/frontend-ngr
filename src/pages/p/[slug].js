@@ -9,7 +9,7 @@ const GalleryPage = ({ post }) => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | News Details">
 			<NavOne />
-			<PageHeader title="News Details" />
+			<PageHeader title="Pages Details" />
 			<NewsDetails post={post} />
 			<Footer />
 		</Layout>
@@ -31,6 +31,5 @@ export async function getServerSideProps({ query }) {
 		};
 	}
 }
-
 
 export default GalleryPage;
