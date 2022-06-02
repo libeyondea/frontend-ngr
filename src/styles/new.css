@@ -152,6 +152,7 @@ p.post-meta a {
     position: relative;
 }
 .share-post {
+    margin-left: 30px;
     clear: both;
     padding: 8px 0 50px 10px;
     background: #F7F7F7;
@@ -269,5 +270,17 @@ a {
     padding-right: 220px;
 }
 .card-img1{
-    height: 250px;
+    margin-left: 55px;
+    width: 200px;
+    height: 226px;
+}
+@media (min-width: 576px)
+{
+.card-deck .card {
+    flex: 1 0;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    height: 450px;
+}
 }

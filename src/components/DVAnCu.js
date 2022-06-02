@@ -173,7 +173,7 @@ export default class DVAnCu extends Component {
 					</div> */}
 						<div className="DoiNgu">
 							<h2 className="Phan_DoiNgu">ĐỘI NGŨ</h2>
-							<div className="card-deck" style={{ width: '80%', marginLeft: '120px' }}>
+							<div className="card-deck" style={{ width: '80%', marginLeft: '155px' }}>
 								<div className="card">
 									<img src="/assets/images/DinhCuMy/Cathy.jpg" className="card-img-top card-img1" alt="..." />
 									<div className="card-body">
@@ -205,8 +205,20 @@ export default class DVAnCu extends Component {
 										<h5 className="card-title">Trâm Julie</h5>
 										<p className="card-text">
 											This is a wider card with supporting text below as a natural lead-in to additional
-											content. This card has even longer content than the first to show that equal height
-											action.
+											content.
+										</p>
+									</div>
+									<div className="card-footer">
+										<small className="text-muted">Cập nhật 3 phút trước</small>
+									</div>
+								</div>
+								<div className="card">
+									<img src="/assets/images/DinhCuMy/dn1.png" className="card-img-top card-img1" alt="..." />
+									<div className="card-body">
+										<h5 className="card-title">Trâm Julie</h5>
+										<p className="card-text">
+											This is a wider card with supporting text below as a natural lead-in to additional
+											content.
 										</p>
 									</div>
 									<div className="card-footer">
