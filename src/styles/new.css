@@ -227,3 +227,47 @@ a {
     margin-left: 350px;
     padding-right: 20px;
 }
+.video-two1 {
+    padding: 50px 0 !important;
+    background-image: none !important;
+}
+.video-two1 {
+    position: relative;
+    padding: 120px 0;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.video-two1::before {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: left top !important;
+}
+/* .video-two1::before {
+    background-color: #f7be81 !important;
+    background: url(/assets/images/DinhCuMy/ancu.jpg) repeat-x;
+} */
+.video-two1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #012237;
+    opacity: 0.6;
+}
+.image-br{
+    background-color: #f7be81 !important;
+    background: url(/assets/images/DinhCuMy/ancu.jpg) repeat-x;
+}
+.color01{
+    color: #EAEAEA;
+}
+.video121{
+
+    padding-right: 220px;
+}
+.card-img1{
+    height: 250px;
+}
