@@ -63,19 +63,8 @@ export default class DVAnCu extends Component {
 					&nbsp;&nbsp;
 					<span className="current">[Dịch Vụ An Cư]</span>
 				</div>
-				<h3
-					style={{
-						color: '#ff944d',
-						textAglin: 'center',
-						fontSize: '35px',
-						textAlign: 'center',
-						fontWeight: 'bold',
-						marginTop: '50px',
-						marginBottom: '50px',
-						marginLeft: '75px'
-					}}
-				>
-					DỊCH VỤ AN CƯ MỸ
+				<h3 className="title-comm">
+					<span className="title-holder">DỊCH VỤ AN CƯ</span>
 				</h3>
 				<div>
 					<section className="video-two1">
