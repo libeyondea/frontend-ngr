@@ -49,50 +49,50 @@ const Baolanhnhanthan = () => {
 					<div className="noidung">
 						<h1 className="tieudeTH">Định cư Mỹ diện đoàn tụ gia đình – Du học Tân Con Đường Vàng</h1>
 
-						<form class="row g-3">
+						<form className="row g-3">
 							<div className="col-md-6">
-								<label for="inputHolot" class="form-label">
+								<label htmlFor="inputHolot" className="form-label">
 									Họ, tên lót
 								</label>
 								<input
 									type="Holot"
-									class="form-control"
+									className="form-control"
 									id="inputHolot"
 									placeholder="Nhập họ, tên lót"
 									style={{ marginTop: '-7px' }}
 								/>
 							</div>
 							<div className="col-md-6">
-								<label for="inputTen" class="form-label">
+								<label htmlFor="inputTen" className="form-label">
 									Tên
 								</label>
 								<input
 									type="Ten"
-									class="form-control"
+									className="form-control"
 									id="inputTen"
 									placeholder="Nhập tên "
 									style={{ marginTop: '-7px' }}
 								/>
 							</div>
 							<div className="col-md-6">
-								<label for="inputEmailAddress" class="form-label">
+								<label htmlFor="inputEmailAddress" className="form-label">
 									Email
 								</label>
 								<input
 									type="text"
-									class="form-control"
+									className="form-control"
 									id="inputEmail"
 									placeholder="Nhập Email"
 									style={{ marginTop: '-7px' }}
 								/>
 							</div>
 							<div className="col-md-6">
-								<label for="inputSDT" class="form-label">
+								<label htmlFor="inputSDT" className="form-label">
 									Số điện thoại
 								</label>
 								<input
 									type="text"
-									class="form-control"
+									className="form-control"
 									id="inputSDT"
 									placeholder="Nhập số điện thoại"
 									style={{ marginTop: '-7px' }}
@@ -101,7 +101,7 @@ const Baolanhnhanthan = () => {
 							<div className="form-check" style={{ paddingLeft: '2.25rem' }}>
 								<div>
 									<input
-										class="form-check-input"
+										className="form-check-input"
 										type="radio"
 										name="exampleRadios"
 										id="exampleRadios1"
@@ -109,19 +109,19 @@ const Baolanhnhanthan = () => {
 										checked
 									/>
 								</div>
-								<label class="form-check-label" for="exampleRadios1">
+								<label className="form-check-label" htmlFor="exampleRadios1">
 									Nam
 								</label>
 							</div>
 							<div className="form-check">
 								<input
-									class="form-check-input"
+									className="form-check-input"
 									type="radio"
 									name="exampleRadios"
 									id="exampleRadios2"
 									value="option2"
 								/>
-								<label class="form-check-label" for="exampleRadios2">
+								<label className="form-check-label" htmlFor="exampleRadios2">
 									Nữ
 								</label>
 							</div>
@@ -129,7 +129,7 @@ const Baolanhnhanthan = () => {
 							<div className="col-12">
 								<button
 									type="submit"
-									class="btn btn-primary"
+									className="btn btn-primary"
 									style={{ marginLeft: '400px', marginTop: '15px', backgroundColor: '#ff8100' }}
 								>
 									ĐĂNG KÝ

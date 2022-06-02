@@ -73,7 +73,7 @@ const CTEB5_details = () => {
 							</p>
 							<img
 								src="https://usis.us/timthumb.php?src=https://usis.us/uploads/thumbnail/project/c4e2daaef10602-hillwoodyorkwestdeptford1.jpg&w=360&h=479&zc=1&q=100&s=1"
-								alt=""
+								alt="image"
 								className="imgEB5"
 								width={480}
 								height={280}
@@ -353,11 +353,12 @@ const CTEB5_details = () => {
 							backgroundColor: '#f5f5f5',
 							color: 'black',
 							marginTop: '50px'
-						}}>
+						}}
+					>
 						<h3 className="hd1" style={{ textAlign: 'center', paddingTop: '60px' }}>
 							TIẾN ĐỘ DỰ ÁN
 						</h3>
-						<div className="p4" style={{ paddingTop: '50px', marginLeft:'280px' }}>
+						<div className="p4" style={{ paddingTop: '50px', marginLeft: '280px' }}>
 							<h4>
 								<strong>Toà nhà 6:</strong>
 							</h4>
@@ -463,247 +464,260 @@ const CTEB5_details = () => {
 							</ul>
 						</div>
 					</div>
-					<div className='p5'>
-						<div className="row hinh-daeb5-64" style={{ color: 'black', paddingTop:'100px' }}>
-							<div className="col-6" style={{paddingLeft:'200px'}} >
-								<img src="/assets/images/daeb5-64.png"  width='457px' height='175px'/>
+					<div className="p5">
+						<div className="row hinh-daeb5-64" style={{ color: 'black', paddingTop: '100px' }}>
+							<div className="col-6" style={{ paddingLeft: '200px' }}>
+								<img src="/assets/images/daeb5-64.png" width="457px" height="175px" />
 							</div>
-							<div className="col-6" style={{marginLeft:'-50px', paddingBottom:'70px'}}>
+							<div className="col-6" style={{ marginLeft: '-50px', paddingBottom: '70px' }}>
 								<h3>Tổng Quan Về Chủ Đầu Tư:</h3>
 								<h4>
-								<strong>Công ty Hillwood Development (Hillwood):</strong>
-							</h4>
-							<ul>
-								<a>
-									<i
-										className="fa fa-circle"
-										aria-hidden="true"
-										style={{
-											color: 'black',
-											fontSize: '8px',
-											marginLeft: '20px',
-											marginRight: '15px'
-										}}
-									></i>
-									Top 10 Nhà phát triển Bất động sản hàng đầu tại Hoa Kỳ.
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-									<i
-										className="fa fa-circle"
-										aria-hidden="true"
-										style={{
-											color: 'black',
-											fontSize: '8px',
-											marginLeft: '20px',
-											marginRight: '15px'
-										}}
-									></i>
-									Được ghi nhận qua nhiều dự án tầm cỡ và các dự án liên doanh công tư.
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-									<i
-										className="fa fa-circle"
-										aria-hidden="true"
-										style={{
-											color: 'black',
-											fontSize: '8px',
-											marginLeft: '20px',
-											marginRight: '15px'
-										}}
-									></i>
-									Đạt các giải thưởng từ các tổ chức thương mại bất động sản uy tín.
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-									<i
-										className="fa fa-circle"
-										aria-hidden="true"
-										style={{
-											color: 'black',
-											fontSize: '8px',
-											marginLeft: '20px',
-											marginRight: '15px'
-										}}
-									></i>
-									Phát triển hơn 23,000 hộ dân cư tại hơn 70 địa điểm trên toàn nước Mỹ và Costa Rica.
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-									<i
-										className="fa fa-circle"
-										aria-hidden="true"
-										style={{
-											color: 'black',
-											fontSize: '8px',
-											marginLeft: '20px',
-											marginRight: '15px'
-										}}
-									></i>
-									Dự án nền móng của Hillwood, AllianceTexas, đã thu hút hơn 220 doanh nghiệp, tạo ra 28,000 việc làm và xây dựng gần 3 triệu mét vuông diện tích kể từ năm 1990.
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-									<i
-										className="fa fa-circle"
-										aria-hidden="true"
-										style={{
-											color: 'black',
-											fontSize: '8px',
-											marginLeft: '20px',
-											marginRight: '15px'
-										}}
-									></i>
-									Thành tích EB-5:
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-								<i className="fa fa-plus" aria-hidden="true" style={{
-										color: 'black',
-										fontSize: '10px',
-										marginLeft: '40px',
-										marginRight: '15px'
-									}}></i>
-									22 Hợp danh CMB EB-5 (Nhóm 64 sẽ là Hợp danh thứ 23)
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-								<i className="fa fa-plus" aria-hidden="true" style={{
-									color: 'black',
-									fontSize: '10px',
-									marginLeft: '40px',
-									marginRight: '15px'
-								}}></i>
-									17 Dự án trước đây đã nhận được chấp thuận đơn I-526
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-								<i className="fa fa-plus" aria-hidden="true" style={{
-									color: 'black',
-									fontSize: '10px',
-									marginLeft: '40px',
-									marginRight: '15px'
-								}}></i>
-									Hợp danh duy trì tỷ lệ đạt chấp thuận dự án là 100%
-								</a>
-								<br />
-							</ul>
-							<h4>
-								<strong>Công ty Hillwood Development (Hillwood):</strong>
-							</h4>
-							<ul>
-								<a>
-									<i
-										className="fa fa-circle"
-										aria-hidden="true"
-										style={{
-											color: 'black',
-											fontSize: '8px',
-											marginLeft: '20px',
-											marginRight: '15px'
-										}}
-									></i>
-									Trung tâm vùng lâu đời và uy tín nhất tại Mỹ
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-									<i
-										className="fa fa-circle"
-										aria-hidden="true"
-										style={{
-											color: 'black',
-											fontSize: '8px',
-											marginLeft: '20px',
-											marginRight: '15px'
-										}}
-									></i>
-									Đơn vị tiên phong và hàng đầu trong lĩnh vực EB-5
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-									<i
-										className="fa fa-circle"
-										aria-hidden="true"
-										style={{
-											color: 'black',
-											fontSize: '8px',
-											marginLeft: '20px',
-											marginRight: '15px'
-										}}
-									></i>
-									Hơn 2,500 thẻ xanh vĩnh viễn đã được cấp
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-									<i
-										className="fa fa-circle"
-										aria-hidden="true"
-										style={{
-											color: 'black',
-											fontSize: '8px',
-											marginLeft: '20px',
-											marginRight: '15px'
-										}}
-									></i>
-									Đã hoàn vốn 144  triệu USD  cho nhà đầu  tư EB-5
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-									<i
-										className="fa fa-circle"
-										aria-hidden="true"
-										style={{
-											color: 'black',
-											fontSize: '8px',
-											marginLeft: '20px',
-											marginRight: '15px'
-										}}
-									></i>
-									Có tỷ lệ hồ sơ thành công 100%
-								</a>
-								<br />
-							</ul>
-							<ul>
-								<a>
-									<i
-										className="fa fa-circle"
-										aria-hidden="true"
-										style={{
-											color: 'black',
-											fontSize: '8px',
-											marginLeft: '20px',
-											marginRight: '15px'
-										}}
-									></i>
-									Đã thành công hơn 50 dự án và tạo trên 145.000 việc làm
-								</a>
-								<br />
-							</ul>
+									<strong>Công ty Hillwood Development (Hillwood):</strong>
+								</h4>
+								<ul>
+									<a>
+										<i
+											className="fa fa-circle"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '8px',
+												marginLeft: '20px',
+												marginRight: '15px'
+											}}
+										></i>
+										Top 10 Nhà phát triển Bất động sản hàng đầu tại Hoa Kỳ.
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-circle"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '8px',
+												marginLeft: '20px',
+												marginRight: '15px'
+											}}
+										></i>
+										Được ghi nhận qua nhiều dự án tầm cỡ và các dự án liên doanh công tư.
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-circle"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '8px',
+												marginLeft: '20px',
+												marginRight: '15px'
+											}}
+										></i>
+										Đạt các giải thưởng từ các tổ chức thương mại bất động sản uy tín.
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-circle"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '8px',
+												marginLeft: '20px',
+												marginRight: '15px'
+											}}
+										></i>
+										Phát triển hơn 23,000 hộ dân cư tại hơn 70 địa điểm trên toàn nước Mỹ và Costa Rica.
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-circle"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '8px',
+												marginLeft: '20px',
+												marginRight: '15px'
+											}}
+										></i>
+										Dự án nền móng của Hillwood, AllianceTexas, đã thu hút hơn 220 doanh nghiệp, tạo ra 28,000
+										việc làm và xây dựng gần 3 triệu mét vuông diện tích kể từ năm 1990.
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-circle"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '8px',
+												marginLeft: '20px',
+												marginRight: '15px'
+											}}
+										></i>
+										Thành tích EB-5:
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-plus"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '10px',
+												marginLeft: '40px',
+												marginRight: '15px'
+											}}
+										></i>
+										22 Hợp danh CMB EB-5 (Nhóm 64 sẽ là Hợp danh thứ 23)
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-plus"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '10px',
+												marginLeft: '40px',
+												marginRight: '15px'
+											}}
+										></i>
+										17 Dự án trước đây đã nhận được chấp thuận đơn I-526
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-plus"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '10px',
+												marginLeft: '40px',
+												marginRight: '15px'
+											}}
+										></i>
+										Hợp danh duy trì tỷ lệ đạt chấp thuận dự án là 100%
+									</a>
+									<br />
+								</ul>
+								<h4>
+									<strong>Công ty Hillwood Development (Hillwood):</strong>
+								</h4>
+								<ul>
+									<a>
+										<i
+											className="fa fa-circle"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '8px',
+												marginLeft: '20px',
+												marginRight: '15px'
+											}}
+										></i>
+										Trung tâm vùng lâu đời và uy tín nhất tại Mỹ
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-circle"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '8px',
+												marginLeft: '20px',
+												marginRight: '15px'
+											}}
+										></i>
+										Đơn vị tiên phong và hàng đầu trong lĩnh vực EB-5
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-circle"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '8px',
+												marginLeft: '20px',
+												marginRight: '15px'
+											}}
+										></i>
+										Hơn 2,500 thẻ xanh vĩnh viễn đã được cấp
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-circle"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '8px',
+												marginLeft: '20px',
+												marginRight: '15px'
+											}}
+										></i>
+										Đã hoàn vốn 144 triệu USD cho nhà đầu tư EB-5
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-circle"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '8px',
+												marginLeft: '20px',
+												marginRight: '15px'
+											}}
+										></i>
+										Có tỷ lệ hồ sơ thành công 100%
+									</a>
+									<br />
+								</ul>
+								<ul>
+									<a>
+										<i
+											className="fa fa-circle"
+											aria-hidden="true"
+											style={{
+												color: 'black',
+												fontSize: '8px',
+												marginLeft: '20px',
+												marginRight: '15px'
+											}}
+										></i>
+										Đã thành công hơn 50 dự án và tạo trên 145.000 việc làm
+									</a>
+									<br />
+								</ul>
 							</div>
 						</div>
 					</div>

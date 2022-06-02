@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout';
 /* import Footer from '../components/Footer';
 import NavThree from '../components/NavThree';
 import SliderOne from '../components/SliderOne';

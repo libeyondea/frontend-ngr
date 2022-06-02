@@ -153,6 +153,9 @@ const ChuongTrinhL1 = () => {
 						<div className="block_item block_item_left">
 							<div className="block_img ">
 								<img alt className="img-loaded" src="../assets/images/DinhCuMy/img-14.jpg" />
+
+								<img alt="" className="img-loaded" src="assets/images/DinhCuMy/img-14.jpg" />
+
 							</div>
 							<div className="display-table">
 								<div className="table-cell" style={{ height: 405 }}>
@@ -175,7 +178,11 @@ const ChuongTrinhL1 = () => {
 						</div>
 						<div className="block_item block_item_right">
 							<div className="block_img ">
+
 								<img alt className="img-loaded" src="../assets/images/DinhCuMy/img-15.jpg" />
+
+								<img alt="image" className="img-loaded" src="assets/images/DinhCuMy/img-15.jpg" />
+
 							</div>
 							<div className="display-table">
 								<div className="table-cell" style={{ height: 405 }}>

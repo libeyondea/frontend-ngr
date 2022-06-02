@@ -62,12 +62,10 @@ const Daotaochinh = () => {
 						<div className="row">
 							<div className="col-sm-6 col-xl-3 align-self-center">
 								<div className="single_feature_text ">
-									<h2>
-										Chương Trình Đào Tạo
-									</h2>
+									<h2>Chương Trình Đào Tạo</h2>
 									<p>
-										Là một trong những chương trình đào tạo với nhiều khóa học chất lượng,
-										trong từng cách giảng dạy giữa giáo viên và học viên.
+										Là một trong những chương trình đào tạo với nhiều khóa học chất lượng, trong từng cách
+										giảng dạy giữa giáo viên và học viên.
 									</p>
 									<a href="#" className="btn_1">
 										Xem Thêm
@@ -78,11 +76,12 @@ const Daotaochinh = () => {
 								<div className="single_feature">
 									<div className="single_feature_part">
 										<span className="single_feature_icon">
-										<i className="fa fa-star"></i>
+											<i className="fa fa-star"></i>
 										</span>
-										<h4 style={{color: '#FF944D'}}>TIÊU CHUẨN</h4>
+										<h4 style={{ color: '#FF944D' }}>TIÊU CHUẨN</h4>
 										<p>
-										Đảm bảo chất lượng cho từng học viên trong quá trình học tập đúng mức khả năng học viên mong muốn.
+											Đảm bảo chất lượng cho từng học viên trong quá trình học tập đúng mức khả năng học
+											viên mong muốn.
 										</p>
 									</div>
 								</div>
@@ -91,11 +90,12 @@ const Daotaochinh = () => {
 								<div className="single_feature">
 									<div className="single_feature_part">
 										<span className="single_feature_icon">
-										<i className="fa fa-clock"></i>
+											<i className="fa fa-clock"></i>
 										</span>
-										<h4 style={{color: '#FF944D'}}>THỜI GIAN</h4>
+										<h4 style={{ color: '#FF944D' }}>THỜI GIAN</h4>
 										<p>
-											Luôn đảm bảo thời gian cho tửng học viên để học tập đúng thời gian mong muốn và hoàn thành khóa học đúng hạn.
+											Luôn đảm bảo thời gian cho tửng học viên để học tập đúng thời gian mong muốn và hoàn
+											thành khóa học đúng hạn.
 										</p>
 									</div>
 								</div>
@@ -104,11 +104,12 @@ const Daotaochinh = () => {
 								<div className="single_feature">
 									<div className="single_feature_part single_feature_part_2">
 										<span className="single_service_icon style_icon">
-										<i className="fa fa-book"></i>
+											<i className="fa fa-book"></i>
 										</span>
-										<h4 style={{color: '#FF944D'}}>KẾT QUẢ</h4>
+										<h4 style={{ color: '#FF944D' }}>KẾT QUẢ</h4>
 										<p>
-										Học viên sẽ có những kiến thức cũng như giao tiếp n cao trình độ tiếng anh bản thân sau khóa học tại du học"Tân Con Đường Vàng"
+											Học viên sẽ có những kiến thức cũng như giao tiếp n cao trình độ tiếng anh bản thân
+											sau khóa học tại du học Tân Con Đường Vàng
 										</p>
 									</div>
 								</div>
@@ -123,7 +124,7 @@ const Daotaochinh = () => {
 						<div className="row align-items-sm-center align-items-lg-stretch">
 							<div className="col-md-7 col-lg-7">
 								<div className="learning_img">
-								<img className="hinhanh"src="/assets/images/learning_img.png"  />
+									<img className="hinhanh" src="/assets/images/learning_img.png" />
 								</div>
 							</div>
 							<div className="col-md-5 col-lg-5">
@@ -131,28 +132,34 @@ const Daotaochinh = () => {
 									<h5>Chúng tôi </h5>
 									<h2>Học bằng tình yêu và tiếng cười</h2>
 									<p>
-										Chúng tôi luôn nâng cao về tâm trí học viên trong quá trình học tiếng anh, vì nếu học một cách máy móc
-										sẽ khó tiếp thu hoặc chán nản trong việc học tiếng anh, bằng phương pháp" tình yêu và tiếng cười"sẽ giúp học viên hứng thú hơn trong việc học tiếng anh ngay từ bây giờ.
+										Chúng tôi luôn nâng cao về tâm trí học viên trong quá trình học tiếng anh, vì nếu học một
+										cách máy móc sẽ khó tiếp thu hoặc chán nản trong việc học tiếng anh, bằng phương pháp tình
+										yêu và tiếng cười sẽ giúp học viên hứng thú hơn trong việc học tiếng anh ngay từ bây giờ.
 									</p>
 									<ul>
 										<li>
 											<span className="ti-pencil-alt" />
-										
 										</li>
 									</ul>
 									<div className="row">
 										<div className="col-sm-6 col-md-12 col-lg-6">
 											<div className="learning_member_text_iner">
 												<span className="ti-pencil-alt" />
-												<h4 style={{color: '#FF944D',fontWeight: 'bold'}}>Học bằng😘</h4>
-												<p>Tạo cho học viên hứng thú học hơn trong việc học tiếng anh ,có thể nói là bằng cả trái tim.</p>
+												<h4 style={{ color: '#FF944D', fontWeight: 'bold' }}>Học bằng😘</h4>
+												<p>
+													Tạo cho học viên hứng thú học hơn trong việc học tiếng anh ,có thể nói là bằng
+													cả trái tim.
+												</p>
 											</div>
 										</div>
 										<div className="col-sm-6 col-md-12 col-lg-6">
 											<div className="learning_member_text_iner">
 												<span className="ti-stamp" />
-												<h4 style={{color: '#FF944D',fontWeight: 'bold'}}>Học bằng 😃</h4>
-												<p>Không việc học bên cạnh đó phải áp dụng thực tế ngay từ người bản xứ và các trò chơi tiếng anh hứng thú.</p>
+												<h4 style={{ color: '#FF944D', fontWeight: 'bold' }}>Học bằng 😃</h4>
+												<p>
+													Không việc học bên cạnh đó phải áp dụng thực tế ngay từ người bản xứ và các
+													trò chơi tiếng anh hứng thú.
+												</p>
 											</div>
 										</div>
 									</div>
@@ -214,7 +221,7 @@ const Daotaochinh = () => {
 									<div className="special_cource_text">
 										<a href="course-details.html" className="btn_4">
 											IELTS
-											</a>
+										</a>
 										<h4>1.500.000 ĐỒNG</h4>
 										<a href="course-details.html">
 											<h3>IELTS</h3>
@@ -222,7 +229,6 @@ const Daotaochinh = () => {
 										<p>Khóa học giúp học viên nâng cao trình độ ilets và nhiều kỳ thi mong muốn.</p>
 										<div className="author_info">
 											<div className="author_img">
-											
 												<div className="author_info_text">
 													<p>Đánh giá:</p>
 													<h5>
@@ -232,15 +238,16 @@ const Daotaochinh = () => {
 											</div>
 											<div className="author_rating">
 												<div className="rating">
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
 												</div>
 												<p>5.0 đánh giá</p>
 											</div>
-										</div>0
+										</div>
+										0
 									</div>
 								</div>
 							</div>
@@ -252,7 +259,7 @@ const Daotaochinh = () => {
 											TOEIC
 										</a>
 										<h4>2.000.000 ĐỒNG</h4>
-										
+
 										<a href="course-details.html">
 											{' '}
 											<h3>TOEIC </h3>
@@ -260,8 +267,8 @@ const Daotaochinh = () => {
 										<p>Hoàn thành khóa học cấp tốc toeic chỉ trong vòng 3 tháng.</p>
 										<div className="author_info">
 											<div className="author_img">
-													<div className="author_info_text">
-												<p>Đánh giá:</p>
+												<div className="author_info_text">
+													<p>Đánh giá:</p>
 													<h5>
 														<a href="#">Học viên</a>
 													</h5>
@@ -269,11 +276,11 @@ const Daotaochinh = () => {
 											</div>
 											<div className="author_rating">
 												<div className="rating">
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
 												</div>
 												<p>5.0 đánh giá</p>
 											</div>
@@ -296,9 +303,8 @@ const Daotaochinh = () => {
 										<p>Nâng cao trình đô tiếng anh tại trường và đạt kết quả cao trong trường.</p>
 										<div className="author_info">
 											<div className="author_img">
-												
 												<div className="author_info_text">
-												<p>Đánh giá:</p>
+													<p>Đánh giá:</p>
 													<h5>
 														<a href="#">Học viên</a>
 													</h5>
@@ -306,11 +312,11 @@ const Daotaochinh = () => {
 											</div>
 											<div className="author_rating">
 												<div className="rating">
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
 												</div>
 												<p>5.0 đánh giá</p>
 											</div>
@@ -338,7 +344,7 @@ const Daotaochinh = () => {
 									<div className="special_cource_text">
 										<a href="course-details.html" className="btn_4">
 											IELTS
-											</a>
+										</a>
 										<h4>1.500.000 ĐỒNG</h4>
 										<a href="course-details.html">
 											<h3>IELTS</h3>
@@ -346,7 +352,6 @@ const Daotaochinh = () => {
 										<p>Khóa học giúp học viên nâng cao trình độ ilets và nhiều kỳ thi mong muốn.</p>
 										<div className="author_info">
 											<div className="author_img">
-											
 												<div className="author_info_text">
 													<p>Đánh giá:</p>
 													<h5>
@@ -356,11 +361,11 @@ const Daotaochinh = () => {
 											</div>
 											<div className="author_rating">
 												<div className="rating">
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
 												</div>
 												<p>5.0 đánh giá</p>
 											</div>
@@ -376,7 +381,7 @@ const Daotaochinh = () => {
 											TOEIC
 										</a>
 										<h4>2.000.000 ĐỒNG</h4>
-										
+
 										<a href="course-details.html">
 											{' '}
 											<h3>TOEIC </h3>
@@ -384,8 +389,8 @@ const Daotaochinh = () => {
 										<p>Hoàn thành khóa học cấp tốc toeic chỉ trong vòng 3 tháng.</p>
 										<div className="author_info">
 											<div className="author_img">
-													<div className="author_info_text">
-												<p>Đánh giá:</p>
+												<div className="author_info_text">
+													<p>Đánh giá:</p>
 													<h5>
 														<a href="#">Học viên</a>
 													</h5>
@@ -393,11 +398,11 @@ const Daotaochinh = () => {
 											</div>
 											<div className="author_rating">
 												<div className="rating">
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
 												</div>
 												<p>5.0 đánh giá</p>
 											</div>
@@ -420,9 +425,8 @@ const Daotaochinh = () => {
 										<p>Nâng cao trình đô tiếng anh tại trường và đạt kết quả cao trong trường.</p>
 										<div className="author_info">
 											<div className="author_img">
-												
 												<div className="author_info_text">
-												<p>Đánh giá:</p>
+													<p>Đánh giá:</p>
 													<h5>
 														<a href="#">Học viên</a>
 													</h5>
@@ -430,11 +434,11 @@ const Daotaochinh = () => {
 											</div>
 											<div className="author_rating">
 												<div className="rating">
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
-												<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
+													<i className="fa fa-star" />
 												</div>
 												<p>5.0 đánh giá</p>
 											</div>
@@ -445,11 +449,10 @@ const Daotaochinh = () => {
 						</div>
 					</div>
 				</section>
-				
-		
+
 				{/*::blog_part end::*/}
 				{/* learning part start*/}
-				
+
 				<section className="advance_feature learning_part">
 					<div className="container">
 						<div className="row align-items-sm-center align-items-xl-stretch">
@@ -458,33 +461,31 @@ const Daotaochinh = () => {
 									<h5>TÍNH NĂNG</h5>
 									<h2>Hệ thống học tập trực tuyến của chúng tôi</h2>
 									<p>
-									Các công cụ đào tạo bao gồm: Clip bài giảng, bài đọc, học liệu, Quiz, Game simulation. Học viên làm Bài tập cá nhân, 
-									bài tập nhóm và nhận Feedback của giảng viên thông qua Livestreaming tương tác.
-									 Hiệu quả đào tạo của các mô hình dự trên sự kết hợp này và sự triển khai trên các trên hệ thống Elearning.
+										Các công cụ đào tạo bao gồm: Clip bài giảng, bài đọc, học liệu, Quiz, Game simulation. Học
+										viên làm Bài tập cá nhân, bài tập nhóm và nhận Feedback của giảng viên thông qua
+										Livestreaming tương tác. Hiệu quả đào tạo của các mô hình dự trên sự kết hợp này và sự
+										triển khai trên các trên hệ thống Elearning.
 									</p>
 									<div className="row">
 										<div className="col-sm-6 col-md-12 col-lg-6">
 											<div className="learning_member_text_iner">
-											<ul>
-										<li>
-										
-										
-										</li>
-									</ul>
-											{/* 	<span className="ti-pencil-alt" /> */}
-												<h4 style={{color:'#FF944D', fontWeight:'bold'}}>Hiệu quả </h4>
-												<p>Sau buổi học, học viên có một bài test để đánh giá năng lực trong từng buổi học.</p>
+												<ul>
+													<li></li>
+												</ul>
+												{/* 	<span className="ti-pencil-alt" /> */}
+												<h4 style={{ color: '#FF944D', fontWeight: 'bold' }}>Hiệu quả </h4>
+												<p>
+													Sau buổi học, học viên có một bài test để đánh giá năng lực trong từng buổi
+													học.
+												</p>
 											</div>
 										</div>
 										<div className="col-sm-6 col-md-12 col-lg-6">
 											<div className="learning_member_text_iner">
-											<ul>
-										<li>
-										
-										
-										</li>
-									</ul>
-												<h4 style={{color:'#FF944D', fontWeight:'bold'}}>Tiện lợi</h4>
+												<ul>
+													<li></li>
+												</ul>
+												<h4 style={{ color: '#FF944D', fontWeight: 'bold' }}>Tiện lợi</h4>
 												<p>Tiện lợi trong buổi học buổi vừa có thể học online hoặc offline.</p>
 											</div>
 										</div>
@@ -492,9 +493,7 @@ const Daotaochinh = () => {
 								</div>
 							</div>
 							<div className="col-lg-6 col-md-6">
-								<div className="learning_img">
-								
-								</div>
+								<div className="learning_img"></div>
 							</div>
 						</div>
 					</div>

@@ -1,17 +1,27 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from './Image';
-import useSWR from 'swr';
+import http from '../utils/http';
 
 const NavOne = () => {
 	const [sticky, setsticky] = useState(false);
 	const [showBtn, setshowBtn] = useState(false);
+	const [categories, setCategories] = useState([]);
 
-	const { data: listCategory } = useSWR(`/categories?sort_by=id&sort_direction=asc`, {
-		revalidateOnFocus: false
-	});
-
-	console.log(listCategory);
+	//fetch categories from api and set to state categories when component mount and unmount
+	useEffect(() => {
+		const fetchData = async () => {
+			try {
+				const { data } = await http.get({
+					url: `/categories?sort_by=id&sort_direction=asc`
+				});
+				setCategories(data.data);
+			} catch (err) {
+				console.log(err);
+			}
+		};
+		fetchData();
+	}, []);
 
 	useEffect(() => {
 		window.addEventListener('scroll', handleScroll);
@@ -83,7 +93,7 @@ const NavOne = () => {
 			<div className="header-bn-top" style={{ background: 'rgb(161 103 90)' }}>
 				<div className="header-bn-normal">
 					<a className="abc" href="/speaking-club" target="_blank">
-						<img src="/assets/images/A-HIEU-BANNER03.gif" alt="" />
+						<img className="img1" src="/assets/images/A-HIEU-BANNER03.gif" alt="" />
 					</a>
 				</div>
 				<style dangerouslySetInnerHTML={{ __html: '.header-mobile-textlinks{background:#f99817;color:#c20000}' }} />
@@ -136,7 +146,7 @@ const NavOne = () => {
 										<a>Trang chủ </a>
 									</Link>
 								</li>
-								{listCategory && categoriesRecursive(listCategory.data)}
+								{categories && categoriesRecursive(categories)}
 								{/* <li className="current">
 								<Link href="/">
 									<a>Du Học</a>

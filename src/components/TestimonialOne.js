@@ -74,16 +74,25 @@ const TestimonialOne = ({ fbkh }) => {
 										<div className="testimonials-one__qoute">
 											<img src="/assets/images/qoute-1-1.png" alt="" />
 										</div>
-										<p className="testimonials-one__text">{fbkh.content}</p>
 										<Image
 											src={`${fbkh.avatar_url}`}
 											alt=""
 											className="testimonials-one__img"
-											width={100}
-											height={100}
+											width={200}
+											height={200}
 										/>
+
 										<h3 className="testimonials-one__name">{fbkh.name}</h3>
-										<p className="testimonials-one__designation">Du Học Úc</p>
+										<div className="course-details__list-stars">
+											<i className="fas fa-star"></i>
+											<i className="fas fa-star"></i>
+											<i className="fas fa-star"></i>
+											<i className="fas fa-star"></i>
+											<i className="fas fa-star"></i>
+											<span>4.8</span>
+										</div>
+										{/* <p className="testimonials-one__designation">Du Học Úc</p> */}
+										<p className="testimonials-one__text">{fbkh.content}</p>
 									</div>
 								</div>
 							))}

@@ -1,8 +1,9 @@
-import http from "./http";
+import http from './http';
 
 const fetcher = async (url) => {
 	const response = await http.get({
-		url: url
+		url: url,
+		token: true
 	});
 	return response.data;
 };

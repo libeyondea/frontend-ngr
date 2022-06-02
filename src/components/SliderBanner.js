@@ -14,7 +14,7 @@ const SliderBanner = () => {
 		{
 			city: 'Canberra',
 			country: 'Australia ',
-			img: '/assets/images/banner1-1.png'
+			img: '/assets/images/uc-banner-moi.png'
 		},
 		{
 			city: 'Ottawa',
@@ -108,7 +108,6 @@ const SliderBanner = () => {
 									<span key={index}>{l}</span>
 								))}
 							</h2>
-	
 						</div>
 						<div className="slider__slide-parts">
 							{[...Array(IMAGE_PARTS).fill()].map((x, i) => (

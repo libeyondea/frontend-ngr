@@ -1,96 +1,91 @@
 .img-kh {
-    width: 220px;
-    height: 220px;
+	width: 220px;
+	height: 220px;
 }
 .inner-banner {
-    background-color: #011928;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    background-image: url(../images/banner3.jpg);
+	background-color: #011928;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url('/assets/images/banner3.jpg');
 }
 .cta-two__btn {
-    font-size: 20px;
+	font-size: 20px;
 }
 .thm-base-bg {
-    background-color: #e93232;
+	background-color: #e93232;
 }
 .thm-base-bg-2 {
-    background-color: #b6c117;
+	background-color: #b6c117;
 }
 .cta-two__text {
-    font-size: 22px;
+	font-size: 22px;
 }
 .team-one__text {
-    font-size: 16px;
- 
+	font-size: 16px;
 }
 .team-one__designation {
-    font-size: 14px;
+	font-size: 14px;
 }
-.tenkh{
-    font-size: 20px;
+.tenkh {
+	font-size: 20px;
 }
 .footer-widget__title {
-
-    color: white;
- 
+	color: white;
 }
 .team-one {
-    background-color: white;
-     padding-bottom: 10px;
-
+	background-color: white;
+	padding-bottom: 10px;
 }
 .post-pagination {
-    padding-top: 40px;
-    padding-bottom: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .team-one__name {
-    font-size: 18px;
-    font-weight: 600;
-    color: #8B5FE8;
-    margin: 0;
-    margin-bottom: -5px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #8b5fe8;
+	margin: 0;
+	margin-bottom: -5px;
 }
 .team-one__name a:hover {
-    color: #cb822d;
+	color: #cb822d;
 }
 .thm-btn {
-    background-color: #8B5FE8;
+	background-color: #8b5fe8;
 }
 a {
-    color: black;
-   
+	color: black;
 }
 .tieude3 {
-    text-align: center;
-    color: #993300;
-    font-size: 3rem;
+	text-align: center;
+	color: #993300;
+	font-size: 3rem;
 }
 .muc1 {
-    padding-top: 20px;
+	padding-top: 20px;
 }
 .tieude-22 {
-    padding-top: 15px;
-    text-align: center;
-    color: #993300;
-    font-size: 3rem;
+	padding-top: 15px;
+	text-align: center;
+	color: #993300;
+	font-size: 3rem;
 }
-.list{
-    list-style: disc;
+.list {
+	list-style: disc;
 }
-.text111{
-    padding-left: 30px;
+.text111 {
+	padding-left: 30px;
 }
 /* FOOTER */
 .anh2 {
-    width: 100%;
-    height: 570px;
+	width: 100%;
+	height: 570px;
 }
 /* duhoc */
 h3.title-comm:before {
-    border-top: 0px solid #d0d2d3;
+	border-top: 0px solid #d0d2d3;
 }
 
 .title-comm {
@@ -101,161 +96,171 @@ h3.title-comm:before {
     margin-bottom: 30px;
     font-weight: 700;
     text-align: center;
+	padding-left: 810px;
+	right: 410px;
+	color: #fff;
+	font-size: 30px;
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: 700;
+	text-align: center;
+
 }
 h3.title-comm:before {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin-top: 0;
-    border-top: 2px solid #d0d2d3;
-    z-index: 1;
-    display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin-top: 0;
+	border-top: 2px solid #d0d2d3;
+	z-index: 1;
+	display: block;
 }
 .title-comm .title-holder {
-    min-width: 350px;
-    height: 45px;
-    background-color: #ff944d;
-    height: auto;
-    line-height: 45px;
-    padding: 0px 20px;
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    display: inline-block;
+	min-width: 350px;
+	height: 45px;
+	background-color: #ff944d;
+	height: auto;
+	line-height: 45px;
+	padding: 0px 20px;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	display: inline-block;
 }
 .course-details__list {
-    padding-left: 88px !important;
-    position: relative !important;
-    border-style: unset;
-    border-width: 16px;
-    border-color: #f1f1f1;
-    padding: 50px;
+	padding-left: 88px !important;
+	position: relative !important;
+	border-style: unset;
+	border-width: 16px;
+	border-color: #f1f1f1;
+	padding: 50px;
 }
 .breaking-school {
-    padding-left: 100px;
-    padding-top: -6px !important;
-    margin-top: 18px;
-    padding-bottom: -24px !important;
- /*    width: 1685px; */
-    background: #FFF;
-    height: 32px;
-    margin: 15px auto 0px;
-    overflow: hidden;
-    position: relative;
-    padding-bottom: 10px;
+	padding-left: 100px;
+	padding-top: -6px !important;
+	margin-top: 18px;
+	padding-bottom: -24px !important;
+	/*    width: 1685px; */
+	background: #fff;
+	height: 32px;
+	margin: 15px auto 0px;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 10px;
 }
 .breaking-school span.breaking-news-title {
-    background: #ff944d;
+	background: #ff944d;
 }
 .breaking-school span.breaking-news-title {
-    float: left;
-    padding: 0px 15px 0;
-    height: 32px;
-    color: #FFF;
+	float: left;
+	padding: 0px 15px 0;
+	height: 32px;
+	color: #fff;
 }
 .breaking-school span.breaking-news-title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
 }
 .breaking-school ul a {
-    padding-left: 100px;
-    white-space: nowrap;
-    font-family: tahoma;
+	padding-left: 100px;
+	white-space: nowrap;
+	font-family: tahoma;
 }
 .crumbss-school {
-    padding-bottom: 10px;
-    padding-left: 100px;
+	padding-bottom: 10px;
+	padding-left: 100px;
 }
 /* contac */
-.map{
-    margin-bottom: 58px;
+.map {
+	margin-bottom: 58px;
 }
 /* hieuung */
 /* thong tin */
 .inner-banner {
-    background-color: #011928;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    background-image: url(/assets/images/banner3.png);
+	background-color: #011928;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-image: url(/assets/images/banner3.png);
 }
 /* doitac */
 .sliders {
-    overflow: hidden;
-    position: relative;
-    height: 500px;
-    color: #fff;
+	overflow: hidden;
+	position: relative;
+	height: 500px;
+	color: #fff;
 }
 .titles-com {
-    padding-top: 40px;
-    right: 8px;
-    color: #fff;
-    font-size: 30px;
-    position: relative;
-    margin-top: -75px;
-    margin-bottom: 86px;
-    font-weight: 700;
-    text-align: center;
+	padding-top: 40px;
+	right: 8px;
+	color: #fff;
+	font-size: 30px;
+	position: relative;
+	margin-top: -75px;
+	margin-bottom: 86px;
+	font-weight: 700;
+	text-align: center;
 }
 h3.titles-com:before {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin-top: 0;
-    border-top: 2px solid #d0d2d3;
-    z-index: 1;
-    display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin-top: 0;
+	border-top: 2px solid #d0d2d3;
+	z-index: 1;
+	display: block;
 }
 .titles-holder:before {
-    content: "";
-    position: absolute;
-    right: -15px;
-    border-width: 0px;
-    bottom: 0px;
-    border-style: solid;
-    border-color: #8b5fe8 transparent;
-    display: block;
-    width: 0;
-    height: 0;
-    border-top: 23px solid transparent;
-    border-bottom: 22px solid transparent;
-    border-left: 15px solid #8b5fe8;
+	content: '';
+	position: absolute;
+	right: -15px;
+	border-width: 0px;
+	bottom: 0px;
+	border-style: solid;
+	border-color: #8b5fe8 transparent;
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 23px solid transparent;
+	border-bottom: 22px solid transparent;
+	border-left: 15px solid #8b5fe8;
 }
 .titles-holder:after {
-    content: "";
-    position: absolute;
-    left: -15px;
-    border-width: 0px;
-    bottom: 0px;
-    border-style: solid;
-    border-color: #8b5fe8 transparent;
-    display: block;
-    width: 0;
-    height: 0;
-    border-top: 23px solid transparent;
-    border-bottom: 22px solid transparent;
-    border-right: 15px solid #8b5fe8;
+	content: '';
+	position: absolute;
+	left: -15px;
+	border-width: 0px;
+	bottom: 0px;
+	border-style: solid;
+	border-color: #8b5fe8 transparent;
+	display: block;
+	width: 0;
+	height: 0;
+	border-top: 23px solid transparent;
+	border-bottom: 22px solid transparent;
+	border-right: 15px solid #8b5fe8;
 }
 .titles-com .titles-holder {
-    min-width: 350px;
-    height: 45px;
-    background-color: #8b5fe8;
-    height: auto;
-    line-height: 45px;
-    padding: 0px 20px;
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    display: inline-block;
+	min-width: 350px;
+	height: 45px;
+	background-color: #8b5fe8;
+	height: auto;
+	line-height: 45px;
+	padding: 0px 20px;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	display: inline-block;
 }
 /* doi tac */
 .team-details {
-    background-color: yellow !important;
+	background-color: yellow !important;
 }
 img {
-    vertical-align: initial;
+	vertical-align: initial;
 }

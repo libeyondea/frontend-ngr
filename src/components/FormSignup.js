@@ -6,7 +6,15 @@ import Countdown from 'react-countdown';
 import * as yup from 'yup';
 import http from '../utils/http';
 import ChartExample from '../components/charts';
+import useSWR from 'swr';
+
 const FormSignup = ({ post }) => {
+	const { data } = useSWR(`https://api.apilayer.com/fixer/latest?symbols=USD%2CUER%2CCAD%2CNZD&base=VND`, {
+		revalidateOnFocus: false
+	});
+
+	console.log('data', data);
+
 	const initialValues = {
 		name: '',
 		email: '',
@@ -51,6 +59,7 @@ const FormSignup = ({ post }) => {
 			data: user
 		});
 	};
+
 	return (
 		<section className="countdown-one">
 			<div className="container">
@@ -157,41 +166,36 @@ const FormSignup = ({ post }) => {
 							<div className="result text-center"></div>
 						</div>
 					</div>
-				</div>	
+				</div>
 				<h2 className="countdown-one__tygia">TỶ GIÁ NGOẠI TỆ</h2>
 				<div className="row">
 					<div className="col-6">
-					<ChartExample/>
+						<ChartExample />
 					</div>
-				
-
-					<div className="col-6">
-						<div className="countdown-one__content-LuotTruyCap">
-					
-							<table className="table-ngoaite">
-								<tr>
-									<th>Mã Ngoại Tệ</th>
-									<th>Tỷ Giá</th>
-								</tr>
-								<tr>
-									<td>USD</td>
-									<td> </td>
-								</tr>
-								<tr>
-									<td>UER</td>
-									<td> </td>
-								</tr>
-								<tr>
-									<td>CAD</td>
-									<td> </td>
-								</tr>
-								<tr>
-									<td>NZD</td>
-									<td> </td>
-								</tr>
-							</table>
+					{data && (
+						<div className="col-6">
+							<div className="countdown-one__content-LuotTruyCap">
+								<table className="table-ngoaite">
+									<tr>
+										<th>Mã Ngoại Tệ</th>
+										<th>Tỷ Giá</th>
+									</tr>
+									<tr>
+										<td>USD</td>
+										<td>{1 / data.rates.USD}</td>
+									</tr>
+									<tr>
+										<td>CAD</td>
+										<td>{1 / data.rates.CAD}</td>
+									</tr>
+									<tr>
+										<td>NZD</td>
+										<td>{1 / data.rates.NZD}</td>
+									</tr>
+								</table>
+							</div>
 						</div>
-					</div>
+					)}
 				</div>
 			</div>
 		</section>

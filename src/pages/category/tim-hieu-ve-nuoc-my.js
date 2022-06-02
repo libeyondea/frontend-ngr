@@ -4,13 +4,17 @@ import NavOne from '../../components/NavOne';
 import PageHeader from '../../components/PageHeader';
 import Footer from '../../components/Footer';
 import DAEB5 from '../../components/DAEB5';
+import http from '../../utils/http';
+import pageNumber from '../../utils/pageNumber';
 
 const TeachersPage = ({ posts }) => {
 	return (
 		<Layout pageTitle="Tân Con Đường Vàng | Định Cư">
 			<NavOne />
 			<PageHeader title="Tìm Hiểu Về Nước Mỹ" />
+
 			<DAEB5 posts={posts} />
+
 			<Footer />
 		</Layout>
 	);

@@ -28,14 +28,14 @@ instance.interceptors.response.use(
 );
 
 const http = {
-	get: ({ baseURL, url, params, token }) => {
+	get: ({ baseURL, url, params, token = false }) => {
 		return instance.request({
 			baseURL: baseURL,
 			method: 'GET',
 			url: url,
 			params: params,
 			headers: {
-				...(token && { Authorization: `Bearer ${token}` })
+				...(token && { apikey: `D02eRUTLbJ2FF2sDuRZStrYugvhLjSRY` })
 			}
 		});
 	},

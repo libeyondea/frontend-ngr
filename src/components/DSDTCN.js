@@ -10,7 +10,7 @@ const DSDTCN = ({ post }) => {
 				</div>
 				<div className="team-one__content">
 					<h2 className="team-one__name">
-						<Link href="/chi-tiet-doi-tac-nuoc-my">
+						<Link href={`/p/${post.slug}`}>
 							<a>{post.title}</a>
 						</Link>
 					</h2>

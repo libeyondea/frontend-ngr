@@ -88,7 +88,7 @@ const NewsDetails = ({ post }) => {
 			<div className="row">
 				<div className="col-lg-8">
 					<div className="noidung">
-						<h1 className="tieudeTH">{post.data.title}</h1>
+						{/* <h1 className="tieudeTH">{post.data.title}</h1> */}
 
 						<div dangerouslySetInnerHTML={{ __html: post.data.content }} />
 						{/* <div style={{ color: '#333', fontSize: '20px', fontWeight: 'lighter' }}>

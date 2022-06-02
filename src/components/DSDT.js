@@ -10,12 +10,12 @@ const DSDT = ({ post }) => {
 				</div>
 				<div className="team-one__content">
 					<h2 className="team-one__name">
-						<Link href="/chi-tiet-doi-tac-nuoc-my">
+						<Link href={`/p/${post.slug}`}>
 							<a>{post.title}</a>
 						</Link>
 					</h2>
 					<p className="team-one__designation">Đối Tác</p>
-					<p className="team-one__text">St Pius X High School.</p>
+					{/* 	<p className="team-one__text">St Pius X High School.</p> */}
 				</div>
 				<div className="team-one__social">
 					<a href="#">
