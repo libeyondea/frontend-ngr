@@ -140,9 +140,9 @@ const CTEB5 = () => {
 								</div>
 							</div>
 						</div>
-					</div>
-					<div className="hinhvideo" style={{marginLeft:'20px'}}>
-						<img src="https://i.ytimg.com/vi_webp/IOGn-QmVc8k/maxresdefault.webp" width={550} height={390} />
+						<div className="hinhvideo" style={{ marginLeft: '20px' }}>
+							<img src="https://i.ytimg.com/vi_webp/IOGn-QmVc8k/maxresdefault.webp" width={550} height={390} />
+						</div>
 					</div>
 				</div>
 				<h1 className="card-title-dong3" style={{ TextAlign: 'center' }}>
@@ -152,7 +152,7 @@ const CTEB5 = () => {
 					<div className="row-nd">
 						<div className="col-4">
 							<div className="hinhPP">
-								<img src="assets/images/anhPassPort.png" width={390} height={690} />
+								<img src="../assets/images/anhPassPort.png" width={390} height={690} />
 							</div>
 						</div>
 						<div className="col-4">
@@ -180,7 +180,7 @@ const CTEB5 = () => {
 										></i>
 										Thời gian nhận Thẻ Xanh nhanh chóng
 										<br />
-										<a className="chu" style={{ marginLeft: '50px', color:'white' }}>
+										<a className="chu" style={{ marginLeft: '50px', color: 'white' }}>
 											(khoảng 3 - 4 năm)
 										</a>
 									</p>
@@ -270,7 +270,7 @@ const CTEB5 = () => {
 										<a className="chu" style={{ marginLeft: '50px' }}></a> bất cứ nơi nào tại Mỹ
 									</a>
 									<br />
-									<a style={{ fontSize: '16px', color: 'black', marginLeft:'0px' }}>
+									<a style={{ fontSize: '16px', color: 'black', marginLeft: '0px' }}>
 										<i
 											className="fa fa-check"
 											style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -323,7 +323,7 @@ const CTEB5 = () => {
 										học sinh
 									</a>
 									<br />
-									<a style={{ fontSize: '16px', color: 'black', marginLeft:'0px' }}>
+									<a style={{ fontSize: '16px', color: 'black', marginLeft: '0px' }}>
 										<i
 											className="fa fa-check"
 											style={{ color: 'red', fontSize: '16px', marginLeft: '20px', marginRight: '15px' }}
@@ -347,10 +347,10 @@ const CTEB5 = () => {
 					<div className="block">
 						<div className="block_item block_item_left">
 							<div className="block_img ">
-								<img alt className="img-loaded" src="assets/images/DinhCuMy/img-14.jpg" />
+								<img alt className="img-loaded" src="../assets/images/DinhCuMy/img-14.jpg" />
 							</div>
 							<div className="display-table">
-								<div className="table-cell" style={{ height: 405 }}>
+								<div className="table-cell" style={{ height: 410 }}>
 									<div className="block_text">
 										<h2 className="block_title">Đối tượng đầu tư</h2>
 										<div className="block_desc">
@@ -370,10 +370,10 @@ const CTEB5 = () => {
 						</div>
 						<div className="block_item block_item_right">
 							<div className="block_img ">
-								<img alt className="img-loaded" src="assets/images/DinhCuMy/img-15.jpg" />
+								<img alt className="img-loaded" src="../assets/images/DinhCuMy/img-15.jpg" />
 							</div>
 							<div className="display-table">
-								<div className="table-cell" style={{ height: 405 }}>
+								<div className="table-cell" style={{ height: 410 }}>
 									<div className="block_text">
 										<h2 className="block_title">Điều kiện đầu tư</h2>
 										<div className="block_desc entry-content">

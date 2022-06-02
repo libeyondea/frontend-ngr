@@ -8181,8 +8181,8 @@ ul#menu li:hover ul#sub {
 }
 
 .hinhvideo {
-	margin-top: -800px;
-	padding-left: 790px;
+	margin-top: -245px;
+	padding-left: 15px;
 }
 .nd-CTEB5 {
 	color: black;
@@ -8254,7 +8254,7 @@ ul#menu li:hover ul#sub {
 .inner-banner-DCMYEB5 {
 	background-color: #ffd19f;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
 	background-image: url(/assets/images/DinhCuMy/banner-EB5.jpg);
@@ -8355,7 +8355,7 @@ ul#menu li:hover ul#sub {
 	position: relative;
 	z-index: 5;
 	padding-right: 0px;
-	padding-top: 80px;
+	padding-top: 40px;
 	padding-left: 0px;
 	padding-bottom: 115px;
 	max-width: 460px;
@@ -8533,7 +8533,7 @@ ul#menu li:hover ul#sub {
 .inner-banner-DCMYL1 {
 	background-color: #ffd19f;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
 	background-image: url(/assets/images/DinhCuMy/VISA.png);
@@ -8611,7 +8611,7 @@ ul#menu li:hover ul#sub {
 
 .hinhvideoL1 {
 	margin-top: -245px;
-	margin-left: 800px;
+	margin-left:805px;
 }
 .card-title-dong3 {
 	color: black;
@@ -8762,7 +8762,7 @@ ul#menu li:hover ul#sub {
 	position: relative;
 	z-index: 5;
 	padding-right: 0px;
-	padding-top: 80px;
+	padding-top: 120px;
 	padding-left: 0px;
 	padding-bottom: 115px;
 	max-width: 460px;
