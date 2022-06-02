@@ -21,7 +21,7 @@ const CallToActionTwo = () => {
 									giúp cho việc nghiên cứu du học trở nên dễ dàng hơn với quy trình hướng dẫn rõ ràng và sự hỗ
 									trợ tận tình của các chuyên gia tư vấn du học.
 								</p>
-								<a href="#" className="thm-btn cta-two__btn">
+								<a href="/" className="thm-btn cta-two__btn">
 									Bắt đầu đăng ký
 								</a>
 							</div>
@@ -41,7 +41,7 @@ const CallToActionTwo = () => {
 									nhà, ghi danh tại một trong nhiều cơ sở chi nhánh của Úc trên toàn thế giới hoặc học với đối
 									tác cung cấp dịch vụ giáo dục của Úc gần bạn.
 								</p>
-								<a href="#" className="thm-btn cta-two__btn">
+								<a href="/" className="thm-btn cta-two__btn">
 									Bắt đầu đăng ký
 								</a>
 							</div>
