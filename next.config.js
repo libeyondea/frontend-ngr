@@ -2,7 +2,7 @@
 const nextConfig = {
 	reactStrictMode: true.valueOf,
 	images: {
-		domains: ['localhost', 'server.newgoldenroad.com']
+		domains: ['localhost', 'server.newgoldenroad.edu.vn']
 	}
 };
 
