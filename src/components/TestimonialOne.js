@@ -75,7 +75,8 @@ const TestimonialOne = ({ fbkh }) => {
 											<img src="/assets/images/qoute-1-1.png" alt="" />
 										</div>
 										<Image
-											src={`${fbkh.avatar_url}`}
+											/* src={`${fbkh.avatar_url}`} */
+											src="/assets/images/Phan_hoi/phan_hoi3.webp"
 											alt=""
 											className="testimonials-one__img"
 											width={200}
@@ -92,7 +93,11 @@ const TestimonialOne = ({ fbkh }) => {
 											<span>4.8</span>
 										</div>
 										{/* <p className="testimonials-one__designation">Du Học Úc</p> */}
-										<p className="testimonials-one__text">{fbkh.content}</p>
+										{/* 	<p className="testimonials-one__text">{fbkh.content}</p> */}
+										<p className="testimonials-one__text">
+											Đội ngũ nhân viên nhiệt tình, tận tụy. Luôn hỗ trợ hết mình cho khách hàng. Em rất bất
+											ngờ vì sự quá chu đáo của bên công ty mình!! Love NEW GOLDEN ROAD!!!
+										</p>
 									</div>
 								</div>
 							))}
