@@ -5,7 +5,9 @@
 	"scripts": {
 		"dev": "next dev -p 4000",
 		"build": "next build",
-		"start": "node server.js",
+		"start": "next start",
+		"setup": "pm2 start ecosystem.config.js --env production",
+		"deploy": "pm2 restart ecosystem.config.js --env production",
 		"lint": "next lint"
 	},
 	"dependencies": {
