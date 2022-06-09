@@ -2,8 +2,7 @@ module.exports = {
 	apps: [
 		{
 			name: 'frontend-ngr',
-			cwd: './',
-			script: 'node_modules/next/dist/bin/next',
+			script: 'npm',
 			args: 'start',
 			exec_mode: 'cluster',
 			instances: 'max',
@@ -20,8 +19,8 @@ module.exports = {
 			user: 'root',
 			host: '103.221.220.109',
 			ref: 'origin/main',
-			repo: 'git@gitlab.com:web-app/web-app.git',
-			path: '/deploy/demo/web-app',
+			repo: 'git@github.com:libeyondea/frontend-ngr.git',
+			path: '/home/newgoldxgG7/newgoldenroad.edu.vn/public_html',
 			'post-setup': 'npm install; npm build; npm run setup',
 			'post-deploy': 'npm install; npm build; npm run deploy'
 		}
