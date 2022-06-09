@@ -36,7 +36,7 @@ const Test = () => {
 						</label>
 					</div>
 					ddffd
-					<button>Register Now</button>
+					<button>Register Now fff</button>
 				</form>
 			</div>
 		</div>
