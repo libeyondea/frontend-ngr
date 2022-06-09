@@ -93,11 +93,11 @@ const TestimonialOne = ({ fbkh }) => {
 											<span>4.8</span>
 										</div>
 										{/* <p className="testimonials-one__designation">Du Học Úc</p> */}
-										{/* 	<p className="testimonials-one__text">{fbkh.content}</p> */}
-										<p className="testimonials-one__text">
+										<p className="testimonials-one__text">{fbkh.content}</p>
+										{/* <p className="testimonials-one__text">
 											Đội ngũ nhân viên nhiệt tình, tận tụy. Luôn hỗ trợ hết mình cho khách hàng. Em rất bất
 											ngờ vì sự quá chu đáo của bên công ty mình!! Love NEW GOLDEN ROAD!!!
-										</p>
+										</p> */}
 									</div>
 								</div>
 							))}
