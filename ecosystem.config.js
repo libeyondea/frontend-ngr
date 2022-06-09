@@ -4,6 +4,8 @@ module.exports = {
 			name: 'frontend-ngr',
 			script: 'npm',
 			cwd: '/home/newgoldxgG7/newgoldenroad.edu.vn/current',
+			error_file: '/home/newgoldxgG7/newgoldenroad.edu.vn/logs/web.err.log',
+			out_file: '/home/newgoldxgG7/newgoldenroad.edu.vn/logs/web.out.log',
 			args: 'start',
 			autorestart: true,
 			watch: false,
