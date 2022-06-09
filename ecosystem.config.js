@@ -3,7 +3,7 @@ module.exports = {
 		{
 			name: 'frontend-ngr',
 			script: 'npm',
-			cwd: '/home/newgoldxgG7/newgoldenroad.edu.vn/public_html/production/current',
+			cwd: '/home/newgoldxgG7/newgoldenroad.edu.vn/current',
 			args: 'start',
 			autorestart: true,
 			watch: false,
@@ -22,7 +22,7 @@ module.exports = {
 			host: '103.221.220.109',
 			ref: 'origin/main',
 			repo: 'git@github.com:libeyondea/frontend-ngr.git',
-			path: '/home/newgoldxgG7/newgoldenroad.edu.vn/public_html/production',
+			path: '/home/newgoldxgG7/newgoldenroad.edu.vn',
 			'post-setup': 'npm install; npm run build; pm2 start ecosystem.config.js --env production',
 			'post-deploy': 'npm install; npm run build; pm2 restart ecosystem.config.js --env production'
 		}
