@@ -16,7 +16,6 @@ import http from '../utils/http';
 import pageNumber from '../utils/pageNumber';
 
 const HomePageTwo = ({ posts, fbkh, khdh, dtdh }) => {
-	console.log('fbkh', fbkh);
 	return (
 		<Layout pageTitle="Du Học Tân Con Đường Vàng">
 			<NavOne />
@@ -65,7 +64,6 @@ export async function getServerSideProps({ query }) {
 				}
 			})
 		]);
-		console.log('resPost1', resPost1);
 		return {
 			props: {
 				posts: resPost1.data,
