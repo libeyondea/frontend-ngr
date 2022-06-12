@@ -1,3 +1,4 @@
+import moment from 'moment';
 import Link from 'next/link';
 import { Slide } from 'react-slideshow-image';
 
@@ -26,6 +27,7 @@ const Event = ({ posts }) => {
 			}
 		]
 	};
+
 	return (
 		<div>
 			<section className="course-one__top-title home-two">
@@ -61,10 +63,7 @@ const Event = ({ posts }) => {
 												<div className="course-one__meta">
 													<a href={`/p/${post.slug}`}>
 														<i className="far fa-solid fa-calendar"></i>
-														{post.created_at}
-													</a>
-													<a href="/">
-														<i className="far fa-solid fa-eye"></i> 458 views
+														{moment(post.created_at).format('YYYY-MM-DD')}
 													</a>
 												</div>
 												<a href={`/p/${post.slug}`} className="course-one__link">

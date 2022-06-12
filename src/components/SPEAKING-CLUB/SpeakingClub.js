@@ -70,12 +70,12 @@ const SpeakingClub = () => {
 						<div className="course-details__content">
 							<ul className="course-details__tab-navs list-unstyled nav nav-tabs" role="tablist">
 								<li>
-									<a className="active" role="tab" data-toggle="tab" href="#overview">
+									<a className="active" role="tab" data-toggle="tab" href="#duhoc">
 										Tư vấn du học
 									</a>
 								</li>
 								<li>
-									<a className="" role="tab" data-toggle="tab" href="#curriculum">
+									<a className="" role="tab" data-toggle="tab" href="#speaking">
 										Speaking Club
 									</a>
 								</li>
@@ -89,9 +89,14 @@ const SpeakingClub = () => {
 										Luyện thi IELTS
 									</a>
 								</li>
+								<li>
+									<a className="" role="tab" data-toggle="tab" href="#dangky">
+										Đăng ký
+									</a>
+								</li>
 							</ul>
 							<div className="tab-content course-details__tab-content ">
-								<div className="tab-pane show active  animated fadeInUp content_1" role="tabpanel" id="overview">
+								<div className="tab-pane show active  animated fadeInUp content_1" role="tabpanel" id="duhoc">
 									<img
 										style={{ width: '1470px' }}
 										src="/assets/images/tu-van-dinh-cu.png"
@@ -129,75 +134,10 @@ const SpeakingClub = () => {
 										<div
 											className="wrapper"
 											style={{ backgroundImage: 'url("images/bg-registration-form-2.jpg")' }}
-										>
-											<div className="inner">
-												<form action className="form01">
-													<h3>Registration Form</h3>
-													<div className="form-wrapper">
-														<label htmlFor>Họ và tên</label>
-														<input type="text" className="form-control" />
-													</div>
-													<div className="form-wrapper">
-														<label htmlFor>Ngày sinh</label>
-														<input type="text" className="form-control" />
-													</div>
-													<div className="form-wrapper">
-														<label htmlFor>Email</label>
-														<input type="text" className="form-control" />
-													</div>
-													<div className="form-wrapper">
-														<label htmlFor>Số điện thoại</label>
-														<input type="password" className="form-control" />
-													</div>
-													<div className="form-wrapper">
-														<label htmlFor>Bạn đang học trường nào?</label>
-														<input type="password" className="form-control" />
-													</div>
-													<div className="form-wrapper">
-														<label htmlFor>Quốc gia mà bạn muốn đi du học?</label>
-														<input type="password" className="form-control" />
-													</div>
-
-													<div className="form-wrapper">
-														<label htmlFor>Hình thức tư vấn</label>
-														<select className="form-control" id="exampleFormControlSelect1">
-															<option>Trực tiếp</option>
-															<option>Online</option>
-															<option>Khác</option>
-															{/* 	<option>5</option> */}
-														</select>
-													</div>
-													<div className="form-wrapper">
-														<label htmlFor>Văn phòng gần nhất</label>
-														<select className="form-control" id="exampleFormControlSelect1">
-															<option>219 Tân Quý, Q. Tân Phú - HCM</option>
-															<option>40 Đường số 7, Q. Tân Bình - HCM</option>
-															<option>147 Lê Lợi - Ngãi Giao - Bà Rịa Vũng Tàu</option>
-															<option>3 Trail Rider Dr Brampton, Ontario - Canada</option>
-															<option>
-																Level 14, 197 St Georges Terrace, Perth Wa 6000, Australia
-															</option>
-														</select>
-													</div>
-
-													<div className="form-wrapper">
-														<label htmlFor>Ngày bạn muốn tư vấn</label>
-														<input type="password" className="form-control" />
-													</div>
-													<div className="checkbox">
-														<label>
-															<input type="checkbox" /> I caccept the Terms of Use &amp; Privacy
-															Policy.
-															<span className="checkmark" />
-														</label>
-													</div>
-													<button>Register Now</button>
-												</form>
-											</div>
-										</div>
+										></div>
 									</div>
 								</div>
-								<div className="tab-pane  animated fadeInUp" role="tabpanel" id="curriculum">
+								<div className="tab-pane  animated fadeInUp" role="tabpanel" id="speaking">
 									<img
 										style={{ width: '1470px' }}
 										src="/assets/images/speaking-club01.png"
@@ -235,60 +175,17 @@ const SpeakingClub = () => {
 										<div
 											className="wrapper"
 											style={{ backgroundImage: 'url("images/bg-registration-form-2.jpg")' }}
-										>
-											<div className="inner">
-												<form action className="form01">
-													<h3>Registration Form</h3>
-													<div className="form-wrapper">
-														<label htmlFor>Họ và tên</label>
-														<input type="text" className="form-control" />
-													</div>
-													<div className="form-wrapper">
-														<label htmlFor>Ngày sinh</label>
-														<input type="text" className="form-control" />
-													</div>
-													<div className="form-wrapper">
-														<label htmlFor>Email</label>
-														<input type="text" className="form-control" />
-													</div>
-													<div className="form-wrapper">
-														<label htmlFor>Số điện thoại</label>
-														<input type="password" className="form-control" />
-													</div>
-													<div className="form-wrapper">
-														<label htmlFor>Bạn đang học trường nào?</label>
-														<input type="password" className="form-control" />
-													</div>
-
-													<div className="form-wrapper">
-														<label htmlFor>Bạn muốn tham gia Speaking club là vì?</label>
-														<select className="form-control" id="exampleFormControlSelect1">
-															<option>Muốn cải thiện khả năng giao tiếp</option>
-															<option>Muốn tìm thêm bạn bè mới</option>
-															<option>Muốn cải thiện accent tiếng Anh</option>
-															<option>Khác</option>
-															{/* 	<option>5</option> */}
-														</select>
-													</div>
-													<div className="form-wrapper">
-														<label htmlFor>Bạn đang hoạc có dự định thi Ielts, Toeic không?</label>
-														<input type="password" className="form-control" />
-													</div>
-
-													<div className="checkbox">
-														<label>
-															<input type="checkbox" /> I caccept the Terms of Use &amp; Privacy
-															Policy.
-															<span className="checkmark" />
-														</label>
-													</div>
-													<button>Register Now</button>
-												</form>
-											</div>
-										</div>
+										></div>
 									</div>
 								</div>
 								<div className="tab-pane  animated fadeInUp" role="tabpanel" id="dinhcu">
+									<img
+										style={{ width: '1470px' }}
+										src="/assets/images/tu-van-dinh-cu.png"
+										alt="Workshop T4_Banner LP 1300_600"
+										title="Workshop T4_Banner LP 1300_600"
+										data-reactid=".0.0.$/=10.2.0.0.$section2.$row0.$column0.$widget0.0.0.0"
+									/>
 									<p className="titlee">
 										<strong>THỜI GIAN: SÁNG CHỦ NHẬT HÀNG TUẦN - 9:00AM đến 12:00PM</strong>
 									</p>
@@ -320,7 +217,7 @@ const SpeakingClub = () => {
 											className="wrapper"
 											style={{ backgroundImage: 'url("/assets/images/bg-registration-form-2.jpg")' }}
 										>
-											<div className="inner">
+											{/* <div className="inner">
 												<form action className="form01">
 													<h3>Registration Form</h3>
 													<div className="form-group">
@@ -354,11 +251,18 @@ const SpeakingClub = () => {
 													</div>
 													<button>Register Now</button>
 												</form>
-											</div>
+											</div> */}
 										</div>
 									</div>
 								</div>
 								<div className="tab-pane  animated fadeInUp" role="tabpanel" id="luyenIel">
+									<img
+										style={{ width: '1470px' }}
+										src="/assets/images/speaking/luyen-thi-ietls.png"
+										alt="Workshop T4_Banner LP 1300_600"
+										title="Workshop T4_Banner LP 1300_600"
+										data-reactid=".0.0.$/=10.2.0.0.$section2.$row0.$column0.$widget0.0.0.0"
+									/>
 									<p className="titlee">
 										<strong>THỜI GIAN: SÁNG CHỦ NHẬT HÀNG TUẦN - 9:00AM đến 12:00PM</strong>
 									</p>
@@ -390,7 +294,7 @@ const SpeakingClub = () => {
 											className="wrapper"
 											style={{ backgroundImage: 'url("images/bg-registration-form-2.jpg")' }}
 										>
-											<div className="inner">
+											{/* <div className="inner">
 												<form action className="form01">
 													<h3>Registration Form</h3>
 													<div className="form-group">
@@ -413,6 +317,99 @@ const SpeakingClub = () => {
 													</div>
 													<div className="form-wrapper">
 														<label htmlFor>Confirm Password</label>
+														<input type="password" className="form-control" />
+													</div>
+													<div className="checkbox">
+														<label>
+															<input type="checkbox" /> I caccept the Terms of Use &amp; Privacy
+															Policy.
+															<span className="checkmark" />
+														</label>
+													</div>
+													<button>Register Now</button>
+												</form>
+											</div> */}
+										</div>
+									</div>
+								</div>
+								<div className="tab-pane  animated fadeInUp" role="tabpanel" id="dangky">
+									<img
+										style={{ width: '1470px' }}
+										src="/assets/images/speaking-club01.png"
+										alt="Workshop T4_Banner LP 1300_600"
+										title="Workshop T4_Banner LP 1300_600"
+										data-reactid=".0.0.$/=10.2.0.0.$section2.$row0.$column0.$widget0.0.0.0"
+									/>
+
+									<div>
+										<p className="titlee title01">
+											<strong>TẤT CẢ ĐỀU HOÀN TOÀN MIỄN PHÍ, THAM GIA NGAY NHÉ!</strong>
+										</p>
+										<div
+											className="wrapper"
+											style={{ backgroundImage: 'url("images/bg-registration-form-2.jpg")' }}
+										>
+											<div className="inner">
+												<form action className="form01">
+													<h3>Registration Form</h3>
+													<div className="form-wrapper">
+														<label htmlFor>Họ và tên</label>
+														<input type="text" className="form-control" />
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Ngày sinh</label>
+														<input type="text" className="form-control" />
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Email</label>
+														<input type="text" className="form-control" />
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Số điện thoại</label>
+														<input type="password" className="form-control" />
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Bạn đang học trường nào?</label>
+														<input type="password" className="form-control" />
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Quốc gia mà bạn muốn đi du học?</label>
+														<input type="password" className="form-control" />
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Thể loại đăng ký</label>
+														<select className="form-control" id="exampleFormControlSelect1">
+															<option>Tư vấn du học</option>
+															<option>Speaking Club</option>
+															<option>Tư vấn định cư</option>
+															<option>Luyện thi IELTS</option>
+														</select>
+													</div>
+													<div className="form-wrapper">
+														<label htmlFor>Hình thức tư vấn</label>
+														<select className="form-control" id="exampleFormControlSelect1">
+															<option>Trực tiếp</option>
+															<option>Online</option>
+															<option>Khác</option>
+															{/* 	<option>5</option> */}
+														</select>
+													</div>
+
+													<div className="form-wrapper">
+														<label htmlFor>Văn phòng gần nhất</label>
+														<select className="form-control" id="exampleFormControlSelect1">
+															<option>219 Tân Quý, Q. Tân Phú - HCM</option>
+															<option>40 Đường số 7, Q. Tân Bình - HCM</option>
+															<option>147 Lê Lợi - Ngãi Giao - Bà Rịa Vũng Tàu</option>
+															<option>3 Trail Rider Dr Brampton, Ontario - Canada</option>
+															<option>
+																Level 14, 197 St Georges Terrace, Perth Wa 6000, Australia
+															</option>
+														</select>
+													</div>
+
+													<div className="form-wrapper">
+														<label htmlFor>Ngày bạn muốn tư vấn</label>
 														<input type="password" className="form-control" />
 													</div>
 													<div className="checkbox">
